@@ -5,7 +5,7 @@ description: Create tailored mechanical or DevOps/Cloud resumes for Rajendra or 
 
 # Resume Creator
 
-Use the repo's packaged resume workflow.
+Use the packaged plugin workflow.
 
 1. Identify the person:
    - `Rajendra`
@@ -18,7 +18,7 @@ Use the repo's packaged resume workflow.
    - `Tailored`
    - `Optimized`
    - `Aggressive`
-4. Locate the base resume JSON in `resume_data/people/`.
+4. Load the bundled base resume JSON from the plugin assets.
 5. Route to the appropriate resume variant for the selected domain.
 6. Tailor the resume against the JD.
 7. Regenerate HTML output.
@@ -37,6 +37,8 @@ Use the packaged scripts for deterministic execution:
 
 - `plugins/resume-creator-plugin/scripts/run_resume_request.py`
 - `plugins/resume-creator-plugin/scripts/export_html_to_pdf.py`
+- `plugins/resume-creator-plugin/scripts/install_plugin.ps1`
+- `plugins/resume-creator-plugin/scripts/package_plugin.py`
 
 Example:
 
@@ -54,15 +56,10 @@ Current level behavior in this packaged baseline:
 - `Tailored`, `Optimized`, and `Aggressive` all use the current repo tailoring engine
 - deeper differentiation between those three levels should be added in later revisions
 
-Follow the repository rules in `C:\Data\ai_resume\instructions.md`:
-
-- keep JSON as the source of truth
-- create a local commit when files change
-- ask before any push
-- use internet research when adding new points
-
 When packaging or maintaining this plugin:
 
 - keep the plugin manifest in `.codex-plugin/plugin.json`
 - keep the marketplace entry aligned with `.agents/plugins/marketplace.json`
-- keep person-specific bundled assets under the appropriate plugin folders when they are added later
+- keep person-specific bundled assets under `assets/people/`, `assets/static/`, and `assets/templates/`
+- use `install_plugin.ps1` to install into a user's home-local plugin directory
+- use `package_plugin.py` to create a zip that another user can copy and install without the full repo

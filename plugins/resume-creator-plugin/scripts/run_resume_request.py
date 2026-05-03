@@ -7,15 +7,12 @@ from pathlib import Path
 import re
 import sys
 
-from resume_agents.renderers.html_resume import HtmlResumeRenderer
-from resume_agents.storage.json_store import JsonResumeStore
-from resume_agents.tailor import tailor_profile
-
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
 from export_html_to_pdf import export_html_to_pdf
+from plugin_core import BundledHtmlResumeRenderer, BundledJsonResumeStore, tailor_profile
 
 
 @dataclass(slots=True)
@@ -25,7 +22,7 @@ class ResumeRequest:
     level: str
     jd: str
     output_dir: Path
-    repo_root: Path
+    plugin_root: Path
 
 
 def resolve_person_id(person: str, domain: str) -> str:
@@ -64,10 +61,9 @@ def slugify(text: str, *, fallback: str = "request") -> str:
 
 
 def render_request(request: ResumeRequest) -> dict[str, object]:
-    data_root = request.repo_root / "resume_data"
-    template_path = request.repo_root / "templates" / "base_resume.html"
-    store = JsonResumeStore(data_root)
-    renderer = HtmlResumeRenderer(template_path)
+    assets_root = request.plugin_root / "assets"
+    store = BundledJsonResumeStore(assets_root / "people", assets_root / "static")
+    renderer = BundledHtmlResumeRenderer(assets_root / "templates" / "base_resume.html")
 
     person_id = resolve_person_id(request.person, request.domain)
     level = normalize_level(request.level)
@@ -113,13 +109,13 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--jd-file", help="Path to a text file containing the job description")
     parser.add_argument(
         "--output-dir",
-        default=str(Path.cwd() / "plugins" / "resume-creator-plugin" / "output"),
+        default=str(Path.cwd() / "output"),
         help="Directory where HTML, PDF, and manifest files will be written",
     )
     parser.add_argument(
-        "--repo-root",
-        default=str(Path(__file__).resolve().parents[3]),
-        help="Repository root containing resume_data and templates",
+        "--plugin-root",
+        default=str(Path(__file__).resolve().parents[1]),
+        help="Plugin root containing bundled assets and metadata",
     )
     return parser
 
@@ -140,7 +136,7 @@ def main() -> None:
         level=args.level,
         jd=resolve_jd_text(args.jd_text, args.jd_file),
         output_dir=Path(args.output_dir),
-        repo_root=Path(args.repo_root),
+        plugin_root=Path(args.plugin_root),
     )
     manifest = render_request(request)
     print(json.dumps(manifest, indent=2))
