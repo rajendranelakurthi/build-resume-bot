@@ -33,6 +33,27 @@ Treat the expected plugin input contract as:
 
 Return the exported PDF path as the primary output artifact when PDF generation is requested.
 
+Use the packaged scripts for deterministic execution:
+
+- `plugins/resume-creator-plugin/scripts/run_resume_request.py`
+- `plugins/resume-creator-plugin/scripts/export_html_to_pdf.py`
+
+Example:
+
+```powershell
+python plugins/resume-creator-plugin/scripts/run_resume_request.py `
+  --person Rajendra `
+  --domain devops-cloud `
+  --level Aggressive `
+  --jd-file C:\temp\jd.txt
+```
+
+Current level behavior in this packaged baseline:
+
+- `Base` keeps the original resume content and renders HTML/PDF directly
+- `Tailored`, `Optimized`, and `Aggressive` all use the current repo tailoring engine
+- deeper differentiation between those three levels should be added in later revisions
+
 Follow the repository rules in `C:\Data\ai_resume\instructions.md`:
 
 - keep JSON as the source of truth
