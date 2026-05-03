@@ -4,6 +4,7 @@ import argparse
 from pathlib import Path
 import re
 
+from resume_agents.github_auth import get_github_auth_status, login_with_github_cli
 from resume_agents.service import ResumeAgentService
 
 
@@ -17,6 +18,11 @@ def build_parser() -> argparse.ArgumentParser:
 
     subparsers = parser.add_subparsers(dest="command", required=True)
     subparsers.add_parser("list-people", help="List known people")
+    subparsers.add_parser("github-auth-status", help="Show GitHub CLI authentication status")
+
+    github_login_parser = subparsers.add_parser("github-auth-login", help="Authenticate with GitHub CLI")
+    github_login_parser.add_argument("--hostname", default="github.com", help="GitHub hostname")
+    github_login_parser.add_argument("--no-web", action="store_true", help="Do not force browser-based login")
 
     request_parser = subparsers.add_parser("request", help="Run an agent request for one person")
     request_parser.add_argument("--person", required=True, help="Person identifier")
@@ -43,6 +49,24 @@ def main() -> None:
     if args.command == "list-people":
         for person_id in service.list_people():
             print(person_id)
+        return
+
+    if args.command == "github-auth-status":
+        status = get_github_auth_status()
+        print(f"authenticated: {status.authenticated}")
+        print(f"hostname: {status.hostname}")
+        print(f"username: {status.username or ''}")
+        if status.raw_output:
+            print("")
+            print(status.raw_output)
+        return
+
+    if args.command == "github-auth-login":
+        login_with_github_cli(web=not args.no_web, hostname=args.hostname)
+        status = get_github_auth_status()
+        print(f"authenticated: {status.authenticated}")
+        print(f"hostname: {status.hostname}")
+        print(f"username: {status.username or ''}")
         return
 
     if args.command == "render-html":

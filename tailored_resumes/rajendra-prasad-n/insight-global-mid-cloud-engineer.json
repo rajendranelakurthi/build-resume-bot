@@ -1,0 +1,268 @@
+{
+  "person_id": "rajendra-prasad-n-insight-global-mid-cloud-engineer",
+  "page_title": "Rajendra Prasad N - Cloud Engineer",
+  "full_name": "Rajendra Prasad N",
+  "headline": "AWS Cloud Engineer | DevOps, Infrastructure Automation, and Platform Migration",
+  "location": "Dallas, TX",
+  "email": "rajendranelakurthi@gmail.com",
+  "achievements_title": "Relevant Highlights",
+  "contact_lines_html": [
+    "rajendranelakurthi@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "<strong>AWS Cloud Engineer with 10+ years of experience delivering cloud infrastructure, automation, and migration work across AWS and hybrid environments</strong>. Strong background in <strong>Terraform, CloudFormation, VPC networking, IAM, Route 53, ALB/NLB, CloudWatch, EKS, and CI/CD automation</strong>, with hands-on experience supporting environment transitions across multi-account AWS estates, Kubernetes platforms, and enterprise application portfolios. Known for turning infrastructure requirements into practical AWS designs, documenting architecture and operational standards clearly, and partnering with engineering and application teams to keep migration efforts technically sound and operationally ready.",
+  "skills": [
+    "AWS",
+    "Terraform",
+    "CloudFormation",
+    "IAM",
+    "VPC",
+    "CloudWatch",
+    "EKS",
+    "CI/CD",
+    "DevSecOps",
+    "Python"
+  ],
+  "achievements": [
+    {
+      "tag": "AWS Platform Automation",
+      "text": "Built reusable Terraform and CloudFormation patterns to standardize AWS infrastructure provisioning across accounts, environments, and delivery stages."
+    },
+    {
+      "tag": "EKS & Container Platforms",
+      "text": "Designed and supported EKS-based platforms for containerized services, including cluster provisioning, Helm-based deployments, and environment-specific configuration management."
+    },
+    {
+      "tag": "CI/CD & DevSecOps",
+      "text": "Built and improved CI/CD pipelines with Jenkins, GitHub Actions, GitLab CI, and AWS-native automation, embedding validation, scanning, secrets handling, and controlled release gates."
+    },
+    {
+      "tag": "Cloud Operations & Observability",
+      "text": "Improved operational visibility and release support through CloudWatch, ELK, Prometheus, Grafana, and runbook-driven incident response practices."
+    },
+    {
+      "tag": "Migration & Environment Alignment",
+      "text": "Helped align source and target environments by resolving differences in networking, IAM, logging, deployment workflows, and system-agent behavior during migration work."
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "AWS Architecture & Migration",
+      "content": "AWS, EC2, EKS, VPC, subnets, Route 53, ALB, NLB, CloudFront, Direct Connect, VPN, hybrid migration planning, architecture comparison, target-state design"
+    },
+    {
+      "title": "IAM & Security",
+      "content": "IAM roles and policies, MFA, RBAC, least privilege, Secrets Manager, security groups, policy controls, DevSecOps integration, audit-ready access models"
+    },
+    {
+      "title": "Infrastructure as Code",
+      "content": "Terraform, CloudFormation, Ansible, AWS CLI, YAML pipelines, reusable modules, environment standardization, automated infrastructure delivery"
+    },
+    {
+      "title": "CI/CD & DevSecOps",
+      "content": "Jenkins, GitHub Actions, GitLab CI, AWS CodePipeline, CodeBuild, CodeDeploy, SonarQube, JFrog Xray, secrets scanning, artifact scanning, deployment automation"
+    },
+    {
+      "title": "Monitoring, Logging & Agents",
+      "content": "Amazon CloudWatch, CloudTrail, Prometheus, Grafana, Splunk, ELK, Fluentd, operational telemetry, logging configuration, deployment agents, system agents, observability baselines"
+    },
+    {
+      "title": "Containers & Kubernetes",
+      "content": "Docker, Kubernetes, EKS, Helm, ArgoCD, Amazon ECR, microservices deployment, cluster administration, migration of containerized workloads"
+    },
+    {
+      "title": "Scripting & Automation",
+      "content": "Python, Bash, PowerShell, shell scripting, API integrations, workflow automation, documentation generation, operational tooling"
+    },
+    {
+      "title": "Collaboration & Delivery",
+      "content": "Architecture documentation, stakeholder coordination, migration impact analysis, release planning, and cross-functional communication"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "skills_used": [
+        "AWS",
+        "Terraform",
+        "EKS",
+        "GitHub Actions",
+        "PowerShell",
+        "CloudWatch",
+        "IAM",
+        "PrivateLink"
+      ],
+      "impact": [
+        "Designed and maintained CI/CD pipelines for infrastructure and application delivery, improving automation, release traceability, and consistency across cloud and hybrid environments supporting 15+ services.",
+        "Supported AWS migration work by translating legacy dependencies into target-state networking, IAM, logging, and deployment requirements across 6 AWS accounts and 8 delivery environments.",
+        "Built reusable Terraform modules and infrastructure patterns to standardize AWS environment creation across multiple accounts and delivery stages.",
+        "Designed EKS platform components for containerized services, including cluster provisioning, workload deployment, and environment-specific configuration management across 3 clusters.",
+        "Implemented secure connectivity patterns with VPC endpoints and PrivateLink to protect application traffic during modernization and migration efforts.",
+        "Embedded DevSecOps controls into infrastructure delivery by enforcing Terraform validation, secure secrets handling, gated approvals, and pre-deployment policy checks across AWS environments.",
+        "Worked with engineering and application teams to reconcile access models, deployment tooling, runtime dependencies, and operational telemetry as workloads moved into AWS environments.",
+        "Automated operational workflows with Python, Bash, and PowerShell to reduce manual intervention during provisioning, deployments, and migration support tasks.",
+        "Documented architecture decisions, environment specifications, IAM role mappings, logging configurations, and operational runbooks to support implementation and migration readiness.",
+        "Coordinated release windows, change plans, migration-impact discussions, and production support activities across technical and business stakeholders.",
+        "Led technical working sessions with engineering and application teams to resolve implementation dependencies, sequence rollout activities, and align migration execution plans."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "skills_used": [
+        "AWS",
+        "GitLab CI",
+        "Terraform",
+        "Kubernetes",
+        "Docker",
+        "Jira"
+      ],
+      "impact": [
+        "Deployed and managed self-hosted build agents for Linux and Windows environments to support distributed CI/CD execution.",
+        "Configured runner pools, execution policies, and agent standards to improve build reliability and reduce pipeline administration overhead.",
+        "Managed artifact feeds, package views, and upstream repository configuration aligned to application team delivery needs.",
+        "Worked with Docker-based build and runtime workflows to standardize container packaging and promotion across environments.",
+        "Supported Kubernetes application deployments and core cluster operations, including pods, deployments, and services.",
+        "Strengthened DevSecOps practices in GitLab CI by standardizing secure runner usage, branch controls, container image validation, and pipeline checks before deployment promotion.",
+        "Migrated Jenkins pipelines to GitLab CI and improved delivery consistency with reusable pipeline configurations and controlled branch execution across multiple application teams.",
+        "Applied Terraform-based infrastructure practices to support repeatable environment setup and change management.",
+        "Partnered with development teams to troubleshoot pipeline failures, deployment blockers, and environment configuration issues.",
+        "Strengthened source control governance by coaching teams on GitLab branching, merge workflows, and release discipline.",
+        "Contributed to platform documentation and process guidance for CI/CD operations, deployment standards, system-agent setup, and engineering handoffs."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "skills_used": [
+        "AWS",
+        "Terraform",
+        "CloudFormation",
+        "EKS",
+        "GitHub Actions",
+        "Jenkins",
+        "CloudWatch",
+        "Route 53"
+      ],
+      "impact": [
+        "Provisioned AWS infrastructure with Terraform and CloudFormation for application onboarding, environment setup, and controlled migration work across 12+ services.",
+        "Designed and maintained CI/CD pipelines with Jenkins, GitHub Actions, and Git-based workflows for repeatable infrastructure and application deployment, including automated Terraform validation and release promotion.",
+        "Supported Kubernetes delivery on EKS using Docker, Helm, manifests, and GitOps-aligned deployment practices.",
+        "Documented infrastructure architecture, IAM role requirements, logging configurations, and deployment flows for engineering and operations teams.",
+        "Built dashboards and release visibility views to track CI/CD execution, work items, issues, and deployment health.",
+        "Integrated enterprise tooling such as Slack, Microsoft Teams, SonarQube, JFrog repositories, and source control into release workflows and migration support processes.",
+        "Resolved differences in networking, DNS, load balancing, IAM controls, and security baselines when aligning applications to AWS target environments.",
+        "Implemented CloudWatch-based alerting and monitoring to improve operational visibility and validated monitoring and deployment agents during post-deployment support.",
+        "Supported backup, disaster recovery, and environment resilience planning using AWS-native recovery and backup services across 4 delivery environments.",
+        "Published versioned build artifacts and packages to enterprise repositories to support traceable release promotion and downstream consumption."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "skills_used": [
+        "AWS",
+        "Terraform",
+        "Kubernetes",
+        "Jenkins",
+        "GitHub Actions",
+        "Python",
+        "Prometheus",
+        "Ansible"
+      ],
+      "impact": [
+        "Designed CI/CD pipelines for infrastructure and application deployment across AWS environments with emphasis on repeatability and secure promotion.",
+        "Created architecture and resource diagrams to support compliance reviews, change planning, and migration decision-making.",
+        "Implemented IAM-aligned access controls, MFA, and role-based policies to improve cloud security and operational consistency.",
+        "Standardized GitHub Actions and Jenkins delivery patterns to reduce pipeline drift and improve team-wide adoption of DevSecOps practices, including SAST, artifact scanning, and secrets handling.",
+        "Delivered Terraform and Kubernetes automation for application deployment, enabling consistent environment provisioning and workload rollout.",
+        "Automated onboarding of new projects to the enterprise DevOps platform through API-driven workflows, reusable automation patterns, and consistent agent-based deployment standards for 10+ application teams.",
+        "Developed Python FastAPI integrations for Jenkins, Jira, and JFrog to streamline platform operations and release coordination.",
+        "Administered CloudBees Jenkins, JFrog Artifactory, and Xray to support secure artifact management, vulnerability scanning, and software delivery governance.",
+        "Built Prometheus exporters and monitoring automation to improve visibility into application and infrastructure health.",
+        "Developed Ansible playbooks and highly available monitoring-stack deployments using Grafana, Prometheus, and Node Exporter."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "AWS",
+        "CloudFormation",
+        "Kubernetes",
+        "Helm",
+        "Jenkins",
+        "Ansible",
+        "PowerShell",
+        "ELK"
+      ],
+      "impact": [
+        "Presented CI/CD and infrastructure automation strategies to engineering stakeholders and supported roadmap discussions for platform improvements.",
+        "Built monitoring architecture with ELK to centralize logs and improve operational troubleshooting across application environments and migration cutovers.",
+        "Deployed Kubernetes workloads with Helm and standardized release packaging for multi-environment application delivery.",
+        "Managed cross-functional delivery as an acting scrum master by coordinating stories, sprint execution, and engineering follow-through.",
+        "Supported enterprise application migration and troubleshooting across AWS services, including compute, databases, monitoring, logging, and secure access patterns.",
+        "Built continuous delivery workflows for REST-based microservices across non-production and production environments.",
+        "Provisioned cloud resources with CloudFormation and PowerShell to support repeatable infrastructure deployment and controlled changes.",
+        "Helped plan and execute migration strategies for traditional workloads moving to AWS-based target environments.",
+        "Integrated identity and security controls to align on-premises access models with cloud-based role and authentication requirements.",
+        "Automated operational configuration enforcement for Linux and Windows instances and supported secure connectivity for application and database teams."
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "client": "HPE",
+      "skills_used": [
+        "AWS",
+        "Terraform",
+        "Ansible",
+        "GitLab",
+        "Python",
+        "Shell Scripting",
+        "Jenkins",
+        "Splunk"
+      ],
+      "impact": [
+        "Built deployment pipelines with Ansible to support structured promotion of releases from development through production across multiple shared environments.",
+        "Maintained Terraform-based infrastructure automation and executed environment changes through CI/CD pipelines.",
+        "Created YAML-driven build and release pipelines with automated triggers to support continuous integration workflows and repeatable infrastructure changes.",
+        "Performed AWS proof-of-concepts and translated technical requirements into implementable cloud solutions.",
+        "Developed AWS CLI automation to manage service configuration changes and repetitive administrative tasks.",
+        "Configured self-hosted build agents to support scalable pipeline execution and delivery throughput.",
+        "Implemented Git branching and release-management standards to improve code promotion and deployment control.",
+        "Documented build and deployment flows for infrastructure, APIs, databases, UI components, and agent configuration to support operational continuity and team handoff.",
+        "Created CI/CD pipelines for multiple application components across shared delivery platforms.",
+        "Promoted Terraform-driven infrastructure changes across environments using controlled pipeline execution and configuration separation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Tailored for Insight Global federal client Cloud Engineer JD.",
+    "Focus areas: AWS-native migration, Terraform, IAM, networking, monitoring, DevSecOps, documentation, workshops, and stakeholder communication."
+  ]
+}

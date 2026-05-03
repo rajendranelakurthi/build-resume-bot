@@ -3,7 +3,7 @@ from __future__ import annotations
 from html import escape
 from pathlib import Path
 
-from resume_agents.models import PersonProfile
+from resume_agents.models import PersonProfile, ResumeEntry, ResumeSection
 
 
 class HtmlResumeRenderer:
@@ -19,10 +19,10 @@ class HtmlResumeRenderer:
             "__CONTACT_LINES_HTML__": self._render_contact_lines(profile),
             "__SUMMARY_HTML__": profile.summary_html,
             "__TOP_CERTIFICATIONS_SECTION_HTML__": self._render_top_certifications_section(profile),
+            "__ACHIEVEMENTS_TITLE__": escape(profile.achievements_title or "Key Platform Achievements"),
             "__ACHIEVEMENTS_HTML__": self._render_achievements(profile),
             "__SKILLS_CARDS_HTML__": self._render_skill_sections(profile),
-            "__EXPERIENCE_HTML__": self._render_experience(profile),
-            "__EDUCATION_HTML__": self._render_education(profile),
+            "__BODY_SECTIONS_HTML__": self._render_body_sections(profile),
         }
         for token, value in payload.items():
             template = template.replace(token, value)
@@ -89,8 +89,6 @@ class HtmlResumeRenderer:
 
     def _render_job_details(self, project: str, client: str, skills_used: list[str]) -> str:
         lines: list[str] = []
-        if project:
-            lines.append(f"<div><strong>Project:</strong> {escape(project)}</div>")
         if client:
             lines.append(f"<div><strong>Client:</strong> {escape(client)}</div>")
         if skills_used:
@@ -107,14 +105,113 @@ class HtmlResumeRenderer:
         return "\n".join(
             "\n".join(
                 [
-                    "<div>",
-                    f"<strong>{escape(item.degree)}</strong><br>",
-                    escape(item.school),
+                    '<div class="education-card">',
+                    '<div class="education-row">',
+                    self._render_education_logo(item.logo_image, item.logo_alt, item.school),
+                    '<div class="education-copy">',
+                    f"<strong>{escape(item.degree)}</strong>",
+                    f"<div>{escape(item.school)}</div>",
+                    "</div>",
+                    "</div>",
                     "</div>",
                 ]
             )
             for item in profile.education
         )
+
+    def _render_education_logo(self, logo_image: str, logo_alt: str, school: str) -> str:
+        if not logo_image:
+            return ""
+        alt = escape(logo_alt or f"{school} logo")
+        src = escape(logo_image)
+        return f'<img class="education-logo" src="{src}" alt="{alt}">'
+
+    def _render_body_sections(self, profile: PersonProfile) -> str:
+        sections: list[str] = []
+        education_section = self._render_education_section(profile)
+        experience_section = self._render_experience_section(profile)
+        additional_sections = self._render_additional_sections(profile)
+
+        if profile.education_before_experience:
+            if education_section:
+                sections.append(education_section)
+            if experience_section:
+                sections.append(experience_section)
+            if additional_sections:
+                sections.append(additional_sections)
+        else:
+            if experience_section:
+                sections.append(experience_section)
+            if additional_sections:
+                sections.append(additional_sections)
+            if education_section:
+                sections.append(education_section)
+
+        return "\n".join(sections)
+
+    def _render_experience_section(self, profile: PersonProfile) -> str:
+        experience_html = self._render_experience(profile)
+        if not experience_html:
+            return ""
+        return "\n".join(
+            [
+                '<h2 class="section-title">Professional Experience</h2>',
+                experience_html,
+            ]
+        )
+
+    def _render_education_section(self, profile: PersonProfile) -> str:
+        education_html = self._render_education(profile)
+        if not education_html:
+            return ""
+        return "\n".join(
+            [
+                '<h2 class="section-title">Education</h2>',
+                '<div class="education-grid">',
+                education_html,
+                "</div>",
+            ]
+        )
+
+    def _render_additional_sections(self, profile: PersonProfile) -> str:
+        sections: list[str] = []
+        for section in profile.additional_sections:
+            sections.extend(
+                [
+                    f'<h2 class="section-title">{escape(section.title)}</h2>',
+                    self._render_additional_entries(section),
+                ]
+            )
+        return "\n".join(item for item in sections if item)
+
+    def _render_additional_entries(self, section: ResumeSection) -> str:
+        blocks: list[str] = []
+        for entry in section.entries:
+            bullets = "\n".join(f"<li>{escape(bullet)}</li>" for bullet in entry.bullets)
+            header_right = (
+                f'<span class="job-meta">{escape(entry.date_range)}</span>'
+                if entry.date_range
+                else ""
+            )
+            organization_html = (
+                f' | <span class="company-name">{escape(entry.organization)}</span>'
+                if entry.organization
+                else ""
+            )
+            blocks.extend(
+                [
+                    '<div class="job-block">',
+                    '<div class="job-header">',
+                    f'<div><span class="job-title">{escape(entry.title)}</span>{organization_html}</div>',
+                    header_right,
+                    "</div>",
+                    "<ul>",
+                    bullets,
+                    "</ul>",
+                    "</div>",
+                ]
+            )
+        return "\n".join(blocks)
 
     def _render_top_certifications_section(self, profile: PersonProfile) -> str:
         if not profile.certifications:

@@ -18,6 +18,22 @@ class Experience:
 class Education:
     school: str
     degree: str
+    logo_image: str = ""
+    logo_alt: str = ""
+
+
+@dataclass(slots=True)
+class ResumeEntry:
+    title: str
+    organization: str = ""
+    date_range: str = ""
+    bullets: list[str] = field(default_factory=list)
+
+
+@dataclass(slots=True)
+class ResumeSection:
+    title: str
+    entries: list[ResumeEntry] = field(default_factory=list)
 
 
 @dataclass(slots=True)
@@ -29,6 +45,7 @@ class PersonProfile:
     email: str
     page_title: str = ""
     summary_html: str = ""
+    achievements_title: str = "Key Platform Achievements"
     contact_lines_html: list[str] = field(default_factory=list)
     certification_badges_image: str = ""
     certification_badges_alt: str = ""
@@ -36,7 +53,9 @@ class PersonProfile:
     skill_sections: list[dict[str, str]] = field(default_factory=list)
     achievements: list[dict[str, str]] = field(default_factory=list)
     experience: list[Experience] = field(default_factory=list)
+    additional_sections: list[ResumeSection] = field(default_factory=list)
     education: list[Education] = field(default_factory=list)
+    education_before_experience: bool = False
     certifications: list[str] = field(default_factory=list)
     notes: list[str] = field(default_factory=list)
 

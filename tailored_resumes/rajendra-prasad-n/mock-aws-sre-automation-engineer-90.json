@@ -1,0 +1,249 @@
+{
+  "person_id": "rajendra-prasad-n-mock-aws-sre-automation-engineer-90",
+  "page_title": "Rajendra Prasad N - AWS SRE Automation Engineer",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Cloud Engineer | Python, NodeJS, Java, AWS, Kubernetes, SRE, and Platform Automation",
+  "location": "Dallas, TX",
+  "email": "rajendranelakurthi@gmail.com",
+  "achievements_title": "Relevant Highlights",
+  "contact_lines_html": [
+    "rajendranelakurthi@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "<strong>Software and Cloud Automation Engineer with 10+ years of experience building resilient platforms, automating SDLC workflows, and operating cloud-native systems across AWS and hybrid environments</strong>. Strong hands-on expertise with <strong>Python, NodeJS, Java, AWS, Kubernetes, Lambda, SQS, DynamoDB, S3, Terraform, CloudFormation, Jenkins Core, PowerShell, Bash, Linux, networking, and load balancing</strong>, with additional experience in Azure setup, maintenance, and administration. Strong foundation in SRE principles, infrastructure as code, CI/CD, platform reliability, incident response, and cross-functional delivery with clear written and verbal communication across distributed engineering teams.",
+  "skills": [
+    "Python",
+    "NodeJS",
+    "Java",
+    "AWS",
+    "Kubernetes",
+    "Lambda",
+    "Terraform",
+    "Jenkins Core",
+    "PowerShell",
+    "Azure"
+  ],
+  "achievements": [
+    {
+      "tag": "SDLC & Automation",
+      "text": "Built automation for build, test, deployment, release governance, and operational support using Python, NodeJS, Java integrations, Jenkins Core, PowerShell, and Bash."
+    },
+    {
+      "tag": "AWS Platform Engineering",
+      "text": "Designed and operated resilient AWS environments using EC2, S3, Lambda, SQS, DynamoDB, RDS, VPC, load balancers, and infrastructure as code."
+    },
+    {
+      "tag": "Containers & Serverless",
+      "text": "Delivered Kubernetes-based services and serverless workloads with Lambda-driven automation, queue-based integration patterns, and container deployment pipelines."
+    },
+    {
+      "tag": "SRE & Reliability",
+      "text": "Applied SRE principles to improve observability, scalability, incident response, recovery, and service reliability across production cloud platforms."
+    },
+    {
+      "tag": "Cloud Administration",
+      "text": "Supported AWS migration and Azure setup, maintenance, and administration while standardizing environment baselines, access controls, and operational tooling."
+    },
+    {
+      "tag": "Team Collaboration",
+      "text": "Worked effectively with distributed development, QA, operations, and platform teams, providing technical documentation, status updates, and issue resolution across systems, network, and application layers."
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "Programming & Automation",
+      "content": "Python, NodeJS, Java, PowerShell, Bash, Unix shell scripting, API integrations, automation tooling, SDLC workflow automation"
+    },
+    {
+      "title": "AWS Cloud & Migration",
+      "content": "AWS, EC2, S3, Lambda, SQS, DynamoDB, RDS, VPC, IAM, Route 53, ALB, NLB, CloudWatch, migration planning, resilient AWS platform operations"
+    },
+    {
+      "title": "Azure Administration",
+      "content": "Azure setup, maintenance, administration, Azure DevOps, identity integration, VM and network configuration, operational support"
+    },
+    {
+      "title": "Containers & Kubernetes",
+      "content": "Kubernetes, EKS, Docker, Helm, container orchestration, deployment automation, resilient container platforms"
+    },
+    {
+      "title": "Serverless & Eventing",
+      "content": "AWS Lambda, SQS, DynamoDB, S3 event flows, queue-based processing, asynchronous automation, serverless integration patterns"
+    },
+    {
+      "title": "Infrastructure as Code",
+      "content": "Terraform, AWS CloudFormation, reusable modules, environment provisioning, policy-driven changes, automated infrastructure delivery"
+    },
+    {
+      "title": "CI/CD & Release Engineering",
+      "content": "Jenkins Core, GitHub Actions, GitLab CI, AWS CodePipeline, build pipelines, deployment automation, gated releases, artifact promotion"
+    },
+    {
+      "title": "SRE, Systems & Networking",
+      "content": "SRE principles, Linux administration, networking, load balancing, DNS, incident response, observability, reliability engineering, distributed team support"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Cloud Automation Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "skills_used": [
+        "Python",
+        "NodeJS",
+        "Java",
+        "AWS",
+        "Kubernetes",
+        "Lambda",
+        "Terraform",
+        "Jenkins Core"
+      ],
+      "impact": [
+        "Designed and maintained resilient AWS platform services using EC2, S3, Lambda, SQS, DynamoDB, RDS, VPC, and load balancing patterns across multiple production environments.",
+        "Built SDLC automation using Python, NodeJS services, and Java-based build integrations to streamline build, test, deployment, and release workflows across distributed engineering teams.",
+        "Implemented Jenkins Core pipelines for infrastructure and application delivery, including build orchestration, artifact versioning, approval gates, environment promotion, and rollback handling.",
+        "Provisioned Kubernetes and EKS environments with Terraform and CloudFormation, standardizing cluster setup, networking, secrets handling, and workload deployment automation.",
+        "Developed Lambda- and SQS-based automation flows for asynchronous operational tasks, deployment notifications, retry handling, and event-driven service integrations in production support workflows.",
+        "Used DynamoDB and S3-backed patterns for automation state, job metadata, configuration storage, and lightweight platform service workflows supporting production operations.",
+        "Applied SRE practices by defining runbooks, service-level operational checks, alerting, failure recovery paths, and incident-response procedures for production services.",
+        "Strengthened reliability with CloudWatch monitoring, queue-depth tracking, autoscaling guardrails, log aggregation, and proactive operational dashboards.",
+        "Supported AWS migration initiatives by translating application dependencies, network requirements, and operating controls into resilient target-state AWS designs.",
+        "Collaborated with developers, platform teams, QA, and operations stakeholders to resolve system, network, and application issues spanning code, infrastructure, and runtime services.",
+        "Produced clear architecture documentation, support playbooks, operational summaries, and implementation notes to improve communication, onboarding, and distributed-team execution."
+      ]
+    },
+    {
+      "title": "Senior Cloud Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "skills_used": [
+        "AWS",
+        "Terraform",
+        "Kubernetes",
+        "Jenkins Core",
+        "PowerShell",
+        "Bash",
+        "Linux"
+      ],
+      "impact": [
+        "Deployed and managed Kubernetes-based application platforms, supporting resilient containerized workloads and controlled production rollouts.",
+        "Built Jenkins Core automation for Linux and Windows build agents, improving pipeline throughput, execution stability, and delivery consistency for Python, NodeJS, and Java application workflows.",
+        "Automated operational tasks with PowerShell and Bash to reduce manual support effort across provisioning, deployments, and incident response.",
+        "Applied Terraform-based infrastructure practices to support repeatable environment setup, networking, and change management in AWS.",
+        "Supported Linux administration, container runtime troubleshooting, and load balancer integration for distributed services.",
+        "Partnered with development and QA teams to diagnose release failures, environment issues, and cross-service runtime problems."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "skills_used": [
+        "AWS",
+        "Azure",
+        "Jenkins Core",
+        "GitHub Actions",
+        "Terraform",
+        "CloudFormation",
+        "Python"
+      ],
+      "impact": [
+        "Provisioned AWS infrastructure with Terraform and CloudFormation for application and platform onboarding, including networking, compute, storage, and monitoring dependencies.",
+        "Supported Azure setup, maintenance, and administration for engineering environments, including identity integration, pipeline connectivity, and operational configuration management.",
+        "Built and maintained CI/CD pipelines with Jenkins Core and GitHub Actions for repeatable infrastructure and application deployments.",
+        "Developed Python automation scripts for operational support, environment validation, release tasks, and engineering workflow simplification, alongside NodeJS- and Java-oriented build and deployment integrations.",
+        "Implemented CloudWatch dashboards, alerting, and logging patterns to improve observability and production support readiness.",
+        "Troubleshot complex issues across systems, network, pipelines, and applications in collaboration with distributed engineering teams.",
+        "Improved resilience through backup, recovery, environment hardening, and operational standardization practices."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "skills_used": [
+        "AWS",
+        "Python",
+        "Jenkins",
+        "GitHub Actions",
+        "Terraform",
+        "Kubernetes",
+        "Prometheus",
+        "Linux"
+      ],
+      "impact": [
+        "Applied SRE principles to improve service scalability, reliability, monitoring, and recovery across shared AWS-hosted platforms.",
+        "Designed CI/CD pipelines for infrastructure and application delivery with emphasis on automated validation, release consistency, and platform reliability.",
+        "Built Python-based internal automation and APIs to integrate Jenkins, Jira, artifact repositories, and operational tooling.",
+        "Delivered Terraform and Kubernetes automation for repeatable infrastructure provisioning and resilient workload deployment.",
+        "Implemented Prometheus, Grafana, and exporter-based monitoring to improve production visibility and reduce mean time to detect failures.",
+        "Supported Linux-based operational environments, debugging runtime, networking, and application behavior issues across production services.",
+        "Worked closely with cross-functional engineering teams to improve release readiness, platform stability, and on-call effectiveness."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "AWS",
+        "CloudFormation",
+        "PowerShell",
+        "Jenkins",
+        "Kubernetes",
+        "RDS",
+        "Load Balancing"
+      ],
+      "impact": [
+        "Supported AWS-hosted enterprise applications by troubleshooting CloudWatch, RDS, load balancing, autoscaling, certificate management, and identity integrations.",
+        "Provisioned cloud resources with CloudFormation and PowerShell to support repeatable infrastructure changes and operational control.",
+        "Built delivery pipelines and container deployment workflows across non-production and production environments.",
+        "Assisted migration and modernization efforts for workloads moving into AWS target environments.",
+        "Worked with geographically distributed stakeholders to coordinate engineering priorities, release planning, and support follow-through."
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "client": "HPE",
+      "skills_used": [
+        "AWS",
+        "Python",
+        "Bash",
+        "Jenkins Core",
+        "Terraform",
+        "Ansible",
+        "Linux"
+      ],
+      "impact": [
+        "Built deployment pipelines and AWS automation to support structured software delivery across development, test, and production environments.",
+        "Maintained Terraform-based infrastructure modules and executed controlled environment changes through CI/CD pipelines.",
+        "Developed Python and Bash scripts to automate repetitive admin tasks, deployment support, and environment diagnostics.",
+        "Configured Linux-based build agents and operational tooling to improve pipeline execution and team productivity.",
+        "Documented build, deployment, and support procedures to improve team communication and operational handoff quality."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Synthetic mock resume for ATS testing only.",
+    "Content intentionally optimized for software development automation, AWS platform engineering, Azure administration, Kubernetes, serverless, SRE, and Jenkins Core JD alignment."
+  ]
+}

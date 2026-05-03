@@ -105,5 +105,10 @@ def _profile_contains(profile: PersonProfile, keyword: str) -> bool:
         " ".join(item.get("content", "") for item in profile.skill_sections),
         " ".join(item.get("text", "") for item in profile.achievements),
         " ".join(_impact_text(point) for job in profile.experience for point in job.impact),
+        " ".join(
+            " ".join([section.title, entry.title, entry.organization, " ".join(entry.bullets)])
+            for section in profile.additional_sections
+            for entry in section.entries
+        ),
     ]
     return any(keyword in haystack.lower() for haystack in haystacks)
