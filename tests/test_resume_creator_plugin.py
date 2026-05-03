@@ -64,3 +64,11 @@ def test_default_output_zip_includes_version() -> None:
     output = module.default_output_zip(plugin_root)
 
     assert output.name == "resume-creator-plugin-0.1.0.zip"
+
+
+def test_export_html_to_pdf_has_mac_browser_candidates() -> None:
+    module = _load_module("export_html_to_pdf", "export_html_to_pdf.py")
+    candidates = {str(path).replace("\\", "/") for path in module.BROWSER_CANDIDATES}
+
+    assert "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" in candidates
+    assert "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge" in candidates

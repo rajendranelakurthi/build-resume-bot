@@ -38,8 +38,10 @@ Use the packaged scripts for deterministic execution:
 - `plugins/resume-creator-plugin/scripts/run_resume_request.py`
 - `plugins/resume-creator-plugin/scripts/export_html_to_pdf.py`
 - `plugins/resume-creator-plugin/scripts/install_plugin.ps1`
+- `plugins/resume-creator-plugin/scripts/install_plugin.sh`
 - `plugins/resume-creator-plugin/scripts/package_plugin.py`
 - `plugins/resume-creator-plugin/scripts/update_plugin.ps1`
+- `plugins/resume-creator-plugin/scripts/update_plugin.sh`
 
 Example:
 
@@ -63,5 +65,7 @@ When packaging or maintaining this plugin:
 - keep the marketplace entry aligned with `.agents/plugins/marketplace.json`
 - keep person-specific bundled assets under `assets/people/`, `assets/static/`, and `assets/templates/`
 - use `install_plugin.ps1` to install into a user's home-local plugin directory
+- use `install_plugin.sh` for macOS or Linux home-local installation
 - use `package_plugin.py` to create a versioned zip that another user can copy and install without the full repo
 - use `update_plugin.ps1` when a user receives a new extracted plugin bundle and wants to overwrite the installed copy cleanly
+- use `update_plugin.sh` for the same overwrite flow on macOS or Linux
