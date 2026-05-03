@@ -26,6 +26,7 @@ Current branch roles:
   - should contain plugin manifests, packaged skills/apps, marketplace metadata, and any helper assets/scripts needed for plugin distribution
   - should not be used for general resume tailoring or generic skill-authoring changes unless those changes are required by the plugin package itself
   - current target plugin package name: `resume-creator-plugin`
+  - plugin requests should support a domain input such as `mech` or `devops-cloud`
   - current target plugin display name: `Résumé Creator Plugin`
 
 - `codex/mech-vikram`
