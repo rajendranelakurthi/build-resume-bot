@@ -16,7 +16,7 @@ Current branch roles:
   - shared renderer, models, storage, CLI, tests, templates
   - stable resume data and generated outputs
 
-- `skill`
+- `resume-creator-skill`
   - branch for Codex skill packaging work only
   - should contain the skill package directory, skill-specific instructions, and any helper assets/scripts used to distribute or install skills
   - should not be used for general resume tailoring changes unless those changes are required by the skill package itself
@@ -143,7 +143,7 @@ If the user does not name a level:
 - keep branch-specific policy documented in `instructions.md` on that branch
 - maintain `main` as the shared source of truth
 - update the corresponding branches from `main` when shared rules or shared code change
-- keep skill packaging files and experiments on the `skill` branch unless they are intentionally promoted into `main`
+- keep skill packaging files and experiments on the `resume-creator-skill` branch unless they are intentionally promoted into `main`
 
 ## Research Rules For New Points
 
