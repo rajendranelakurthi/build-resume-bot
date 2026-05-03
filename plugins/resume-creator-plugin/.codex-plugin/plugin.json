@@ -1,0 +1,35 @@
+{
+  "name": "resume-creator-plugin",
+  "version": "0.1.0",
+  "description": "Create tailored resumes for Rajendra and Vikram from job descriptions and render HTML or PDF outputs.",
+  "author": {
+    "name": "Vikram Bathala",
+    "url": "https://github.com/Viky368"
+  },
+  "homepage": "https://github.com/Viky368/ai_resume",
+  "repository": "https://github.com/Viky368/ai_resume",
+  "keywords": [
+    "resume",
+    "ats",
+    "job-description",
+    "pdf"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Résumé Creator Plugin",
+    "shortDescription": "Tailor Rajendra or Vikram resumes for a JD and export recruiter-ready output.",
+    "longDescription": "Use the packaged resume workflow to choose Rajendra or Vikram, apply a tailoring level, generate updated HTML output, and prepare the result for PDF export.",
+    "developerName": "Vikram Bathala",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Viky368/ai_resume",
+    "defaultPrompt": [
+      "Create an Aggressive resume for Rajendra using this JD.",
+      "Create a Tailored resume for Vikram for this role.",
+      "Generate HTML and PDF output for this resume request."
+    ],
+    "brandColor": "#174A8B"
+  }
+}

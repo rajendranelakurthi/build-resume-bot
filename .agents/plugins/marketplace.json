@@ -1,0 +1,20 @@
+{
+  "name": "ai-resume-local",
+  "interface": {
+    "displayName": "AI Resume Local Plugins"
+  },
+  "plugins": [
+    {
+      "name": "resume-creator-plugin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/resume-creator-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
