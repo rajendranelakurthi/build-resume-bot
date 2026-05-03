@@ -7,6 +7,17 @@ $pluginSource = (Resolve-Path $PluginRoot).Path
 $pluginName = Split-Path $pluginSource -Leaf
 $targetPluginRoot = Join-Path $HomeDir "plugins\$pluginName"
 $marketplacePath = Join-Path $HomeDir ".agents\plugins\marketplace.json"
+$sourceManifestPath = Join-Path $pluginSource ".codex-plugin\plugin.json"
+$installedManifestPath = Join-Path $targetPluginRoot ".codex-plugin\plugin.json"
+
+$sourceManifest = Get-Content -Raw -Path $sourceManifestPath | ConvertFrom-Json
+$sourceVersion = $sourceManifest.version
+$previousVersion = $null
+
+if (Test-Path $installedManifestPath) {
+    $installedManifest = Get-Content -Raw -Path $installedManifestPath | ConvertFrom-Json
+    $previousVersion = $installedManifest.version
+}
 
 New-Item -ItemType Directory -Force (Split-Path $targetPluginRoot -Parent) | Out-Null
 New-Item -ItemType Directory -Force (Split-Path $marketplacePath -Parent) | Out-Null
@@ -42,6 +53,11 @@ if (-not @($marketplace.plugins | Where-Object { $_.name -eq $pluginName })) {
 }
 
 $marketplace | ConvertTo-Json -Depth 8 | Set-Content -Path $marketplacePath -Encoding UTF8
+if ($previousVersion) {
+    Write-Output "Updated $pluginName from version $previousVersion to $sourceVersion"
+} else {
+    Write-Output "Installed $pluginName version $sourceVersion"
+}
 Write-Output "Installed plugin to $targetPluginRoot"
 Write-Output "Updated marketplace $marketplacePath"
 Write-Output "Restart Codex to pick up the plugin."

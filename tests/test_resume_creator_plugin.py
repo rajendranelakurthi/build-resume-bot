@@ -55,3 +55,12 @@ def test_package_plugin_creates_zip(tmp_path: Path) -> None:
         names = archive.namelist()
     assert any(name.endswith(".codex-plugin/plugin.json") for name in names)
     assert any(name.endswith("scripts/run_resume_request.py") for name in names)
+
+
+def test_default_output_zip_includes_version() -> None:
+    module = _load_module("package_plugin_default", "package_plugin.py")
+    plugin_root = Path(__file__).resolve().parents[1] / "plugins" / "resume-creator-plugin"
+
+    output = module.default_output_zip(plugin_root)
+
+    assert output.name == "resume-creator-plugin-0.1.0.zip"

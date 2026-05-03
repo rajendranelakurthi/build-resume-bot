@@ -1,8 +1,15 @@
 from __future__ import annotations
 
 import argparse
+import json
 from pathlib import Path
 import zipfile
+
+
+def load_plugin_version(plugin_root: Path) -> str:
+    manifest_path = plugin_root / ".codex-plugin" / "plugin.json"
+    payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+    return payload["version"]
 
 
 def package_plugin(plugin_root: Path, output_zip: Path) -> Path:
@@ -17,16 +24,24 @@ def package_plugin(plugin_root: Path, output_zip: Path) -> Path:
     return output_zip
 
 
+def default_output_zip(plugin_root: Path) -> Path:
+    plugin_root = plugin_root.resolve()
+    version = load_plugin_version(plugin_root)
+    return plugin_root.parent / "dist" / f"{plugin_root.name}-{version}.zip"
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Create a distributable zip for the resume creator plugin.")
     parser.add_argument("--plugin-root", default=str(Path(__file__).resolve().parents[1]), help="Plugin root directory to package")
-    parser.add_argument("--output", default=str(Path(__file__).resolve().parents[1].parent / "dist" / "resume-creator-plugin.zip"), help="Output zip file path")
+    parser.add_argument("--output", help="Output zip file path")
     return parser
 
 
 def main() -> None:
     args = build_parser().parse_args()
-    print(package_plugin(Path(args.plugin_root), Path(args.output)))
+    plugin_root = Path(args.plugin_root)
+    output = Path(args.output) if args.output else default_output_zip(plugin_root)
+    print(package_plugin(plugin_root, output))
 
 
 if __name__ == "__main__":
