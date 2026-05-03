@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">KL University logo</title>
+  <desc id="desc">KL University emblem with black gear border and maroon academic seal.</desc>
+  <rect width="320" height="320" fill="#ffffff"/>
+  <g transform="translate(160 160)">
+    <g fill="#1f1f1f">
+      <path d="M0-138 14-124 36-128 42-106 64-100 62-78 84-68 72-48 90-32 72-14 84 8 62 18 64 40 42 46 36 68 14 64 0 82-14 64-36 68-42 46-64 40-62 18-84 8-72-14-90-32-72-48-84-68-62-78-64-100-42-106-36-128-14-124Z"/>
+    </g>
+    <circle r="102" fill="#ffffff" stroke="#1f1f1f" stroke-width="6"/>
+    <circle r="82" fill="#ffffff" stroke="#8C1D40" stroke-width="6"/>
+    <path d="M0-77A77 77 0 0 1 76 0A77 77 0 0 1 0 77A77 77 0 0 1 -76 0A77 77 0 0 1 0 -77Z" fill="none"/>
+    <defs>
+      <path id="topArc" d="M -66 0 A 66 66 0 0 1 66 0" />
+      <path id="bottomArc" d="M 66 0 A 66 66 0 0 1 -66 0" />
+    </defs>
+    <text font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#8C1D40" letter-spacing=".6">
+      <textPath href="#topArc" startOffset="50%" text-anchor="middle">KONERU LAKSHMAIAH EDUCATION FOUNDATION</textPath>
+    </text>
+    <text font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="700" fill="#8C1D40" letter-spacing=".5">
+      <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">FOUNDER'S LEADERSHIP UNIVERSITY</textPath>
+    </text>
+    <g transform="translate(0 10)" fill="none" stroke="#1f1f1f" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M-50 42H50" stroke-width="3"/>
+      <path d="M-58 50H58" stroke-width="2.4"/>
+      <path d="M-26 42V6" stroke-width="3"/>
+      <path d="M-2 42V-16" stroke-width="3"/>
+      <path d="M20 42V10" stroke-width="3"/>
+      <path d="M40 42V22" stroke-width="3"/>
+      <path d="M-40 6H48" stroke-width="2.4"/>
+      <path d="M-70 38 -52 -18 -34 38" stroke-width="3"/>
+      <path d="M-61 8H-43" stroke-width="2.2"/>
+      <circle cx="-6" cy="-34" r="9" stroke-width="2.4"/>
+      <path d="M-20 -34H8M-6 -48V-20" stroke-width="2.2"/>
+      <path d="M-18 50Q0 40 18 50" stroke-width="2"/>
+      <path d="M-8 -5 12 -18 32 -5" stroke-width="2.6"/>
+    </g>
+    <g fill="#ffffff" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="16">
+      <text x="0" y="-110" text-anchor="middle">K</text>
+      <text x="51" y="-97" text-anchor="middle" transform="rotate(45 51 -97)">L</text>
+      <text x="95" y="-54" text-anchor="middle" transform="rotate(90 95 -54)">U</text>
+      <text x="110" y="0" text-anchor="middle" transform="rotate(135 110 0)">K</text>
+      <text x="95" y="54" text-anchor="middle" transform="rotate(180 95 54)">L</text>
+      <text x="51" y="97" text-anchor="middle" transform="rotate(-135 51 97)">U</text>
+      <text x="0" y="112" text-anchor="middle" transform="rotate(180 0 112)">K</text>
+      <text x="-51" y="97" text-anchor="middle" transform="rotate(-45 -51 97)">L</text>
+      <text x="-95" y="54" text-anchor="middle" transform="rotate(-90 -95 54)">U</text>
+      <text x="-110" y="0" text-anchor="middle" transform="rotate(-135 -110 0)">K</text>
+      <text x="-95" y="-54" text-anchor="middle" transform="rotate(180 -95 -54)">L</text>
+      <text x="-51" y="-97" text-anchor="middle" transform="rotate(45 -51 -97)">U</text>
+    </g>
+  </g>
+</svg>

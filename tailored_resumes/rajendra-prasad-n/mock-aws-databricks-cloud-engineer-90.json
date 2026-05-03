@@ -1,0 +1,243 @@
+{
+  "person_id": "rajendra-prasad-n-mock-aws-databricks-cloud-engineer-90",
+  "page_title": "Rajendra Prasad N - AWS Databricks Cloud Engineer",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Cloud Engineer | AWS, Databricks, Apache Spark, ETL/ELT, and Data Platforms",
+  "location": "Dallas, TX",
+  "email": "rajendranelakurthi@gmail.com",
+  "achievements_title": "Relevant Highlights",
+  "contact_lines_html": [
+    "rajendranelakurthi@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "<strong>Cloud Engineer with 10+ years of experience designing and operating scalable AWS-based data platforms for analytics, ETL/ELT, and cloud data engineering workflows</strong>. Strong hands-on expertise with <strong>AWS EC2, S3, Lambda, RDS, Glue, Redshift, VPC, Databricks, Apache Spark, Python, SQL, Terraform, CloudFormation, Jenkins, and GitHub Actions</strong>. Experienced in building Databricks data pipelines, incremental ingestion frameworks, Spark-based transformations, Redshift-centric warehousing flows, infrastructure as code, CI/CD automation, observability, governance, and cost-aware production operations across multi-account AWS environments.",
+  "skills": [
+    "AWS",
+    "Databricks",
+    "Apache Spark",
+    "Python",
+    "SQL",
+    "ETL/ELT",
+    "Glue",
+    "Redshift",
+    "Terraform",
+    "GitHub Actions"
+  ],
+  "achievements": [
+    {
+      "tag": "AWS Data Platform Architecture",
+      "text": "Designed AWS data platform foundations using EC2, S3, Lambda, RDS, VPC, Glue, Redshift, and private networking controls for scalable analytics and governed data processing."
+    },
+    {
+      "tag": "Databricks & Spark Pipelines",
+      "text": "Built Databricks pipelines with Apache Spark, Auto Loader, Delta-based processing, and scheduled jobs for batch and incremental ingestion, transformation, and serving workflows."
+    },
+    {
+      "tag": "ETL/ELT & Data Warehousing",
+      "text": "Implemented ETL/ELT patterns for ingesting data from cloud storage and operational databases into Redshift and Databricks environments to support reporting, analytics, and downstream consumers."
+    },
+    {
+      "tag": "CI/CD & IaC",
+      "text": "Automated platform deployment with Terraform, CloudFormation, Jenkins, and GitHub Actions for Databricks workspaces, jobs, clusters, AWS resources, and data pipeline assets."
+    },
+    {
+      "tag": "Reliability, Security & Cost",
+      "text": "Improved performance, reliability, security, and cost efficiency through monitoring, autoscaling, job-cluster tuning, private endpoints, Secrets Manager integration, and environment governance."
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "AWS Core Services",
+      "content": "EC2, S3, Lambda, RDS, Glue, Redshift, VPC, IAM, Route 53, CloudWatch, Secrets Manager, VPC endpoints, PrivateLink, multi-account AWS"
+    },
+    {
+      "title": "Databricks & Spark",
+      "content": "Databricks on AWS, Apache Spark, Spark SQL, Delta Lake, Auto Loader, Structured Streaming, Databricks Jobs, notebooks, job clusters, SQL warehouses"
+    },
+    {
+      "title": "ETL/ELT & Data Engineering",
+      "content": "Batch ETL, ELT, CDC ingestion, incremental file ingestion, schema evolution, checkpointing, data quality checks, ingestion pipelines, transformation frameworks"
+    },
+    {
+      "title": "Data Warehousing & Analytics",
+      "content": "Amazon Redshift, Redshift Serverless, dimensional modeling, star schema concepts, SQL transformations, stored procedures, reporting-ready curated datasets"
+    },
+    {
+      "title": "Infrastructure as Code",
+      "content": "Terraform, CloudFormation, Databricks Terraform provider, reusable modules, environment baselines, policy-driven infrastructure delivery"
+    },
+    {
+      "title": "CI/CD & Orchestration",
+      "content": "Jenkins, GitHub Actions, AWS CodePipeline, Databricks Jobs, MWAA/Airflow patterns, release automation, deployment governance"
+    },
+    {
+      "title": "Programming",
+      "content": "Python, SQL, PowerShell, Bash, PySpark, API integrations, automation tooling, operational scripts"
+    },
+    {
+      "title": "Security, Reliability & Monitoring",
+      "content": "CloudWatch, CloudTrail, audit logging, Secrets Manager, IAM roles and policies, cost optimization, performance tuning, incident response, compliance controls"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Cloud Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "skills_used": [
+        "AWS",
+        "Databricks",
+        "Apache Spark",
+        "Python",
+        "SQL",
+        "Terraform",
+        "GitHub Actions",
+        "Redshift"
+      ],
+      "impact": [
+        "Designed and maintained AWS infrastructure for cloud-based data platforms using EC2, S3, Lambda, RDS, VPC, IAM, Terraform, and CloudFormation across multiple production environments.",
+        "Built Databricks-based ETL and ELT workflows using Apache Spark, Python, and SQL to ingest, transform, and publish analytics-ready datasets for downstream reporting and business use cases.",
+        "Implemented incremental ingestion patterns from Amazon S3 into Delta tables using Databricks Auto Loader, checkpointing, and schema-evolution controls to support high-volume batch and near-real-time processing.",
+        "Engineered Spark SQL and PySpark transformations for curated bronze, silver, and gold data layers, improving data quality, query performance, and downstream usability for analysts and data engineers.",
+        "Integrated Databricks pipelines with Amazon Redshift and Redshift Serverless to support warehousing, SQL-based analytics, and governed consumption of curated datasets.",
+        "Used AWS Glue for metadata handling, ETL orchestration support, and integration with S3 and Redshift-oriented data flows in multi-account environments.",
+        "Automated deployment of Databricks workspaces, clusters, jobs, notebooks, secrets, and AWS dependencies using Terraform modules, GitHub Actions, and gated CI/CD workflows.",
+        "Implemented private networking patterns with VPC endpoints, PrivateLink, security groups, and Secrets Manager to secure Databricks and AWS data services in regulated environments.",
+        "Monitored cloud and data platform health with CloudWatch dashboards, audit logs, job alerts, and operational telemetry to improve reliability, incident response, and SLA adherence.",
+        "Optimized platform cost and performance by standardizing autoscaling cluster policies, job-cluster usage, workload scheduling, storage lifecycle controls, and environment right-sizing.",
+        "Partnered with data engineers, analysts, and business teams to define ingestion requirements, tune delivery schedules, troubleshoot pipeline failures, and support production analytics workloads."
+      ]
+    },
+    {
+      "title": "Senior Data Platform Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "skills_used": [
+        "Databricks",
+        "Spark",
+        "AWS Glue",
+        "S3",
+        "Redshift",
+        "Jenkins",
+        "Terraform"
+      ],
+      "impact": [
+        "Built and supported ETL pipelines that landed raw files in Amazon S3, transformed them with Spark-based processing, and loaded curated outputs into Redshift for analytics consumption.",
+        "Implemented Databricks job orchestration for notebook and multi-task workflows, enabling repeatable production scheduling, dependency handling, and failure recovery.",
+        "Developed Python and SQL transformations for ingestion, cleansing, enrichment, and aggregation of semi-structured and relational data sets.",
+        "Used AWS Glue jobs and catalog integration to support metadata management, schema discovery, and downstream Redshift loading workflows.",
+        "Provisioned data platform infrastructure with Terraform and standardized environment setup for development, QA, and production accounts.",
+        "Improved reliability by adding pipeline validation, data quality checks, alerting, and restart procedures for failed workloads.",
+        "Worked with data engineering and analytics teams to support new source onboarding, SQL data models, and warehouse delivery timelines.",
+        "Contributed to performance tuning for Spark jobs and Redshift loads by improving partitioning, file layout, SQL execution patterns, and job parallelism."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "skills_used": [
+        "AWS",
+        "Databricks",
+        "CloudFormation",
+        "Jenkins",
+        "GitHub Actions",
+        "Lambda",
+        "CloudWatch"
+      ],
+      "impact": [
+        "Provisioned AWS infrastructure with Terraform and CloudFormation for analytics and application platforms, including EC2, S3, Lambda, RDS, VPC, and monitoring dependencies.",
+        "Built CI/CD pipelines with Jenkins and GitHub Actions to deploy infrastructure changes, Databricks assets, SQL scripts, and operational automation safely across environments.",
+        "Implemented event-driven automation with AWS Lambda for pipeline notifications, operational triggers, and job-status integrations with collaboration tools.",
+        "Configured CloudWatch metrics, alarms, and dashboards for data platform services to improve workload visibility, failure detection, and on-call response.",
+        "Supported Redshift-centric reporting environments by managing infrastructure, access controls, scheduled jobs, and data delivery dependencies.",
+        "Collaborated with platform, analytics, and business-facing teams to troubleshoot cloud and data platform issues and restore service during production incidents.",
+        "Improved governance by standardizing IAM roles, secrets handling, audit logging, change approvals, and environment promotion practices."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "skills_used": [
+        "AWS",
+        "Python",
+        "Jenkins",
+        "GitHub Actions",
+        "Terraform",
+        "Kubernetes",
+        "Prometheus"
+      ],
+      "impact": [
+        "Developed Python automation and internal APIs to streamline platform operations, job control, release workflows, and system integrations used by engineering teams.",
+        "Built reusable CI/CD patterns with Jenkins and GitHub Actions to package, validate, and deploy infrastructure and data-processing components.",
+        "Provisioned cloud environments with Terraform and standardized infrastructure delivery across shared AWS accounts and production services.",
+        "Implemented monitoring, alerting, and runbook-driven support practices for critical workloads, reducing mean time to detect and recover from failures.",
+        "Supported data movement and scheduled processing use cases by automating orchestration touchpoints, secrets management, and controlled environment promotion.",
+        "Partnered with cross-functional teams to improve service reliability, operational reporting, and release readiness across platform services."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "AWS",
+        "CloudFormation",
+        "Jenkins",
+        "PowerShell",
+        "RDS",
+        "CloudWatch",
+        "Lambda"
+      ],
+      "impact": [
+        "Supported AWS-hosted application and reporting environments by managing CloudFormation-based infrastructure, RDS-backed services, monitoring, and secure access controls.",
+        "Built continuous delivery workflows for service releases and scheduled automation across multiple non-production and production environments.",
+        "Automated operational tasks with PowerShell and AWS tooling to improve provisioning consistency, deployment speed, and recovery execution.",
+        "Worked with engineering stakeholders to align infrastructure, application, and data-access dependencies during modernization programs."
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "client": "HPE",
+      "skills_used": [
+        "AWS",
+        "Python",
+        "Jenkins",
+        "Ansible",
+        "Terraform",
+        "Splunk",
+        "Shell Scripting"
+      ],
+      "impact": [
+        "Built deployment pipelines and automation for AWS-hosted services, standardizing releases, infrastructure updates, and environment configuration management.",
+        "Maintained Terraform-based infrastructure modules and executed controlled cloud changes through CI/CD pipelines.",
+        "Developed Python and shell automation for routine operational tasks, artifact handling, and environment administration.",
+        "Implemented logging and observability practices to improve troubleshooting across distributed application and infrastructure components."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Synthetic mock resume for ATS testing only.",
+    "Content intentionally incorporates public AWS and Databricks production architecture patterns for a high-match Cloud Engineer / Databricks JD."
+  ]
+}

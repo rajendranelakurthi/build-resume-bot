@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from resume_agents.models import Education, Experience, PersonProfile
+from resume_agents.models import Education, Experience, PersonProfile, ResumeEntry, ResumeSection
 
 
 class JsonResumeStore:
@@ -28,6 +28,7 @@ class JsonResumeStore:
             email=raw["email"],
             page_title=raw.get("page_title", raw["full_name"]),
             summary_html=raw.get("summary_html", ""),
+            achievements_title=raw.get("achievements_title", "Key Platform Achievements"),
             contact_lines_html=raw.get("contact_lines_html", []),
             certification_badges_image=raw.get("certification_badges_image", ""),
             certification_badges_alt=raw.get("certification_badges_alt", ""),
@@ -46,10 +47,31 @@ class JsonResumeStore:
                 )
                 for item in raw.get("experience", [])
             ],
+            additional_sections=[
+                ResumeSection(
+                    title=section["title"],
+                    entries=[
+                        ResumeEntry(
+                            title=entry["title"],
+                            organization=entry.get("organization", ""),
+                            date_range=entry.get("date_range", ""),
+                            bullets=entry.get("bullets", []),
+                        )
+                        for entry in section.get("entries", [])
+                    ],
+                )
+                for section in raw.get("additional_sections", [])
+            ],
             education=[
-                Education(school=item["school"], degree=item["degree"])
+                Education(
+                    school=item["school"],
+                    degree=item["degree"],
+                    logo_image=item.get("logo_image", ""),
+                    logo_alt=item.get("logo_alt", ""),
+                )
                 for item in raw.get("education", [])
             ],
+            education_before_experience=raw.get("education_before_experience", False),
             certifications=raw.get("certifications", []),
             notes=raw.get("notes", []),
         )

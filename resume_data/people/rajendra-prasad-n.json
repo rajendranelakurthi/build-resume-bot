@@ -45,8 +45,8 @@
       "text": "Implemented CloudWatch, Prometheus, Grafana, Splunk, ELK, and custom telemetry pipelines to improve platform visibility, incident response, and operational diagnosis."
     },
     {
-      "tag": "Security & Governance",
-      "text": "Applied IAM, MFA, policy-driven access controls, backup and disaster recovery automation, and secure VPC networking patterns to strengthen cloud governance and compliance."
+      "tag": "DevSecOps & Governance",
+      "text": "Integrated security scanning, policy-driven controls, IAM, MFA, and secure network patterns into CI/CD and cloud operations to strengthen delivery governance and compliance."
     }
   ],
   "skill_sections": [
@@ -104,7 +104,6 @@
       "title": "Lead DevOps Engineer",
       "company": "AT&T Services Inc.",
       "date_range": "08/2023 - Present",
-      "project": "CDO (Chief Data Office)",
       "skills_used": [
         "AWS",
         "AWS CodePipeline",
@@ -121,7 +120,7 @@
         "Directed end-to-end release management across multiple engineering teams by aligning schedules, dependencies, change windows, and risk mitigation plans.",
         "Standardized deployment pipelines for AWS and hybrid environments, improving release consistency, auditability, and operational reliability.",
         "Automated platform operations with Python, Bash, and PowerShell to reduce manual effort and accelerate provisioning, support, and recovery workflows.",
-        "Established Git branching, approval, and artifact versioning standards to strengthen release governance and source control discipline.",
+        "Established Git branching, approval, and artifact versioning standards and integrated DevSecOps controls into release workflows through secure secrets handling, Terraform validation, and pre-deployment policy checks across AWS environments.",
         "Supported Java and Node.js microservices on AWS, improving scalability, runtime stability, and production readiness for cloud-native applications.",
         "Delivered release communications, milestone reporting, and risk updates to engineering leadership and business stakeholders to keep delivery streams aligned.",
         "Coordinated incident response and production release support, minimizing downtime and accelerating service restoration during high-priority events.",
@@ -138,7 +137,6 @@
       "title": "Senior DevOps Engineer",
       "company": "GlobalLogic",
       "date_range": "03/2023 - 08/2023",
-      "project": "Here",
       "skills_used": [
         "AWS",
         "GitLab CI",
@@ -152,7 +150,7 @@
         "Created package views, artifact feeds, and upstream repository strategies aligned to application team delivery requirements.",
         "Managed Docker image build, provisioning, and runtime administration to standardize containerized delivery workflows.",
         "Administered Kubernetes clusters and deployed applications through pods, deployments, services, and core platform components.",
-        "Improved Kubernetes release processes by standardizing deployment patterns and operational checks across environments.",
+        "Improved Kubernetes release processes by standardizing deployment patterns, secure runner standards, controlled branch protections, container image validation, and pipeline checks across environments.",
         "Migrated Jenkins pipelines to GitLab CI and modernized runner configuration to improve maintainability and pipeline reliability.",
         "Implemented GitLab CI best practices, including reusable templates, pipeline governance, and controlled branch-based execution.",
         "Enforced SCM best practices and coached development teams on GitLab workflows, branch governance, and merge standards.",
@@ -163,7 +161,6 @@
       "title": "Senior DevOps Engineer II",
       "company": "Akamai Technologies",
       "date_range": "12/2021 - 03/2023",
-      "project": "Zero Trust",
       "skills_used": [
         "AWS",
         "Linode",
@@ -195,7 +192,6 @@
       "title": "Senior DevOps Engineer / Senior SRE",
       "company": "Turvo India Pvt Ltd",
       "date_range": "04/2020 - 12/2021",
-      "project": "Turvo TMS",
       "skills_used": [
         "AWS",
         "Python",
@@ -230,7 +226,6 @@
       "title": "Senior DevOps Engineer",
       "company": "HCL Technologies",
       "date_range": "02/2019 - 04/2020",
-      "project": "EnCoMa+, eLite",
       "client": "Mercedes-Benz Research & Development India",
       "skills_used": [
         "Kubernetes",
@@ -266,7 +261,6 @@
       "title": "DevOps Engineer",
       "company": "Mphasis Ltd",
       "date_range": "08/2016 - 12/2018",
-      "project": "RMC, OIU, PMU, SDX",
       "client": "HPE",
       "skills_used": [
         "AWS",

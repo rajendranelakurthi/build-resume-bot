@@ -2,8 +2,10 @@ import tempfile
 from pathlib import Path
 import subprocess
 import shutil
+from unittest.mock import patch
 
 from resume_agents.cli import _branch_name
+from resume_agents.github_auth import GitHubAuthStatus, _extract_hostname, _extract_username
 from resume_agents.service import ResumeAgentService
 from resume_agents.tailor import extract_keywords, tailor_profile
 
@@ -11,6 +13,7 @@ from resume_agents.tailor import extract_keywords, tailor_profile
 def test_list_people() -> None:
     service = ResumeAgentService(Path("resume_data"))
     assert "vikram-bathala" in service.list_people()
+    assert "vikram-bathala-mech" in service.list_people()
     assert "rajendra-prasad-n" in service.list_people()
 
 
@@ -39,9 +42,22 @@ def test_render_html_supports_extended_contact_lines_and_optional_certifications
     assert "Certifications" in html
     assert "certifications-grid" in html
     assert "GitLab Certified Associate" in html
-    assert "Project:</strong> CDO (Chief Data Office)" in html
+    assert "Project:</strong>" not in html
     assert "Skills Used:</strong> AWS, AWS CodePipeline, PowerShell" in html
     assert "Directed end-to-end release management across multiple engineering teams by aligning schedules, dependencies, change windows, and risk mitigation plans." in html
+
+
+def test_render_html_supports_additional_sections_for_mechanical_resume() -> None:
+    service = ResumeAgentService(Path("resume_data"))
+    html = service.render_resume_html("vikram-bathala-mech")
+    assert "VIKRAM KUMAR BATHALA" in html
+    assert "Key Engineering Highlights" in html
+    assert "Research Experience" in html
+    assert "Academic Projects" in html
+    assert "Graduate Student Assistant" in html
+    assert "Certifications" not in html
+    assert html.index("<h2 class=\"section-title\">Education</h2>") < html.index("Professional Experience")
+    assert '<img class="education-logo"' not in html
 
 
 def test_rajendra_experience_sections_have_between_10_and_15_points() -> None:
@@ -90,3 +106,9 @@ def test_branch_name_prefers_company_name() -> None:
 def test_branch_name_falls_back_to_role_name() -> None:
     jd = "We are seeking a highly motivated DevOps Engineer to help build and maintain scalable infrastructure."
     assert _branch_name("vikram-bathala", jd) == "codex/vikram-bathala-devops-engineer"
+
+
+def test_extract_github_username_and_hostname() -> None:
+    output = "github.com\n  ✓ Logged in to github.com account vikram (/Users/test/.config/gh/hosts.yml)\n"
+    assert _extract_username(output) == "vikram"
+    assert _extract_hostname(output) == "github.com"
