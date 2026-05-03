@@ -71,6 +71,9 @@ Do not assume the person when the user names one explicitly.
 4. regenerate HTML
 5. run tests when code or rendering behavior changes
 6. keep branch-specific behavior recorded in that branch’s `instructions.md`
+7. whenever new resume points are created, research realistic production-style patterns before writing them
+8. create a local git commit whenever changes are made
+9. ask for user permission before any `git push`
 
 ## Repo Rules
 
@@ -79,3 +82,21 @@ Do not assume the person when the user names one explicitly.
 - keep non-interactive git workflows
 - avoid destructive git commands unless explicitly requested
 - keep branch-specific policy documented in `instructions.md` on that branch
+- maintain `main` as the shared source of truth
+- update the corresponding branches from `main` when shared rules or shared code change
+
+## Research Rules For New Points
+
+- this rule applies at every tailoring level whenever a new point is added
+- use internet research to make new points realistic, practical, and production-like
+- prefer official documentation, architecture guides, platform best practices, customer stories, and strong public resume-writing guidance
+- synthesize original bullet points from that research
+- do not copy someone else’s resume text verbatim
+- keep the final points strong, JD-aligned, and believable for the selected tailoring level
+
+## Git Workflow Rules
+
+- whenever changes are made, create a local git commit
+- before any `git push`, stop and ask the user for permission
+- take responsibility for keeping `main` updated with shared changes
+- take responsibility for updating the corresponding specialized branches locally after `main` changes
