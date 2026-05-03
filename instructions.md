@@ -25,6 +25,8 @@ Current branch roles:
   - branch for Codex plugin packaging work only
   - should contain plugin manifests, packaged skills/apps, marketplace metadata, and any helper assets/scripts needed for plugin distribution
   - should not be used for general resume tailoring or generic skill-authoring changes unless those changes are required by the plugin package itself
+  - current target plugin package name: `resume-creator-plugin`
+  - current target plugin display name: `Résumé Creator Plugin`
 
 - `codex/mech-vikram`
   - branch for Vikram mechanical resume work
