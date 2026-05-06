@@ -2,6 +2,28 @@
 
 Repository foundation for managing resume content for multiple people and rendering each resume into a shared HTML layout.
 
+## First-time setup for Codex IDEs
+
+1. Open this repository in a Codex-supported IDE, such as VS Code or Antigravity.
+2. Switch to the plugin branch:
+
+```bash
+git switch plug-in
+```
+
+3. Install the resume creator plugin:
+
+```bash
+bash ai_resume/plugins/resume-creator-plugin/scripts/install_plugin.sh
+```
+
+4. Restart the IDE so Codex can load the installed plugin.
+5. In Codex, use this command format:
+
+```text
+Use the Résumé Creator Plugin to create an Aggressive devops-cloud resume for Rajendra using this JD: <provide JD>
+```
+
 ## What this repo does
 
 - Stores structured resume data for multiple people in `resume_data/people/`
