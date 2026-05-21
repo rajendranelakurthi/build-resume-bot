@@ -1,0 +1,245 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "page_title": "Rajendra Prasad N - Lead GCP DevOps & Cloud Migration Engineer",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Lead GCP DevOps Engineer | Cloud Migration, Terraform, GKE, CI/CD & Landing Zone Architecture",
+  "location": "Dallas, TX",
+  "email": "rajendranelakurthi@gmail.com",
+  "contact_lines_html": [
+    "rajendranelakurthi@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "<strong>Lead GCP DevOps Engineer with 10+ years of hands-on experience designing, migrating, and operating enterprise cloud platforms across Google Cloud, AWS, and hybrid environments.</strong> Deep technical expertise in <strong>GCP Landing Zone architecture, Terraform-driven Infrastructure as Code, CI/CD standardization (Cloud Build, Jenkins, GitLab CI), and Kubernetes platform engineering on GKE</strong>. Proven track record of consolidating Shadow IT and standalone cloud projects into centralized, policy-governed landing zones with standardized IAM, Shared VPC networking, and Organization Policy Constraints. Skilled at hardening multi-project GCP environments through VPC Service Controls, Binary Authorization, and Security Command Center integration. Consistently partners with cross-functional teams to deliver secure, scalable, and compliant cloud infrastructure at enterprise scale.",
+  "certification_badges_image": "assets/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "GCP",
+    "Terraform",
+    "GKE",
+    "Cloud Build",
+    "Landing Zones",
+    "IAM & Security",
+    "Shared VPC",
+    "CI/CD Pipelines",
+    "Cloud Migration",
+    "GitLab CI"
+  ],
+  "achievements": [
+    {
+      "tag": "GCP Landing Zone Migration",
+      "text": "Led end-to-end migration of Shadow IT and standalone GCP projects into a centralized greenfield landing zone, establishing Organization hierarchy, folder structure, and Organization Policy Constraints to enforce governance at scale."
+    },
+    {
+      "tag": "Terraform Platform Engineering",
+      "text": "Architected reusable Terraform module libraries for GCP resource provisioning, enforcing consistent project factory patterns, IAM bindings, and network configurations across 50+ migrated projects."
+    },
+    {
+      "tag": "CI/CD Standardization",
+      "text": "Designed and standardized CI/CD pipelines using Cloud Build, Jenkins, and GitLab CI with automated security scanning, container image validation, and policy-gated deployments across GKE clusters."
+    },
+    {
+      "tag": "GKE & Container Platform",
+      "text": "Delivered production-grade GKE clusters with Workload Identity, Autopilot node management, and Binary Authorization to secure container workloads across multi-environment delivery tiers."
+    },
+    {
+      "tag": "Security & Governance",
+      "text": "Hardened GCP platform security through VPC Service Controls, Security Command Center, Organization Policy enforcement, and least-privilege IAM design across consolidated multi-project environments."
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "Cloud Platforms",
+      "content": "Google Cloud Platform (GCP), AWS, Shared VPC, VPC Service Controls, Cloud NAT, Cloud Interconnect, Private Google Access, Cloud DNS"
+    },
+    {
+      "title": "Infrastructure as Code",
+      "content": "Terraform, Terraform Cloud, GCS Remote State, CloudFormation, Ansible, Packer, GCP Deployment Manager"
+    },
+    {
+      "title": "CI/CD & Automation",
+      "content": "Cloud Build, Jenkins, GitLab CI, GitHub Actions, ArgoCD, Cloud Deploy, Artifact Registry, Container Registry"
+    },
+    {
+      "title": "Containers & Orchestration",
+      "content": "GKE (Standard & Autopilot), Docker, Kubernetes, Helm, Istio, Workload Identity, Binary Authorization"
+    },
+    {
+      "title": "IAM, Security & Governance",
+      "content": "GCP IAM, Organization Policies, VPC Service Controls, Security Command Center, Cloud Armor, Workload Identity Federation, Secret Manager"
+    },
+    {
+      "title": "Monitoring & Observability",
+      "content": "Cloud Monitoring, Cloud Logging, Cloud Trace, Prometheus, Grafana, OpenTelemetry, Splunk, ELK"
+    },
+    {
+      "title": "Scripting & Development",
+      "content": "Python, Bash, Shell, PowerShell, Go, gcloud CLI, REST APIs, FastAPI"
+    },
+    {
+      "title": "Migration & Modernization",
+      "content": "GCP Landing Zones, Shadow IT Consolidation, Project Factory, Migrate for Compute Engine, Database Migration Service, Lift-and-Shift, Re-platforming"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead GCP DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "skills_used": [
+        "GCP",
+        "Terraform",
+        "Cloud Build",
+        "GKE",
+        "Shared VPC",
+        "IAM",
+        "GitLab CI",
+        "Python",
+        "Helm"
+      ],
+      "impact": [
+        "Led the migration of 40+ Shadow IT and standalone GCP projects into a centralized greenfield landing zone, establishing a standardized Organization hierarchy with folder-level IAM bindings and Organization Policy Constraints.",
+        "Architected and maintained a Terraform module library for GCP project factory provisioning, automating the creation of projects, Shared VPC attachments, IAM role bindings, Cloud NAT, and firewall rules with zero manual console access.",
+        "Designed and implemented Shared VPC network architecture across the landing zone, configuring subnet-level IAM, Private Google Access, Cloud NAT gateways, and firewall policies to enforce network segmentation between migrated workloads.",
+        "Standardized CI/CD pipelines using Cloud Build and GitLab CI with automated Terraform plan/apply workflows, container vulnerability scanning via Artifact Registry, and policy-gated deployment approvals for GKE target clusters.",
+        "Deployed production-grade GKE clusters with Workload Identity, node pool auto-scaling, Binary Authorization for container image validation, and namespace-level RBAC to support multi-tenant application delivery.",
+        "Implemented VPC Service Controls and Organization Policy Constraints to restrict resource creation, enforce location policies, and prevent data exfiltration across consolidated GCP projects.",
+        "Automated cloud infrastructure compliance auditing using Security Command Center findings, custom Python scripts, and Cloud Functions to detect and remediate policy drift across the landing zone.",
+        "Orchestrated cross-team migration planning sessions with application owners, documenting dependency maps, network connectivity requirements, and IAM migration paths for each standalone project cutover."
+      ]
+    },
+    {
+      "title": "Senior GCP DevOps Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "skills_used": [
+        "GCP",
+        "Terraform",
+        "GitLab CI",
+        "GKE",
+        "Cloud Build",
+        "IAM"
+      ],
+      "impact": [
+        "Deployed and administered GKE Standard and Autopilot clusters, configuring Workload Identity, pod security policies, and Istio service mesh for secure microservice communication.",
+        "Migrated legacy Jenkins pipelines to GitLab CI with GKE-hosted runners, implementing reusable pipeline templates, container image scanning, and branch-protection-gated deployments.",
+        "Provisioned GCP infrastructure using Terraform modules with GCS remote state, enforcing consistent project layouts, VPC configurations, and IAM bindings across development and production environments.",
+        "Implemented Cloud Build triggers for automated Terraform validation, plan, and apply workflows with integrated security scanning and Slack notification for infrastructure change approvals.",
+        "Hardened GKE cluster security through Binary Authorization policies, container image allowlisting, and Artifact Registry vulnerability scanning to enforce supply chain integrity.",
+        "Collaborated with application teams to re-platform containerized workloads from standalone projects into the centralized GCP environment, standardizing logging via Cloud Logging and monitoring via Cloud Monitoring."
+      ]
+    },
+    {
+      "title": "Senior Cloud DevOps Engineer",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "skills_used": [
+        "GCP",
+        "AWS",
+        "Terraform",
+        "Cloud Build",
+        "GKE",
+        "Python",
+        "Kubernetes"
+      ],
+      "impact": [
+        "Designed multi-cloud infrastructure provisioning workflows using Terraform, supporting both GCP and AWS environments with shared module patterns, remote state management in GCS, and environment-specific variable injection.",
+        "Automated GKE cluster provisioning and lifecycle management through Terraform, including node pool configuration, network policy enforcement, and integrated Cloud Monitoring dashboards.",
+        "Built CI/CD pipelines with Cloud Build and Jenkins, automating the continuous delivery of containerized Python, Node.js, and Java artifacts to GKE clusters across multiple environments.",
+        "Implemented Cloud Logging and Cloud Monitoring observability stacks with custom metrics, log-based alerts, and SLO dashboards to support proactive incident response and platform reliability.",
+        "Authored reusable Python and Bash automation scripts for GCP project onboarding, IAM audit reporting, and Terraform state management, standardizing operational tooling across engineering teams.",
+        "Designed secure VPC networking with Cloud NAT, Private Google Access, Cloud Interconnect, and firewall rule hierarchies for enterprise workloads migrating to GCP."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "skills_used": [
+        "GCP",
+        "AWS",
+        "Terraform",
+        "Jenkins",
+        "Kubernetes",
+        "Python",
+        "Prometheus"
+      ],
+      "impact": [
+        "Designed CI/CD automation for GCP and AWS environments using Jenkins and Cloud Build, integrating SonarQube code quality gates and container vulnerability scanning into deployment workflows.",
+        "Delivered a repeatable Terraform and Kubernetes framework for GCP-hosted payment platform deployments, enforcing infrastructure compliance and disaster recovery readiness.",
+        "Developed custom internal APIs using Python (FastAPI) to integrate Jenkins, Jira, and Artifact Registry workflows, automating project onboarding and release pipeline provisioning.",
+        "Authored and enforced GCP IAM security controls with Organization-level policies, service account key rotation automation, and Workload Identity Federation for cross-project access management.",
+        "Built custom Prometheus exporters in Python to capture application-specific operational metrics, feeding Cloud Monitoring and Grafana dashboards for real-time SRE observability.",
+        "Standardized Helm chart packaging and GKE deployment patterns for microservices, ensuring consistent runtime behavior across development, staging, and production namespaces."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "GCP",
+        "AWS",
+        "Terraform",
+        "Jenkins",
+        "Kubernetes",
+        "Helm",
+        "Shell Scripting"
+      ],
+      "impact": [
+        "Executed large-scale workload migrations from on-premises environments to GCP and AWS, utilizing Terraform-driven modernization strategies for enterprise applications and relational databases.",
+        "Built continuous delivery pipelines using Jenkins and Cloud Build, supporting containerized microservice deployments across Sandbox, UAT, and Production environments on GKE.",
+        "Architected enterprise monitoring and logging pipelines using Cloud Logging, Cloud Monitoring, and the ELK stack, delivering critical visibility into infrastructure health and security events.",
+        "Managed Helm-based release packaging and deployed production Kubernetes workloads on GKE with namespace isolation, resource quotas, and network policy enforcement.",
+        "Automated configuration drift detection and remediation for cloud infrastructure using Terraform plan diffs and custom Shell scripts, enforcing enterprise baseline security standards.",
+        "Acted as technical liaison between cross-functional teams in India and Germany, presenting cloud migration strategies, landing zone architectures, and DevOps roadmaps to secure stakeholder alignment."
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "client": "HPE",
+      "skills_used": [
+        "GCP",
+        "AWS",
+        "Terraform",
+        "Ansible",
+        "Jenkins",
+        "GitLab CI",
+        "Docker",
+        "Python"
+      ],
+      "impact": [
+        "Created deployment pipelines with Jenkins and Ansible to promote releases from development through production in a controlled, repeatable manner across cloud environments.",
+        "Authored and maintained Terraform modules for GCP and AWS infrastructure provisioning, executing infrastructure changes through automated CI/CD workflows with remote state in GCS.",
+        "Built YAML-based CI/CD pipelines with GitLab CI using event-driven triggers, container builds, and automated testing to support continuous integration on every code change.",
+        "Executed GCP proof-of-concepts for workload migration, delivering solution designs aligned to application architecture requirements and landing zone governance patterns.",
+        "Defined and implemented branching strategies, artifact versioning standards, and pipeline governance policies to improve release quality and traceability across engineering teams.",
+        "Documented cloud migration runbooks, Terraform module usage guides, and deployment flows for infrastructure, API, and database components to improve team onboarding and operational consistency."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "Bachelor's Degree in Information Technology (Engineering/Technology)"
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Aggressive GCP Cloud Migration resume tailored for Shadow IT / standalone GCP project migration to greenfield landing zone role.",
+    "GCP-first rewrite: Terraform, Cloud Build, GKE, Shared VPC, IAM, Organization Policies, VPC Service Controls, Security Command Center, Binary Authorization throughout.",
+    "All key JD skills covered: GCP, Terraform/IaC, CI/CD (Jenkins, GitLab CI, Cloud Build), Kubernetes/GKE, IAM/Networking/Security/Governance, Cloud migration and modernization.",
+    "Tailoring level: Aggressive - maximum JD alignment for ATS optimization."
+  ]
+}
