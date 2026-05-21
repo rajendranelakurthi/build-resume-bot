@@ -1,0 +1,212 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "page_title": "Rajendra Prasad N - Lead Cloud & DevOps Engineer",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Lead Cloud & DevOps Engineer | AWS, CI/CD, Resiliency & DevSecOps",
+  "location": "Dallas, TX",
+  "email": "rajendranelakurthi@gmail.com",
+  "contact_lines_html": [
+    "rajendranelakurthi@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "<strong>Aggressive, results-driven Lead Cloud & DevOps Engineer with 10+ years of full software development lifecycle experience architecting large-scale, distributed applications in mission-critical environments.</strong> Deep technical expertise across <strong>Unix/Linux, AWS, Jenkins, Jules, Python, Shell scripting, and SQL</strong>. Proven track record of driving extreme resiliency, high performance, and robust Disaster Recovery (DR) postures for enterprise cloud platforms. Highly skilled at engineering advanced CI/CD automation, enforcing DevSecOps controls, supporting <strong>REST APIs, Spring Boot, and Node.js</strong> microservices, and enabling event-driven architectures leveraging <strong>JMS</strong> and cloud messaging APIs. Strong champion of Test-Driven Development (TDD) and continuous delivery, consistently partnering with cross-functional teams to deliver secure, scalable, and highly available infrastructure.",
+  "certification_badges_image": "assets/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "AWS",
+    "Linux/Unix",
+    "Jenkins & Jules",
+    "Python & Shell",
+    "CI/CD Automation",
+    "Disaster Recovery",
+    "Spring Boot & Node.js",
+    "Resiliency & DevSecOps",
+    "SQL & REST APIs",
+    "Event-Driven (JMS)"
+  ],
+  "achievements": [
+    {
+      "tag": "Mission-Critical Resiliency",
+      "text": "Engineered highly resilient, large-scale distributed cloud architectures on AWS, strictly enforcing disaster recovery, performance optimization, and rigorous failover testing."
+    },
+    {
+      "tag": "Advanced CI/CD Automation",
+      "text": "Architected aggressive deployment automation strategies using Jenkins, Jules, and GitLab CI, accelerating release velocity while embedding TDD, security scanning, and automated testing."
+    },
+    {
+      "tag": "Cloud Native Ecosystems",
+      "text": "Led DevOps enablement for high-throughput Spring Boot, Node.js, and REST API microservices, optimizing runtime environments across EKS and native AWS."
+    },
+    {
+      "tag": "Event-Driven Infrastructure",
+      "text": "Provisioned and scaled infrastructure for event-driven architectures, integrating messaging platforms including JMS, AWS SNS/SQS, and Kafka to decouple enterprise domains."
+    },
+    {
+      "tag": "Security & Governance",
+      "text": "Hardened platform security posture by systematically integrating IAM, policy-driven DevSecOps controls, MFA, and continuous application security scanning directly into CI/CD workflows."
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "Operating Systems",
+      "content": "Unix, Linux, RHEL, Ubuntu, HPUX, Windows Server"
+    },
+    {
+      "title": "CI/CD & Automation",
+      "content": "Jenkins, Jules, GitHub Actions, GitLab CI, AWS CodePipeline, ArgoCD, Ansible, Terraform"
+    },
+    {
+      "title": "Cloud & Infrastructure",
+      "content": "AWS (EC2, EKS, VPC, Route 53, ALB/NLB, CloudFront, S3), Disaster Recovery, Multi-Region Architecture"
+    },
+    {
+      "title": "Development & Scripting",
+      "content": "Python, Shell, Bash, PowerShell, Java (Spring Boot), JavaScript (Node.js), REST APIs, Core Algorithms"
+    },
+    {
+      "title": "Data & Messaging",
+      "content": "SQL, PostgreSQL, MySQL, Amazon RDS, JMS, event-driven architectures, Milvus, Databricks"
+    },
+    {
+      "title": "Monitoring & Resiliency",
+      "content": "CloudWatch, Grafana, Prometheus, Splunk, ELK, fault-tolerant design, performance tuning"
+    },
+    {
+      "title": "Containers & Orchestration",
+      "content": "Docker, Kubernetes, EKS, Helm, OpenShift"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "skills_used": [
+        "AWS",
+        "Jenkins",
+        "Jules",
+        "Python",
+        "Shell",
+        "Spring Boot",
+        "Node.js",
+        "SQL",
+        "TDD"
+      ],
+      "impact": [
+        "Architected scalable, high-throughput CI/CD pipelines across AWS environments using Jenkins, Jules, and GitHub Actions, rapidly automating build, test, and enterprise release execution.",
+        "Drove platform resiliency and optimization for mission-critical REST APIs and distributed applications built on Spring Boot and Node.js, ensuring exceptional performance at scale.",
+        "Automated comprehensive disaster recovery (DR) protocols and performance tuning mechanisms, minimizing RTO/RPO across multi-region AWS architectures.",
+        "Spearheaded Unix/Linux-based automation efforts using Python and Shell scripting, aggressively reducing manual toil and accelerating infrastructure provisioning.",
+        "Integrated robust TDD workflows, automated testing gates, and dynamic application security scans into release pipelines, enforcing strict DevSecOps compliance.",
+        "Provided cloud infrastructure and deployment support for event-driven architectures utilizing messaging APIs (JMS/Kafka), enabling asynchronous, highly scalable microservice communication.",
+        "Managed database release pipelines for relational stores (SQL, PostgreSQL) alongside modern vector search platforms (Milvus), enforcing secure schema evolution and querying capabilities.",
+        "Orchestrated incident response and cross-functional troubleshooting in a high-pressure, large-scale environment, rapidly mitigating disruptions and restoring technical alignment."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "skills_used": [
+        "AWS",
+        "Linux",
+        "GitLab CI",
+        "Kubernetes",
+        "Python",
+        "SQL"
+      ],
+      "impact": [
+        "Deployed, hardened, and scaled Linux-based build agents across mission-critical CI/CD operations, dynamically auto-scaling infrastructure to meet peak engineering demands.",
+        "Collaborated aggressively with software engineering teams across the full SDLC to enforce automated testing standards, branch protections, and container image validation.",
+        "Administered complex Kubernetes clusters, deploying resilient pods, services, and core platform components tailored for REST API performance and low-latency data access.",
+        "Migrated legacy pipelines into modernized GitLab CI architectures, standardizing CI/CD best practices and embedding deep application security protocols.",
+        "Optimized Docker image builds, SQL database integration deployments, and runtime environments to guarantee strict parity between staging and production tiers.",
+        "Troubleshot complex pipeline, container, and Unix/Linux host issues, systematically eliminating deployment blockers and accelerating time-to-market for large-scale applications."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "skills_used": [
+        "AWS",
+        "Python",
+        "Shell",
+        "Terraform",
+        "Disaster Recovery",
+        "Resiliency"
+      ],
+      "impact": [
+        "Engineered unyielding disaster recovery and backup architectures utilizing AWS Elastic Disaster Recovery, strictly adhering to aggressive resiliency mandates for enterprise workloads.",
+        "Automated AWS infrastructure provisioning using Terraform and CloudFormation, standardizing secure VPC networks, ALB routing, and Multi-AZ deployments for highly available web applications.",
+        "Designed and maintained resilient Jenkins and Git-based CI/CD pipelines, automating the continuous delivery of Python, Node.js, and Java-based artifacts to EKS.",
+        "Authored extensive library of Shell and Python automation scripts, institutionalizing reusable DevOps capabilities and core algorithms across distributed engineering teams.",
+        "Supported deployment of event-driven components and integrated telemetry and monitoring (CloudWatch, Prometheus) to proactively resolve performance bottlenecks.",
+        "Published versioned artifacts, managed secure SQL migrations, and enforced environment consistency to support large-scale upstream engineering operations."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "skills_used": [
+        "AWS",
+        "Python",
+        "Jenkins",
+        "JMS",
+        "Security",
+        "Kubernetes"
+      ],
+      "impact": [
+        "Designed CI/CD automation and DevSecOps pipelines for AWS environments, tightly integrating code quality checks (SonarQube) and TDD processes to enforce elite release standards.",
+        "Executed platform engineering best practices to amplify the reliability and scale of message-driven architectures, utilizing JMS and REST APIs for logistics and supply chain systems.",
+        "Developed custom internal APIs using Python (FastAPI) to bridge Jenkins, Jira, and JFrog, demonstrating strong coding skills to drive aggressive operational efficiency.",
+        "Authored and enforced custom IAM security controls, MFA, and identity isolation policies, ensuring airtight application security across highly regulated multi-account AWS environments.",
+        "Developed customized Prometheus exporters using Python to capture real-time operational metrics, vastly improving observability and performance tracking for core services.",
+        "Delivered a repeatable Terraform and Kubernetes framework tailored for payment platform deployments, maintaining strict compliance and disaster recovery readiness."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Unix/Linux",
+        "AWS",
+        "Jenkins",
+        "Spring Boot",
+        "Shell Scripting",
+        "SQL"
+      ],
+      "impact": [
+        "Executed large-scale workload migrations from on-premises Unix/Linux environments to AWS, utilizing robust modernization strategies for enterprise Spring Boot applications and relational SQL databases.",
+        "Built continuous delivery pipelines leveraging Jenkins, aggressively supporting REST-based microservices across a myriad of delivery environments (Sandbox, UAT, PROD).",
+        "Architected enterprise monitoring pipelines via the ELK stack, delivering critical insights into infrastructure health, security events, and system resiliency.",
+        "Managed Helm-based release packaging and deployed intricate Kubernetes workloads for large-scale, mission-critical applications.",
+        "Automated configuration drift remediation for fleet-level Linux instances, utilizing Shell scripting to continually enforce enterprise baseline security standards.",
+        "Acted as a crucial technical liaison between cross-functional teams in India and Germany, presenting impactful DevOps strategies and securing alignment from non-technical stakeholders."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "Bachelor’s Degree in Information Technology (Engineering/Technology)"
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Tailored for Aggressive DevOps/Cloud role, explicitly integrating Unix/Linux, AWS, Jules, Jenkins, Python/Shell, SQL, Spring Boot, Node.js, JMS, automated testing (TDD), and disaster recovery per JD.",
+    "Bachelors degree requirement met."
+  ]
+}

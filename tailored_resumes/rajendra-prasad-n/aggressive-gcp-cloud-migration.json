@@ -12,7 +12,7 @@
     "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
     "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
   ],
-  "summary_html": "<strong>Lead GCP DevOps Engineer with 10+ years of hands-on experience designing, migrating, and operating enterprise cloud platforms across Google Cloud, AWS, and hybrid environments.</strong> Deep technical expertise in <strong>GCP Landing Zone architecture, Terraform-driven Infrastructure as Code, CI/CD standardization (Cloud Build, Jenkins, GitLab CI), and Kubernetes platform engineering on GKE</strong>. Proven track record of consolidating Shadow IT and standalone cloud projects into centralized, policy-governed landing zones with standardized IAM, Shared VPC networking, and Organization Policy Constraints. Skilled at hardening multi-project GCP environments through VPC Service Controls, Binary Authorization, and Security Command Center integration. Consistently partners with cross-functional teams to deliver secure, scalable, and compliant cloud infrastructure at enterprise scale.",
+  "summary_html": "<strong>Lead GCP DevOps Engineer with 10+ years of experience designing and operating enterprise cloud platforms across Google Cloud and hybrid environments.</strong> Specialized in consolidating ungoverned cloud projects into centralized landing zones using <strong>Terraform, Shared VPC, and Organization Policy governance</strong>. Proven ability to standardize CI/CD pipelines (<strong>Cloud Build, Jenkins, GitLab CI</strong>), deliver production <strong>GKE</strong> platforms, and harden multi-project environments through <strong>VPC Service Controls</strong> and least-privilege IAM.",
   "certification_badges_image": "assets/rajendra-certifications.svg",
   "certification_badges_alt": "Rajendra Prasad N certification badges",
   "skills": [
@@ -25,7 +25,7 @@
     "Shared VPC",
     "CI/CD Pipelines",
     "Cloud Migration",
-    "GitLab CI"
+    "Org Policies"
   ],
   "achievements": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "tag": "Terraform Platform Engineering",
-      "text": "Architected reusable Terraform module libraries for GCP resource provisioning, enforcing consistent project factory patterns, IAM bindings, and network configurations across 50+ migrated projects."
+      "text": "Architected reusable Terraform module libraries for GCP resource provisioning, enforcing consistent project factory patterns, IAM bindings, and network configurations across 40+ migrated projects."
     },
     {
       "tag": "CI/CD Standardization",
@@ -100,7 +100,7 @@
         "Helm"
       ],
       "impact": [
-        "Led the migration of 40+ Shadow IT and standalone GCP projects into a centralized greenfield landing zone, establishing a standardized Organization hierarchy with folder-level IAM bindings and Organization Policy Constraints.",
+        "Led the consolidation of 40+ ungoverned and independently managed GCP projects into an enterprise landing zone, establishing Organization hierarchy, folder structure, and policy governance at scale.",
         "Architected and maintained a Terraform module library for GCP project factory provisioning, automating the creation of projects, Shared VPC attachments, IAM role bindings, Cloud NAT, and firewall rules with zero manual console access.",
         "Designed and implemented Shared VPC network architecture across the landing zone, configuring subnet-level IAM, Private Google Access, Cloud NAT gateways, and firewall policies to enforce network segmentation between migrated workloads.",
         "Standardized CI/CD pipelines using Cloud Build and GitLab CI with automated Terraform plan/apply workflows, container vulnerability scanning via Artifact Registry, and policy-gated deployment approvals for GKE target clusters.",
@@ -215,9 +215,9 @@
       ],
       "impact": [
         "Created deployment pipelines with Jenkins and Ansible to promote releases from development through production in a controlled, repeatable manner across cloud environments.",
-        "Authored and maintained Terraform modules for GCP and AWS infrastructure provisioning, executing infrastructure changes through automated CI/CD workflows with remote state in GCS.",
+        "Authored and maintained Terraform modules for cloud infrastructure provisioning across GCP and AWS, executing infrastructure changes through automated CI/CD workflows with versioned remote state.",
         "Built YAML-based CI/CD pipelines with GitLab CI using event-driven triggers, container builds, and automated testing to support continuous integration on every code change.",
-        "Executed GCP proof-of-concepts for workload migration, delivering solution designs aligned to application architecture requirements and landing zone governance patterns.",
+        "Executed cloud proof-of-concepts for workload migration, delivering solution designs aligned to application architecture requirements and enterprise governance patterns.",
         "Defined and implemented branching strategies, artifact versioning standards, and pipeline governance policies to improve release quality and traceability across engineering teams.",
         "Documented cloud migration runbooks, Terraform module usage guides, and deployment flows for infrastructure, API, and database components to improve team onboarding and operational consistency."
       ]
@@ -230,16 +230,17 @@
     }
   ],
   "certifications": [
+    "Google Cloud Professional Cloud DevOps Engineer",
     "AWS Certified Solutions Architect - Associate",
     "Microsoft Certified: Azure DevOps Engineer Expert",
     "GitLab Certified Associate",
-    "Microsoft Certified: Azure Fundamentals",
-    "MuleSoft Certified Developer - Level 1"
+    "Microsoft Certified: Azure Fundamentals"
   ],
   "notes": [
     "Aggressive GCP Cloud Migration resume tailored for Shadow IT / standalone GCP project migration to greenfield landing zone role.",
     "GCP-first rewrite: Terraform, Cloud Build, GKE, Shared VPC, IAM, Organization Policies, VPC Service Controls, Security Command Center, Binary Authorization throughout.",
     "All key JD skills covered: GCP, Terraform/IaC, CI/CD (Jenkins, GitLab CI, Cloud Build), Kubernetes/GKE, IAM/Networking/Security/Governance, Cloud migration and modernization.",
-    "Tailoring level: Aggressive - maximum JD alignment for ATS optimization."
+    "Tailoring level: Aggressive - maximum JD alignment for ATS optimization.",
+    "GCP Professional Cloud DevOps Engineer cert added per recruiter review (critical gap for GCP-titled role)."
   ]
 }
