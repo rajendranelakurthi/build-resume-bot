@@ -1,0 +1,265 @@
+{
+  "person_id": "rajendra-prasad-n-azure-devops-web3-platform-engineer",
+  "page_title": "Rajendra Prasad N - Azure DevOps Engineer | Web3 Platform",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Senior DevOps Engineer | Azure Cloud, Web3 Platform, DevSecOps & IaC",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "achievements_title": "Relevant Platform Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "<strong>Senior DevOps Engineer with 10+ years of experience delivering enterprise platform infrastructure, CI/CD automation, and DevSecOps practices across Azure and multi-cloud environments</strong>. Deep hands-on expertise with <strong>Azure VMs, VNet, Azure AD, Key Vault, Storage, Functions, Terraform, Bicep, GitHub Actions, GitLab CI, Python, Bash, and PowerShell</strong>, with applied experience supporting distributed Web3 and DLT platform workloads — including Besu- and Canton-aligned node infrastructure, private chain environments, and secure deployment patterns. Proven track record designing reusable IaC modules, hardening CI/CD pipelines with SAST/DAST and CNAPP controls, building observability stacks, and coordinating globally distributed engineering teams to ship stable, secure, and scalable platform releases in regulated enterprise settings.",
+  "skills": [
+    "Azure",
+    "Terraform",
+    "Bicep",
+    "GitHub Actions",
+    "GitLab CI",
+    "DevSecOps",
+    "Python",
+    "Kubernetes",
+    "CNAPP",
+    "CI/CD"
+  ],
+  "achievements": [
+    {
+      "tag": "Azure Platform Engineering",
+      "text": "Designed and maintained Azure-native infrastructure using Terraform and Bicep across VNet, Azure AD, Key Vault, VMs, Storage, and Functions to support scalable, multi-environment enterprise platform delivery."
+    },
+    {
+      "tag": "Web3 & DLT Infrastructure",
+      "text": "Supported Besu- and Canton-aligned DLT node infrastructure on Azure DLT, delivering secure deployment patterns, private networking, and repeatable provisioning for blockchain platform workloads in regulated environments."
+    },
+    {
+      "tag": "DevSecOps & CNAPP",
+      "text": "Embedded DevSecOps controls — SAST, DAST, secrets scanning, image validation, CNAPP policy enforcement, and gated approval gates — into CI/CD pipelines to strengthen supply-chain security and platform compliance."
+    },
+    {
+      "tag": "CI/CD Automation",
+      "text": "Built and modernized CI/CD pipelines using GitHub Actions and GitLab CI with secure runner standards, branch protections, Terraform validation, and artifact scanning to automate delivery across controlled environments."
+    },
+    {
+      "tag": "Observability & Reliability",
+      "text": "Implemented Azure Monitor, Grafana, Prometheus, and Splunk-based observability stacks with alerting and runbooks to accelerate incident identification and drive SRE-grade platform reliability for global engineering teams."
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "Cloud Platform — Azure",
+      "content": "Azure VMs, VNet, Azure AD (Entra ID), Key Vault, Azure Storage, Azure Functions, Azure Container Registry, Azure Kubernetes Service (AKS), NSGs, Azure Private Link, Azure DLT (Besu, Canton)"
+    },
+    {
+      "title": "Infrastructure as Code",
+      "content": "Terraform, Bicep, ARM Templates, Ansible, Packer, reusable IaC modules, environment baselines, automated provisioning, policy-as-code, change standardization"
+    },
+    {
+      "title": "CI/CD & DevSecOps",
+      "content": "GitHub Actions, GitLab CI/CD, Jenkins, ArgoCD, secure runner standards, branch protections, SAST, DAST, secrets scanning, artifact scanning, image validation, CNAPP, gated approvals, software supply chain controls"
+    },
+    {
+      "title": "Containers & Orchestration",
+      "content": "Kubernetes, AKS, EKS, Docker, Helm, Istio, Azure Container Registry, Amazon ECR, GitOps, microservices deployment, cluster operations"
+    },
+    {
+      "title": "Security & Compliance",
+      "content": "Azure AD / Entra ID, IAM policies, RBAC, Managed Identities, Key Vault secrets management, cloud-native security controls, CNAPP, MFA, network security groups, zero-trust access patterns"
+    },
+    {
+      "title": "Networking",
+      "content": "Azure VNet, subnets, NSGs, Private Link, VPN Gateway, ExpressRoute, VPC, Transit Gateway, Route 53, ALB/NLB, TLS/SSL management, DNS, load balancing"
+    },
+    {
+      "title": "Monitoring & Observability",
+      "content": "Azure Monitor, Application Insights, Grafana, Prometheus, Splunk, ELK, Fluentd, custom exporters, alerting, incident runbooks, SLO/SLI tracking, operational dashboards"
+    },
+    {
+      "title": "Scripting & Programming",
+      "content": "Python, TypeScript, Bash, PowerShell, Go (tooling-level), .NET (C#), Core Java, REST API integration, automation scripting, internal tooling development"
+    },
+    {
+      "title": "Source Control & SCM",
+      "content": "GitHub, GitLab, Bitbucket, Git-based workflows, branching standards, merge controls, artifact versioning, release governance"
+    },
+    {
+      "title": "Additional Platforms",
+      "content": "AWS (EC2, S3, Lambda, VPC, IAM, CloudWatch, CodePipeline), Jira, SonarQube, JFrog Artifactory, Vault, Milvus, Databricks, Liquibase"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "skills_used": [
+        "Azure",
+        "Terraform",
+        "GitHub Actions",
+        "Python",
+        "Kubernetes",
+        "AKS",
+        "Key Vault",
+        "DevSecOps",
+        "CNAPP"
+      ],
+      "impact": [
+        "Designed and maintained Azure-native cloud infrastructure — including VMs, VNet, Azure AD, Key Vault, Storage, and Functions — using Terraform and Bicep to standardize multi-environment provisioning and eliminate manual drift across platform workloads.",
+        "Supported DLT-adjacent platform operations by delivering private network configurations, secure node deployment patterns, and Kubernetes-based runtime environments aligned to distributed ledger workload requirements on Azure.",
+        "Embedded DevSecOps controls into CI/CD pipelines — including SAST, secrets scanning, Terraform plan validation, CNAPP policy gates, and artifact integrity checks — to harden the software delivery supply chain and satisfy enterprise compliance requirements.",
+        "Built reusable GitHub Actions workflows and GitLab CI pipelines with secure runner standards, branch protections, gated approval stages, and environment-specific deployment targets for globally distributed engineering teams.",
+        "Automated Azure infrastructure provisioning and teardown through Terraform modules and Bicep templates, improving IaC repeatability, change auditability, and environment consistency across dev, staging, and production.",
+        "Implemented Azure Monitor, Application Insights, Grafana, and Prometheus-based observability stacks with alerting thresholds, SLO tracking dashboards, and on-call runbooks to accelerate incident identification and platform recovery.",
+        "Automated platform operations with Python, Bash, and PowerShell to reduce manual effort across provisioning, certificate management, secret rotation, and recovery workflows integrated with Key Vault.",
+        "Administered Azure AD / Entra ID identities, Managed Identity assignments, RBAC policies, and conditional access controls to enforce zero-trust access patterns across cloud platform services.",
+        "Coordinated release scheduling, dependency alignment, and change-window planning with globally distributed engineering teams, delivering structured deployment communications and risk mitigation plans to leadership.",
+        "Managed self-hosted build runners, deployment agents, and distributed pipeline infrastructure to maintain throughput, isolate workloads, and enforce security baselines across controlled compute environments.",
+        "Containerized microservices with Docker and deployed them on AKS using Helm charts and Kubernetes manifests, ensuring consistent runtime behavior across lower and production environments.",
+        "Produced platform architecture diagrams, environment specifications, deployment guides, and operational runbooks to improve cross-functional alignment and support readiness for global teams."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "skills_used": [
+        "Azure",
+        "GitLab CI",
+        "Terraform",
+        "Kubernetes",
+        "Docker",
+        "DevSecOps"
+      ],
+      "impact": [
+        "Deployed and administered self-hosted GitLab CI runners with secure runner standards, container image validation, and pipeline hardening controls to support high-throughput DevSecOps delivery.",
+        "Strengthened CI/CD pipeline security by integrating SAST, secrets management, controlled branch protections, and artifact scanning before deployment promotion to regulated environments.",
+        "Migrated Jenkins pipelines to GitLab CI and modernized runner configuration with reusable pipeline templates and governance controls to improve maintainability and consistency across teams.",
+        "Applied Terraform-based IaC practices on Azure to support repeatable environment setup, resource group management, and network configuration for cloud workload delivery.",
+        "Managed Kubernetes cluster operations and application deployments through pods, deployments, services, ConfigMaps, and Helm-driven release packaging for multi-namespace environments.",
+        "Established secure Git-based workflows, merge policies, and branch governance standards and coached globally distributed development teams on GitLab CI best practices.",
+        "Troubleshot pipeline, container, and Kubernetes issues in partnership with development teams to accelerate delivery and reduce deployment failures across distributed environments."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "skills_used": [
+        "AWS",
+        "Azure",
+        "Terraform",
+        "GitHub Actions",
+        "EKS",
+        "GitLab",
+        "Python",
+        "CloudWatch"
+      ],
+      "impact": [
+        "Provisioned cloud infrastructure with Terraform and CloudFormation for multi-environment application delivery, standardizing IaC module patterns and enabling repeatable environment baselines.",
+        "Built GitHub Actions workflows and GitLab CI pipelines for deploying microservices to Kubernetes clusters across multiple environments with controlled promotion and gated approval stages.",
+        "Designed secure VPC networking, DNS, security groups, load balancing, VPN connectivity, Direct Connect, and traffic-routing patterns for enterprise application and platform workloads.",
+        "Implemented IAM policies, role-based access controls, and cloud-native security patterns to enforce least-privilege access and support compliance sign-offs in regulated environments.",
+        "Deployed Kubernetes microservices through ArgoCD-based GitOps workflows, improving deployment consistency, rollback capabilities, and platform observability.",
+        "Built dashboards for CI/CD pipelines, deployment health, and operational telemetry to improve engineering visibility and release governance across distributed teams.",
+        "Authored PowerShell and shell automation scripts and published them to shared repositories for consistent reuse across infrastructure support and operational workflows.",
+        "Implemented disaster recovery, backup, and observability controls using CloudWatch and AWS-native tooling to support incident recovery and SRE reliability targets.",
+        "Integrated enterprise tooling with SonarQube, Slack, GitHub, Jenkins, and Teams to support continuous quality checks, supply-chain controls, and team coordination."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "skills_used": [
+        "AWS",
+        "Terraform",
+        "Kubernetes",
+        "GitHub Actions",
+        "Python",
+        "Prometheus",
+        "Ansible",
+        "Jenkins"
+      ],
+      "impact": [
+        "Designed CI/CD pipelines for application and infrastructure deployments with branch protections, gated approvals, artifact validation, and SAST integration for DevSecOps-aligned delivery.",
+        "Implemented IAM access controls, MFA enforcement, and role-based policies to improve cloud security posture and operational consistency across shared environments.",
+        "Delivered Terraform and Kubernetes automation for payment-platform deployments, enabling repeatable infrastructure provisioning and secure container orchestration.",
+        "Developed custom Prometheus exporters in Python to capture application-specific operational metrics and feed SRE-grade alerting and on-call workflows.",
+        "Built resilient Ansible roles and playbooks to deploy highly available monitoring stacks using Grafana, Prometheus, and Node Exporter across platform environments.",
+        "Automated project onboarding to the enterprise DevOps platform through API-driven Python workflows, reducing lead time and standardizing environment setup.",
+        "Developed internal Python FastAPI services to integrate Jenkins, Jira, and JFrog into platform automation workflows, improving delivery coordination and tooling consistency.",
+        "Created architecture and resource diagrams to support compliance reviews, security sign-offs, and risk-aligned change governance processes."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "AWS",
+        "Azure",
+        "Kubernetes",
+        "Helm",
+        "Jenkins",
+        "Ansible",
+        "PowerShell",
+        "ELK"
+      ],
+      "impact": [
+        "Represented the DevOps team in cross-functional stakeholder discussions — including engineering leads in Germany — presenting CI/CD roadmaps, platform automation strategies, and quarterly delivery priorities.",
+        "Built monitoring and logging architecture with ELK Stack to centralize application and infrastructure telemetry, improving operational troubleshooting and incident diagnosis.",
+        "Deployed Kubernetes manifests and Helm-packaged releases to on-premises and cloud clusters, standardizing multi-namespace application delivery across demo, UAT, and production environments.",
+        "Integrated on-premises identity sources with cloud access controls — aligning Azure AD and role-based policies — and strengthened security using MFA and privileged access patterns.",
+        "Provisioned and managed cloud resources through CloudFormation and PowerShell to support repeatable infrastructure deployment and controlled environment changes.",
+        "Planned and supported migration strategies for traditional workloads moving to cloud-based environments using lift-and-shift and modernization approaches.",
+        "Maintained continuous delivery workflows for REST-based microservices across eight environments, coordinating deployment sequencing, rollbacks, and post-release validation."
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "client": "HPE",
+      "skills_used": [
+        "Terraform",
+        "Ansible",
+        "GitLab",
+        "Python",
+        "Shell Scripting",
+        "Jenkins",
+        "Splunk"
+      ],
+      "impact": [
+        "Built and maintained Terraform infrastructure automation and executed environment changes through CI/CD pipelines with structured artifact promotion across stages.",
+        "Created deployment pipelines with Ansible and YAML-based pipeline definitions to support repeatable, controlled release promotion from development through production.",
+        "Defined and implemented Git branching strategies, release tagging, and merge governance standards to improve code promotion discipline and deployment control.",
+        "Performed proof-of-concept builds and translated technical requirements into implementable platform and infrastructure solutions.",
+        "Documented build, release, and deployment flows for infrastructure, API, database, and UI components to support operational continuity and team handoff.",
+        "Configured self-hosted build agents and managed variable groups and environment-specific configuration to separate pipeline stages cleanly across delivery targets."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "Microsoft Certified: Azure Fundamentals",
+    "AWS Certified Solutions Architect - Associate",
+    "GitLab Certified Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Tailoring level: Aggressive.",
+    "Tailored for Azure DevOps / Web3 Platform Engineer JD.",
+    "Focus areas: Azure infrastructure (VMs, VNet, AD, Key Vault, Storage, Functions), Azure DLT (Besu, Canton), Terraform + Bicep IaC, GitHub Actions / GitLab CI/CD, DevSecOps (SAST, DAST, CNAPP, supply-chain controls), IAM / RBAC / cloud-native security, observability, globally distributed team coordination.",
+    "Azure DevOps Engineer Expert certification promoted to top of certifications list to lead with strongest credential alignment."
+  ]
+}
