@@ -26,12 +26,12 @@ Current branch roles:
   - should contain plugin manifests, packaged skills/apps, marketplace metadata, and any helper assets/scripts needed for plugin distribution
   - should not be used for general resume tailoring or generic skill-authoring changes unless those changes are required by the plugin package itself
   - current target plugin package name: `resume-creator-plugin`
-  - plugin requests should support a domain input such as `mech` or `devops-cloud`
+  - plugin requests should support the `devops-cloud` domain input
   - current target plugin display name: `Résumé Creator Plugin`
 
-- `codex/mech-vikram`
-  - branch for Vikram mechanical resume work
-  - should carry branch-specific instructions for Vikram mechanical tailoring
+- `codex/devops-cloud`
+  - branch for Rajendra DevOps / Cloud resume generation
+  - supports all four tailoring levels through user input
 
 - `codex/devops-cloud`
   - branch for DevOps / Cloud resume generation
@@ -96,7 +96,6 @@ Level meaning for users:
 
 When a JD is provided:
 
-- if the user asks for `Vikram`, use Vikram’s base resume
 - if the user asks for `Rajendra`, use Rajendra’s base resume
 
 Do not assume the person when the user names one explicitly.
@@ -106,7 +105,6 @@ Do not assume the person when the user names one explicitly.
 When creating a resume from a JD, the request should clearly identify:
 
 1. the person
-   - `Vikram`
    - `Rajendra`
 
 2. the tailoring level
@@ -122,9 +120,9 @@ When creating a resume from a JD, the request should clearly identify:
 
 Good request examples:
 
-- `Create a Tailored resume for Vikram using this JD: ...`
+- `Create a Tailored resume for Rajendra using this JD: ...`
 - `Create an Aggressive resume for Rajendra for this role: ...`
-- `Optimize Vikram's resume for this JD`
+- `Optimize Rajendra's resume for this JD`
 
 If the user does not name a level:
 

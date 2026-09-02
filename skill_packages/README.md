@@ -6,7 +6,7 @@ Current branch intent:
 
 - use the `resume-creator-skill` branch for skill package development
 - keep skill-specific folders, packaging metadata, helper scripts, and distribution notes here
-- do not update this directory from `main`, `codex/mech-vikram`, or `codex/devops-cloud` unless those changes are intentionally being promoted across branches
+- do not update this directory from `main` or `codex/devops-cloud` unless those changes are intentionally being promoted across branches
 
 Recommended organization:
 

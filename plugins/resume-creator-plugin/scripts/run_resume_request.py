@@ -30,8 +30,6 @@ def resolve_person_id(person: str, domain: str) -> str:
     normalized_domain = domain.strip().lower()
     mapping = {
         ("rajendra", "devops-cloud"): "rajendra-prasad-n",
-        ("vikram", "devops-cloud"): "vikram-bathala",
-        ("vikram", "mech"): "vikram-bathala-mech",
     }
     try:
         return mapping[(normalized_person, normalized_domain)]
@@ -102,8 +100,8 @@ def render_request(request: ResumeRequest) -> dict[str, object]:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Generate HTML and PDF resume artifacts from plugin-style inputs.")
-    parser.add_argument("--person", required=True, help="Person name, for example Rajendra or Vikram")
-    parser.add_argument("--domain", required=True, choices=["mech", "devops-cloud"], help="Resume domain routing key")
+    parser.add_argument("--person", required=True, help="Person name, for example Rajendra")
+    parser.add_argument("--domain", required=True, choices=["devops-cloud"], help="Resume domain routing key")
     parser.add_argument("--level", default="Tailored", help="Tailoring level: Base, Tailored, Optimized, or Aggressive")
     parser.add_argument("--jd-text", help="Raw job description text")
     parser.add_argument("--jd-file", help="Path to a text file containing the job description")

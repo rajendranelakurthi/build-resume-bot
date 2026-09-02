@@ -33,11 +33,11 @@ Repository foundation for managing resume content for multiple people and render
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate
+source .venv/bin/activate
 pip install -e .
 python -m resume_agents.cli list-people
-python -m resume_agents.cli render-html --person vikram-bathala --output examples/vikram-bathala.html
-python -m resume_agents.cli request --person vikram-bathala --message "Tailor my resume for a lead platform engineering role"
+python -m resume_agents.cli render-html --person rajendra-prasad-n --output examples/rajendra-prasad-n.html
+python -m resume_agents.cli request --person rajendra-prasad-n --message "Tailor my resume for a lead platform engineering role"
 ```
 
 ## Current base format
