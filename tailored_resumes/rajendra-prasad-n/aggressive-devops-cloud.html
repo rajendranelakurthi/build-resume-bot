@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajendra Prasad N - Lead Cloud &amp; DevOps Engineer</title>
+
+<style>
+*{box-sizing:border-box;}
+body{margin:0;padding:12px 0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:#222;line-height:1.4;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.resume-page{width:190mm;min-height:277mm;margin:0 auto;background:#ffffff;box-shadow:0 8px 24px rgba(15,57,112,.12);}
+header{background:linear-gradient(120deg,#174a8b,#0f3970);color:white;padding:18px 26px;display:flex;justify-content:space-between;gap:18px;}
+.header-left{max-width:118mm;}
+.header-left h1{margin:0;font-size:30px;letter-spacing:.4px;font-weight:800;}
+.role{margin-top:6px;font-size:13px;font-weight:700;color:#ffc400;text-transform:uppercase;}
+.header-right{text-align:right;font-size:12px;line-height:1.55;}
+.header-right a{color:white;text-decoration:none;word-break:break-word;}
+.content{padding:18px 26px 22px;}
+.summary-box{background:#f6f9fd;border-left:4px solid #174a8b;padding:12px 14px;border-radius:6px;font-size:13px;margin-bottom:18px;}
+.section-title{font-size:16px;color:#174a8b;text-transform:uppercase;font-weight:800;border-bottom:2px solid #174a8b;padding-bottom:5px;margin:20px 0 12px 0;page-break-after:avoid;}
+.certifications-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:6px;page-break-inside:avoid;break-inside:avoid;align-items:start;}
+.cert-card{background:#fbfdff;border:1px solid #e1e8f2;border-radius:8px;padding:8px 6px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;page-break-inside:avoid;break-inside:avoid;min-height:140px;}
+.cert-badge-svg{width:100%;max-width:92px;height:auto;display:block;}
+.cert-label{margin-top:6px;font-size:10px;font-weight:700;line-height:1.25;color:#173b6b;}
+.skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.skill-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;}
+.skill-card h3{margin:0 0 5px 0;font-size:11px;color:#e06300;text-transform:uppercase;}
+.skill-card p{margin:0;font-size:11.5px;}
+.job-block{margin-bottom:18px;page-break-inside:avoid;break-inside:avoid;}
+.job-header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:5px;}
+.job-title{font-weight:700;font-size:14px;}
+.company-name{color:#174a8b;font-weight:700;}
+.job-meta{font-size:11.5px;color:#666;white-space:nowrap;}
+.job-details{font-size:11.25px;color:#444;margin:0 0 7px 0;line-height:1.45;}
+.job-details div{margin-bottom:2px;}
+ul{margin:0;padding-left:18px;}
+li{font-size:11.5px;margin-bottom:4px;}
+.tag{color:#174a8b;font-weight:700;}
+.education-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:8px;}
+.education-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;font-size:11.5px;}
+.education-row{display:flex;align-items:center;gap:16px;}
+.education-copy{min-width:0;}
+.education-card strong{display:block;margin-bottom:3px;}
+.education-logo{width:auto;max-width:140px;max-height:56px;height:auto;display:block;flex:0 0 auto;object-fit:contain;object-position:left center;}
+@page{size:A4 portrait;margin:8mm;}
+@media print{
+html,body{width:210mm;}
+body{background:white;padding:0;font-size:11px;line-height:1.32;}
+.resume-page{width:194mm;min-height:auto;margin:0 auto;box-shadow:none;}
+header{padding:14px 18px;gap:14px;}
+.header-left{max-width:118mm;}
+.header-left h1{font-size:25px;}
+.role{font-size:11.5px;margin-top:4px;}
+.header-right{font-size:10.5px;line-height:1.4;}
+.content{padding:12px 18px 16px;}
+.summary-box{font-size:11.25px;padding:10px 12px;margin-bottom:12px;}
+.section-title{font-size:13px;margin:14px 0 8px 0;padding-bottom:4px;border-bottom-width:2px;page-break-after:avoid;break-after:avoid;}
+.certifications-grid{grid-template-columns:repeat(5,minmax(0,1fr)) !important;gap:6px;}
+.cert-card{min-height:112px;padding:6px 4px;}
+.cert-badge-svg{max-width:74px;}
+.cert-label{font-size:8.5px;line-height:1.15;margin-top:5px;}
+.skills-grid{grid-template-columns:1fr 1fr !important;gap:8px;page-break-inside:auto;}
+.skill-card{padding:8px 9px;}
+.skill-card h3{font-size:9.5px;margin-bottom:4px;}
+.skill-card p{font-size:9.5px;line-height:1.28;}
+.job-block{margin-bottom:12px;}
+.job-title{font-size:12px;}
+.job-meta{font-size:9.5px;}
+.job-details{font-size:9.5px;line-height:1.3;margin-bottom:5px;}
+ul{padding-left:15px;}
+li{font-size:9.6px;line-height:1.26;margin-bottom:2px;}
+.education-grid{gap:8px;margin-bottom:6px;}
+.education-card{padding:8px 9px;font-size:9.8px;}
+.education-row{gap:12px;}
+.education-card strong{margin-bottom:2px;}
+.education-logo{width:auto;max-width:112px;max-height:42px;}
+a{text-decoration:none;color:inherit;}
+}
+@media (max-width:900px){body{padding:0;}.resume-page{width:100%;min-height:auto;box-shadow:none;}.certifications-grid{grid-template-columns:repeat(3,1fr);}.skills-grid{grid-template-columns:1fr;}.header-left{max-width:none;}.job-header{flex-direction:column;}.job-meta{white-space:normal;}.education-row{align-items:flex-start;}}
+@media (max-width:560px){.certifications-grid{grid-template-columns:repeat(2,1fr);}.cert-card{min-height:132px;}}
+</style>
+</head>
+<body>
+<div class="resume-page">
+<header>
+<div class="header-left">
+<h1>RAJENDRA PRASAD N</h1>
+<div class="role">Lead Cloud &amp; DevOps Engineer | AWS, CI/CD, Resiliency &amp; DevSecOps</div>
+</div>
+<div class="header-right">
+<div>rajendran.scm@gmail.com</div>
+<div>+1 (469) 926-4201</div>
+<div>Dallas, TX</div>
+<div><a href="https://www.linkedin.com/in/rajendranelakurthi">linkedin.com/in/rajendranelakurthi</a></div>
+<div><a href="https://rajendranelakurthi.github.io">rajendranelakurthi.github.io</a></div>
+</div>
+</header>
+<div class="content">
+<div class="summary-box"><strong>Aggressive, results-driven Lead Cloud & DevOps Engineer with 10+ years of full software development lifecycle experience architecting large-scale, distributed applications in mission-critical environments.</strong> Deep technical expertise across <strong>Unix/Linux, AWS, Jenkins, Jules, Python, Shell scripting, and SQL</strong>. Proven track record of driving extreme resiliency, high performance, and robust Disaster Recovery (DR) postures for enterprise cloud platforms. Highly skilled at engineering advanced CI/CD automation, enforcing DevSecOps controls, supporting <strong>REST APIs, Spring Boot, and Node.js</strong> microservices, and enabling event-driven architectures leveraging <strong>JMS</strong> and cloud messaging APIs. Strong champion of Test-Driven Development (TDD) and continuous delivery, consistently partnering with cross-functional teams to deliver secure, scalable, and highly available infrastructure.</div>
+<h2 class="section-title">Certifications</h2>
+<div class="certifications-grid">
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 162 54V126L90 168 18 126V54Z" fill="#3136f0" stroke="#4fb0ff" stroke-width="5"/><text x="90" y="44" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">aws</text><text x="90" y="63" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">certified</text><line x1="48" y1="78" x2="132" y2="78" stroke="#9bb8ff" stroke-width="2"/><text x="90" y="104" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Solutions</text><text x="90" y="126" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Architect</text><text x="90" y="148" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="2" fill="#ffffff">ASSOCIATE</text></svg>
+<div class="cert-label">AWS Certified Solutions Architect - Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0a3d86" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#d9e2f7">CERTIFIED</text><text x="90" y="94" text-anchor="middle" font-size="17" font-weight="700" fill="#202020">AZURE</text><text x="90" y="116" text-anchor="middle" font-size="13" font-weight="700" fill="#202020">DEVOPS ENGINEER</text><text x="90" y="145" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">EXPERT</text><circle cx="68" cy="160" r="7" fill="#ffffff"/><circle cx="90" cy="160" r="7" fill="#ffffff"/><circle cx="112" cy="160" r="7" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure DevOps Engineer Expert</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><circle cx="90" cy="90" r="82" fill="#ffffff" stroke="#3b296e" stroke-width="5"/><circle cx="90" cy="90" r="72" fill="none" stroke="#d7d0ea" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">GITLAB</text><text x="90" y="61" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">CERTIFIED</text><path d="M76 82 90 112 104 82 114 114 90 140 66 114Z" fill="#f36f21"/><path d="M76 82 90 112 104 82" fill="none" stroke="#2c235d" stroke-width="4" stroke-linejoin="round"/><text x="90" y="157" text-anchor="middle" font-size="13" font-weight="700" fill="#2c235d">ASSOCIATE</text></svg>
+<div class="cert-label">GitLab Certified Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0c62b7" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#1e225f">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#555">CERTIFIED</text><text x="90" y="96" text-anchor="middle" font-size="18" font-weight="700" fill="#202020">AZURE</text><text x="90" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#202020">FUNDAMENTALS</text><path d="M90 133 96 150 114 150 99 160 105 176 90 166 75 176 81 160 66 150 84 150Z" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure Fundamentals</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M50 14H130L166 52V124L90 168 14 124V52Z" fill="#4f26c8" stroke="#7f63ff" stroke-width="5"/><circle cx="90" cy="38" r="16" fill="#ffffff"/><circle cx="90" cy="38" r="10" fill="none" stroke="#0096d6" stroke-width="4"/><text x="90" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">CERTIFIED</text><text x="90" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">MuleSoft</text><text x="90" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Developer</text><text x="90" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">LEVEL 1</text></svg>
+<div class="cert-label">MuleSoft Certified Developer - Level 1</div>
+</div>
+</div>
+<h2 class="section-title">Key Platform Achievements</h2>
+<ul>
+<li><span class="tag">Mission-Critical Resiliency</span> Engineered highly resilient, large-scale distributed cloud architectures on AWS, strictly enforcing disaster recovery, performance optimization, and rigorous failover testing.</li>
+<li><span class="tag">Advanced CI/CD Automation</span> Architected aggressive deployment automation strategies using Jenkins, Jules, and GitLab CI, accelerating release velocity while embedding TDD, security scanning, and automated testing.</li>
+<li><span class="tag">Cloud Native Ecosystems</span> Led DevOps enablement for high-throughput Spring Boot, Node.js, and REST API microservices, optimizing runtime environments across EKS and native AWS.</li>
+<li><span class="tag">Event-Driven Infrastructure</span> Provisioned and scaled infrastructure for event-driven architectures, integrating messaging platforms including JMS, AWS SNS/SQS, and Kafka to decouple enterprise domains.</li>
+<li><span class="tag">Security &amp; Governance</span> Hardened platform security posture by systematically integrating IAM, policy-driven DevSecOps controls, MFA, and continuous application security scanning directly into CI/CD workflows.</li>
+</ul>
+<h2 class="section-title">Core Technologies</h2>
+<div class="skills-grid">
+<div class="skill-card">
+<h3>Operating Systems</h3>
+<p>Unix, Linux, RHEL, Ubuntu, HPUX, Windows Server</p>
+</div>
+<div class="skill-card">
+<h3>CI/CD &amp; Automation</h3>
+<p>Jenkins, Jules, GitHub Actions, GitLab CI, AWS CodePipeline, ArgoCD, Ansible, Terraform</p>
+</div>
+<div class="skill-card">
+<h3>Cloud &amp; Infrastructure</h3>
+<p>AWS (EC2, EKS, VPC, Route 53, ALB/NLB, CloudFront, S3), Disaster Recovery, Multi-Region Architecture</p>
+</div>
+<div class="skill-card">
+<h3>Development &amp; Scripting</h3>
+<p>Python, Shell, Bash, PowerShell, Java (Spring Boot), JavaScript (Node.js), REST APIs, Core Algorithms</p>
+</div>
+<div class="skill-card">
+<h3>Data &amp; Messaging</h3>
+<p>SQL, PostgreSQL, MySQL, Amazon RDS, JMS, event-driven architectures, Milvus, Databricks</p>
+</div>
+<div class="skill-card">
+<h3>Monitoring &amp; Resiliency</h3>
+<p>CloudWatch, Grafana, Prometheus, Splunk, ELK, fault-tolerant design, performance tuning</p>
+</div>
+<div class="skill-card">
+<h3>Containers &amp; Orchestration</h3>
+<p>Docker, Kubernetes, EKS, Helm, OpenShift</p>
+</div>
+</div>
+<h2 class="section-title">Professional Experience</h2>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Lead DevOps Engineer</span> | <span class="company-name">AT&amp;T Services Inc.</span></div>
+<span class="job-meta">08/2023 - Present</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, Jenkins, Jules, Python, Shell, Spring Boot, Node.js, SQL, TDD</div>
+</div>
+<ul>
+<li>Architected scalable, high-throughput CI/CD pipelines across AWS environments using Jenkins, Jules, and GitHub Actions, rapidly automating build, test, and enterprise release execution.</li>
+<li>Drove platform resiliency and optimization for mission-critical REST APIs and distributed applications built on Spring Boot and Node.js, ensuring exceptional performance at scale.</li>
+<li>Automated comprehensive disaster recovery (DR) protocols and performance tuning mechanisms, minimizing RTO/RPO across multi-region AWS architectures.</li>
+<li>Spearheaded Unix/Linux-based automation efforts using Python and Shell scripting, aggressively reducing manual toil and accelerating infrastructure provisioning.</li>
+<li>Integrated robust TDD workflows, automated testing gates, and dynamic application security scans into release pipelines, enforcing strict DevSecOps compliance.</li>
+<li>Provided cloud infrastructure and deployment support for event-driven architectures utilizing messaging APIs (JMS/Kafka), enabling asynchronous, highly scalable microservice communication.</li>
+<li>Managed database release pipelines for relational stores (SQL, PostgreSQL) alongside modern vector search platforms (Milvus), enforcing secure schema evolution and querying capabilities.</li>
+<li>Orchestrated incident response and cross-functional troubleshooting in a high-pressure, large-scale environment, rapidly mitigating disruptions and restoring technical alignment.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer</span> | <span class="company-name">GlobalLogic</span></div>
+<span class="job-meta">03/2023 - 08/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, Linux, GitLab CI, Kubernetes, Python, SQL</div>
+</div>
+<ul>
+<li>Deployed, hardened, and scaled Linux-based build agents across mission-critical CI/CD operations, dynamically auto-scaling infrastructure to meet peak engineering demands.</li>
+<li>Collaborated aggressively with software engineering teams across the full SDLC to enforce automated testing standards, branch protections, and container image validation.</li>
+<li>Administered complex Kubernetes clusters, deploying resilient pods, services, and core platform components tailored for REST API performance and low-latency data access.</li>
+<li>Migrated legacy pipelines into modernized GitLab CI architectures, standardizing CI/CD best practices and embedding deep application security protocols.</li>
+<li>Optimized Docker image builds, SQL database integration deployments, and runtime environments to guarantee strict parity between staging and production tiers.</li>
+<li>Troubleshot complex pipeline, container, and Unix/Linux host issues, systematically eliminating deployment blockers and accelerating time-to-market for large-scale applications.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer II</span> | <span class="company-name">Akamai Technologies</span></div>
+<span class="job-meta">12/2021 - 03/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, Python, Shell, Terraform, Disaster Recovery, Resiliency</div>
+</div>
+<ul>
+<li>Engineered unyielding disaster recovery and backup architectures utilizing AWS Elastic Disaster Recovery, strictly adhering to aggressive resiliency mandates for enterprise workloads.</li>
+<li>Automated AWS infrastructure provisioning using Terraform and CloudFormation, standardizing secure VPC networks, ALB routing, and Multi-AZ deployments for highly available web applications.</li>
+<li>Designed and maintained resilient Jenkins and Git-based CI/CD pipelines, automating the continuous delivery of Python, Node.js, and Java-based artifacts to EKS.</li>
+<li>Authored extensive library of Shell and Python automation scripts, institutionalizing reusable DevOps capabilities and core algorithms across distributed engineering teams.</li>
+<li>Supported deployment of event-driven components and integrated telemetry and monitoring (CloudWatch, Prometheus) to proactively resolve performance bottlenecks.</li>
+<li>Published versioned artifacts, managed secure SQL migrations, and enforced environment consistency to support large-scale upstream engineering operations.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer / Senior SRE</span> | <span class="company-name">Turvo India Pvt Ltd</span></div>
+<span class="job-meta">04/2020 - 12/2021</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, Python, Jenkins, JMS, Security, Kubernetes</div>
+</div>
+<ul>
+<li>Designed CI/CD automation and DevSecOps pipelines for AWS environments, tightly integrating code quality checks (SonarQube) and TDD processes to enforce elite release standards.</li>
+<li>Executed platform engineering best practices to amplify the reliability and scale of message-driven architectures, utilizing JMS and REST APIs for logistics and supply chain systems.</li>
+<li>Developed custom internal APIs using Python (FastAPI) to bridge Jenkins, Jira, and JFrog, demonstrating strong coding skills to drive aggressive operational efficiency.</li>
+<li>Authored and enforced custom IAM security controls, MFA, and identity isolation policies, ensuring airtight application security across highly regulated multi-account AWS environments.</li>
+<li>Developed customized Prometheus exporters using Python to capture real-time operational metrics, vastly improving observability and performance tracking for core services.</li>
+<li>Delivered a repeatable Terraform and Kubernetes framework tailored for payment platform deployments, maintaining strict compliance and disaster recovery readiness.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer</span> | <span class="company-name">HCL Technologies</span></div>
+<span class="job-meta">02/2019 - 04/2020</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> Mercedes-Benz Research &amp; Development India</div>
+<div><strong>Skills Used:</strong> Unix/Linux, AWS, Jenkins, Spring Boot, Shell Scripting, SQL</div>
+</div>
+<ul>
+<li>Executed large-scale workload migrations from on-premises Unix/Linux environments to AWS, utilizing robust modernization strategies for enterprise Spring Boot applications and relational SQL databases.</li>
+<li>Built continuous delivery pipelines leveraging Jenkins, aggressively supporting REST-based microservices across a myriad of delivery environments (Sandbox, UAT, PROD).</li>
+<li>Architected enterprise monitoring pipelines via the ELK stack, delivering critical insights into infrastructure health, security events, and system resiliency.</li>
+<li>Managed Helm-based release packaging and deployed intricate Kubernetes workloads for large-scale, mission-critical applications.</li>
+<li>Automated configuration drift remediation for fleet-level Linux instances, utilizing Shell scripting to continually enforce enterprise baseline security standards.</li>
+<li>Acted as a crucial technical liaison between cross-functional teams in India and Germany, presenting impactful DevOps strategies and securing alignment from non-technical stakeholders.</li>
+</ul>
+</div>
+<h2 class="section-title">Education</h2>
+<div class="education-grid">
+<div class="education-card">
+<div class="education-row">
+
+<div class="education-copy">
+<strong>Bachelor’s Degree in Information Technology (Engineering/Technology)</strong>
+<div>Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

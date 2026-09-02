@@ -233,7 +233,9 @@ class HtmlResumeRenderer:
     def _render_certification_badge(self, certification: str) -> str:
         label = escape(certification)
         key = certification.lower()
-        if "gitlab" in key:
+        if "google cloud" in key:
+            badge = self._gcp_badge_svg()
+        elif "gitlab" in key:
             badge = self._gitlab_badge_svg()
         elif "azure fundamentals" in key:
             badge = self._azure_fundamentals_badge_svg()
@@ -317,6 +319,20 @@ class HtmlResumeRenderer:
             '<text x="90" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">MuleSoft</text>'
             '<text x="90" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Developer</text>'
             '<text x="90" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">LEVEL 1</text>'
+            "</svg>"
+        )
+
+    def _gcp_badge_svg(self) -> str:
+        return (
+            '<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true">'
+            '<path d="M90 12 162 54V126L90 168 18 126V54Z" fill="#4285F4" stroke="#1a73e8" stroke-width="5"/>'
+            '<text x="90" y="42" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Google</text>'
+            '<text x="90" y="60" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Cloud</text>'
+            '<line x1="48" y1="72" x2="132" y2="72" stroke="#fbbc04" stroke-width="3"/>'
+            '<text x="90" y="94" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Professional</text>'
+            '<text x="90" y="114" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Cloud DevOps</text>'
+            '<text x="90" y="134" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Engineer</text>'
+            '<circle cx="68" cy="154" r="5" fill="#34a853"/><circle cx="90" cy="154" r="5" fill="#fbbc04"/><circle cx="112" cy="154" r="5" fill="#ea4335"/>'
             "</svg>"
         )
 

@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 
-@dataclass(slots=True)
+@dataclass
 class Experience:
     title: str
     company: str
@@ -14,7 +14,7 @@ class Experience:
     skills_used: list[str] = field(default_factory=list)
 
 
-@dataclass(slots=True)
+@dataclass
 class Education:
     school: str
     degree: str
@@ -22,7 +22,7 @@ class Education:
     logo_alt: str = ""
 
 
-@dataclass(slots=True)
+@dataclass
 class ResumeEntry:
     title: str
     organization: str = ""
@@ -30,13 +30,13 @@ class ResumeEntry:
     bullets: list[str] = field(default_factory=list)
 
 
-@dataclass(slots=True)
+@dataclass
 class ResumeSection:
     title: str
     entries: list[ResumeEntry] = field(default_factory=list)
 
 
-@dataclass(slots=True)
+@dataclass
 class PersonProfile:
     person_id: str
     full_name: str
@@ -60,14 +60,14 @@ class PersonProfile:
     notes: list[str] = field(default_factory=list)
 
 
-@dataclass(slots=True)
+@dataclass
 class AgentResponse:
     agent_name: str
     intent: str
     content: str
 
 
-@dataclass(slots=True)
+@dataclass
 class OrchestrationResult:
     person_id: str
     user_request: str
@@ -75,7 +75,7 @@ class OrchestrationResult:
     responses: list[AgentResponse]
 
 
-@dataclass(slots=True)
+@dataclass
 class TailoredResumeResult:
     person_id: str
     branch_name: str
