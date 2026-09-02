@@ -1,15 +1,13 @@
 # Résumé Creator Plugin Install Guide
 
-This plugin creates tailored resumes for Rajendra or Vikram and exports recruiter-ready HTML and PDF output.
+This plugin creates tailored DevOps / Cloud resumes for Rajendra and exports recruiter-ready HTML and PDF output.
 
 ## Inputs Supported
 
 - `person`
   - `Rajendra`
-  - `Vikram`
 - `domain`
   - `devops-cloud`
-  - `mech`
 - `level`
   - `Base`
   - `Tailored`
@@ -94,12 +92,12 @@ python C:\path\to\resume-creator-plugin\scripts\run_resume_request.py `
   --jd-file C:\temp\jd.txt
 ```
 
-Example for mechanical:
+Example for DevOps / Cloud:
 
 ```powershell
 python C:\path\to\resume-creator-plugin\scripts\run_resume_request.py `
-  --person Vikram `
-  --domain mech `
+  --person Rajendra `
+  --domain devops-cloud `
   --level Tailored `
   --jd-file C:\temp\jd.txt
 ```

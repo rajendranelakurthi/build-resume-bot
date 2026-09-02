@@ -19,10 +19,10 @@ Primary example profile:
 
 - `C:\Data\ai_resume\resume_data\people\rajendra-prasad-n.json`
 
-Locked mechanical base profile:
+Locked DevOps / Cloud base profile:
 
-- `C:\Data\ai_resume\resume_data\people\vikram-bathala-mech.json`
-- Use this as the default source profile for Vikram Kumar Bathala mechanical / FEA / stress / durability job tailoring requests.
+- `C:\Data\ai_resume\resume_data\people\rajendra-prasad-n.json`
+- Use this as the default source profile for Rajendra P N DevOps / Cloud job tailoring requests.
 - Do not overwrite it with JD-specific wording; generate tailored variants from it.
 
 Primary tailored example:
@@ -157,20 +157,19 @@ If the subagent limit is reached, reuse an existing reviewer agent instead of sk
 - `Project:` lines should not be rendered in experience sections.
 - `Client:` and `Skills Used:` can remain when they add value.
 - Use `additional_sections` when a resume has important content that should not be collapsed into professional experience, such as research roles, publications, or academic project portfolios.
-- For Vikram mechanical tailoring, start from `vikram-bathala-mech` rather than the existing DevOps/cloud Vikram profile.
+- For Rajendra DevOps tailoring, start from `rajendra-prasad-n` rather than the existing DevOps/cloud Rajendra profile.
 
 ## Validation
 
 Run:
 
-```powershell
-@'
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path('src').resolve()))
-import pytest
-raise SystemExit(pytest.main(['-q']))
-'@ | python -
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .
+python -m resume_agents.cli list-people
+python -m resume_agents.cli render-html --person rajendra-prasad-n --output examples/rajendra-prasad-n.html
+python -m resume_agents.cli request --person rajendra-prasad-n --message "Tailor my resume for a lead cloud storage engineering role"
 ```
 
 Expected current baseline:

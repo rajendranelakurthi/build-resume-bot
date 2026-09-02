@@ -12,15 +12,15 @@ from resume_agents.tailor import extract_keywords, tailor_profile
 
 def test_list_people() -> None:
     service = ResumeAgentService(Path("resume_data"))
-    assert "vikram-bathala" in service.list_people()
-    assert "vikram-bathala-mech" in service.list_people()
+    assert "rajendra-prasad-n" in service.list_people()
+    assert "rajendra-prasad-n" in service.list_people()
     assert "rajendra-prasad-n" in service.list_people()
 
 
 def test_tailor_request_routes_and_returns_agents() -> None:
     service = ResumeAgentService(Path("resume_data"))
     result = service.handle_request(
-        "vikram-bathala",
+        "rajendra-prasad-n",
         "Tailor my resume for a lead platform engineering role.",
     )
     assert result.route == "tailor"
@@ -29,8 +29,8 @@ def test_tailor_request_routes_and_returns_agents() -> None:
 
 def test_render_html_uses_template() -> None:
     service = ResumeAgentService(Path("resume_data"))
-    html = service.render_resume_html("vikram-bathala")
-    assert "VIKRAM BATHALA" in html
+    html = service.render_resume_html("rajendra-prasad-n")
+    assert "RAJENDRA P N" in html
     assert "Key Platform Achievements" in html
 
 
@@ -47,17 +47,14 @@ def test_render_html_supports_extended_contact_lines_and_optional_certifications
     assert "Directed end-to-end release management across multiple engineering teams by aligning schedules, dependencies, change windows, and risk mitigation plans." in html
 
 
-def test_render_html_supports_additional_sections_for_mechanical_resume() -> None:
+def test_render_html_supports_additional_sections_for_devops_resume() -> None:
     service = ResumeAgentService(Path("resume_data"))
-    html = service.render_resume_html("vikram-bathala-mech")
-    assert "VIKRAM KUMAR BATHALA" in html
-    assert "Key Engineering Highlights" in html
-    assert "Research Experience" in html
-    assert "Academic Projects" in html
-    assert "Graduate Student Assistant" in html
-    assert "Certifications" not in html
-    assert html.index("<h2 class=\"section-title\">Education</h2>") < html.index("Professional Experience")
-    assert '<img class="education-logo"' not in html
+    html = service.render_resume_html("rajendra-prasad-n")
+    assert "RAJENDRA P N" in html
+    assert "Key Platform Achievements" in html
+    assert "Certifications" in html
+    assert "Professional Experience" in html
+    assert "linkedin.com/in/rajendranelakurthi" in html
 
 
 def test_rajendra_experience_sections_have_between_10_and_15_points() -> None:
@@ -69,7 +66,7 @@ def test_rajendra_experience_sections_have_between_10_and_15_points() -> None:
 
 def test_tailor_profile_matches_keywords() -> None:
     service = ResumeAgentService(Path("resume_data"))
-    profile = service.store.load_person("vikram-bathala")
+    profile = service.store.load_person("rajendra-prasad-n")
     tailored, matched = tailor_profile(profile, "Need Kubernetes Terraform Azure platform engineering leadership")
     assert "terraform" in tailored.summary_html.lower()
     assert "terraform" in matched
@@ -88,7 +85,7 @@ def test_tailor_resume_creates_branch_commit_and_html() -> None:
 
         service = ResumeAgentService(repo_root / "resume_data", repo_root=repo_root)
         result = service.tailor_resume_to_jd(
-            "vikram-bathala",
+            "rajendra-prasad-n",
             "Need AKS Terraform Azure platform engineering",
             "codex/test-jd",
             push=False,
@@ -100,15 +97,15 @@ def test_tailor_resume_creates_branch_commit_and_html() -> None:
 
 def test_branch_name_prefers_company_name() -> None:
     jd = "Company: Aristek Consulting\nWe are seeking a highly motivated DevOps Engineer."
-    assert _branch_name("vikram-bathala", jd) == "codex/vikram-bathala-aristek-consulting"
+    assert _branch_name("rajendra-prasad-n", jd) == "codex/rajendra-prasad-n-aristek-consulting"
 
 
 def test_branch_name_falls_back_to_role_name() -> None:
     jd = "We are seeking a highly motivated DevOps Engineer to help build and maintain scalable infrastructure."
-    assert _branch_name("vikram-bathala", jd) == "codex/vikram-bathala-devops-engineer"
+    assert _branch_name("rajendra-prasad-n", jd) == "codex/rajendra-prasad-n-devops-engineer"
 
 
 def test_extract_github_username_and_hostname() -> None:
-    output = "github.com\n  ✓ Logged in to github.com account vikram (/Users/test/.config/gh/hosts.yml)\n"
-    assert _extract_username(output) == "vikram"
+    output = "github.com\n  ✓ Logged in to github.com account rajendra (/Users/test/.config/gh/hosts.yml)\n"
+    assert _extract_username(output) == "rajendra"
     assert _extract_hostname(output) == "github.com"

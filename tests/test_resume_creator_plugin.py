@@ -23,8 +23,6 @@ def test_resolve_person_id_supports_expected_domains() -> None:
     module = _load_module("run_resume_request", "run_resume_request.py")
 
     assert module.resolve_person_id("Rajendra", "devops-cloud") == "rajendra-prasad-n"
-    assert module.resolve_person_id("Vikram", "devops-cloud") == "vikram-bathala"
-    assert module.resolve_person_id("Vikram", "mech") == "vikram-bathala-mech"
 
 
 def test_normalize_level_canonicalizes_values() -> None:

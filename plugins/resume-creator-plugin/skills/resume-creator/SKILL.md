@@ -1,14 +1,14 @@
 ---
 name: resume-creator
-description: Tailor Rajendra or Vikram resumes to a JD and generate recruiter-ready HTML/PDF output. Prefer the packaged plugin workflow and avoid re-running setup steps unless installing or updating the plugin.
+description: Tailor Rajendra DevOps / Cloud resumes to a JD and generate recruiter-ready HTML/PDF output. Prefer the packaged plugin workflow and avoid re-running setup steps unless installing or updating the plugin.
 ---
 
 # Resume Creator
 
 Use the packaged workflow. Keep this short and deterministic:
 
-1. Select person: `Rajendra` or `Vikram`
-2. Select domain: `mech` or `devops-cloud`
+1. Select person: `Rajendra`
+2. Select domain: `devops-cloud`
 3. Select level: `Base`, `Tailored`, `Optimized`, or `Aggressive`
 4. Read the JD and route to the matching person/domain resume profile
 5. Tailor the structured profile to the JD
