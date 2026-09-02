@@ -1,71 +1,38 @@
 ---
 name: resume-creator
-description: Create tailored mechanical or DevOps/Cloud resumes for Rajendra or Vikram from job descriptions and render recruiter-ready HTML or PDF output. Use when Codex needs to choose one of the packaged base resumes, choose a domain such as mech or devops-cloud, apply a tailoring level such as Base, Tailored, Optimized, or Aggressive, rewrite the resume to match a JD, and regenerate output files.
+description: Tailor Rajendra or Vikram resumes to a JD and generate recruiter-ready HTML/PDF output. Prefer the packaged plugin workflow and avoid re-running setup steps unless installing or updating the plugin.
 ---
 
 # Resume Creator
 
-Use the packaged plugin workflow.
+Use the packaged workflow. Keep this short and deterministic:
 
-1. Identify the person:
-   - `Rajendra`
-   - `Vikram`
-2. Identify the domain:
-   - `mech`
-   - `devops-cloud`
-3. Identify the tailoring level:
-   - `Base`
-   - `Tailored`
-   - `Optimized`
-   - `Aggressive`
-4. Load the bundled base resume JSON from the plugin assets.
-5. Route to the appropriate resume variant for the selected domain.
-6. Tailor the resume against the JD.
-7. Regenerate HTML output.
-8. Export PDF when requested.
+1. Select person: `Rajendra` or `Vikram`
+2. Select domain: `mech` or `devops-cloud`
+3. Select level: `Base`, `Tailored`, `Optimized`, or `Aggressive`
+4. Read the JD and route to the matching person/domain resume profile
+5. Tailor the structured profile to the JD
+6. Render HTML and, if requested, export PDF
 
-Treat the expected plugin input contract as:
+Canonical execution:
 
-- `person`
-- `domain`
-- `level`
-- `jd`
-
-Return the exported PDF path as the primary output artifact when PDF generation is requested.
-
-Use the packaged scripts for deterministic execution:
-
-- `plugins/resume-creator-plugin/scripts/run_resume_request.py`
-- `plugins/resume-creator-plugin/scripts/export_html_to_pdf.py`
-- `plugins/resume-creator-plugin/scripts/install_plugin.ps1`
-- `plugins/resume-creator-plugin/scripts/install_plugin.sh`
-- `plugins/resume-creator-plugin/scripts/package_plugin.py`
-- `plugins/resume-creator-plugin/scripts/update_plugin.ps1`
-- `plugins/resume-creator-plugin/scripts/update_plugin.sh`
-
-Example:
-
-```powershell
-python plugins/resume-creator-plugin/scripts/run_resume_request.py `
-  --person Rajendra `
-  --domain devops-cloud `
-  --level Aggressive `
-  --jd-file C:\temp\jd.txt
+```bash
+python3 plugins/resume-creator-plugin/scripts/run_resume_request.py \
+  --person Rajendra \
+  --domain devops-cloud \
+  --level Aggressive \
+  --jd-file /path/to/jd.txt
 ```
 
-Current level behavior in this packaged baseline:
+Notes:
+- `Base` keeps the base resume content and renders directly.
+- `Tailored`, `Optimized`, and `Aggressive` all use the repo’s tailoring engine.
+- Return the PDF path as the primary output artifact when a PDF is requested.
+- Use the bundled plugin assets in `plugins/resume-creator-plugin/assets/` rather than rebuilding the resume from scratch.
 
-- `Base` keeps the original resume content and renders HTML/PDF directly
-- `Tailored`, `Optimized`, and `Aggressive` all use the current repo tailoring engine
-- deeper differentiation between those three levels should be added in later revisions
+When plugin install/update is needed only:
+- use `install_plugin.sh` on macOS/Linux or `install_plugin.ps1` on Windows
+- use `update_plugin.sh` / `update_plugin.ps1` to overwrite the installed local plugin copy
+- keep `.codex-plugin/plugin.json` and `.agents/plugins/marketplace.json` aligned
 
-When packaging or maintaining this plugin:
-
-- keep the plugin manifest in `.codex-plugin/plugin.json`
-- keep the marketplace entry aligned with `.agents/plugins/marketplace.json`
-- keep person-specific bundled assets under `assets/people/`, `assets/static/`, and `assets/templates/`
-- use `install_plugin.ps1` to install into a user's home-local plugin directory
-- use `install_plugin.sh` for macOS or Linux home-local installation
-- use `package_plugin.py` to create a versioned zip that another user can copy and install without the full repo
-- use `update_plugin.ps1` when a user receives a new extracted plugin bundle and wants to overwrite the installed copy cleanly
-- use `update_plugin.sh` for the same overwrite flow on macOS or Linux
+Do not repeat setup, packaging, or reinstall instructions unless the user explicitly asks for plugin maintenance.
