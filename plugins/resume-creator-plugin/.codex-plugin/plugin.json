@@ -1,0 +1,35 @@
+{
+  "name": "resume-creator-plugin",
+  "version": "0.1.0",
+  "description": "Create tailored mechanical or DevOps/Cloud resumes for Rajendra and Vikram from job descriptions and render HTML or PDF outputs.",
+  "author": {
+    "name": "Vikram Bathala",
+    "url": "https://github.com/Viky368"
+  },
+  "homepage": "https://github.com/Viky368/ai_resume",
+  "repository": "https://github.com/Viky368/ai_resume",
+  "keywords": [
+    "resume",
+    "ats",
+    "job-description",
+    "pdf"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Résumé Creator Plugin",
+    "shortDescription": "Tailor mech or DevOps/Cloud resumes for Rajendra or Vikram and export recruiter-ready output.",
+    "longDescription": "Use the packaged resume workflow to choose Rajendra or Vikram, choose a domain such as mech or devops-cloud, apply a tailoring level, generate updated HTML output, and export the PDF artifact.",
+    "developerName": "Vikram Bathala",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Viky368/ai_resume",
+    "defaultPrompt": [
+      "Create an Aggressive devops-cloud resume for Rajendra using this JD.",
+      "Create a Tailored mech resume for Vikram for this role.",
+      "Generate HTML and PDF output for this domain-specific resume request."
+    ],
+    "brandColor": "#174A8B"
+  }
+}

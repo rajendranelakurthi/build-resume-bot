@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume Creator"
+  short_description: "Tailor mech or DevOps/Cloud resumes for a JD"
+  default_prompt: "Use $resume-creator to create an Aggressive devops-cloud or mech resume for Rajendra or Vikram from a pasted job description."

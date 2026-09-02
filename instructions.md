@@ -16,6 +16,19 @@ Current branch roles:
   - shared renderer, models, storage, CLI, tests, templates
   - stable resume data and generated outputs
 
+- `resume-creator-skill`
+  - branch for Codex skill packaging work only
+  - should contain the skill package directory, skill-specific instructions, and any helper assets/scripts used to distribute or install skills
+  - should not be used for general resume tailoring changes unless those changes are required by the skill package itself
+
+- `plug-in`
+  - branch for Codex plugin packaging work only
+  - should contain plugin manifests, packaged skills/apps, marketplace metadata, and any helper assets/scripts needed for plugin distribution
+  - should not be used for general resume tailoring or generic skill-authoring changes unless those changes are required by the plugin package itself
+  - current target plugin package name: `resume-creator-plugin`
+  - plugin requests should support a domain input such as `mech` or `devops-cloud`
+  - current target plugin display name: `Résumé Creator Plugin`
+
 - `codex/mech-vikram`
   - branch for Vikram mechanical resume work
   - should carry branch-specific instructions for Vikram mechanical tailoring
@@ -138,6 +151,8 @@ If the user does not name a level:
 - keep branch-specific policy documented in `instructions.md` on that branch
 - maintain `main` as the shared source of truth
 - update the corresponding branches from `main` when shared rules or shared code change
+- keep skill packaging files and experiments on the `resume-creator-skill` branch unless they are intentionally promoted into `main`
+- keep plugin packaging files and experiments on the `plug-in` branch unless they are intentionally promoted into `main`
 
 ## Research Rules For New Points
 
