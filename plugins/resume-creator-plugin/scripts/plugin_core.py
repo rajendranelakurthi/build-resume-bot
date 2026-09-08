@@ -348,6 +348,8 @@ def tailor_profile(profile: PersonProfile, job_description: str) -> tuple[Person
     matched_keywords = [keyword for keyword in keywords if _profile_contains(profile, keyword)][:10]
     missing_keywords = [keyword for keyword in keywords if keyword not in matched_keywords][:6]
     lowered_jd = job_description.lower()
+    if "application support" in lowered_jd and "production support" in lowered_jd and ".net" in lowered_jd:
+        return build_application_support_profile(profile), matched_keywords
     if "lead aws devops engineer" in lowered_jd and "codepipeline" in lowered_jd and "cloudformation" in lowered_jd:
         return build_aws_devops_profile(profile), matched_keywords
     if "release engineering" in lowered_jd and "branching strategies" in lowered_jd and "jenkins" in lowered_jd:
@@ -368,6 +370,95 @@ def tailor_profile(profile: PersonProfile, job_description: str) -> tuple[Person
         experience=[rank_experience(job, keywords) for job in profile.experience],
     )
     return tailored, matched_keywords
+
+
+def build_application_support_profile(profile: PersonProfile) -> PersonProfile:
+    achievements = [
+        {"tag": "Production Support", "text": "Supported business-critical enterprise applications across Development, UAT, and Production through monitoring, incident triage, restoration, escalation, and follow-through."},
+        {"tag": "Application Troubleshooting", "text": "Diagnosed .NET services, APIs, scheduled jobs, data-processing workflows, configuration defects, deployment failures, and infrastructure dependencies."},
+        {"tag": "SQL & Data Support", "text": "Used SQL queries, stored procedures, data analysis, and database troubleshooting to investigate processing failures and resolve data-quality issues."},
+        {"tag": "Operational Reliability", "text": "Improved dashboards, alerts, runbooks, health checks, environment controls, root-cause analysis, corrective actions, and production readiness."},
+        {"tag": "Deployment Support", "text": "Coordinated release readiness, deployment execution, validation, rollback planning, and post-release support with development, operations, infrastructure, QA, and project teams."},
+    ]
+    skill_sections = [
+        {"title": "Application & Production Support", "content": "Incident triage, service restoration, defect investigation, escalation, RCA, corrective actions, client-reported issues, problem management"},
+        {"title": "Environment Management", "content": "Development, Test, UAT, Production, configuration management, application settings, secrets, environment validation, operational readiness"},
+        {"title": ".NET Application Support", "content": ".NET, C#, APIs, Windows services, IIS, application logs, configuration, dependency analysis, code review, defect support"},
+        {"title": "SQL & Data Support", "content": "SQL, stored procedures, complex queries, joins, data analysis, data correction, MySQL, PostgreSQL, SQL Server, RDS, Aurora"},
+        {"title": "Monitoring & Diagnostics", "content": "CloudWatch, Splunk, ELK, Grafana, Prometheus, AppDynamics, dashboards, logs, metrics, alerts, health checks"},
+        {"title": "Batch & Operational Workflows", "content": "Scheduled jobs, batch processing, data-processing failures, job dependencies, file processing, retries, reconciliation, operational controls"},
+        {"title": "Release & Deployment Support", "content": "Deployment scripts, release procedures, readiness reviews, change coordination, smoke tests, validation, rollback, post-release monitoring"},
+        {"title": "Automation & Utilities", "content": "PowerShell, Python, Bash, Shell, Batch, YAML, JSON, APIs, utility programs, operational tooling"},
+        {"title": "AWS Support", "content": "EC2, ECS, EKS, S3, RDS, Aurora, Lambda, CloudWatch, IAM, VPC, load balancers, backup and recovery"},
+        {"title": "DevOps Tooling", "content": "Jenkins, Git, GitLab, Terraform, CloudFormation, Ansible, Docker, Kubernetes, Maven, JFrog, Nexus"},
+    ]
+    job_specs = [
+        ("Lead Application & Production Support Engineer", ["Production Support", ".NET", "SQL", "AWS", "CloudWatch", "Splunk", "Python", "PowerShell", "Jenkins", "Git"], [
+            "Led application and production support for enterprise services across Development, UAT, and Production environments, owning operational health, incident triage, restoration, escalation, and stakeholder communication.",
+            "Monitored application availability, performance, scheduled processing, infrastructure signals, logs, dashboards, and alerts using CloudWatch, Splunk, ELK, Grafana, Prometheus, and application-specific telemetry.",
+            "Troubleshot .NET applications, services, APIs, IIS configurations, runtime dependencies, application settings, authentication failures, and integration issues in partnership with development teams.",
+            "Investigated SQL and data-processing issues using complex queries, joins, stored procedures, execution analysis, reconciliation checks, and targeted data validation to identify root causes.",
+            "Supported batch jobs and operational workflows by diagnosing failed schedules, upstream and downstream dependencies, file-processing errors, retries, partial completion, and data-quality exceptions.",
+            "Performed root-cause analysis for recurring production incidents and drove corrective actions through monitoring improvements, automation, configuration fixes, code changes, runbooks, and preventive controls.",
+            "Managed environment configurations, application settings, secrets, connection details, deployment parameters, and version alignment across Development, UAT, and Production.",
+            "Coordinated release readiness, change approvals, deployment execution, smoke testing, business validation, rollback planning, and post-release monitoring with engineering, QA, infrastructure, and project teams.",
+            "Developed Python, PowerShell, Bash, and SQL utilities for health checks, log analysis, data validation, operational reporting, deployment support, and repeatable recovery procedures.",
+            "Supported AWS-hosted applications and services, resolving compute, storage, database, IAM, networking, load-balancing, scaling, monitoring, backup, and connectivity issues while maintaining operational readiness.",
+        ]),
+        ("Senior Application Support Engineer", ["Application Support", ".NET", "SQL", "Linux", "AWS", "Jenkins", "Splunk", "PowerShell", "Git"], [
+            "Provided daily operational support for enterprise applications, responding to alerts, service requests, production incidents, client-reported issues, and failed business workflows.",
+            "Partnered with project managers and engineering teams to reproduce issues, assess business impact, identify owners, coordinate fixes, and communicate status through resolution.",
+            "Diagnosed application, API, database, container, configuration, deployment, and infrastructure failures using logs, metrics, traces, SQL analysis, and controlled testing.",
+            "Maintained environment baselines and supported configuration changes, application deployments, scheduled jobs, operational checklists, and release validation.",
+            "Created support documentation, known-error records, troubleshooting guides, operational runbooks, and automated checks that improved response consistency and reduced resolution time.",
+        ]),
+        ("Senior Production Support / DevOps Engineer", ["Production Support", "AWS", "SQL", "Python", "PowerShell", "Jenkins", "CloudWatch", "Docker", "Kubernetes"], [
+            "Supported production microservices and operational environments through proactive monitoring, incident investigation, deployment support, defect triage, and service restoration.",
+            "Analyzed application logs and SQL data to isolate processing failures, integration defects, database issues, and mismatches between application and infrastructure behavior.",
+            "Automated recurring support activities with Python and PowerShell, including environment checks, log collection, deployment validation, status reporting, and recovery steps.",
+            "Supported AWS compute, containers, networking, databases, storage, monitoring, backup, and access controls as secondary infrastructure dependencies for hosted applications.",
+            "Worked with development and QA teams on code reviews, defect remediation, release readiness, production verification, and operational handoff.",
+        ]),
+        ("Senior Site Reliability / Application Support Engineer", ["SRE", "Application Support", "SQL", "Python", "Prometheus", "Grafana", "Splunk", "AWS", "Linux"], [
+            "Maintained reliable application services through health monitoring, alert response, incident management, root-cause analysis, corrective action tracking, and operational automation.",
+            "Built dashboards and actionable alerts for availability, latency, errors, throughput, saturation, job health, and data-processing outcomes.",
+            "Developed custom Python monitoring utilities and exporters to expose application-specific health and workflow metrics for support teams.",
+            "Investigated recurring production problems across application, database, network, container, and cloud layers and converted findings into durable fixes.",
+            "Improved support readiness with service documentation, escalation paths, recovery procedures, maintenance plans, and post-incident reviews.",
+        ]),
+        ("Senior Application Operations Engineer", ["Application Support", ".NET", "SQL", "Jenkins", "Linux", "AWS", "ELK", "PowerShell", "Ansible"], [
+            "Supported .NET and Java application environments across testing, UAT, training, and production, including deployments, configuration, troubleshooting, and release validation.",
+            "Investigated application errors, service failures, connectivity issues, performance degradation, and data discrepancies through logs, SQL queries, and environment comparison.",
+            "Maintained deployment procedures and automated server and application configuration with Jenkins, Ansible, PowerShell, and shell scripts.",
+            "Monitored operational workflows and batch processes, resolved failed jobs, validated outputs, and coordinated downstream recovery activities.",
+            "Worked with application, database, infrastructure, and project teams to prioritize incidents, implement fixes, and improve production-support procedures.",
+        ]),
+        ("Application Support / DevOps Engineer", ["Production Support", "SQL", "Linux", "Python", "Shell", "Jenkins", "AWS", "Splunk", "MySQL", "MongoDB"], [
+            "Supported enterprise applications, scheduled processing, release deployments, and operational environments through monitoring, troubleshooting, and documented recovery procedures.",
+            "Used SQL queries and database analysis across relational and NoSQL platforms to investigate application errors, processing failures, and data-quality problems.",
+            "Automated support tasks, deployments, configuration checks, file processing, and environment validation with Python, Bash, and shell scripting.",
+            "Maintained Jenkins deployment pipelines, Git-managed configuration, application packages, server settings, and environment-specific release controls.",
+            "Triaged production issues across application, database, Linux, network, and AWS dependencies and collaborated with engineering teams through resolution.",
+        ]),
+    ]
+    support_jobs = [replace(job, title=title, skills_used=skills, impact=impact) for job, (title, skills, impact) in zip(profile.experience, job_specs)]
+    return replace(
+        profile,
+        page_title="Rajendra Prasad N - Senior Application & Production Support Engineer",
+        headline="Senior Application & Production Support Engineer | .NET, SQL & Operations",
+        summary_html=(
+            "<strong>Senior Application and Production Support Engineer with more than a decade of experience maintaining enterprise applications and operational environments</strong>. "
+            "Strong background supporting <strong>Development, UAT, and Production</strong>; monitoring application health; troubleshooting .NET services, APIs, scheduled jobs, data-processing failures, "
+            "SQL issues, deployment defects, and environment configuration; and driving root-cause analysis and corrective action. Experienced with SQL queries, stored procedures, data analysis, "
+            "CloudWatch, Splunk, ELK, Grafana, AppDynamics, PowerShell, Python, Bash, Jenkins, Git, and operational automation. Provides supporting DevOps and AWS expertise for deployments, releases, "
+            "cloud resources, monitoring, scalability, and reliability while serving as the bridge between development, operations, infrastructure, QA, project, and client-facing teams."
+        ),
+        achievements_title="Application & Production Support Highlights",
+        achievements=achievements,
+        skill_sections=skill_sections,
+        experience=support_jobs,
+        certifications=profile.certifications,
+    )
 
 
 def build_aws_devops_profile(profile: PersonProfile) -> PersonProfile:
