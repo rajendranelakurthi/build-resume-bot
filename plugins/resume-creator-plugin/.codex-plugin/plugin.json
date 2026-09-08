@@ -1,6 +1,6 @@
 {
   "name": "resume-creator-plugin",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260908101025",
   "description": "Create tailored DevOps/Cloud resumes for Rajendra from job descriptions and render HTML or PDF outputs.",
   "author": {
     "name": "Rajendra PN",
@@ -16,7 +16,7 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Résumé Creator Plugin",
+    "displayName": "R\u00e9sum\u00e9 Creator Plugin",
     "shortDescription": "Tailor DevOps/Cloud resumes for Rajendra and export recruiter-ready output.",
     "longDescription": "Use the packaged resume workflow to choose Rajendra, apply a tailoring level, generate updated HTML output, and export the PDF artifact for the DevOps/Cloud domain.",
     "developerName": "Rajendra PN",

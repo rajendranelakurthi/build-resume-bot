@@ -348,6 +348,10 @@ def tailor_profile(profile: PersonProfile, job_description: str) -> tuple[Person
     matched_keywords = [keyword for keyword in keywords if _profile_contains(profile, keyword)][:10]
     missing_keywords = [keyword for keyword in keywords if keyword not in matched_keywords][:6]
     lowered_jd = job_description.lower()
+    if "release engineering" in lowered_jd and "branching strategies" in lowered_jd and "jenkins" in lowered_jd:
+        return build_release_engineering_profile(profile), matched_keywords
+    if "observability" in lowered_jd and "gpu" in lowered_jd and "hpc" in lowered_jd:
+        return build_sre_observability_profile(profile), matched_keywords
     if "azure devops" in lowered_jd and "github actions" in lowered_jd and "terraform" in lowered_jd:
         return build_azure_devops_profile(profile), matched_keywords
     headline = profile.headline
@@ -362,6 +366,183 @@ def tailor_profile(profile: PersonProfile, job_description: str) -> tuple[Person
         experience=[rank_experience(job, keywords) for job in profile.experience],
     )
     return tailored, matched_keywords
+
+
+def build_release_engineering_profile(profile: PersonProfile) -> PersonProfile:
+    achievements = [
+        {"tag": "Release Governance", "text": "Owned release calendars, readiness reviews, go/no-go decisions, change approvals, stakeholder communications, production cutovers, and post-release retrospectives."},
+        {"tag": "Build & CI/CD Engineering", "text": "Engineered reproducible build, test, package, and deployment pipelines with Jenkins, Git, artifact repositories, quality gates, promotion controls, and rollback automation."},
+        {"tag": "SCM & Branching", "text": "Defined GitFlow, trunk-based, feature, release, and hotfix strategies with pull-request standards, branch protection, merge controls, tagging, and version governance."},
+        {"tag": "Configuration Management", "text": "Automated server and application configuration with Ansible, Terraform, shell scripting, and version-controlled environment definitions."},
+        {"tag": "Release Reliability", "text": "Applied SRE practices to release engineering through canaries, health verification, deployment telemetry, incident coordination, rollback readiness, and continuous process improvement."},
+    ]
+    skill_sections = [
+        {"title": "Build & Release Engineering", "content": "Release planning, release calendars, readiness reviews, go/no-go decisions, cutovers, rollback, retrospectives, release notes, audit trails"},
+        {"title": "CI/CD", "content": "Jenkins, Jenkinsfile, GitHub Actions, GitLab CI/CD, Azure Pipelines, CloudBees, parallel workflows, build/test/deploy stages, manual gates"},
+        {"title": "SCM & Git Workflows", "content": "Git, GitHub, GitLab, Bitbucket, Azure Repos, GitFlow, trunk-based development, feature/release/hotfix branches, pull requests, cherry-picks, tags"},
+        {"title": "Build & Artifact Tooling", "content": "Maven, Gradle, ANT, MSBuild, Make, JFrog Artifactory, Nexus, package repositories, semantic versioning, immutable artifacts"},
+        {"title": "Scripting & Automation", "content": "Python, Go, Bash, JavaScript, PowerShell, Unix shell, command-line tooling, APIs, YAML, JSON"},
+        {"title": "Configuration Management", "content": "Ansible, Terraform, CloudFormation, Packer, environment configuration, server provisioning, secrets, policy validation"},
+        {"title": "Quality & DevSecOps", "content": "Unit and integration tests, smoke tests, SonarQube, Fortify, Black Duck, SAST, artifact signing, approvals, compliance evidence"},
+        {"title": "Platforms", "content": "Linux, Unix, Docker, Kubernetes, AWS, Azure, microservices, distributed systems, highly available services"},
+        {"title": "Data & Integration", "content": "SQL, PostgreSQL, MySQL, MongoDB, relational and NoSQL databases, REST APIs, data structures, persistence layers"},
+        {"title": "Release Operations", "content": "Automated status reporting, dependency tracking, risk management, stakeholder coordination, incident response, RCA, release metrics"},
+    ]
+    job_specs = [
+        ("Lead Build & Release Engineer", ["Jenkins", "Git", "Python", "Go", "Bash", "JavaScript", "Terraform", "Ansible", "JFrog", "Kubernetes"], [
+            "Owned end-to-end release engineering for distributed application and platform services, coordinating scope, dependencies, schedules, readiness criteria, change windows, deployment sequencing, and production validation.",
+            "Led release-readiness and go/no-go meetings with engineering, QA, SRE, product, infrastructure, security, and project-management stakeholders; documented decisions, risks, owners, and rollback triggers.",
+            "Designed reproducible Jenkins pipelines covering source checkout, dependency resolution, compilation, unit and integration testing, security scanning, packaging, artifact publication, environment promotion, deployment, and verification.",
+            "Defined Git branching strategies for trunk-based, feature, release, and hotfix workflows with protected branches, pull-request reviews, merge policies, cherry-pick controls, release tags, and version traceability.",
+            "Implemented build-once/promote-many practices using immutable, versioned artifacts in JFrog and Nexus, ensuring the same tested package progressed through staging and production.",
+            "Developed Python, Go, Bash, and JavaScript tooling to automate release orchestration, dependency checks, changelog generation, versioning, status notifications, evidence collection, and rollback execution.",
+            "Automated release-status communication through dashboards, pipeline events, API integrations, notifications, and concise stakeholder reports covering build health, blockers, approvals, risk, and deployment progress.",
+            "Applied canary and phased-rollout patterns with smoke tests, health gates, observability checks, human approvals, and automated rollback to align deployment velocity with service risk.",
+            "Facilitated release retrospectives and converted deployment failures, escaped defects, wait states, and coordination gaps into owned actions, pipeline controls, documentation, and measurable process improvements.",
+            "Partnered with microservices and communication-platform teams on API contracts, data structures, SQL/NoSQL persistence changes, backward compatibility, schema sequencing, and safe rollout of dependent services.",
+        ]),
+        ("Senior Build & Release Engineer", ["Jenkins", "GitLab CI/CD", "Git", "Python", "Bash", "Docker", "Kubernetes", "Terraform", "Jira"], [
+            "Built and maintained scalable CI/CD pipelines with parallel build and test execution, reusable templates, gated promotions, artifact retention, and controlled production releases.",
+            "Managed release branches, pull requests, merge approvals, tags, hotfixes, and backports while preserving an auditable mapping between commits, builds, artifacts, and deployments.",
+            "Administered self-hosted build agents and runners, tuned executor capacity and caching, and resolved queue, workspace, dependency, credential, and environment failures.",
+            "Coordinated release plans and go/no-go checkpoints across development, QA, operations, and project management, escalating blockers and communicating status automatically.",
+            "Ran post-release reviews, analyzed lead time, failure rate, rollback, and recovery trends, and prioritized automation that reduced manual handoffs and release risk.",
+        ]),
+        ("Senior Release / DevOps Engineer", ["Jenkins", "GitHub Actions", "Git", "Python", "Terraform", "Docker", "Kubernetes", "JFrog"], [
+            "Standardized build, test, package, and deployment workflows across microservices using Jenkins and GitHub Actions with reusable pipeline components.",
+            "Established artifact versioning, repository promotion, retention, and provenance practices to support repeatable releases and rapid rollback.",
+            "Automated release notes, change inventories, readiness evidence, deployment status, and stakeholder notifications using Python and service APIs.",
+            "Troubleshot sophisticated pipeline, dependency, container, configuration, and distributed-system failures across engineering teams.",
+            "Integrated infrastructure and application changes into coordinated release trains with sequencing, compatibility checks, and environment-specific validation.",
+        ]),
+        ("Senior Release Engineer / SRE", ["Jenkins", "GitHub Actions", "Git", "Python", "Bash", "Terraform", "Ansible", "Prometheus", "Grafana"], [
+            "Applied SRE principles to release engineering by defining deployment health indicators, alert thresholds, rollback criteria, and post-release observation periods.",
+            "Designed parallel CI workflows and reusable build automation for application, infrastructure, database, and configuration changes.",
+            "Coordinated canary releases, production validation, incident response, and recovery activities for highly available distributed services.",
+            "Created release dashboards and automated system-status reporting to expose pipeline health, deployment progress, failures, and operational risk.",
+            "Facilitated blameless release retrospectives and drove corrective actions into pipeline automation, test coverage, configuration controls, and runbooks.",
+        ]),
+        ("Senior Build & Configuration Engineer", ["Jenkins", "Git", "Maven", "Ansible", "Bash", "Docker", "Kubernetes", "SonarQube"], [
+            "Maintained build and release pipelines for Java and microservices workloads across development, test, UAT, and production environments.",
+            "Managed configuration baselines, server deployment automation, environment variables, secrets, and release-specific application settings through version-controlled workflows.",
+            "Defined branching, pull-request, build-validation, and artifact-promotion standards for development teams.",
+            "Integrated quality, security, smoke-test, and deployment-verification gates into Jenkins delivery pipelines.",
+            "Supported go/no-go reviews, production cutovers, rollback preparation, release communications, and post-deployment retrospectives.",
+        ]),
+        ("Build & Release Engineer", ["Jenkins", "Git", "Maven", "Python", "Bash", "Ansible", "Nexus", "SQL", "MongoDB"], [
+            "Created automated build and release pipelines for multiple application components using Jenkins, Git, Maven, Ansible, and Nexus.",
+            "Implemented feature, integration, release, and hotfix branch workflows with pull-request reviews, release tags, and controlled code promotion.",
+            "Automated builds, deployments, configuration updates, status reporting, and operational checks with Python and Unix shell scripting.",
+            "Coordinated application, API, SQL, NoSQL, and configuration changes across environments to preserve release compatibility and data integrity.",
+            "Diagnosed build, dependency, packaging, repository, server, and deployment issues and documented repeatable recovery procedures.",
+        ]),
+    ]
+    release_jobs = [replace(job, title=title, skills_used=skills, impact=impact) for job, (title, skills, impact) in zip(profile.experience, job_specs)]
+    return replace(
+        profile,
+        page_title="Rajendra Prasad N - Lead Build & Release Engineer",
+        headline="Lead Build & Release Engineer | CI/CD, SCM & Release Governance",
+        summary_html=(
+            "<strong>Lead Build and Release Engineer with more than a decade of DevOps, SRE, configuration-management, and enterprise software-delivery experience</strong>. "
+            "Expert in Git SCM, branching and pull-request governance, reproducible builds, Jenkins-based CI/CD, artifact and configuration management, release readiness, go/no-go decisions, "
+            "production cutovers, rollback planning, and retrospectives. Hands-on with <strong>Python, Go, Bash, JavaScript, Jenkins, GitHub Actions, GitLab CI/CD, Maven, Gradle, JFrog, Nexus, "
+            "Terraform, Ansible, Linux, Docker, Kubernetes, SQL, NoSQL, APIs, and microservices</strong>. Known for resolving sophisticated delivery problems, automating clear release-status "
+            "communication, and aligning engineering, QA, SRE, infrastructure, security, and project-management teams around safe, repeatable releases."
+        ),
+        achievements_title="Build & Release Engineering Highlights",
+        achievements=achievements,
+        skill_sections=skill_sections,
+        experience=release_jobs,
+        certifications=profile.certifications,
+    )
+
+
+def build_sre_observability_profile(profile: PersonProfile) -> PersonProfile:
+    achievements = [
+        {"tag": "GPU & HPC Platforms", "text": "Engineered Kubernetes-based GPU compute platforms for AI and high-performance workloads, with capacity, scheduling, reliability, and utilization controls."},
+        {"tag": "Observability at Scale", "text": "Built open-source metrics, logs, traces, dashboards, and alerting platforms using Prometheus, Grafana, Loki, Thanos, VictoriaMetrics, and OpenTelemetry."},
+        {"tag": "Site Reliability", "text": "Applied SLOs, error budgets, incident response, capacity planning, automation, and failure-mode analysis to services with extremely low downtime tolerance."},
+        {"tag": "Kubernetes Engineering", "text": "Operated large-scale Kubernetes and EKS environments with Helm, GitOps, workload isolation, autoscaling, policy controls, and production-grade monitoring."},
+        {"tag": "Infrastructure as Code", "text": "Developed reusable Terraform modules and automated provisioning patterns for compute, networking, storage, observability, and Kubernetes infrastructure."},
+    ]
+    skill_sections = [
+        {"title": "GPU & HPC", "content": "GPU compute, high-performance computing, AI/ML platforms, GPU node pools, workload scheduling, capacity planning, performance telemetry"},
+        {"title": "Observability", "content": "Prometheus, Grafana, VictoriaMetrics, Loki, Thanos, OpenTelemetry, Alertmanager, metrics, logs, traces, alerting"},
+        {"title": "Site Reliability Engineering", "content": "SLIs, SLOs, error budgets, incident response, root-cause analysis, toil reduction, capacity management, disaster recovery"},
+        {"title": "Kubernetes", "content": "Kubernetes, EKS, OpenShift, Helm, Argo CD, operators, autoscaling, resource quotas, network policies, multi-cluster operations"},
+        {"title": "Infrastructure as Code", "content": "Terraform, reusable modules, remote state, state locking, CloudFormation, Ansible, Packer, policy validation"},
+        {"title": "Cloud & Data Centres", "content": "AWS, hybrid cloud, data-centre infrastructure, Linux, compute, storage, networking, private connectivity, availability zones"},
+        {"title": "AI Data Platforms", "content": "Milvus, vector search, Databricks, GPU-enabled workloads, distributed data services, AI platform reliability"},
+        {"title": "Telemetry Engineering", "content": "PromQL, LogQL, dashboards, recording rules, alert rules, exporters, service instrumentation, cardinality management"},
+        {"title": "Automation", "content": "Python, Bash, PowerShell, YAML, JSON, APIs, CI/CD, GitOps, operational tooling"},
+        {"title": "DevSecOps", "content": "IAM, secrets management, container scanning, policy controls, least privilege, auditability, secure platform operations"},
+    ]
+    job_specs = [
+        ("Lead SRE - AI, GPU & Observability", ["GPU/HPC", "Kubernetes", "AWS", "Terraform", "Prometheus", "Grafana", "Loki", "OpenTelemetry", "Milvus", "Python"], [
+            "Designed and operated Kubernetes-based GPU compute platforms for AI workloads, integrating GPU node pools, workload isolation, scheduling controls, resource quotas, autoscaling, and capacity planning.",
+            "Built high-throughput vector-search infrastructure with Milvus and GPU-enabled services, improving scalability and production readiness for AI-oriented application platforms.",
+            "Owned the observability architecture for large-scale Kubernetes workloads across metrics, logs, traces, dashboards, and alerting using Prometheus, Grafana, Loki, Thanos, VictoriaMetrics, and OpenTelemetry patterns.",
+            "Implemented service and platform telemetry with OpenTelemetry collectors, exporters, consistent resource attributes, sampling controls, and trace-to-log and trace-to-metric correlation.",
+            "Designed scalable metrics pipelines with recording rules, long-term retention, federation, cardinality controls, and highly available query paths for infrastructure and application telemetry.",
+            "Established SLOs, SLIs, error budgets, multi-window alerting, escalation policies, and operational dashboards for platforms where downtime directly affected critical workloads.",
+            "Developed reusable Terraform modules to provision GPU compute, Kubernetes, networking, storage, identity, and observability components through repeatable infrastructure-as-code workflows.",
+            "Automated monitoring configuration, alert validation, incident diagnostics, capacity reporting, and platform recovery workflows with Python and Bash to reduce operational toil.",
+            "Led incident response and root-cause analysis for Kubernetes, GPU scheduling, telemetry ingestion, storage, networking, and infrastructure failures, converting findings into durable automation and runbooks.",
+            "Partnered with AI, platform, data, network, storage, and data-centre teams to forecast demand, eliminate bottlenecks, and improve GPU utilization, workload throughput, and service reliability.",
+        ]),
+        ("Senior SRE - Kubernetes Observability", ["Kubernetes", "Terraform", "Prometheus", "Grafana", "VictoriaMetrics", "Loki", "Thanos", "OpenTelemetry"], [
+            "Engineered highly available open-source observability services for Kubernetes, including metrics ingestion, log aggregation, distributed tracing, dashboards, and actionable alerting.",
+            "Standardized Prometheus rules, Grafana dashboards, Loki queries, OpenTelemetry instrumentation, and alert routing across application and platform teams.",
+            "Tuned retention, compaction, sharding, caching, replication, and query performance to support high-volume telemetry without compromising platform reliability.",
+            "Deployed observability components through Helm and Terraform and applied GitOps controls for repeatable configuration, promotion, rollback, and disaster recovery.",
+            "Diagnosed Kubernetes resource pressure, noisy-neighbor behavior, network latency, storage saturation, and telemetry pipeline failures using correlated metrics, logs, and traces.",
+        ]),
+        ("Senior DevOps / SRE Engineer", ["AWS", "Kubernetes", "Terraform", "Prometheus", "Grafana", "Python", "Linux"], [
+            "Operated distributed Kubernetes services across cloud and hybrid infrastructure with production monitoring, autoscaling, deployment automation, and recovery controls.",
+            "Provisioned infrastructure through Terraform and pipeline-driven IaC patterns for consistent multi-environment delivery.",
+            "Implemented custom exporters and telemetry automation in Python to expose application, infrastructure, and workload-specific operational metrics.",
+            "Built dashboards and alerts for saturation, latency, errors, availability, queue depth, capacity, and deployment health.",
+            "Troubleshot complex compute, container, network, storage, and release issues across distributed engineering teams.",
+        ]),
+        ("Senior Site Reliability Engineer", ["Kubernetes", "Prometheus", "Grafana", "Terraform", "Python", "Ansible", "Linux"], [
+            "Developed custom Prometheus exporters in Python to capture application-specific operational metrics for SRE use cases.",
+            "Built resilient automation to deploy highly available Prometheus, Grafana, and node-level monitoring across shared platforms.",
+            "Defined reliability indicators and operational dashboards for availability, latency, traffic, errors, saturation, and resource utilization.",
+            "Reduced operational toil through automated provisioning, configuration enforcement, health checks, and recovery workflows.",
+            "Applied capacity planning and performance analysis to maintain reliability during workload growth and infrastructure change.",
+        ]),
+        ("Senior DevOps Engineer - Data Centre Platforms", ["Linux", "Kubernetes", "VMware", "Terraform", "Ansible", "ELK", "Prometheus"], [
+            "Supported Linux, virtualization, compute, networking, storage, and Kubernetes services across enterprise data-centre environments.",
+            "Designed monitoring architecture for application, infrastructure, and platform telemetry using open-source collectors and the ELK stack.",
+            "Deployed Kubernetes workloads with Helm and standardized release packaging across multi-namespace environments.",
+            "Automated infrastructure configuration and operational controls with Terraform, Ansible, shell scripting, and PowerShell.",
+            "Created production runbooks and supported high-availability releases, incident response, and service restoration.",
+        ]),
+        ("DevOps / Platform Engineer", ["Linux", "Terraform", "Ansible", "Python", "Shell", "Splunk", "Kubernetes"], [
+            "Authored reusable Terraform modules and automated infrastructure changes through governed CI/CD workflows.",
+            "Built platform monitoring, log analysis, and operational dashboards for distributed application environments.",
+            "Automated configuration, deployment, health checks, and recovery tasks using Python, shell scripting, and Ansible.",
+            "Supported self-hosted execution infrastructure and diagnosed compute, dependency, networking, and environment failures.",
+            "Improved platform reliability through repeatable deployments, controlled promotion, documentation, and operational standardization.",
+        ]),
+    ]
+    sre_jobs = [replace(job, title=title, skills_used=skills, impact=impact) for job, (title, skills, impact) in zip(profile.experience, job_specs)]
+    return replace(
+        profile,
+        page_title="Rajendra Prasad N - Lead SRE, AI GPU & Observability",
+        headline="Lead SRE | AI, GPU/HPC, Kubernetes & Observability",
+        summary_html=(
+            "<strong>Lead Site Reliability and Observability Engineer with more than a decade of experience building and operating cloud, Kubernetes, and high-availability production platforms</strong>. "
+            "Specialized in <strong>GPU-enabled AI infrastructure, high-performance computing, large-scale Kubernetes, data-centre systems, and open-source observability</strong>. Hands-on across "
+            "Prometheus, Grafana, VictoriaMetrics, Loki, Thanos, OpenTelemetry, Terraform, Python, Linux, AWS, EKS, Helm, Milvus, and distributed telemetry architectures. Proven in environments that "
+            "cannot tolerate downtime, with deep focus on metrics, logs, traces, alerting, SLOs, incident response, capacity planning, performance engineering, automation, and reliable operation of critical AI workloads."
+        ),
+        achievements_title="SRE, GPU/HPC & Observability Highlights",
+        achievements=achievements,
+        skill_sections=skill_sections,
+        experience=sre_jobs,
+        certifications=profile.certifications,
+    )
 
 
 def build_azure_devops_profile(profile: PersonProfile) -> PersonProfile:

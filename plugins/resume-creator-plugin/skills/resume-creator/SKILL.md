@@ -14,6 +14,8 @@ Use the packaged workflow. Keep this short and deterministic:
 5. Tailor the structured profile to the JD
 6. Render HTML and, if requested, export PDF
 
+Within `devops-cloud`, route strong role-specific requests to the packaged variants for Azure DevOps, GitLab, SRE/observability/GPU-HPC, or build and release engineering. The build/release variant must prioritize SCM and branching governance, reproducible builds, CI/CD, artifact and configuration management, release readiness, go/no-go decisions, deployment safety, automated status reporting, and release retrospectives across every project while retaining supporting DevOps and SRE context.
+
 Canonical execution:
 
 ```bash
