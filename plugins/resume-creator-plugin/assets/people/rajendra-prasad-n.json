@@ -60,7 +60,7 @@
     },
     {
       "title": "CI/CD Platforms",
-      "content": "Jenkins, GitHub Actions, GitLab CI, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, CloudBees, ArgoCD"
+      "content": "GitLab, GitLab CI/CD, GitLab Duo, GitLab Runners, Jenkins, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, CloudBees, ArgoCD"
     },
     {
       "title": "Infrastructure as Code",
@@ -106,31 +106,33 @@
       "date_range": "08/2023 - Present",
       "skills_used": [
         "AWS",
-        "AWS CodePipeline",
-        "PowerShell",
+        "GitLab",
+        "GitLab CI/CD",
+        "GitLab Duo",
+        "Git",
         "Terraform",
         "EKS",
-        "GitHub Actions",
-        "Milvus",
+        "Docker",
         "Helm",
-        "Databricks on AWS"
+        "Bash",
+        "Python"
       ],
       "impact": [
-        "Architected and maintained scalable CI/CD pipelines using AWS CodePipeline, GitHub, and reusable deployment workflows to automate build, test, and release execution.",
-        "Directed end-to-end release management across multiple engineering teams by aligning schedules, dependencies, change windows, and risk mitigation plans.",
-        "Standardized deployment pipelines for AWS and hybrid environments, improving release consistency, auditability, and operational reliability.",
-        "Automated platform operations with Python, Bash, and PowerShell to reduce manual effort and accelerate provisioning, support, and recovery workflows.",
-        "Established Git branching, approval, and artifact versioning standards and integrated DevSecOps controls into release workflows through secure secrets handling, Terraform validation, and pre-deployment policy checks across AWS environments.",
-        "Supported Java and Node.js microservices on AWS, improving scalability, runtime stability, and production readiness for cloud-native applications.",
-        "Delivered release communications, milestone reporting, and risk updates to engineering leadership and business stakeholders to keep delivery streams aligned.",
-        "Coordinated incident response and production release support, minimizing downtime and accelerating service restoration during high-priority events.",
-        "Authored technical documentation, deployment guides, and operational runbooks to improve knowledge transfer and support readiness.",
-        "Designed and implemented scalable EKS and Terraform-based infrastructure to support high-throughput vector search platforms powered by Milvus and GPU-enabled workloads.",
-        "Automated provisioning of Databricks environments on AWS across isolated accounts, standardizing network integration, IAM controls, and environment consistency.",
-        "Produced solution diagrams, environment specifications, and architecture documentation to improve stakeholder alignment and implementation clarity.",
-        "Managed self-hosted runners, build agents, and distributed deployment infrastructure to optimize pipeline throughput across controlled compute environments.",
-        "Implemented secure service connectivity using AWS PrivateLink, VPC endpoints, and private networking controls to protect sensitive application traffic.",
-        "Containerized critical microservices and deployed them with Helm and Kubernetes manifests, ensuring consistent runtime behavior across lower and production environments."
+        "Led the migration of source repositories and delivery pipelines from Azure DevOps to GitLab, defining phased cutover plans, repository mappings, access controls, validation gates, and rollback procedures to protect active development streams.",
+        "Administered GitLab groups, projects, repositories, protected branches, merge request rules, approval policies, CODEOWNERS, deploy tokens, access tokens, and role-based permissions across enterprise engineering teams.",
+        "Designed Git branching strategies covering feature, release, hotfix, and trunk-based workflows, with protected-branch controls and merge standards aligned to release governance and audit requirements.",
+        "Architected reusable GitLab CI/CD pipeline templates with parent-child and multi-project pipelines, rules-based execution, environment promotion, artifact retention, caching, and controlled manual approvals.",
+        "Provisioned and operated self-managed GitLab runners on AWS using autoscaling, tagging, protected-runner policies, isolated execution, cache optimization, and workload-specific runner pools for secure, high-throughput builds.",
+        "Implemented GitLab Duo capabilities across software delivery workflows, enabling AI-assisted code generation, code explanation, test creation, merge request summaries, vulnerability remediation, and developer adoption guardrails.",
+        "Established GitLab Duo governance covering approved use cases, access controls, data-handling expectations, human review requirements, adoption metrics, and enablement guidance for development teams.",
+        "Integrated GitLab DevSecOps controls into pipelines, including secret detection, dependency and container scanning, SAST, IaC validation, security gates, and policy-driven merge approvals.",
+        "Built Terraform modules and GitLab CI/CD workflows to provision AWS networking, IAM, EKS, compute, storage, and supporting platform services through repeatable, version-controlled infrastructure changes.",
+        "Designed secure Terraform delivery with remote state, state locking, reusable modules, plan and apply separation, protected environments, approval gates, and least-privilege AWS IAM roles.",
+        "Implemented AWS authentication for GitLab pipelines using short-lived role-based credentials and controlled environment variables, reducing reliance on long-lived cloud access keys.",
+        "Standardized Docker image build, scan, versioning, and promotion workflows through GitLab pipelines and deployed containerized services to Amazon EKS using Helm and Kubernetes manifests.",
+        "Automated GitLab repository and pipeline administration with Bash and Python, including project bootstrap, variable configuration, runner registration, policy enforcement, and migration validation.",
+        "Monitored runner capacity, pipeline duration, failure trends, queue time, cache efficiency, and deployment health to improve GitLab platform reliability and developer productivity.",
+        "Created GitLab platform standards, migration playbooks, runner troubleshooting guides, branching documentation, and operational runbooks for engineering and support teams."
       ]
     },
     {

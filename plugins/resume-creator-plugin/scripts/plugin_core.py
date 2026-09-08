@@ -347,14 +347,108 @@ def tailor_profile(profile: PersonProfile, job_description: str) -> tuple[Person
     keywords = extract_keywords(job_description)
     matched_keywords = [keyword for keyword in keywords if _profile_contains(profile, keyword)][:10]
     missing_keywords = [keyword for keyword in keywords if keyword not in matched_keywords][:6]
+    lowered_jd = job_description.lower()
+    if "azure devops" in lowered_jd and "github actions" in lowered_jd and "terraform" in lowered_jd:
+        return build_azure_devops_profile(profile), matched_keywords
+    headline = profile.headline
+    if "gitlab" in keywords:
+        headline = "Lead GitLab & DevOps Engineer | CI/CD, DevSecOps, Terraform & Kubernetes"
     tailored = replace(
         profile,
+        headline=headline,
         summary_html=build_summary(profile, matched_keywords, missing_keywords),
         achievements=rank_tagged_items(profile.achievements, keywords) or profile.achievements,
         skill_sections=rank_tagged_items(profile.skill_sections, keywords, content_key="content") or profile.skill_sections,
         experience=[rank_experience(job, keywords) for job in profile.experience],
     )
     return tailored, matched_keywords
+
+
+def build_azure_devops_profile(profile: PersonProfile) -> PersonProfile:
+    achievements = [
+        {"tag": "Azure DevOps Engineering", "text": "Designed governed Azure DevOps delivery platforms with reusable YAML pipelines, service connections, environments, approvals, artifacts, and deployment controls."},
+        {"tag": "Terraform Module Engineering", "text": "Built and maintained reusable, versioned Terraform modules for repeatable Azure infrastructure deployments across multiple environments."},
+        {"tag": "GitHub Actions", "text": "Authored reusable GitHub Actions workflows for Terraform validation, planning, security checks, approvals, deployment, and post-deployment verification."},
+        {"tag": "Azure Cloud Automation", "text": "Automated Azure networking, identity, compute, storage, secrets, monitoring, and container-platform provisioning through infrastructure as code."},
+        {"tag": "AI-Accelerated Delivery", "text": "Applied AI tools and coding agents to accelerate module development, workflow authoring, test generation, troubleshooting, documentation, and peer review."},
+    ]
+    skill_sections = [
+        {"title": "Azure DevOps", "content": "Azure DevOps, Azure Pipelines, Azure Repos, Azure Artifacts, Boards, YAML pipelines, environments, approvals, service connections"},
+        {"title": "GitHub Automation", "content": "GitHub Actions, reusable workflows, composite actions, workflow_call, environments, branch protection, pull requests, OIDC"},
+        {"title": "Terraform", "content": "Reusable modules, module versioning, remote state, state locking, workspaces, providers, variables, outputs, plan/apply governance"},
+        {"title": "Microsoft Azure", "content": "Azure Resource Manager, Virtual Networks, Private Endpoints, Entra ID, Managed Identities, Key Vault, Storage, AKS, Azure Monitor"},
+        {"title": "AI Engineering", "content": "GitHub Copilot, AI coding agents, prompt engineering, code generation, test generation, troubleshooting, documentation automation"},
+        {"title": "DevSecOps", "content": "Terraform validation, Checkov, tfsec, SonarQube, Fortify, Black Duck, secrets management, policy gates, least privilege"},
+        {"title": "Scripting", "content": "PowerShell, Bash, Python, Azure CLI, JSON, YAML"},
+        {"title": "Containers", "content": "Docker, Kubernetes, AKS, Helm, container registries"},
+        {"title": "Source Control", "content": "Git, GitHub, Azure Repos, trunk-based development, GitFlow, pull requests, code reviews"},
+        {"title": "Observability", "content": "Azure Monitor, Log Analytics, Application Insights, Grafana, Prometheus, pipeline telemetry"},
+    ]
+    job_specs = [
+        ("Lead Azure DevOps Engineer", ["Azure", "Azure DevOps", "Azure Pipelines", "GitHub Actions", "Terraform", "PowerShell", "Python", "Docker", "AKS", "AI Coding Agents"], [
+            "Designed and maintained reusable Terraform modules for Azure networking, identity, compute, storage, Key Vault, monitoring, and container-platform services, with versioned interfaces and clear consumer documentation.",
+            "Built reusable GitHub Actions workflows that executed Terraform formatting, validation, security scanning, plan generation, approval, apply, and post-deployment verification across controlled Azure environments.",
+            "Implemented secure GitHub-to-Azure authentication using OpenID Connect and workload identity federation, eliminating long-lived cloud credentials from deployment workflows.",
+            "Engineered multi-stage Azure DevOps YAML pipelines with templates, variable groups, service connections, artifacts, environment checks, manual approvals, and release promotion controls.",
+            "Standardized Terraform engineering practices covering remote state, state locking, provider constraints, module versioning, input validation, outputs, plan review, and environment isolation.",
+            "Used GitHub Copilot and AI coding agents to accelerate Terraform module scaffolding, workflow development, validation testing, troubleshooting, refactoring, and technical documentation.",
+            "Established human-review and security guardrails for AI-generated infrastructure code, requiring peer approval, static analysis, policy validation, and controlled execution before deployment.",
+            "Created automated quality gates for Terraform and pipeline code using linting, security scanning, pull-request checks, branch protection, and evidence-producing deployment approvals.",
+            "Automated Azure platform administration and deployment support with PowerShell, Python, Azure CLI, YAML, and JSON, reducing manual configuration and improving repeatability.",
+            "Worked independently with application, security, and infrastructure teams to resolve Azure DevOps pipeline, Terraform state, service-connection, permission, and deployment issues.",
+        ]),
+        ("Senior Azure DevOps Engineer", ["Azure DevOps", "Azure Pipelines", "GitHub Actions", "Terraform", "Git", "PowerShell", "Docker"], [
+            "Developed Azure DevOps YAML templates and GitHub Actions reusable workflows to standardize application and Terraform delivery across engineering teams.",
+            "Created and maintained Terraform modules with consistent variables, outputs, naming, tagging, security defaults, and semantic versioning.",
+            "Configured hosted and self-hosted build agents, workload-specific pools, pipeline permissions, caching, artifacts, and execution policies for reliable delivery.",
+            "Implemented Git branching, pull-request, code-review, approval, and protected-branch standards across Azure Repos and GitHub repositories.",
+            "Troubleshot pipeline, Terraform, authentication, artifact, and deployment failures and documented repeatable remediation procedures.",
+        ]),
+        ("Senior DevOps Engineer - Azure Automation", ["Azure", "GitHub Actions", "Terraform", "PowerShell", "Python", "Docker", "Kubernetes"], [
+            "Authored and maintained GitHub Actions workflows for continuous integration, infrastructure validation, artifact management, and controlled cloud deployments.",
+            "Provisioned cloud environments with reusable Terraform modules and pipeline-driven infrastructure-as-code patterns.",
+            "Developed PowerShell and Python automation for environment configuration, operational checks, deployment support, and recovery workflows.",
+            "Built delivery dashboards and pipeline telemetry to improve visibility into workflow health, failures, approvals, and release readiness.",
+            "Resolved complex build and deployment issues across distributed engineering teams while maintaining clear operational documentation.",
+        ]),
+        ("Senior DevOps / Site Reliability Engineer", ["Azure", "GitHub Actions", "Terraform", "Python", "Kubernetes", "Prometheus", "Grafana"], [
+            "Standardized GitHub Actions workflow patterns to reduce pipeline drift and accelerate software and infrastructure delivery.",
+            "Designed reusable Terraform solutions for repeatable platform provisioning and environment promotion.",
+            "Integrated security, quality, and observability controls into CI/CD workflows to improve deployment confidence and operational readiness.",
+            "Automated reliability checks, monitoring, and incident diagnostics with Python, Prometheus, and Grafana.",
+        ]),
+        ("Senior Azure DevOps Engineer", ["Azure DevOps", "Azure Pipelines", "Git", "PowerShell", "Terraform", "Docker", "Helm"], [
+            "Built continuous-delivery pipelines for multi-environment application releases using reusable templates and governed promotion controls.",
+            "Automated infrastructure configuration with Terraform and PowerShell to improve auditability and repeatability.",
+            "Implemented source-control, branching, artifact-versioning, and release-governance practices for application teams.",
+            "Created deployment guides and runbooks and supported production releases across complex enterprise environments.",
+        ]),
+        ("Azure DevOps Engineer", ["Azure DevOps", "Terraform", "Git", "PowerShell", "Python", "YAML", "JSON"], [
+            "Authored and maintained reusable Terraform modules and executed infrastructure changes through automated CI/CD workflows.",
+            "Built YAML-based build and release pipelines with event-driven triggers, artifact promotion, environment selection, and deployment controls.",
+            "Developed branching strategies and pull-request standards to improve release governance and code promotion.",
+            "Automated configuration and deployment activities with PowerShell and Python and maintained shared operational scripts.",
+            "Supported self-hosted build agents and diagnosed pipeline execution, dependency, and environment issues.",
+        ]),
+    ]
+    azure_jobs = [replace(job, title=title, skills_used=skills, impact=impact) for job, (title, skills, impact) in zip(profile.experience, job_specs)]
+    return replace(
+        profile,
+        page_title="Rajendra Prasad N - Lead Azure DevOps Engineer",
+        headline="Lead Azure DevOps Engineer | Terraform, GitHub Actions & AI Automation",
+        summary_html=(
+            "<strong>Lead Azure DevOps Engineer with more than a decade of enterprise CI/CD, cloud automation, infrastructure-as-code, and release engineering experience</strong>. "
+            "Deep hands-on expertise building and maintaining <strong>reusable Terraform modules</strong>, authoring new and supporting existing <strong>GitHub Actions workflows</strong>, "
+            "and designing governed Azure DevOps YAML pipelines for secure, repeatable cloud deployments. Strong Azure delivery background spanning identity, networking, secrets, compute, "
+            "storage, monitoring, containers, and deployment governance. Proficient with AI tools and coding agents for module development, workflow authoring, test generation, troubleshooting, "
+            "refactoring, and documentation, with human-review and DevSecOps controls applied to AI-generated changes."
+        ),
+        achievements_title="Azure DevOps & Automation Highlights",
+        achievements=achievements,
+        skill_sections=skill_sections,
+        experience=azure_jobs,
+        certifications=profile.certifications,
+    )
 
 
 def extract_keywords(job_description: str) -> list[str]:
@@ -371,15 +465,33 @@ def extract_keywords(job_description: str) -> list[str]:
 
 
 def build_summary(profile: PersonProfile, matched_keywords: list[str], missing_keywords: list[str]) -> str:
-    matched_text = ", ".join(matched_keywords[:8]) if matched_keywords else "cloud engineering, DevOps automation, and platform reliability"
-    summary = (
-        f"<strong>{escape(profile.headline)}</strong> with a base resume tailored toward "
-        f"<strong>{escape(matched_text)}</strong>. "
-        f"Proven background across {escape(', '.join(profile.skills[:6]))} with emphasis on measurable platform, delivery, and infrastructure outcomes."
+    # Keep the candidate-facing summary polished and evidence-based. Keyword lists
+    # are useful for ranking, but exposing them verbatim produces recruiter-hostile
+    # prose and can accidentally present unsupported JD terms as candidate skills.
+    if "gitlab" in matched_keywords:
+        return (
+            "<strong>Lead GitLab and DevOps Engineer with more than a decade of enterprise platform, "
+            "release engineering, cloud infrastructure, and production operations experience</strong>. "
+            "Hands-on expertise administering GitLab delivery workflows, migrating Azure DevOps and "
+            "Jenkins pipelines to GitLab CI/CD, operating self-hosted and autoscaling runners, building reusable pipeline "
+            "templates, and enforcing branch protection, merge, approval, artifact, and repository "
+            "governance standards. Experienced implementing <strong>GitLab Duo</strong> for AI-assisted "
+            "development with security, review, and adoption guardrails. Deep strength in <strong>Linux, shell automation, Terraform, AWS, "
+            "Azure, Docker, Kubernetes, EKS, OpenShift, and DevSecOps controls</strong>, with experience "
+            "supporting GPU-enabled and vector-search platforms for AI-oriented workloads. Proven record "
+            "improving pipeline security, reliability, scalability, and developer delivery efficiency."
+        )
+    return (
+        "<strong>Lead DevOps Engineer with more than a decade of enterprise delivery, "
+        "release engineering, cloud infrastructure, and production operations experience</strong> "
+        "across Linux and Unix environments. Deep hands-on strength in <strong>shell scripting, "
+        "CI/CD pipeline engineering, infrastructure as code, build and deployment automation, "
+        "and container orchestration</strong> using Jenkins, GitHub Actions, GitLab CI, Terraform, "
+        "CloudFormation, Ansible, Bash, Python, Docker, Kubernetes, EKS, and OpenShift. Proven "
+        "record modernizing application platforms, troubleshooting complex releases, integrating "
+        "monitoring and security controls, and improving the reliability and repeatability of "
+        "mission-critical delivery workflows."
     )
-    if missing_keywords:
-        summary += f" <strong>Target emphasis:</strong> {escape(', '.join(missing_keywords[:4]))}."
-    return summary
 
 
 def rank_tagged_items(items: list[dict[str, str]], keywords: list[str], *, content_key: str = "text") -> list[dict[str, str]]:

@@ -21,10 +21,12 @@ python3 plugins/resume-creator-plugin/scripts/run_resume_request.py \
   --person Rajendra \
   --domain devops-cloud \
   --level Aggressive \
-  --jd-file /path/to/jd.txt
+  --jd-file /path/to/jd.txt \
+  --output-dir tailored_resume/rajendra-prasad-n
 ```
 
 Notes:
+- For Rajendra, always write the final HTML, PDF, and manifest to `tailored_resume/rajendra-prasad-n/` unless the user explicitly requests a different output location. Do not substitute `output/` or `output/pdf/` for PDF verification workflows.
 - `Base` keeps the base resume content and renders directly.
 - `Tailored`, `Optimized`, and `Aggressive` all use the repo’s tailoring engine.
 - Return the PDF path as the primary output artifact when a PDF is requested.
