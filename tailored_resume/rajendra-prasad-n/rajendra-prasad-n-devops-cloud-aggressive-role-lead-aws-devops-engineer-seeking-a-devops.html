@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajendra Prasad N - Lead AWS DevOps Engineer</title>
+
+<style>
+*{box-sizing:border-box;}
+body{margin:0;padding:12px 0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:#222;line-height:1.4;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.resume-page{width:190mm;min-height:277mm;margin:0 auto;background:#ffffff;box-shadow:0 8px 24px rgba(15,57,112,.12);}
+header{background:linear-gradient(120deg,#174a8b,#0f3970);color:white;padding:18px 26px;display:flex;justify-content:space-between;gap:18px;}
+.header-left{max-width:118mm;}
+.header-left h1{margin:0;font-size:30px;letter-spacing:.4px;font-weight:800;}
+.role{margin-top:6px;font-size:13px;font-weight:700;color:#ffc400;text-transform:uppercase;}
+.header-right{text-align:right;font-size:12px;line-height:1.55;}
+.header-right a{color:white;text-decoration:none;word-break:break-word;}
+.content{padding:18px 26px 22px;}
+.summary-box{background:#f6f9fd;border-left:4px solid #174a8b;padding:12px 14px;border-radius:6px;font-size:13px;margin-bottom:18px;}
+.section-title{font-size:16px;color:#174a8b;text-transform:uppercase;font-weight:800;border-bottom:2px solid #174a8b;padding-bottom:5px;margin:20px 0 12px 0;page-break-after:avoid;}
+.certifications-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:6px;page-break-inside:avoid;break-inside:avoid;align-items:start;}
+.cert-card{background:#fbfdff;border:1px solid #e1e8f2;border-radius:8px;padding:8px 6px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;page-break-inside:avoid;break-inside:avoid;min-height:140px;}
+.cert-badge-svg{width:100%;max-width:92px;height:auto;display:block;}
+.cert-label{margin-top:6px;font-size:10px;font-weight:700;line-height:1.25;color:#173b6b;}
+.skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.skill-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;}
+.skill-card h3{margin:0 0 5px 0;font-size:11px;color:#e06300;text-transform:uppercase;}
+.skill-card p{margin:0;font-size:11.5px;}
+.job-block{margin-bottom:18px;page-break-inside:avoid;break-inside:avoid;}
+.job-header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:5px;}
+.job-title{font-weight:700;font-size:14px;}
+.company-name{color:#174a8b;font-weight:700;}
+.job-meta{font-size:11.5px;color:#666;white-space:nowrap;}
+.job-details{font-size:11.25px;color:#444;margin:0 0 7px 0;line-height:1.45;}
+.job-details div{margin-bottom:2px;}
+ul{margin:0;padding-left:18px;}
+li{font-size:11.5px;margin-bottom:4px;}
+.tag{color:#174a8b;font-weight:700;}
+.education-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:8px;}
+.education-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;font-size:11.5px;}
+.education-row{display:flex;align-items:center;gap:16px;}
+.education-copy{min-width:0;}
+.education-card strong{display:block;margin-bottom:3px;}
+.education-logo{width:auto;max-width:140px;max-height:56px;height:auto;display:block;flex:0 0 auto;object-fit:contain;object-position:left center;}
+@page{size:A4 portrait;margin:8mm;}
+@media print{
+html,body{width:210mm;}
+body{background:white;padding:0;font-size:11px;line-height:1.32;}
+.resume-page{width:194mm;min-height:auto;margin:0 auto;box-shadow:none;}
+header{padding:14px 18px;gap:14px;}
+.header-left{max-width:118mm;}
+.header-left h1{font-size:25px;}
+.role{font-size:11.5px;margin-top:4px;}
+.header-right{font-size:10.5px;line-height:1.4;}
+.content{padding:12px 18px 16px;}
+.summary-box{font-size:11.25px;padding:10px 12px;margin-bottom:12px;}
+.section-title{font-size:13px;margin:14px 0 8px 0;padding-bottom:4px;border-bottom-width:2px;page-break-after:avoid;break-after:avoid;}
+.certifications-grid{grid-template-columns:repeat(5,minmax(0,1fr)) !important;gap:6px;}
+.cert-card{min-height:112px;padding:6px 4px;}
+.cert-badge-svg{max-width:74px;}
+.cert-label{font-size:8.5px;line-height:1.15;margin-top:5px;}
+.skills-grid{grid-template-columns:1fr 1fr !important;gap:8px;page-break-inside:auto;}
+.skill-card{padding:8px 9px;}
+.skill-card h3{font-size:9.5px;margin-bottom:4px;}
+.skill-card p{font-size:9.5px;line-height:1.28;}
+.job-block{margin-bottom:12px;}
+.job-title{font-size:12px;}
+.job-meta{font-size:9.5px;}
+.job-details{font-size:9.5px;line-height:1.3;margin-bottom:5px;}
+ul{padding-left:15px;}
+li{font-size:9.6px;line-height:1.26;margin-bottom:2px;}
+.education-grid{gap:8px;margin-bottom:6px;}
+.education-card{padding:8px 9px;font-size:9.8px;}
+.education-row{gap:12px;}
+.education-card strong{margin-bottom:2px;}
+.education-logo{width:auto;max-width:112px;max-height:42px;}
+a{text-decoration:none;color:inherit;}
+}
+@media (max-width:900px){body{padding:0;}.resume-page{width:100%;min-height:auto;box-shadow:none;}.certifications-grid{grid-template-columns:repeat(3,1fr);}.skills-grid{grid-template-columns:1fr;}.header-left{max-width:none;}.job-header{flex-direction:column;}.job-meta{white-space:normal;}.education-row{align-items:flex-start;}}
+@media (max-width:560px){.certifications-grid{grid-template-columns:repeat(2,1fr);}.cert-card{min-height:132px;}}
+</style>
+</head>
+<body>
+<div class="resume-page">
+<header>
+<div class="header-left">
+<h1>RAJENDRA PRASAD N</h1>
+<div class="role">Lead AWS DevOps Engineer | CI/CD, Terraform &amp; Cloud Automation</div>
+</div>
+<div class="header-right">
+<div>rajendranelakurthi@gmail.com</div>
+<div>+1 (469) 926-4201</div>
+<div>Dallas, TX</div>
+<div><a href="https://www.linkedin.com/in/rajendranelakurthi">linkedin.com/in/rajendranelakurthi</a></div>
+<div><a href="https://rajendranelakurthi.github.io">rajendranelakurthi.github.io</a></div>
+</div>
+</header>
+<div class="content">
+<div class="summary-box"><strong>Lead AWS DevOps Engineer with more than a decade of enterprise cloud, CI/CD, infrastructure automation, platform engineering, and production-operations experience</strong>. Deep hands-on expertise with <strong>AWS, Terraform, CloudFormation, Jenkins, GitLab CI/CD, CodePipeline, CodeBuild, CodeDeploy, Python, Bash, Ansible, Linux, Docker, Kubernetes, EKS, ECS, ECR, IAM, VPC networking, and CloudWatch</strong>. Proven in designing secure and scalable AWS platforms, modernizing delivery toolchains, automating application and infrastructure releases, implementing hybrid connectivity, leading platform upgrades, troubleshooting complex operational failures, and aligning development, infrastructure, operations, network, database, and security teams around reliable enterprise delivery.</div>
+<h2 class="section-title">Certifications</h2>
+<div class="certifications-grid">
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><circle cx="90" cy="90" r="82" fill="#ffffff" stroke="#3b296e" stroke-width="5"/><circle cx="90" cy="90" r="72" fill="none" stroke="#d7d0ea" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">GITLAB</text><text x="90" y="61" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">CERTIFIED</text><path d="M76 82 90 112 104 82 114 114 90 140 66 114Z" fill="#f36f21"/><path d="M76 82 90 112 104 82" fill="none" stroke="#2c235d" stroke-width="4" stroke-linejoin="round"/><text x="90" y="157" text-anchor="middle" font-size="13" font-weight="700" fill="#2c235d">ASSOCIATE</text></svg>
+<div class="cert-label">GitLab Certified Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0c62b7" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#1e225f">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#555">CERTIFIED</text><text x="90" y="96" text-anchor="middle" font-size="18" font-weight="700" fill="#202020">AZURE</text><text x="90" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#202020">FUNDAMENTALS</text><path d="M90 133 96 150 114 150 99 160 105 176 90 166 75 176 81 160 66 150 84 150Z" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure Fundamentals</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0a3d86" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#d9e2f7">CERTIFIED</text><text x="90" y="94" text-anchor="middle" font-size="17" font-weight="700" fill="#202020">AZURE</text><text x="90" y="116" text-anchor="middle" font-size="13" font-weight="700" fill="#202020">DEVOPS ENGINEER</text><text x="90" y="145" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">EXPERT</text><circle cx="68" cy="160" r="7" fill="#ffffff"/><circle cx="90" cy="160" r="7" fill="#ffffff"/><circle cx="112" cy="160" r="7" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure DevOps Engineer Expert</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 162 54V126L90 168 18 126V54Z" fill="#3136f0" stroke="#4fb0ff" stroke-width="5"/><text x="90" y="44" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">aws</text><text x="90" y="63" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">certified</text><line x1="48" y1="78" x2="132" y2="78" stroke="#9bb8ff" stroke-width="2"/><text x="90" y="104" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Solutions</text><text x="90" y="126" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Architect</text><text x="90" y="148" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="2" fill="#ffffff">ASSOCIATE</text></svg>
+<div class="cert-label">AWS Certified Solutions Architect - Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M50 14H130L166 52V124L90 168 14 124V52Z" fill="#4f26c8" stroke="#7f63ff" stroke-width="5"/><circle cx="90" cy="38" r="16" fill="#ffffff"/><circle cx="90" cy="38" r="10" fill="none" stroke="#0096d6" stroke-width="4"/><text x="90" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">CERTIFIED</text><text x="90" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">MuleSoft</text><text x="90" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Developer</text><text x="90" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">LEVEL 1</text></svg>
+<div class="cert-label">MuleSoft Certified Developer - Level 1</div>
+</div>
+</div>
+<h2 class="section-title">AWS DevOps Engineering Highlights</h2>
+<ul>
+<li><span class="tag">AWS Platform Engineering</span> Designed secure, scalable, highly available AWS platforms using reusable Terraform and CloudFormation patterns across enterprise environments.</li>
+<li><span class="tag">CI/CD Leadership</span> Built application and infrastructure delivery pipelines with Jenkins, GitLab CI/CD, CodePipeline, CodeBuild, and CodeDeploy, including quality, security, approval, and rollback controls.</li>
+<li><span class="tag">Cloud Security</span> Implemented least-privilege IAM, role-based access, security groups, secrets controls, private networking, auditability, and policy-driven delivery guardrails.</li>
+<li><span class="tag">Automation &amp; Modernization</span> Automated provisioning, configuration, deployments, platform upgrades, and operational workflows with Python, Bash, Ansible, Terraform, CloudFormation, and AWS APIs.</li>
+<li><span class="tag">Reliability &amp; Observability</span> Improved production reliability through CloudWatch, Datadog, Splunk, ELK, dashboards, alerting, root-cause analysis, incident response, and continuous improvement.</li>
+</ul>
+<h2 class="section-title">Core Technologies</h2>
+<div class="skills-grid">
+<div class="skill-card">
+<h3>AWS Cloud</h3>
+<p>EC2, ECS, EKS, ECR, Lambda, S3, RDS, Aurora, DynamoDB, OpenSearch/Elasticsearch, SNS, SQS, Route 53, CloudFront</p>
+</div>
+<div class="skill-card">
+<h3>CI/CD</h3>
+<p>Jenkins, GitLab CI/CD, AWS CodePipeline, CodeBuild, CodeDeploy, Git, reusable pipelines, approvals, artifacts, promotion, rollback</p>
+</div>
+<div class="skill-card">
+<h3>Infrastructure as Code</h3>
+<p>Terraform, reusable modules, CloudFormation, Packer, remote state, plan/apply governance, policy validation</p>
+</div>
+<div class="skill-card">
+<h3>AWS Security</h3>
+<p>IAM roles and policies, least privilege, security groups, KMS, Secrets Manager, Parameter Store, CloudTrail, Config, access controls</p>
+</div>
+<div class="skill-card">
+<h3>Automation</h3>
+<p>Python, Bash, Shell, SQL, PowerShell, Perl exposure, AWS CLI, AWS SDKs and APIs, YAML, JSON</p>
+</div>
+<div class="skill-card">
+<h3>Configuration &amp; Orchestration</h3>
+<p>Ansible, Puppet, Rundeck, Terraform, CloudFormation, server configuration, patching, deployment orchestration</p>
+</div>
+<div class="skill-card">
+<h3>Containers</h3>
+<p>Docker, Kubernetes, EKS, ECS, ECR, Helm, container build, scanning, deployment, and runtime operations</p>
+</div>
+<div class="skill-card">
+<h3>Networking &amp; Hybrid Cloud</h3>
+<p>VPC, subnets, route tables, ALB/ELB/NLB, Transit Gateway, VPN, Direct Connect, PrivateLink, endpoints, DNS, on-premises connectivity</p>
+</div>
+<div class="skill-card">
+<h3>Monitoring &amp; Logging</h3>
+<p>Amazon CloudWatch, Datadog, Splunk, ELK, Sumo Logic, CloudTrail, Grafana, Prometheus, logs, metrics, alerts</p>
+</div>
+<div class="skill-card">
+<h3>Linux &amp; Data</h3>
+<p>Linux, Unix, RHEL, Ubuntu, shell administration, MySQL, PostgreSQL, RDS, Aurora, DynamoDB, MongoDB</p>
+</div>
+</div>
+<h2 class="section-title">Professional Experience</h2>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Lead AWS DevOps Engineer</span> | <span class="company-name">AT&amp;T Services Inc.</span></div>
+<span class="job-meta">08/2023 - Present</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, Terraform, CloudFormation, Jenkins, GitLab CI/CD, CodePipeline, CodeDeploy, Python, Bash, Ansible, EKS</div>
+</div>
+<ul>
+<li>Led AWS DevOps engineering across application and infrastructure delivery, defining platform standards, automation roadmaps, reusable patterns, security controls, reliability practices, and upgrade strategies for enterprise teams.</li>
+<li>Architected multi-stage CI/CD pipelines with Jenkins, GitLab CI/CD, AWS CodePipeline, CodeBuild, and CodeDeploy for build, test, security scanning, artifact publication, approvals, deployment, validation, and rollback.</li>
+<li>Developed reusable Terraform modules and CloudFormation templates for VPCs, IAM, security groups, EC2, EKS, ECS, ECR, load balancers, databases, storage, messaging, monitoring, and private connectivity.</li>
+<li>Implemented secure Terraform delivery with remote state, locking, plan review, controlled apply stages, policy validation, reusable modules, environment separation, and least-privilege execution roles.</li>
+<li>Established AWS security best practices using IAM roles and policies, permission boundaries, security groups, KMS, Secrets Manager, CloudTrail, AWS Config, private subnets, and auditable access controls.</li>
+<li>Automated provisioning, deployments, configuration, health checks, platform upgrades, and recovery workflows using Python, Bash, Shell, Ansible, AWS CLI, SDKs, APIs, YAML, and JSON.</li>
+<li>Designed hybrid connectivity across AWS and on-premises environments using VPC routing, Transit Gateway, VPN, Direct Connect, PrivateLink, endpoints, DNS, ALB, NLB, and security controls.</li>
+<li>Built and operated Docker and Kubernetes workloads on EKS and ECS, integrating ECR image workflows, Helm deployments, autoscaling, health checks, secrets, and deployment strategies.</li>
+<li>Implemented operational visibility with CloudWatch metrics, logs, alarms, dashboards, CloudTrail, Datadog, Splunk, ELK, and Sumo Logic patterns to accelerate detection and root-cause analysis.</li>
+<li>Coordinated development, operations, infrastructure, network, database, and security teams to troubleshoot production issues, remove delivery bottlenecks, and drive measurable DevOps improvements.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior AWS DevOps Engineer</span> | <span class="company-name">GlobalLogic</span></div>
+<span class="job-meta">03/2023 - 08/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, Jenkins, GitLab CI/CD, Terraform, Ansible, Docker, Kubernetes, Python, Linux</div>
+</div>
+<ul>
+<li>Built and maintained CI/CD pipelines for application, container, database, and infrastructure delivery across multiple AWS environments.</li>
+<li>Provisioned AWS services with Terraform and CloudFormation and standardized reusable modules, naming, tagging, variables, outputs, and security defaults.</li>
+<li>Administered Linux build agents and deployment infrastructure and resolved pipeline, credential, dependency, network, artifact, and environment failures.</li>
+<li>Automated server configuration and release orchestration with Ansible, Python, Bash, and Rundeck-style runbooks to reduce manual operational effort.</li>
+<li>Integrated pipeline quality gates, image scanning, IAM controls, approvals, monitoring checks, and rollback procedures for dependable production delivery.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior AWS Platform Engineer</span> | <span class="company-name">Akamai Technologies</span></div>
+<span class="job-meta">12/2021 - 03/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, Terraform, EKS, GitHub Actions, GitLab, Python, CloudWatch, Docker</div>
+</div>
+<ul>
+<li>Provisioned AWS infrastructure through reusable Terraform modules and pipeline-driven infrastructure-as-code deployment patterns.</li>
+<li>Delivered containerized microservices to EKS using Docker, ECR, Helm, Kubernetes manifests, environment promotion, and automated verification.</li>
+<li>Implemented AWS networking and security controls spanning VPCs, subnets, security groups, IAM, private endpoints, load balancers, and hybrid connectivity.</li>
+<li>Automated cloud operations and deployment support with Python and Bash and integrated AWS APIs for provisioning, status, and recovery workflows.</li>
+<li>Built CloudWatch dashboards, alarms, logs, backup, and disaster-recovery controls and led root-cause analysis for platform and deployment failures.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior AWS DevOps / SRE</span> | <span class="company-name">Turvo India Pvt Ltd</span></div>
+<span class="job-meta">04/2020 - 12/2021</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, Jenkins, Terraform, Ansible, Kubernetes, Prometheus, Grafana, Splunk, Python</div>
+</div>
+<ul>
+<li>Designed CI/CD pipelines and Terraform automation for scalable AWS application and infrastructure deployments.</li>
+<li>Applied SRE practices to deployment reliability through health gates, monitoring, alerting, incident response, capacity analysis, and rollback readiness.</li>
+<li>Implemented observability with CloudWatch, Prometheus, Grafana, Splunk, and ELK to correlate infrastructure, application, and deployment signals.</li>
+<li>Automated fleet configuration, patching, deployment, and operational validation with Ansible, Python, Bash, and reusable runbooks.</li>
+<li>Troubleshot distributed application, container, network, database, and cloud-service issues and converted findings into durable platform improvements.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior AWS DevOps Engineer</span> | <span class="company-name">HCL Technologies</span></div>
+<span class="job-meta">02/2019 - 04/2020</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> Mercedes-Benz Research &amp; Development India</div>
+<div><strong>Skills Used:</strong> AWS, Jenkins, Ansible, Terraform, Docker, Kubernetes, Bash, Linux, ELK</div>
+</div>
+<ul>
+<li>Built Jenkins delivery pipelines for Java and microservices workloads across development, test, UAT, and production AWS environments.</li>
+<li>Automated AWS infrastructure and Linux server configuration with Terraform, CloudFormation, Ansible, Bash, and PowerShell.</li>
+<li>Deployed Docker and Kubernetes workloads with repeatable packaging, configuration, secrets, health checks, and environment promotion controls.</li>
+<li>Implemented monitoring and log analysis with CloudWatch and ELK and supported production releases, incident response, and service restoration.</li>
+<li>Improved hybrid networking, application connectivity, security groups, load balancing, and operational documentation across cloud and on-premises systems.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">AWS DevOps Engineer</span> | <span class="company-name">Mphasis Ltd</span></div>
+<span class="job-meta">08/2016 - 12/2018</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> HPE</div>
+<div><strong>Skills Used:</strong> AWS, Jenkins, Terraform, CloudFormation, Ansible, Python, Bash, SQL, Splunk</div>
+</div>
+<ul>
+<li>Created Jenkins pipelines for build, test, packaging, infrastructure provisioning, deployment, and controlled promotion across AWS environments.</li>
+<li>Authored reusable Terraform modules and CloudFormation templates and executed infrastructure changes through automated CI/CD workflows.</li>
+<li>Automated Linux administration, server configuration, deployments, file handling, and operational checks using Python, Bash, Shell, Ansible, and SQL.</li>
+<li>Supported EC2, load balancing, storage, relational and NoSQL databases, messaging, monitoring, logging, and access-control services.</li>
+<li>Diagnosed build, deployment, network, server, database, and production issues and maintained repeatable runbooks and recovery procedures.</li>
+</ul>
+</div>
+<h2 class="section-title">Education</h2>
+<div class="education-grid">
+<div class="education-card">
+<div class="education-row">
+
+<div class="education-copy">
+<strong>B.Tech (2009-2013) in Information Technology</strong>
+<div>Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
