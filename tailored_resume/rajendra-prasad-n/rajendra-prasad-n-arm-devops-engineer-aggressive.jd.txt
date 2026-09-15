@@ -1,0 +1,6 @@
+Arm Senior Software and DevOps Engineer - Austin, Texas
+Engineering Platform Services: CloudBees CI (Jenkins Enterprise), company-wide engineering tools, libraries, guidelines, and best practices. Own requirements, planning, implementation, delivery, production support and on-call high-impact incident response.
+Responsibilities: software builds and test solutions; CI/CD, binary, secret and test management; SaaS services, cloud environments and large-scale clustered compute; virtualization, Docker, Kubernetes, Terraform; developer experience and engineering efficiency.
+Required: 4-8 years DevOps; software development and build; SDLC; Python, Groovy, Java, Go, C or C++; CloudBees CI or Jenkins Pipelines; Docker, Kubernetes, Helm, ArgoCD; Linux infrastructure build, provisioning and maintenance; AWS preferred, Azure or GCP; Terraform, Ansible or Puppet.
+Preferred: platform engineering, developer productivity, self-service infrastructure automation, microservice software development, AI-assisted engineering workflows.
+User direction: Aggressive DevOps Engineer resume; predominantly SaaS solutions and close development-team collaboration; AWS-first experience with Azure across projects. Base template update only after approval.

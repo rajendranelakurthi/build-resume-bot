@@ -1,0 +1,243 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Lead DevOps Engineer | SaaS Platforms | AWS",
+  "location": "Dallas, TX",
+  "email": "rajendranelakurthi@gmail.com",
+  "page_title": "Rajendra Prasad N - Lead DevOps Engineer",
+  "summary_html": "<strong>DevOps Engineer with 10+ years of experience delivering CI/CD, cloud infrastructure, and production support</strong>, partnering closely with development teams to improve SaaS delivery and day-to-day engineering productivity. Hands-on background in <strong>CloudBees CI (Jenkins Enterprise), Jenkins Pipelines, Python, Groovy shared libraries, Docker, Kubernetes, Helm, ArgoCD, Terraform, and Ansible</strong>. Builds reusable delivery workflows and self-service platform automation with <strong>AWS and Azure</strong>. Owns technical delivery from requirements and planning through implementation, rollout, documentation, and operational support.",
+  "achievements_title": "Key Platform Achievements",
+  "contact_lines_html": [
+    "rajendranelakurthi@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "certification_badges_image": "file:///Users/rajendra/Documents/1Resume/ai_resume/plugins/resume-creator-plugin/assets/static/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "AWS",
+    "EKS",
+    "Terraform",
+    "CloudFormation",
+    "Jenkins",
+    "GitHub Actions",
+    "Kubernetes",
+    "Ansible",
+    "Python",
+    "CloudWatch"
+  ],
+  "skill_sections": [
+    {
+      "title": "CI/CD & Software Build",
+      "content": "CloudBees CI (Jenkins Enterprise), Jenkinsfile, Groovy shared libraries, GitHub Actions, GitLab CI, Maven, Gradle, SDLC"
+    },
+    {
+      "title": "Cloud & Infrastructure",
+      "content": "AWS: EKS, EC2, ECR, VPC, IAM, S3, RDS, CloudWatch; Azure, AKS, Azure DevOps"
+    },
+    {
+      "title": "Containers & Linux",
+      "content": "Docker, Kubernetes, Helm, ArgoCD, Linux, RHEL, Ubuntu, VMware, clustered compute, autoscaling"
+    },
+    {
+      "title": "Infrastructure & Self-Service",
+      "content": "Terraform, CloudFormation, Ansible, Python, Bash, FastAPI, REST APIs, reusable modules, developer onboarding"
+    },
+    {
+      "title": "Build Quality & Security",
+      "content": "JFrog Artifactory, Xray, Nexus, SonarQube, test reports, artifact promotion, Vault, AWS Secrets Manager, Git"
+    },
+    {
+      "title": "Operations & Development",
+      "content": "Python services, Java microservices, Prometheus, Grafana, CloudWatch, incident response, runbooks, AI-assisted automation"
+    }
+  ],
+  "achievements": [
+    {
+      "tag": "Developer Enablement",
+      "text": "Built reusable pipelines, onboarding APIs, and deployment guidance that let application teams deliver services with less platform intervention."
+    },
+    {
+      "tag": "Enterprise CI",
+      "text": "Administered CloudBees Jenkins and JFrog tooling; developed shared libraries for consistent image versioning and artifact publication."
+    },
+    {
+      "tag": "SaaS Reliability",
+      "text": "Combined Kubernetes delivery, infrastructure automation, observability, and incident response to improve service readiness and release confidence."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "impact": [
+        "Owned platform deliveries for SaaS-style application services, translating developer requirements into implementation plans, reusable automation, rollout criteria, and production support procedures.",
+        "Built AWS-first CI/CD workflows with CodePipeline and GitHub Actions for Java and Node.js microservices, standardizing build, test, image publication, and deployment stages with development teams.",
+        "Delivered reusable Terraform modules and EKS environment patterns so teams could provision consistent infrastructure through reviewed changes; supported Azure delivery environments.",
+        "Containerized microservices with Docker and deployed versioned Helm releases, aligning application configuration, service dependencies, health checks, and rollback procedures across environments.",
+        "Automated provisioning, diagnostics, and recovery tasks in Python and Bash; maintained Linux build agents and distributed execution capacity for concurrent engineering workloads.",
+        "Integrated secrets handling, Terraform validation, image checks, and approval gates into developer workflows to detect release risks before production deployment.",
+        "Operated EKS infrastructure for Milvus and GPU-enabled services, partnering with application teams on capacity, workload isolation, private connectivity, and production readiness.",
+        "Coordinated high-priority incident response and release support, converting recurring failures into automation, runbooks, and actionable engineering improvements.",
+        "Applied AI-assisted techniques to draft automation, explain pipeline failures, and develop troubleshooting guidance, validating generated changes through review and testing."
+      ],
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Azure",
+        "EKS",
+        "Terraform",
+        "Python",
+        "Docker",
+        "Helm",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "impact": [
+        "Partnered with SaaS development teams to resolve build, container, and deployment failures and simplify daily delivery across AWS and Azure environments.",
+        "Operated Linux and Windows build-agent pools with reusable runner templates and execution policies, improving consistency for parallel CI workloads.",
+        "Modernized Jenkins workflows into reusable GitLab CI templates while preserving application build, test, artifact publication, and release requirements.",
+        "Standardized Docker images, Kubernetes deployment patterns, branch protections, and image-validation checks to make releases easier for developers to troubleshoot.",
+        "Organized artifact feeds and repository consumption patterns and coached engineers on merge workflows, pipeline ownership, and environment promotion."
+      ],
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Azure",
+        "Jenkins",
+        "GitLab CI",
+        "Linux",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "impact": [
+        "Built Jenkins and GitHub Actions pipelines for cloud-hosted microservices, integrating Maven builds, automated checks, ECR image publication, and Kubernetes delivery.",
+        "Delivered AWS infrastructure with Terraform and CloudFormation; supported Azure workloads while keeping application delivery patterns reusable.",
+        "Implemented ArgoCD GitOps workflows and Helm packaging for EKS services, giving developers version-controlled deployments and clear rollback paths.",
+        "Maintained Linux build runners and automated environment configuration with Ansible and scripts to keep build dependencies and execution environments consistent.",
+        "Published versioned binaries and container images to shared repositories and integrated SonarQube feedback into engineering workflows.",
+        "Partnered with distributed development teams on release failures and service reliability, using CloudWatch dashboards, backup controls, and operational documentation."
+      ],
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Azure",
+        "Jenkins",
+        "EKS",
+        "Terraform",
+        "ArgoCD",
+        "Helm",
+        "Ansible"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "impact": [
+        "Administered CloudBees CI (Jenkins Enterprise), JFrog Artifactory, and Xray for SaaS product engineering, supporting reliable builds, secure artifact storage, and release execution.",
+        "Developed Groovy Jenkins shared libraries for image versioning and artifact publishing, allowing developers to reuse tested pipeline steps across services.",
+        "Developed Python FastAPI services integrating Jenkins, Jira, and JFrog to automate project onboarding and provide self-service access to delivery workflows.",
+        "Partnered with microservice developers on build dependencies, unit and integration test stages, test-result publication, and repeatable promotion of release artifacts.",
+        "Provisioned AWS-first application infrastructure with Terraform and Ansible, with Azure supporting delivery integrations.",
+        "Authored Docker and Helm deployment patterns for Kubernetes services, including payment-platform workloads, to standardize configuration and application rollout.",
+        "Built Python Prometheus exporters and highly available monitoring stacks with Ansible, Grafana, and Node Exporter to expose application and platform health.",
+        "Worked with developers during production incidents, defect isolation, and sprint retrospectives; turned recurring support issues into platform fixes and reusable guidance."
+      ],
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Azure",
+        "CloudBees CI",
+        "Groovy",
+        "Python / FastAPI",
+        "JFrog",
+        "Terraform",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "impact": [
+        "Partnered with application developers and engineering stakeholders on CI/CD improvements for shared software services, translating roadmap priorities into delivery work.",
+        "Built Jenkins and Maven delivery workflows for REST microservices across test, security-validation, UAT, and production environments.",
+        "Packaged Kubernetes applications with Helm and managed namespaces, services, and configuration for repeatable deployments across shared clusters.",
+        "Supported AWS-first infrastructure and Azure integrations, automating Linux configuration and troubleshooting compute, databases, load balancing, and secrets access.",
+        "Implemented ELK operational visibility and documented environment and release procedures to help developers diagnose application and platform issues."
+      ],
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "AWS",
+        "Azure",
+        "Jenkins",
+        "Maven",
+        "Ansible",
+        "Kubernetes",
+        "Helm"
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "impact": [
+        "Built CI/CD workflows for API, database, and UI components with development teams, standardizing build dependencies and release promotion for shared application services.",
+        "Provisioned AWS infrastructure through Terraform and automated Linux configuration and deployment with Ansible, supporting Azure environments.",
+        "Maintained build agents and Python and shell automation to keep software builds repeatable and simplify infrastructure administration.",
+        "Defined Git branching practices, versioned artifacts, and environment-specific configuration so developers could promote consistent releases from development through production."
+      ],
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "HPE",
+      "skills_used": [
+        "AWS",
+        "Azure",
+        "Terraform",
+        "Ansible",
+        "Python",
+        "Linux",
+        "Nexus"
+      ]
+    }
+  ],
+  "additional_sections": [],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology",
+      "logo_image": "",
+      "logo_alt": ""
+    }
+  ],
+  "education_before_experience": false,
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Source: RajendraPN_Lead_DevOps.docx provided by user.",
+    "Experience bullets rewritten to be more professional, ATS-friendly, AWS-first, and normalized to 10-15 points per company where applicable.",
+    "Header designation is Lead DevOps Engineer. Change it only when the user explicitly requests a different designation; a JD title alone is not authorization."
+  ]
+}

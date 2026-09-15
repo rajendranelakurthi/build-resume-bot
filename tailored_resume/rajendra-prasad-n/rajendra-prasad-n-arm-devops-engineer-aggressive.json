@@ -1,0 +1,21 @@
+{
+  "person": "Rajendra",
+  "domain": "devops-cloud",
+  "level": "Aggressive",
+  "target": "Arm Senior DevOps Engineer",
+  "profile_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-arm-devops-engineer-aggressive.profile.json",
+  "html_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-lead-devops-engineer-updated.html",
+  "pdf_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-lead-devops-engineer-updated.pdf",
+  "base_template_status": "Approved and promoted to repository and bundled plugin base profiles on 2026-09-15",
+  "review_notes": [
+    "AI-assisted workflow bullet is a new claim to confirm.",
+    "Azure involvement across each employer follows user direction and should be verified per role.",
+    "Employment dates retained; experience exceeds the JD 4-8 year range.",
+    "Production incident support retained; paid on-call participation is not asserted."
+  ],
+  "research_sources": [
+    "https://www.jenkins.io/doc/book/pipeline/shared-libraries/",
+    "https://docs.cloudbees.com/docs/cloudbees-ci/latest/cloud-reference-architecture/ra-for-aws/"
+  ],
+  "header_designation": "Lead DevOps Engineer | SaaS Platforms | AWS"
+}
