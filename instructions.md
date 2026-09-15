@@ -177,3 +177,4 @@ If the user does not name a level:
 - The canonical resume content is `resume_data/people/rajendra-prasad-n.json`; the plugin uses `plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json`. Keep these base profiles aligned.
 - `templates/base_resume.html` and the plugin's `assets/templates/base_resume.html` supply the layout; the `__HEADLINE__` placeholder receives its text from the profile. Do not hardcode Rajendra's designation in the generic HTML template.
 - Approved header: **Lead DevOps Engineer | SaaS Platforms | AWS**. Keep Jenkins and other individual tool names in skills/experience, not the header, unless the user explicitly requests them.
+- Rajendra's resume contact email is **rajendran.scm@gmail.com**. Use it in both the profile email field and visible contact lines; do not reuse the previous Gmail address.
