@@ -344,6 +344,14 @@ class BundledHtmlResumeRenderer:
 
 
 def tailor_profile(profile: PersonProfile, job_description: str) -> tuple[PersonProfile, list[str]]:
+    tailored, keywords = _tailor_profile_content(profile, job_description)
+    # The base profile owns the approved header; a JD must not rename it.
+    if profile.person_id == "rajendra-prasad-n":
+        tailored = replace(tailored, headline=profile.headline, page_title=profile.page_title)
+    return tailored, keywords
+
+
+def _tailor_profile_content(profile: PersonProfile, job_description: str) -> tuple[PersonProfile, list[str]]:
     keywords = extract_keywords(job_description)
     matched_keywords = [keyword for keyword in keywords if _profile_contains(profile, keyword)][:10]
     missing_keywords = [keyword for keyword in keywords if keyword not in matched_keywords][:6]

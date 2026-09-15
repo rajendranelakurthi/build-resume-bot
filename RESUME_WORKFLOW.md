@@ -209,3 +209,19 @@ This document should be updated whenever a new lesson is learned about:
 - bullet quality
 - repetition and realism
 - rendering behavior
+
+## Approved Platform Engineering Base (2026-09-15)
+
+On `feature/rajendrapn-platformengineer`, the user approved the Arm-tailored resume as the reusable platform-engineering base. Both `resume_data/people/rajendra-prasad-n.json` and `plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json` now contain the approved content with a general DevOps & Platform Engineer headline.
+
+For future platform roles, emphasize SaaS solutions, developer collaboration, self-service infrastructure, reusable Jenkins/CloudBees pipelines, Python automation, Kubernetes, and AWS-first project experience. Mention Azure naturally without the word "secondary" or explicit ranking labels. Preserve employment history and certifications. Use this profile as the starting point and tailor to the next JD.
+
+The user will commit these changes on the current dedicated branch.
+
+### Header correction (2026-09-15)
+
+The user explicitly restored **Lead DevOps Engineer** as the permanent header designation, replacing the general DevOps & Platform Engineer base headline and the Senior DevOps Engineer tailored headline. Keep **Lead DevOps Engineer** for future resumes unless the user explicitly requests a different designation; JD wording alone must not change it. Validate this after applying any tailoring variant and before rendering. Historical employment titles are unaffected. See `instructions.md` for the persistent rule.
+
+### Exact approved header and template behavior
+
+Use **Lead DevOps Engineer | SaaS Platforms | AWS** across both base profiles and generated resumes. Both HTML templates document this preference while retaining `__HEADLINE__` as the profile-driven value. The bundled tailoring entry point now preserves Rajendra's base headline and page title across every JD-specific variant, preventing Jenkins, GitLab, Azure, SRE, or build/release routing from silently changing the header. Change the source headline only after explicit user instruction.

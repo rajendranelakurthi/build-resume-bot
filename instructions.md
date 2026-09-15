@@ -167,3 +167,13 @@ If the user does not name a level:
 - before any `git push`, stop and ask the user for permission
 - take responsibility for keeping `main` updated with shared changes
 - take responsibility for updating the corresponding specialized branches locally after `main` changes
+
+## Rajendra Header Designation (User Preference, 2026-09-15)
+
+- Always use **Lead DevOps Engineer** as Rajendra's resume header designation.
+- Change this designation only when the user explicitly asks for another designation. A different title in a pasted JD is not permission to change it.
+- After tailoring, check the profile headline and HTML/PDF header; role-specific tailoring variants must not override this preference. Technology descriptors after the designation may be tailored.
+- Preserve historical job titles in Professional Experience unless explicitly instructed otherwise.
+- The canonical resume content is `resume_data/people/rajendra-prasad-n.json`; the plugin uses `plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json`. Keep these base profiles aligned.
+- `templates/base_resume.html` and the plugin's `assets/templates/base_resume.html` supply the layout; the `__HEADLINE__` placeholder receives its text from the profile. Do not hardcode Rajendra's designation in the generic HTML template.
+- Approved header: **Lead DevOps Engineer | SaaS Platforms | AWS**. Keep Jenkins and other individual tool names in skills/experience, not the header, unless the user explicitly requests them.

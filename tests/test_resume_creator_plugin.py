@@ -70,3 +70,26 @@ def test_export_html_to_pdf_has_mac_browser_candidates() -> None:
 
     assert "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" in candidates
     assert "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge" in candidates
+
+
+def test_rajendra_header_survives_all_tailoring_routes() -> None:
+    from dataclasses import replace
+
+    core = _load_module("plugin_core_header_test", "plugin_core.py")
+    assets = PLUGIN_SCRIPTS.parent / "assets"
+    profile = core.BundledJsonResumeStore(assets / "people", assets / "static").load_person("rajendra-prasad-n")
+    assert profile.headline == "Lead DevOps Engineer | SaaS Platforms | AWS"
+    for jd in (
+        "CloudBees Jenkins Python AWS",
+        "GitLab CI Terraform",
+        "lead aws devops engineer codepipeline cloudformation",
+        "release engineering branching strategies jenkins",
+        "observability gpu hpc",
+        "azure devops github actions terraform",
+    ):
+        tailored, _ = core.tailor_profile(profile, jd)
+        assert tailored.headline == profile.headline
+        assert tailored.page_title == profile.page_title
+    explicitly_changed = replace(profile, headline="User-approved new designation")
+    tailored, _ = core.tailor_profile(explicitly_changed, "GitLab")
+    assert tailored.headline == explicitly_changed.headline
