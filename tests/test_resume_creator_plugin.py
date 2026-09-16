@@ -70,3 +70,33 @@ def test_export_html_to_pdf_has_mac_browser_candidates() -> None:
 
     assert "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" in candidates
     assert "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge" in candidates
+
+
+def test_dataops_route_preserves_identity_and_azure_content() -> None:
+    from dataclasses import replace
+    core = _load_module("plugin_core_dataops", "plugin_core.py")
+    assets = PLUGIN_SCRIPTS.parent / "assets"
+    profile = core.BundledJsonResumeStore(assets / "people", assets / "static").load_person("rajendra-prasad-n")
+    profile = replace(profile, email="contact@example.com", headline="Explicit title")
+    result, _ = core.tailor_profile(profile, "Liquibase Snowflake GitHub Actions Azure DevOps Terraform")
+    assert result.email == "contact@example.com"
+    assert result.headline == "Explicit title"
+    assert [e.date_range for e in result.experience] == [e.date_range for e in profile.experience]
+    for job in result.experience:
+        content = " ".join(job.impact)
+        assert all(term in content for term in ("Azure", "Liquibase", "Snowflake"))
+        assert "CloudWatch" not in content and "EKS" not in content
+
+
+def test_promote_profile_updates_both_bases(tmp_path: Path) -> None:
+    import json
+    module = _load_module("update_base_profile_test", "update_base_profile.py")
+    source = PLUGIN_SCRIPTS.parent / "assets/variants/rajendra-azure-dataops.json"
+    for parent in (tmp_path / "resume_data/people", tmp_path / "plugins/resume-creator-plugin/assets/people"):
+        parent.mkdir(parents=True)
+    module.update_base(source, tmp_path)
+    primary = json.loads((tmp_path / "resume_data/people/rajendra-prasad-n.json").read_text())
+    bundled = json.loads((tmp_path / "plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json").read_text())
+    assert primary == bundled
+    assert primary["email"] == "rajendran.scm@gmail.com"
+    assert primary["certification_badges_image"] == "assets/rajendra-certifications.svg"

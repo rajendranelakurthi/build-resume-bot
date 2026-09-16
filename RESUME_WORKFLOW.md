@@ -209,3 +209,21 @@ This document should be updated whenever a new lesson is learned about:
 - bullet quality
 - repetition and realism
 - rendering behavior
+
+## Current DataOps base (2026-09-16)
+The user requested the Liquibase / Snowflake / GitHub Actions resume as the new base. Both repository and plugin profiles are synchronized. Preserve the exact header `Lead DevOps Engineer | Multi-Cloud` and contact `rajendran.scm@gmail.com`. The user explicitly requested Liquibase and Snowflake in every project. HTML templates continue to read the header and contact fields from the JSON profile.
+
+## Reproducible DataOps workflow
+
+Resume logic belongs in the packaged plugin, not `tmp/`:
+- `scripts/plugin_core.py` routes Liquibase + Snowflake + GitHub JDs to `assets/variants/rajendra-azure-dataops.json` before the general Azure route.
+- `scripts/run_resume_request.py` writes structured profile JSON, HTML, PDF, and manifest through the normal CLI. The print layout lives in both `base_resume.html` templates.
+- After explicit approval to promote a resume, run `python3 plugins/resume-creator-plugin/scripts/update_base_profile.py --profile <approved.profile.json>` to synchronize both base profiles.
+- Temporary folders contain only disposable rendering/QA artifacts; do not keep resume builders there.
+
+Use Python 3.12 on this Mac (`python3` points to Python 3.9, which does not support the plugin's slotted dataclasses). Example:
+
+```bash
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py --person Rajendra --domain devops-cloud --level Aggressive --jd-file inputs/job-description.txt --output-dir tailored_resume/rajendra-prasad-n
+python3.12 plugins/resume-creator-plugin/scripts/update_base_profile.py --profile tailored_resume/rajendra-prasad-n/approved.profile.json
+```

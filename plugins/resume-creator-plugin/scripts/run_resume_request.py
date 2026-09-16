@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from pathlib import Path
 import re
 import sys
@@ -81,6 +81,8 @@ def render_request(request: ResumeRequest) -> dict[str, object]:
     pdf_path = html_path.with_suffix(".pdf")
     manifest_path = html_path.with_suffix(".json")
 
+    profile_path = html_path.with_suffix(".profile.json")
+    profile_path.write_text(json.dumps(asdict(output_profile), indent=2) + "\n", encoding="utf-8")
     html_path.write_text(renderer.render(output_profile), encoding="utf-8")
     export_html_to_pdf(html_path, pdf_path)
 
@@ -90,6 +92,7 @@ def render_request(request: ResumeRequest) -> dict[str, object]:
         "domain": request.domain,
         "level": level,
         "matched_keywords": matched_keywords,
+        "profile_path": str(profile_path),
         "html_path": str(html_path),
         "pdf_path": str(pdf_path),
         "manifest_path": str(manifest_path),
@@ -107,7 +110,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--jd-file", help="Path to a text file containing the job description")
     parser.add_argument(
         "--output-dir",
-        default=str(Path.cwd() / "output"),
+        default=str(Path.cwd() / "tailored_resume" / "rajendra-prasad-n"),
         help="Directory where HTML, PDF, and manifest files will be written",
     )
     parser.add_argument(

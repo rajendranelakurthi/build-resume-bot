@@ -1,0 +1,247 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Lead DevOps Engineer | Multi-Cloud",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "page_title": "Rajendra Prasad N - Lead DevOps Engineer",
+  "summary_html": "<strong>Lead DevOps Engineer with 10+ years of experience in cloud platforms, CI/CD automation, and production release delivery, with a focus on Azure engineering</strong>. Partners with development, QA, and data engineering teams to automate application and database releases. Combines <strong>Azure DevOps, GitHub Actions, Liquibase, Snowflake, Terraform, PowerShell, Python, and Bash</strong> with Azure infrastructure, container delivery, secure access, and operational troubleshooting. Builds version-controlled deployment processes with review gates, environment configuration, verification, and recovery planning.",
+  "achievements_title": "Key Platform Achievements",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "certification_badges_image": "file:///Users/rajendra/Documents/1Resume/ai_resume/plugins/resume-creator-plugin/assets/static/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "Azure",
+    "Azure DevOps",
+    "GitHub Actions",
+    "Liquibase",
+    "Snowflake",
+    "Terraform",
+    "PowerShell",
+    "Python",
+    "Bash",
+    "AKS",
+    "Docker",
+    "Kubernetes",
+    "AWS"
+  ],
+  "skill_sections": [
+    {
+      "title": "Database Change Management",
+      "content": "Liquibase, changelogs, changesets, SQL, schema versioning, validation, deployment history, rollback scripts"
+    },
+    {
+      "title": "Snowflake & Data Platforms",
+      "content": "Snowflake, databases, schemas, virtual warehouses, RBAC, SQL deployment, query history, resource monitors; Azure SQL Database, PostgreSQL, MySQL"
+    },
+    {
+      "title": "GitHub & CI/CD",
+      "content": "GitHub repositories, GitHub Actions, pull requests, branch protection, merge strategies, reusable workflows, Jenkins, Azure DevOps"
+    },
+    {
+      "title": "Cloud & Infrastructure as Code",
+      "content": "Azure, Terraform, ARM templates, Ansible, virtual networks, Azure Key Vault, Microsoft Entra ID, RBAC; additional cloud experience: AWS"
+    },
+    {
+      "title": "Scripting & Containers",
+      "content": "PowerShell, Python, Bash, Azure CLI, Linux, Docker, Kubernetes, AKS, Azure Container Registry, Helm, ArgoCD"
+    },
+    {
+      "title": "Release Quality & Operations",
+      "content": "DataOps, integration testing, deployment approvals, artifact management, SonarQube, Azure Monitor, Log Analytics, Prometheus, Grafana, Splunk"
+    }
+  ],
+  "achievements": [
+    {
+      "tag": "Database Delivery",
+      "text": "Integrated version-controlled database changes with application releases, validation gates, deployment evidence, and recovery procedures."
+    },
+    {
+      "tag": "GitHub Automation",
+      "text": "Standardized reusable workflows, pull request checks, branching practices, and controlled promotion across development, QA, and production."
+    },
+    {
+      "tag": "Azure & DataOps",
+      "text": "Connected Azure provisioning, cloud data-platform delivery, and operational monitoring to improve release consistency and developer productivity."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "impact": [
+        "Owned CI/CD delivery for SaaS application and database releases, coordinating development, QA, and data engineering requirements, dependencies, release windows, and production verification.",
+        "Built reusable GitHub Actions and Azure DevOps workflows for application builds and Liquibase deployments, using pull request checks, environment approvals, and versioned release artifacts.",
+        "Managed Liquibase changelogs and ordered changesets in Git, validating syntax and reviewing generated SQL before promoting schema changes through development, QA, and production.",
+        "Automated Snowflake SQL deployments for databases, schemas, tables, views, and grants, separating environment configuration from version-controlled migration logic.",
+        "Configured Snowflake roles and warehouse settings, using least-privilege deployment access, auto-suspend, resource monitors, and query history to support secure and efficient operations.",
+        "Established GitHub repository conventions, branch protections, required reviews, and merge controls so application and database changes remained traceable to approved pull requests.",
+        "Developed Python, Bash, and PowerShell automation for pre-deployment checks, database connectivity validation, deployment summaries, and post-release smoke tests.",
+        "Provisioned Azure virtual networks, compute, and AKS infrastructure with Terraform; integrated Key Vault and federated pipeline authentication and published Docker images to Azure Container Registry.",
+        "Troubleshot failed migrations, Snowflake permissions, and pipeline failures using deployment logs and Azure Monitor; coordinated recovery with application owners and preserved release evidence."
+      ],
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "Azure DevOps",
+        "GitHub Actions",
+        "Liquibase",
+        "Snowflake",
+        "Terraform",
+        "AKS",
+        "Key Vault",
+        "PowerShell"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "impact": [
+        "Partnered with developers and QA on Azure-hosted application delivery, standardizing build-agent configuration, reusable pipeline stages, environment settings, and release checks.",
+        "Managed Liquibase changelogs in Git and automated Snowflake schema deployments through reviewed pipeline stages, separating development, QA, and production configuration.",
+        "Migrated Jenkins pipelines to GitLab CI and supported GitHub integration patterns for source review, automated validation, and release traceability.",
+        "Troubleshot Liquibase validation errors, Snowflake role permissions, and SQL deployment failures alongside Docker, Kubernetes, and runner issues with engineering teams."
+      ],
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "Snowflake",
+        "Liquibase",
+        "GitHub",
+        "GitLab CI",
+        "Jenkins",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "impact": [
+        "Built GitHub Actions and Jenkins pipelines for application and database releases, coordinating schema updates with service rollout and post-deployment validation.",
+        "Integrated Liquibase validation and update stages for Snowflake schema changes, maintaining migration history, explicit rollback scripts, and reviewed environment promotion.",
+        "Provisioned Azure infrastructure through Terraform and ARM templates and deployed containerized services to AKS with Helm and ArgoCD.",
+        "Automated release checks and operational tasks using Python, Bash, and PowerShell; published versioned artifacts for repeatable downstream deployment.",
+        "Used Azure Monitor, Log Analytics, and pipeline telemetry to investigate slow deployments, infrastructure failures, and application connectivity issues with development teams."
+      ],
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "Snowflake",
+        "Liquibase",
+        "GitHub Actions",
+        "Terraform",
+        "AKS",
+        "Python"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "impact": [
+        "Delivered CI/CD automation for SaaS services and payment-platform workloads, aligning application releases, database dependencies, and infrastructure changes.",
+        "Standardized GitHub Actions and Jenkins workflows for build, test, artifact publication, and environment promotion, integrating SonarQube and secure secrets handling.",
+        "Developed Python FastAPI integrations for Jenkins, Jira, and JFrog to automate onboarding and reduce manual coordination of release activities.",
+        "Partnered with developers and data engineers on Liquibase changesets for Snowflake tables and views, reviewing SQL, application compatibility, deployment order, and recovery plans.",
+        "Administered CloudBees Jenkins, JFrog Artifactory, and Xray, maintaining reusable shared libraries and consistent artifact versioning.",
+        "Built Terraform modules for Azure networking and AKS, standardized Helm deployments and Ansible configuration, and used Prometheus and Grafana to support incident diagnosis."
+      ],
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "Snowflake",
+        "Liquibase",
+        "GitHub Actions",
+        "Jenkins",
+        "Python",
+        "JFrog",
+        "Terraform",
+        "AKS"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "impact": [
+        "Built Jenkins and Maven delivery pipelines for REST microservices across test, security-validation, UAT, and production environments.",
+        "Coordinated Liquibase database changes and Snowflake SQL deployments with developers and QA, documenting migration order, role requirements, environment configuration, and verification steps.",
+        "Automated Azure virtual machines, virtual networks, and Linux configuration with ARM templates, Ansible, and PowerShell; managed Key Vault integration and secure database connectivity.",
+        "Packaged Kubernetes services with Helm and used ELK, Azure Monitor, and Log Analytics to troubleshoot deployment and application failures."
+      ],
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Azure",
+        "Snowflake",
+        "Liquibase",
+        "Jenkins",
+        "ARM templates",
+        "Ansible",
+        "PowerShell",
+        "Helm"
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "impact": [
+        "Created repeatable build and deployment pipelines for API, database, and UI components, promoting consistent artifacts across development and production.",
+        "Maintained Git branching practices and Liquibase changelogs for Snowflake schema changes, versioning SQL and environment configuration to improve release traceability.",
+        "Automated Azure infrastructure with Terraform and ARM templates and application deployments with Ansible, Python, and PowerShell, keeping configuration consistent across environments.",
+        "Managed build agents, release parameters, and deployment documentation, troubleshooting failed releases with development and operations teams."
+      ],
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "HPE",
+      "skills_used": [
+        "Azure",
+        "Snowflake",
+        "Liquibase",
+        "Git",
+        "Terraform",
+        "ARM templates",
+        "Ansible",
+        "Python",
+        "SQL"
+      ]
+    }
+  ],
+  "additional_sections": [],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology",
+      "logo_image": "",
+      "logo_alt": ""
+    }
+  ],
+  "education_before_experience": false,
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Contact: rajendran.scm@gmail.com.",
+    "Keep header Lead DevOps Engineer | Multi-Cloud unless explicitly changed by user.",
+    "Azure branch: prioritize Azure services across summary, skills, and every project; do not inherit AWS-first content from other branches.",
+    "User requested Aggressive tailoring with Liquibase and Snowflake in every project."
+  ]
+}

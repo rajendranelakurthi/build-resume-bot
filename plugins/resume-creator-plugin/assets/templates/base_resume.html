@@ -78,6 +78,8 @@ a{text-decoration:none;color:inherit;}
 }
 @media (max-width:900px){body{padding:0;}.resume-page{width:100%;min-height:auto;box-shadow:none;}.certifications-grid{grid-template-columns:repeat(3,1fr);}.skills-grid{grid-template-columns:1fr;}.header-left{max-width:none;}.job-header{flex-direction:column;}.job-meta{white-space:normal;}.education-row{align-items:flex-start;}}
 @media (max-width:560px){.certifications-grid{grid-template-columns:repeat(2,1fr);}.cert-card{min-height:132px;}}
+/* Keep print geometry independent of narrow-screen rules. */
+@media print{html,body{width:auto;} .job-header{flex-direction:row;} .job-meta{white-space:nowrap;}}
 </style>
 </head>
 <body>
@@ -85,6 +87,7 @@ a{text-decoration:none;color:inherit;}
 <header>
 <div class="header-left">
 <h1>__FULL_NAME__</h1>
+<!-- Approved Rajendra header: Lead DevOps Engineer | Multi-Cloud; contact comes from profile: rajendran.scm@gmail.com -->
 <div class="role">__HEADLINE__</div>
 </div>
 <div class="header-right">

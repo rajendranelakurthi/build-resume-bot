@@ -167,3 +167,14 @@ If the user does not name a level:
 - before any `git push`, stop and ask the user for permission
 - take responsibility for keeping `main` updated with shared changes
 - take responsibility for updating the corresponding specialized branches locally after `main` changes
+
+## Persistent Rajendra preferences (2026-09-16)
+- Contact email: **rajendran.scm@gmail.com**, in both email and contact_lines_html.
+- Header: **Lead DevOps Engineer | Multi-Cloud**. Do not change designation or add tool names based on a JD; only an explicit user request can change it.
+- The reusable DataOps base is synchronized between resume_data/people/rajendra-prasad-n.json and plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json.
+- The user requested Liquibase and Snowflake in every project in the current Aggressive DataOps base.
+- The user will commit changes; leave this work uncommitted.
+
+- On `feature/rajendrapn-azure`, use the Multi-Cloud header above and Azure-focused content throughout. Keep **Lead DevOps Engineer** as the designation; do not carry over the AWS/SaaS header from another branch.
+
+- Azure-branch content must emphasize Azure in the summary, skill ordering, infrastructure, containers, monitoring, and all project technology lists. Preserve AWS certification and broader AWS skills, but do not make projects AWS-first.

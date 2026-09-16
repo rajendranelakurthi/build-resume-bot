@@ -1,0 +1,20 @@
+{
+  "person": "Rajendra",
+  "domain": "devops-cloud",
+  "level": "Aggressive",
+  "html_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-multi-cloud-azure-focused.html",
+  "pdf_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-multi-cloud-azure-focused.pdf",
+  "base_updated": true,
+  "research_sources": [
+    "https://docs.liquibase.com/community/integration-guide-5-0-3/connect-liquibase-to-snowflake",
+    "https://www.snowflake.com/en/developers/guides/devops-dcm-schemachange-github/"
+  ],
+  "email_files_updated": [
+    "plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json",
+    "tailored_resume/rajendra-prasad-n/rajendra-prasad-n-devops-cloud-aggressive-we-are-seeking-a-highly-skilled-gitlab-engineer.html",
+    "tailored_resume/rajendra-prasad-n/rajendra-prasad-n-devops-cloud-aggressive-mandatory-skills-terraform-azure-github-workflows-and-github.html"
+  ],
+  "user_direction": "Include Liquibase and Snowflake in every project",
+  "header": "Lead DevOps Engineer | Multi-Cloud",
+  "cloud_focus": "Azure"
+}
