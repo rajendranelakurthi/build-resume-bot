@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajendra Prasad N - AWS DevOps &amp; Serverless Engineer</title>
+
+<style>
+*{box-sizing:border-box;}
+body{margin:0;padding:12px 0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:#222;line-height:1.4;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.resume-page{width:190mm;min-height:277mm;margin:0 auto;background:#ffffff;box-shadow:0 8px 24px rgba(15,57,112,.12);}
+header{background:linear-gradient(120deg,#174a8b,#0f3970);color:white;padding:18px 26px;display:flex;justify-content:space-between;gap:18px;}
+.header-left{max-width:118mm;}
+.header-left h1{margin:0;font-size:30px;letter-spacing:.4px;font-weight:800;}
+.role{margin-top:6px;font-size:13px;font-weight:700;color:#ffc400;text-transform:uppercase;}
+.header-right{text-align:right;font-size:12px;line-height:1.55;}
+.header-right a{color:white;text-decoration:none;word-break:break-word;}
+.content{padding:18px 26px 22px;}
+.summary-box{background:#f6f9fd;border-left:4px solid #174a8b;padding:12px 14px;border-radius:6px;font-size:13px;margin-bottom:18px;}
+.section-title{font-size:16px;color:#174a8b;text-transform:uppercase;font-weight:800;border-bottom:2px solid #174a8b;padding-bottom:5px;margin:20px 0 12px 0;page-break-after:avoid;}
+.certifications-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:6px;page-break-inside:avoid;break-inside:avoid;align-items:start;}
+.cert-card{background:#fbfdff;border:1px solid #e1e8f2;border-radius:8px;padding:8px 6px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;page-break-inside:avoid;break-inside:avoid;min-height:140px;}
+.cert-badge-svg{width:100%;max-width:92px;height:auto;display:block;}
+.cert-label{margin-top:6px;font-size:10px;font-weight:700;line-height:1.25;color:#173b6b;}
+.skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.skill-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;}
+.skill-card h3{margin:0 0 5px 0;font-size:11px;color:#e06300;text-transform:uppercase;}
+.skill-card p{margin:0;font-size:11.5px;}
+.job-block{margin-bottom:18px;page-break-inside:avoid;break-inside:avoid;}
+.job-header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:5px;}
+.job-title{font-weight:700;font-size:14px;}
+.company-name{color:#174a8b;font-weight:700;}
+.job-meta{font-size:11.5px;color:#666;white-space:nowrap;}
+.job-details{font-size:11.25px;color:#444;margin:0 0 7px 0;line-height:1.45;}
+.job-details div{margin-bottom:2px;}
+ul{margin:0;padding-left:18px;}
+li{font-size:11.5px;margin-bottom:4px;}
+.tag{color:#174a8b;font-weight:700;}
+.education-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:8px;}
+.education-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;font-size:11.5px;}
+.education-row{display:flex;align-items:center;gap:16px;}
+.education-copy{min-width:0;}
+.education-card strong{display:block;margin-bottom:3px;}
+.education-logo{width:auto;max-width:140px;max-height:56px;height:auto;display:block;flex:0 0 auto;object-fit:contain;object-position:left center;}
+@page{size:A4 portrait;margin:8mm;}
+@media print{
+html,body{width:210mm;}
+body{background:white;padding:0;font-size:11px;line-height:1.32;}
+.resume-page{width:194mm;min-height:auto;margin:0 auto;box-shadow:none;}
+header{padding:14px 18px;gap:14px;}
+.header-left{max-width:118mm;}
+.header-left h1{font-size:25px;}
+.role{font-size:11.5px;margin-top:4px;}
+.header-right{font-size:10.5px;line-height:1.4;}
+.content{padding:12px 18px 16px;}
+.summary-box{font-size:11.25px;padding:10px 12px;margin-bottom:12px;}
+.section-title{font-size:13px;margin:14px 0 8px 0;padding-bottom:4px;border-bottom-width:2px;page-break-after:avoid;break-after:avoid;}
+.certifications-grid{grid-template-columns:repeat(5,minmax(0,1fr)) !important;gap:6px;}
+.cert-card{min-height:112px;padding:6px 4px;}
+.cert-badge-svg{max-width:74px;}
+.cert-label{font-size:8.5px;line-height:1.15;margin-top:5px;}
+.skills-grid{grid-template-columns:1fr 1fr !important;gap:8px;page-break-inside:auto;}
+.skill-card{padding:8px 9px;}
+.skill-card h3{font-size:9.5px;margin-bottom:4px;}
+.skill-card p{font-size:9.5px;line-height:1.28;}
+.job-block{margin-bottom:12px;}
+.job-title{font-size:12px;}
+.job-meta{font-size:9.5px;}
+.job-details{font-size:9.5px;line-height:1.3;margin-bottom:5px;}
+ul{padding-left:15px;}
+li{font-size:9.6px;line-height:1.26;margin-bottom:2px;}
+.education-grid{gap:8px;margin-bottom:6px;}
+.education-card{padding:8px 9px;font-size:9.8px;}
+.education-row{gap:12px;}
+.education-card strong{margin-bottom:2px;}
+.education-logo{width:auto;max-width:112px;max-height:42px;}
+a{text-decoration:none;color:inherit;}
+}
+@media (max-width:900px){body{padding:0;}.resume-page{width:100%;min-height:auto;box-shadow:none;}.certifications-grid{grid-template-columns:repeat(3,1fr);}.skills-grid{grid-template-columns:1fr;}.header-left{max-width:none;}.job-header{flex-direction:column;}.job-meta{white-space:normal;}.education-row{align-items:flex-start;}}
+@media (max-width:560px){.certifications-grid{grid-template-columns:repeat(2,1fr);}.cert-card{min-height:132px;}}
+@media print {.section-title{margin-top:12px}.skill-card{padding:6px 8px}.job-block{break-inside:auto;page-break-inside:auto}.job-block ~ .job-block{break-inside:avoid;page-break-inside:avoid}.job-header,.job-details{break-after:avoid;page-break-after:avoid}li{break-inside:avoid;page-break-inside:avoid}}
+</style>
+</head>
+<body>
+<div class="resume-page">
+<header>
+<div class="header-left">
+<h1>RAJENDRA PRASAD N</h1>
+<div class="role">Lead AWS DevOps Engineer | GitLab, Serverless &amp; DevSecOps</div>
+</div>
+<div class="header-right">
+<div>rajendran.scm@gmail.com</div>
+<div>+1 (469) 926-4201</div>
+<div>Dallas, TX</div>
+<div><a href="https://www.linkedin.com/in/rajendranelakurthi">linkedin.com/in/rajendranelakurthi</a></div>
+<div><a href="https://rajendranelakurthi.github.io">rajendranelakurthi.github.io</a></div>
+</div>
+</header>
+<div class="content">
+<div class="summary-box"><strong>Lead DevOps Engineer with 10+ years of enterprise experience in AWS cloud operations, CI/CD, infrastructure automation, and production delivery.</strong> Expertise in <strong>GitLab repository administration, AWS CodePipeline, Lambda, API Gateway, CloudFormation, and Python/Shell automation</strong>. Builds governed backend release workflows, automates frontend environments with Ansible, and integrates security scanning, AWS Config checks, and operational monitoring. Collaborates across large hybrid enterprise development, QA, security, networking, and operations teams. Brings working knowledge of GoCD concepts and mobile test-build distribution, with Healthcare Payer application support experience through Mphasis/HPE.</div>
+<h2 class="section-title">Certifications</h2>
+<div class="certifications-grid">
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><circle cx="90" cy="90" r="82" fill="#ffffff" stroke="#3b296e" stroke-width="5"/><circle cx="90" cy="90" r="72" fill="none" stroke="#d7d0ea" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">GITLAB</text><text x="90" y="61" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">CERTIFIED</text><path d="M76 82 90 112 104 82 114 114 90 140 66 114Z" fill="#f36f21"/><path d="M76 82 90 112 104 82" fill="none" stroke="#2c235d" stroke-width="4" stroke-linejoin="round"/><text x="90" y="157" text-anchor="middle" font-size="13" font-weight="700" fill="#2c235d">ASSOCIATE</text></svg>
+<div class="cert-label">GitLab Certified Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0c62b7" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#1e225f">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#555">CERTIFIED</text><text x="90" y="96" text-anchor="middle" font-size="18" font-weight="700" fill="#202020">AZURE</text><text x="90" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#202020">FUNDAMENTALS</text><path d="M90 133 96 150 114 150 99 160 105 176 90 166 75 176 81 160 66 150 84 150Z" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure Fundamentals</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0a3d86" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#d9e2f7">CERTIFIED</text><text x="90" y="94" text-anchor="middle" font-size="17" font-weight="700" fill="#202020">AZURE</text><text x="90" y="116" text-anchor="middle" font-size="13" font-weight="700" fill="#202020">DEVOPS ENGINEER</text><text x="90" y="145" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">EXPERT</text><circle cx="68" cy="160" r="7" fill="#ffffff"/><circle cx="90" cy="160" r="7" fill="#ffffff"/><circle cx="112" cy="160" r="7" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure DevOps Engineer Expert</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 162 54V126L90 168 18 126V54Z" fill="#3136f0" stroke="#4fb0ff" stroke-width="5"/><text x="90" y="44" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">aws</text><text x="90" y="63" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">certified</text><line x1="48" y1="78" x2="132" y2="78" stroke="#9bb8ff" stroke-width="2"/><text x="90" y="104" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Solutions</text><text x="90" y="126" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Architect</text><text x="90" y="148" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="2" fill="#ffffff">ASSOCIATE</text></svg>
+<div class="cert-label">AWS Certified Solutions Architect - Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M50 14H130L166 52V124L90 168 14 124V52Z" fill="#4f26c8" stroke="#7f63ff" stroke-width="5"/><circle cx="90" cy="38" r="16" fill="#ffffff"/><circle cx="90" cy="38" r="10" fill="none" stroke="#0096d6" stroke-width="4"/><text x="90" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">CERTIFIED</text><text x="90" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">MuleSoft</text><text x="90" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Developer</text><text x="90" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">LEVEL 1</text></svg>
+<div class="cert-label">MuleSoft Certified Developer - Level 1</div>
+</div>
+</div>
+<h2 class="section-title">AWS Serverless &amp; Enterprise Delivery Highlights</h2>
+<ul>
+<li><span class="tag">Serverless Delivery:</span> Automated backend REST API releases using CodePipeline, Lambda, API Gateway, versioned infrastructure, and deployment health checks.</li>
+<li><span class="tag">GitLab &amp; DevSecOps:</span> Governed repositories, runners, merge workflows, security gates, and environment approvals to support traceable production releases.</li>
+<li><span class="tag">Enterprise Operations:</span> Connected compliance evaluation, application telemetry, release coordination, and recovery runbooks across hybrid delivery teams.</li>
+</ul>
+<h2 class="section-title">Core Technologies</h2>
+<div class="skills-grid">
+<div class="skill-card">
+<h3>AWS Backend &amp; Serverless</h3>
+<p>Lambda, API Gateway REST APIs, SNS, IAM, S3, CloudWatch, Secrets Manager, KMS, VPC integration</p>
+</div>
+<div class="skill-card">
+<h3>CI/CD &amp; GitLab</h3>
+<p>AWS CodePipeline, CodeBuild, CodeDeploy, GitLab CI/CD, repositories, runners, merge requests, protected branches, Jenkins; GoCD concepts</p>
+</div>
+<div class="skill-card">
+<h3>Infrastructure as Code</h3>
+<p>AWS CloudFormation, AWS SAM, AWS CDK (Python), Terraform, change sets, stack parameters, reusable serverless infrastructure</p>
+</div>
+<div class="skill-card">
+<h3>DevSecOps &amp; Compliance</h3>
+<p>AWS Config rules, conformance packs, remediation workflows, SAST, dependency and secrets scanning, least privilege, pipeline quality gates</p>
+</div>
+<div class="skill-card">
+<h3>Configuration &amp; Scripting</h3>
+<p>Ansible, Python, Shell/Bash, Linux, AWS CLI, JSON, YAML, frontend provisioning, application configuration, deployment validation</p>
+</div>
+<div class="skill-card">
+<h3>Monitoring &amp; Alerting</h3>
+<p>AWS CloudWatch, Sumo Logic, Dynatrace, logs, metrics, traces, dashboards, SNS notifications, API latency, Lambda errors and throttling</p>
+</div>
+<div class="skill-card">
+<h3>Enterprise Platforms</h3>
+<p>Hybrid cloud, EC2, VPC, VPN, DNS, load balancing, Docker, Kubernetes, Helm, controlled environment promotion</p>
+</div>
+<div class="skill-card">
+<h3>Collaboration &amp; Mobile</h3>
+<p>Agile, developer/QA collaboration, release readiness; Firebase App Distribution and TestFlight familiarity; Healthcare Payer application support</p>
+</div>
+</div>
+<h2 class="section-title">Professional Experience</h2>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Lead DevOps Engineer</span> | <span class="company-name">AT&amp;T Services Inc.</span></div>
+<span class="job-meta">08/2023 - Present</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, GitLab, CodePipeline, Lambda, API Gateway, CloudFormation, AWS CDK, SNS, AWS Config, Python, Ansible</div>
+</div>
+<ul>
+<li>Led AWS DevOps delivery within large hybrid enterprise teams, coordinating backend and frontend releases across developers, QA, security, networking, and production operations.</li>
+<li>Administered GitLab projects, groups, repository permissions, protected branches, merge approvals, runners, and reusable CI/CD templates to standardize code governance and release execution.</li>
+<li>Designed AWS CodePipeline workflows for backend services, integrating source changes, CodeBuild tests, security scans, versioned artifacts, approvals, and deployment validation.</li>
+<li>Deployed backend REST APIs through API Gateway and Lambda, managing stages, function versions, aliases, execution roles, environment settings, and application secrets.</li>
+<li>Defined serverless infrastructure using CloudFormation, AWS SAM, and Python-based AWS CDK constructs; reviewed synthesized templates and change sets before promoting environment-specific stacks.</li>
+<li>Implemented gradual Lambda releases using aliases and deployment health alarms; validated API smoke tests and rollback paths before routing production traffic to new versions.</li>
+<li>Integrated backend event notifications with SNS topics and subscriptions, configuring access policies, delivery-failure visibility, and alarm notifications for application and operations teams.</li>
+<li>Embedded SAST, dependency, secrets, and infrastructure checks into delivery workflows; enforced quality thresholds, protected approvals, and traceable exceptions before deployment.</li>
+<li>Configured AWS Config rules and conformance packs to evaluate resource settings, report noncompliance, and trigger controlled remediation workflows with revalidation and audit evidence.</li>
+<li>Automated frontend service infrastructure and Linux configuration with Ansible roles for packages, web-server settings, application directories, certificates, service startup, and endpoint validation.</li>
+<li>Implemented CloudWatch, Sumo Logic, and Dynatrace monitoring for backend health, correlating API latency, Lambda errors, throttling, logs, and traces with deployment events.</li>
+<li>Developed Python and Shell utilities for release orchestration, API checks, configuration comparison, artifact validation, and incident diagnostics; used retrospectives to improve delivery workflows.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer</span> | <span class="company-name">GlobalLogic</span></div>
+<span class="job-meta">03/2023 - 08/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, GitLab CI/CD, Jenkins, Ansible, Python, Shell, Linux, DevSecOps</div>
+</div>
+<ul>
+<li>Built GitLab CI/CD templates for application builds, tests, artifact publication, environment approvals, deployments, and post-release validation.</li>
+<li>Managed Git repositories, branching policies, merge requests, protected variables, and runner pools to improve repository consistency and pipeline reliability.</li>
+<li>Automated Linux and frontend runtime configuration with Ansible, Python, and Shell scripts, separating environment values and secrets from release packages.</li>
+<li>Integrated code analysis, dependency checks, and deployment permissions into pipelines and worked with QA to resolve failed quality gates.</li>
+<li>Troubleshot build-agent, credential, network, container, and application deployment issues across enterprise environments.</li>
+<li>Coordinated release readiness, smoke-test evidence, defect follow-up, and operational handover with developers and support teams.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer II</span> | <span class="company-name">Akamai Technologies</span></div>
+<span class="job-meta">12/2021 - 03/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, CloudFormation, Terraform, GitHub Actions, Jenkins, Python, CloudWatch, Docker</div>
+</div>
+<ul>
+<li>Provisioned AWS environments with CloudFormation and Terraform, maintaining reviewed infrastructure changes, environment parameters, and reusable resource definitions.</li>
+<li>Built CI/CD workflows using GitHub Actions and Jenkins for repeatable builds, tests, artifact publication, and controlled application promotion.</li>
+<li>Supported AWS application infrastructure spanning compute, IAM, networking, load balancing, storage, and monitoring for distributed engineering teams.</li>
+<li>Developed Python and Shell automation for environment checks, AWS API operations, deployment diagnostics, and recovery procedures.</li>
+<li>Deployed containerized services with Docker, Kubernetes, and Helm, validating runtime configuration, service health, and rollback options.</li>
+<li>Implemented CloudWatch dashboards, logging, alarms, backup, and disaster-recovery checks to support incident response and service restoration.</li>
+<li>Partnered with development, QA, network, and operations teams to resolve connectivity and deployment failures and document release dependencies.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer / Senior SRE</span> | <span class="company-name">Turvo India Pvt Ltd</span></div>
+<span class="job-meta">04/2020 - 12/2021</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, Jenkins, Terraform, Ansible, Kubernetes, Prometheus, Grafana, Python</div>
+</div>
+<ul>
+<li>Designed CI/CD pipelines and Terraform automation for AWS application and infrastructure delivery with repeatable validation and deployment stages.</li>
+<li>Built Jenkins shared libraries for image versioning, artifact publication, deployment automation, and consistent promotion across environments.</li>
+<li>Administered CloudBees Jenkins, JFrog Artifactory, and Xray, integrating dependency and artifact checks into enterprise delivery workflows.</li>
+<li>Developed Ansible roles for highly available Prometheus, Grafana, and Node Exporter monitoring stacks, including configuration templates and service verification.</li>
+<li>Created Python Prometheus exporters and dashboards to expose application-specific health signals and improve incident diagnosis.</li>
+<li>Developed internal FastAPI integrations across Jenkins, Jira, and JFrog to automate project onboarding and recurring operational tasks.</li>
+<li>Supported production releases and incident response using health checks, log analysis, rollback decisions, and post-incident reviews with development teams.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer</span> | <span class="company-name">HCL Technologies</span></div>
+<span class="job-meta">02/2019 - 04/2020</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> Mercedes-Benz Research &amp; Development India</div>
+<div><strong>Skills Used:</strong> AWS, Ansible, Linux, Shell Scripting, Jenkins, Maven, Tomcat, JBoss, Helm</div>
+</div>
+<ul>
+<li>Built Jenkins delivery pipelines for Java applications and REST microservices across development, test, UAT, and production environments.</li>
+<li>Automated Linux application setup and configuration with Ansible and shell scripts, including runtime dependencies, environment properties, access permissions, and service checks.</li>
+<li>Managed Maven build outputs and deployment packages for Tomcat and JBoss services, preserving version traceability and environment-specific configuration.</li>
+<li>Deployed Kubernetes applications with Helm and version-controlled manifests, validating configuration changes, pod health, and service connectivity.</li>
+<li>Troubleshot AWS application dependencies involving EC2, load balancers, RDS, CloudWatch, certificates, and identity integrations during releases and migrations.</li>
+<li>Coordinated multi-environment releases with application teams, tracking deployment prerequisites, change approvals, validation results, and recovery actions.</li>
+<li>Implemented ELK-based logging and maintained deployment guides, architecture documentation, and operational runbooks for engineering and support teams.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">DevOps Engineer</span> | <span class="company-name">Mphasis Ltd</span></div>
+<span class="job-meta">08/2016 - 12/2018</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> HPE</div>
+<div><strong>Skills Used:</strong> AWS, Ansible, Linux, Shell Scripting, Python, Maven, Tomcat, JBoss, Nexus, Healthcare Payer</div>
+</div>
+<ul>
+<li>Supported Healthcare Payer application releases within the Mphasis/HPE engagement, using Ansible to promote enrollment, eligibility, and claims-processing service packages across environments.</li>
+<li>Developed shell and Python scripts for payer application configuration, service control, batch-job checks, log inspection, and post-deployment validation.</li>
+<li>Supported Linux build and application servers, resolving permission issues, failed processes, disk usage, missing dependencies, and connectivity problems.</li>
+<li>Authored reusable Terraform modules and AWS CLI automation to provision infrastructure and maintain environment-specific service configurations.</li>
+<li>Established Git branching, release tagging, and artifact repository practices to keep application versions and deployment inputs traceable.</li>
+<li>Coordinated payer application releases across API, database, batch, and UI components, validating dependencies, release sequencing, and handover with QA and support teams.</li>
+<li>Supported Linux-hosted payer services by investigating failed batch jobs, missing inbound files, permission issues, and application connectivity; coordinated recovery and controlled job reruns with support teams.</li>
+<li>Partnered with application and QA teams on enrollment, eligibility, and claims workflow smoke tests after releases, documenting results, defects, and rollback readiness.</li>
+</ul>
+</div>
+<h2 class="section-title">Education</h2>
+<div class="education-grid">
+<div class="education-card">
+<div class="education-row">
+
+<div class="education-copy">
+<strong>B.Tech (2009-2013) in Information Technology</strong>
+<div>Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
