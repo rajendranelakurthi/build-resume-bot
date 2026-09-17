@@ -5,7 +5,7 @@
   "location": "Dallas, TX",
   "email": "rajendran.scm@gmail.com",
   "page_title": "Rajendra Prasad N - Lead AWS DevOps Engineer",
-  "summary_html": "<strong>Lead DevOps Engineer with 10+ years of enterprise experience in AWS cloud operations, application deployments, release management, and infrastructure automation.</strong> Hands-on expertise with <strong>Ansible, Linux, Bash/Shell scripting, Jenkins, GitLab CI/CD, Terraform, and AWS deployment services</strong>. Builds reusable automation for server configuration, application installation, environment promotion, health validation, and recovery. Leads release readiness, production cutovers, troubleshooting, and cross-team coordination, with a focus on consistent configurations, traceable artifacts, and dependable deployment procedures.",
+  "summary_html": "<strong>Lead DevOps Engineer with 10+ years of enterprise experience in AWS cloud operations, application deployments, release management, and infrastructure automation.</strong> Hands-on expertise with <strong>Ansible, Linux, Bash/Shell scripting, Jenkins, GitLab CI/CD, Terraform, and AWS deployment services</strong>. Builds reusable automation for server configuration, application installation, environment promotion, health validation, and recovery. Leads release readiness, production cutovers, troubleshooting, and cross-team coordination, with a focus on consistent configurations, traceable artifacts, and dependable deployment procedures. Healthcare Payer experience supporting application deployments and release operations for member enrollment, eligibility, and claims-processing services within the Mphasis/HPE engagement.",
   "achievements_title": "AWS DevOps & Release Delivery Highlights",
   "contact_lines_html": [
     "rajendran.scm@gmail.com",
@@ -26,7 +26,8 @@
     "DevOps Automation",
     "Bash",
     "Jenkins",
-    "Terraform"
+    "Terraform",
+    "Healthcare Payer"
   ],
   "skill_sections": [
     {
@@ -58,8 +59,8 @@
       "content": "Terraform, CloudFormation, Ansible, Docker, ECR, EKS, Kubernetes, Helm, ArgoCD, infrastructure as code"
     },
     {
-      "title": "Monitoring & Security",
-      "content": "CloudWatch, Prometheus, Grafana, Splunk, ELK, SonarQube, Fortify, Black Duck, least-privilege IAM, secrets handling, audit evidence"
+      "title": "Healthcare Payer Domain",
+      "content": "Member enrollment, eligibility and benefits, claims-processing applications, payer application deployments, batch-processing support, release validation"
     }
   ],
   "achievements": [
@@ -219,12 +220,14 @@
       "title": "DevOps Engineer",
       "company": "Mphasis Ltd",
       "impact": [
-        "Created Ansible deployment workflows to promote application packages from development through production using consistent installation and configuration steps.",
-        "Wrote shell and Python scripts for file handling, package extraction, configuration updates, service control, log inspection, and post-deployment checks.",
+        "Supported Healthcare Payer application releases within the Mphasis/HPE engagement, using Ansible to promote enrollment, eligibility, and claims-processing service packages across environments.",
+        "Developed shell and Python scripts for payer application configuration, service control, batch-job checks, log inspection, and post-deployment validation.",
         "Supported Linux build and application servers, resolving permission issues, failed processes, disk usage, missing dependencies, and connectivity problems.",
         "Authored reusable Terraform modules and AWS CLI automation to provision infrastructure and maintain environment-specific service configurations.",
         "Established Git branching, release tagging, and artifact repository practices to keep application versions and deployment inputs traceable.",
-        "Documented deployment sequences for infrastructure, API, database, and UI components, coordinating environment readiness, release execution, and handover to support teams."
+        "Coordinated payer application releases across API, database, batch, and UI components, validating dependencies, release sequencing, and handover with QA and support teams.",
+        "Supported Linux-hosted payer services by investigating failed batch jobs, missing inbound files, permission issues, and application connectivity; coordinated recovery and controlled job reruns with support teams.",
+        "Partnered with application and QA teams on enrollment, eligibility, and claims workflow smoke tests after releases, documenting results, defects, and rollback readiness."
       ],
       "date_range": "08/2016 - 12/2018",
       "project": "",
@@ -238,7 +241,8 @@
         "Maven",
         "Tomcat",
         "JBoss",
-        "Nexus"
+        "Nexus",
+        "Healthcare Payer"
       ]
     }
   ],

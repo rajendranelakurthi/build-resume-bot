@@ -3,11 +3,12 @@
   "domain": "devops-cloud",
   "level": "Aggressive",
   "variant": "AWS DevOps / Ansible / Linux / Release Management",
-  "experience_bullet_count": 48,
+  "experience_bullet_count": 50,
   "html_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-aws-devops-ansible-release-aggressive.html",
-  "pdf_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-aws-devops-ansible-release-aggressive.pdf",
+  "pdf_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-pn-aws-devops.pdf",
   "profile_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-aws-devops-ansible-release-aggressive.profile.json",
   "sources": [
+    "https://www.cms.gov/priorities/key-initiatives/burden-reduction/administrative-simplification/transactions",
     "https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_strategies.html",
     "https://docs.aws.amazon.com/codedeploy/latest/userguide/deployments-rollback-and-redeploy.html",
     "https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager.html"
