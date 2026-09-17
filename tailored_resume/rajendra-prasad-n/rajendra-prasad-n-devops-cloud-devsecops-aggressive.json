@@ -1,0 +1,14 @@
+{
+  "person": "Rajendra",
+  "domain": "devops-cloud",
+  "level": "Aggressive",
+  "html_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-devops-cloud-devsecops-aggressive.html",
+  "pdf_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-devops-cloud-devsecops-aggressive.pdf",
+  "profile_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-devops-cloud-devsecops-aggressive.profile.json",
+  "experience_bullet_count": 47,
+  "sources": [
+    "https://developer.hashicorp.com/terraform/cli/test",
+    "https://kubernetes.io/docs/concepts/workloads/pods/disruptions/",
+    "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel-13.html"
+  ]
+}
