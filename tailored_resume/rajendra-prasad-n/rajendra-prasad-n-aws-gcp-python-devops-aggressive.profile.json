@@ -1,0 +1,285 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Lead DevOps Engineer | AWS, GCP, Python & Kubernetes",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "page_title": "Rajendra Prasad N - DevOps Cloud & Automation Engineer",
+  "summary_html": "<strong>Lead DevOps Engineer with 10+ years of enterprise experience in cloud infrastructure, CI/CD, application deployments, and production operations.</strong> Hands-on focus on <strong>Python automation, AWS and GCP, Docker, Kubernetes, Jenkins, Git, and Ansible</strong>. Supports search and data platforms using Elasticsearch, Solr, and Couchbase; builds observability with Kibana, Splunk, Prometheus, and Grafana. Integrates SonarQube quality gates and JMeter performance checks into delivery workflows, using JavaScript, JSON, and REST APIs for operational tooling. Collaborates with Agile teams on release readiness, troubleshooting, and reliability, including Healthcare Payer application support through Mphasis/HPE.",
+  "achievements_title": "Cloud, Automation & Platform Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "certification_badges_image": "file:///Users/rajendra/Documents/1Resume/ai_resume/plugins/resume-creator-plugin/assets/static/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "Python",
+    "AWS",
+    "GCP",
+    "S3",
+    "EC2",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Git",
+    "Ansible",
+    "Elasticsearch",
+    "Solr",
+    "Kibana",
+    "Splunk",
+    "Prometheus",
+    "Grafana",
+    "Couchbase",
+    "JMeter",
+    "JavaScript",
+    "JSON",
+    "SonarQube",
+    "Agile",
+    "DevOps & Automation"
+  ],
+  "skill_sections": [
+    {
+      "title": "Cloud Platforms",
+      "content": "AWS: EC2, S3, EKS, ECR, IAM, VPC, CloudWatch; GCP: Compute Engine, GKE, Cloud Storage, IAM, Cloud Monitoring"
+    },
+    {
+      "title": "Programming & Automation",
+      "content": "Python, Bash, JavaScript, JSON, REST APIs, AWS CLI, gcloud CLI, operational tooling, deployment checks"
+    },
+    {
+      "title": "CI/CD & Source Control",
+      "content": "Jenkins, Jenkinsfiles, shared libraries, Git, GitLab CI/CD, GitHub Actions, artifact promotion, approval gates, rollback"
+    },
+    {
+      "title": "Containers & Configuration",
+      "content": "Docker, Kubernetes, EKS, GKE, Helm, Ansible roles and playbooks, Linux, Terraform, CloudFormation"
+    },
+    {
+      "title": "Search & Data Platforms",
+      "content": "Elasticsearch, Solr / SolrCloud, Couchbase, index and collection operations, cluster health, backup and recovery"
+    },
+    {
+      "title": "Monitoring & Observability",
+      "content": "Kibana, Splunk, Prometheus, Grafana, CloudWatch, Cloud Monitoring, centralized logging, metrics, dashboards, alerts"
+    },
+    {
+      "title": "Quality & Performance",
+      "content": "SonarQube, JMeter, SAST, dependency and image scanning, REST/JSON validation, load tests, latency and throughput analysis"
+    },
+    {
+      "title": "Delivery & Domain",
+      "content": "Agile, Scrum, Jira, release management, DevOps & Automation, incident response, root-cause analysis; Healthcare Payer application support"
+    }
+  ],
+  "achievements": [
+    {
+      "tag": "Cloud & Automation:",
+      "text": "Reusable Python tooling, Ansible roles, and CI/CD pipelines standardize cloud provisioning and Kubernetes application delivery."
+    },
+    {
+      "tag": "Search & Observability:",
+      "text": "Operational monitoring connects search-cluster health, application logs, infrastructure metrics, and actionable alerts."
+    },
+    {
+      "tag": "Release Quality:",
+      "text": "Automated code analysis, API validation, and performance testing provide evidence for release and capacity decisions."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "impact": [
+        "Led DevOps automation across AWS and GCP environments, coordinating application delivery, platform changes, operational readiness, and production troubleshooting with Agile engineering teams.",
+        "Developed Python automation for AWS EC2 lifecycle operations, S3 artifact validation, resource inventory, environment checks, and deployment reporting using cloud APIs and structured JSON payloads.",
+        "Automated GCP Compute Engine and GKE environment setup with Terraform, Ansible, and gcloud workflows, managing service accounts, network configuration, and application deployment prerequisites.",
+        "Built Jenkins pipelines and shared libraries for Git-based builds, automated tests, SonarQube analysis, artifact publication, environment approvals, deployment, and rollback verification.",
+        "Containerized services with Docker and delivered workloads to Kubernetes on EKS and GKE using Helm, readiness probes, resource limits, autoscaling, and controlled rollout procedures.",
+        "Administered Elasticsearch cluster operations, including index templates, shard allocation, retention policies, snapshot validation, and investigation of indexing failures, disk pressure, and slow queries.",
+        "Supported SolrCloud deployments and collection administration, managing configuration sets, replicas, index updates, and query-health checks with application teams during upgrades and releases.",
+        "Supported Couchbase cluster maintenance through bucket configuration, resource monitoring, controlled rebalance operations, backup execution, and restore validation in coordination with database teams.",
+        "Implemented centralized logging with Elasticsearch/Kibana and Splunk, creating deployment-focused searches, dashboards, and alerts to diagnose application errors and infrastructure failures.",
+        "Built Prometheus and Grafana dashboards for Kubernetes, application, and search-service metrics, correlating latency, throughput, errors, and saturation with deployment events.",
+        "Integrated JMeter CLI load tests into Jenkins, parameterizing test data and concurrency, publishing reports, and comparing response-time percentiles and error rates against agreed release thresholds.",
+        "Created JavaScript utilities and Python REST integrations for JSON validation, deployment smoke tests, and status reporting; incorporated peer review and Agile retrospectives into automation improvements."
+      ],
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Python",
+        "AWS",
+        "GCP",
+        "EC2",
+        "S3",
+        "Jenkins",
+        "Ansible",
+        "Kubernetes",
+        "Elasticsearch",
+        "Solr",
+        "Couchbase",
+        "JMeter"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "impact": [
+        "Built reusable Jenkins and GitLab CI/CD workflows for Git-based application builds, automated tests, versioned artifacts, and controlled environment promotion.",
+        "Configured Linux build agents and container runners, resolving toolchain, cache, dependency, permission, and capacity issues affecting delivery workflows.",
+        "Automated application installation and environment setup with Ansible roles and Python scripts, separating configuration values and secrets from deployable artifacts.",
+        "Integrated SonarQube quality gates and container checks into pipelines, coordinating defect remediation and exception reviews before production releases.",
+        "Deployed Docker-based Kubernetes services with versioned manifests, health probes, configuration validation, and rollout verification.",
+        "Partnered with developers and QA in Agile ceremonies to investigate deployment failures, refine smoke tests, and document rollback and support procedures."
+      ],
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Python",
+        "Jenkins",
+        "Git",
+        "Ansible",
+        "Docker",
+        "Kubernetes",
+        "SonarQube"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "impact": [
+        "Provisioned AWS and GCP application environments using reusable Terraform definitions and pipeline-driven changes for compute, networking, identities, and storage.",
+        "Automated EC2 and Compute Engine operational checks with Python and shell scripts, including inventory, configuration verification, service status, and resource cleanup.",
+        "Delivered Docker microservices to Kubernetes through Jenkins, GitHub Actions, Helm, and ArgoCD workflows with controlled promotion and post-deployment validation.",
+        "Managed S3 and Cloud Storage workflows for release artifacts, operational exports, and recovery inputs using scoped access and retention settings.",
+        "Implemented Prometheus and Grafana dashboards alongside cloud monitoring to track workload health, capacity, and deployment-related service degradation.",
+        "Investigated centralized application logs and cluster metrics to isolate network, container, resource, and dependency failures across cloud environments.",
+        "Supported backup and recovery procedures and collaborated with distributed development teams on release readiness, incident reviews, and operational documentation."
+      ],
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "GCP",
+        "Python",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "Prometheus",
+        "Grafana"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "impact": [
+        "Designed Jenkins and GitHub Actions workflows for application and infrastructure deployments, standardizing build, test, package, and release stages.",
+        "Developed internal Python FastAPI integrations for Jenkins, Jira, and JFrog, using JSON-based APIs to automate onboarding, deployment status, and operational tasks.",
+        "Authored reusable Ansible roles to deploy highly available Prometheus, Grafana, and Node Exporter stacks with consistent configuration and service checks.",
+        "Built custom Python Prometheus exporters to expose application-specific metrics and improve incident diagnosis and capacity analysis.",
+        "Used Elasticsearch/Kibana and Splunk for centralized log analysis, correlating application errors with infrastructure signals and recent releases.",
+        "Partnered with QA on JMeter load-test execution and analyzed test results alongside Grafana metrics to investigate bottlenecks and validate configuration changes.",
+        "Administered Jenkins and JFrog tooling, built shared deployment libraries, and participated in Agile incident reviews and release retrospectives."
+      ],
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Python",
+        "Jenkins",
+        "Ansible",
+        "Prometheus",
+        "Grafana",
+        "Elasticsearch",
+        "Kibana",
+        "Splunk",
+        "JMeter"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "impact": [
+        "Built Jenkins delivery pipelines for Java applications and REST microservices across development, test, UAT, and production environments.",
+        "Automated Linux application setup and configuration with Ansible and shell scripts, including runtime dependencies, environment properties, access permissions, and service checks.",
+        "Managed Maven build outputs and deployment packages for Tomcat and JBoss services, preserving version traceability and environment-specific configuration.",
+        "Deployed Kubernetes applications with Helm and version-controlled manifests, validating configuration changes, pod health, and service connectivity.",
+        "Troubleshot AWS application dependencies involving EC2, load balancers, RDS, CloudWatch, certificates, and identity integrations during releases and migrations.",
+        "Coordinated multi-environment releases with application teams, tracking deployment prerequisites, change approvals, validation results, and recovery actions.",
+        "Implemented ELK-based logging and maintained deployment guides, architecture documentation, and operational runbooks for engineering and support teams."
+      ],
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "AWS",
+        "Ansible",
+        "Linux",
+        "Shell Scripting",
+        "Jenkins",
+        "Maven",
+        "Tomcat",
+        "JBoss",
+        "Helm"
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "impact": [
+        "Supported Healthcare Payer application releases within the Mphasis/HPE engagement, using Ansible to promote enrollment, eligibility, and claims-processing service packages across environments.",
+        "Developed shell and Python scripts for payer application configuration, service control, batch-job checks, log inspection, and post-deployment validation.",
+        "Supported Linux build and application servers, resolving permission issues, failed processes, disk usage, missing dependencies, and connectivity problems.",
+        "Authored reusable Terraform modules and AWS CLI automation to provision infrastructure and maintain environment-specific service configurations.",
+        "Established Git branching, release tagging, and artifact repository practices to keep application versions and deployment inputs traceable.",
+        "Coordinated payer application releases across API, database, batch, and UI components, validating dependencies, release sequencing, and handover with QA and support teams.",
+        "Supported Linux-hosted payer services by investigating failed batch jobs, missing inbound files, permission issues, and application connectivity; coordinated recovery and controlled job reruns with support teams.",
+        "Partnered with application and QA teams on enrollment, eligibility, and claims workflow smoke tests after releases, documenting results, defects, and rollback readiness."
+      ],
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "HPE",
+      "skills_used": [
+        "AWS",
+        "Ansible",
+        "Linux",
+        "Shell Scripting",
+        "Python",
+        "Maven",
+        "Tomcat",
+        "JBoss",
+        "Nexus",
+        "Healthcare Payer"
+      ]
+    }
+  ],
+  "additional_sections": [],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology",
+      "logo_image": "",
+      "logo_alt": ""
+    }
+  ],
+  "education_before_experience": false,
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Aggressive variant requested by user; expanded multicloud, search, database operations and performance-testing responsibilities. Employment history and certifications retained."
+  ]
+}
