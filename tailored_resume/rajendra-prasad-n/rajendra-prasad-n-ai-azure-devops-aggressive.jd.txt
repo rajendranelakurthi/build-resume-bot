@@ -1,0 +1,1 @@
+AI Azure DevOps Engineer. Strong Azure Cloud experience; C# / .NET / Java; REST APIs & Microservices; SQL Server / Azure SQL; DevOps & CI/CD Pipelines; AI DevSecOps; LLM / GenAI / Agentic AI; Docker & Kubernetes (AKS). Deploy and administer Milvus and Qdrant on AKS. Deploy LLMs, monitor and govern AI platforms, and demonstrate deeper AIOps responsibilities.

@@ -1,0 +1,14 @@
+{
+  "person": "Rajendra",
+  "domain": "devops-cloud",
+  "level": "Aggressive",
+  "profile_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-ai-azure-devops-aggressive.profile.json",
+  "html_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-ai-azure-devops-aggressive.html",
+  "pdf_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-ai-azure-devops-aggressive.pdf",
+  "research_sources": [
+    "https://milvus.io/docs/install_cluster-helm.md",
+    "https://qdrant.tech/documentation/scaling/distributed_deployment/",
+    "https://qdrant.tech/documentation/operations/snapshots/",
+    "https://learn.microsoft.com/en-us/azure/api-management/genai-gateway-capabilities"
+  ]
+}
