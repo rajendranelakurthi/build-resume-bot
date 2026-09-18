@@ -1,0 +1,16 @@
+{
+  "person": "Rajendra",
+  "domain": "devops-cloud",
+  "level": "Aggressive",
+  "variant": "Azure enterprise platform engineering",
+  "html_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-azure-platform-devops-aggressive.html",
+  "pdf_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-azure-platform-devops-aggressive.pdf",
+  "profile_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-azure-platform-devops-aggressive.profile.json",
+  "experience_bullet_count": 43,
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/devops/pipelines/process/templates",
+    "https://developer.harness.io/docs/platform/Templates/template",
+    "https://argo-cd.readthedocs.io/en/stable/user-guide/sync-waves/",
+    "https://docs.prismacloud.io/en/compute-edition/34/admin-guide/vulnerability-management/registry-scanning/configure-registry-scanning"
+  ]
+}
