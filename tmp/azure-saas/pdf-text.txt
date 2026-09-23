@@ -1,0 +1,160 @@
+Pages: 2
+RAJENDRA PRASAD N
+LEAD DEVOPS ENGINEER | MULTI-CLOUD
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Lead DevOps Engineer with 10+ years of enterprise experience in Cloud Operations, Software as a Service (SaaS) delivery,
+and production support, with a focus on Microsoft Azure. Operates cloud-hosted microservices, background processes, and
+managed services with an emphasis on uptime, scalability, secure releases, and proactive monitoring. Hands-on with Azure DevOps,
+GitHub Actions, Azure Monitor, Datadog, Azure Databricks as a managed service, and Python/Bash/PowerShell automation.
+Partners with development, product, and security teams on performance, incident response, access controls, vulnerability remediation,
+and audit evidence supporting SOC 2 and HIPAA initiatives. Healthcare Payer application experience through Mphasis/HPE.
+CERTIFICATIONS
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure
+Fundamentals
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure
+DevOps Engineer Expert
+aws
+certified
+Solutions
+Architect
+A S S O C I AT E
+AWS Certified Solutions
+Architect - Associate
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer -
+Level 1
+CLOUD OPERATIONS & SAAS RELIABILITY HIGHLIGHTS
+SaaS Operations: Health checks, capacity reviews, and recovery runbooks support customer-facing services and background jobs.
+Secure Delivery: Reusable pipelines connect automated tests, vulnerability checks, controlled approvals, deployment validation, and rollback readiness.
+Operational Visibility: Dashboards, automated reports, actionable alerts, and audit records make service health and security work visible.
+CORE TECHNOLOGIES
+AZURE CLOUD OPERATIONS
+Azure VMs, AKS, App Service, Azure SQL, Storage, Virtual Networks, Key
+Vault, Entra ID, resource health, scaling, backup and recovery
+SAAS INFRASTRUCTURE
+Software as a Service (SaaS), microservices, REST APIs, background
+workers, scheduled jobs, dependency health, release support, availability and
+capacity
+MONITORING & REPORTING
+Azure Monitor, Application Insights, Log Analytics, Datadog, Prometheus,
+Grafana, dashboards, alert routing, synthetic checks, service-health reports
+CI/CD & DEPLOYMENT
+Azure DevOps, GitHub Actions, Jenkins, Git, YAML templates, test
+automation, artifact promotion, security gates, approvals, rollback
+MANAGED DATA SERVICES
+Azure Databricks managed service, workspace operations, job monitoring,
+compute policies, permissions, runtime maintenance, Azure SQL, storage
+integration
+SECURITY & COMPLIANCE SUPPORT
+SOC 2, HIPAA, access reviews, RBAC, MFA, least privilege, audit evidence,
+vulnerability remediation, patch management, encryption and secrets controls
+AUTOMATION & CONFIGURATION
+Python, Bash, PowerShell, Azure CLI, Terraform, Ansible, Linux, Windows,
+Docker, Kubernetes, Helm, operational runbooks
+INCIDENT & TEAM OPERATIONS
+Production troubleshooting, root-cause analysis, on-call escalation, change
+management, recovery validation, developer/product collaboration,
+Healthcare Payer support
+PROFESSIONAL EXPERIENCE
+Lead DevOps Engineer | AT&T Services Inc. 08/2023 - Present
+Skills Used: Azure, Cloud Operations, SaaS, Azure DevOps, GitHub Actions, Databricks, Azure Monitor, Datadog, Python
+Led Azure Cloud Operations for SaaS application environments, coordinating uptime, capacity, service health, maintenance, and production support across
+microservices and background processes.
+Monitored customer-facing APIs, scheduled jobs, and asynchronous workers, investigating failed executions, queue backlogs, dependency timeouts, and
+recurring application errors before wider service disruption.
+Built Azure Monitor, Application Insights, Log Analytics, and Datadog dashboards to correlate availability, latency, error rates, resource saturation, and
+deployment events.
+Automated daily service-health and release reports with Python and PowerShell, consolidating failed jobs, incidents, capacity trends, patch status, and
+outstanding remediation actions.
+Maintained Azure DevOps and GitHub Actions pipelines with automated tests, code and dependency scanning, versioned artifacts, environment approvals, and
+post-deployment health validation.
+Operated Azure Databricks as a managed service, administering workspace access, compute policies, job schedules, runtime maintenance, storage
+connectivity, and operational ownership.
+Monitored Databricks job failures, run duration, resource usage, and retry behavior; coordinated diagnostics, safe reruns, and workload optimization with data
+engineering teams.
+Strengthened access management with Entra ID, MFA, RBAC, managed identities, and Key Vault; supported periodic access reviews and controlled privileged
+changes.
+Coordinated patching and vulnerability remediation across virtual machines, container images, application dependencies, and managed-service runtime
+versions, validating service health after maintenance.
+Partnered with security, leadership, and audit contacts to assemble access-review records, release approvals, scan results, patch evidence, and recovery-test
+records for SOC 2 and HIPAA control reviews.
+Supported secure handling of healthcare-related workloads through restricted log access, secrets separation, encryption settings, retention controls, and
+approved evidence-sharing procedures.
+Automated Azure provisioning and configuration with Terraform, Ansible, Bash, and Python, reducing repeated manual setup and making environment changes
+reviewable.
+Validated backups, restoration procedures, and rollback runbooks; coordinated incident response and root-cause reviews with developers and product leaders to
+prioritize recurring reliability issues.
+Senior DevOps Engineer | GlobalLogic 03/2023 - 08/2023
+Skills Used: Azure, Cloud Operations, SaaS, Azure DevOps, GitHub Actions, Ansible, Azure Monitor, Python
+Supported Cloud Operations for Azure-hosted SaaS services, performing daily health checks, release support, incident triage, and environment maintenance.
+Maintained CI/CD templates for application builds, automated tests, artifact promotion, approvals, and deployment verification across SaaS environments.
+Configured service dashboards and alerts for application errors, resource pressure, and failed background jobs, documenting ownership and escalation paths.
+Automated configuration and operational checks with Ansible and Python, validating application settings, service startup, credentials, and connectivity.
+Applied access restrictions and security checks to build agents and deployment workflows and coordinated patch and vulnerability follow-up with engineering
+teams.
+Worked with developers and QA to resolve failed releases, improve smoke tests, and maintain rollback and service-support procedures.
+Senior DevOps Engineer II | Akamai Technologies 12/2021 - 03/2023
+Skills Used: Azure, Cloud Operations, SaaS, Terraform, Jenkins, GitHub Actions, Databricks, Azure Monitor
+Managed cloud infrastructure and production support for Azure-oriented SaaS application environments, monitoring service availability, capacity, and
+dependency health.
+Provisioned repeatable environments with Terraform and pipeline-driven changes, maintaining consistent network, identity, compute, and monitoring
+configuration.
+Built Jenkins and GitHub Actions delivery workflows for SaaS microservices with controlled artifact promotion, approvals, and post-release checks.
+Supported Azure Databricks managed-service operations, investigating scheduled-job failures, compute startup issues, workspace permissions, and storage
+access with data teams.
+Implemented dashboards, centralized logs, and alerts for workload failures and performance degradation and automated diagnostics with Python and
+PowerShell.
+Maintained backup checks, recovery documentation, and patch procedures and coordinated incidents and release windows across distributed engineering
+teams.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd 04/2020 - 12/2021
+Skills Used: Azure, Cloud Operations, SaaS, Jenkins, Ansible, Prometheus, Grafana, Python
+Supported Cloud Operations and reliability for SaaS application services, coordinating release health, incident response, and operational improvements with
+development teams.
+Standardized Jenkins and GitHub Actions pipelines for software and infrastructure releases, maintaining artifact traceability, health gates, and recovery
+readiness.
+Developed Ansible roles for Prometheus, Grafana, and Node Exporter and Python exporters that exposed application-specific availability and performance
+signals.
+Built internal FastAPI automation linking Jenkins, Jira, and JFrog for onboarding, deployment status, and recurring SaaS support activities.
+Investigated application, container, and infrastructure incidents through logs and metrics, translating recurring failures into actionable alerts and runbooks.
+Collaborated with developers and product stakeholders on release readiness, capacity concerns, maintenance schedules, and reliability priorities.
+Senior DevOps Engineer | HCL Technologies 02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: Azure, Cloud Operations, SaaS, Jenkins, Ansible, PowerShell, Linux, Monitoring
+Supported cloud-hosted application and SaaS delivery environments, managing service configuration, release execution, environment readiness, and
+operational handover.
+Built Jenkins pipelines for Java applications and REST services, integrating build validation, versioned packages, controlled promotion, and smoke tests.
+Automated Azure application-host configuration with Ansible and PowerShell, validating permissions, runtime dependencies, credentials, and service
+connectivity.
+Implemented centralized logging and health checks and investigated application-server failures, certificates, database connectivity, and resource bottlenecks.
+Coordinated patch windows, release approvals, incident updates, and recovery procedures with customer stakeholders and distributed support teams.
+DevOps Engineer | Mphasis Ltd 08/2016 - 12/2018
+Client: HPE
+Skills Used: Azure, Cloud Operations, SaaS, Ansible, Linux, Python, Shell, Healthcare Payer
+Supported Cloud Operations and SaaS application delivery for Healthcare Payer enrollment, eligibility, and claims services within the Mphasis/HPE engagement.
+Performed application and batch-service health checks, investigated failed jobs and missing files, and coordinated approved recovery with support teams.
+Created Ansible, Shell, and Python automation for installation, configuration updates, service control, and post-deployment verification.
+Supported secure Linux operations through permission reviews, controlled credentials, log-access restrictions, and scheduled maintenance checks.
+Coordinated release sequencing, smoke tests, defect follow-up, and operational handover with development, QA, and healthcare application support teams.
+EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada

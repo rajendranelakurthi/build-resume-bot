@@ -1,0 +1,15 @@
+{
+  "person": "Rajendra",
+  "domain": "devops-cloud",
+  "level": "Aggressive",
+  "html_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-github-actions-jboss-devops-aggressive.html",
+  "pdf_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-github-actions-jboss-devops-aggressive.pdf",
+  "profile_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-github-actions-jboss-devops-aggressive.profile.json",
+  "experience_bullet_count": 43,
+  "sources": [
+    "https://docs.github.com/en/actions/concepts/workflows-and-actions/deployment-environments",
+    "https://docs.github.com/en/enterprise-cloud@latest/actions/how-tos/secure-your-work/security-harden-deployments/oidc-with-reusable-workflows",
+    "https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.1/html-single/configuration_guide/index",
+    "https://docs.oracle.com/en/middleware/standalone/weblogic-server/14.1.1.0/nodem/"
+  ]
+}

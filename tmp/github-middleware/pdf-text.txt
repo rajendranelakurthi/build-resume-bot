@@ -1,0 +1,155 @@
+Pages: 2
+RAJENDRA PRASAD N
+LEAD DEVOPS ENGINEER | AZURE, INDEPENDENT CONTRIBUTOR
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Lead DevOps Engineer with 10+ years of enterprise experience in CI/CD, application deployments, middleware operations,
+and production support. Designs and administers GitHub Actions YAML workflows, GitHub Enterprise Cloud (GHEC), Jenkins,
+and Azure DevOps delivery platforms. Hands-on focus on JBoss EAP 7.4/8.1 and WebLogic 12c/14c configuration, administration,
+maintenance, and automated releases. Uses Unix/Linux, Bash, Python, PowerShell, and Ansible to standardize environments,
+troubleshoot application-server issues, and coordinate reliable production changes across development, QA, and operations teams.
+CERTIFICATIONS
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure
+Fundamentals
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure
+DevOps Engineer Expert
+aws
+certified
+Solutions
+Architect
+A S S O C I AT E
+AWS Certified Solutions
+Architect - Associate
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer -
+Level 1
+WORKFLOW AUTOMATION & MIDDLEWARE HIGHLIGHTS
+GitHub Actions & GHEC: Reusable YAML workflows, runner governance, protected environments, and versioned artifacts standardize enterprise delivery.
+Middleware Operations: JBoss and WebLogic configuration, deployment automation, patch planning, and JVM diagnostics support stable application services.
+Release Reliability: Approval gates, health checks, recovery procedures, and cross-team coordination connect automated pipelines to production readiness.
+CORE TECHNOLOGIES
+GITHUB ACTIONS & YAML
+Reusable workflows, workflow_call, workflow_dispatch, composite actions,
+job dependencies, matrices, concurrency, caching, artifacts, workflow
+troubleshooting
+GITHUB ENTERPRISE CLOUD
+GHEC, organizations, teams, repository access, branch protection,
+CODEOWNERS, runner groups, Actions policies, environments, OIDC,
+secrets and variables
+CI/CD & AZURE DEVOPS
+Jenkins, Jenkinsfiles, shared libraries, Azure Pipelines, YAML templates,
+agent pools, service connections, Azure Artifacts, approvals and release
+promotion
+JBOSS ADMINISTRATION
+JBoss EAP 7.4 / 8.1, standalone and managed domains, management CLI,
+profiles, server groups, JDBC datasources, Elytron, WAR/EAR deployment,
+patching
+WEBLOGIC ADMINISTRATION
+WebLogic 12c / 14c, domains, Admin/Managed Servers, Node Manager,
+clusters, JDBC/JMS resources, WLST, deployment plans, patch maintenance
+SCRIPTING & PLATFORMS
+Unix, Linux, Windows, Shell/Bash, Python, PowerShell, Ansible, Maven, Git,
+JSON, Azure VMs, Key Vault, Terraform, Docker, AKS
+TROUBLESHOOTING & SECURITY
+JVM heap and GC analysis, thread dumps, connection pools, SSL/TLS, logs,
+SonarQube, dependency scans, least privilege, Azure Monitor, Splunk
+RELEASE MANAGEMENT & OPERATIONS
+Change approvals, release calendars, cutover runbooks, smoke tests,
+rollback, incident response, root-cause analysis; Healthcare Payer application
+support
+PROFESSIONAL EXPERIENCE
+Lead DevOps Engineer | AT&T Services Inc. 08/2023 - Present
+Skills Used: GitHub Actions, GHEC, Azure DevOps, Jenkins, JBoss EAP 7.4/8.1, WebLogic 12c/14c, Bash, Python, Ansible
+Led GitHub Actions and Azure DevOps delivery automation for enterprise applications, aligning repository workflows, middleware deployments, and production
+change controls with engineering teams.
+Designed reusable YAML workflows with workflow
+_
+call, typed inputs, explicit secrets, outputs, and versioned references so application teams could adopt shared
+build and deployment patterns.
+Created composite actions for repeated setup and validation steps; configured job dependencies, conditional execution, matrix builds, timeouts, and concurrency
+controls for predictable pipeline behavior.
+Implemented pull-request, branch, tag, scheduled, and manual triggers; standardized dependency caching, test-result publication, build summaries, artifact
+retention, and release-package checksums.
+Administered GHEC organizations, teams, repository access, CODEOWNERS, protected branches, and Actions policies; applied least-privilege workflow tokens
+and reviewed third-party action references.
+Managed self-hosted Linux and Windows runners, runner groups, labels, toolchains, proxy access, workspace cleanup, and capacity monitoring; isolated
+privileged deployment workloads.
+Configured protected deployment environments, reviewer approvals, scoped variables and secrets, and GitHub-to-Azure OIDC federation to support controlled
+cloud access and production promotion.
+Migrated Jenkins and ADO delivery stages into reusable GitHub Actions workflows, validating build parity, artifact naming, approval behavior, deployment
+checks, and recovery procedures.
+Installed and administered JBoss EAP 7.4 and 8.1 in standalone and managed-domain modes, maintaining profiles, server groups, JVM settings, socket
+bindings, and environment-specific configuration.
+Configured JBoss JDBC drivers and datasources, pool validation, Elytron security, TLS, and logging; diagnosed connection failures, classloading issues,
+memory pressure, and application startup errors.
+Automated JBoss WAR/EAR deployments with management CLI, Ansible, and pipeline jobs, coordinating traffic draining, staged restarts, health verification, and
+restoration of prior application versions.
+Planned JBoss maintenance and 7.4-to-8.1 migration activities with developers, assessing JDK and Jakarta compatibility, configuration changes, extension
+dependencies, and regression-test readiness.
+Supported WebLogic 12c/14c domains, Admin/Managed Servers, Node Manager, clusters, JDBC/JMS resources, and WLST deployments; coordinated patches,
+configuration backups, and recovery checks.
+Developed Bash, Python, and PowerShell diagnostics for release validation and incident response; led change reviews and troubleshooting using logs, thread
+dumps, GC behavior, and service-health evidence.
+Senior DevOps Engineer | GlobalLogic 03/2023 - 08/2023
+Skills Used: Azure DevOps, GitHub Actions, GHEC, Jenkins, Linux, Python, Ansible, JBoss
+Built GitHub Actions and ADO YAML templates for Maven builds, automated tests, quality analysis, artifact publication, and controlled deployment stages.
+Configured reusable workflow inputs, repository variables, deployment secrets, and approval gates to separate development, test, and production delivery.
+Supported GHEC repository onboarding, branch protections, pull-request checks, and runner access with application teams.
+Maintained Linux and Windows build agents and investigated checkout, dependency, permissions, network, and workflow-expression failures.
+Automated JBoss application configuration and deployments with Ansible and shell scripts, validating datasources, service startup, and endpoint health.
+Partnered with developers and QA on release readiness, failed-build analysis, smoke tests, and documented rollback procedures.
+Senior DevOps Engineer II | Akamai Technologies 12/2021 - 03/2023
+Skills Used: Azure, GitHub Actions, Jenkins, Python, PowerShell, JBoss EAP 7.4, WebLogic 14c
+Developed GitHub Actions workflows for application builds, infrastructure validation, artifact publication, and approved multi-environment deployments.
+Standardized job dependencies, reusable build steps, caching, and automated status reporting to improve workflow consistency across repositories.
+Automated Azure environment configuration and operational checks with Terraform, Ansible, PowerShell, and Python.
+Supported JBoss EAP 7.4 and WebLogic 14c releases, maintaining application settings, JDBC connectivity, deployment packages, and service verification.
+Troubleshot Unix/Linux process failures, JVM resource pressure, certificate issues, and middleware connectivity using logs and diagnostic scripts.
+Maintained release runbooks, backup checks, and recovery procedures and coordinated deployment windows with distributed engineering teams.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd 04/2020 - 12/2021
+Skills Used: Azure, GitHub Actions, Jenkins, Python, Bash, Ansible, Prometheus, Grafana
+Standardized GitHub Actions and Jenkins workflows for application and infrastructure delivery using shared build, test, and deployment patterns.
+Built Jenkins shared libraries for artifact versioning, package publication, environment selection, and repeatable release execution.
+Developed Python FastAPI integrations across Jenkins, Jira, and JFrog for project onboarding, deployment status, and operational requests.
+Automated Linux service configuration and monitoring-stack deployment with Ansible, shell scripts, Prometheus, and Grafana.
+Investigated production application and pipeline incidents, correlating logs and resource metrics with recent releases and coordinating service restoration.
+Worked with developers and support teams on change readiness, rollback decisions, runbook improvements, and post-incident reviews.
+Senior DevOps Engineer | HCL Technologies 02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: Azure, Jenkins, Git, Ansible, Shell, WebLogic 12c, JBoss, Maven
+Built Jenkins pipelines for Java applications and REST services across development, test, UAT, and production environments.
+Administered JBoss and WebLogic 12c application configurations, managing JVM options, JDBC resources, service accounts, and environment properties.
+Automated Maven package promotion and WAR/EAR deployment through Ansible, shell scripts, management CLI, and controlled release procedures.
+Supported middleware maintenance through configuration backups, patch prechecks, service restarts, and post-change application validation.
+Diagnosed deployment failures, blocked threads, database connection errors, TLS problems, and Unix permissions with development and infrastructure teams.
+Coordinated release plans, change approvals, customer updates, and rollback readiness across distributed application teams.
+DevOps Engineer | Mphasis Ltd 08/2016 - 12/2018
+Client: HPE
+Skills Used: Azure, Jenkins, Git, Ansible, Linux, Shell, Python, JBoss, Healthcare Payer
+Supported Healthcare Payer enrollment, eligibility, and claims application deployments in the Mphasis/HPE engagement using repeatable release procedures.
+Created Ansible and shell automation for application installation, JBoss configuration updates, service controls, and deployment verification.
+Maintained Linux application servers and supported JBoss package deployments, datasource connectivity checks, log inspection, and batch-job troubleshooting.
+Managed Git branching, release tags, and versioned artifacts and documented deployment sequencing for application, API, database, and UI components.
+Worked with development, QA, and support teams on release windows, smoke tests, incident follow-up, and operational handover.
+EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada

@@ -1,0 +1,15 @@
+{
+  "person": "Rajendra",
+  "domain": "devops-cloud",
+  "level": "Aggressive",
+  "html_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-senior-devops-kubernetes-azure-aggressive.html",
+  "pdf_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-senior-devops-kubernetes-azure-aggressive.pdf",
+  "profile_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-senior-devops-kubernetes-azure-aggressive.profile.json",
+  "experience_bullet_count": 43,
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/aks/best-practices-app-cluster-reliability",
+    "https://kubernetes.io/docs/concepts/workloads/pods/disruptions/",
+    "https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/",
+    "https://learn.microsoft.com/en-us/azure/aks/workload-identity-overview"
+  ]
+}
