@@ -1,0 +1,242 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Lead DevOps Engineer | Build & Release",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "page_title": "Rajendra Prasad N - Azure DevOps .NET Build & Release Engineer",
+  "summary_html": "<strong>Build and Release Engineer with 10+ years of enterprise software delivery, CI/CD automation, and release governance experience.</strong> Focused on <strong>Azure DevOps, Jenkins, .NET/MSBuild, Git/Gerrit, Docker, and JFrog Artifactory</strong>. Designs repeatable build, package, and deployment workflows; administers Windows/Linux build agents; and automates release tasks with PowerShell, Python, and Bash. Coordinates dependencies, approvals, artifact promotion, and production releases with engineering, QA, and operations teams.",
+  "achievements_title": "Build & Release Engineering Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "certification_badges_image": "file:///Users/rajendra/Documents/1Resume/ai_resume/plugins/resume-creator-plugin/assets/static/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "Azure DevOps",
+    "Azure Pipelines",
+    "Jenkins",
+    ".NET",
+    "MSBuild",
+    "Git/Gerrit",
+    "Docker",
+    "JFrog Artifactory",
+    "PowerShell",
+    "Release Engineering"
+  ],
+  "skill_sections": [
+    {
+      "title": "Azure DevOps & Jenkins",
+      "content": "Azure DevOps, Azure Pipelines, Jenkins, CloudBees Jenkins, reusable pipelines, shared libraries, Windows/Linux agents, agent pools"
+    },
+    {
+      "title": ".NET Build & Release",
+      "content": "MSBuild, .NET (C#), Windows builds, PowerShell, build configuration, package publication, release promotion, deployment troubleshooting"
+    },
+    {
+      "title": "SCM & Enterprise Governance",
+      "content": "Git, Gerrit, branching strategies, merge standards, approvals, release dependencies, change windows, release reporting"
+    },
+    {
+      "title": "JFrog & Artifact Management",
+      "content": "JFrog Artifactory, Xray, Nexus, package feeds, upstream repositories, image versioning, controlled artifact promotion, SonarQube"
+    },
+    {
+      "title": "Docker & Deployment",
+      "content": "Docker builds, container administration, image validation, Ansible deployment automation, environment-specific configuration"
+    },
+    {
+      "title": "Automation & Operational Security",
+      "content": "PowerShell, Python, Bash, API integrations, secrets handling, certificate troubleshooting, deployment guides, production release support"
+    }
+  ],
+  "achievements": [
+    {
+      "tag": "Azure DevOps & .NET Delivery",
+      "text": "Standardized build and release workflows around Azure DevOps, MSBuild, controlled source changes, and environment-specific deployment configuration."
+    },
+    {
+      "tag": "Jenkins & Artifact Engineering",
+      "text": "Administered CloudBees Jenkins and JFrog tooling; built shared libraries for image versioning and repeatable artifact publication."
+    },
+    {
+      "tag": "Release Governance",
+      "text": "Aligned release scope, dependencies, change windows, approvals, stakeholder updates, and production support across engineering teams."
+    },
+    {
+      "tag": "Automation & Build Reliability",
+      "text": "Automated release operations with PowerShell, Python, and Bash and supported consistent Windows/Linux agent execution."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "impact": [
+        "Led enterprise .NET build and release delivery with Azure DevOps, coordinating application dependencies, release scope, change windows, and production readiness.",
+        "Standardized Azure Pipelines build and release workflows around source checkout, MSBuild execution, package publication, and controlled environment promotion.",
+        "Automated Windows build and deployment tasks with PowerShell, separating build configuration from environment-specific release settings.",
+        "Established Git branching, approval, and artifact versioning standards to preserve traceability between source changes and released packages.",
+        "Managed self-hosted build agents and execution environments, resolving build-tool, access, configuration, and pipeline failures.",
+        "Led migration of Azure DevOps repositories and delivery pipelines to GitLab, defining phased cutovers, validation gates, and rollback procedures.",
+        "Integrated secure secrets handling and pre-deployment checks into enterprise release workflows.",
+        "Coordinated release schedules, dependency reviews, milestone reporting, risk escalation, and production support across engineering teams.",
+        "Authored deployment guides and recovery runbooks and automated recurring release support tasks with Python, Bash, and PowerShell."
+      ],
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure DevOps",
+        "Azure Pipelines",
+        ".NET/MSBuild",
+        "Git",
+        "PowerShell",
+        "Build Agents",
+        "Release Governance"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "impact": [
+        "Migrated Jenkins pipelines to GitLab CI, modernizing runner configuration and improving pipeline maintainability.",
+        "Administered Windows and Linux build agents, agent pools, runner templates, and execution policies to keep enterprise builds consistent and reliable.",
+        "Created package views, artifact feeds, and upstream repository strategies for application-team delivery requirements.",
+        "Separated package feeds, upstream sources, and execution settings to support repeatable dependency consumption and controlled release packaging.",
+        "Managed Docker image builds and container runtime administration to standardize application delivery.",
+        "Enforced GitLab branching and merge standards, reusable pipeline templates, secure runners, and image validation checks.",
+        "Troubleshot build, pipeline, and container failures with development teams to resolve release blockers."
+      ],
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Jenkins",
+        "GitLab CI",
+        "Git",
+        "Docker",
+        "Linux/Windows Agents"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "impact": [
+        "Built and maintained Jenkins-based CI/CD workflows with Git, Maven, Ansible, and Docker for repeatable application delivery.",
+        "Configured Windows/Linux build agents and environment-specific release targets, isolating deployment settings from reusable pipeline logic.",
+        "Implemented GitHub Actions deployment workflows and standardized container image build and release processes.",
+        "Published versioned artifacts to enterprise repositories and package managers for downstream consumption and traceability.",
+        "Troubleshot failed builds and package publication by tracing source revisions, dependency resolution, agent configuration, and repository access.",
+        "Integrated Jenkins, GitHub, and SonarQube with engineering collaboration tools to support delivery and audit requirements.",
+        "Authored reusable shell and PowerShell scripts and resolved build, dependency, and deployment pipeline failures."
+      ],
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Jenkins",
+        "Git",
+        "GitHub Actions",
+        "Docker",
+        "Maven",
+        "Ansible",
+        "PowerShell"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "impact": [
+        "Administered CloudBees Jenkins, JFrog Artifactory, and Xray enterprise services supporting secure software delivery.",
+        "Developed Jenkins shared libraries to automate image versioning and artifact publication to private JFrog repositories.",
+        "Connected Jenkins automation to Artifactory publication workflows so application teams could consume consistently versioned release outputs.",
+        "Standardized reusable GitHub Actions CI/CD patterns and designed application deployment pipelines.",
+        "Built Python FastAPI integrations connecting Jenkins, Jira, and JFrog to automate recurring delivery workflows.",
+        "Automated onboarding of new projects to the enterprise DevOps platform through API-driven processes.",
+        "Partnered with development teams to investigate defects and improve release quality through sprint retrospectives."
+      ],
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "CloudBees Jenkins",
+        "JFrog Artifactory",
+        "Xray",
+        "Python",
+        "GitHub Actions",
+        "Ansible"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "impact": [
+        "Built continuous delivery pipelines for enterprise applications across Demo, Test, Pentest, Training, CTDEV, Sandbox, UAT, and production.",
+        "Standardized application release packaging and supported consistent deployment of REST-based microservices.",
+        "Presented CI/CD automation strategies and delivery improvements to engineering stakeholders.",
+        "Troubleshot certificate-management and identity-integration issues affecting enterprise application availability and release readiness.",
+        "Coordinated sprint commitments and delivery priorities while supporting application deployment and release troubleshooting.",
+        "Automated configuration tasks with PowerShell and maintained operational consistency across Linux and Windows application environments."
+      ],
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Jenkins",
+        "PowerShell",
+        "Git",
+        "Ansible",
+        "Release Packaging",
+        "Certificate Support"
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "impact": [
+        "Created Ansible deployment pipelines to promote application releases from development through production in a controlled, repeatable manner.",
+        "Built YAML-based build and release workflows with event-driven triggers for continuous integration on code changes.",
+        "Defined Git branching strategies and managed self-hosted build agents supporting release execution.",
+        "Promoted the same artifact set across environments using controlled selection and environment-specific configuration.",
+        "Managed variable groups and environment-specific settings to keep release configuration separate from the versioned application artifact.",
+        "Documented build and deployment flows for API, database, UI, and supporting components to improve delivery consistency."
+      ],
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "HPE",
+      "skills_used": [
+        "GitLab",
+        "Git",
+        "Maven",
+        "Ansible",
+        "Nexus",
+        "Python",
+        "Shell"
+      ]
+    }
+  ],
+  "additional_sections": [],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology",
+      "logo_image": "",
+      "logo_alt": ""
+    }
+  ],
+  "education_before_experience": false,
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Azure/.NET focus reflects user correction. Preserves employment titles and dates. NuGet, Electron/Rust-Tauri, Inno Setup, and code signing require confirmation before being claimed as hands-on experience. Certificate support is documented; signing-certificate ownership is not inferred."
+  ]
+}

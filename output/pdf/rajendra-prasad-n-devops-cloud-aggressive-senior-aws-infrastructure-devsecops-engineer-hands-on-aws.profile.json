@@ -1,0 +1,253 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Senior AWS Infrastructure / DevSecOps Engineer | Terraform & IaC",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "page_title": "Rajendra Prasad N - Senior AWS Infrastructure / DevSecOps Engineer",
+  "summary_html": "<strong>Terraform-focused AWS infrastructure and DevSecOps engineer with 10+ years of enterprise cloud, delivery automation, and production operations experience.</strong> Builds repeatable AWS infrastructure using <strong>Terraform modules, pipeline-driven provisioning, environment-specific configuration, and infrastructure validation</strong>. Experience spans EKS platforms, enterprise AWS environments, payment-platform infrastructure, and automated environment promotion. Combines infrastructure as code with Databricks provisioning, private networking, IAM controls, and Python/Bash automation to support secure enterprise delivery.",
+  "achievements_title": "Terraform & AWS Infrastructure Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "certification_badges_image": "file:///Users/rajendra/Documents/1Resume/ai_resume/plugins/resume-creator-plugin/assets/static/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "Terraform",
+    "AWS",
+    "Infrastructure as Code",
+    "EKS",
+    "CI/CD",
+    "DevSecOps",
+    "Databricks on AWS",
+    "IAM",
+    "Python",
+    "Bash"
+  ],
+  "skill_sections": [
+    {
+      "title": "Terraform & Infrastructure as Code",
+      "content": "Terraform modules, AWS infrastructure provisioning, CI/CD-driven Terraform deployments, Terraform validation, environment-specific configuration, CloudFormation, Ansible"
+    },
+    {
+      "title": "AWS Infrastructure & Networking",
+      "content": "AWS multi-account environments, EC2, VPC, IAM, S3, EKS, Route 53, ALB/NLB, PrivateLink, VPC endpoints, VPN, Direct Connect"
+    },
+    {
+      "title": "Databricks on AWS",
+      "content": "Environment provisioning, isolated AWS accounts, network integration, IAM controls, environment consistency"
+    },
+    {
+      "title": "CI/CD & DevSecOps",
+      "content": "CodePipeline, GitHub Actions, GitLab CI, Jenkins, secure secrets handling, Terraform validation, policy checks, SonarQube, Fortify, Black Duck, JFrog Xray"
+    },
+    {
+      "title": "Scripting & Platforms",
+      "content": "Python, Bash, PowerShell, Linux, Docker, Kubernetes, Helm, ArgoCD"
+    },
+    {
+      "title": "Security & Reliability",
+      "content": "IAM, MFA, role-based access controls, private networking, CloudWatch, CloudTrail, Prometheus, Grafana, AWS Backup, AWS Elastic Disaster Recovery"
+    }
+  ],
+  "achievements": [
+    {
+      "tag": "Reusable AWS Infrastructure",
+      "text": "Authored Terraform modules and automated infrastructure deployments to standardize provisioning across environments."
+    },
+    {
+      "tag": "Terraform Delivery Controls",
+      "text": "Integrated Terraform validation, secrets handling, and pre-deployment policy checks into AWS release workflows."
+    },
+    {
+      "tag": "Platform Infrastructure",
+      "text": "Delivered Terraform-based EKS infrastructure for vector-search workloads and Terraform/Kubernetes solutions for payment-platform deployments."
+    },
+    {
+      "tag": "AWS Data Platforms",
+      "text": "Automated Databricks environment provisioning across isolated AWS accounts with consistent networking and IAM controls."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "impact": [
+        "Engineered Terraform-based AWS and EKS infrastructure for high-throughput Milvus vector-search platforms and GPU-enabled workloads.",
+        "Standardized AWS infrastructure provisioning with Terraform as part of repeatable platform delivery across enterprise environments.",
+        "Integrated Terraform validation and pre-deployment policy checks into AWS release workflows to strengthen infrastructure change governance.",
+        "Combined secure secrets handling, Git approvals, and artifact versioning standards with infrastructure delivery controls.",
+        "Automated Databricks provisioning across isolated AWS accounts, standardizing network integration, IAM controls, and environment consistency.",
+        "Implemented AWS PrivateLink, VPC endpoints, and private networking controls to secure application connectivity.",
+        "Automated AWS provisioning, support, and recovery workflows with Python, Bash, and PowerShell.",
+        "Built AWS CodePipeline and GitHub delivery workflows and supported production releases, incident response, and operational runbooks."
+      ],
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Terraform",
+        "AWS",
+        "AWS CodePipeline",
+        "PowerShell",
+        "EKS",
+        "GitHub Actions",
+        "Milvus",
+        "Helm",
+        "Databricks on AWS"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "impact": [
+        "Supported AWS delivery environments using Terraform, GitLab CI, and Kubernetes as part of the enterprise DevOps toolchain.",
+        "Migrated Jenkins pipelines to GitLab CI and standardized reusable pipeline templates and controlled branch-based execution.",
+        "Enforced protected branches, secure runner standards, container image validation, and pipeline checks across delivery environments.",
+        "Administered Linux and Windows build agents and resolved pipeline, container, and Kubernetes failures with development teams."
+      ],
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Terraform",
+        "AWS",
+        "GitLab CI",
+        "Jira",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "impact": [
+        "Provisioned AWS infrastructure with Terraform and CloudFormation through pipeline-driven infrastructure-as-code workflows.",
+        "Standardized repeatable AWS infrastructure delivery using version-controlled Terraform configuration and automated deployment pipelines.",
+        "Designed secure AWS VPC networking, security groups, load balancing, Route 53 DNS, VPN, and Direct Connect connectivity for enterprise workloads.",
+        "Integrated infrastructure provisioning with EKS application delivery using GitHub Actions, Jenkins, Helm, and Kubernetes manifests.",
+        "Implemented AWS Backup, Elastic Disaster Recovery, and CloudWatch controls to support infrastructure recovery and operational visibility.",
+        "Authored reusable shell and PowerShell automation for cloud operations and release support."
+      ],
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Terraform",
+        "AWS",
+        "Linode",
+        "Python",
+        "EKS",
+        "GitHub Actions",
+        "GitLab"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "impact": [
+        "Designed and delivered Terraform infrastructure and Kubernetes orchestration for AWS payment-platform deployments.",
+        "Used Terraform-based provisioning to make payment-platform infrastructure repeatable across deployment environments.",
+        "Built CI/CD workflows for AWS application and infrastructure changes, aligning provisioning with controlled software delivery.",
+        "Authored policy controls for AWS accounts and implemented MFA, identity controls, and role-based access management.",
+        "Automated enterprise platform onboarding and developed Python FastAPI integrations across Jenkins, Jira, and JFrog.",
+        "Administered CloudBees Jenkins, Artifactory, and Xray; developed Jenkins shared libraries for image versioning and artifact publication.",
+        "Built Python Prometheus exporters and Ansible monitoring roles for production observability."
+      ],
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Terraform",
+        "AWS",
+        "Python",
+        "Jenkins",
+        "GitHub Actions",
+        "SonarQube",
+        "JFrog",
+        "Kubernetes",
+        "Prometheus",
+        "Ansible"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "impact": [
+        "Provisioned AWS resources with CloudFormation and PowerShell, applying repeatable, auditable infrastructure-as-code practices.",
+        "Automated configuration enforcement for Linux and Windows EC2 fleets and managed secure access and database connectivity.",
+        "Supported EC2, CloudWatch, RDS, load balancing, auto scaling, Secrets Manager, and CloudFront for enterprise applications.",
+        "Planned AWS workload migrations and validated post-migration configuration through cutover and failover testing.",
+        "Integrated enterprise identity controls and strengthened privileged access, identity protection, and MFA."
+      ],
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Kubernetes",
+        "AWS",
+        "Ansible",
+        "GitHub",
+        "Shell Scripting",
+        "Jenkins",
+        "Maven",
+        "Tomcat",
+        "JBoss",
+        "Helm"
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "impact": [
+        "Authored and maintained reusable Terraform modules for infrastructure provisioning and executed changes through automated CI/CD workflows.",
+        "Ran Terraform deployments through pipelines, using controlled environment selection to promote infrastructure changes across stages.",
+        "Managed environment-specific configuration and variable groups to separate deployment settings across development and production workflows.",
+        "Combined Terraform infrastructure automation with AWS CLI scripts to standardize cloud configuration and administrative operations.",
+        "Documented infrastructure, API, database, and UI deployment flows and applied Git branching standards for controlled release promotion."
+      ],
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "HPE",
+      "skills_used": [
+        "Terraform",
+        "AWS",
+        "Chef",
+        "Ansible",
+        "GitLab",
+        "Shell Scripting",
+        "Python",
+        "Maven",
+        "Tomcat",
+        "JBoss",
+        "Splunk",
+        "Nexus"
+      ]
+    }
+  ],
+  "additional_sections": [],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology",
+      "logo_image": "",
+      "logo_alt": ""
+    }
+  ],
+  "education_before_experience": false,
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Source: RajendraPN_Lead_DevOps.docx provided by user.",
+    "Experience bullets rewritten to be more professional, ATS-friendly, AWS-first, and normalized to 10-15 points per company where applicable.",
+    "Terraform-focused revision; HCL retains source-documented CloudFormation experience. Snowflake and Unity Catalog remain unclaimed."
+  ]
+}

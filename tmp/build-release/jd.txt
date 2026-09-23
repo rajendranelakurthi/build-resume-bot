@@ -1,0 +1,5 @@
+DevOps Build & Release Engineer
+Seeking a hands-on DevOps Build & Release Engineer with strong expertise in Jenkins CI/CD, Git/Gerrit, Docker, JFrog Artifactory, .NET Build & Release Management, Release Engineering, Code Signing, and DevOps Automation.
+Design & maintain CI/CD pipelines. Build & Release Engineering. Artifact Management & Deployment Automation. Docker & Jenkins Administration. Enterprise DevOps & Release Governance.
+Must Have: Jenkins, Git/Gerrit, Docker, JFrog Artifactory, .NET Build/Release, NuGet, Electron/Rust-Tauri, Inno Setup, Code Signing, Certificate Management.
+Create pure build and release resume.

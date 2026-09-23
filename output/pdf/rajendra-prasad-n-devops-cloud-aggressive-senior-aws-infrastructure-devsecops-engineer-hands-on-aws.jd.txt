@@ -1,0 +1,1 @@
+Senior AWS Infrastructure/DevSecOps Engineer. AWS Infrastructure + Terraform/IaC. Databricks on AWS: workspace, networking, Unity Catalog, security. Snowflake administration: accounts, warehouses, RBAC/security. CI/CD and DevSecOps. Python/Bash scripting and enterprise cloud environments.

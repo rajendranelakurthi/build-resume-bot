@@ -1,0 +1,125 @@
+Pages: 2
+PAGE 1: RAJENDRA PRASAD N
+LEAD DEVOPS ENGINEER | BUILD & RELEASE
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Build and Release Engineer with 10+ years of enterprise software delivery, CI/CD automation, and release governance experience.
+Focused on Azure DevOps, Jenkins, .NET/MSBuild, Git/Gerrit, Docker, and JFrog Artifactory. Designs repeatable build, package, and
+deployment workflows; administers Windows/Linux build agents; and automates release tasks with PowerShell, Python, and Bash. Coordinates
+dependencies, approvals, artifact promotion, and production releases with engineering, QA, and operations teams.
+CERTIFICATIONS
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure Fundamentals
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure DevOps
+Engineer Expert
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer - Level 1
+BUILD & RELEASE ENGINEERING HIGHLIGHTS
+Azure DevOps & .NET Delivery Standardized build and release workflows around Azure DevOps, MSBuild, controlled source changes, and environment-specific deployment
+configuration.
+Jenkins & Artifact Engineering Administered CloudBees Jenkins and JFrog tooling; built shared libraries for image versioning and repeatable artifact publication.
+Release Governance Aligned release scope, dependencies, change windows, approvals, stakeholder updates, and production support across engineering teams.
+Automation & Build Reliability Automated release operations with PowerShell, Python, and Bash and supported consistent Windows/Linux agent execution.
+CORE TECHNOLOGIES
+AZURE DEVOPS & JENKINS
+Azure DevOps, Azure Pipelines, Jenkins, CloudBees Jenkins, reusable pipelines,
+shared libraries, Windows/Linux agents, agent pools
+.NET BUILD & RELEASE
+MSBuild, .NET (C#), Windows builds, PowerShell, build configuration, package
+publication, release promotion, deployment troubleshooting
+SCM & ENTERPRISE GOVERNANCE
+Git, Gerrit, branching strategies, merge standards, approvals, release
+dependencies, change windows, release reporting
+JFROG & ARTIFACT MANAGEMENT
+JFrog Artifactory, Xray, Nexus, package feeds, upstream repositories, image
+versioning, controlled artifact promotion, SonarQube
+DOCKER & DEPLOYMENT
+Docker builds, container administration, image validation, Ansible deployment
+automation, environment-specific configuration
+AUTOMATION & OPERATIONAL SECURITY
+PowerShell, Python, Bash, API integrations, secrets handling, certificate
+troubleshooting, deployment guides, production release support
+PROFESSIONAL EXPERIENCE
+Lead DevOps Engineer | AT&T Services Inc.
+08/2023 - Present
+Skills Used: Azure DevOps, Azure Pipelines, .NET/MSBuild, Git, PowerShell, Build Agents, Release Governance
+Led enterprise .NET build and release delivery with Azure DevOps, coordinating application dependencies, release scope, change windows, and production readiness.
+Standardized Azure Pipelines build and release workflows around source checkout, MSBuild execution, package publication, and controlled environment promotion.
+Automated Windows build and deployment tasks with PowerShell, separating build configuration from environment-specific release settings.
+Established Git branching, approval, and artifact versioning standards to preserve traceability between source changes and released packages.
+Managed self-hosted build agents and execution environments, resolving build-tool, access, configuration, and pipeline failures.
+Led migration of Azure DevOps repositories and delivery pipelines to GitLab, defining phased cutovers, validation gates, and rollback procedures.
+Integrated secure secrets handling and pre-deployment checks into enterprise release workflows.
+Coordinated release schedules, dependency reviews, milestone reporting, risk escalation, and production support across engineering teams.
+Authored deployment guides and recovery runbooks and automated recurring release support tasks with Python, Bash, and PowerShell.
+Senior DevOps Engineer | GlobalLogic
+03/2023 - 08/2023
+Skills Used: Jenkins, GitLab CI, Git, Docker, Linux/Windows Agents
+Migrated Jenkins pipelines to GitLab CI, modernizing runner configuration and improving pipeline maintainability.
+Administered Windows and Linux build agents, agent pools, runner templates, and execution policies to keep enterprise builds consistent and reliable.
+Created package views, artifact feeds, and upstream repository strategies for application-team delivery requirements.
+Separated package feeds, upstream sources, and execution settings to support repeatable dependency consumption and controlled release packaging.
+Managed Docker image builds and container runtime administration to standardize application delivery.
+Enforced GitLab branching and merge standards, reusable pipeline templates, secure runners, and image validation checks.
+Troubleshot build, pipeline, and container failures with development teams to resolve release blockers.
+PAGE 2: Senior DevOps Engineer II | Akamai Technologies
+12/2021 - 03/2023
+Skills Used: Jenkins, Git, GitHub Actions, Docker, Maven, Ansible, PowerShell
+Built and maintained Jenkins-based CI/CD workflows with Git, Maven, Ansible, and Docker for repeatable application delivery.
+Configured Windows/Linux build agents and environment-specific release targets, isolating deployment settings from reusable pipeline logic.
+Implemented GitHub Actions deployment workflows and standardized container image build and release processes.
+Published versioned artifacts to enterprise repositories and package managers for downstream consumption and traceability.
+Troubleshot failed builds and package publication by tracing source revisions, dependency resolution, agent configuration, and repository access.
+Integrated Jenkins, GitHub, and SonarQube with engineering collaboration tools to support delivery and audit requirements.
+Authored reusable shell and PowerShell scripts and resolved build, dependency, and deployment pipeline failures.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd
+04/2020 - 12/2021
+Skills Used: CloudBees Jenkins, JFrog Artifactory, Xray, Python, GitHub Actions, Ansible
+Administered CloudBees Jenkins, JFrog Artifactory, and Xray enterprise services supporting secure software delivery.
+Developed Jenkins shared libraries to automate image versioning and artifact publication to private JFrog repositories.
+Connected Jenkins automation to Artifactory publication workflows so application teams could consume consistently versioned release outputs.
+Standardized reusable GitHub Actions CI/CD patterns and designed application deployment pipelines.
+Built Python FastAPI integrations connecting Jenkins, Jira, and JFrog to automate recurring delivery workflows.
+Automated onboarding of new projects to the enterprise DevOps platform through API-driven processes.
+Partnered with development teams to investigate defects and improve release quality through sprint retrospectives.
+Senior DevOps Engineer | HCL Technologies
+02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: Jenkins, PowerShell, Git, Ansible, Release Packaging, Certificate Support
+Built continuous delivery pipelines for enterprise applications across Demo, Test, Pentest, Training, CTDEV, Sandbox, UAT, and production.
+Standardized application release packaging and supported consistent deployment of REST-based microservices.
+Presented CI/CD automation strategies and delivery improvements to engineering stakeholders.
+Troubleshot certificate-management and identity-integration issues affecting enterprise application availability and release readiness.
+Coordinated sprint commitments and delivery priorities while supporting application deployment and release troubleshooting.
+Automated configuration tasks with PowerShell and maintained operational consistency across Linux and Windows application environments.
+DevOps Engineer | Mphasis Ltd
+08/2016 - 12/2018
+Client: HPE
+Skills Used: GitLab, Git, Maven, Ansible, Nexus, Python, Shell
+Created Ansible deployment pipelines to promote application releases from development through production in a controlled, repeatable manner.
+Built YAML-based build and release workflows with event-driven triggers for continuous integration on code changes.
+Defined Git branching strategies and managed self-hosted build agents supporting release execution.
+Promoted the same artifact set across environments using controlled selection and environment-specific configuration.
+Managed variable groups and environment-specific settings to keep release configuration separate from the versioned application artifact.
+Documented build and deployment flows for API, database, UI, and supporting components to improve delivery consistency.
+EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada
