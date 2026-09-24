@@ -1,0 +1,152 @@
+Pages: 2
+PAGE 1: RAJENDRA PRASAD N
+SENIOR DEVOPS ENGINEER | AWS & EKS
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Senior DevOps Engineer with 10+ years of enterprise experience in cloud infrastructure, automation, CI/CD, and production operations.
+Builds and supports AWS and production Kubernetes/EKS platforms with Terraform, Helm, GitOps, and Python/Bash. Designs reusable
+GitHub Actions workflows, AWS OIDC authentication, and Kubernetes-based self-hosted runners using ARC. Drives cluster lifecycle
+management, autoscaling, container security, observability, and reliable releases while partnering with software engineering teams on
+troubleshooting and operational readiness.
+CERTIFICATIONS
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure
+Fundamentals
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure
+DevOps Engineer Expert
+aws
+certified
+Solutions
+Architect
+A S S O C I AT E
+AWS Certified Solutions Architect
+- Associate
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer -
+Level 1
+AWS, EKS & DELIVERY AUTOMATION HIGHLIGHTS
+Production EKS: Cluster maintenance, workload scaling, networking, identity controls, and recovery procedures support reliable application delivery.
+Secure CI/CD: Reusable workflows, short-lived AWS credentials, protected environments, and isolated runners standardize enterprise releases.
+Infrastructure Automation: Terraform, GitOps, and Python/Bash tooling make provisioning and deployment repeatable and reviewable.
+CORE TECHNOLOGIES
+AWS INFRASTRUCTURE
+EC2, VPC, IAM, S3, Route 53, RDS, EKS, ECR, ALB, CloudWatch, CloudTrail,
+Secrets Manager, multi-AZ architecture
+KUBERNETES & EKS OPERATIONS
+Cluster upgrades, patching, node recycling, managed node groups, Karpenter,
+Cluster Autoscaler, HPA, VPA, PDBs, probes
+GITHUB ACTIONS & CI/CD
+YAML, reusable workflows, composite actions, matrix builds, caching, artifacts,
+Environments, Secrets, variables, deployment keys, Jenkins
+IDENTITY & RUNNER PLATFORMS
+AWS OIDC, IAM trust policies, IRSA, RBAC, self-hosted runners, Actions Runner
+Controller (ARC), ephemeral runner scale sets
+GITOPS & CONTAINERS
+ArgoCD, Helm charts, Docker multi-stage builds, ECR image promotion, Git-based
+reconciliation, rollout validation and rollback
+IAC & AUTOMATION
+Terraform modules, remote state, reviewed plans, AWS CDK familiarity, Python,
+Bash, Ansible, AWS CLI, REST APIs
+NETWORKING & SECURITY
+VPC CNI, AWS Load Balancer Controller, ALB ingress, NGINX, DNS, TLS, security
+groups, NetworkPolicy, image scanning, SonarQube
+OBSERVABILITY & RELIABILITY
+CloudWatch, Prometheus, Grafana, Datadog, logs, alerts, capacity planning, incident
+response, root-cause analysis, runbooks
+PROFESSIONAL EXPERIENCE
+Lead DevOps Engineer | AT&T Services Inc.
+08/2023 - Present
+Skills Used: AWS, EKS, GitHub Actions, Terraform, Karpenter, ARC, ArgoCD, Python
+Led AWS infrastructure and production EKS operations, partnering with software engineering teams on scalable platform design, secure delivery, release readiness, and
+incident resolution.
+Administered EKS cluster upgrades, add-on compatibility checks, AMI patching, and managed node recycling using staged validation, cordon/drain procedures, and disruption
+budgets.
+Configured Karpenter NodePools and capacity limits; maintained Cluster Autoscaler for separate managed node groups and tuned HPA with VPA recommendations to balance
+capacity and workload demand.
+Developed Helm charts with environment values, probes, resource requests, affinity rules, and disruption budgets; validated manifests and application health before production
+promotion.
+Troubleshot VPC CNI IP allocation, CoreDNS, service routing, and ingress failures; configured ALB ingress through AWS Load Balancer Controller, including TLS and target
+health checks.
+Provisioned multi-AZ VPC, EC2, EKS, IAM, S3, Route 53, and RDS infrastructure using reusable Terraform modules, reviewed plans, remote state, and controlled
+environment promotion.
+Implemented IRSA with service-account-scoped trust policies and least-privilege permissions so Kubernetes workloads could access AWS services using temporary
+credentials.
+Designed GitHub Actions YAML pipelines for tests, security scans, Docker builds, ECR publication, and deployment verification; developed reusable workflows and custom
+composite actions.
+Configured GitHub-to-AWS OIDC federation with repository and environment restrictions; managed protected Environments, Secrets, variables, approvals, and scoped
+deployment keys.
+Operated ARC ephemeral runner scale sets on dedicated EKS build infrastructure, configuring runner groups, images, capacity limits, network access, and controller/runner
+log retention.
+Optimized workflow matrix jobs, dependency caching, concurrency controls, artifact retention, and job permissions; diagnosed runner registration, queueing, and build-
+environment failures.
+Implemented ArgoCD application delivery from reviewed Git changes, managing Helm values, sync health, drift detection, controlled promotion, and rollback through versioned
+configuration.
+Hardened multi-stage Docker images and ECR workflows with minimal runtime layers, non-root execution, vulnerability checks, immutable image references, and remediation
+gates.
+PAGE 2: Automated EKS health checks and operational reporting with Python/Bash; correlated CloudWatch, Prometheus, and Grafana signals to resolve pod, node, network, and
+release incidents.
+Senior DevOps Engineer | GlobalLogic
+03/2023 - 08/2023
+Skills Used: AWS, EKS, GitHub Actions, Terraform, Helm, Python, Bash
+Built reusable GitHub Actions workflows for application builds, automated tests, image publication, and controlled AWS environment deployments.
+Maintained hosted and self-hosted runners, resolving toolchain, dependency, cache, network, and permission issues that interrupted build and deployment jobs.
+Automated AWS provisioning through Terraform modules and reviewed plans, separating environment configuration and sensitive values from source code.
+Supported EKS workloads using Helm, health probes, resource limits, and rollout checks; investigated scheduling, image-pull, application startup, and service connectivity
+failures.
+Integrated code and container scans into CI/CD gates and worked with developers and QA on release validation, rollback procedures, and deployment documentation.
+Senior DevOps Engineer II | Akamai Technologies
+12/2021 - 03/2023
+Skills Used: AWS, EKS, Terraform, GitHub Actions, ArgoCD, Helm, Prometheus
+Supported production AWS and EKS infrastructure, managing environment configuration, platform maintenance, operational readiness, and application delivery.
+Built Terraform definitions for VPC networking, IAM, compute, and Kubernetes dependencies with pull-request reviews and pipeline-based provisioning.
+Maintained GitHub Actions and Jenkins pipelines for Docker builds, test execution, ECR publishing, and Helm-based Kubernetes releases.
+Supported ArgoCD reconciliation and versioned deployment manifests, diagnosing drift, failed syncs, and rollout issues with application teams.
+Tuned pod resources and autoscaling, monitored node utilization, and investigated DNS, ingress, storage, and container failures through logs and metrics.
+Developed Prometheus/Grafana and CloudWatch dashboards and alerts; maintained incident runbooks and coordinated production changes with distributed engineering
+teams.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd
+04/2020 - 12/2021
+Skills Used: AWS, Jenkins, GitHub Actions, Docker, Ansible, Python, Grafana
+Designed Jenkins and GitHub Actions delivery workflows that standardized application builds, automated checks, artifact promotion, and release validation.
+Developed Python REST integrations for Jenkins, Jira, and JFrog to automate onboarding, deployment reporting, and recurring operational tasks.
+Automated Linux and monitoring platform configuration using Ansible roles for Prometheus, Grafana, and Node Exporter with repeatable service checks.
+Supported Docker-based application delivery and AWS infrastructure operations, troubleshooting deployment failures, permissions, connectivity, and resource constraints.
+Built custom Python exporters, reviewed production alerts, and partnered with developers on capacity analysis, incident reviews, and recovery documentation.
+Senior DevOps Engineer | HCL Technologies
+02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: AWS, EC2, Jenkins, Ansible, Linux, Python, Bash
+Supported AWS EC2 and Linux application environments for Mercedes-Benz Research & Development India, coordinating infrastructure changes and production releases.
+Built Jenkins delivery jobs and Ansible playbooks for installation, configuration, application deployments, and environment validation.
+Developed Python and Bash automation for service checks, artifact verification, log collection, and recurring maintenance activities.
+Investigated application, network, permissions, and capacity issues; documented root causes and maintained release and rollback procedures.
+DevOps Engineer | Mphasis Ltd
+08/2016 - 12/2018
+Client: HPE
+Skills Used: AWS, Jenkins, Ansible, Linux, Shell, Healthcare Payer
+Supported Healthcare Payer application releases within Mphasis/HPE, coordinating deployment readiness and operational checks with development, QA, and infrastructure
+teams.
+Maintained Jenkins jobs and Ansible deployment tasks for Linux environments, versioned artifacts, configuration updates, and post-release validation.
+Used AWS CloudWatch and application logs to investigate host, connectivity, batch-processing, and deployment issues across supported environments.
+Created shell scripts and support runbooks for service validation, log collection, scheduled tasks, incident handovers, and recovery activities.
+EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada

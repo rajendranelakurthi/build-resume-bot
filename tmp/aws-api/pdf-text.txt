@@ -1,0 +1,147 @@
+Pages: 2
+PAGE 1: RAJENDRA PRASAD N
+LEAD AWS DEVOPS ENGINEER | API & CLOUD MIGRATION
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Lead AWS DevOps Engineer with 10+ years of enterprise experience in cloud engineering, application delivery, automation, and
+production support. Combines API modernization, Java/Spring Boot microservices, and on-premises-to-AWS migration with Terraform,
+secure CI/CD, and container operations. Builds delivery platforms using API Gateway, Lambda, ECS, Step Functions, Kafka, SNS/SQS, and
+managed data services. Partners with architects and application teams on API contracts, security, testing, cutover readiness, observability, and
+resilient integration patterns relevant to Payments, Money Movement, and Information Reporting.
+CERTIFICATIONS
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure
+Fundamentals
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure
+DevOps Engineer Expert
+aws
+certified
+Solutions
+Architect
+A S S O C I AT E
+AWS Certified Solutions Architect
+- Associate
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer -
+Level 1
+API MODERNIZATION, AWS MIGRATION & DELIVERY HIGHLIGHTS
+Modernization: Incremental API refactoring, dependency assessment, containerization, and reversible cutovers support migration from on-premises services to AWS.
+Secure Delivery: Terraform, automated API tests, vulnerability checks, and controlled promotion standardize cloud-native releases.
+Operational Resilience: Idempotent processing, bounded retries, dead-letter handling, and correlated telemetry improve integration reliability.
+CORE TECHNOLOGIES
+API & MICROSERVICES
+Java, Spring Boot, REST, JSON, OpenAPI, API versioning, validation, exception
+handling, integration and contract testing
+AWS APPLICATION PLATFORMS
+API Gateway, Lambda, ECS/Fargate, Step Functions, ECR, S3, AWS Transfer
+Family, VPC, load balancing
+EVENTS & DATA
+Apache Kafka, Amazon SNS, SQS, DynamoDB, RDS, SQL, idempotency, retries,
+dead-letter queues, event schemas
+MIGRATION & ARCHITECTURE
+Legacy assessment, dependency mapping, incremental refactoring, on-premises-to-
+AWS migration, cutover, rollback, data reconciliation
+DEVOPS & AUTOMATION
+Terraform, Jenkins, GitHub Actions, Git, Maven, Python, Bash, Ansible, CI/CD,
+automated testing, release management
+CONTAINERS & SECURITY
+Docker, OpenShift, ECS, Kubernetes, OAuth 2.0/OIDC, JWT, IAM, KMS, Secrets
+Manager, TLS, SAST/SCA, image scanning
+OBSERVABILITY & SUPPORT
+Dynatrace, CloudWatch, AWS X-Ray, Grafana, Splunk, distributed tracing,
+performance tuning, on-call support, incident response, RCA
+INTEGRATION & COLLABORATION
+Transactional API patterns for Payments, Money Movement and Information
+Reporting; API governance, design reviews, stakeholder coordination; Healthcare
+Payer support
+PROFESSIONAL EXPERIENCE
+Lead DevOps Engineer | AT&T Services Inc.
+08/2023 - Present
+Skills Used: AWS, Java, Spring Boot, API Gateway, ECS, Terraform, Kafka, CI/CD
+Led AWS DevOps and API modernization delivery, coordinating infrastructure, application releases, migration readiness, and production support with architects and
+engineering teams.
+Assessed on-premises API dependencies, runtime requirements, network paths, and deployment constraints; organized migration waves with validation criteria and rollback
+procedures.
+Developed and enhanced Java/Spring Boot REST service components with request validation, consistent error responses, externalized configuration, and versioned OpenAPI
+contracts.
+Modernized legacy integrations incrementally behind API Gateway, maintaining backward-compatible interfaces while routing selected functionality to Lambda and ECS
+services.
+Built Terraform modules for API Gateway, Lambda, ECS, IAM, KMS, queues, storage, and data-service dependencies with reviewed plans and environment-specific
+configuration.
+Implemented Step Functions workflows with explicit error handling and bounded retries; used SNS/SQS for asynchronous integration and DynamoDB-backed request tracking.
+Developed Kafka and SQS integration components with idempotency checks, correlation identifiers, dead-letter handling, and controlled replay to prevent duplicate business
+processing.
+Containerized Spring Boot services with Docker and supported OpenShift-to-ECS deployment adaptation, including health checks, task roles, secrets, networking, and scaling
+policies.
+Integrated OAuth 2.0/OIDC and JWT validation with scoped authorization; enforced TLS, least-privilege IAM, KMS encryption, and Secrets Manager-based credential retrieval.
+Automated managed SFTP integration through AWS Transfer Family and S3, configuring scoped access, encryption, transfer monitoring, and downstream processing
+validation.
+Built Jenkins and GitHub Actions pipelines for Maven builds, unit and API contract tests, dependency/image scans, artifact publication, and controlled AWS deployments.
+Configured CloudWatch, X-Ray, Dynatrace, Grafana, and Splunk views to correlate API latency, errors, dependency calls, queue backlog, and deployment events.
+Investigated API bottlenecks across JVM resources, database connection pools, RDS queries, Lambda concurrency, and downstream timeouts; verified changes through load
+tests.
+Supported migration rehearsals and production cutovers using smoke tests, response comparisons, operational checks, and rollback triggers; led incident reviews and
+runbook improvements.
+PAGE 2: Senior DevOps Engineer | GlobalLogic
+03/2023 - 08/2023
+Skills Used: AWS, Spring Boot, Jenkins, Terraform, Docker, API Testing
+Built CI/CD workflows for Java/Spring Boot services, integrating Maven builds, automated tests, artifact versioning, and environment promotion.
+Automated AWS application infrastructure and configuration through Terraform and deployment scripts, validating service connectivity and permissions before release.
+Supported REST API enhancements and integration testing, checking request/response contracts, authentication failures, and backward compatibility with application teams.
+Deployed containerized services and investigated startup, configuration, networking, and downstream dependency failures across test and production environments.
+Partnered with developers and QA on release readiness, defect triage, smoke tests, rollback procedures, and operational handovers.
+Senior DevOps Engineer II | Akamai Technologies
+12/2021 - 03/2023
+Skills Used: AWS, Terraform, Docker, Kubernetes, API Gateway, CloudWatch
+Provisioned AWS infrastructure and supported migration of application services from legacy environments using Terraform, containers, and automated release workflows.
+Maintained CI/CD pipelines for microservices, implementing deployment checks, versioned configuration, security gates, and controlled production promotion.
+Supported API Gateway routing and backend service connectivity, troubleshooting permissions, TLS, timeouts, and application-level errors.
+Automated container deployments and runtime configuration, validating health probes, resource limits, service discovery, and rollout behavior.
+Correlated CloudWatch metrics, application logs, and distributed traces to investigate latency, failed requests, and downstream service degradation.
+Coordinated migration validation, recovery exercises, incident reviews, and support documentation with distributed application and infrastructure teams.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd
+04/2020 - 12/2021
+Skills Used: AWS, Python, REST APIs, Jenkins, Ansible, Grafana, Splunk
+Developed Python FastAPI integrations for Jenkins, Jira, and JFrog, using REST/JSON interfaces to automate onboarding, deployment status, and operational workflows.
+Built Jenkins and GitHub Actions pipelines for application and infrastructure changes with automated checks, artifact promotion, and post-deployment validation.
+Supported asynchronous service integrations by investigating processing delays, failed requests, retry behavior, and application dependency issues with developers.
+Automated Prometheus, Grafana, and Node Exporter deployment with Ansible; developed Python exporters for application-specific operational metrics.
+Used centralized logs and dashboards to diagnose production incidents, improve alerting, and maintain release, escalation, and recovery runbooks.
+Senior DevOps Engineer | HCL Technologies
+02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: AWS, Jenkins, Ansible, Java Deployments, Linux, Bash
+Supported enterprise Java application deployments for Mercedes-Benz Research & Development India across Linux and AWS-hosted environments.
+Maintained Jenkins jobs and Ansible automation for packaging, configuration, deployment, service restarts, and release validation.
+Investigated REST integration errors, application logs, database connectivity, permissions, and infrastructure issues during production support.
+Created Bash/Python checks and operational documentation for change readiness, rollback, incident triage, and repeatable environment maintenance.
+DevOps Engineer | Mphasis Ltd
+08/2016 - 12/2018
+Client: HPE
+Skills Used: Healthcare Payer, Jenkins, Linux, AWS, Shell, Release Management
+Supported Healthcare Payer application releases within Mphasis/HPE, coordinating integration checks and deployment readiness with development, QA, and infrastructure
+teams.
+Automated Linux deployment tasks and configuration updates through Jenkins, Ansible, and shell scripting with post-release service verification.
+Investigated API connectivity, scheduled processing, application errors, and host issues using logs and AWS CloudWatch signals.
+Maintained release procedures, incident handovers, and recovery runbooks for enterprise application and integration support.
+EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada

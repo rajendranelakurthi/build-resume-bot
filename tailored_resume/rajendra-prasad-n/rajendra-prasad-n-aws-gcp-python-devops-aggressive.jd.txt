@@ -1,1 +1,0 @@
-Python, AWS, GCP, S3, EC2, Docker, Kubernetes, Jenkins, Git, Ansible, Elasticsearch, Solr, Kibana, Splunk, Prometheus, Grafana, Couchbase, JMeter, JavaScript, JSON, SonarQube, Agile, DevOps & Automation

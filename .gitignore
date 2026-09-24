@@ -2,8 +2,8 @@
 **/.DS_Store
 
 # Generated resume artifacts
-/tailored_resumes/
-**/tailored_resumes/
+#/tailored_resumes/
+#**/tailored_resumes/
 
 # Python cache/output
 __pycache__/

@@ -1,0 +1,146 @@
+Pages: 2
+PAGE 1: RAJENDRA PRASAD N
+LEAD DEVOPS ENGINEER
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Lead AWS DevOps Engineer with 10+ years of enterprise experience designing, automating, and supporting scalable cloud
+infrastructure and production delivery platforms. AWS-focused expertise with additional Azure/AKS experience, combining Kubernetes,
+Docker, Terraform, CloudFormation, and Ansible with secure CI/CD across Jenkins, GitHub Actions, GitLab CI, and Azure DevOps. Builds GitOps
+delivery using Argo CD, automates operations with Python/Bash/PowerShell, and establishes observability through Prometheus, Grafana,
+Datadog, CloudWatch, and ELK. Partners with development, QA, security, and architecture teams on release reliability, vulnerability remediation,
+and production incident resolution.
+CERTIFICATIONS
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure
+Fundamentals
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure
+DevOps Engineer Expert
+aws
+certified
+Solutions
+Architect
+A S S O C I AT E
+AWS Certified Solutions Architect
+- Associate
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer -
+Level 1
+CLOUD INFRASTRUCTURE, DEVOPS & RELIABILITY HIGHLIGHTS
+Scalable Platforms: Reusable infrastructure modules, resilient Kubernetes deployment patterns, and capacity controls support enterprise application growth.
+Delivery Automation: Pipeline templates, GitOps reconciliation, and configuration automation standardize provisioning, testing, and releases.
+Secure Operations: Identity controls, vulnerability gates, actionable telemetry, and recovery runbooks strengthen production reliability.
+CORE TECHNOLOGIES
+AWS & AZURE CLOUD
+AWS: EC2, EKS, VPC, IAM, S3, RDS, Route 53, ALB, ECR; Azure: AKS, VMs,
+VNets, Azure Monitor, Key Vault
+KUBERNETES & CONTAINERS
+EKS, AKS, Docker, Helm, Deployments, Services, Ingress, namespaces, RBAC,
+probes, HPA, node pools, cluster upgrades
+CI/CD & SOURCE CONTROL
+Jenkins, GitHub Actions, GitLab CI, Azure DevOps, YAML templates, shared
+libraries, Git, build/test automation, promotion, rollback
+INFRASTRUCTURE & CONFIGURATION
+Terraform modules and remote state, CloudFormation stacks, Ansible
+roles/playbooks, configuration drift, reviewed infrastructure plans
+GITOPS & CLOUD-NATIVE DELIVERY
+Argo CD, Helm values, desired-state reconciliation, sync policies, drift detection,
+microservices, rolling and blue/green deployments
+AUTOMATION & SCRIPTING
+Python, Bash, PowerShell, AWS CLI, Azure CLI, REST APIs, provisioning,
+operational checks, reporting, deployment tooling
+SECURITY & GOVERNANCE
+IAM, IRSA, OIDC, RBAC, KMS, Secrets Manager, Key Vault, TLS, SAST/SCA,
+image scanning, patching, compliance evidence
+OBSERVABILITY & OPERATIONS
+Prometheus, Grafana, Datadog, CloudWatch, ELK, Azure Monitor,
+logs/metrics/traces, alerting, RCA, recovery, Agile collaboration
+PROFESSIONAL EXPERIENCE
+Lead DevOps Engineer | AT&T Services Inc.
+08/2023 - Present
+Skills Used: AWS, Azure, EKS/AKS, Terraform, CI/CD, Argo CD, Ansible
+Led cloud infrastructure and DevOps delivery with AWS as the primary platform, partnering with architecture and application teams on scalability, security, release readiness,
+and production support.
+Designed reusable Terraform modules and CloudFormation stacks for VPC, compute, IAM, storage, databases, and EKS dependencies with versioned inputs and reviewed
+infrastructure changes.
+Administered production EKS and AKS clusters, planning upgrades, patching node images, validating add-ons, and recycling nodes with health checks and disruption controls.
+Developed Helm charts and Kubernetes Deployments, Services, and Ingress resources with readiness probes, resource limits, topology placement, and autoscaling policies.
+Troubleshot DNS, ingress routing, load-balancer health, pod connectivity, storage mounts, and scheduling failures across containerized application environments.
+Built Jenkins shared libraries, GitHub Actions reusable workflows, GitLab CI templates, and Azure DevOps YAML pipelines for automated build, test, scan, deployment, and
+release verification.
+Implemented Argo CD delivery from reviewed Git changes, managing environment-specific Helm values, sync policies, drift detection, health checks, and rollback through
+versioned configuration.
+Automated provisioning and configuration with Ansible, Python, Bash, and PowerShell, including environment setup, inventory, deployment prerequisites, and operational
+reporting.
+Hardened cloud access through scoped IAM roles, IRSA, OIDC federation, and Kubernetes RBAC; integrated Secrets Manager and Key Vault for controlled secret retrieval.
+Embedded code, dependency, container, and IaC scanning into CI/CD gates; coordinated vulnerability remediation, patch deployment, and security evidence with compliance
+stakeholders.
+Built Prometheus/Grafana dashboards, Datadog service views, and CloudWatch alerts for workload health, latency, errors, resource saturation, and deployment-related
+degradation.
+Centralized application and platform logs through ELK and cloud logging services, standardizing metadata and retention to accelerate incident investigation.
+Supported highly available deployments and recovery procedures, testing backup restoration, failover readiness, scaling limits, and application health after infrastructure
+changes.
+Led production troubleshooting and root-cause reviews with development, QA, and security teams; translated Agile retrospectives into pipeline improvements and operational
+runbooks.
+PAGE 2: Senior DevOps Engineer | GlobalLogic
+03/2023 - 08/2023
+Skills Used: AWS, Jenkins, GitHub Actions, GitLab CI, Terraform, Docker
+Built reusable Jenkins, GitHub Actions, and GitLab CI workflows for application builds, automated testing, security checks, and controlled environment promotion.
+Automated AWS infrastructure and environment configuration through Terraform and Ansible with pull-request reviews and consistent deployment inputs.
+Supported Docker-based Kubernetes applications using Helm charts, health probes, resource settings, and post-deployment verification.
+Diagnosed pipeline, runner, artifact, permission, and service-connectivity failures with development and QA teams during release cycles.
+Maintained monitoring checks, deployment documentation, and rollback procedures; contributed automation improvements through Agile planning and retrospectives.
+Senior DevOps Engineer II | Akamai Technologies
+12/2021 - 03/2023
+Skills Used: AWS, Azure, EKS/AKS, Terraform, Argo CD, Prometheus, Grafana
+Provisioned AWS and Azure application environments using Terraform definitions for networking, compute, identities, storage, and Kubernetes platform dependencies.
+Supported EKS and AKS workload operations, including Helm deployments, service routing, node capacity, patching, and controlled cluster maintenance.
+Maintained Jenkins, GitHub Actions, and Azure DevOps delivery workflows with automated validation, versioned artifacts, and environment promotion controls.
+Implemented Argo CD reconciliation for container workloads, investigating configuration drift, failed synchronization, and deployment health issues.
+Configured Prometheus, Grafana, CloudWatch, and Azure Monitor views to track application availability, capacity, and infrastructure performance.
+Resolved networking, container, resource, and dependency incidents; coordinated recovery checks and operational handovers with distributed engineering teams.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd
+04/2020 - 12/2021
+Skills Used: AWS, Jenkins, GitHub Actions, Docker, Ansible, Python, Grafana
+Designed Jenkins and GitHub Actions delivery workflows that standardized application builds, automated checks, artifact promotion, and release validation.
+Developed Python REST integrations for Jenkins, Jira, and JFrog to automate onboarding, deployment reporting, and recurring operational tasks.
+Automated Linux and monitoring platform configuration using Ansible roles for Prometheus, Grafana, and Node Exporter with repeatable service checks.
+Supported Docker-based application delivery and AWS infrastructure operations, troubleshooting deployment failures, permissions, connectivity, and resource constraints.
+Built custom Python exporters, reviewed production alerts, and partnered with developers on capacity analysis, incident reviews, and recovery documentation.
+Senior DevOps Engineer | HCL Technologies
+02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: AWS, EC2, Jenkins, Ansible, Linux, Python, Bash
+Supported AWS EC2 and Linux application environments for Mercedes-Benz Research & Development India, coordinating infrastructure changes and production releases.
+Built Jenkins delivery jobs and Ansible playbooks for installation, configuration, application deployments, and environment validation.
+Developed Python and Bash automation for service checks, artifact verification, log collection, and recurring maintenance activities.
+Investigated application, network, permissions, and capacity issues; documented root causes and maintained release and rollback procedures.
+DevOps Engineer | Mphasis Ltd
+08/2016 - 12/2018
+Client: HPE
+Skills Used: AWS, Jenkins, Ansible, Linux, Shell, Healthcare Payer
+Supported Healthcare Payer application releases within Mphasis/HPE, coordinating deployment readiness and operational checks with development, QA, and infrastructure
+teams.
+Maintained Jenkins jobs and Ansible deployment tasks for Linux environments, versioned artifacts, configuration updates, and post-release validation.
+Used AWS CloudWatch and application logs to investigate host, connectivity, batch-processing, and deployment issues across supported environments.
+Created shell scripts and support runbooks for service validation, log collection, scheduled tasks, incident handovers, and recovery activities.
+EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada
