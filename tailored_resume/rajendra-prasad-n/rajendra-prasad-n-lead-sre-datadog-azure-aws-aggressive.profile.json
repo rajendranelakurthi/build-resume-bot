@@ -1,0 +1,263 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Lead SRE | Azure & AWS",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "page_title": "Rajendra Prasad N - Lead SRE - Azure & AWS",
+  "summary_html": "<strong>Lead Site Reliability and Observability engineer with 10+ years of enterprise experience across cloud infrastructure, application delivery, monitoring, and production operations.</strong> Builds <strong>Datadog observability for Azure and AWS</strong> spanning infrastructure, APM, logs, networks, and digital experience. Defines actionable monitors, SLIs/SLOs, service-health views, and telemetry standards; automates onboarding and remediation using <strong>Rundeck, Ansible, Python, PowerShell, APIs, and Terraform</strong>. Applies AIOps and reviewed GenAI-assisted diagnostics to improve incident investigation and reduce operational toil. Collaborates with globally distributed application, infrastructure, network, and cloud teams on reliable service delivery.",
+  "achievements_title": "Datadog, Observability & Automation Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "certification_badges_image": "file:///Users/rajendra/Documents/1Resume/ai_resume/plugins/resume-creator-plugin/assets/static/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "Datadog",
+    "Azure",
+    "AWS",
+    "Rundeck",
+    "Ansible",
+    "Python",
+    "PowerShell",
+    "Bash",
+    "APM",
+    "SLIs",
+    "SLOs",
+    "AIOps",
+    "GenAI",
+    "Terraform",
+    "REST APIs",
+    "webhooks",
+    "GitHub",
+    "CloudWatch",
+    "Prometheus",
+    "Grafana"
+  ],
+  "skill_sections": [
+    {
+      "title": "Datadog Platform",
+      "content": "Infrastructure Monitoring, APM, Log Management, Network Monitoring, RUM, Synthetic Monitoring, Agents, integrations, dashboards, monitors, service tagging"
+    },
+    {
+      "title": "SRE & Observability",
+      "content": "Metrics, logs, traces, events, telemetry pipelines, distributed tracing, SLIs, SLOs, error budgets, burn-rate alerts, service-health views, incident response"
+    },
+    {
+      "title": "Azure Observability",
+      "content": "Azure Monitor, Log Analytics, Application Insights, AKS, Azure VMs, App Service, Azure SQL, Entra ID, Key Vault, Azure platform integrations"
+    },
+    {
+      "title": "AWS Observability",
+      "content": "Datadog AWS integration, CloudWatch metrics/logs, CloudTrail events, EC2, EKS, ALB, RDS, Lambda, S3, IAM role delegation, service-health dashboards"
+    },
+    {
+      "title": "Automation & IaC",
+      "content": "Rundeck jobs and runbooks, Ansible roles, Python, PowerShell, Bash, REST APIs, webhooks, Terraform Datadog provider, Git/GitHub, CI/CD"
+    },
+    {
+      "title": "Telemetry Operations",
+      "content": "Agent/collector troubleshooting, OpenTelemetry, parsing, enrichment, log routing, trace sampling, retention, tag cardinality, telemetry consumption reviews"
+    },
+    {
+      "title": "AIOps & GenAI",
+      "content": "Watchdog, anomaly detection, event correlation, composite alerts, noise reduction, incident enrichment, AI-assisted diagnostics, human-reviewed remediation"
+    },
+    {
+      "title": "Platform & Collaboration",
+      "content": "Linux, Windows, Docker, Kubernetes, Helm, Azure DevOps, Jenkins, GitHub Actions, APAC/AMER/EMEA handovers, stakeholder communication, mentoring"
+    }
+  ],
+  "achievements": [
+    {
+      "tag": "Enterprise Visibility:",
+      "text": "Correlated metrics, logs, traces, events, and network signals connect infrastructure behavior to application and customer impact."
+    },
+    {
+      "tag": "Observability as Code:",
+      "text": "Versioned dashboards, monitors, integrations, and automation workflows standardize onboarding and configuration across environments."
+    },
+    {
+      "tag": "Actionable Operations:",
+      "text": "SLO alerts, anomaly reviews, event enrichment, and controlled runbooks focus responders on service-impacting issues."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "impact": [
+        "Led Datadog observability delivery across Azure infrastructure, AKS, application services, and enterprise networks, translating stakeholder needs into monitoring standards and onboarding plans.",
+        "Configured Datadog Agents, Cluster Agents, integrations, and collectors; resolved proxy, TLS, permissions, endpoint, buffering, and tagging issues affecting telemetry collection.",
+        "Instrumented services for APM and distributed tracing, standardizing service/environment/version tags and correlating traces, logs, dependencies, and deployment events during investigations.",
+        "Built stakeholder dashboards, availability and latency SLIs, SLOs, error-budget views, and burn-rate alerts with service owners to improve incident prioritization.",
+        "Implemented Datadog AWS integrations with delegated IAM roles and scoped collection for EC2, EKS, ALB, and RDS metrics, validating account/region coverage and ownership tags.",
+        "Integrated AWS CloudWatch logs and CloudTrail change events with Datadog investigations to correlate application failures with infrastructure and access changes.",
+        "Developed AWS service-health dashboards for Lambda errors/throttling, load-balancer latency, database connections, and Kubernetes capacity; investigated missing metrics and duplicate host visibility.",
+        "Configured network telemetry and application dependency views and partnered with frontend teams on RUM and synthetic browser/API checks to distinguish user-experience failures from backend issues.",
+        "Managed dashboards, monitors, SLOs, and integration settings as Terraform and Git-controlled configuration, using pull requests, validation, environment inputs, and reviewed promotion.",
+        "Automated observability onboarding and approved remediation through Rundeck, Ansible, Python, PowerShell, REST APIs, and webhooks, retaining execution logs and controlled credentials.",
+        "Applied Watchdog findings, anomaly monitors, composite conditions, and deployment-event correlation to enrich incidents, tune routing, and reduce duplicate or nonactionable alerts.",
+        "Used GenAI-assisted workflows to summarize incident timelines, propose diagnostic queries, and draft runbook changes; verified conclusions against telemetry and required review before operational changes.",
+        "Reviewed log volume, trace sampling, retention, and custom-metric cardinality with service owners; reduced unnecessary collection while preserving error visibility and incident investigation needs."
+      ],
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "AWS",
+        "Datadog",
+        "APM",
+        "Rundeck",
+        "Ansible",
+        "Terraform",
+        "Python",
+        "PowerShell",
+        "AIOps"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "impact": [
+        "Onboarded Azure application environments to Datadog, applying standard Agent configuration, service tags, log sources, dashboards, and monitor ownership.",
+        "Built Ansible and Python automation for agent installation, integration checks, configuration updates, and repeatable observability validation.",
+        "Monitored AWS EC2 host health and CloudWatch service metrics through Datadog, investigating collection gaps, permissions, and resource saturation.",
+        "Created AWS application dashboards that combined load-balancer errors, database connectivity, and deployment events for release-health checks.",
+        "Integrated monitoring checks and release markers into CI/CD and coordinated failed-check investigation with application and QA teams.",
+        "Maintained alert-routing documentation and incident handovers and worked with distributed teams to resolve agent, pipeline, and application telemetry failures."
+      ],
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "AWS",
+        "Datadog",
+        "Ansible",
+        "Python",
+        "GitHub",
+        "CI/CD"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "impact": [
+        "Implemented monitoring and log collection for Azure and Kubernetes workloads, maintaining environment tags, health checks, and actionable dashboards.",
+        "Automated observability configuration and operational inventory through Terraform, Python, and Git-based change reviews.",
+        "Built Datadog and CloudWatch views for AWS EC2, EKS, and RDS workloads, correlating compute pressure, container restarts, database latency, and service errors.",
+        "Investigated AWS network and application performance using load-balancer metrics, flow-log evidence, and service logs with infrastructure and development teams.",
+        "Troubleshot collector connectivity, missing tags, log parsing, and metric gaps and documented recovery procedures for support teams.",
+        "Coordinated release-health reviews and operational handovers across APAC, AMER, and EMEA, maintaining clear ownership, escalation paths, and diagnostic evidence."
+      ],
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "AWS",
+        "Datadog",
+        "Terraform",
+        "Python",
+        "Kubernetes",
+        "Grafana"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "impact": [
+        "Supported SRE monitoring and incident response for Azure-oriented application services, correlating logs, platform metrics, and recent releases.",
+        "Built Ansible roles for Prometheus, Grafana, and Node Exporter and custom Python exporters for application-specific health and capacity signals.",
+        "Created AWS CloudWatch and Datadog dashboards for application and infrastructure health and used telemetry to investigate deployment-related degradation.",
+        "Developed Python REST integrations across Jenkins, Jira, and JFrog and Rundeck runbooks for repeatable checks and approved operational tasks.",
+        "Tuned thresholds, alert routing, and monitoring coverage with service owners and converted incident findings into actionable dashboards and runbooks.",
+        "Mentored engineers on diagnostic workflows and collaborated with application teams on capacity reviews, service readiness, and post-incident improvements."
+      ],
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "AWS",
+        "Datadog",
+        "Prometheus",
+        "Grafana",
+        "Rundeck",
+        "Ansible",
+        "Python"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "impact": [
+        "Implemented centralized application logging and operational dashboards for Azure-hosted enterprise services and release environments.",
+        "Automated monitoring prerequisites and service checks using Ansible, PowerShell, and shell scripts across Linux and Windows hosts.",
+        "Used AWS CloudWatch metrics and logs to troubleshoot load-balancer, application-host, and database connectivity issues during releases.",
+        "Investigated application-server failures, certificate issues, slow requests, and infrastructure dependencies with development and network teams.",
+        "Presented service-health findings to customer stakeholders and maintained deployment checks, troubleshooting guides, and escalation documentation."
+      ],
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Azure",
+        "AWS",
+        "Datadog",
+        "ELK",
+        "Jenkins",
+        "PowerShell",
+        "Ansible"
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "impact": [
+        "Supported production monitoring and release validation for Healthcare Payer applications within Mphasis/HPE, investigating service and batch-processing failures.",
+        "Used AWS CloudWatch and application logs to verify deployment health and investigate host, connectivity, and scheduled-job issues.",
+        "Developed Python and shell utilities for service checks, log inspection, configuration validation, and operational evidence collection.",
+        "Maintained support runbooks and coordinated incident updates, release checks, and handover with application, QA, and infrastructure teams."
+      ],
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "HPE",
+      "skills_used": [
+        "Azure",
+        "AWS",
+        "Splunk",
+        "Linux",
+        "Python",
+        "Shell",
+        "Healthcare Payer"
+      ]
+    }
+  ],
+  "additional_sections": [],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology",
+      "logo_image": "",
+      "logo_alt": ""
+    }
+  ],
+  "education_before_experience": false,
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Aggressive Datadog-focused Lead SRE variant. AWS observability is explicitly covered in 10 of 40 experience bullets (25%). Employment history and certifications retained; no Datadog certification added."
+  ]
+}

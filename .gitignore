@@ -22,3 +22,9 @@ __pycache__/
 # Local virtual environments
 .venv/
 venv/
+
+# Local resume build previews, extracted text, and compiler caches.
+# Existing tracked files remain versioned; final resumes are in tailored_resume/.
+/tmp/
+/.cache/
+*.log

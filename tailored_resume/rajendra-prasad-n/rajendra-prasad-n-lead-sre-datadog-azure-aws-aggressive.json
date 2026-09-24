@@ -1,0 +1,17 @@
+{
+  "person": "Rajendra",
+  "domain": "devops-cloud",
+  "level": "Aggressive",
+  "html_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-lead-sre-datadog-azure-aws-aggressive.html",
+  "pdf_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-lead-sre-datadog-azure-aws-aggressive.pdf",
+  "profile_path": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/rajendra-prasad-n-lead-sre-datadog-azure-aws-aggressive.profile.json",
+  "experience_bullet_count": 40,
+  "aws_observability_bullets": 10,
+  "aws_experience_percentage": 25.0,
+  "sources": [
+    "https://docs.datadoghq.com/integrations/amazon-web-services/",
+    "https://docs.datadoghq.com/service_level_objectives/",
+    "https://docs.datadoghq.com/observability_pipelines/guide/strategies_for_reducing_log_volume/",
+    "https://docs.datadoghq.com/dashboards/graph_insights/investigate_anomalies/"
+  ]
+}
