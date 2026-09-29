@@ -13,3 +13,5 @@ Current target plugin:
 - package/folder name: `resume-creator-plugin`
 - user-facing display name: `Résumé Creator Plugin`
 - keep filesystem names ASCII even when the display name contains accented characters
+
+DevSecOps support is developed on `feature/rajendrapn-devsecops`. Use `--domain devsecops --level Aggressive` with `scripts/run_resume_request.py`; see the root README for the complete command. This variant does not overwrite the DevOps/Cloud or Azure DataOps bases.

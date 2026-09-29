@@ -345,7 +345,7 @@ class BundledHtmlResumeRenderer:
 
 def tailor_profile(profile: PersonProfile, job_description: str) -> tuple[PersonProfile, list[str]]:
     tailored, keywords = _tailor_profile_content(profile, job_description)
-    if profile.person_id == "rajendra-prasad-n":
+    if profile.person_id == "rajendra-prasad-n" and not is_devsecops_request(job_description):
         tailored = replace(tailored, headline=profile.headline, page_title=profile.page_title)
     return tailored, keywords
 
@@ -355,6 +355,8 @@ def _tailor_profile_content(profile: PersonProfile, job_description: str) -> tup
     matched_keywords = [keyword for keyword in keywords if _profile_contains(profile, keyword)][:10]
     missing_keywords = [keyword for keyword in keywords if keyword not in matched_keywords][:6]
     lowered_jd = job_description.lower()
+    if is_devsecops_request(job_description):
+        return build_devsecops_profile(profile), matched_keywords
     if all(term in lowered_jd for term in ("liquibase", "snowflake", "github")):
         return build_azure_dataops_profile(profile), matched_keywords
     if "azure devops" in lowered_jd and "github actions" in lowered_jd and "terraform" in lowered_jd:
@@ -371,6 +373,32 @@ def _tailor_profile_content(profile: PersonProfile, job_description: str) -> tup
         experience=[rank_experience(job, keywords) for job in profile.experience],
     )
     return tailored, matched_keywords
+
+
+def is_devsecops_request(job_description: str) -> bool:
+    return bool(re.search(r"\bdev[\s-]*sec[\s-]*ops\b", job_description, re.IGNORECASE))
+
+
+def build_devsecops_profile(profile: PersonProfile) -> PersonProfile:
+    """Apply the branch DevSecOps variant while preserving identity and history."""
+    if profile.person_id != "rajendra-prasad-n":
+        return profile
+    assets = Path(__file__).resolve().parents[1] / "assets"
+    variant = BundledJsonResumeStore(assets / "variants", assets / "static").load_person(
+        "rajendra-devsecops"
+    )
+    by_company = {job.company: job for job in variant.experience}
+    experience = [
+        replace(job, impact=list(by_company[job.company].impact),
+                skills_used=list(by_company[job.company].skills_used))
+        if job.company in by_company else job
+        for job in profile.experience
+    ]
+    return replace(profile, headline=variant.headline, page_title=variant.page_title,
+                   summary_html=variant.summary_html, skills=variant.skills,
+                   skill_sections=variant.skill_sections, achievements=variant.achievements,
+                   achievements_title=variant.achievements_title, experience=experience,
+                   notes=variant.notes)
 
 
 def build_azure_dataops_profile(profile: PersonProfile) -> PersonProfile:

@@ -227,3 +227,13 @@ Use Python 3.12 on this Mac (`python3` points to Python 3.9, which does not supp
 python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py --person Rajendra --domain devops-cloud --level Aggressive --jd-file inputs/job-description.txt --output-dir tailored_resume/rajendra-prasad-n
 python3.12 plugins/resume-creator-plugin/scripts/update_base_profile.py --profile tailored_resume/rajendra-prasad-n/approved.profile.json
 ```
+
+## DevSecOps branch command
+
+On `feature/rajendrapn-devsecops`, use the packaged `devsecops` domain:
+
+```bash
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py --person Rajendra --domain devsecops --level Aggressive --jd-file plugins/resume-creator-plugin/assets/jds/devsecops-lead.txt --output-dir tailored_resume/rajendra-prasad-n
+```
+
+The reusable content lives in `plugins/resume-creator-plugin/assets/variants/rajendra-devsecops.json`. This route preserves identity/history and does not promote the variant into the common base. Public research and proposed tools must not be converted into unsupported career claims.

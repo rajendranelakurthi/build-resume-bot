@@ -12,7 +12,7 @@ if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
 from export_html_to_pdf import export_html_to_pdf
-from plugin_core import BundledHtmlResumeRenderer, BundledJsonResumeStore, tailor_profile
+from plugin_core import BundledHtmlResumeRenderer, BundledJsonResumeStore, build_devsecops_profile, tailor_profile
 
 
 @dataclass(slots=True)
@@ -30,6 +30,7 @@ def resolve_person_id(person: str, domain: str) -> str:
     normalized_domain = domain.strip().lower()
     mapping = {
         ("rajendra", "devops-cloud"): "rajendra-prasad-n",
+        ("rajendra", "devsecops"): "rajendra-prasad-n",
     }
     try:
         return mapping[(normalized_person, normalized_domain)]
@@ -67,11 +68,13 @@ def render_request(request: ResumeRequest) -> dict[str, object]:
     level = normalize_level(request.level)
 
     profile = store.load_person(person_id)
+    if request.domain.strip().lower() == "devsecops":
+        profile = build_devsecops_profile(profile)
     matched_keywords: list[str] = []
     if level == "Base":
         output_profile = profile
     else:
-        output_profile, matched_keywords = tailor_profile(profile, request.jd)
+        output_profile, matched_keywords = tailor_profile(profile, "DevSecOps\n" + request.jd if request.domain.strip().lower() == "devsecops" else request.jd)
 
     request_slug = slugify(request.jd, fallback=f"{request.person}-{request.domain}")
     output_dir = request.output_dir.resolve()
@@ -104,7 +107,7 @@ def render_request(request: ResumeRequest) -> dict[str, object]:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Generate HTML and PDF resume artifacts from plugin-style inputs.")
     parser.add_argument("--person", required=True, help="Person name, for example Rajendra")
-    parser.add_argument("--domain", required=True, choices=["devops-cloud"], help="Resume domain routing key")
+    parser.add_argument("--domain", required=True, choices=["devops-cloud", "devsecops"], help="Resume domain routing key")
     parser.add_argument("--level", default="Tailored", help="Tailoring level: Base, Tailored, Optimized, or Aggressive")
     parser.add_argument("--jd-text", help="Raw job description text")
     parser.add_argument("--jd-file", help="Path to a text file containing the job description")

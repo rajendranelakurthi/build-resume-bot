@@ -1,7 +1,7 @@
 {
   "name": "resume-creator-plugin",
   "version": "0.1.0",
-  "description": "Create tailored DevOps/Cloud resumes for Rajendra from job descriptions and render HTML or PDF outputs.",
+  "description": "Create tailored DevOps/Cloud and DevSecOps resumes for Rajendra and render HTML/PDF outputs.",
   "author": {
     "name": "Rajendra PN",
     "url": "https://github.com/rajendranelakurthi"
@@ -16,9 +16,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Résumé Creator Plugin",
-    "shortDescription": "Tailor DevOps/Cloud resumes for Rajendra and export recruiter-ready output.",
-    "longDescription": "Use the packaged resume workflow to choose Rajendra, apply a tailoring level, generate updated HTML output, and export the PDF artifact for the DevOps/Cloud domain.",
+    "displayName": "R\u00e9sum\u00e9 Creator Plugin",
+    "shortDescription": "Tailor DevOps/Cloud and DevSecOps resumes for Rajendra.",
+    "longDescription": "Choose Rajendra, a DevOps/Cloud or DevSecOps domain, and a tailoring level to generate recruiter-ready HTML and PDF output.",
     "developerName": "Rajendra PN",
     "category": "Productivity",
     "capabilities": [
@@ -26,6 +26,7 @@
     ],
     "websiteURL": "https://github.com/rajendranelakurthi/build-resume-bot",
     "defaultPrompt": [
+      "Create an Aggressive DevSecOps resume for Rajendra using this JD.",
       "Create an Aggressive devops-cloud resume for Rajendra using this JD.",
       "Create a Tailored devops-cloud resume for Rajendra for this role.",
       "Generate HTML and PDF output for this DevOps/Cloud resume request."

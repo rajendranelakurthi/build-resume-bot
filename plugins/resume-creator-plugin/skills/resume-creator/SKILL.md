@@ -1,6 +1,6 @@
 ---
 name: resume-creator
-description: Tailor Rajendra DevOps / Cloud resumes to a JD and generate recruiter-ready HTML/PDF output. Prefer the packaged plugin workflow and avoid re-running setup steps unless installing or updating the plugin.
+description: Tailor Rajendra DevOps / Cloud and DevSecOps resumes to a JD and generate recruiter-ready HTML/PDF output. Prefer the packaged plugin workflow and avoid re-running setup steps unless installing or updating the plugin.
 ---
 
 # Resume Creator
@@ -8,7 +8,7 @@ description: Tailor Rajendra DevOps / Cloud resumes to a JD and generate recruit
 Use the packaged workflow. Keep this short and deterministic:
 
 1. Select person: `Rajendra`
-2. Select domain: `devops-cloud`
+2. Select domain: `devops-cloud` or `devsecops` (use `devsecops` for DevSecOps Lead requests)
 3. Select level: `Base`, `Tailored`, `Optimized`, or `Aggressive`
 4. Read the JD and route to the matching person/domain resume profile
 5. Tailor the structured profile to the JD
@@ -17,7 +17,7 @@ Use the packaged workflow. Keep this short and deterministic:
 Canonical execution:
 
 ```bash
-python3 plugins/resume-creator-plugin/scripts/run_resume_request.py \
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py \
   --person Rajendra \
   --domain devops-cloud \
   --level Aggressive \
@@ -38,3 +38,20 @@ When plugin install/update is needed only:
 - keep `.codex-plugin/plugin.json` and `.agents/plugins/marketplace.json` aligned
 
 Do not repeat setup, packaging, or reinstall instructions unless the user explicitly asks for plugin maintenance.
+
+## DevSecOps command
+
+```text
+Use the Résumé Creator Plugin to create an Aggressive DevSecOps resume for Rajendra using this JD: <paste JD>
+```
+
+```bash
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py \
+  --person Rajendra --domain devsecops --level Aggressive \
+  --jd-file /path/to/jd.txt --output-dir tailored_resume/rajendra-prasad-n
+```
+
+- The `devsecops` domain selects `assets/variants/rajendra-devsecops.json`, including at Base level. Other levels tailor this variant. DevSecOps JDs also route here through `devops-cloud`.
+- Cover code/dependency security, application release validation, infrastructure controls, secrets/access, environment coordination, and production operations.
+- Preserve employer names, employment titles/dates, contact details, education, and certifications. Keep other domain bases unchanged.
+- Public documentation establishes tool capabilities, not candidate experience. Ask before adding unconfirmed tool usage, regulatory compliance, sole environment-booking ownership, refresh arbitration, or quantified outcomes. Keep proposed additions separate from the résumé.

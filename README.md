@@ -24,6 +24,29 @@ bash ai_resume/plugins/resume-creator-plugin/scripts/install_plugin.sh
 Use the Résumé Creator Plugin to create an Aggressive devops-cloud resume for Rajendra using this JD: <provide JD>
 ```
 
+## DevSecOps Lead on this branch
+
+```text
+Use the Résumé Creator Plugin to create an Aggressive DevSecOps resume for Rajendra using this JD: <paste JD>
+```
+
+From the repository root:
+
+```bash
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py \
+  --person Rajendra \
+  --domain devsecops \
+  --level Aggressive \
+  --jd-file plugins/resume-creator-plugin/assets/jds/devsecops-lead.txt \
+  --output-dir tailored_resume/rajendra-prasad-n
+```
+
+Replace `--jd-file` with your own JD file as needed. The command writes HTML, PDF, structured profile, and a manifest. It requires Python 3.10+ and Chrome/Edge for PDF export.
+
+The DevSecOps variant covers secure CI/CD, code and dependency checks, application validation, secrets/access, infrastructure controls, environment coordination, and production operations. `Base` renders the selected variant; Tailored, Optimized, and Aggressive use the shared tailoring engine. DevSecOps JDs also select this variant via `devops-cloud`; existing DataOps and Cloud routes remain available.
+
+Source: `plugins/resume-creator-plugin/assets/variants/rajendra-devsecops.json`. Internet research must not be treated as proof of hands-on experience. Unconfirmed tools, compliance claims, and shared-environment booking/refresh ownership need confirmation before inclusion.
+
 ## What this repo does
 
 - Stores structured resume data for multiple people in `resume_data/people/`

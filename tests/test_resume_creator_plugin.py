@@ -53,6 +53,8 @@ def test_package_plugin_creates_zip(tmp_path: Path) -> None:
         names = archive.namelist()
     assert any(name.endswith(".codex-plugin/plugin.json") for name in names)
     assert any(name.endswith("scripts/run_resume_request.py") for name in names)
+    assert any(name.endswith("assets/variants/rajendra-devsecops.json") for name in names)
+    assert any(name.endswith("assets/jds/devsecops-lead.txt") for name in names)
 
 
 def test_default_output_zip_includes_version() -> None:
@@ -100,3 +102,50 @@ def test_promote_profile_updates_both_bases(tmp_path: Path) -> None:
     assert primary == bundled
     assert primary["email"] == "rajendran.scm@gmail.com"
     assert primary["certification_badges_image"] == "assets/rajendra-certifications.svg"
+
+
+def test_devsecops_routing_preserves_identity_and_history() -> None:
+    from dataclasses import replace
+    core = _load_module("plugin_core_devsecops", "plugin_core.py")
+    assets = PLUGIN_SCRIPTS.parent / "assets"
+    profile = core.BundledJsonResumeStore(assets / "people", assets / "static").load_person("rajendra-prasad-n")
+    profile = replace(profile, email="custom@example.com", experience=[
+        replace(profile.experience[0], title="Custom employment title", date_range="Custom dates"),
+        core.Experience(title="Other role", company="Unmatched employer", impact=["Keep this"]),
+    ])
+    for jd in ("DevSecOps Lead", "DEV-SEC-OPS pipelines", "DevSecOps Azure DevOps GitHub Actions Terraform Liquibase Snowflake"):
+        result, _ = core.tailor_profile(profile, jd)
+        assert result.headline.startswith("DevSecOps Lead")
+        assert result.email == "custom@example.com"
+        assert result.certifications == profile.certifications
+        assert result.education == profile.education
+        assert result.experience[0].title == "Custom employment title"
+        assert result.experience[0].date_range == "Custom dates"
+        assert result.experience[1] == profile.experience[1]
+        assert "Key Vault" in " ".join(result.experience[0].impact)
+    assert profile.headline != result.headline
+    other = replace(profile, person_id="another-person")
+    assert core.build_devsecops_profile(other) is other
+
+
+def test_devsecops_cli_renders_all_levels(tmp_path: Path, monkeypatch) -> None:
+    import json
+    module = _load_module("run_resume_request_devsecops", "run_resume_request.py")
+    assert module.resolve_person_id("Rajendra", "devsecops") == "rajendra-prasad-n"
+    args = module.build_parser().parse_args(["--person", "Rajendra", "--domain", "devsecops", "--jd-text", "Secure delivery"])
+    assert args.domain == "devsecops"
+    def fake_export(html, pdf):
+        assert html.exists()
+        pdf.write_bytes(b"test-export")
+    monkeypatch.setattr(module, "export_html_to_pdf", fake_export)
+    for level in ("Base", "Tailored", "Optimized", "Aggressive"):
+        manifest = module.render_request(module.ResumeRequest(
+            person="Rajendra", domain="devsecops", level=level,
+            jd="Azure DevOps GitHub Actions Terraform", output_dir=tmp_path / level,
+            plugin_root=PLUGIN_SCRIPTS.parent))
+        profile = json.loads(Path(manifest["profile_path"]).read_text())
+        assert profile["headline"].startswith("DevSecOps Lead")
+        assert "secrets" in profile["summary_html"]
+        assert "DevSecOps Lead" in Path(manifest["html_path"]).read_text()
+        assert Path(manifest["pdf_path"]).exists()
+        assert manifest["domain"] == "devsecops"
