@@ -1,40 +1,33 @@
 ---
 name: resume-creator
-description: Tailor Rajendra DevOps / Cloud resumes to a JD and generate recruiter-ready HTML/PDF output. Prefer the packaged plugin workflow and avoid re-running setup steps unless installing or updating the plugin.
+description: Create Rajendra Azure DevOps resumes on this Azure-led branch, emphasizing software automation, CI/CD, AWS, Bicep, secure connectivity, and production operations. Export recruiter-ready HTML/PDF through the packaged workflow.
 ---
 
-# Resume Creator
+# Azure DevOps Resume Creator
 
-Use the packaged workflow. Keep this short and deterministic:
+1. Select person `Rajendra` and domain `azure-devops`.
+2. Select `Base`, `Tailored`, `Optimized`, or `Aggressive` from the user request.
+3. Use the bundled Azure profile in `assets/people/rajendra-prasad-n.json` and packaged renderer.
+4. Generate HTML, PDF, profile JSON, and manifest in `tailored_resume/rajendra-prasad-n/` unless the user specifies another location.
+5. Inspect the PDF for readable text, clean pagination, and accurate contact/history details.
 
-1. Select person: `Rajendra`
-2. Select domain: `devops-cloud`
-3. Select level: `Base`, `Tailored`, `Optimized`, or `Aggressive`
-4. Read the JD and route to the matching person/domain resume profile
-5. Tailor the structured profile to the JD
-6. Render HTML and, if requested, export PDF
+User command:
 
-Canonical execution:
+```text
+Use the Résumé Creator Plugin to create an Aggressive Azure-devops resume for Rajendra using this JD: <provide JD>
+```
+
+CLI (Python 3.10+; use Python 3.12 on this Mac):
 
 ```bash
-python3 plugins/resume-creator-plugin/scripts/run_resume_request.py \
-  --person Rajendra \
-  --domain devops-cloud \
-  --level Aggressive \
-  --jd-file /path/to/jd.txt \
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py \
+  --person Rajendra --domain azure-devops --level Aggressive \
+  --jd-file plugins/resume-creator-plugin/assets/jds/azure-devops-developer.txt \
   --output-dir tailored_resume/rajendra-prasad-n
 ```
 
-Notes:
-- For Rajendra, always write the final HTML, PDF, and manifest to `tailored_resume/rajendra-prasad-n/` unless the user explicitly requests a different output location. Do not substitute `output/` or `output/pdf/` for PDF verification workflows.
-- `Base` keeps the base resume content and renders directly.
-- `Tailored`, `Optimized`, and `Aggressive` all use the repo’s tailoring engine.
-- Return the PDF path as the primary output artifact when a PDF is requested.
-- Use the bundled plugin assets in `plugins/resume-creator-plugin/assets/` rather than rebuilding the resume from scratch.
+`Azure-devops` is case-insensitive. `devops-cloud` remains a compatibility alias for `azure-devops`; it does not enable a separate multi-cloud route. Canonical filenames and manifests always use `azure-devops`. Unsupported domains are rejected.
 
-When plugin install/update is needed only:
-- use `install_plugin.sh` on macOS/Linux or `install_plugin.ps1` on Windows
-- use `update_plugin.sh` / `update_plugin.ps1` to overwrite the installed local plugin copy
-- keep `.codex-plugin/plugin.json` and `.agents/plugins/marketplace.json` aligned
+`Base` renders the Azure profile. Other levels rank the profile's skills, highlights, and bullets against the JD using the shared tailoring engine; they do not invent experience. AWS and Bicep are included at user request; certificate lifecycle management and encrypted database connection experience were confirmed. Do not include SSIS in this profile. Preserve employer names, employment titles/dates, contact details, education, and all genuine certifications, including non-Azure credentials. Do not replace historical tools with Azure equivalents without evidence or invent regulatory certifications, quantified improvements, or on-call rotation history.
 
-Do not repeat setup, packaging, or reinstall instructions unless the user explicitly asks for plugin maintenance.
+Keep the repository and bundled profile/template copies synchronized. Return the PDF as the primary artifact. Do not overwrite installed global plugin files or repeat installation steps for ordinary resume requests. Branch code changes do not automatically refresh the installed plugin cache.

@@ -49,18 +49,8 @@ def extract_keywords(job_description: str) -> list[str]:
 
 
 def build_summary(profile: PersonProfile, matched_keywords: list[str], missing_keywords: list[str]) -> str:
-    matched_text = ", ".join(matched_keywords[:8]) if matched_keywords else "cloud engineering, DevOps automation, and platform reliability"
-    summary = (
-        f"<strong>{escape(profile.headline)}</strong> with a base resume tailored toward "
-        f"<strong>{escape(matched_text)}</strong>. "
-        f"Proven background across {escape(', '.join(profile.skills[:6]))} with emphasis on measurable platform, delivery, and infrastructure outcomes."
-    )
-    if missing_keywords:
-        summary += (
-            " <strong>Target emphasis:</strong> "
-            f"{escape(', '.join(missing_keywords[:4]))}."
-        )
-    return summary
+    # Preserve the authored Azure summary. JD terms are ranking inputs, not evidence.
+    return profile.summary_html or f"<strong>{escape(profile.headline)}</strong>"
 
 
 def rank_tagged_items(

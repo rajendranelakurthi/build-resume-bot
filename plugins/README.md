@@ -1,15 +1,7 @@
-# Plugins
+# Azure DevOps Plugin Branch
 
-This directory is reserved for Codex plugin packaging work.
+`feature/rajendrapn-azure` contains the Azure-led Résumé Creator Plugin. The package remains `resume-creator-plugin`.
 
-Current branch intent:
+Use `--domain azure-devops`; `devops-cloud` is a compatibility alias with the same Azure output. See the root README for the natural-language command and complete CLI invocation.
 
-- use the `plug-in` branch for plugin package development
-- keep plugin manifests, packaged skills, marketplace metadata, and plugin-specific helper scripts/assets here
-- do not update this directory from `main`, `resume-creator-skill`, or `codex/devops-cloud` unless those changes are intentionally being promoted across branches
-
-Current target plugin:
-
-- package/folder name: `resume-creator-plugin`
-- user-facing display name: `Résumé Creator Plugin`
-- keep filesystem names ASCII even when the display name contains accented characters
+Keep the bundled profile/template synchronized with the repository copies. Plugin code, manifest prompts, skill instructions, tests, and the sample JD should agree on Azure-led behavior. Changes on this branch do not update the global installed plugin automatically.

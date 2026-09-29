@@ -1,0 +1,138 @@
+Pages: 2
+RAJENDRA PRASAD N
+LEAD AZURE DEVOPS ENGINEER | AWS & BICEP
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Lead Azure DevOps Engineer with 10+ years of enterprise delivery, cloud infrastructure, automation, and production support
+experience. Builds Azure DevOps pipelines, Python automation, and Bicep infrastructure, with hands-on AWS provisioning and
+application delivery. Experienced in certificate lifecycle management, secure credentials, encrypted database connections, and root
+cause analysis. Partners with engineering teams to improve release verification, recovery planning, and operational readiness.
+CERTIFICATIONS
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure
+DevOps Engineer Expert
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure
+Fundamentals
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+aws
+certified
+Solutions
+Architect
+A S S O C I AT E
+AWS Certified Solutions
+Architect - Associate
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer -
+Level 1
+AZURE DEVOPS & SOFTWARE DELIVERY HIGHLIGHTS
+Cloud Automation Developed Python automation and reusable Azure and AWS infrastructure workflows to support provisioning, release checks, and
+operational troubleshooting.
+Secure Azure Operations Combined infrastructure automation, credential controls, certificate management, and monitoring to strengthen release readiness and
+production support.
+Delivery Engineering Built reusable CI/CD workflows for application and database releases with code reviews, environment approvals, validation, and recovery
+planning.
+CORE TECHNOLOGIES
+SECURITY & CONNECTIVITY
+Azure Key Vault, certificates and renewal, TLS database connections,
+credential management, Entra ID, managed identities, RBAC, private
+endpoints
+AZURE DEVOPS & CI/CD
+Azure Pipelines, YAML templates, Azure Repos, Azure Artifacts, Git, pull
+requests, build agents, environments, approvals, deployment verification
+OBSERVABILITY & TROUBLESHOOTING
+Azure Monitor, Log Analytics, Application Insights, Prometheus, Grafana,
+Splunk, ELK, incident diagnosis, root cause analysis, runbooks
+ENGINEERING QUALITY & GOVERNANCE
+SonarQube, JFrog Xray, code reviews, automated tests, release evidence,
+security documentation, technical knowledge sharing, recovery planning
+SOFTWARE & AUTOMATION
+Python, PowerShell, Bash, C#/.NET, Java, REST APIs, FastAPI, Azure CLI,
+MSBuild, Maven, JSON, YAML
+AWS CLOUD & OPERATIONS
+AWS, EC2, S3, IAM, VPC, EKS, CloudWatch, CloudTrail, Terraform,
+CloudFormation, AWS CLI, private networking
+AZURE INFRASTRUCTURE AS CODE
+Bicep modules and parameters, validation, what-if reviews, ARM templates,
+Terraform, Ansible, virtual networks, compute, storage
+CONTAINERS & PLATFORMS
+AKS, Azure Container Registry, Docker, Kubernetes, Helm, ArgoCD, Linux,
+Windows Server, environment configuration
+PROFESSIONAL EXPERIENCE
+Lead Azure DevOps Engineer | AT&T Services Inc. 08/2023 - Present
+Skills Used: Azure DevOps, Python, AWS, Bicep, Key Vault, Azure SQL, AKS, PowerShell
+Built and maintained Azure DevOps CI/CD pipelines for application, database, and infrastructure releases, coordinating dependencies, environment approvals,
+and deployment verification.
+Automated AWS application delivery with CodePipeline and Python/Bash workflows, integrating deployment checks, secure service connectivity, and production
+troubleshooting.
+Implemented Azure infrastructure as code with Bicep modules and parameter files, incorporating validation and what-if reviews into controlled pipeline
+deployments.
+Troubleshot application, infrastructure, pipeline, and data failures using Azure Monitor, deployment logs, and execution history; documented root causes and
+recovery procedures.
+Developed Python, PowerShell, and Bash automation for release checks, service integrations, database connectivity validation, and operational support.
+Coordinated schema changes, application compatibility checks, smoke tests, and rollback planning with development, QA, and data engineering teams.
+Managed certificate renewals and credential updates and configured encrypted SQL Server and Azure SQL connections, troubleshooting certificate trust, TLS,
+and authentication failures.
+Integrated Azure Key Vault, federated pipeline authentication, and least-privilege deployment access to protect credentials used by application and data
+workflows.
+Produced deployment evidence, environment specifications, and operational documentation to support security reviews, release decisions, and team knowledge
+transfer.
+Established Git branch protections, required reviews, merge controls, and versioned artifacts to improve code quality and release traceability.
+Provisioned and managed AWS infrastructure using Terraform, supporting EKS workloads, IAM controls, private networking, and consistent environment
+configuration.
+Senior DevOps Engineer | GlobalLogic 03/2023 - 08/2023
+Skills Used: Azure DevOps, Git, Docker, Kubernetes, Jenkins, PowerShell
+Maintained separate development, QA, and production configuration and coordinated application and database releases with engineering teams.
+Improved release reliability through secure runner practices, image validation, branch controls, and documented troubleshooting procedures.
+Supported .NET and Java delivery workflows with versioned artifacts, source-control reviews, container packaging, and deployment verification.
+Built reusable CI/CD stages for Azure-hosted applications, standardizing build-agent configuration, automated validation, environment settings, and release
+checks.
+Administered Linux and Windows build agents and Kubernetes workloads, diagnosing pipeline, dependency, credential, and runtime failures.
+Senior DevOps Engineer II | Akamai Technologies 12/2021 - 03/2023
+Skills Used: Azure, Terraform, ARM templates, AKS, Python, Azure Monitor
+Built GitHub Actions and Jenkins pipelines for Azure application and database releases, coordinating service rollout and post-deployment validation.
+Used Azure Monitor, Log Analytics, and pipeline telemetry to investigate deployment delays, infrastructure failures, and application connectivity issues.
+Developed Python, Bash, and PowerShell automation for release checks and operational tasks, publishing versioned artifacts for repeatable deployments.
+Partnered with distributed engineering teams to resolve release blockers, improve delivery documentation, and strengthen production readiness.
+Provisioned Azure infrastructure through Terraform and ARM templates and deployed containerized services to AKS using Helm and ArgoCD.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd 04/2020 - 12/2021
+Skills Used: Azure, Jenkins, FastAPI, JFrog, Terraform, AKS, Prometheus
+Delivered CI/CD automation for SaaS and payment-platform workloads, aligning application releases, database dependencies, and Azure infrastructure
+changes.
+Developed Python FastAPI integrations for Jenkins, Jira, and JFrog to automate project onboarding and reduce manual release coordination.
+Built Terraform modules for Azure networking and AKS and used Prometheus, Grafana, and Ansible automation to support operational diagnosis.
+Administered CloudBees Jenkins, JFrog Artifactory, and Xray and maintained shared libraries for consistent artifact versioning.
+Standardized build, test, artifact publication, and promotion workflows with SonarQube and secure secrets handling.
+Senior DevOps Engineer | HCL Technologies 02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: Azure, Jenkins, ARM templates, Ansible, PowerShell, Helm
+Managed Key Vault integration and secure database connectivity and coordinated release configuration and verification with developers and QA.
+Built Jenkins and Maven delivery pipelines for REST microservices across test, security-validation, UAT, and production environments.
+Packaged Kubernetes services with Helm and used ELK, Azure Monitor, and Log Analytics to troubleshoot deployment and application failures.
+Automated Azure virtual machines, virtual networks, and Linux configuration with ARM templates, Ansible, and PowerShell.
+DevOps Engineer | Mphasis Ltd 08/2016 - 12/2018
+Client: HPE
+Skills Used: Azure, Git, Terraform, ARM templates, Ansible, Python
+Created repeatable build and deployment pipelines for API, database, and UI components, promoting consistent artifacts across environments.
+Automated Azure infrastructure and application deployments with Terraform, ARM templates, Ansible, Python, and PowerShell.
+Maintained Git branching practices, build agents, environment-specific release parameters, and deployment documentation.
+Troubleshot failed releases with development and operations teams and documented corrective actions and verification procedures.
+EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada

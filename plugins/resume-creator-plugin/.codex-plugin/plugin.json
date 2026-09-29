@@ -1,7 +1,7 @@
 {
   "name": "resume-creator-plugin",
   "version": "0.1.0",
-  "description": "Create tailored DevOps/Cloud resumes for Rajendra from job descriptions and render HTML or PDF outputs.",
+  "description": "Create Azure DevOps resumes for Rajendra with CI/CD, Python, AWS, Bicep, and secure Azure operations.",
   "author": {
     "name": "Rajendra PN",
     "url": "https://github.com/rajendranelakurthi"
@@ -12,13 +12,16 @@
     "resume",
     "ats",
     "job-description",
-    "pdf"
+    "pdf",
+    "azure-devops",
+    "bicep",
+    "aws"
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Résumé Creator Plugin",
-    "shortDescription": "Tailor DevOps/Cloud resumes for Rajendra and export recruiter-ready output.",
-    "longDescription": "Use the packaged resume workflow to choose Rajendra, apply a tailoring level, generate updated HTML output, and export the PDF artifact for the DevOps/Cloud domain.",
+    "displayName": "R\u00e9sum\u00e9 Creator Plugin",
+    "shortDescription": "Tailor Azure DevOps resumes and export HTML/PDF.",
+    "longDescription": "Azure-led branch workflow for Rajendra: select a tailoring level and JD to generate Azure DevOps, automation, AWS, Bicep, security, and production-support resume content.",
     "developerName": "Rajendra PN",
     "category": "Productivity",
     "capabilities": [
@@ -26,9 +29,8 @@
     ],
     "websiteURL": "https://github.com/rajendranelakurthi/build-resume-bot",
     "defaultPrompt": [
-      "Create an Aggressive devops-cloud resume for Rajendra using this JD.",
-      "Create a Tailored devops-cloud resume for Rajendra for this role.",
-      "Generate HTML and PDF output for this DevOps/Cloud resume request."
+      "Use the R\u00e9sum\u00e9 Creator Plugin to create an Aggressive Azure-devops resume for Rajendra using this JD: <provide JD>",
+      "Create a Tailored Azure-devops resume for Rajendra."
     ],
     "brandColor": "#174A8B"
   }

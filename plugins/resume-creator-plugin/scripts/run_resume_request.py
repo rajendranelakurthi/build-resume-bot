@@ -25,18 +25,19 @@ class ResumeRequest:
     plugin_root: Path
 
 
+def normalize_domain(domain: str) -> str:
+    """This branch supports Azure only; keep the old input as an alias."""
+    normalized = domain.strip().lower()
+    if normalized in {"azure-devops", "devops-cloud"}:
+        return "azure-devops"
+    raise ValueError(f"Unsupported domain {domain!r}; use azure-devops on this branch.")
+
+
 def resolve_person_id(person: str, domain: str) -> str:
-    normalized_person = person.strip().lower()
-    normalized_domain = domain.strip().lower()
-    mapping = {
-        ("rajendra", "devops-cloud"): "rajendra-prasad-n",
-    }
-    try:
-        return mapping[(normalized_person, normalized_domain)]
-    except KeyError as exc:
-        raise ValueError(
-            f"Unsupported person/domain combination: person={person!r}, domain={domain!r}"
-        ) from exc
+    normalize_domain(domain)
+    if person.strip().lower() != "rajendra":
+        raise ValueError(f"Unsupported person: {person!r}")
+    return "rajendra-prasad-n"
 
 
 def normalize_level(level: str) -> str:
@@ -63,7 +64,8 @@ def render_request(request: ResumeRequest) -> dict[str, object]:
     store = BundledJsonResumeStore(assets_root / "people", assets_root / "static")
     renderer = BundledHtmlResumeRenderer(assets_root / "templates" / "base_resume.html")
 
-    person_id = resolve_person_id(request.person, request.domain)
+    domain = normalize_domain(request.domain)
+    person_id = resolve_person_id(request.person, domain)
     level = normalize_level(request.level)
 
     profile = store.load_person(person_id)
@@ -73,11 +75,11 @@ def render_request(request: ResumeRequest) -> dict[str, object]:
     else:
         output_profile, matched_keywords = tailor_profile(profile, request.jd)
 
-    request_slug = slugify(request.jd, fallback=f"{request.person}-{request.domain}")
+    request_slug = slugify(request.jd, fallback=f"{request.person}-{domain}")
     output_dir = request.output_dir.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    html_path = output_dir / f"{person_id}-{request.domain}-{level.lower()}-{request_slug}.html"
+    html_path = output_dir / f"{person_id}-{domain}-{level.lower()}-{request_slug}.html"
     pdf_path = html_path.with_suffix(".pdf")
     manifest_path = html_path.with_suffix(".json")
 
@@ -89,7 +91,7 @@ def render_request(request: ResumeRequest) -> dict[str, object]:
     manifest = {
         "person": request.person,
         "person_id": person_id,
-        "domain": request.domain,
+        "domain": domain,
         "level": level,
         "matched_keywords": matched_keywords,
         "profile_path": str(profile_path),
@@ -104,7 +106,7 @@ def render_request(request: ResumeRequest) -> dict[str, object]:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Generate HTML and PDF resume artifacts from plugin-style inputs.")
     parser.add_argument("--person", required=True, help="Person name, for example Rajendra")
-    parser.add_argument("--domain", required=True, choices=["devops-cloud"], help="Resume domain routing key")
+    parser.add_argument("--domain", required=True, type=normalize_domain, choices=["azure-devops"], help="Azure DevOps domain (legacy devops-cloud is an alias)")
     parser.add_argument("--level", default="Tailored", help="Tailoring level: Base, Tailored, Optimized, or Aggressive")
     parser.add_argument("--jd-text", help="Raw job description text")
     parser.add_argument("--jd-file", help="Path to a text file containing the job description")

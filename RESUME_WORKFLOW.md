@@ -1,3 +1,11 @@
+# Azure Branch Workflow
+
+On `feature/rajendrapn-azure`, the current user instruction overrides historical multi-cloud defaults below. Use the Azure-led base and `--domain azure-devops` (`devops-cloud` is an alias). Preserve confirmed experience and all genuine certifications. Update both profile and template copies when changing branch defaults.
+
+```text
+Use the Résumé Creator Plugin to create an Aggressive Azure-devops resume for Rajendra using this JD: <provide JD>
+```
+
 # Resume Workflow Playbook
 
 This file is the working memory for resume generation, resume tailoring, HTML rendering, and recruiter-style review in this repository.

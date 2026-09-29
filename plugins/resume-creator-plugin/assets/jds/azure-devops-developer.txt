@@ -1,0 +1,6 @@
+Senior Software Developer - Azure DevOps
+Experienced developer with cloud platforms, software development, CI/CD pipeline engineering, automation, and infrastructure management.
+Design, develop, and enhance software solutions, automation tools, and integrations. Build, maintain, and optimize Azure DevOps CI/CD pipelines. Develop and support SSIS packages, Python scripts, and automation tools. Implement infrastructure as code using Bicep.
+Troubleshoot complex application, infrastructure, and data issues and perform root cause analysis. Manage certificates, credentials, encrypted database connections, and security compliance. Improve deployment processes, testing strategies, and release reliability.
+Collaborate with architects, product owners, and cross-functional teams. Support cybersecurity risk assessments and compliance documentation. Conduct code reviews, mentor team members, and participate in on-call support as needed.
+Experience in software development, data engineering, infrastructure, or a related field. Hands-on cloud experience; strong pipelines, source control, deployment, programming, and automation skills. Secure development, information security, risk management, troubleshooting, and root cause analysis.

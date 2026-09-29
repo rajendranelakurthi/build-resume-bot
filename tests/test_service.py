@@ -30,8 +30,8 @@ def test_tailor_request_routes_and_returns_agents() -> None:
 def test_render_html_uses_template() -> None:
     service = ResumeAgentService(Path("resume_data"))
     html = service.render_resume_html("rajendra-prasad-n")
-    assert "RAJENDRA P N" in html
-    assert "Key Platform Achievements" in html
+    assert "RAJENDRA PRASAD N" in html
+    assert "Azure DevOps &amp; Software Delivery Highlights" in html
 
 
 def test_render_html_supports_extended_contact_lines_and_optional_certifications() -> None:
@@ -43,32 +43,39 @@ def test_render_html_supports_extended_contact_lines_and_optional_certifications
     assert "certifications-grid" in html
     assert "GitLab Certified Associate" in html
     assert "Project:</strong>" not in html
-    assert "Skills Used:</strong> AWS, AWS CodePipeline, PowerShell" in html
-    assert "Directed end-to-end release management across multiple engineering teams by aligning schedules, dependencies, change windows, and risk mitigation plans." in html
+    assert "Skills Used:</strong> Azure DevOps, Python, AWS, Bicep" in html
+    assert "encrypted SQL Server and Azure SQL connections" in html
 
 
 def test_render_html_supports_additional_sections_for_devops_resume() -> None:
     service = ResumeAgentService(Path("resume_data"))
     html = service.render_resume_html("rajendra-prasad-n")
-    assert "RAJENDRA P N" in html
-    assert "Key Platform Achievements" in html
+    assert "RAJENDRA PRASAD N" in html
+    assert "Azure DevOps &amp; Software Delivery Highlights" in html
     assert "Certifications" in html
     assert "Professional Experience" in html
     assert "linkedin.com/in/rajendranelakurthi" in html
 
 
-def test_rajendra_experience_sections_have_between_10_and_15_points() -> None:
+def test_azure_profile_preserves_history_and_confirmed_skills() -> None:
     service = ResumeAgentService(Path("resume_data"))
     profile = service.store.load_person("rajendra-prasad-n")
-    counts = [len(job.impact) for job in profile.experience]
-    assert counts == [15, 10, 15, 15, 15, 11]
+    assert len(profile.experience) == 6
+    assert profile.experience[0].company == "AT&T Services Inc."
+    assert profile.experience[0].title == "Lead Azure DevOps Engineer"
+    assert profile.experience[0].date_range == "08/2023 - Present"
+    assert all(job.impact and job.date_range and job.title for job in profile.experience)
+    assert all(term in profile.summary_html for term in ("AWS", "Bicep", "Python"))
+    tailored, _ = tailor_profile(profile, "AWS GCP unverified-product")
+    assert tailored.summary_html == profile.summary_html
+    assert "unverified-product" not in tailored.summary_html
 
 
 def test_tailor_profile_matches_keywords() -> None:
     service = ResumeAgentService(Path("resume_data"))
     profile = service.store.load_person("rajendra-prasad-n")
     tailored, matched = tailor_profile(profile, "Need Kubernetes Terraform Azure platform engineering leadership")
-    assert "terraform" in tailored.summary_html.lower()
+    assert tailored.summary_html == profile.summary_html
     assert "terraform" in matched
 
 

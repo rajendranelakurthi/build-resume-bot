@@ -1,28 +1,45 @@
-# Multi-Person Resume Agents
+# Rajendra Azure DevOps Resume Creator
 
-Repository foundation for managing resume content for multiple people and rendering each resume into a shared HTML layout.
+This branch generates Azure DevOps resumes for Rajendra, focused on software automation, CI/CD, AWS, Bicep, secure connectivity, and production support.
 
 ## First-time setup for Codex IDEs
 
 1. Open this repository in a Codex-supported IDE, such as VS Code or Antigravity.
-2. Switch to the plugin branch:
+2. From the repository root, switch to the Azure branch:
 
 ```bash
-git switch plug-in
+git switch feature/rajendrapn-azure
 ```
 
 3. Install the resume creator plugin:
 
 ```bash
-bash ai_resume/plugins/resume-creator-plugin/scripts/install_plugin.sh
+bash plugins/resume-creator-plugin/scripts/install_plugin.sh
 ```
 
 4. Restart the IDE so Codex can load the installed plugin.
 5. In Codex, use this command format:
 
 ```text
-Use the Résumé Creator Plugin to create an Aggressive devops-cloud resume for Rajendra using this JD: <provide JD>
+Use the Résumé Creator Plugin to create an Aggressive Azure-devops resume for Rajendra using this JD: <provide JD>
 ```
+
+## Azure DevOps command
+
+```bash
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py \
+  --person Rajendra --domain azure-devops --level Aggressive \
+  --jd-file plugins/resume-creator-plugin/assets/jds/azure-devops-developer.txt \
+  --output-dir tailored_resume/rajendra-prasad-n
+```
+
+Replace the JD file with your own as needed. Requires Python 3.10+ and Chrome/Edge for PDF export. `Azure-devops` is case-insensitive; legacy `devops-cloud` is an Azure-led alias. Filenames and manifests use `azure-devops`. Other domains are rejected on this branch.
+
+Outputs: HTML, PDF, structured profile JSON, and manifest. Base renders the authored Azure profile; Tailored, Optimized, and Aggressive rank approved content against the JD. They currently share the same ranking engine. Employment history and certifications are preserved. AWS, Bicep, certificate lifecycle management, and encrypted database connectivity are included following user confirmation.
+
+Both `resume_data/people/rajendra-prasad-n.json` and the bundled profile contain the Azure branch content. The repository and packaged HTML templates use the same Azure visual style. The backend preserves the authored summary rather than presenting unsupported JD terms as candidate skills.
+
+These are branch-local changes. Refresh the installed plugin separately when you want Codex's installed copy to use this version.
 
 ## What this repo does
 
