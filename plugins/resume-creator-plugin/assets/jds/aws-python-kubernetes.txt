@@ -1,0 +1,11 @@
+Senior DevOps Engineer - Enterprise AWS Automation
+Lead the design and implementation of enterprise-scale automation and cloud infrastructure. Deep expertise in Python scripting, CI/CD architecture, container orchestration, AWS, infrastructure as code, and security-first DevOps. Mentor teams and drive technical strategy.
+Develop and maintain Python scripts and internal tooling for builds, deployments, and operational tasks; Bash/Shell required.
+Design and optimize GitHub Actions, GitLab CI/CD, and Jenkins pipelines for reliable, frequent releases.
+Architect and manage secure, scalable, cost-efficient AWS infrastructure: EC2, ECS, EKS, Lambda, S3, RDS.
+Manage large-scale Kubernetes clusters, provisioning, upgrades, security, and monitoring.
+Implement Terraform, CloudFormation, and Ansible standards for reproducible environments.
+Build monitoring, logging, and alerting with Prometheus, Grafana, and ELK.
+Lead and mentor engineers and collaborate with development, security, and operations in Agile/Scrum and DevSecOps environments.
+Required: 12+ years overall IT experience, including 8+ in DevOps and Cloud Engineering; expert Python, Docker/Kubernetes, CI/CD and IaC.
+Preferred: relevant degree, AWS DevOps Engineer or CKA certifications, GitOps and Argo CD experience.

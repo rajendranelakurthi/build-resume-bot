@@ -1,113 +1,57 @@
-# Résumé Creator Plugin Install Guide
+# Résumé Creator Plugin Setup (macOS)
 
-This plugin creates tailored DevOps / Cloud resumes for Rajendra and exports recruiter-ready HTML and PDF output.
-
-## Inputs Supported
-
-- `person`
-  - `Rajendra`
-- `domain`
-  - `devops-cloud`
-- `level`
-  - `Base`
-  - `Tailored`
-  - `Optimized`
-  - `Aggressive`
-- `jd`
-  - pasted text
-  - or a text file path when running the script directly
+All commands below run from the repository root and use relative paths. For an extracted standalone plugin, run from its directory and replace `plugins/resume-creator-plugin/scripts/` with `scripts/`.
 
 ## Requirements
 
-- Codex
-- Python 3
-- a Chromium-based browser for PDF export
-  - Google Chrome
-  - Microsoft Edge
-  - Chromium
+- Python 3.10+ (use `python3.12` on this Mac)
+- Chrome, Edge, or Chromium for PDF export
+- Codex for using the plugin through natural-language requests
 
-## Windows Install
-
-1. Extract the plugin folder so you have a local `resume-creator-plugin` directory.
-2. Run:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File C:\path\to\resume-creator-plugin\scripts\install_plugin.ps1
-```
-
-3. Restart Codex.
-
-## Windows Update
-
-When you receive a newer plugin bundle, extract it and run:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File C:\path\to\resume-creator-plugin\scripts\update_plugin.ps1
-```
-
-Then restart Codex.
-
-## macOS Install
-
-1. Extract the plugin folder so you have a local `resume-creator-plugin` directory.
-2. Run:
+## Run without installation
 
 ```bash
-bash /path/to/resume-creator-plugin/scripts/install_plugin.sh
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py \
+  --person Rajendra --domain aws-devops --level Aggressive \
+  --jd-file plugins/resume-creator-plugin/assets/jds/aws-s3-stonebranch.txt \
+  --output-name Rajendra-Lead-AWS-DevOps
 ```
 
-3. Restart Codex.
+The default output directory is `tailored_resume/rajendra-prasad-n/`. HTML, PDF, profile JSON, and manifest files are saved there; required image files are copied to its `assets/` directory. Manifest paths are relative to the command's working directory. Run from the repository root for repository-relative paths. Move the output directory together with its `assets/` folder to preserve image references.
 
-## macOS Update
+Browser executables are located through `PATH` or platform-discovered application directories. The exporter resolves full filesystem paths internally only when invoking the browser; no user-specific machine paths are saved in the profile or manifest.
 
-When you receive a newer plugin bundle, extract it and run:
+## First-time macOS installation
 
 ```bash
-bash /path/to/resume-creator-plugin/scripts/update_plugin.sh
+bash plugins/resume-creator-plugin/scripts/install_plugin.sh
 ```
 
-Then restart Codex.
+The installer discovers the current user's home directory at runtime and installs the plugin into the user's plugin location. Restart Codex afterward. Installation changes global plugin files; it is not required for the direct script command above.
 
-## Create A Distributable Zip
+## Update an installed copy
 
-From the source repo or plugin source folder:
+```bash
+bash plugins/resume-creator-plugin/scripts/update_plugin.sh
+```
+
+Follow the Codex plugin update/reinstall workflow for cache refresh, then start a new thread to load updated instructions. Branch-local edits do not update the installed cache automatically.
+
+## Package the plugin
+
+```bash
+python3.12 plugins/resume-creator-plugin/scripts/package_plugin.py
+```
+
+The default versioned ZIP is placed under `plugins/dist/`.
+
+## Windows compatibility
+
+PowerShell scripts remain available with relative paths for users running Windows:
 
 ```powershell
-python C:\path\to\resume-creator-plugin\scripts\package_plugin.py
+powershell -ExecutionPolicy Bypass -File ./plugins/resume-creator-plugin/scripts/install_plugin.ps1
+powershell -ExecutionPolicy Bypass -File ./plugins/resume-creator-plugin/scripts/update_plugin.ps1
 ```
 
-This creates a versioned zip such as:
-
-- `resume-creator-plugin-0.1.0.zip`
-
-## Direct Script Usage
-
-You can also run the plugin directly without waiting for Codex discovery:
-
-```powershell
-python C:\path\to\resume-creator-plugin\scripts\run_resume_request.py `
-  --person Rajendra `
-  --domain devops-cloud `
-  --level Aggressive `
-  --jd-file C:\temp\jd.txt
-```
-
-Example for DevOps / Cloud:
-
-```powershell
-python C:\path\to\resume-creator-plugin\scripts\run_resume_request.py `
-  --person Rajendra `
-  --domain devops-cloud `
-  --level Tailored `
-  --jd-file C:\temp\jd.txt
-```
-
-## Output
-
-The runner writes:
-
-- HTML resume
-- PDF exported from the HTML
-- JSON manifest with output paths
-
-The PDF path is the primary artifact.
+No Windows drive is assumed. Browser discovery uses environment-provided application locations.

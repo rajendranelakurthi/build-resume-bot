@@ -30,8 +30,8 @@ def test_tailor_request_routes_and_returns_agents() -> None:
 def test_render_html_uses_template() -> None:
     service = ResumeAgentService(Path("resume_data"))
     html = service.render_resume_html("rajendra-prasad-n")
-    assert "RAJENDRA P N" in html
-    assert "Key Platform Achievements" in html
+    assert "RAJENDRA PRASAD N" in html
+    assert "AWS Platform &amp; Delivery Highlights" in html
 
 
 def test_render_html_supports_extended_contact_lines_and_optional_certifications() -> None:
@@ -42,26 +42,32 @@ def test_render_html_supports_extended_contact_lines_and_optional_certifications
     assert "Certifications" in html
     assert "certifications-grid" in html
     assert "GitLab Certified Associate" in html
-    assert "Project:</strong>" not in html
+    assert "Project:</strong> Expedia Travel Portal" in html
     assert "Skills Used:</strong> AWS, AWS CodePipeline, PowerShell" in html
-    assert "Directed end-to-end release management across multiple engineering teams by aligning schedules, dependencies, change windows, and risk mitigation plans." in html
+    assert "AWS PrivateLink" in html
 
 
 def test_render_html_supports_additional_sections_for_devops_resume() -> None:
     service = ResumeAgentService(Path("resume_data"))
     html = service.render_resume_html("rajendra-prasad-n")
-    assert "RAJENDRA P N" in html
-    assert "Key Platform Achievements" in html
+    assert "RAJENDRA PRASAD N" in html
+    assert "AWS Platform &amp; Delivery Highlights" in html
     assert "Certifications" in html
     assert "Professional Experience" in html
     assert "linkedin.com/in/rajendranelakurthi" in html
 
 
-def test_rajendra_experience_sections_have_between_10_and_15_points() -> None:
+def test_aws_profile_retains_employment_history() -> None:
     service = ResumeAgentService(Path("resume_data"))
     profile = service.store.load_person("rajendra-prasad-n")
-    counts = [len(job.impact) for job in profile.experience]
-    assert counts == [15, 10, 15, 15, 15, 11]
+    assert len(profile.experience) == 7
+    assert profile.experience[0].company == "AT&T Services Inc."
+    assert profile.experience[0].date_range == "08/2023 - Present"
+    assert all(job.title and job.impact and job.date_range for job in profile.experience)
+    tailored, matched = tailor_profile(profile, "S3 VPC unknown-product")
+    assert "s3" in matched
+    assert tailored.summary_html == profile.summary_html
+    assert "unknown-product" not in tailored.summary_html
 
 
 def test_tailor_profile_matches_keywords() -> None:
@@ -86,13 +92,13 @@ def test_tailor_resume_creates_branch_commit_and_html() -> None:
         service = ResumeAgentService(repo_root / "resume_data", repo_root=repo_root)
         result = service.tailor_resume_to_jd(
             "rajendra-prasad-n",
-            "Need AKS Terraform Azure platform engineering",
+            "Need EKS Terraform AWS platform engineering",
             "codex/test-jd",
             push=False,
         )
         assert result.commit_sha
         assert Path(result.output_path).exists()
-        assert "aks" in [item.lower() for item in result.matched_keywords]
+        assert "eks" in [item.lower() for item in result.matched_keywords]
 
 
 def test_branch_name_prefers_company_name() -> None:
@@ -106,6 +112,6 @@ def test_branch_name_falls_back_to_role_name() -> None:
 
 
 def test_extract_github_username_and_hostname() -> None:
-    output = "github.com\n  ✓ Logged in to github.com account rajendra (/Users/test/.config/gh/hosts.yml)\n"
+    output = "github.com\n  ✓ Logged in to github.com account rajendra (.config/gh/hosts.yml)\n"
     assert _extract_username(output) == "rajendra"
     assert _extract_hostname(output) == "github.com"

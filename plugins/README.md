@@ -1,15 +1,7 @@
-# Plugins
+# AWS DevOps Plugin Branch
 
-This directory is reserved for Codex plugin packaging work.
+The `feature/rajendrapn-aws` branch contains the AWS-only Résumé Creator Plugin. The package name remains `resume-creator-plugin`.
 
-Current branch intent:
+Use `--domain aws-devops` or its legacy `devops-cloud` alias. See the root README for the complete command, short output filename, and verification instructions.
 
-- use the `plug-in` branch for plugin package development
-- keep plugin manifests, packaged skills, marketplace metadata, and plugin-specific helper scripts/assets here
-- do not update this directory from `main`, `resume-creator-skill`, or `codex/devops-cloud` unless those changes are intentionally being promoted across branches
-
-Current target plugin:
-
-- package/folder name: `resume-creator-plugin`
-- user-facing display name: `Résumé Creator Plugin`
-- keep filesystem names ASCII even when the display name contains accented characters
+Keep repository and packaged profiles/templates synchronized. Preserve original career history and certifications, and use the archived source profile as evidence when expanding the AWS base. Do not import Azure/GCP content from unrelated JD keywords.

@@ -1,3 +1,11 @@
+# AWS Branch Workflow
+
+On `feature/rajendrapn-aws`, use the AWS base, AWS template, and `--domain aws-devops` (`devops-cloud` is an alias). This current instruction supersedes historical branch defaults below. Canonical output directory: `tailored_resume/rajendra-prasad-n/`. Preserve real history and confirm unverified JD-specific responsibilities before adding them.
+
+```text
+Use the Résumé Creator Plugin to create an Aggressive AWS DevOps resume for Rajendra using this JD: <provide JD>
+```
+
 # Resume Workflow Playbook
 
 This file is the working memory for resume generation, resume tailoring, HTML rendering, and recruiter-style review in this repository.
@@ -17,26 +25,26 @@ This repo currently supports:
 
 Primary example profile:
 
-- `C:\Data\ai_resume\resume_data\people\rajendra-prasad-n.json`
+- `resume_data/people/rajendra-prasad-n.json`
 
 Locked DevOps / Cloud base profile:
 
-- `C:\Data\ai_resume\resume_data\people\rajendra-prasad-n.json`
+- `resume_data/people/rajendra-prasad-n.json`
 - Use this as the default source profile for Rajendra P N DevOps / Cloud job tailoring requests.
 - Do not overwrite it with JD-specific wording; generate tailored variants from it.
 
 Primary tailored example:
 
-- `C:\Data\ai_resume\tailored_resumes\rajendra-prasad-n\insight-global-mid-cloud-engineer.json`
+- `tailored_resumes/rajendra-prasad-n/insight-global-mid-cloud-engineer.json`
 
 ## Core Files
 
-- Base template: `C:\Data\ai_resume\templates\base_resume.html`
-- HTML renderer: `C:\Data\ai_resume\src\resume_agents\renderers\html_resume.py`
-- Models: `C:\Data\ai_resume\src\resume_agents\models.py`
-- JSON store: `C:\Data\ai_resume\src\resume_agents\storage\json_store.py`
-- Base example output: `C:\Data\ai_resume\examples\rajendra-prasad-n.html`
-- Tailored example output: `C:\Data\ai_resume\tailored_resumes\rajendra-prasad-n\insight-global-mid-cloud-engineer.html`
+- Base template: `templates/base_resume.html`
+- HTML renderer: `src/resume_agents/renderers/html_resume.py`
+- Models: `src/resume_agents/models.py`
+- JSON store: `src/resume_agents/storage/json_store.py`
+- Base example output: `examples/rajendra-prasad-n.html`
+- Tailored example output: `tailored_resumes/rajendra-prasad-n/insight-global-mid-cloud-engineer.html`
 
 ## Standard Workflow
 
@@ -182,8 +190,8 @@ Use the shared renderer with `PersonProfile`, `Experience`, and `Education` obje
 
 Common outputs:
 
-- `C:\Data\ai_resume\examples\rajendra-prasad-n.html`
-- `C:\Data\ai_resume\tailored_resumes\rajendra-prasad-n\insight-global-mid-cloud-engineer.html`
+- `examples/rajendra-prasad-n.html`
+- `tailored_resumes/rajendra-prasad-n/insight-global-mid-cloud-engineer.html`
 
 ## Finish Criteria
 

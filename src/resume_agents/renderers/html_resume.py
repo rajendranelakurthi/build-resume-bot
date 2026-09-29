@@ -89,6 +89,8 @@ class HtmlResumeRenderer:
 
     def _render_job_details(self, project: str, client: str, skills_used: list[str]) -> str:
         lines: list[str] = []
+        if project:
+            lines.append(f"<div><strong>Project:</strong> {escape(project)}</div>")
         if client:
             lines.append(f"<div><strong>Client:</strong> {escape(client)}</div>")
         if skills_used:

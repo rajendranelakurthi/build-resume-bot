@@ -9,33 +9,33 @@
 *{box-sizing:border-box;}
 body{margin:0;padding:12px 0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:#222;line-height:1.4;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
 .resume-page{width:190mm;min-height:277mm;margin:0 auto;background:#ffffff;box-shadow:0 8px 24px rgba(15,57,112,.12);}
-header{background:linear-gradient(120deg,#174a8b,#0f3970);color:white;padding:18px 26px;display:flex;justify-content:space-between;gap:18px;}
+header{background:linear-gradient(120deg,#232f3e,#131a22);color:white;padding:18px 26px;display:flex;justify-content:space-between;gap:18px;}
 .header-left{max-width:118mm;}
 .header-left h1{margin:0;font-size:30px;letter-spacing:.4px;font-weight:800;}
-.role{margin-top:6px;font-size:13px;font-weight:700;color:#ffc400;text-transform:uppercase;}
+.role{margin-top:6px;font-size:13px;font-weight:700;color:#ffb347;text-transform:uppercase;}
 .header-right{text-align:right;font-size:12px;line-height:1.55;}
 .header-right a{color:white;text-decoration:none;word-break:break-word;}
 .content{padding:18px 26px 22px;}
-.summary-box{background:#f6f9fd;border-left:4px solid #174a8b;padding:12px 14px;border-radius:6px;font-size:13px;margin-bottom:18px;}
-.section-title{font-size:16px;color:#174a8b;text-transform:uppercase;font-weight:800;border-bottom:2px solid #174a8b;padding-bottom:5px;margin:20px 0 12px 0;page-break-after:avoid;}
+.summary-box{background:#f6f9fd;border-left:4px solid #232f3e;padding:12px 14px;border-radius:6px;font-size:13px;margin-bottom:18px;}
+.section-title{font-size:16px;color:#232f3e;text-transform:uppercase;font-weight:800;border-bottom:2px solid #232f3e;padding-bottom:5px;margin:20px 0 12px 0;page-break-after:avoid;}
 .certifications-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:6px;page-break-inside:avoid;break-inside:avoid;align-items:start;}
 .cert-card{background:#fbfdff;border:1px solid #e1e8f2;border-radius:8px;padding:8px 6px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;page-break-inside:avoid;break-inside:avoid;min-height:140px;}
 .cert-badge-svg{width:100%;max-width:92px;height:auto;display:block;}
 .cert-label{margin-top:6px;font-size:10px;font-weight:700;line-height:1.25;color:#173b6b;}
 .skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
 .skill-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;}
-.skill-card h3{margin:0 0 5px 0;font-size:11px;color:#e06300;text-transform:uppercase;}
+.skill-card h3{margin:0 0 5px 0;font-size:11px;color:#9b5200;text-transform:uppercase;}
 .skill-card p{margin:0;font-size:11.5px;}
 .job-block{margin-bottom:18px;page-break-inside:avoid;break-inside:avoid;}
 .job-header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:5px;}
 .job-title{font-weight:700;font-size:14px;}
-.company-name{color:#174a8b;font-weight:700;}
+.company-name{color:#232f3e;font-weight:700;}
 .job-meta{font-size:11.5px;color:#666;white-space:nowrap;}
 .job-details{font-size:11.25px;color:#444;margin:0 0 7px 0;line-height:1.45;}
 .job-details div{margin-bottom:2px;}
 ul{margin:0;padding-left:18px;}
 li{font-size:11.5px;margin-bottom:4px;}
-.tag{color:#174a8b;font-weight:700;}
+.tag{color:#232f3e;font-weight:700;}
 .education-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:8px;}
 .education-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;font-size:11.5px;}
 .education-row{display:flex;align-items:center;gap:16px;}
@@ -78,6 +78,17 @@ a{text-decoration:none;color:inherit;}
 }
 @media (max-width:900px){body{padding:0;}.resume-page{width:100%;min-height:auto;box-shadow:none;}.certifications-grid{grid-template-columns:repeat(3,1fr);}.skills-grid{grid-template-columns:1fr;}.header-left{max-width:none;}.job-header{flex-direction:column;}.job-meta{white-space:normal;}.education-row{align-items:flex-start;}}
 @media (max-width:560px){.certifications-grid{grid-template-columns:repeat(2,1fr);}.cert-card{min-height:132px;}}
+/* AWS branch: readable print geometry independent of mobile breakpoints. */
+@media print{
+html,body{width:auto}.resume-page{width:194mm}
+.header-left{flex:1;min-width:0}.header-right{flex:0 0 51mm}
+.job-header{flex-direction:row}.job-meta{white-space:nowrap}
+.cert-badge-svg{max-width:46px}.cert-card{min-height:72px}
+.skills-grid{gap:6px}.skill-card{padding:6px 9px}.summary-box{padding:8px 12px}
+.job-block{break-inside:avoid;page-break-inside:avoid}
+.job-header,.job-details{break-after:avoid;page-break-after:avoid}
+li{break-inside:avoid}.section-title{margin-top:12px}
+}
 </style>
 </head>
 <body>

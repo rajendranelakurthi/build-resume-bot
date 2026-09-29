@@ -1,73 +1,76 @@
-# Multi-Person Resume Agents
+# Rajendra AWS DevOps Resume Creator
 
-Repository foundation for managing resume content for multiple people and rendering each resume into a shared HTML layout.
+This branch, `feature/rajendrapn-aws`, generates AWS DevOps resumes focused on Amazon S3, VPC networking, IAM/security, infrastructure automation, CI/CD, and production operations.
 
-## First-time setup for Codex IDEs
-
-1. Open this repository in a Codex-supported IDE, such as VS Code or Antigravity.
-2. Switch to the plugin branch:
-
-```bash
-git switch plug-in
-```
-
-3. Install the resume creator plugin:
-
-```bash
-bash ai_resume/plugins/resume-creator-plugin/scripts/install_plugin.sh
-```
-
-4. Restart the IDE so Codex can load the installed plugin.
-5. In Codex, use this command format:
+## Command in Codex
 
 ```text
-Use the Résumé Creator Plugin to create an Aggressive devops-cloud resume for Rajendra using this JD: <provide JD>
+Use the Résumé Creator Plugin to create an Aggressive AWS DevOps resume for Rajendra using this JD: <provide JD>
 ```
 
-## What this repo does
+This command selects `aws-devops`. On this branch, `devops-cloud` is an alias for the AWS-only `aws-devops` domain. It does not switch to Azure or GCP based on JD keywords.
 
-- Stores structured resume data for multiple people in `resume_data/people/`
-- Uses your HTML resume format as the base template
-- Renders person-specific HTML resumes from JSON data
-- Includes an agent orchestration layer that can later be connected to an LLM for request-based tailoring
+## Generate the résumé
 
-## Repo layout
-
-- `templates/base_resume.html`: base HTML resume template
-- `src/resume_agents/models.py`: shared profile models
-- `src/resume_agents/storage/json_store.py`: JSON-backed profile storage
-- `src/resume_agents/renderers/html_resume.py`: HTML renderer for the base template
-- `src/resume_agents/agents/router.py`: starter request routing
-- `src/resume_agents/service.py`: orchestration and rendering service
-- `src/resume_agents/cli.py`: command-line entrypoint
-- `resume_data/people/`: per-person resume data
-- `examples/`: generated HTML output
-
-## Quick start
+From the repository root, with Python 3.10+ and Chrome or Edge installed (use Python 3.12 on this Mac):
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -e .
-python -m resume_agents.cli list-people
-python -m resume_agents.cli render-html --person rajendra-prasad-n --output examples/rajendra-prasad-n.html
-python -m resume_agents.cli request --person rajendra-prasad-n --message "Tailor my resume for a lead platform engineering role"
+git switch feature/rajendrapn-aws
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py \
+  --person Rajendra \
+  --domain aws-devops \
+  --level Aggressive \
+  --jd-file plugins/resume-creator-plugin/assets/jds/aws-s3-stonebranch.txt \
+  --output-name Rajendra-Lead-AWS-DevOps
 ```
 
-## Current base format
+Replace the JD file as needed. `--domain devops-cloud` produces the same AWS output. Domain matching is case-insensitive. Unsupported cloud domains are rejected.
 
-The renderer is built around the HTML/CSS structure you provided:
+Outputs are saved in `tailored_resume/rajendra-prasad-n/`:
 
-- gradient header
-- summary box
-- achievement section
-- two-column skill cards
-- experience blocks
-- education and certifications footer
+- `Rajendra-Lead-AWS-DevOps.pdf`
+- `Rajendra-Lead-AWS-DevOps.html`
+- `Rajendra-Lead-AWS-DevOps.profile.json`
+- `Rajendra-Lead-AWS-DevOps.json` (generation manifest)
 
-## Recommended next steps
+Use `--output-dir` to choose another directory. `--output-name` accepts a simple filename stem without extension or directory separators; omit it for an automatic person/domain/level/JD filename. Reusing the same name replaces that generated résumé.
 
-1. Add a write-back flow so agent requests can update stored JSON.
-2. Plug in an LLM planner to rewrite summaries and bullets from user prompts.
-3. Add multiple visual templates if you want different resume styles per customer.
-4. Add a small web app so users can request role-specific resume variants.
+## AWS base and tailoring
+
+- `resume_data/people/rajendra-prasad-n.json`: repository AWS base.
+- `plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json`: identical packaged AWS base.
+- `plugins/resume-creator-plugin/assets/reference/rajendra-aws-source.json`: original source retained for future tailoring.
+- `templates/base_resume.html` and the packaged template: synchronized AWS visual style with print-safe geometry and pagination.
+- `src/resume_agents/tailor.py` and packaged `plugin_core.py`: preserve authored summaries and career facts; rank approved content against the JD.
+
+`Base` renders the profile directly. `Tailored`, `Optimized`, and `Aggressive` currently use the same ranking engine. An Aggressive request does not establish unconfirmed candidate experience. The supplied JD names Stonebranch and S3 landing/curated/archive zones; confirm hands-on responsibilities before adding them to employment history. Preserve real certifications, including non-AWS credentials.
+
+## Verification
+
+```bash
+PYTHONPATH=src python3.12 -m pytest -q
+```
+
+Tests cover domain aliases, all four levels, keyword matching, identity/history preservation, synchronized assets, packaging, and export failure handling. The PDF exporter checks that the HTML exists, generates a fresh temporary file, validates its PDF signature, and only then replaces the output. Review rendered pages before sharing.
+
+## Plugin installation
+
+Branch-local changes do not refresh an already installed global plugin. For first-time setup, use the packaged installation workflow from this checkout. For installed-plugin maintenance, follow the plugin update workflow and start a new Codex thread after reinstalling. Ordinary résumé generation needs no reinstall.
+
+## Portable paths
+
+Run examples from the repository root. Documentation uses relative repository paths, generated manifest paths are relative to the invocation directory, and profile/HTML images use an adjacent `assets/` folder. No developer-specific drive or home directory is saved. Browser and installation locations are discovered at runtime; full paths are used internally only where operating-system tools require them.
+
+## Python / Kubernetes leadership résumé
+
+Use an approved profile variant without overwriting the AWS base:
+
+```bash
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py \
+  --person Rajendra --domain aws-devops --level Aggressive \
+  --jd-file plugins/resume-creator-plugin/assets/jds/aws-python-kubernetes.txt \
+  --profile-file plugins/resume-creator-plugin/assets/variants/rajendra-aws-python-kubernetes.json \
+  --output-name Rajendra-AWS-DevOps-Python-Kubernetes
+```
+
+`--profile-file` must identify the same person as `--person`. Repository source and documentation are checked for machine-specific paths by `tests/test_portable_paths.py`.

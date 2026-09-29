@@ -12,7 +12,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Multi-person resume agent CLI")
     parser.add_argument(
         "--data-root",
-        default=str(Path.cwd() / "resume_data"),
+        default="resume_data",
         help="Path to the resume data directory",
     )
 
