@@ -5,24 +5,26 @@ Repository foundation for managing resume content for multiple people and render
 ## First-time setup for Codex IDEs
 
 1. Open this repository in a Codex-supported IDE, such as VS Code or Antigravity.
-2. Switch to the plugin branch:
+2. From the repository root, switch to the DevSecOps branch:
 
 ```bash
-git switch plug-in
+git switch feature/rajendrapn-devsecops
 ```
 
 3. Install the resume creator plugin:
 
 ```bash
-bash ai_resume/plugins/resume-creator-plugin/scripts/install_plugin.sh
+bash plugins/resume-creator-plugin/scripts/install_plugin.sh
 ```
 
 4. Restart the IDE so Codex can load the installed plugin.
-5. In Codex, use this command format:
+5. In Codex, use this DevSecOps command format:
 
 ```text
-Use the Résumé Creator Plugin to create an Aggressive devops-cloud resume for Rajendra using this JD: <provide JD>
+Use the Résumé Creator Plugin to create an Aggressive DevSecOps resume for Rajendra using this JD: <provide JD>
 ```
+
+The explicit `DevSecOps` request selects `--domain devsecops`, even when the JD does not contain the word DevSecOps. With `devops-cloud`, automatic DevSecOps routing applies only to non-Base requests whose JD contains `DevSecOps`, `Dev Sec Ops`, or `Dev-Sec-Ops`.
 
 ## DevSecOps Lead on this branch
 
