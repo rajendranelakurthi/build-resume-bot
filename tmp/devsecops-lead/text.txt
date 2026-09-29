@@ -1,0 +1,139 @@
+Pages: 2
+PAGE 1: RAJENDRA PRASAD N
+DEVSECOPS LEAD | SECURE DELIVERY & CLOUD OPERATIONS
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Engineer-leader with 10+ years of enterprise DevOps, cloud engineering, release management, and production operations
+experience. Builds secure, repeatable delivery across pipelines, environments, secrets and access, security controls,
+observability, and recovery. Combines Azure and AWS infrastructure automation with code-review governance, security scanning,
+application release validation, and Kubernetes operations. Coordinates competing delivery dependencies, change windows, and
+production readiness across engineering teams, with a focus on traceable changes, controlled access, and reliable releases for
+enterprise and payment-platform workloads.
+CERTIFICATIONS
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure
+Fundamentals
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure
+DevOps Engineer Expert
+aws
+certified
+Solutions
+Architect
+A S S O C I AT E
+AWS Certified Solutions
+Architect - Associate
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer -
+Level 1
+DEVSECOPS LEADERSHIP HIGHLIGHTS
+Secure Path to Production Standardized reusable pipelines, reviewed changes, versioned artifacts, security checks, environment approvals, and deployment
+verification.
+Environment & Release Coordination Aligned team dependencies, change windows, environment configuration, and recovery plans across application,
+database, and infrastructure releases.
+Security & Operations Combined secrets controls, identity governance, monitoring, incident response, and runbooks to support secure production delivery.
+CORE TECHNOLOGIES
+SECURE CI/CD & CODE CONTROLS
+GitHub Actions, Azure DevOps, Jenkins, GitLab CI, Harness; branch
+protection, required reviews, reusable workflows, approval gates
+CODE & DEPENDENCY SECURITY
+SonarQube, Fortify, Black Duck, JFrog Xray; static analysis, dependency
+scanning, artifact checks, security validation
+APPLICATION & RELEASE SECURITY
+Container image validation, REST microservices, security-test environments,
+smoke tests, controlled promotion, Liquibase migration validation
+SECRETS & IDENTITY
+Azure Key Vault, AWS Secrets Manager, Entra ID, IAM, RBAC, MFA,
+federated pipeline authentication, least-privilege deployment access
+INFRASTRUCTURE & PLATFORM CONTROLS
+Terraform, CloudFormation, ARM templates, Ansible, AKS/EKS, Kubernetes,
+Helm, private networking, security groups, policy checks
+ENVIRONMENT & CHANGE MANAGEMENT
+Development, QA, security testing, UAT, production; environment
+configuration, release dependencies, change windows, versioned artifacts
+OBSERVABILITY & PRODUCTION OPERATIONS
+Azure Monitor, CloudWatch, CloudTrail, Prometheus, Grafana, Splunk, ELK;
+incident diagnosis, backup, recovery, operational runbooks
+AUTOMATION & DELIVERY TOOLING
+Python, Bash, PowerShell, AWS/Azure CLI, Git, Docker, JFrog Artifactory,
+Jira, FastAPI, SQL, Linux and Windows build agents
+PROFESSIONAL EXPERIENCE
+Lead DevOps Engineer | AT&T Services Inc. 08/2023 - Present
+Skills Used: Azure, AWS, GitHub Actions, Azure DevOps, Harness, Terraform, Key Vault, Kubernetes, Python
+Led application, database, and infrastructure release coordination across engineering teams, aligning dependencies, change windows, approvals, and
+production readiness.
+Built reusable GitHub Actions and Azure DevOps pipelines with automated validation, versioned artifacts, environment approvals, deployment checks, and
+recovery planning.
+Established branch protections, required reviews, merge controls, and artifact versioning to keep code changes and production promotions traceable to
+approved releases.
+Integrated DevSecOps controls into delivery workflows through secure secrets handling, Terraform validation, pre-deployment policy checks, and application
+release verification.
+Provisioned cloud infrastructure with Terraform and integrated Key Vault, federated pipeline authentication, and controlled deployment access to reduce
+credential exposure.
+Implemented private service connectivity and environment isolation using private endpoints, cloud networking controls, and identity-based access for application
+workloads.
+Managed environment-specific configuration and coordinated release sequencing across development, QA, and production to address shared dependencies
+and delivery risks.
+Automated pre-deployment checks, database connectivity validation, deployment summaries, and post-release smoke tests with Python, Bash, and PowerShell.
+Validated version-controlled database migrations and generated SQL before promotion, coordinating application compatibility, permissions, and recovery with
+service owners.
+PAGE 2: Configured Harness delivery workflows with reusable templates, approval gates, deployment health checks, failure handling, and rollback steps for Kubernetes
+applications.
+Coordinated production incident response and release support, using deployment logs and cloud monitoring to diagnose failures and guide service restoration.
+Authored deployment guides, architecture documentation, and operational runbooks to improve support readiness, release handover, and knowledge transfer.
+Senior DevOps Engineer | GlobalLogic 03/2023 - 08/2023
+Skills Used: GitLab CI, Jenkins, Git, Docker, Kubernetes, Linux
+Standardized reusable CI/CD stages, build-agent configuration, environment settings, and release checks with development and QA teams.
+Migrated Jenkins pipelines to GitLab CI and enforced branch protection, secure runner practices, container image validation, and controlled pipeline execution.
+Administered Linux and Windows build agents, Docker delivery workflows, and Kubernetes deployments; diagnosed credential, pipeline, and runtime failures.
+Maintained separate development, QA, and production configuration and used reviewed deployment stages to protect application and database releases.
+Partnered with developers to investigate deployment defects, strengthen release checks, and document repeatable remediation procedures.
+Senior DevOps Engineer II | Akamai Technologies 12/2021 - 03/2023
+Skills Used: AWS, Terraform, GitHub Actions, EKS, SonarQube, CloudWatch
+Provisioned cloud infrastructure with Terraform and pipeline-driven deployment patterns, supporting repeatable configuration and controlled environment
+changes.
+Built CI/CD workflows with GitHub Actions and Jenkins, publishing versioned artifacts and integrating SonarQube with engineering delivery tooling.
+Deployed containerized microservices with Helm, Kubernetes, and ArgoCD, supporting consistent configuration and release promotion across environments.
+Implemented secure VPC networking, security groups, private connectivity, DNS, and load balancing for enterprise application workloads.
+Implemented CloudWatch observability, AWS Backup, and disaster-recovery controls; troubleshot infrastructure and deployment issues across distributed teams.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd 04/2020 - 12/2021
+Skills Used: Jenkins, SonarQube, JFrog Xray, Terraform, Python, Prometheus, Ansible
+Delivered CI/CD and Terraform automation for payment-platform workloads, aligning application releases, infrastructure changes, and operational readiness.
+Integrated SonarQube and secure secrets handling into reusable Jenkins and GitHub Actions workflows for build, test, artifact publication, and promotion.
+Administered CloudBees Jenkins, JFrog Artifactory, and Xray to support controlled artifact delivery and dependency-security workflows.
+Applied identity controls, MFA, role-based access, and custom policy checks across cloud environments to strengthen platform governance.
+Developed Python FastAPI integrations for Jenkins, Jira, and JFrog and built Prometheus exporters and Ansible-managed monitoring stacks for operational
+diagnosis.
+Senior DevOps Engineer | HCL Technologies 02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: Jenkins, Kubernetes, Ansible, PowerShell, ELK
+Built continuous delivery pipelines for REST microservices across development, security-validation, UAT, and production environments.
+Coordinated release configuration and verification with engineering teams and supported deployment troubleshooting across shared enterprise environments.
+Automated Linux and Windows cloud configuration and secure application/database connectivity using infrastructure templates, Ansible, and PowerShell.
+Supported identity integration, privileged access, MFA, Kubernetes release packaging, and monitoring through ELK and cloud-native tooling.
+DevOps Engineer | Mphasis Ltd 08/2016 - 12/2018
+Client: HPE
+Skills Used: Terraform, Ansible, Git, Python, Shell
+Created repeatable deployment pipelines with Ansible and Terraform and promoted consistent artifacts from development through production.
+Implemented Git branching practices, environment-specific configuration, and controlled release parameters to improve deployment traceability.
+Automated administrative and deployment tasks with Python, shell scripting, and cloud CLI workflows; maintained build agents and support documentation.
+EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada

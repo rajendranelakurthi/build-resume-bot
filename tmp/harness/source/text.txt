@@ -1,0 +1,149 @@
+Pages: 2
+PAGE 1: RAJENDRA PRASAD N
+LEAD AI AZURE DEVOPS ENGINEER | AZURE, AKS & AI DEVSECOPS
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Lead DevOps Engineer with 10+ years of enterprise cloud, CI/CD, Kubernetes, and production operations experience. Azure-focused
+platform engineering spanning AKS, Terraform, Azure DevOps, C#/.NET and Java microservices, REST APIs, and Azure SQL. Hands-on AI
+platform delivery covering Milvus and Qdrant administration on AKS, containerized LLM inference, RAG services, GPU capacity, and model
+observability. Integrates AI DevSecOps, evaluation gates, identity controls, and operational governance into repeatable software and model
+delivery.
+CERTIFICATIONS
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure
+Fundamentals
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure
+DevOps Engineer Expert
+aws
+certified
+Solutions
+Architect
+A S S O C I AT E
+AWS Certified Solutions Architect
+- Associate
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer -
+Level 1
+AZURE AI PLATFORM HIGHLIGHTS
+AI Infrastructure Operate AKS platforms for vector search, LLM inference, and REST-based AI services with repeatable Helm and Terraform deployments.
+LLMOps & Reliability Connect inference latency, GPU utilization, retrieval quality, and token cost to release gates, capacity planning, and incident response.
+AI DevSecOps Apply artifact scanning, model provenance, least-privilege access, evaluation checks, and approval controls to AI delivery pipelines.
+CORE TECHNOLOGIES
+AZURE CLOUD
+AKS, ACR, Virtual Networks, Private Endpoints, Entra ID, Workload Identity, Key
+Vault, Azure Monitor, API Management
+DEVOPS & INFRASTRUCTURE
+Azure DevOps, Azure Pipelines, GitHub Actions, Terraform, Helm, ArgoCD, Docker,
+Kubernetes, Linux
+AI / LLM OPERATIONS
+Azure OpenAI, LLM deployment, vLLM, GPU node pools, RAG, embeddings, model
+versioning, evaluation gates, Agentic AI
+VECTOR DATABASE ADMINISTRATION
+Milvus, Qdrant, AKS deployment, persistent storage, sharding, replication, HNSW
+indexes, snapshots, backup and recovery
+APPLICATIONS & DATABASES
+C# / .NET, Java, REST APIs, microservices, SQL Server, Azure SQL, MSBuild,
+Maven, Liquibase
+AI OBSERVABILITY & AIOPS
+Prometheus, Grafana, Azure Monitor, Application Insights, OpenTelemetry, GPU
+metrics, token usage, SLOs, alert correlation
+SECURITY & GOVERNANCE
+SAST, SCA, container scanning, secrets scanning, RBAC, network policies, model
+provenance, prompt-injection checks, audit trails
+AUTOMATION
+Python, PowerShell, Bash, Azure CLI, YAML, JSON, FastAPI, operational runbooks
+PROFESSIONAL EXPERIENCE
+Lead DevOps Engineer | AT&T Services Inc.
+08/2023 - Present
+Skills Used: Azure, AKS, Azure DevOps, Terraform, Milvus, Qdrant, vLLM, Azure OpenAI, Prometheus, Grafana, Python
+Engineered Azure AI platform infrastructure with Terraform, provisioning AKS, ACR, private networking, Key Vault, and workload identities for isolated application and model
+environments.
+Deployed and administered distributed Milvus on AKS using Helm; configured persistent storage, etcd and object-storage dependencies, resource limits, availability controls,
+and coordinated upgrade and recovery procedures.
+Operated Qdrant clusters on AKS with persistent volumes, shard placement, replication, collection configuration, payload indexes, and HNSW tuning; automated per-node
+collection snapshots and tested restore procedures.
+Deployed containerized LLM inference services with vLLM on AKS GPU node pools, managing model artifacts, GPU scheduling, readiness probes, request concurrency, and
+controlled model-version rollouts.
+Tuned inference capacity through GPU memory analysis, batching, queue-depth monitoring, and load testing; balanced latency targets, throughput, and infrastructure cost
+before production promotion.
+Built Azure DevOps CI/CD pipelines for C#/.NET and Java REST microservices, embedding MSBuild/Maven builds, automated tests, image scanning, Helm releases,
+approvals, and rollback validation.
+Integrated RAG services with Milvus and Qdrant, coordinating embedding-version changes, collection migrations, metadata filtering, retrieval evaluation, and reindexing
+without mixing incompatible vector dimensions.
+Instrumented LLM and retrieval services with OpenTelemetry, Prometheus, Grafana, and Application Insights; tracked time to first token, p95 latency, tokens per second,
+errors, GPU utilization, and vector-query latency.
+Established model and prompt release gates using versioned evaluation datasets, groundedness and retrieval checks, prompt-injection scenarios, and regression thresholds;
+retained approval and deployment evidence.
+Applied AI DevSecOps controls through dependency and container scanning, model-artifact provenance checks, restricted egress, Key Vault secrets, workload identity, and
+namespace-level access controls.
+Governed Azure OpenAI and self-hosted model access through API Management authentication, usage limits, token-cost visibility, and redacted telemetry; documented
+ownership, retention, and approved model versions.
+PAGE 2: Supported Agentic AI services with scoped tool permissions, bounded execution, traceable tool calls, and human approval for sensitive actions; tested failure paths and
+rollback behavior.
+Developed AIOps workflows that correlated Kubernetes, GPU, database, and inference alerts, enriched incidents with deployment context, and triggered approved recovery
+runbooks with audit trails.
+Automated SQL Server and Azure SQL release changes with versioned migration scripts, deployment sequencing, connectivity validation, and recovery checks alongside
+application releases.
+Senior DevOps Engineer | GlobalLogic
+03/2023 - 08/2023
+Skills Used: Azure DevOps, Azure Pipelines, GitHub Actions, Terraform, Git, PowerShell, Docker
+Built reusable Azure DevOps YAML pipelines for C#/.NET and Java services, integrating build agents, automated tests, artifact feeds, environment approvals, and deployment
+verification.
+Deployed Docker-based REST microservices to AKS using Helm, managing configuration, secrets, ingress, health probes, and environment-specific release settings.
+Provisioned Azure resources through Terraform modules with reviewed plans, remote state, environment separation, and controlled service connections.
+Coordinated SQL Server and Azure SQL schema changes with application deployments, validating migration order, permissions, and post-release database connectivity.
+Investigated build, container, and Kubernetes failures and strengthened image scanning, branch controls, and documented recovery procedures.
+Senior DevOps Engineer II | Akamai Technologies
+12/2021 - 03/2023
+Skills Used: AWS, Linode, Python, Terraform, EKS, GitHub Actions, GitLab
+Deployed Kubernetes microservices through ArgoCD-based GitOps workflows.
+Provisioned AWS infrastructure using CloudFormation, Terraform, and pipeline-driven infrastructure-as-code deployment patterns.
+Implemented GitHub Actions workflows for deploying services to Kubernetes clusters across multiple environments.
+Built Docker images and deployed containerized applications to EKS using Helm charts and Kubernetes manifests.
+Implemented disaster recovery, backup, and observability controls using AWS Elastic Disaster Recovery, AWS Backup, and Amazon CloudWatch.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd
+04/2020 - 12/2021
+Skills Used: AWS, Python, Jenkins, GitHub Actions, SonarQube, JFrog, Terraform, Kubernetes, Prometheus, Ansible
+Designed CI/CD pipelines for application and infrastructure deployments across AWS environments.
+Developed internal APIs in Python FastAPI to integrate Jenkins, Jira, and JFrog processes with platform automation.
+Developed custom Prometheus exporters in Python to capture application-specific operational metrics for SRE use cases.
+Built resilient Ansible roles and playbooks to deploy highly available Grafana, Prometheus, and Node Exporter monitoring stacks.
+Authored Helm charts to deploy containerized applications consistently across Kubernetes environments.
+Senior DevOps Engineer | HCL Technologies
+02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: Kubernetes, AWS, Ansible, GitHub, Shell Scripting, Jenkins, Maven, Tomcat, JBoss, Helm
+Designed monitoring architecture to collect application, infrastructure, and platform metrics using the ELK stack.
+Built Kubernetes environments with pods, deployments, services, and ConfigMaps, and managed Helm-based release packaging for multi-namespace workloads.
+Built continuous delivery pipelines and supported REST-based microservices deployments across Demo, Test, Pentest, Training, CTDEV, Sandbox, UAT, and PROD
+environments.
+Used CloudFormation and PowerShell scripting to provision and manage cloud resources in a repeatable and auditable manner.
+DevOps Engineer | Mphasis Ltd
+08/2016 - 12/2018
+Client: HPE
+Skills Used: AWS, Chef, Ansible, GitLab, Shell Scripting, Python, Maven, Tomcat, JBoss, Splunk, Nexus
+Created deployment pipelines with Ansible to promote releases from development through production in a controlled, repeatable manner.
+Authored and maintained Terraform modules and executed infrastructure changes through automated CI/CD workflows.
+Defined and implemented branching strategies for Git repositories to improve release governance and code promotion.
+Documented build and deployment flows for core infrastructure, API, database, and UI components to improve team consistency.
+EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada
