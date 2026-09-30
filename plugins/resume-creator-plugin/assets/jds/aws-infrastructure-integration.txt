@@ -1,0 +1,67 @@
+Key Responsibilities:
+AWS Infrastructure & Cloud Engineering
+Build and manage AWS accounts and cloud environments following enterprise architecture, security, and governance standards.
+Design and provision VPCs, private/public subnets, route tables, security groups, NAT gateways, and related networking components.
+Provision and manage AWS compute and database resources, including EC2 and Amazon Aurora PostgreSQL.
+Implement secure encryption solutions using AWS KMS keys for data at rest and application services.
+Configure and maintain AWS Secrets Manager for secure storage and rotation of application credentials and sensitive configuration.
+Design and manage IAM roles and policies, following least-privilege and role-based access principles.
+Support highly available and resilient AWS architectures across multiple environments.
+Infrastructure as Code & Automation:
+Develop reusable Terraform modules and/or AWS CloudFormation templates to automate infrastructure provisioning.
+Establish repeatable deployment patterns across Development, QA, UAT, Staging, and Production environments.
+Maintain Infrastructure as Code in enterprise source-control repositories with appropriate branching, versioning, peer review, and release practices.
+Identify repetitive operational activities and automate provisioning, configuration, deployment, and validation processes.
+CI/CD & DevOps
+Design, implement, and maintain CI/CD pipelines for application and infrastructure deployments.
+Integrate automated builds, testing, security scans, approvals, deployment, and rollback capabilities into delivery pipelines.
+Implement automated infrastructure validation and configuration checks as part of CI/CD workflows.
+Troubleshoot failed builds, deployments, integrations, and environment configuration issues.
+Promote DevSecOps practices by embedding security controls throughout the development and deployment lifecycle.
+Application Integration:
+Work closely with development teams to integrate applications, APIs, databases, middleware, and AWS services.
+Manage environment-specific configuration, secrets, certificates, endpoints, connectivity, and service dependencies.
+Troubleshoot complex integration issues across network, infrastructure, database, application, and security layers.
+Coordinate application deployments and environment readiness across multiple engineering teams.
+Develop automated health checks and deployment validation processes.
+Security & Compliance
+Implement security best practices for IAM, encryption, secrets, networking, and infrastructure configuration.
+Work with security teams to remediate vulnerabilities and infrastructure security findings.
+Ensure cloud infrastructure meets organizational security, audit, and compliance requirements.
+Support certificate management, encryption, access-control reviews, credential management, and security hardening.
+Maintain traceability of infrastructure and application configuration changes.
+Monitoring, Reliability & Production Support
+Implement logging, monitoring, dashboards, metrics, and alerting for AWS infrastructure and applications.
+Troubleshoot production incidents and perform root-cause analysis (RCA) for infrastructure, deployment, and integration failures.
+Improve system availability, scalability, reliability, security, and operational efficiency.
+Develop operational runbooks, troubleshooting guides, deployment procedures, and disaster-recovery documentation.
+Participate in production deployment and on-call/support activities as required.
+Technical Leadership & Collaboration:
+Collaborate with application developers, architects, DBAs, security engineers, network teams, QA, and operations teams.
+Provide technical guidance and mentorship to junior DevOps and integration engineers.
+Lead technical discussions related to cloud infrastructure, deployment architecture, automation, and integration.
+Participate in architecture/design reviews and recommend improvements to existing DevOps and cloud engineering practices.
+Key Skills
+Must-Have Skills
+8+ years of experience in DevOps, Cloud Engineering, Integration Engineering, SRE, or related roles
+Strong hands-on experience with AWS
+Strong knowledge of AWS VPC, Subnets, Security Groups, EC2, IAM, KMS, Secrets Manager, and Aurora PostgreSQL
+Advanced experience with Terraform and/or AWS CloudFormation
+Strong experience designing and maintaining CI/CD pipelines
+Experience with Git-based source-control and branching strategies
+Strong understanding of Linux administration and shell scripting
+Experience with Python, Bash, or similar automation/scripting languages
+Strong understanding of TCP/IP, DNS, routing, firewalls/security groups, load balancing, and private-cloud networking
+Experience implementing IAM, encryption, secrets management, and least-privilege security
+Strong troubleshooting skills across application, database, network, infrastructure, and security layers
+Experience supporting production-grade, highly available systems
+Preferred Skills
+Docker and Kubernetes/EKS
+Jenkins, GitHub Actions, GitLab CI, Azure DevOps, or equivalent CI/CD technologies
+AWS CloudWatch and enterprise observability/monitoring platforms
+AWS CLI and SDK-based automation
+PostgreSQL/Aurora operational knowledge
+Ansible or other configuration-management tools
+API and middleware integration experience
+DevSecOps and automated security scanning
+High availability, disaster recovery, backup, and business-continuity concepts

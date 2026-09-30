@@ -1,0 +1,267 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "page_title": "Rajendra Prasad N | Lead AWS DevOps Engineer",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Lead AWS DevOps Engineer | Infrastructure, Security & Integration",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "<strong>Lead AWS DevOps Engineer with 13+ years of overall IT experience spanning build and release engineering, enterprise cloud infrastructure, automation, and production operations.</strong> Delivers <strong>AWS infrastructure, Terraform and CloudFormation automation, secure CI/CD, and application integration</strong> across multiple environments. Combines VPC networking, IAM controls, Secrets Manager, EC2, managed databases, and EKS with Python/Bash tooling, observability, incident response, and recovery planning. Leads cross-team release coordination, technical coaching, and operational documentation.",
+  "certification_badges_image": "assets/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "Python",
+    "Bash",
+    "AWS",
+    "EKS",
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "Ansible",
+    "CloudFormation",
+    "GitHub Actions",
+    "GitLab CI/CD",
+    "Jenkins",
+    "Argo CD"
+  ],
+  "achievements": [
+    {
+      "text": "Delivered VPC networking, private service connectivity, identity controls, and repeatable Terraform/CloudFormation provisioning for enterprise workloads.",
+      "tag": "Secure AWS Infrastructure"
+    },
+    {
+      "text": "Built Python FastAPI integrations for delivery tooling and supported microservices, database connectivity, certificates, and environment readiness.",
+      "tag": "Application & Platform Integration"
+    },
+    {
+      "text": "Standardized CI/CD controls, coordinated production releases, and implemented monitoring, backup, and disaster-recovery capabilities.",
+      "tag": "Reliable Delivery & Operations"
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "AWS Infrastructure & Networking",
+      "content": "EC2, VPC, Route 53, security groups, ALB/NLB, PrivateLink, VPC endpoints, VPN, Direct Connect, S3"
+    },
+    {
+      "title": "Security & Governance",
+      "content": "IAM, role-based access, MFA, Secrets Manager, certificate management, policy controls, SonarQube, Fortify, Black Duck, JFrog Xray"
+    },
+    {
+      "title": "Infrastructure as Code",
+      "content": "Terraform modules, CloudFormation, Ansible, configuration enforcement, infrastructure validation, environment provisioning"
+    },
+    {
+      "title": "CI/CD & Source Control",
+      "content": "GitHub Actions, GitLab CI, Jenkins, CodePipeline, CodeBuild, CodeDeploy, Git branching, approvals, artifact versioning"
+    },
+    {
+      "title": "Application & Database Integration",
+      "content": "REST APIs, FastAPI, Java/Node.js microservices, Amazon RDS, Amazon Aurora, PostgreSQL, environment configuration"
+    },
+    {
+      "title": "Automation & Linux",
+      "content": "Python, Bash/Shell, PowerShell, AWS CLI, Linux, RHEL, Ubuntu, API-driven platform automation"
+    },
+    {
+      "title": "Containers & Reliability",
+      "content": "Docker, Kubernetes, EKS, Helm, Argo CD, CloudWatch, CloudTrail, Prometheus, Grafana, ELK, AWS Backup, Elastic Disaster Recovery"
+    },
+    {
+      "title": "Technical Leadership",
+      "content": "Release coordination, architecture documentation, technical coaching, incident response, production support, runbooks, Agile/Scrum"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "skills_used": [
+        "AWS",
+        "AWS CodePipeline",
+        "PowerShell",
+        "Terraform",
+        "EKS",
+        "GitHub Actions",
+        "Milvus",
+        "Helm",
+        "Databricks on AWS"
+      ],
+      "impact": [
+        "Implemented secure service connectivity using AWS PrivateLink, VPC endpoints, and private networking controls to protect sensitive application traffic.",
+        "Automated provisioning of Databricks environments on AWS across isolated accounts, standardizing network integration, IAM controls, and environment consistency.",
+        "Architected and maintained scalable CI/CD pipelines using AWS CodePipeline, GitHub, and reusable deployment workflows to automate build, test, and release execution.",
+        "Established Git branching, approval, and artifact versioning standards and integrated DevSecOps controls into release workflows through secure secrets handling, Terraform validation, and pre-deployment policy checks across AWS environments.",
+        "Automated platform operations with Python, Bash, and PowerShell to reduce manual effort and accelerate provisioning, support, and recovery workflows.",
+        "Supported Java and Node.js microservices on AWS, improving scalability, runtime stability, and production readiness for cloud-native applications.",
+        "Directed end-to-end release management across multiple engineering teams by aligning schedules, dependencies, change windows, and risk mitigation plans.",
+        "Coordinated incident response and production release support, minimizing downtime and accelerating service restoration during high-priority events.",
+        "Authored technical documentation, deployment guides, and operational runbooks to improve knowledge transfer and support readiness."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "skills_used": [
+        "AWS",
+        "GitLab CI",
+        "Terraform",
+        "Jira",
+        "Kubernetes"
+      ],
+      "impact": [
+        "Implemented GitLab CI best practices, including reusable templates, pipeline governance, and controlled branch-based execution.",
+        "Improved Kubernetes release processes by standardizing deployment patterns, secure runner standards, controlled branch protections, container image validation, and pipeline checks across environments.",
+        "Troubleshot pipeline, container, and Kubernetes issues in partnership with development teams to accelerate delivery and reduce deployment failures.",
+        "Enforced SCM best practices and coached development teams on GitLab workflows, branch governance, and merge standards.",
+        "Deployed and administered self-hosted and auto-scaling build agents for Linux and Windows workloads to support high-throughput CI/CD operations."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "skills_used": [
+        "AWS",
+        "Linode",
+        "Python",
+        "Terraform",
+        "EKS",
+        "GitHub Actions",
+        "GitLab"
+      ],
+      "impact": [
+        "Designed secure VPC networking, Route 53 DNS, security groups, load balancing, VPN connectivity, Direct Connect, and traffic-routing patterns for enterprise workloads.",
+        "Provisioned AWS infrastructure using CloudFormation, Terraform, and pipeline-driven infrastructure-as-code deployment patterns.",
+        "Implemented disaster recovery, backup, and observability controls using AWS Elastic Disaster Recovery, AWS Backup, and Amazon CloudWatch.",
+        "Implemented GitHub Actions workflows for deploying services to Kubernetes clusters across multiple environments.",
+        "Troubleshot build and release pipeline failures and resolved deployment issues across distributed engineering teams.",
+        "Published versioned artifacts to enterprise repositories and package managers to support downstream engineering consumption and traceability."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "skills_used": [
+        "AWS",
+        "Python",
+        "Jenkins",
+        "GitHub Actions",
+        "SonarQube",
+        "JFrog",
+        "Terraform",
+        "Kubernetes",
+        "Prometheus",
+        "Ansible"
+      ],
+      "impact": [
+        "Authored and enforced custom policy controls aligned to internal security and governance requirements across AWS accounts.",
+        "Implemented MFA, identity access controls, and role-based access management for users and groups across cloud environments.",
+        "Developed internal APIs in Python FastAPI to integrate Jenkins, Jira, and JFrog processes with platform automation.",
+        "Developed custom Prometheus exporters in Python to capture application-specific operational metrics for SRE use cases.",
+        "Built resilient Ansible roles and playbooks to deploy highly available Grafana, Prometheus, and Node Exporter monitoring stacks.",
+        "Administered CloudBees Jenkins, JFrog Artifactory, and Xray enterprise tooling for secure software delivery."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Kubernetes",
+        "AWS",
+        "Ansible",
+        "GitHub",
+        "Shell Scripting",
+        "Jenkins",
+        "Maven",
+        "Tomcat",
+        "JBoss",
+        "Helm"
+      ],
+      "impact": [
+        "Worked extensively with AWS infrastructure services including EC2, CloudWatch, Secrets Manager, and managed database platforms for enterprise workloads.",
+        "Automated fleet-level configuration enforcement for Linux and Windows EC2 instances and managed secure access and database connectivity in line with enterprise security standards.",
+        "Supported enterprise applications on AWS by troubleshooting CloudWatch, Amazon RDS, load balancing, auto scaling, certificate management, CloudFront, and identity integrations.",
+        "Built continuous delivery pipelines and supported REST-based microservices deployments across Demo, Test, Pentest, Training, CTDEV, Sandbox, UAT, and PROD environments.",
+        "Used CloudFormation and PowerShell scripting to provision and manage cloud resources in a repeatable and auditable manner.",
+        "Designed monitoring architecture to collect application, infrastructure, and platform metrics using the ELK stack."
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "client": "HPE",
+      "skills_used": [
+        "AWS",
+        "Chef",
+        "Ansible",
+        "GitLab",
+        "Shell Scripting",
+        "Python",
+        "Maven",
+        "Tomcat",
+        "JBoss",
+        "Splunk",
+        "Nexus"
+      ],
+      "impact": [
+        "Authored and maintained Terraform modules and executed infrastructure changes through automated CI/CD workflows.",
+        "Executed Terraform deployments through pipelines and promoted the same artifact set across multiple environments through controlled environment selection.",
+        "Managed variable groups and environment-specific configuration to separate deployments cleanly across stages.",
+        "Authored AWS CLI automation to update service configurations and standardize administrative operations.",
+        "Documented build and deployment flows for core infrastructure, API, database, and UI components to improve team consistency."
+      ]
+    },
+    {
+      "title": "Build & Release Engineer",
+      "company": "Calin Infotech",
+      "date_range": "08/2013 - 08/2016",
+      "project": "Expedia Travel Portal",
+      "client": "",
+      "skills_used": [
+        "Build & Release",
+        "Shell Scripting",
+        "Linux",
+        "Source Control",
+        "Application Deployment"
+      ],
+      "impact": [
+        "Supported application builds, release packaging, and deployment coordination for the Expedia Travel Portal across development and test environments.",
+        "Prepared shell scripts for deployment preparation, configuration checks, and log collection to simplify recurring release support tasks.",
+        "Maintained version-controlled build configurations and release documentation, tracking artifact versions and environment-specific settings.",
+        "Partnered with developers and QA to investigate build and deployment failures, verify application smoke tests, and support release handovers."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "No new quantified outcomes or Kubernetes upgrade ownership inferred solely from the JD.",
+    "User confirmed Calin Infotech, August 2013–August 2016, Expedia Travel Portal. Build & Release Engineer title and early-career responsibilities are drafts for candidate review. Overall experience is 13+ years as of September 2026; DevOps/cloud experience remains 10+ years. Certifications remain source-backed.",
+    "AWS infrastructure/integration JD variant. Aurora and PostgreSQL retained as source-listed skills; Aurora PostgreSQL administration, KMS ownership, and automatic secret rotation are not claimed without candidate confirmation."
+  ],
+  "achievements_title": "AWS INFRASTRUCTURE & DELIVERY LEADERSHIP"
+}

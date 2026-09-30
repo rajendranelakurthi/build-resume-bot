@@ -1,0 +1,23 @@
+{
+  "person": "Rajendra",
+  "person_id": "rajendra-prasad-n",
+  "domain": "aws-devops",
+  "level": "Aggressive",
+  "matched_keywords": [
+    "aws",
+    "infrastructure",
+    "cloud",
+    "engineering",
+    "manage",
+    "accounts",
+    "environments",
+    "enterprise",
+    "architecture",
+    "security"
+  ],
+  "paths_relative_to": "invocation_directory",
+  "profile_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-Infrastructure-Integration.profile.json",
+  "html_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-Infrastructure-Integration.html",
+  "pdf_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-Infrastructure-Integration.pdf",
+  "manifest_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-Infrastructure-Integration.json"
+}
