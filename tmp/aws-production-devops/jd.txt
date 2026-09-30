@@ -1,0 +1,7 @@
+Experience with languages such as Python/Go and technologies including MySQL, Java/Tomcat/Apache, and Splunk for systems monitoring/management.
+Demonstrated ability to work autonomously and manage your own time effectively to meet project goals.
+Experience operating a 24/7 production web application.
+Strong communication skills and an ability to lead and provide mentorship to team members.
+Deep expertise in Infrastructure as Code (e.g., Puppet or Chef/Ansible/Salt) and Terraform (or CloudFormation). This is not a learning role—you need to be a subject matter expert.
+Extensive experience with AWS Cloud technologies (e.g., EC2, RDS, CloudFront, CloudWatch, DynamoDB) and container orchestrators like ECS.
+Proficiency with CI/CD tools and processes, including Git, Jenkins, and Nexus.

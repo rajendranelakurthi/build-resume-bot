@@ -1,0 +1,23 @@
+{
+  "person": "Rajendra",
+  "person_id": "rajendra-prasad-n",
+  "domain": "aws-devops",
+  "level": "Aggressive",
+  "matched_keywords": [
+    "including",
+    "mysql",
+    "splunk",
+    "systems",
+    "ability",
+    "manage",
+    "own",
+    "time",
+    "production",
+    "application"
+  ],
+  "paths_relative_to": "invocation_directory",
+  "profile_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-Production-Aggressive.profile.json",
+  "html_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-Production-Aggressive.html",
+  "pdf_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-Production-Aggressive.pdf",
+  "manifest_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-Production-Aggressive.json"
+}
