@@ -1,0 +1,153 @@
+Pages: 2
+RAJENDRA P N
+LEAD AZURE DEVOPS ENGINEER | AI | ANDROID/IOS
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Lead Azure DevOps Engineer with 10+ years of experience in build automation, release engineering, and production delivery.
+Specializes in Azure Pipelines, Azure Repos, Azure Artifacts, and Bitrise for Android/iOS delivery, spanning reusable YAML
+workflows, signing, packaging, and publishing to Google Play and the App Store. Builds repeatable embedded software release
+workflows and coordinates versioned artifacts, verification, and release readiness. Automates operations with Python and PowerShell,
+using AI-assisted scripting selectively with review and testing.
+CERTIFICATIONS
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure
+DevOps Engineer Expert
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure
+Fundamentals
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer -
+Level 1
+AZURE & MOBILE DEVOPS DELIVERY HIGHLIGHTS
+Android/iOS Publishing Automated mobile builds and release packaging with Bitrise, coordinating signing, provisioning, store submissions, and verification for
+Google Play and the App Store.
+Embedded Release Automation Organized embedded software builds into traceable release packages with versioned binaries, configuration baselines, build
+logs, and verification evidence.
+Azure Pipeline Engineering Standardized reusable YAML pipelines, source-control policies, artifact promotion, environment configuration, and approval gates
+for repeatable software delivery.
+CORE TECHNOLOGIES
+EMBEDDED BUILD & RELEASE
+Automated compilation, build-toolchain configuration, versioned firmware
+artifacts, release manifests, checksums, build logs, integration verification,
+release baselines
+AZURE DEVOPS ENGINEERING
+Multi-stage YAML pipelines, reusable templates, Azure Repos, branch
+policies, pull requests, Azure Artifacts feeds, build agents, deployment
+environments, approvals
+ANDROID & IOS DELIVERY
+Bitrise workflows, Android Gradle builds, APK/AAB packaging, keystores,
+Xcode archives, iOS certificates, provisioning profiles, TestFlight, Google
+Play, App Store Connect
+DELIVERY SECURITY & QUALITY
+Azure Key Vault, service connections, workload identity federation, secret
+variables, secure files, SonarQube, security scanning, automated tests,
+release evidence
+AUTOMATION & DIAGNOSTICS
+Python, PowerShell, Bash, REST APIs, Azure Monitor, Log Analytics,
+Application Insights, root cause analysis; AI-assisted scripting and
+documentation with review and testing
+AZURE INFRASTRUCTURE & DEPLOYMENT
+Terraform, Bicep, ARM templates, Azure CLI, AKS, Azure Container Registry,
+Helm, Argo CD, environment parameters, deployment validation
+PROFESSIONAL EXPERIENCE
+Lead Azure DevOps Engineer | AT&T Services Inc. 08/2023 - Present
+Skills Used: Azure DevOps, Azure Pipelines, Bitrise, Android/iOS, Azure Artifacts, Key Vault, Python, PowerShell
+Integrated automated tests, static analysis, security checks, and deployment evidence into release gates; coordinated readiness and issue resolution with
+development and QA.
+Automated Android builds with Bitrise and Gradle, managed signing inputs and APK/AAB packaging, and published approved releases to Google Play with
+release verification.
+Automated embedded software build and release workflows, capturing toolchain configuration, versioned binaries, checksums, and release manifests for
+reproducible delivery.
+Established Azure Repos branch policies and pull-request checks; published versioned packages and build artifacts for controlled promotion between
+environments.
+Diagnosed build, deployment, and application failures through Bitrise logs, Azure Monitor, and Log Analytics, coordinating fixes and post-release verification.
+Developed Python and PowerShell release utilities; used AI-assisted script drafting and documentation with code review and test validation.
+Engineered multi-stage Azure Pipelines with reusable YAML templates for build, test, package, and deployment stages, standardizing environment parameters
+and approval gates.
+Built iOS delivery workflows in Bitrise for Xcode archive/export, certificate and provisioning-profile handling, TestFlight distribution, and App Store submission and
+publishing coordination.
+Protected pipeline credentials with Azure Key Vault, secure files, and least-privilege service connections; troubleshot signing, provisioning, and authentication
+failures.
+Senior DevOps Engineer | GlobalLogic 03/2023 - 08/2023
+Skills Used: Azure DevOps, Bitrise, Android/iOS, Git, PowerShell, Build Agents
+Built reusable Azure DevOps stages for compilation, automated tests, artifact publication, and release approvals across development, QA, and production.
+Maintained Bitrise Android and iOS build workflows, resolving dependency, signing, provisioning, and packaging failures before release handoff.
+Integrated embedded software build outputs into versioned release packages and preserved configuration, build logs, and test evidence for integration handoff.
+Strengthened release controls with Git branch protections, secure runner configuration, artifact validation, and documented troubleshooting procedures for
+engineering handoffs.
+Coordinated release dependencies and readiness checks with developers and QA, tracking blockers through corrective action and verified handoff.
+Managed environment variables and protected build inputs to keep mobile and Azure application configuration consistent across release stages.
+Coordinated Google Play and App Store release preparation with application teams, validating build versions, environment settings, and published release
+status.
+Preserved build identifiers, artifact versions, and test results for release reviews, enabling teams to trace delivered packages to source changes.
+Administered Linux and Windows build agents, standardized tool dependencies, and diagnosed pipeline and credential failures.
+Senior DevOps Engineer II | Akamai Technologies 12/2021 - 03/2023
+Skills Used: Azure, Bitrise, Android/iOS, Terraform, AKS, Python, Azure Monitor
+Correlated Azure Monitor, Log Analytics, and pipeline telemetry to isolate deployment failures and service-connectivity issues; coordinated corrective actions and
+verification with engineering teams.
+Investigated mobile workflow failures using build logs, dependency configuration, signing inputs, and artifact metadata; documented fixes for repeatable
+releases.
+Automated Azure application delivery with pipeline checks, versioned artifacts, environment-specific configuration, and post-deployment verification.
+Developed Python and PowerShell utilities for release checks and recurring operational tasks, publishing reusable automation for consistent execution across
+environments.
+Maintained environment-specific Terraform parameters and deployment configuration to keep Azure infrastructure changes repeatable across stages.
+Provisioned Azure infrastructure through Terraform and ARM templates and deployed services to AKS using Helm and Argo CD.
+Supported Bitrise Android and iOS build and release pipelines, preparing signed packages and coordinating Google Play and App Store publishing activities.
+Coordinated mobile package versions and Azure service compatibility checks before release, documenting deployment order and recovery steps.
+Published release runbooks and troubleshooting guidance for distributed teams, capturing verification results and operational handoff requirements.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd 04/2020 - 12/2021
+Skills Used: Azure, Jenkins, FastAPI, JFrog, Terraform, AKS, Prometheus
+Delivered CI/CD automation for SaaS and payment-platform workloads, aligning application releases, database dependencies, and Azure infrastructure
+changes.
+Built reusable Terraform modules for Azure networking and AKS, standardizing infrastructure configuration alongside application release workflows.
+Used Prometheus and Grafana telemetry with Ansible operational automation to investigate platform issues and support reliable application releases.
+Managed environment configuration and pipeline credentials for application delivery, separating release inputs across development and production stages.
+Coordinated application and database release dependencies with engineering teams, checking deployment readiness and recovery procedures.
+Developed Python FastAPI integrations for Jenkins, Jira, and JFrog to automate project onboarding and reduce manual release coordination.
+Standardized build, test, artifact publication, and promotion workflows with SonarQube and secure secrets handling.
+Administered CloudBees Jenkins, JFrog Artifactory, and Xray and maintained shared libraries for consistent artifact versioning.
+Documented artifact versions, promotion decisions, and operational handoffs to make release execution traceable and easier to support.
+Senior DevOps Engineer | HCL Technologies 02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: Azure, Jenkins, ARM templates, Ansible, PowerShell, Helm
+Packaged Kubernetes services with Helm, maintaining deployment configuration for consistent releases across Azure-hosted environments.
+Built Jenkins and Maven delivery pipelines for REST microservices across test, security-validation, UAT, and production environments.
+Coordinated release configuration, application checks, and deployment verification with developers and QA before environment promotion.
+Maintained version-controlled environment parameters and deployment scripts to keep Azure application configuration consistent across release stages.
+Coordinated build artifacts and application dependencies for UAT and production handoffs, checking release versions before deployment.
+Documented deployment sequences, troubleshooting steps, and recovery procedures to support repeatable release execution and team knowledge transfer.
+Automated Azure virtual machines, virtual networks, and Linux configuration with ARM templates, Ansible, and PowerShell.
+Integrated Azure Key Vault with application delivery and managed secure database connectivity and environment credentials.
+Investigated deployment and application failures using ELK, Azure Monitor, and Log Analytics, coordinating fixes and validating restored service behavior.
+DevOps Engineer | Mphasis Ltd 08/2016 - 12/2018
+Client: HPE
+Skills Used: Azure, Git, Terraform, ARM templates, Ansible, Python
+Created repeatable build and deployment pipelines for API, database, and UI components, promoting consistent artifacts across environments.
+Automated Azure infrastructure and application provisioning with Terraform, ARM templates, and Ansible to standardize environment setup.
+Managed environment-specific release parameters and deployment documentation, keeping configuration and operational handoffs consistent across stages.
+Troubleshot failed releases with development and operations teams, documented corrective actions, and verified deployment recovery.
+Maintained Git branching practices and build-agent configuration to support controlled code integration and repeatable builds.
+Validated release packages and artifact versions before environment promotion, checking required configuration and deployment inputs.
+Coordinated release scheduling and readiness with developers and QA, tracking build dependencies and resolving handoff blockers.
+Collected build logs and deployment verification results for release handovers, helping support teams trace failures to configuration or package changes.
+Developed Python and PowerShell scripts for recurring deployment and administration tasks, reducing manual release preparation.
+EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada

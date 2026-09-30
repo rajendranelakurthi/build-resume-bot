@@ -1,8 +1,8 @@
 {
   "person_id": "rajendra-prasad-n",
-  "page_title": "Rajendra Prasad N - Lead Azure DevOps Engineer",
-  "full_name": "Rajendra Prasad N",
-  "headline": "Lead Azure DevOps Engineer | AWS & Bicep",
+  "page_title": "Rajendra P N - Lead Azure DevOps Engineer",
+  "full_name": "Rajendra P N",
+  "headline": "Lead Azure DevOps Engineer | AI | Android/iOS",
   "location": "Dallas, TX",
   "email": "rajendran.scm@gmail.com",
   "contact_lines_html": [
@@ -12,68 +12,61 @@
     "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
     "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
   ],
-  "summary_html": "<strong>Lead Azure DevOps Engineer with 10+ years of enterprise delivery, cloud infrastructure, automation, and production support experience.</strong> Builds <strong>Azure DevOps pipelines, Python automation, and Bicep infrastructure</strong>, with hands-on AWS provisioning and application delivery. Experienced in certificate lifecycle management, secure credentials, encrypted database connections, and root cause analysis. Partners with engineering teams to improve release verification, recovery planning, and operational readiness.",
+  "summary_html": "<strong>Lead Azure DevOps Engineer with 10+ years of experience in build automation, release engineering, and production delivery.</strong> Specializes in <strong>Azure Pipelines, Azure Repos, Azure Artifacts, and Bitrise for Android/iOS delivery</strong>, spanning reusable YAML workflows, signing, packaging, and publishing to Google Play and the App Store. Builds repeatable embedded software release workflows and coordinates versioned artifacts, verification, and release readiness. Automates operations with Python and PowerShell, using AI-assisted scripting selectively with review and testing.",
   "certification_badges_image": "assets/rajendra-certifications.svg",
-  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "certification_badges_alt": "Rajendra P N certification badges",
   "skills": [
-    "Azure",
     "Azure DevOps",
     "Azure Pipelines",
-    "Python",
-    "AWS",
-    "Bicep",
-    "PowerShell",
-    "Azure SQL",
-    "Key Vault",
+    "Azure Repos",
+    "Azure Artifacts",
+    "Bitrise",
+    "Android",
+    "iOS",
+    "Google Play",
+    "App Store Connect",
     "Terraform",
-    "AKS"
+    "Python",
+    "PowerShell"
   ],
   "achievements": [
     {
-      "tag": "Delivery Engineering",
-      "text": "Built reusable CI/CD workflows for application and database releases with code reviews, environment approvals, validation, and recovery planning."
+      "tag": "Azure Pipeline Engineering",
+      "text": "Standardized reusable YAML pipelines, source-control policies, artifact promotion, environment configuration, and approval gates for repeatable software delivery."
     },
     {
-      "tag": "Cloud Automation",
-      "text": "Developed Python automation and reusable Azure and AWS infrastructure workflows to support provisioning, release checks, and operational troubleshooting."
+      "tag": "Android/iOS Publishing",
+      "text": "Automated mobile builds and release packaging with Bitrise, coordinating signing, provisioning, store submissions, and verification for Google Play and the App Store."
     },
     {
-      "tag": "Secure Azure Operations",
-      "text": "Combined infrastructure automation, credential controls, certificate management, and monitoring to strengthen release readiness and production support."
+      "tag": "Embedded Release Automation",
+      "text": "Organized embedded software builds into traceable release packages with versioned binaries, configuration baselines, build logs, and verification evidence."
     }
   ],
   "skill_sections": [
     {
-      "title": "Azure DevOps & CI/CD",
-      "content": "Azure Pipelines, YAML templates, Azure Repos, Azure Artifacts, Git, pull requests, build agents, environments, approvals, deployment verification"
+      "title": "Azure DevOps Engineering",
+      "content": "Multi-stage YAML pipelines, reusable templates, Azure Repos, branch policies, pull requests, Azure Artifacts feeds, build agents, deployment environments, approvals"
     },
     {
-      "title": "Software & Automation",
-      "content": "Python, PowerShell, Bash, C#/.NET, Java, REST APIs, FastAPI, Azure CLI, MSBuild, Maven, JSON, YAML"
+      "title": "Android & iOS Delivery",
+      "content": "Bitrise workflows, Android Gradle builds, APK/AAB packaging, keystores, Xcode archives, iOS certificates, provisioning profiles, TestFlight, Google Play, App Store Connect"
     },
     {
-      "title": "AWS Cloud & Operations",
-      "content": "AWS, EC2, S3, IAM, VPC, EKS, CloudWatch, CloudTrail, Terraform, CloudFormation, AWS CLI, private networking"
+      "title": "Embedded Build & Release",
+      "content": "Automated compilation, build-toolchain configuration, versioned firmware artifacts, release manifests, checksums, build logs, integration verification, release baselines"
     },
     {
-      "title": "Azure Infrastructure as Code",
-      "content": "Bicep modules and parameters, validation, what-if reviews, ARM templates, Terraform, Ansible, virtual networks, compute, storage"
+      "title": "Azure Infrastructure & Deployment",
+      "content": "Terraform, Bicep, ARM templates, Azure CLI, AKS, Azure Container Registry, Helm, Argo CD, environment parameters, deployment validation"
     },
     {
-      "title": "Security & Connectivity",
-      "content": "Azure Key Vault, certificates and renewal, TLS database connections, credential management, Entra ID, managed identities, RBAC, private endpoints"
+      "title": "Delivery Security & Quality",
+      "content": "Azure Key Vault, service connections, workload identity federation, secret variables, secure files, SonarQube, security scanning, automated tests, release evidence"
     },
     {
-      "title": "Containers & Platforms",
-      "content": "AKS, Azure Container Registry, Docker, Kubernetes, Helm, ArgoCD, Linux, Windows Server, environment configuration"
-    },
-    {
-      "title": "Observability & Troubleshooting",
-      "content": "Azure Monitor, Log Analytics, Application Insights, Prometheus, Grafana, Splunk, ELK, incident diagnosis, root cause analysis, runbooks"
-    },
-    {
-      "title": "Engineering Quality & Governance",
-      "content": "SonarQube, JFrog Xray, code reviews, automated tests, release evidence, security documentation, technical knowledge sharing, recovery planning"
+      "title": "Automation & Diagnostics",
+      "content": "Python, PowerShell, Bash, REST APIs, Azure Monitor, Log Analytics, Application Insights, root cause analysis; AI-assisted scripting and documentation with review and testing"
     }
   ],
   "experience": [
@@ -83,26 +76,24 @@
       "date_range": "08/2023 - Present",
       "skills_used": [
         "Azure DevOps",
-        "Python",
-        "AWS",
-        "Bicep",
+        "Azure Pipelines",
+        "Bitrise",
+        "Android/iOS",
+        "Azure Artifacts",
         "Key Vault",
-        "Azure SQL",
-        "AKS",
+        "Python",
         "PowerShell"
       ],
       "impact": [
-        "Built and maintained Azure DevOps CI/CD pipelines for application, database, and infrastructure releases, coordinating dependencies, environment approvals, and deployment verification.",
-        "Developed Python, PowerShell, and Bash automation for release checks, service integrations, database connectivity validation, and operational support.",
-        "Implemented Azure infrastructure as code with Bicep modules and parameter files, incorporating validation and what-if reviews into controlled pipeline deployments.",
-        "Provisioned and managed AWS infrastructure using Terraform, supporting EKS workloads, IAM controls, private networking, and consistent environment configuration.",
-        "Automated AWS application delivery with CodePipeline and Python/Bash workflows, integrating deployment checks, secure service connectivity, and production troubleshooting.",
-        "Managed certificate renewals and credential updates and configured encrypted SQL Server and Azure SQL connections, troubleshooting certificate trust, TLS, and authentication failures.",
-        "Integrated Azure Key Vault, federated pipeline authentication, and least-privilege deployment access to protect credentials used by application and data workflows.",
-        "Established Git branch protections, required reviews, merge controls, and versioned artifacts to improve code quality and release traceability.",
-        "Troubleshot application, infrastructure, pipeline, and data failures using Azure Monitor, deployment logs, and execution history; documented root causes and recovery procedures.",
-        "Coordinated schema changes, application compatibility checks, smoke tests, and rollback planning with development, QA, and data engineering teams.",
-        "Produced deployment evidence, environment specifications, and operational documentation to support security reviews, release decisions, and team knowledge transfer."
+        "Engineered multi-stage Azure Pipelines with reusable YAML templates for build, test, package, and deployment stages, standardizing environment parameters and approval gates.",
+        "Automated Android builds with Bitrise and Gradle, managed signing inputs and APK/AAB packaging, and published approved releases to Google Play with release verification.",
+        "Built iOS delivery workflows in Bitrise for Xcode archive/export, certificate and provisioning-profile handling, TestFlight distribution, and App Store submission and publishing coordination.",
+        "Automated embedded software build and release workflows, capturing toolchain configuration, versioned binaries, checksums, and release manifests for reproducible delivery.",
+        "Established Azure Repos branch policies and pull-request checks; published versioned packages and build artifacts for controlled promotion between environments.",
+        "Protected pipeline credentials with Azure Key Vault, secure files, and least-privilege service connections; troubleshot signing, provisioning, and authentication failures.",
+        "Integrated automated tests, static analysis, security checks, and deployment evidence into release gates; coordinated readiness and issue resolution with development and QA.",
+        "Developed Python and PowerShell release utilities; used AI-assisted script drafting and documentation with code review and test validation.",
+        "Diagnosed build, deployment, and application failures through Bitrise logs, Azure Monitor, and Log Analytics, coordinating fixes and post-release verification."
       ]
     },
     {
@@ -111,18 +102,22 @@
       "date_range": "03/2023 - 08/2023",
       "skills_used": [
         "Azure DevOps",
+        "Bitrise",
+        "Android/iOS",
         "Git",
-        "Docker",
-        "Kubernetes",
-        "Jenkins",
-        "PowerShell"
+        "PowerShell",
+        "Build Agents"
       ],
       "impact": [
-        "Built reusable CI/CD stages for Azure-hosted applications, standardizing build-agent configuration, automated validation, environment settings, and release checks.",
-        "Supported .NET and Java delivery workflows with versioned artifacts, source-control reviews, container packaging, and deployment verification.",
-        "Administered Linux and Windows build agents and Kubernetes workloads, diagnosing pipeline, dependency, credential, and runtime failures.",
-        "Maintained separate development, QA, and production configuration and coordinated application and database releases with engineering teams.",
-        "Improved release reliability through secure runner practices, image validation, branch controls, and documented troubleshooting procedures."
+        "Built reusable Azure DevOps stages for compilation, automated tests, artifact publication, and release approvals across development, QA, and production.",
+        "Maintained Bitrise Android and iOS build workflows, resolving dependency, signing, provisioning, and packaging failures before release handoff.",
+        "Coordinated Google Play and App Store release preparation with application teams, validating build versions, environment settings, and published release status.",
+        "Integrated embedded software build outputs into versioned release packages and preserved configuration, build logs, and test evidence for integration handoff.",
+        "Administered Linux and Windows build agents, standardized tool dependencies, and diagnosed pipeline and credential failures.",
+        "Strengthened release controls with Git branch protections, secure runner configuration, artifact validation, and documented troubleshooting procedures for engineering handoffs.",
+        "Managed environment variables and protected build inputs to keep mobile and Azure application configuration consistent across release stages.",
+        "Preserved build identifiers, artifact versions, and test results for release reviews, enabling teams to trace delivered packages to source changes.",
+        "Coordinated release dependencies and readiness checks with developers and QA, tracking blockers through corrective action and verified handoff."
       ]
     },
     {
@@ -131,18 +126,23 @@
       "date_range": "12/2021 - 03/2023",
       "skills_used": [
         "Azure",
+        "Bitrise",
+        "Android/iOS",
         "Terraform",
-        "ARM templates",
         "AKS",
         "Python",
         "Azure Monitor"
       ],
       "impact": [
-        "Built GitHub Actions and Jenkins pipelines for Azure application and database releases, coordinating service rollout and post-deployment validation.",
-        "Provisioned Azure infrastructure through Terraform and ARM templates and deployed containerized services to AKS using Helm and ArgoCD.",
-        "Developed Python, Bash, and PowerShell automation for release checks and operational tasks, publishing versioned artifacts for repeatable deployments.",
-        "Used Azure Monitor, Log Analytics, and pipeline telemetry to investigate deployment delays, infrastructure failures, and application connectivity issues.",
-        "Partnered with distributed engineering teams to resolve release blockers, improve delivery documentation, and strengthen production readiness."
+        "Automated Azure application delivery with pipeline checks, versioned artifacts, environment-specific configuration, and post-deployment verification.",
+        "Supported Bitrise Android and iOS build and release pipelines, preparing signed packages and coordinating Google Play and App Store publishing activities.",
+        "Investigated mobile workflow failures using build logs, dependency configuration, signing inputs, and artifact metadata; documented fixes for repeatable releases.",
+        "Provisioned Azure infrastructure through Terraform and ARM templates and deployed services to AKS using Helm and Argo CD.",
+        "Developed Python and PowerShell utilities for release checks and recurring operational tasks, publishing reusable automation for consistent execution across environments.",
+        "Correlated Azure Monitor, Log Analytics, and pipeline telemetry to isolate deployment failures and service-connectivity issues; coordinated corrective actions and verification with engineering teams.",
+        "Maintained environment-specific Terraform parameters and deployment configuration to keep Azure infrastructure changes repeatable across stages.",
+        "Coordinated mobile package versions and Azure service compatibility checks before release, documenting deployment order and recovery steps.",
+        "Published release runbooks and troubleshooting guidance for distributed teams, capturing verification results and operational handoff requirements."
       ]
     },
     {
@@ -163,7 +163,11 @@
         "Developed Python FastAPI integrations for Jenkins, Jira, and JFrog to automate project onboarding and reduce manual release coordination.",
         "Standardized build, test, artifact publication, and promotion workflows with SonarQube and secure secrets handling.",
         "Administered CloudBees Jenkins, JFrog Artifactory, and Xray and maintained shared libraries for consistent artifact versioning.",
-        "Built Terraform modules for Azure networking and AKS and used Prometheus, Grafana, and Ansible automation to support operational diagnosis."
+        "Built reusable Terraform modules for Azure networking and AKS, standardizing infrastructure configuration alongside application release workflows.",
+        "Used Prometheus and Grafana telemetry with Ansible operational automation to investigate platform issues and support reliable application releases.",
+        "Managed environment configuration and pipeline credentials for application delivery, separating release inputs across development and production stages.",
+        "Coordinated application and database release dependencies with engineering teams, checking deployment readiness and recovery procedures.",
+        "Documented artifact versions, promotion decisions, and operational handoffs to make release execution traceable and easier to support."
       ]
     },
     {
@@ -182,8 +186,13 @@
       "impact": [
         "Built Jenkins and Maven delivery pipelines for REST microservices across test, security-validation, UAT, and production environments.",
         "Automated Azure virtual machines, virtual networks, and Linux configuration with ARM templates, Ansible, and PowerShell.",
-        "Managed Key Vault integration and secure database connectivity and coordinated release configuration and verification with developers and QA.",
-        "Packaged Kubernetes services with Helm and used ELK, Azure Monitor, and Log Analytics to troubleshoot deployment and application failures."
+        "Integrated Azure Key Vault with application delivery and managed secure database connectivity and environment credentials.",
+        "Coordinated release configuration, application checks, and deployment verification with developers and QA before environment promotion.",
+        "Packaged Kubernetes services with Helm, maintaining deployment configuration for consistent releases across Azure-hosted environments.",
+        "Investigated deployment and application failures using ELK, Azure Monitor, and Log Analytics, coordinating fixes and validating restored service behavior.",
+        "Maintained version-controlled environment parameters and deployment scripts to keep Azure application configuration consistent across release stages.",
+        "Coordinated build artifacts and application dependencies for UAT and production handoffs, checking release versions before deployment.",
+        "Documented deployment sequences, troubleshooting steps, and recovery procedures to support repeatable release execution and team knowledge transfer."
       ]
     },
     {
@@ -201,9 +210,14 @@
       ],
       "impact": [
         "Created repeatable build and deployment pipelines for API, database, and UI components, promoting consistent artifacts across environments.",
-        "Automated Azure infrastructure and application deployments with Terraform, ARM templates, Ansible, Python, and PowerShell.",
-        "Maintained Git branching practices, build agents, environment-specific release parameters, and deployment documentation.",
-        "Troubleshot failed releases with development and operations teams and documented corrective actions and verification procedures."
+        "Automated Azure infrastructure and application provisioning with Terraform, ARM templates, and Ansible to standardize environment setup.",
+        "Developed Python and PowerShell scripts for recurring deployment and administration tasks, reducing manual release preparation.",
+        "Maintained Git branching practices and build-agent configuration to support controlled code integration and repeatable builds.",
+        "Managed environment-specific release parameters and deployment documentation, keeping configuration and operational handoffs consistent across stages.",
+        "Troubleshot failed releases with development and operations teams, documented corrective actions, and verified deployment recovery.",
+        "Validated release packages and artifact versions before environment promotion, checking required configuration and deployment inputs.",
+        "Coordinated release scheduling and readiness with developers and QA, tracking build dependencies and resolving handoff blockers.",
+        "Collected build logs and deployment verification results for release handovers, helping support teams trace failures to configuration or package changes."
       ]
     }
   ],
@@ -217,12 +231,12 @@
     "Microsoft Certified: Azure DevOps Engineer Expert",
     "Microsoft Certified: Azure Fundamentals",
     "GitLab Certified Associate",
-    "AWS Certified Solutions Architect - Associate",
     "MuleSoft Certified Developer - Level 1"
   ],
   "notes": [
-    "Azure-led branch profile with user-requested AWS experience. Preserve employment titles, dates, education, and certifications.",
-    "User requested Lead Azure DevOps Engineer headline, removal of SSIS, and emphasis on AWS and Bicep. Certificate lifecycle and encrypted database connection experience confirmed."
+    "Preferred display name for all future resumes: Rajendra P N. Preserve internal person ID.",
+    "User explicitly requested Azure-only content, exact header, embedded build/release points, and Bitrise Android/iOS build and store-publishing points; mobile experience placed under latest three employers as requested.",
+    "Keep 10+ years wording. No medical-device or IEC 62304 compliance claims."
   ],
-  "achievements_title": "Azure DevOps & Software Delivery Highlights"
+  "achievements_title": "Azure & Mobile DevOps Delivery Highlights"
 }

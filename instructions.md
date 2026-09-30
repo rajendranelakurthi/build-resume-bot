@@ -168,13 +168,14 @@ If the user does not name a level:
 - take responsibility for keeping `main` updated with shared changes
 - take responsibility for updating the corresponding specialized branches locally after `main` changes
 
-## Persistent Rajendra preferences (2026-09-16)
-- Contact email: **rajendran.scm@gmail.com**, in both email and contact_lines_html.
-- Header: **Lead DevOps Engineer | Multi-Cloud**. Do not change designation or add tool names based on a JD; only an explicit user request can change it.
-- The reusable DataOps base is synchronized between resume_data/people/rajendra-prasad-n.json and plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json.
-- The user requested Liquibase and Snowflake in every project in the current Aggressive DataOps base.
+## Persistent Rajendra preferences (updated 2026-09-30)
+- Display name in every future resume and template-generated output: **Rajendra P N**. Retain internal person ID for compatibility.
+- Azure resume header: **Lead Azure DevOps Engineer | AI | Android/iOS**.
+- Keep **10+ years** experience wording.
+- On the Azure branch, focus exclusively on deep Azure DevOps and Android/iOS mobile delivery. Omit multi-cloud wording, AWS technologies, and AWS certification from the displayed resume.
+- Emphasize Bitrise builds, signing, provisioning, packaging, Google Play and App Store publishing, and embedded software build/release workflows. Bitrise belongs under the latest three employers per user instruction.
+- Keep AI usage modest and tied to reviewed, tested automation and documentation.
+- Synchronize reusable profile data in resume_data/people and plugin assets/people. Templates render the display name from full_name; do not hardcode another name.
 - The user will commit changes; leave this work uncommitted.
 
-- On `feature/rajendrapn-azure`, use the Multi-Cloud header above and Azure-focused content throughout. Keep **Lead DevOps Engineer** as the designation; do not carry over the AWS/SaaS header from another branch.
-
-- Azure-branch content must emphasize Azure in the summary, skill ordering, infrastructure, containers, monitoring, and all project technology lists. Preserve AWS certification and broader AWS skills, but do not make projects AWS-first.
+- Every employer/project must contain at least nine distinct, substantive experience bullets in the standard base and all future resumes; preserve the requested domain focus and avoid repetitive filler.

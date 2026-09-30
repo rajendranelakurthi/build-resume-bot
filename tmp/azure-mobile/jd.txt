@@ -1,0 +1,13 @@
+Lead DevOps Engineer - Azure DevOps and Mobile DevOps
+Lead CI/CD pipelines, build automation, branching strategies, artifact management, environment configuration, and release processes.
+Create secure maintainable scripts, tools, services, and utilities to reduce manual effort, improve developer experience, and strengthen release quality.
+Coordinate Android and iOS release activities: build readiness, signing, provisioning, packaging, deployment, configuration, verification, monitoring, and issue resolution.
+Analyze logs, telemetry, configurations, and system interactions to reproduce issues, identify root causes, assess impact, and coordinate resolutions across software, cloud, mobile, device, and firmware environments.
+Incorporate automated testing, static analysis, security scanning, diagnostics, traceability, approvals, and release evidence within an IEC 62304 Class C software environment.
+Use approved AI copilots, LLMs, and agentic workflows for automation, troubleshooting, documentation, and knowledge retrieval while validating outputs and protecting sensitive information.
+Establish priorities, clarify requirements, identify risks and dependencies, communicate progress, and own work through verified completion.
+Collaborate with software, systems, firmware, cybersecurity, quality, regulatory, infrastructure, clinical, product, and external teams.
+Experience with Azure DevOps, GitHub Actions, Git, Argo CD, Terraform, automated builds, artifact repositories, and deployment automation.
+Experience with Android and/or iOS releases, connected medical products, embedded systems, firmware integration, Bluetooth Low Energy, device simulators, hardware-in-the-loop, or mobile-device management.
+Regulated or quality-controlled software environments; familiarity with IEC 62304 Class C; Visual Studio and development tooling.
+Focus primarily on Azure DevOps and Mobile DevOps with a small amount of AI-assisted automation.

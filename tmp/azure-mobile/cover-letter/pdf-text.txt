@@ -1,0 +1,36 @@
+Pages: 1
+Rajendra P N
+Lead Azure DevOps Engineer | AI | Android/iOS
+Dallas, TX |
++1 (469) 926-4201 | rajendran.scm@gmail.com
+Re: Lead DevOps Engineer
+Dear Hiring Manager,
+I am excited to apply for the Lead DevOps Engineer role. With 10+ years of experience in build
+automation, release engineering, and production delivery, I bring a strong combination of Azure
+DevOps engineering, Android/iOS release automation, and embedded software build and release
+support. The opportunity to connect these disciplines in a medical-product environment particularly
+interests me: reliable delivery, clear release evidence, and careful verification have a direct bearing on
+the quality of the product people depend on.
+In my current role at AT&T, I engineer reusable, multi-stage Azure Pipelines covering builds, tests,
+packaging, and deployments. My work includes Azure Repos branch policies, versioned artifacts,
+environment configuration, approval gates, and secure pipeline access through Azure Key Vault. I
+also develop Python and PowerShell utilities to simplify release preparation and troubleshooting. This
+experience aligns closely with your need for a hands-on lead who can improve delivery practices and
+take work from an initial requirement through verified completion.
+Mobile delivery is another close match. Across my recent roles at AT&T, GlobalLogic, and Akamai, I
+have supported Bitrise workflows for Android and iOS builds and releases. My experience covers
+Gradle builds, APK/AAB packaging, signing inputs, Xcode archives, provisioning profiles, TestFlight
+distribution, and Google Play and App Store publishing activities. I also bring embedded build and
+release experience involving versioned binaries, toolchain configuration, checksums, and release
+manifests, helping teams maintain traceability across delivered software components.
+I approach release quality through automated tests, static analysis, security checks, review controls,
+and documented verification. When issues arise, I use build logs, Azure Monitor, and Log Analytics to
+investigate causes and coordinate fixes with development and QA. I would bring that discipline to your
+IEC 62304 Class C environment, working closely with quality, regulatory, cybersecurity, and product
+teams to follow established procedures. I use AI-assisted scripting and documentation selectively,
+with engineering review, test validation, and care for sensitive information.
+I would welcome the opportunity to discuss how my Azure and mobile delivery background can help
+your team launch dependable products and improve the engineering experience. Thank you for
+considering my application.
+Sincerely,
+Rajendra P N
