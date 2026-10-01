@@ -1,0 +1,5 @@
+Release and Deployment Engineer
+8+ years in release management, DevOps, deployment engineering, production support. Azure DevOps, Jenkins, Git, GitHub, GitLab, CI/CD, change management, ITIL, Azure, AWS, PowerShell, Python, Bash, environment management, deployment troubleshooting, communication and stakeholders.
+Plan release calendars and coordinate development, test, staging and production deployments. Package, implement, validate and roll back releases. Support CAB approvals, change reviews, readiness reviews and release documentation. Smoke testing, post-deployment monitoring, incident triage, release metrics, configuration consistency, dependency coordination, RCA, problem management, runbooks, knowledge articles, security, audit and governance.
+Preferred Kubernetes, Docker, Terraform, Azure Monitor, Datadog, Splunk, ELK, AppDynamics, ServiceNow, banking/financial services, disaster recovery.
+Key technologies Azure DevOps, Jenkins, Git, ServiceNow, Azure, AWS, Kubernetes, Docker, Terraform, PowerShell, Python, YAML, SQL, SonarQube, Nexus, Artifactory, Datadog, Splunk.

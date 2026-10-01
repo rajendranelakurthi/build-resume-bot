@@ -176,3 +176,5 @@ If the user does not name a level:
 - Do not infer Bazel, C/C++, Nix, QNX, thread-safe embedded application development, monorepo ownership, or FDA experience from the JD.
 - Use the packaged workflow with --domain devops-cloud and outputs in tailored_resume/rajendra-prasad-n/.
 - Leave work uncommitted for the user, following the established session preference.
+
+- User confirmed ServiceNow change-request/CAB approval and ITIL process experience on 2026-10-01; employer-specific placement remains unspecified.

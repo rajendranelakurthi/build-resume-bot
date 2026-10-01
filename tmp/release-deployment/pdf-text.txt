@@ -1,0 +1,150 @@
+Pages: 2
+PAGE 1: RAJENDRA P N
+RELEASE & DEPLOYMENT ENGINEER | AZURE DEVOPS | AWS
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Release & Deployment Engineer with 10+ years of experience in software delivery, DevOps, and production support.
+Coordinates releases across development, test, staging, and production, combining Azure DevOps, Jenkins, Git, and deployment
+automation with environment readiness, ServiceNow change requests, CAB coordination, ITIL processes, validation, and rollback
+planning. Automates operational tasks with PowerShell, Python, and Bash; troubleshoots deployment failures and supports incident
+recovery. Partners with Development, QA, Infrastructure, Security, and business stakeholders to deliver controlled releases with clear
+communication and operational evidence.
+CERTIFICATIONS
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure
+Fundamentals
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure
+DevOps Engineer Expert
+aws
+certified
+Solutions
+Architect
+A S S O C I AT E
+AWS Certified Solutions
+Architect - Associate
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer -
+Level 1
+RELEASE EXECUTION & PRODUCTION RELIABILITY HIGHLIGHTS
+Controlled Releases Supported ServiceNow change requests and CAB approval coordination, aligning risk assessments, implementation plans, validation
+evidence, and rollback procedures with ITIL processes.
+Production Support Investigated deployment failures, coordinated incident response, and converted recurring issues into documented fixes and improved
+release procedures.
+Delivery Automation Built reusable CI/CD workflows and Python, PowerShell, and Bash utilities for repeatable deployments and operational checks.
+RELEASE, DEPLOYMENT & OPERATIONS SKILLS
+RELEASE & DEPLOYMENT MANAGEMENT
+ServiceNow change requests, ITIL change/release processes, CAB
+approvals, release calendars, readiness reviews, deployment sequencing,
+rollback plans, release notes
+PRODUCTION SUPPORT & OBSERVABILITY
+Azure Monitor, CloudWatch, Splunk, ELK, AppDynamics, Prometheus,
+Grafana, smoke tests, incident triage, root cause analysis, recovery
+runbooks
+CI/CD & SOURCE CONTROL
+Azure DevOps, Azure Pipelines, Jenkins, GitHub Actions, GitLab CI/CD,
+YAML, Git, pull requests, branch protection, release tags, pipeline
+maintenance
+CLOUD & ENVIRONMENT MANAGEMENT
+Azure, AWS, Terraform, Ansible, Docker, Kubernetes, Helm, environment
+configuration, secrets, deployment targets, infrastructure validation
+ARTIFACTS, QUALITY & GOVERNANCE
+Artifactory, Nexus, SonarQube, JFrog Xray, versioned packages, security
+checks, release evidence, access controls, audit readiness, operational
+documentation
+SCRIPTING & AUTOMATION
+PowerShell, Python, Bash, shell scripting, REST APIs, FastAPI, configuration
+checks, release status reporting, deployment verification
+PROFESSIONAL EXPERIENCE
+Lead DevOps Engineer | AT&T Services Inc. 08/2023 - Present
+Skills Used: Azure DevOps, Git, AWS, Python, PowerShell, Bash, Terraform, Kubernetes
+Coordinated smoke tests and post-release monitoring; triaged deployment failures and production incidents with application and infrastructure owners.
+Coordinated release scope, schedules, dependencies, implementation steps, and production readiness with Development, QA, Infrastructure, Security, and
+business stakeholders.
+Built and maintained Azure DevOps and Git-based delivery workflows with build, test, packaging, environment promotion, and post-deployment validation
+stages.
+Prepared deployment plans covering artifact versions, environment prerequisites, execution order, owners, smoke tests, and rollback criteria.
+Supported change reviews with technical risk assessments, dependency checks, test evidence, and recovery procedures before approved deployment windows.
+Automated configuration checks, release preparation, deployment verification, and operational tasks using PowerShell, Python, and Bash.
+Validated environment configuration, secrets access, infrastructure changes, and application dependencies before promoting releases into production.
+Maintained release schedules and communicated readiness, blockers, approval status, and deployment progress to engineering and support teams.
+Maintained Git branch protections, reviewed changes, artifact versioning, and security checks to preserve traceability throughout release execution.
+Authored deployment guides and operational runbooks; documented root causes and incorporated incident lessons into release checks and recovery
+procedures.
+Senior DevOps Engineer | GlobalLogic 03/2023 - 08/2023
+Skills Used: Jenkins, GitLab CI, Git, Linux, Docker, Kubernetes
+Supported releases across development, QA, staging, and production, coordinating build readiness and deployment handoffs with application teams.
+Modernized Jenkins workflows into reusable GitLab CI pipelines while preserving build, test, packaging, and deployment requirements.
+Maintained environment-specific variables and release configuration to keep deployment inputs consistent across stages.
+Coordinated readiness checks and test evidence with QA and developers before environment promotion.
+Organized artifact feeds and package versions, ensuring teams promoted the intended release package and dependencies.
+PAGE 2: Troubleshot pipeline, container, and Kubernetes deployment failures and verified corrective actions with service owners.
+Documented release procedures, known issues, and operational handoffs to support repeatable delivery.
+Administered Linux and Windows build agents, resolving runner capacity, workspace, dependency, and credential failures.
+Applied branch protection, merge controls, and image-validation checks before application deployment.
+Senior DevOps Engineer II | Akamai Technologies 12/2021 - 03/2023
+Skills Used: Jenkins, GitHub Actions, AWS, Terraform, PowerShell, CloudWatch
+Built Jenkins and GitHub Actions pipelines for repeatable build, test, packaging, and application deployment workflows.
+Configured deployment groups and environment-specific release targets for controlled production rollouts.
+Created release documentation and recovery guidance, incorporating monitoring and backup controls into operational readiness.
+Coordinated infrastructure and application dependencies, deployment sequencing, and readiness checks with distributed engineering teams.
+Provisioned AWS environments with Terraform and integrated infrastructure validation into CI/CD execution.
+Automated recurring deployment and operational checks with PowerShell, Python, and shell scripts.
+Investigated deployment failures using pipeline logs and platform telemetry; coordinated recovery and post-deployment validation.
+Published versioned artifacts and maintained package-consumption patterns for traceable release promotion.
+Maintained release dashboards and defect-tracking visibility to communicate build health, blockers, and deployment status.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd 04/2020 - 12/2021
+Skills Used: Python, Jenkins, GitHub Actions, SonarQube, JFrog, Terraform, Kubernetes, Prometheus, Ansible
+Administered CloudBees Jenkins, JFrog Artifactory, and Xray to support controlled builds, secure packages, and production delivery.
+Provisioned deployment infrastructure using Terraform and Ansible and maintained environment configuration for Kubernetes workloads.
+Coordinated application and infrastructure delivery for SaaS and payment-platform workloads, aligning deployment dependencies and release readiness.
+Built Python FastAPI integrations between Jenkins, Jira, and JFrog to automate onboarding and release coordination.
+Standardized CI/CD stages for build, testing, quality checks, and artifact promotion with development teams.
+Used Prometheus and Grafana telemetry to assess platform health and investigate issues during production support.
+Partnered with developers on defect isolation, incident recovery, and post-release reviews.
+Documented corrective actions and reusable runbooks to reduce recurring support effort and improve release reliability.
+Developed Groovy shared libraries for consistent image versioning and artifact publication across services.
+Senior DevOps Engineer | HCL Technologies 02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: Kubernetes, Ansible, GitHub, Shell Scripting, Jenkins, Maven, Tomcat, JBoss, Helm
+Coordinated release configuration and deployment readiness with developers, QA, and infrastructure stakeholders.
+Built Jenkins and Maven delivery workflows for REST services across test, security-validation, UAT, and production.
+Maintained Helm packages and Kubernetes configuration for repeatable deployment across environments.
+Used ELK and cloud monitoring to investigate application and infrastructure failures affecting releases.
+Supported production deployment windows, application checks, and issue escalation with engineering teams.
+Automated infrastructure provisioning and configuration with PowerShell, Ansible, and version-controlled definitions.
+Validated application connectivity, credentials, and environment prerequisites before release execution.
+Documented deployment sequences, recovery procedures, and environment dependencies for operations handoff.
+Communicated platform priorities and release improvements to distributed stakeholders through technical reviews.
+DevOps Engineer | Mphasis Ltd 08/2016 - 12/2018
+Client: HPE
+Skills Used: Chef, Ansible, GitLab, Shell Scripting, Python, Maven, Tomcat, JBoss, Splunk, Nexus
+Managed environment-specific variables and configuration for development, test, and production deployments.
+Implemented Git branching practices and release versioning to control code promotion and package traceability.
+Validated release artifacts and prerequisites before controlled environment promotion.
+Automated deployment tasks using Python, shell scripts, and Ansible to reduce manual release preparation.
+Provisioned AWS infrastructure with Terraform and promoted reviewed infrastructure changes through pipelines.
+Investigated failed deployments with development and support teams and verified corrective actions.
+Authored deployment guides and operational handoff documentation for application and infrastructure releases.
+Created build and deployment workflows for API, database, and UI components across shared delivery environments.
+Maintained build agents and resolved dependency and execution-environment failures.
+EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada
