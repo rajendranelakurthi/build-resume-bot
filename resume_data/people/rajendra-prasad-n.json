@@ -1,10 +1,10 @@
 {
   "person_id": "rajendra-prasad-n",
-  "full_name": "Rajendra Prasad N",
+  "full_name": "Rajendra P N",
   "headline": "Lead DevOps Engineer | SaaS Platforms | AWS",
   "location": "Dallas, TX",
   "email": "rajendran.scm@gmail.com",
-  "page_title": "Rajendra Prasad N - Lead DevOps Engineer",
+  "page_title": "Rajendra P N - Lead DevOps Engineer",
   "summary_html": "<strong>DevOps Engineer with 10+ years of experience delivering CI/CD, cloud infrastructure, and production support</strong>, partnering closely with development teams to improve SaaS delivery and day-to-day engineering productivity. Hands-on background in <strong>CloudBees CI (Jenkins Enterprise), Jenkins Pipelines, Python, Groovy shared libraries, Docker, Kubernetes, Helm, ArgoCD, Terraform, and Ansible</strong>. Builds reusable delivery workflows and self-service platform automation with <strong>AWS and Azure</strong>. Owns technical delivery from requirements and planning through implementation, rollout, documentation, and operational support.",
   "achievements_title": "Key Platform Achievements",
   "contact_lines_html": [
@@ -15,7 +15,7 @@
     "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
   ],
   "certification_badges_image": "assets/rajendra-certifications.svg",
-  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "certification_badges_alt": "Rajendra P N certification badges",
   "skills": [
     "AWS",
     "Azure",

@@ -1,0 +1,4 @@
+Databricks Platform Engineer AWS Terraform Snowflake
+Senior AWS infrastructure and DevOps engineer automating, deploying, and operating Databricks and Snowflake platforms with Terraform. Infrastructure and platform automation focus.
+AWS Databricks managed workspace provisioning, cluster policies, Unity Catalog, metastore, serverless compute, IAM setup, jobs, notebooks, pipeline configuration, SQL warehouses, governance and operations.
+Include Databricks responsibilities in the first three employers; majority AWS Databricks platform deployment and management with selected Azure Databricks managed-service points.

@@ -1,0 +1,178 @@
+Pages: 2
+RAJENDRA P N
+DATABRICKS PLATFORM ENGINEER | AWS | AZURE | TERRAFORM
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Databricks Platform Engineer with 10+ years of infrastructure engineering, DevOps, and production operations experience.
+Owns Terraform-driven Databricks deployment on AWS, from account-level workspace foundations and private networking to Unity
+Catalog governance, compute policies, and operational readiness. Designs reusable platform modules, separates infrastructure and
+workspace lifecycles, and governs changes through reviewed plans and controlled promotion. Partners with security and data
+engineering teams on least-privilege access, production incident resolution, capacity and cost controls, with supporting Snowflake and
+Azure Databricks experience.
+CERTIFICATIONS
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure
+Fundamentals
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure
+DevOps Engineer Expert
+aws
+certified
+Solutions
+Architect
+A S S O C I AT E
+AWS Certified Solutions
+Architect - Associate
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer -
+Level 1
+DATABRICKS PLATFORM & INFRASTRUCTURE HIGHLIGHTS
+Platform Architecture Established modular AWS Databricks deployment patterns separating network, storage, account-level workspace provisioning, and
+workspace administration.
+Governance as Code Codified IAM trust, Unity Catalog storage access, catalog grants, compute policies, and service-principal permissions in reviewed
+Terraform changes.
+Production Ownership Connected infrastructure promotion, drift control, provisioning diagnostics, compute guardrails, and operational runbooks into a
+repeatable platform lifecycle.
+CORE TECHNOLOGIES
+DATABRICKS DEPLOYMENT ARCHITECTURE
+AWS/Databricks Terraform providers, account and workspace provider
+aliases, credential/storage/network configurations, reusable modules,
+workspace bootstrap
+AWS NETWORK & IDENTITY
+Customer-managed VPCs, private subnets, route tables, security groups,
+PrivateLink, DNS, cross-account IAM trust, S3 policies, KMS, service
+principals
+UNITY CATALOG & STORAGE GOVERNANCE
+Regional metastores, workspace assignments, catalogs, schemas, grants,
+storage credentials, external locations, volumes, DBFS migration
+COMPUTE & WORKLOAD ADMINISTRATION
+Cluster policies, access modes, runtime lifecycle, node/worker limits,
+autoscaling, auto-termination, SQL warehouses, serverless compute, jobs,
+notebooks, pipelines
+TERRAFORM DELIVERY & OPERATIONS
+Remote state, state isolation, locking, provider pinning, plan/apply gates,
+imports, drift detection, CI/CD, Python, Databricks APIs, audit logs, cost
+controls
+SUPPORTING DATA PLATFORMS
+Snowflake Terraform: warehouses, roles, grants, storage integrations; Azure
+Databricks: managed workspaces, VNet integration, ADLS Gen2, managed
+identities, Key Vault
+PROFESSIONAL EXPERIENCE
+Lead DevOps Engineer | AT&T Services Inc. 08/2023 - Present
+Skills Used: AWS, Databricks, Terraform, Unity Catalog, IAM, S3, Snowflake, Azure Databricks
+Owned the AWS Databricks platform deployment lifecycle, translating networking, security, data-access, and workload requirements into reusable Terraform
+modules and onboarding standards.
+Separated AWS foundations, account-level workspace creation, and workspace resources into distinct Terraform stages with provider aliases and explicit
+bootstrap dependencies.
+Provisioned workspace credential, storage, and network configurations; validated cross-account IAM trust, S3 policies, and deployment permissions before
+workspace creation.
+Designed customer-managed VPC deployments with private subnets, route tables, security groups, and PrivateLink; diagnosed DNS, endpoint, and control-
+plane connectivity failures.
+Governed Terraform changes with isolated remote state, locking, pinned providers, reviewed plans, and controlled applies; reconciled drift and imported existing
+resources safely.
+Established regional Unity Catalog metastores and workspace assignments; defined catalog/schema ownership, group grants, storage credentials, and S3
+external locations as code.
+Designed classic compute policies enforcing access modes, approved runtimes and node families, worker limits, required tags, and auto-termination to control
+risk and spend.
+Enabled serverless notebooks, jobs, and pipelines with separate access and connectivity checks; provisioned SQL warehouses with scaling, auto-stop, and
+workload permissions.
+Automated job graphs, schedules, retries, run-as identities, notebook deployment, and pipeline settings; validated service-principal access and storage
+dependencies before promotion.
+Led diagnosis of failed workspace deployments, compute startup, IAM/S3 access, and job execution using Terraform output, Databricks events, audit logs, and
+AWS telemetry.
+Assessed legacy DBFS mounts and init-script dependencies; planned migration to Unity Catalog volumes and workspace files with path, access, and execution
+validation.
+Codified Snowflake warehouses, roles, grants, and S3 storage integrations with Terraform; supported Azure Databricks VNet, managed-identity, ADLS, and Key
+Vault configuration.
+Senior DevOps Engineer | GlobalLogic 03/2023 - 08/2023
+Skills Used: AWS, Databricks, Terraform, Unity Catalog, IAM, S3, Snowflake, Azure Databricks
+Implemented AWS Databricks environment onboarding through parameterized Terraform modules, mapping workspace requirements to approved network, IAM,
+and storage configurations.
+Maintained account-level and workspace-level deployment stages, verifying workspace readiness before applying identities, compute policies, and workload
+resources.
+Validated cross-account role trust, S3 bucket access, subnet settings, and security-group rules to resolve workspace provisioning failures.
+Configured Unity Catalog metastore assignments and catalog/schema grants, coordinating workspace identity groups and data-owner access requirements.
+Tested storage credentials and external locations against S3 permissions, distinguishing AWS authorization failures from Unity Catalog grant issues.
+Implemented reusable cluster-policy definitions with runtime allowlists, worker bounds, tags, and termination settings; tested policy behavior before environment
+rollout.
+Configured SQL warehouse sizing, scaling, auto-stop, and access rights; investigated startup and connectivity issues with consuming teams.
+Managed notebook paths, job parameters, task dependencies, schedules, and pipeline permissions as version-controlled deployment configuration.
+Integrated Terraform checks and reviewed plans into GitLab CI, protecting credentials and isolating environment variables and state across deployments.
+Diagnosed DBFS mount and path failures affecting notebooks and jobs, tracing storage access through IAM roles and S3 policies.
+Automated Snowflake warehouse, schema, role, and grant changes with Terraform, reviewing access impact and configuration consistency before release.
+Supported Azure Databricks workspace and ADLS configuration; produced deployment checklists, support runbooks, and verification evidence for platform
+handoffs.
+Senior DevOps Engineer II | Akamai Technologies 12/2021 - 03/2023
+Skills Used: AWS, Databricks, Terraform, Unity Catalog, IAM, S3, Snowflake, Azure Databricks
+Built repeatable AWS Databricks workspace infrastructure with Terraform, organizing VPC, IAM, storage, and workspace inputs into reusable environment
+configurations.
+Managed workspace deployment dependencies across cross-account credentials, S3 storage, and network registration; resolved incomplete or failed
+provisioning operations.
+Validated subnet routing, security groups, DNS, and service connectivity with infrastructure teams before handing environments to data engineers.
+Supported Unity Catalog adoption as capabilities became available, establishing metastore assignments and coordinating catalog ownership and access
+requirements.
+Configured external storage access and catalog/schema grants, validating IAM trust and S3 permissions against intended workspace use.
+Standardized cluster policies for runtime selection, compute sizes, worker limits, tags, and idle termination; investigated policy-related startup failures.
+Administered SQL warehouse capacity, auto-stop, and permissions, troubleshooting availability and connection issues for analytics users.
+Automated notebook and job deployment parameters, schedules, retries, and pipeline configuration to make environment promotion repeatable.
+Integrated Terraform plans and deployment validation into Jenkins and GitHub Actions, using Python and shell utilities for configuration and access checks.
+Maintained DBFS mounts and file dependencies for existing workloads, documenting storage paths and resolving role, bucket-policy, and file-access failures.
+Provisioned Snowflake warehouse and access resources with Terraform; supported Azure Databricks workspace and storage integration for selected
+environments.
+Created platform runbooks covering provisioning failures, access checks, compute readiness, and release verification; coordinated incident resolution across
+distributed teams.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd 04/2020 - 12/2021
+Skills Used: AWS, Azure, CloudBees CI, Groovy, Python / FastAPI, JFrog, Terraform, Kubernetes
+Administered CloudBees Jenkins, JFrog Artifactory, and Xray for reliable builds and controlled releases.
+Developed Groovy shared libraries for consistent image versioning and artifact publication.
+Built Python FastAPI integrations across Jenkins, Jira, and JFrog for self-service project onboarding.
+Coordinated build dependencies, test stages, and artifact promotion with application teams.
+Provisioned AWS application infrastructure with Terraform and Ansible; supported Azure delivery integrations.
+Standardized Docker and Helm deployments for Kubernetes and payment-platform workloads.
+Developed Python Prometheus exporters and Ansible-managed Grafana monitoring stacks.
+Investigated production defects with developers and converted recurring incidents into platform fixes.
+Maintained Git review controls, deployment approvals, and release-readiness documentation.
+Senior DevOps Engineer | HCL Technologies 02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: AWS, Azure, Jenkins, Maven, Ansible, Kubernetes, Helm
+Partnered with developers and stakeholders on CI/CD roadmap and platform-delivery improvements.
+Built Jenkins and Maven workflows for REST microservices across test, UAT, and production.
+Managed Helm packages, Kubernetes namespaces, services, and deployment configuration.
+Supported AWS infrastructure and Azure integrations, troubleshooting compute, database, and access issues.
+Implemented ELK visibility and documented operational procedures for application support.
+Automated Linux configuration and dependency setup with Ansible and shell scripts.
+Maintained infrastructure parameters, secrets access, and environment validation.
+Coordinated release readiness, recovery procedures, and post-deployment checks.
+Investigated infrastructure failures and documented root causes and corrective actions.
+DevOps Engineer | Mphasis Ltd 08/2016 - 12/2018
+Client: HPE
+Skills Used: AWS, Azure, Terraform, Ansible, Python, Linux, Nexus
+Built CI/CD workflows for API, database, and UI components with controlled artifact promotion.
+Provisioned AWS infrastructure with Terraform and automated Linux deployments using Ansible.
+Maintained build agents and Python/shell utilities for repeatable builds and administration.
+Defined Git branching, artifact versioning, and environment configuration standards.
+Authored reusable Terraform modules and promoted reviewed changes through pipelines.
+Automated cloud administration and deployment checks with Python and shell scripts.
+Managed Ansible playbooks for Linux configuration and release preparation.
+Troubleshot build-agent, dependency, and environment failures with engineering teams.
+Documented infrastructure dependencies, deployment steps, and operational handoffs.
+EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada
