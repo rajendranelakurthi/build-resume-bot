@@ -1,0 +1,15 @@
+Drive new build and release initiatives, including improvements to the build system, continuous integration, developer productivity, and code quality.
+Provide expert Bazel build system support to platform and application software teams across multiple product lines.
+Develop tools and processes to efficiently support code sharing in a large monorepo.
+Support integration of AI tools and automation in software development, issue tracking, release management, and documentation.
+Identify and resolve bottlenecks to software development.
+Collaborate on development of Groovy CI/CD pipelines in Jenkins.
+Experience with software build and release processes.
+Significant experience in software development with C/C++ and Python.
+Experience troubleshooting complex systems in software, manufacturing or systems engineering.
+Great communication and analytical skills. Hands on Linux. High-quality technical documentation.
+Experience managing branches and releases with Git.
+Experience building infrastructure as code with Nix or Ansible.
+Experience developing thread safe embedded C++ applications.
+Experience designing software products in an FDA or other regulated industry.
+Realtime operating system experience, such as QNX.

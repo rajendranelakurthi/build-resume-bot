@@ -167,3 +167,12 @@ If the user does not name a level:
 - before any `git push`, stop and ask the user for permission
 - take responsibility for keeping `main` updated with shared changes
 - take responsibility for updating the corresponding specialized branches locally after `main` changes
+
+## Build and release branch defaults
+- Display name: Rajendra P N. Keep 10+ years experience wording.
+- Use a build-and-release headline and content on feature/buildnrelease; preserve historical employer titles and dates.
+- All future resumes and the standard base require at least nine substantive bullets per role.
+- Prioritize build systems, Jenkins/Groovy, Python, Linux, Git, artifact management, Ansible, developer productivity, AI-assisted automation, and documentation.
+- Do not infer Bazel, C/C++, Nix, QNX, thread-safe embedded application development, monorepo ownership, or FDA experience from the JD.
+- Use the packaged workflow with --domain devops-cloud and outputs in tailored_resume/rajendra-prasad-n/.
+- Leave work uncommitted for the user, following the established session preference.

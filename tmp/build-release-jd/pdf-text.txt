@@ -1,0 +1,151 @@
+Pages: 3
+PAGE 1: RAJENDRA P N
+LEAD BUILD & RELEASE ENGINEER | CI/CD & DEVELOPER PRODUCTIVITY
+rajendran.scm@gmail.com
++1 (469) 926-4201
+Dallas, TX
+linkedin.com/in/rajendranelakurthi
+rajendranelakurthi.github.io
+Lead Build & Release Engineer with 10+ years of experience in software delivery, build automation, and production troubleshooting.
+Engineers Jenkins pipelines, Python automation, Git release workflows, and Linux build environments to improve developer productivity
+and release quality. Brings experience with reusable pipeline libraries, artifact repositories, Ansible configuration management, and cross-team
+issue resolution. Uses AI-assisted engineering with human review to support automation, troubleshooting, and technical documentation.
+CERTIFICATIONS
+GITLAB
+CERTIFIED
+ASSOCIATE
+GitLab Certified Associate
+Microsoft
+C E R T I F I E D
+AZURE
+FUNDAMENTALS
+Microsoft Certified: Azure
+Fundamentals
+Microsoft
+C E R T I F I E D
+AZURE
+DEVOPS ENGINEER
+EXPERT
+Microsoft Certified: Azure
+DevOps Engineer Expert
+aws
+certified
+Solutions
+Architect
+A S S O C I AT E
+AWS Certified Solutions Architect
+- Associate
+CERTIFIED
+MuleSoft
+Developer
+LEVEL 1
+MuleSoft Certified Developer -
+Level 1
+BUILD & RELEASE ENGINEERING HIGHLIGHTS
+Developer Productivity Developed Python automation and service integrations to streamline project onboarding, pipeline administration, and recurring release tasks.
+Build Automation Standardized reusable CI/CD workflows, build-agent configuration, artifact publication, and release checks across engineering teams.
+Release Quality Combined Git controls, versioned artifacts, code-quality checks, troubleshooting, and technical documentation to strengthen repeatable delivery.
+BUILD, RELEASE & AUTOMATION SKILLS
+AI & ENGINEERING ENABLEMENT
+GitLab Duo, AI-assisted code and test drafting, human review, data-handling
+controls, Jira integrations, release documentation, technical runbooks
+BUILD & CONTINUOUS INTEGRATION
+Jenkins, CloudBees Jenkins, Groovy shared libraries, Jenkinsfile, GitLab CI/CD,
+GitHub Actions, Maven, Gradle, Make, ANT, MSBuild
+SCM & ARTIFACT MANAGEMENT
+Git, branching strategies, merge reviews, release tags, versioned packages, JFrog
+Artifactory, Nexus, dependency management, reusable build components
+INFRASTRUCTURE & CONFIGURATION
+Ansible roles and playbooks, Terraform, Docker, Kubernetes, Helm, version-
+controlled infrastructure, repeatable build environments
+CODE QUALITY & DIAGNOSTICS
+SonarQube, JFrog Xray, automated tests, security checks, build logs, pipeline
+metrics, root cause analysis, defect tracking
+AUTOMATION & LINUX
+Python, FastAPI, Bash, PowerShell, Linux, RHEL, Ubuntu, REST APIs, build
+agents, environment configuration, diagnostic scripts
+PROFESSIONAL EXPERIENCE
+Lead DevOps Engineer | AT&T Services Inc.
+08/2023 - Present
+Skills Used: GitLab, GitLab CI/CD, GitLab Duo, Git, Terraform, Docker, Helm, Bash, Python
+Administered source repositories, protected branches, merge approvals, access controls, and code ownership rules to support shared development and release governance.
+Developed Python and Bash tools for repository bootstrap, pipeline variables, runner setup, and release validation, reducing repetitive developer support work.
+Monitored runner capacity, pipeline duration, failure trends, queue time, cache efficiency, and deployment health to improve GitLab platform reliability and developer
+productivity.
+Created GitLab platform standards, migration playbooks, runner troubleshooting guides, branching documentation, and operational runbooks for engineering and support
+teams.
+Integrated GitLab DevSecOps controls into pipelines, including secret detection, dependency and container scanning, SAST, IaC validation, security gates, and policy-driven
+merge approvals.
+Architected reusable CI/CD templates with staged build execution, artifact retention, dependency caching, environment promotion, and controlled release approvals.
+Designed Git branching strategies covering feature, release, hotfix, and trunk-based workflows, with protected-branch controls and merge standards aligned to release
+governance and audit requirements.
+Integrated AI-assisted code explanation, test drafting, and documentation into engineering workflows, requiring human review and appropriate data handling.
+Operated Linux build runners with workload-specific pools, isolated execution, and cache configuration; investigated queue time, capacity, and build failures.
+PAGE 2: Senior DevOps Engineer | GlobalLogic
+03/2023 - 08/2023
+Skills Used: GitLab CI, Terraform, Jira, Kubernetes
+Troubleshot pipeline, container, and Kubernetes issues in partnership with development teams to accelerate delivery and reduce deployment failures.
+Improved Kubernetes release processes by standardizing deployment patterns, secure runner standards, controlled branch protections, container image validation, and
+pipeline checks across environments.
+Enforced SCM best practices and coached development teams on GitLab workflows, branch governance, and merge standards.
+Deployed and administered self-hosted and auto-scaling build agents for Linux and Windows workloads to support high-throughput CI/CD operations.
+Configured agent pools, runner templates, and execution policies to improve build reliability and reduce manual pipeline support.
+Created package views, artifact feeds, and upstream repository strategies aligned to application team delivery requirements.
+Migrated Jenkins pipelines to GitLab CI and modernized runner configuration to improve maintainability and pipeline reliability.
+Implemented GitLab CI best practices, including reusable templates, pipeline governance, and controlled branch-based execution.
+Managed Docker image build, provisioning, and runtime administration to standardize containerized delivery workflows.
+Senior DevOps Engineer II | Akamai Technologies
+12/2021 - 03/2023
+Skills Used: Python, Terraform, GitHub Actions, GitLab
+Troubleshot build and release pipeline failures and resolved deployment issues across distributed engineering teams.
+Deployed and configured self-hosted runners and build agents for Linux and Windows workloads supporting CI/CD and release automation.
+Built dashboards for CI/CD pipelines, work items, and defect tracking to improve engineering visibility and release governance.
+Established and maintained CI/CD pipelines with Jenkins, Git, Amazon ECR, and Kubernetes for repeatable application delivery.
+Configured deployment groups and environment-specific release targets to streamline controlled production rollouts.
+Drove continuous integration and continuous delivery practices using Git, Maven, Jenkins, Ansible, Docker, Kubernetes, and AWS services.
+Authored PowerShell and shell automation scripts and published them to shared repositories for consistent reuse across environments.
+Integrated delivery tooling with Slack, Microsoft Teams, Jenkins, GitHub, and SonarQube based on engineering and audit requirements.
+Published versioned artifacts to enterprise repositories and package managers to support downstream engineering consumption and traceability.
+Senior DevOps Engineer / Senior SRE | Turvo India Pvt Ltd
+04/2020 - 12/2021
+Skills Used: Python, Jenkins, GitHub Actions, SonarQube, JFrog, Terraform, Kubernetes, Prometheus, Ansible
+Partnered with peers to isolate product defects and participated in retrospectives with development teams and sprint managers to improve release quality.
+Developed Jenkins Groovy shared libraries for image versioning and artifact publication to private JFrog repositories, enabling reuse across application pipelines.
+Designed CI/CD pipelines for application and infrastructure deployments across AWS environments.
+Standardized GitHub Actions-based CI/CD patterns to accelerate software delivery and reduce pipeline drift across teams.
+Developed internal APIs in Python FastAPI to integrate Jenkins, Jira, and JFrog processes with platform automation.
+Automated onboarding of new projects to the enterprise DevOps platform through API-driven workflows.
+Developed custom Prometheus exporters in Python to capture application-specific operational metrics for SRE use cases.
+Administered CloudBees Jenkins, JFrog Artifactory, and Xray enterprise tooling for secure software delivery.
+Built resilient Ansible roles and playbooks to deploy highly available Grafana, Prometheus, and Node Exporter monitoring stacks.
+Senior DevOps Engineer | HCL Technologies
+02/2019 - 04/2020
+Client: Mercedes-Benz Research & Development India
+Skills Used: Kubernetes, Ansible, GitHub, Shell Scripting, Jenkins, Maven, Tomcat, JBoss, Helm
+Represented the DevOps team and presented CI/CD and infrastructure automation strategies for key engineering initiatives, including Model Finder.
+Built continuous delivery pipelines and supported REST-based microservices deployments across Demo, Test, Pentest, Training, CTDEV, Sandbox, UAT, and PROD
+environments.
+Designed monitoring architecture to collect application, infrastructure, and platform metrics using the ELK stack.
+Deployed Kubernetes manifests to on-premises clusters with Helm and standardized release packaging across services.
+Led platform review discussions with stakeholders in Germany to present roadmap enhancements and quarterly DevOps priorities.
+Served as acting scrum master by managing stories, epics, sprint commitments, and core scrum ceremonies.
+Built Kubernetes environments with pods, deployments, services, and ConfigMaps, and managed Helm-based release packaging for multi-namespace workloads.
+Used CloudFormation and PowerShell scripting to provision and manage cloud resources in a repeatable and auditable manner.
+Automated fleet-level configuration enforcement for Linux and Windows EC2 instances and managed secure access and database connectivity in line with enterprise security
+standards.
+DevOps Engineer | Mphasis Ltd
+08/2016 - 12/2018
+Client: HPE
+Skills Used: Chef, Ansible, GitLab, Shell Scripting, Python, Maven, Tomcat, JBoss, Splunk, Nexus
+Built YAML-based build and release pipelines with event-driven triggers to support continuous integration on every code change.
+Created deployment pipelines with Ansible to promote releases from development through production in a controlled, repeatable manner.
+Created CI/CD pipelines for multiple application components across shared delivery platforms.
+Executed Terraform deployments through pipelines and promoted the same artifact set across multiple environments through controlled environment selection.
+Authored and maintained Terraform modules and executed infrastructure changes through automated CI/CD workflows.
+Defined and implemented branching strategies for Git repositories to improve release governance and code promotion.
+Built and managed self-hosted build agents to support pipeline execution at scale.
+Documented build and deployment flows for core infrastructure, API, database, and UI components to improve team consistency.
+Managed variable groups and environment-specific configuration to separate deployments cleanly across stages.
+PAGE 3: EDUCATION
+B.Tech (2009-2013) in Information Technology
+Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada

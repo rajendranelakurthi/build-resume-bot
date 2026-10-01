@@ -1,8 +1,8 @@
 {
   "person_id": "rajendra-prasad-n",
-  "page_title": "Rajendra Prasad N - Lead DevOps Engineer",
-  "full_name": "Rajendra Prasad N",
-  "headline": "Lead DevOps Engineer | AWS Cloud, DevOps, SRE & Kubernetes",
+  "page_title": "Rajendra P N - Lead Build & Release Engineer",
+  "full_name": "Rajendra P N",
+  "headline": "Lead Build & Release Engineer | CI/CD & Developer Productivity",
   "location": "Dallas, TX",
   "email": "rajendran.scm@gmail.com",
   "contact_lines_html": [
@@ -12,91 +12,61 @@
     "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
     "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
   ],
-  "summary_html": "<strong>Lead DevOps Engineer with senior-level depth built through more than a decade of enterprise platform delivery, release leadership, cloud engineering, and Site Reliability ownership</strong> across large-scale production environments. Strong hands-on expertise with <strong>AWS, EKS, EC2, VPC, IAM, Route 53, ALB/NLB, CloudFront, S3, RDS, Lambda, CloudWatch, Terraform, CloudFormation, Ansible, Jenkins, GitHub Actions, GitLab, Bash, Python, and PowerShell</strong>, with additional background translating Azure-based delivery patterns into AWS-native architectures. Technically strong in architecting CI/CD platforms, automating infrastructure as code, modernizing Kubernetes workloads, hardening multi-account cloud environments, improving observability, and driving reliable production releases in highly regulated enterprise settings.",
+  "summary_html": "<strong>Lead Build & Release Engineer with 10+ years of experience in software delivery, build automation, and production troubleshooting.</strong> Engineers <strong>Jenkins pipelines, Python automation, Git release workflows, and Linux build environments</strong> to improve developer productivity and release quality. Brings experience with reusable pipeline libraries, artifact repositories, Ansible configuration management, and cross-team issue resolution. Uses AI-assisted engineering with human review to support automation, troubleshooting, and technical documentation.",
   "certification_badges_image": "assets/rajendra-certifications.svg",
-  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "certification_badges_alt": "Rajendra P N certification badges",
   "skills": [
-    "AWS",
-    "EKS",
-    "Terraform",
-    "CloudFormation",
     "Jenkins",
-    "GitHub Actions",
-    "Kubernetes",
-    "Ansible",
+    "Groovy",
     "Python",
-    "CloudWatch"
+    "Linux",
+    "Git",
+    "Ansible",
+    "Maven",
+    "Gradle",
+    "Make",
+    "JFrog Artifactory",
+    "Nexus",
+    "CI/CD"
   ],
   "achievements": [
     {
-      "tag": "Release Engineering",
-      "text": "Directed enterprise release orchestration, build automation, change governance, and deployment troubleshooting across AWS, Kubernetes, and mission-critical application platforms."
+      "tag": "Build Automation",
+      "text": "Standardized reusable CI/CD workflows, build-agent configuration, artifact publication, and release checks across engineering teams."
     },
     {
-      "tag": "AWS Platform Engineering",
-      "text": "Designed AWS-first infrastructure with Terraform, CloudFormation, and Ansible to standardize provisioning, improve repeatability, and support secure multi-environment delivery."
+      "tag": "Developer Productivity",
+      "text": "Developed Python automation and service integrations to streamline project onboarding, pipeline administration, and recurring release tasks."
     },
     {
-      "tag": "Kubernetes Platforms",
-      "text": "Delivered containerized workloads on EKS, OpenShift, Rancher, and self-managed Kubernetes environments using Helm, ArgoCD, and repeatable manifest-driven workflows."
-    },
-    {
-      "tag": "Observability",
-      "text": "Implemented CloudWatch, Prometheus, Grafana, Splunk, ELK, and custom telemetry pipelines to improve platform visibility, incident response, and operational diagnosis."
-    },
-    {
-      "tag": "DevSecOps & Governance",
-      "text": "Integrated security scanning, policy-driven controls, IAM, MFA, and secure network patterns into CI/CD and cloud operations to strengthen delivery governance and compliance."
+      "tag": "Release Quality",
+      "text": "Combined Git controls, versioned artifacts, code-quality checks, troubleshooting, and technical documentation to strengthen repeatable delivery."
     }
   ],
   "skill_sections": [
     {
-      "title": "Operating Systems",
-      "content": "Linux, RHEL, Ubuntu, HPUX, Windows Server 2012"
+      "title": "Build & Continuous Integration",
+      "content": "Jenkins, CloudBees Jenkins, Groovy shared libraries, Jenkinsfile, GitLab CI/CD, GitHub Actions, Maven, Gradle, Make, ANT, MSBuild"
     },
     {
-      "title": "Build Tools",
-      "content": "ANT, Maven, MSBuild, Make, Gradle"
+      "title": "SCM & Artifact Management",
+      "content": "Git, branching strategies, merge reviews, release tags, versioned packages, JFrog Artifactory, Nexus, dependency management, reusable build components"
     },
     {
-      "title": "CI/CD Platforms",
-      "content": "Jenkins, GitHub Actions, GitLab CI, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, CloudBees, ArgoCD"
+      "title": "Automation & Linux",
+      "content": "Python, FastAPI, Bash, PowerShell, Linux, RHEL, Ubuntu, REST APIs, build agents, environment configuration, diagnostic scripts"
     },
     {
-      "title": "Infrastructure as Code",
-      "content": "Terraform, CloudFormation, Ansible, Packer, YAML pipelines, AWS CLI"
+      "title": "Infrastructure & Configuration",
+      "content": "Ansible roles and playbooks, Terraform, Docker, Kubernetes, Helm, version-controlled infrastructure, repeatable build environments"
     },
     {
-      "title": "Containers & Orchestration",
-      "content": "Docker, Docker Swarm, ECS, Kubernetes, Helm, Istio, Consul"
+      "title": "Code Quality & Diagnostics",
+      "content": "SonarQube, JFrog Xray, automated tests, security checks, build logs, pipeline metrics, root cause analysis, defect tracking"
     },
     {
-      "title": "Managed Kubernetes",
-      "content": "EKS, OpenShift, Rancher, self-managed Kubernetes, hybrid Kubernetes"
-    },
-    {
-      "title": "Source Control & SCM",
-      "content": "GitLab, GitHub, Bitbucket, Gerrit, Subversion, TFS"
-    },
-    {
-      "title": "Cloud Platforms",
-      "content": "AWS, Linode, multi-account landing zones, VPC, Transit Gateway, VPN, Direct Connect, Route 53, ALB, NLB, CloudFront"
-    },
-    {
-      "title": "Monitoring & Logging",
-      "content": "Amazon CloudWatch, CloudTrail, Grafana, Prometheus, AppDynamics, Splunk, ELK, Fluentd, InfluxDB"
-    },
-    {
-      "title": "Scripting & Programming",
-      "content": "Shell, Batch, Python, PowerShell, .NET (C#), Core Java"
-    },
-    {
-      "title": "Databases & Release Tools",
-      "content": "MySQL, PostgreSQL, MongoDB, Amazon RDS, Amazon Aurora, Liquibase, JFrog, SonarQube, Fortify, Black Duck"
-    },
-    {
-      "title": "Other Platforms",
-      "content": "IIS, Apache Tomcat, JBoss, WebLogic, VMware ESXi, Vagrant, Hyper-V, Vault, datree.io, Amazon ECR"
+      "title": "AI & Engineering Enablement",
+      "content": "GitLab Duo, AI-assisted code and test drafting, human review, data-handling controls, Jira integrations, release documentation, technical runbooks"
     }
   ],
   "experience": [
@@ -105,32 +75,26 @@
       "company": "AT&T Services Inc.",
       "date_range": "08/2023 - Present",
       "skills_used": [
-        "AWS",
-        "AWS CodePipeline",
-        "PowerShell",
+        "GitLab",
+        "GitLab CI/CD",
+        "GitLab Duo",
+        "Git",
         "Terraform",
-        "EKS",
-        "GitHub Actions",
-        "Milvus",
+        "Docker",
         "Helm",
-        "Databricks on AWS"
+        "Bash",
+        "Python"
       ],
       "impact": [
-        "Architected and maintained scalable CI/CD pipelines using AWS CodePipeline, GitHub, and reusable deployment workflows to automate build, test, and release execution.",
-        "Directed end-to-end release management across multiple engineering teams by aligning schedules, dependencies, change windows, and risk mitigation plans.",
-        "Standardized deployment pipelines for AWS and hybrid environments, improving release consistency, auditability, and operational reliability.",
-        "Automated platform operations with Python, Bash, and PowerShell to reduce manual effort and accelerate provisioning, support, and recovery workflows.",
-        "Established Git branching, approval, and artifact versioning standards and integrated DevSecOps controls into release workflows through secure secrets handling, Terraform validation, and pre-deployment policy checks across AWS environments.",
-        "Supported Java and Node.js microservices on AWS, improving scalability, runtime stability, and production readiness for cloud-native applications.",
-        "Delivered release communications, milestone reporting, and risk updates to engineering leadership and business stakeholders to keep delivery streams aligned.",
-        "Coordinated incident response and production release support, minimizing downtime and accelerating service restoration during high-priority events.",
-        "Authored technical documentation, deployment guides, and operational runbooks to improve knowledge transfer and support readiness.",
-        "Designed and implemented scalable EKS and Terraform-based infrastructure to support high-throughput vector search platforms powered by Milvus and GPU-enabled workloads.",
-        "Automated provisioning of Databricks environments on AWS across isolated accounts, standardizing network integration, IAM controls, and environment consistency.",
-        "Produced solution diagrams, environment specifications, and architecture documentation to improve stakeholder alignment and implementation clarity.",
-        "Managed self-hosted runners, build agents, and distributed deployment infrastructure to optimize pipeline throughput across controlled compute environments.",
-        "Implemented secure service connectivity using AWS PrivateLink, VPC endpoints, and private networking controls to protect sensitive application traffic.",
-        "Containerized critical microservices and deployed them with Helm and Kubernetes manifests, ensuring consistent runtime behavior across lower and production environments."
+        "Administered source repositories, protected branches, merge approvals, access controls, and code ownership rules to support shared development and release governance.",
+        "Designed Git branching strategies covering feature, release, hotfix, and trunk-based workflows, with protected-branch controls and merge standards aligned to release governance and audit requirements.",
+        "Architected reusable CI/CD templates with staged build execution, artifact retention, dependency caching, environment promotion, and controlled release approvals.",
+        "Operated Linux build runners with workload-specific pools, isolated execution, and cache configuration; investigated queue time, capacity, and build failures.",
+        "Integrated AI-assisted code explanation, test drafting, and documentation into engineering workflows, requiring human review and appropriate data handling.",
+        "Integrated GitLab DevSecOps controls into pipelines, including secret detection, dependency and container scanning, SAST, IaC validation, security gates, and policy-driven merge approvals.",
+        "Developed Python and Bash tools for repository bootstrap, pipeline variables, runner setup, and release validation, reducing repetitive developer support work.",
+        "Monitored runner capacity, pipeline duration, failure trends, queue time, cache efficiency, and deployment health to improve GitLab platform reliability and developer productivity.",
+        "Created GitLab platform standards, migration playbooks, runner troubleshooting guides, branching documentation, and operational runbooks for engineering and support teams."
       ]
     },
     {
@@ -138,7 +102,6 @@
       "company": "GlobalLogic",
       "date_range": "03/2023 - 08/2023",
       "skills_used": [
-        "AWS",
         "GitLab CI",
         "Terraform",
         "Jira",
@@ -149,7 +112,6 @@
         "Configured agent pools, runner templates, and execution policies to improve build reliability and reduce manual pipeline support.",
         "Created package views, artifact feeds, and upstream repository strategies aligned to application team delivery requirements.",
         "Managed Docker image build, provisioning, and runtime administration to standardize containerized delivery workflows.",
-        "Administered Kubernetes clusters and deployed applications through pods, deployments, services, and core platform components.",
         "Improved Kubernetes release processes by standardizing deployment patterns, secure runner standards, controlled branch protections, container image validation, and pipeline checks across environments.",
         "Migrated Jenkins pipelines to GitLab CI and modernized runner configuration to improve maintainability and pipeline reliability.",
         "Implemented GitLab CI best practices, including reusable templates, pipeline governance, and controlled branch-based execution.",
@@ -162,11 +124,8 @@
       "company": "Akamai Technologies",
       "date_range": "12/2021 - 03/2023",
       "skills_used": [
-        "AWS",
-        "Linode",
         "Python",
         "Terraform",
-        "EKS",
         "GitHub Actions",
         "GitLab"
       ],
@@ -174,18 +133,12 @@
         "Deployed and configured self-hosted runners and build agents for Linux and Windows workloads supporting CI/CD and release automation.",
         "Configured deployment groups and environment-specific release targets to streamline controlled production rollouts.",
         "Built dashboards for CI/CD pipelines, work items, and defect tracking to improve engineering visibility and release governance.",
-        "Deployed Kubernetes microservices through ArgoCD-based GitOps workflows.",
-        "Provisioned AWS infrastructure using CloudFormation, Terraform, and pipeline-driven infrastructure-as-code deployment patterns.",
         "Established and maintained CI/CD pipelines with Jenkins, Git, Amazon ECR, and Kubernetes for repeatable application delivery.",
-        "Implemented GitHub Actions workflows for deploying services to Kubernetes clusters across multiple environments.",
-        "Built Docker images and deployed containerized applications to EKS using Helm charts and Kubernetes manifests.",
         "Integrated delivery tooling with Slack, Microsoft Teams, Jenkins, GitHub, and SonarQube based on engineering and audit requirements.",
         "Drove continuous integration and continuous delivery practices using Git, Maven, Jenkins, Ansible, Docker, Kubernetes, and AWS services.",
         "Authored PowerShell and shell automation scripts and published them to shared repositories for consistent reuse across environments.",
         "Troubleshot build and release pipeline failures and resolved deployment issues across distributed engineering teams.",
-        "Published versioned artifacts to enterprise repositories and package managers to support downstream engineering consumption and traceability.",
-        "Implemented disaster recovery, backup, and observability controls using AWS Elastic Disaster Recovery, AWS Backup, and Amazon CloudWatch.",
-        "Designed secure VPC networking, Route 53 DNS, security groups, load balancing, VPN connectivity, Direct Connect, and traffic-routing patterns for enterprise workloads."
+        "Published versioned artifacts to enterprise repositories and package managers to support downstream engineering consumption and traceability."
       ]
     },
     {
@@ -193,7 +146,6 @@
       "company": "Turvo India Pvt Ltd",
       "date_range": "04/2020 - 12/2021",
       "skills_used": [
-        "AWS",
         "Python",
         "Jenkins",
         "GitHub Actions",
@@ -206,20 +158,14 @@
       ],
       "impact": [
         "Designed CI/CD pipelines for application and infrastructure deployments across AWS environments.",
-        "Created architecture and resource diagrams to support compliance reviews, security sign-offs, and controlled release execution.",
-        "Authored and enforced custom policy controls aligned to internal security and governance requirements across AWS accounts.",
-        "Implemented MFA, identity access controls, and role-based access management for users and groups across cloud environments.",
         "Partnered with peers to isolate product defects and participated in retrospectives with development teams and sprint managers to improve release quality.",
-        "Applied platform engineering best practices to improve reliability, scalability, and operational efficiency across shared services.",
         "Standardized GitHub Actions-based CI/CD patterns to accelerate software delivery and reduce pipeline drift across teams.",
-        "Designed and delivered a Terraform and Kubernetes solution for payment-platform deployments, enabling repeatable infrastructure provisioning and container orchestration.",
         "Automated onboarding of new projects to the enterprise DevOps platform through API-driven workflows.",
         "Developed internal APIs in Python FastAPI to integrate Jenkins, Jira, and JFrog processes with platform automation.",
         "Administered CloudBees Jenkins, JFrog Artifactory, and Xray enterprise tooling for secure software delivery.",
         "Developed custom Prometheus exporters in Python to capture application-specific operational metrics for SRE use cases.",
         "Built resilient Ansible roles and playbooks to deploy highly available Grafana, Prometheus, and Node Exporter monitoring stacks.",
-        "Developed Jenkins shared libraries to automate image versioning and publish artifacts to private JFrog repositories.",
-        "Authored Helm charts to deploy containerized applications consistently across Kubernetes environments."
+        "Developed Jenkins Groovy shared libraries for image versioning and artifact publication to private JFrog repositories, enabling reuse across application pipelines."
       ]
     },
     {
@@ -229,7 +175,6 @@
       "client": "Mercedes-Benz Research & Development India",
       "skills_used": [
         "Kubernetes",
-        "AWS",
         "Ansible",
         "GitHub",
         "Shell Scripting",
@@ -246,14 +191,8 @@
         "Deployed Kubernetes manifests to on-premises clusters with Helm and standardized release packaging across services.",
         "Served as acting scrum master by managing stories, epics, sprint commitments, and core scrum ceremonies.",
         "Built Kubernetes environments with pods, deployments, services, and ConfigMaps, and managed Helm-based release packaging for multi-namespace workloads.",
-        "Supported enterprise applications on AWS by troubleshooting CloudWatch, Amazon RDS, load balancing, auto scaling, certificate management, CloudFront, and identity integrations.",
         "Built continuous delivery pipelines and supported REST-based microservices deployments across Demo, Test, Pentest, Training, CTDEV, Sandbox, UAT, and PROD environments.",
-        "Worked extensively with AWS infrastructure services including EC2, CloudWatch, Secrets Manager, and managed database platforms for enterprise workloads.",
         "Used CloudFormation and PowerShell scripting to provision and manage cloud resources in a repeatable and auditable manner.",
-        "Planned and executed migration strategies for traditional workloads to AWS using lift-and-shift and modernization approaches.",
-        "Integrated on-premises identity sources with cloud access controls and strengthened security using privileged access, identity protection, and MFA.",
-        "Supported migration of on-premises Windows Server workloads to AWS and validated post-migration configuration through structured cutover and failover testing.",
-        "Tuned scaling policies and service capacity for application and database workloads during on-premises to AWS migration programs.",
         "Automated fleet-level configuration enforcement for Linux and Windows EC2 instances and managed secure access and database connectivity in line with enterprise security standards."
       ]
     },
@@ -263,7 +202,6 @@
       "date_range": "08/2016 - 12/2018",
       "client": "HPE",
       "skills_used": [
-        "AWS",
         "Chef",
         "Ansible",
         "GitLab",
@@ -279,8 +217,6 @@
         "Created deployment pipelines with Ansible to promote releases from development through production in a controlled, repeatable manner.",
         "Authored and maintained Terraform modules and executed infrastructure changes through automated CI/CD workflows.",
         "Built YAML-based build and release pipelines with event-driven triggers to support continuous integration on every code change.",
-        "Executed AWS proof-of-concepts and delivered solution designs aligned to application and infrastructure requirements.",
-        "Authored AWS CLI automation to update service configurations and standardize administrative operations.",
         "Built and managed self-hosted build agents to support pipeline execution at scale.",
         "Defined and implemented branching strategies for Git repositories to improve release governance and code promotion.",
         "Documented build and deployment flows for core infrastructure, API, database, and UI components to improve team consistency.",
@@ -304,7 +240,9 @@
     "MuleSoft Certified Developer - Level 1"
   ],
   "notes": [
-    "Source: RajendraPN_Lead_DevOps.docx provided by user.",
-    "Experience bullets rewritten to be more professional, ATS-friendly, AWS-first, and normalized to 10-15 points per company where applicable."
-  ]
+    "Authored build-release branch profile; preserve its content during JD ranking.",
+    "Preferred name Rajendra P N; 10+ years; minimum nine substantive points per role.",
+    "Specialist JD requirements Bazel, C/C++, Nix, QNX, monorepo ownership, thread-safe embedded development, and FDA experience require candidate confirmation."
+  ],
+  "achievements_title": "Build & Release Engineering Highlights"
 }

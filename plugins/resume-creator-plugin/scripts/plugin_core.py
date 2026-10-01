@@ -348,6 +348,13 @@ def tailor_profile(profile: PersonProfile, job_description: str) -> tuple[Person
     matched_keywords = [keyword for keyword in keywords if _profile_contains(profile, keyword)][:10]
     missing_keywords = [keyword for keyword in keywords if keyword not in matched_keywords][:6]
     lowered_jd = job_description.lower()
+    if "Authored build-release branch profile; preserve its content during JD ranking." in profile.notes:
+        return replace(
+            profile,
+            achievements=rank_tagged_items(profile.achievements, keywords),
+            skill_sections=rank_tagged_items(profile.skill_sections, keywords, content_key="content"),
+            experience=[rank_experience(job, keywords) for job in profile.experience],
+        ), matched_keywords
     if "release engineering" in lowered_jd and "branching strategies" in lowered_jd and "jenkins" in lowered_jd:
         return build_release_engineering_profile(profile), matched_keywords
     if "observability" in lowered_jd and "gpu" in lowered_jd and "hpc" in lowered_jd:

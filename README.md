@@ -1,3 +1,31 @@
+# Rajendra Build & Release Resume
+
+This branch uses the Résumé Creator Plugin to tailor Rajendra P N's build and release engineering resume. The reusable base keeps 10+ years of experience, historical employment titles and dates, and at least nine substantive points for every role.
+
+## Request command
+
+```text
+Use the Résumé Creator Plugin to create an Aggressive devops-cloud resume for Rajendra using this JD:
+<paste the job description here>
+```
+
+## Generate HTML and PDF
+
+```bash
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py \
+  --person Rajendra \
+  --domain devops-cloud \
+  --level Aggressive \
+  --jd-file tmp/build-release-jd/jd.txt \
+  --output-dir tailored_resume/rajendra-prasad-n
+```
+
+The build/release base emphasizes build systems, CI, Jenkins/Groovy, Python, Linux, Git branching, artifact management, Ansible, developer productivity, AI-assisted automation, troubleshooting, and technical documentation. Add specialist tools or regulated-industry experience only when supported by the candidate's history.
+
+The shared and plugin HTML templates render the name, headline, skills, and experience from structured profile data. Update both `resume_data/people/rajendra-prasad-n.json` and `plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json` when changing the reusable base. Final output belongs in `tailored_resume/rajendra-prasad-n/`.
+
+---
+
 # Multi-Person Resume Agents
 
 Repository foundation for managing resume content for multiple people and rendering each resume into a shared HTML layout.
