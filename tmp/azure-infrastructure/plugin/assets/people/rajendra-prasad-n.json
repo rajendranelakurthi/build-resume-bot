@@ -1,0 +1,247 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra P N",
+  "headline": "Lead Azure DevOps Engineer | AI",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "page_title": "Rajendra P N - Azure Infrastructure & DevOps Engineer",
+  "summary_html": "<strong>Lead Azure DevOps Engineer with 10+ years of experience in infrastructure automation, release engineering, and production operations.</strong> Engineers Azure cloud infrastructure with <strong>Terraform, Azure Pipelines, AKS, and Helm Charts</strong>, supporting cloud-native applications and hybrid infrastructure connectivity. Brings hands-on depth in Azure networking, identity, compute, storage, Linux administration, and observability with Azure Monitor, Log Analytics, Application Insights, Prometheus, and Grafana. Automates operations with PowerShell, Bash, and Python and collaborates with distributed development, security, and operations teams to troubleshoot incidents and deliver controlled releases.",
+  "achievements_title": "Azure Infrastructure & DevOps Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "certification_badges_image": "file:///Users/rajendra/Documents/1Resume/ai_resume/tmp/azure-infrastructure/plugin/assets/static/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra P N certification badges",
+  "skills": [
+    "Azure Cloud Infrastructure",
+    "Terraform",
+    "Azure DevOps",
+    "CI/CD",
+    "AKS / Kubernetes",
+    "Helm Charts",
+    "Azure Monitor",
+    "Log Analytics",
+    "Linux",
+    "PowerShell",
+    "Bash",
+    "Python"
+  ],
+  "skill_sections": [
+    {
+      "title": "Linux & Automation",
+      "content": "Linux system administration, services, permissions, process and resource diagnostics, networking fundamentals, PowerShell, Bash, Python, Ansible, REST APIs"
+    },
+    {
+      "title": "CI/CD & Kubernetes",
+      "content": "Azure Pipelines, reusable YAML templates, Azure Repos, Azure Artifacts, Linux build agents, Docker, AKS, Kubernetes, Helm Charts, Argo CD, deployment approvals"
+    },
+    {
+      "title": "Azure Infrastructure & Hybrid Connectivity",
+      "content": "Azure Virtual Machines, Virtual Networks, subnets, NSGs, routing, private endpoints, Azure Storage, Azure Container Registry, cloud-native services, hybrid network connectivity"
+    },
+    {
+      "title": "Monitoring & Observability",
+      "content": "Azure Monitor, Log Analytics, Application Insights, Prometheus, Grafana, ELK, dashboards, alerting, centralized logging, incident troubleshooting, root cause analysis"
+    },
+    {
+      "title": "Infrastructure as Code",
+      "content": "Terraform modules, environment parameters, remote state, plan reviews, infrastructure validation, Bicep, ARM templates, Azure CLI"
+    },
+    {
+      "title": "Security & Identity",
+      "content": "Microsoft Entra ID, Azure RBAC, managed identities, Azure Key Vault, workload identity federation, secure service connections, SonarQube, artifact scanning"
+    }
+  ],
+  "achievements": [
+    {
+      "tag": "Infrastructure as Code",
+      "text": "Built reusable Terraform modules for Azure networking and AKS; maintained environment parameters and reviewed infrastructure changes through delivery pipelines."
+    },
+    {
+      "tag": "Kubernetes Delivery",
+      "text": "Deployed Azure-hosted containerized services using Helm and Argo CD, aligning application configuration, versioned artifacts, and release verification."
+    },
+    {
+      "tag": "Observability & Operations",
+      "text": "Correlated Azure Monitor, Log Analytics, Prometheus, and Grafana telemetry to diagnose platform failures and support reliable production releases."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Azure DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "impact": [
+        "Supported cloud-native and hybrid infrastructure connectivity by troubleshooting DNS, routes, NSGs, and private endpoint access with network and application teams; documented corrective actions and global support handoffs.",
+        "Deployed containerized services to AKS with Helm Charts, managing environment values, image versions, deployment health checks, and recovery procedures alongside automated security gates.",
+        "Engineered multi-stage Azure Pipelines for Terraform validation, infrastructure plan review, application builds, and gated deployment, standardizing reusable YAML templates and environment parameters.",
+        "Automated Azure infrastructure changes with reusable Terraform configuration for virtual networks, compute, storage, and AKS; reviewed deployment plans and validated environment readiness.",
+        "Investigated production and deployment incidents using Azure Monitor, Log Analytics, and Application Insights; tuned alerting and correlated logs with Linux resource and network diagnostics.",
+        "Developed Python and PowerShell release utilities; used AI-assisted script drafting and documentation with code review and test validation.",
+        "Secured Azure delivery with Key Vault, Microsoft Entra ID, Azure RBAC, managed identities, and least-privilege service connections; diagnosed access and authentication failures.",
+        "Automated embedded software build and release workflows, capturing toolchain configuration, versioned binaries, checksums, and release manifests for reproducible delivery."
+      ],
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "Terraform",
+        "Azure Pipelines",
+        "AKS",
+        "Helm",
+        "Azure Monitor",
+        "Key Vault",
+        "Python",
+        "PowerShell"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "impact": [
+        "Maintained Azure deployment configuration and Helm values across environments, validating Kubernetes service readiness and protected release inputs before promotion.",
+        "Built reusable Azure DevOps stages for compilation, automated tests, artifact publication, and release approvals across development, QA, and production.",
+        "Administered Linux and Windows build agents, managing services, permissions, tool dependencies, disk capacity, and network connectivity; resolved pipeline and credential failures.",
+        "Strengthened release controls with Git branch protections, secure runner configuration, artifact validation, and documented troubleshooting procedures for engineering handoffs.",
+        "Integrated embedded software build outputs into versioned release packages and preserved configuration, build logs, and test evidence for integration handoff.",
+        "Preserved build identifiers, artifact versions, and test results for release reviews, enabling teams to trace delivered packages to source changes.",
+        "Coordinated release dependencies and readiness checks with developers and QA, tracking blockers through corrective action and verified handoff."
+      ],
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure DevOps",
+        "Git",
+        "PowerShell",
+        "Build Agents"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "impact": [
+        "Provisioned Azure networking, compute, and AKS infrastructure with Terraform and ARM templates; deployed Kubernetes applications through Helm Charts and Argo CD with environment-specific values.",
+        "Developed Python and PowerShell utilities for release checks and recurring operational tasks, publishing reusable automation for consistent execution across environments.",
+        "Automated Azure application delivery with pipeline checks, versioned artifacts, environment-specific configuration, and post-deployment verification.",
+        "Correlated Azure Monitor, Log Analytics, and application telemetry to isolate deployment failures and connectivity issues; maintained actionable alerts and verified recovery with engineering teams.",
+        "Maintained Terraform modules, environment parameters, and Azure Storage-backed state; reviewed planned changes before applying infrastructure updates across release stages.",
+        "Published release runbooks and troubleshooting guidance for distributed teams, capturing verification results and operational handoff requirements."
+      ],
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "Terraform",
+        "AKS",
+        "Python",
+        "Azure Monitor"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "impact": [
+        "Delivered CI/CD automation for SaaS and payment-platform workloads, aligning application releases, database dependencies, and Azure infrastructure changes.",
+        "Built reusable Terraform modules for Azure virtual networks and AKS, standardizing network configuration and Kubernetes infrastructure alongside application delivery.",
+        "Used Prometheus and Grafana dashboards and alerts to investigate Kubernetes resource pressure and service failures; automated Linux operational tasks with Ansible and Bash.",
+        "Coordinated application and database release dependencies with engineering teams, checking deployment readiness and recovery procedures.",
+        "Managed environment configuration and pipeline credentials for application delivery, separating release inputs across development and production stages.",
+        "Developed Python FastAPI integrations for Jenkins, Jira, and JFrog to automate project onboarding and reduce manual release coordination.",
+        "Administered CloudBees Jenkins, JFrog Artifactory, and Xray and maintained shared libraries for consistent artifact versioning.",
+        "Standardized build, test, artifact publication, and promotion workflows with SonarQube and secure secrets handling.",
+        "Documented artifact versions, promotion decisions, and operational handoffs to make release execution traceable and easier to support."
+      ],
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "Jenkins",
+        "FastAPI",
+        "JFrog",
+        "Terraform",
+        "AKS",
+        "Prometheus"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "impact": [
+        "Packaged Kubernetes services with Helm Charts, maintaining environment values, release versions, readiness checks, and deployment recovery procedures across Azure-hosted environments.",
+        "Built Jenkins and Maven delivery pipelines for REST microservices across test, security-validation, UAT, and production environments.",
+        "Automated Azure virtual machines, virtual networks, NSGs, and Linux configuration with ARM templates, Ansible, and PowerShell, standardizing infrastructure setup and connectivity checks.",
+        "Integrated Azure Key Vault with application delivery and managed secure database connectivity and environment credentials.",
+        "Investigated deployment and application failures using ELK, Azure Monitor, and Log Analytics, coordinating fixes and validating restored service behavior.",
+        "Maintained version-controlled environment parameters and deployment scripts to keep Azure application configuration consistent across release stages.",
+        "Documented deployment sequences, troubleshooting steps, and recovery procedures to support repeatable release execution and team knowledge transfer.",
+        "Coordinated release configuration, application checks, and deployment verification with developers and QA before environment promotion.",
+        "Coordinated build artifacts and application dependencies for UAT and production handoffs, checking release versions before deployment."
+      ],
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Azure",
+        "Jenkins",
+        "ARM templates",
+        "Ansible",
+        "PowerShell",
+        "Helm"
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "impact": [
+        "Created repeatable build and deployment pipelines for API, database, and UI components, promoting consistent artifacts across environments.",
+        "Developed Python and PowerShell scripts for recurring deployment and administration tasks, reducing manual release preparation.",
+        "Automated Azure infrastructure and application provisioning with Terraform, ARM templates, and Ansible to standardize environment setup.",
+        "Maintained Git branching practices and build-agent configuration to support controlled code integration and repeatable builds.",
+        "Managed environment-specific release parameters and deployment documentation, keeping configuration and operational handoffs consistent across stages.",
+        "Troubleshot failed releases with development and operations teams, documented corrective actions, and verified deployment recovery.",
+        "Validated release packages and artifact versions before environment promotion, checking required configuration and deployment inputs.",
+        "Collected build logs and deployment verification results for release handovers, helping support teams trace failures to configuration or package changes.",
+        "Coordinated release scheduling and readiness with developers and QA, tracking build dependencies and resolving handoff blockers."
+      ],
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "HPE",
+      "skills_used": [
+        "Azure",
+        "Git",
+        "Terraform",
+        "ARM templates",
+        "Ansible",
+        "Python"
+      ]
+    }
+  ],
+  "additional_sections": [],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology",
+      "logo_image": "",
+      "logo_alt": ""
+    }
+  ],
+  "education_before_experience": false,
+  "certifications": [
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "Microsoft Certified: Azure Fundamentals",
+    "GitLab Certified Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Preferred display name for all future resumes: Rajendra P N. Preserve internal person ID.",
+    "Keep 10+ years wording. No medical-device or IEC 62304 compliance claims.",
+    "User requested an Azure infrastructure and DevOps resume with the revised header."
+  ]
+}

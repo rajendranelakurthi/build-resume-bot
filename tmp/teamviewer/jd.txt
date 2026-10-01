@@ -1,0 +1,12 @@
+TeamViewer Senior Azure DevOps Platform Engineer
+Design, build, and operate secure, scalable, highly available Azure infrastructure powering TeamViewer's global SaaS platform.
+Manage and optimize Kubernetes platforms using GitOps practices and Infrastructure as Code.
+Develop CI/CD pipelines, automation, and operational tooling to improve delivery speed, security, and developer productivity.
+Implement monitoring, logging, and observability solutions to ensure platform reliability, performance, and visibility.
+Drive platform performance, scalability, security, and cost optimization while supporting incident response and on-call operations.
+Mentor engineers and partner across Engineering, Product, Security, and Platform teams to advance cloud-native best practices.
+5+ years experience as a Senior DevOps, Platform, or Cloud Engineer in high-availability SaaS environments.
+Strong expertise in Azure, Infrastructure as Code (Terraform/Bicep), Kubernetes, containers, and GitOps tools such as Argo CD.
+Hands-on experience with CI/CD platforms, scripting (Python, Bash, PowerShell), and automation.
+Knowledge of observability, cloud networking, microservices, infrastructure security, identity management (e.g., Entra, Keycloak), and relational databases.
+Strong problem-solving, automation, and mentoring skills; experience with Java, Go, SQL, AWS, or GCP is a plus.

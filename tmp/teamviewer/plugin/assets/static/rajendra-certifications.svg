@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Certification badges for Rajendra Prasad N</title>
+  <desc id="desc">GitLab Certified Associate, Azure Fundamentals, Azure DevOps Engineer Expert, AWS Solutions Architect Associate, and MuleSoft Certified Developer Level 1.</desc>
+  <rect width="1200" height="250" rx="24" fill="#1f232b"/>
+
+  <g transform="translate(25 20)">
+    <circle cx="95" cy="105" r="88" fill="#ffffff" stroke="#3b296e" stroke-width="6"/>
+    <circle cx="95" cy="105" r="76" fill="none" stroke="#dad3ef" stroke-width="3"/>
+    <text x="95" y="56" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#2c235d">GITLAB</text>
+    <text x="95" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#2c235d">CERTIFIED</text>
+    <path d="M82 97 95 125 108 97 118 128 95 154 72 128Z" fill="#f36f21"/>
+    <path d="M82 97 95 125 108 97" fill="none" stroke="#2c235d" stroke-width="4" stroke-linejoin="round"/>
+    <text x="95" y="186" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#2c235d">ASSOCIATE</text>
+  </g>
+
+  <g transform="translate(235 16)">
+    <path d="M84 10 150 32 150 126Q150 183 84 212Q18 183 18 126V32Z" fill="#0c62b7" stroke="#123a7a" stroke-width="6"/>
+    <path d="M7 74Q84 56 161 74L153 129Q84 145 15 129Z" fill="#f5f5f5" stroke="#7a7a7a" stroke-width="4"/>
+    <text x="84" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1e225f">Microsoft</text>
+    <text x="84" y="66" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#555">CERTIFIED</text>
+    <text x="84" y="102" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#202020">AZURE</text>
+    <text x="84" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#202020">FUNDAMENTALS</text>
+    <path d="M84 150 91 171 113 171 95 184 102 205 84 192 66 205 73 184 55 171 77 171Z" fill="#ffffff"/>
+  </g>
+
+  <g transform="translate(470 16)">
+    <path d="M84 10 150 32 150 126Q150 183 84 212Q18 183 18 126V32Z" fill="#0a3d86" stroke="#123a7a" stroke-width="6"/>
+    <path d="M7 74Q84 56 161 74L153 129Q84 145 15 129Z" fill="#f5f5f5" stroke="#7a7a7a" stroke-width="4"/>
+    <text x="84" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Microsoft</text>
+    <text x="84" y="66" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#d9e2f7">CERTIFIED</text>
+    <text x="84" y="102" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#202020">AZURE</text>
+    <text x="84" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#202020">DEVOPS ENGINEER</text>
+    <text x="84" y="163" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">EXPERT</text>
+    <circle cx="58" cy="186" r="10" fill="#ffffff"/>
+    <circle cx="84" cy="186" r="10" fill="#ffffff"/>
+    <circle cx="110" cy="186" r="10" fill="#ffffff"/>
+  </g>
+
+  <g transform="translate(710 18)">
+    <path d="M95 12 176 58V152L95 198 14 152V58Z" fill="#3136f0" stroke="#4fb0ff" stroke-width="6"/>
+    <text x="95" y="55" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">aws</text>
+    <text x="95" y="77" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#ffffff">certified</text>
+    <text x="95" y="116" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Solutions</text>
+    <text x="95" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Architect</text>
+    <text x="95" y="174" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#ffffff">ASSOCIATE</text>
+  </g>
+
+  <g transform="translate(950 18)">
+    <path d="M95 12 176 58V152L95 198 14 152V58Z" fill="#4f26c8" stroke="#7f63ff" stroke-width="6"/>
+    <circle cx="95" cy="42" r="18" fill="#ffffff"/>
+    <circle cx="95" cy="42" r="12" fill="none" stroke="#0096d6" stroke-width="4"/>
+    <text x="95" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">CERTIFIED</text>
+    <text x="95" y="135" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#ffffff">MuleSoft</text>
+    <text x="95" y="160" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Developer</text>
+    <text x="95" y="182" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff">LEVEL 1</text>
+  </g>
+</svg>

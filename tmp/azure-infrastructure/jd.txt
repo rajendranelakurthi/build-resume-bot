@@ -1,0 +1,16 @@
+This request has Plano or Richardson location as mandate and client interview will be there.
+Required Skills & Qualifications
+Strong experience with Azure Cloud Infrastructure and platform services.
+Hands-on experience in Infrastructure as Code (IaC) using Terraform.
+Experience with CI/CD automation, deployment pipelines, and DevOps practices.
+Strong expertise in monitoring, alerting, logging, and observability tools and frameworks.
+Experience with Helm Charts for Kubernetes application deployment and management.
+Good understanding of Linux system administration and operating system fundamentals.
+Experience managing and supporting cloud-native and hybrid cloud infrastructure environments.
+Working knowledge of Azure networking, security, identity management, storage, and compute services.
+Experience with containerized environments and Kubernetes platforms is preferred.
+Knowledge of automation and scripting using PowerShell, Bash, or Python is desirable.
+5+ years of experience in Azure Infrastructure, Cloud Engineering, or DevOps-related roles.
+Azure certifications (AZ-104, AZ-305, or equivalent) are preferred.
+Strong analytical, troubleshooting, and problem-solving skills.
+Excellent communication and collaboration skills in a global delivery environment.

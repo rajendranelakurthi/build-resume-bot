@@ -1,0 +1,11 @@
+Bridge Specialty Group Senior Azure DevOps & Cloud Platform Engineer
+Enterprise Azure DevOps platform ownership and administration; architecture collaboration; CI/CD standards and self-service automation.
+Terraform, Bicep, ARM templates, AWS CloudFormation; Azure and AWS provisioning and lifecycle management.
+Application, infrastructure, integration pipelines; automated builds, tests, release quality gates, compliance controls, deployment validation.
+Azure Kubernetes Service AKS, API Management, Service Bus, Functions, App Services, SQL Database, Storage, Key Vault, Monitor, Application Insights.
+AWS Lambda, API Gateway, ECS/EKS, S3, RDS, CloudWatch, IAM, SNS, SQS; hybrid-cloud integration, cost optimization and governance.
+DevSecOps security scanning, vulnerability assessments, policy validation, audit and compliance support for insurance and financial services.
+Monitoring logging alerting observability production support root cause analysis operational documentation platform reliability.
+Bachelor degree; 7+ years DevOps cloud platform SRE; 5+ years Azure DevOps administration implementation.
+Git Terraform Bicep PowerShell Azure CLI Docker Kubernetes; independently own DevOps, manage transitions, support multiple teams.
+Preferred AWS production support, security automation, modernization, insurance financial services, Azure AWS certifications, internal developer platforms.

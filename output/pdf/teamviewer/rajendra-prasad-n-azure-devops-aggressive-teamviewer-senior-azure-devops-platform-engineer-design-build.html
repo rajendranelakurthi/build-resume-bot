@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<!-- Rajendra resume default: display name Rajendra P N; populated from profile full_name. -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajendra P N - Senior Azure DevOps &amp; Platform Engineer</title>
+
+<style>
+*{box-sizing:border-box;}
+body{margin:0;padding:12px 0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:#222;line-height:1.4;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.resume-page{width:190mm;min-height:277mm;margin:0 auto;background:#ffffff;box-shadow:0 8px 24px rgba(15,57,112,.12);}
+header{background:linear-gradient(120deg,#0067a8,#004578);color:white;padding:18px 26px;display:flex;justify-content:space-between;gap:18px;}
+.header-left{max-width:118mm;}
+.header-left h1{margin:0;font-size:30px;letter-spacing:.4px;font-weight:800;}
+.role{margin-top:6px;font-size:13px;font-weight:700;color:#ffc400;text-transform:uppercase;}
+.header-right{text-align:right;font-size:12px;line-height:1.55;}
+.header-right a{color:white;text-decoration:none;word-break:break-word;}
+.content{padding:18px 26px 22px;}
+.summary-box{background:#f6f9fd;border-left:4px solid #0067a8;padding:12px 14px;border-radius:6px;font-size:13px;margin-bottom:18px;}
+.section-title{font-size:16px;color:#0067a8;text-transform:uppercase;font-weight:800;border-bottom:2px solid #0067a8;padding-bottom:5px;margin:20px 0 12px 0;page-break-after:avoid;}
+.certifications-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:6px;page-break-inside:avoid;break-inside:avoid;align-items:start;}
+.cert-card{background:#fbfdff;border:1px solid #e1e8f2;border-radius:8px;padding:8px 6px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;page-break-inside:avoid;break-inside:avoid;min-height:140px;}
+.cert-badge-svg{width:100%;max-width:92px;height:auto;display:block;}
+.cert-label{margin-top:6px;font-size:10px;font-weight:700;line-height:1.25;color:#173b6b;}
+.skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.skill-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;}
+.skill-card h3{margin:0 0 5px 0;font-size:11px;color:#e06300;text-transform:uppercase;}
+.skill-card p{margin:0;font-size:11.5px;}
+.job-block{margin-bottom:18px;page-break-inside:avoid;break-inside:avoid;}
+.job-header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:5px;}
+.job-title{font-weight:700;font-size:14px;}
+.company-name{color:#0067a8;font-weight:700;}
+.job-meta{font-size:11.5px;color:#666;white-space:nowrap;}
+.job-details{font-size:11.25px;color:#444;margin:0 0 7px 0;line-height:1.45;}
+.job-details div{margin-bottom:2px;}
+ul{margin:0;padding-left:18px;}
+li{font-size:11.5px;margin-bottom:4px;}
+.tag{color:#0067a8;font-weight:700;}
+.education-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:8px;}
+.education-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;font-size:11.5px;}
+.education-row{display:flex;align-items:center;gap:16px;}
+.education-copy{min-width:0;}
+.education-card strong{display:block;margin-bottom:3px;}
+.education-logo{width:auto;max-width:140px;max-height:56px;height:auto;display:block;flex:0 0 auto;object-fit:contain;object-position:left center;}
+@page{size:A4 portrait;margin:8mm;}
+@media print{
+html,body{width:210mm;}
+body{background:white;padding:0;font-size:11px;line-height:1.32;}
+.resume-page{width:194mm;min-height:auto;margin:0 auto;box-shadow:none;}
+header{padding:14px 18px;gap:14px;}
+.header-left{max-width:118mm;}
+.header-left h1{font-size:25px;}
+.role{font-size:11.5px;margin-top:4px;}
+.header-right{font-size:10.5px;line-height:1.4;}
+.content{padding:12px 18px 16px;}
+.summary-box{font-size:11.25px;padding:10px 12px;margin-bottom:12px;}
+.section-title{font-size:13px;margin:14px 0 8px 0;padding-bottom:4px;border-bottom-width:2px;page-break-after:avoid;break-after:avoid;}
+.certifications-grid{grid-template-columns:repeat(5,minmax(0,1fr)) !important;gap:6px;}
+.cert-card{min-height:112px;padding:6px 4px;}
+.cert-badge-svg{max-width:74px;}
+.cert-label{font-size:8.5px;line-height:1.15;margin-top:5px;}
+.skills-grid{grid-template-columns:1fr 1fr !important;gap:8px;page-break-inside:auto;}
+.skill-card{padding:8px 9px;}
+.skill-card h3{font-size:9.5px;margin-bottom:4px;}
+.skill-card p{font-size:9.5px;line-height:1.28;}
+.job-block{margin-bottom:12px;}
+.job-title{font-size:12px;}
+.job-meta{font-size:9.5px;}
+.job-details{font-size:9.5px;line-height:1.3;margin-bottom:5px;}
+ul{padding-left:15px;}
+li{font-size:9.6px;line-height:1.26;margin-bottom:2px;}
+.education-grid{gap:8px;margin-bottom:6px;}
+.education-card{padding:8px 9px;font-size:9.8px;}
+.education-row{gap:12px;}
+.education-card strong{margin-bottom:2px;}
+.education-logo{width:auto;max-width:112px;max-height:42px;}
+a{text-decoration:none;color:inherit;}
+}
+@media (max-width:900px){body{padding:0;}.resume-page{width:100%;min-height:auto;box-shadow:none;}.certifications-grid{grid-template-columns:repeat(3,1fr);}.skills-grid{grid-template-columns:1fr;}.header-left{max-width:none;}.job-header{flex-direction:column;}.job-meta{white-space:normal;}.education-row{align-items:flex-start;}}
+@media (max-width:560px){.certifications-grid{grid-template-columns:repeat(2,1fr);}.cert-card{min-height:132px;}}
+/* Keep print geometry independent of narrow-screen rules. */
+@media print{html,body{width:auto;} .job-header{flex-direction:row;} .job-meta{white-space:nowrap;}}
+/* Azure branch print layout: retain readable role blocks and compact credentials. */
+@media print{
+.header-left{flex:1;min-width:0}.header-right{flex:0 0 51mm}
+.cert-badge-svg{max-width:46px}.cert-card{min-height:72px}
+.skills-grid{gap:6px}.skill-card{padding:6px 9px}.summary-box{padding:8px 12px}
+.job-block{break-inside:auto;page-break-inside:auto}
+.job-header,.job-details{break-after:avoid;page-break-after:avoid}
+li{break-inside:avoid}.section-title{margin-top:12px}
+}
+@media print{.section-title{margin-top:10px;margin-bottom:6px}.cert-card{min-height:90px}.content{padding-top:10px}.job{margin-bottom:9px}}
+@media print{li{font-size:9.4px;line-height:1.22;margin-bottom:1px}.skill-card p{font-size:9.3px;line-height:1.22}.skill-card{padding:5px 8px}.summary-box{margin-bottom:8px}.job-details{margin-bottom:4px}}
+@media print{.section-title{margin-top:8px;margin-bottom:4px}.cert-card{min-height:65px}header{padding:10px 18px}.cert-badge-svg{height:48px;width:48px}}
+@media print{.job-block{margin-bottom:6px}.education-card{padding:5px 9px}.education-grid{margin-bottom:0}}
+</style>
+</head>
+<body>
+<div class="resume-page">
+<header>
+<div class="header-left">
+<h1>RAJENDRA P N</h1>
+<!-- Azure branch header is supplied by the structured profile; contact comes from profile: rajendran.scm@gmail.com -->
+<div class="role">Senior Azure DevOps &amp; Platform Engineer | Kubernetes | GitOps</div>
+</div>
+<div class="header-right">
+<div>rajendran.scm@gmail.com</div>
+<div>+1 (469) 926-4201</div>
+<div>Dallas, TX</div>
+<div><a href="https://www.linkedin.com/in/rajendranelakurthi">linkedin.com/in/rajendranelakurthi</a></div>
+<div><a href="https://rajendranelakurthi.github.io">rajendranelakurthi.github.io</a></div>
+</div>
+</header>
+<div class="content">
+<div class="summary-box"><strong>Senior Azure DevOps & Platform Engineer with 10+ years of experience in cloud infrastructure, SaaS delivery, and production operations.</strong> Builds secure, highly available <strong>Azure platforms with Terraform/Bicep, AKS, Docker, Helm, and Argo CD GitOps</strong>. Automates CI/CD and operational tooling with Python, Bash, and PowerShell; improves reliability through observability, incident response, capacity planning, and cost optimization. Combines Azure and AWS platform experience with microservices delivery, identity controls, relational database operations, and cross-team engineering mentorship.</div>
+<h2 class="section-title">Certifications</h2>
+<div class="certifications-grid">
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0a3d86" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#d9e2f7">CERTIFIED</text><text x="90" y="94" text-anchor="middle" font-size="17" font-weight="700" fill="#202020">AZURE</text><text x="90" y="116" text-anchor="middle" font-size="13" font-weight="700" fill="#202020">DEVOPS ENGINEER</text><text x="90" y="145" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">EXPERT</text><circle cx="68" cy="160" r="7" fill="#ffffff"/><circle cx="90" cy="160" r="7" fill="#ffffff"/><circle cx="112" cy="160" r="7" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure DevOps Engineer Expert</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0c62b7" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#1e225f">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#555">CERTIFIED</text><text x="90" y="96" text-anchor="middle" font-size="18" font-weight="700" fill="#202020">AZURE</text><text x="90" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#202020">FUNDAMENTALS</text><path d="M90 133 96 150 114 150 99 160 105 176 90 166 75 176 81 160 66 150 84 150Z" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure Fundamentals</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><circle cx="90" cy="90" r="82" fill="#ffffff" stroke="#3b296e" stroke-width="5"/><circle cx="90" cy="90" r="72" fill="none" stroke="#d7d0ea" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">GITLAB</text><text x="90" y="61" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">CERTIFIED</text><path d="M76 82 90 112 104 82 114 114 90 140 66 114Z" fill="#f36f21"/><path d="M76 82 90 112 104 82" fill="none" stroke="#2c235d" stroke-width="4" stroke-linejoin="round"/><text x="90" y="157" text-anchor="middle" font-size="13" font-weight="700" fill="#2c235d">ASSOCIATE</text></svg>
+<div class="cert-label">GitLab Certified Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M50 14H130L166 52V124L90 168 14 124V52Z" fill="#4f26c8" stroke="#7f63ff" stroke-width="5"/><circle cx="90" cy="38" r="16" fill="#ffffff"/><circle cx="90" cy="38" r="10" fill="none" stroke="#0096d6" stroke-width="4"/><text x="90" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">CERTIFIED</text><text x="90" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">MuleSoft</text><text x="90" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Developer</text><text x="90" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">LEVEL 1</text></svg>
+<div class="cert-label">MuleSoft Certified Developer - Level 1</div>
+</div>
+</div>
+<h2 class="section-title">SaaS Platform Engineering Highlights</h2>
+<ul>
+<li><span class="tag">Automation &amp; Enablement</span> Built reusable delivery pipelines and Python operational integrations; published platform runbooks and coached engineers on secure cloud-native delivery.</li>
+<li><span class="tag">Reliability &amp; Observability</span> Correlated Azure Monitor, Application Insights, Prometheus, Grafana, and CloudWatch telemetry to troubleshoot incidents and guide capacity and scaling decisions.</li>
+<li><span class="tag">Kubernetes &amp; GitOps</span> Standardized AKS/EKS deployments with Helm and Argo CD, using reviewed Git changes, health validation, and controlled reconciliation for repeatable releases.</li>
+</ul>
+<h2 class="section-title">Core Technologies</h2>
+<div class="skills-grid">
+<div class="skill-card">
+<h3>Automation, Data &amp; Enablement</h3>
+<p>Python, Bash, PowerShell, Linux, REST APIs, FastAPI, SQL, relational database connectivity, Java/Maven delivery, runbooks, mentoring, developer self-service</p>
+</div>
+<div class="skill-card">
+<h3>Observability &amp; Production Operations</h3>
+<p>Azure Monitor, Log Analytics, Application Insights, Prometheus, Grafana, ELK, CloudWatch, dashboards, alerting, on-call support, incident response, root cause analysis</p>
+</div>
+<div class="skill-card">
+<h3>Networking, Security &amp; Identity</h3>
+<p>Entra ID, Azure RBAC, managed identities, Key Vault, AWS IAM, network policies, TLS, secrets protection, vulnerability scanning; Keycloak/OIDC concepts</p>
+</div>
+<div class="skill-card">
+<h3>Infrastructure &amp; Delivery Automation</h3>
+<p>Terraform modules, Bicep, ARM templates, Azure CLI, Azure DevOps YAML, Git policies, artifact promotion, security gates, CloudFormation, Jenkins</p>
+</div>
+<div class="skill-card">
+<h3>Azure Infrastructure &amp; Availability</h3>
+<p>AKS, virtual networks, NSGs, private endpoints, Azure Storage, Azure SQL Database, Key Vault, availability zones, resilient deployment patterns, capacity planning</p>
+</div>
+<div class="skill-card">
+<h3>Kubernetes &amp; GitOps</h3>
+<p>Docker, AKS/EKS, Helm, Argo CD, GitOps reconciliation, drift correction, health checks, rolling updates, pod disruption budgets, HPA, cluster autoscaling</p>
+</div>
+<div class="skill-card">
+<h3>AWS Platform Engineering</h3>
+<p>EKS/ECS, Lambda, API Gateway, VPC, S3, RDS, CloudWatch, IAM, SNS/SQS, Terraform/CloudFormation, resource rightsizing and cost governance</p>
+</div>
+</div>
+<h2 class="section-title">Professional Experience</h2>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Lead Azure DevOps Engineer</span> | <span class="company-name">AT&amp;T Services Inc.</span></div>
+<span class="job-meta">08/2023 - Present</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> Azure, Terraform, Bicep, AKS/EKS, Argo CD, Helm, Azure DevOps, Prometheus/Grafana, AWS, Python</div>
+</div>
+<ul>
+<li>Mentored engineers on Terraform, GitOps, and troubleshooting; partnered with Engineering, Product, Security, and Platform teams on service readiness and developer workflows.</li>
+<li>Developed Python, Bash, and PowerShell tooling for deployment checks and operational diagnostics; supported on-call incident response, root cause analysis, and runbooks.</li>
+<li>Secured microservices with Entra ID, managed identities, Key Vault, AWS IAM, and Kubernetes network controls; partnered with Security on vulnerability remediation.</li>
+<li>Engineered secure Azure SaaS infrastructure with Terraform and Bicep, standardizing networks, private endpoints, storage, and AKS configuration across environments.</li>
+<li>Operated AKS and AWS EKS platforms with Helm and Argo CD GitOps; controlled manifest promotion, drift correction, and deployment health through reviewed Git changes.</li>
+<li>Implemented Azure Monitor, Application Insights, Prometheus/Grafana, and CloudWatch dashboards and alerts to track platform health and diagnose incidents.</li>
+<li>Built reusable Azure DevOps pipelines for container builds, automated tests, image scanning, IaC validation, and gated deployment to Azure and AWS workloads.</li>
+<li>Tuned pod resource requests, HPA settings, and node autoscaling against workload demand; reviewed Azure/AWS utilization to improve capacity and control cost.</li>
+<li>Improved AKS availability with zone-aware node pools, pod disruption budgets, readiness checks, and rolling-update safeguards; validated recovery procedures.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer</span> | <span class="company-name">GlobalLogic</span></div>
+<span class="job-meta">03/2023 - 08/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> Azure DevOps, Git, PowerShell, Build Agents, AWS, Terraform, CloudFormation, ECS, CloudWatch</div>
+</div>
+<ul>
+<li>Published reusable onboarding workflows and runbooks for Azure/AWS delivery, helping teams adopt shared pipelines and manage platform transitions.</li>
+<li>Built reusable Azure DevOps stages for compilation, automated tests, artifact publication, and release approvals across development, QA, and production.</li>
+<li>Automated Linux agent configuration and deployment diagnostics with Bash and PowerShell, reducing recurring setup work for development teams.</li>
+<li>Provisioned AWS platform resources with Terraform and CloudFormation, managing S3 artifacts, IAM deployment permissions, and environment-specific parameters.</li>
+<li>Strengthened release controls with Git branch protections, secure runner configuration, artifact validation, and documented troubleshooting procedures for engineering handoffs.</li>
+<li>Coordinated release dependencies and readiness checks with developers and QA, tracking blockers through corrective action and verified handoff.</li>
+<li>Maintained AKS and AWS ECS deployment configuration, validating container health, environment settings, and protected inputs before release promotion.</li>
+<li>Maintained Azure Repos pull-request validation and release approvals, connecting source changes to versioned build outputs and deployment evidence.</li>
+<li>Administered Linux and Windows build agents, managing services, permissions, tool dependencies, disk capacity, and network connectivity; resolved pipeline and credential failures.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer II</span> | <span class="company-name">Akamai Technologies</span></div>
+<span class="job-meta">12/2021 - 03/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> Azure, Terraform, AKS, Python, Azure Monitor, AWS, EKS, Lambda, API Gateway, CloudWatch</div>
+</div>
+<ul>
+<li>Developed Python and PowerShell utilities for release checks and recurring operational tasks, publishing reusable automation for consistent execution across environments.</li>
+<li>Provisioned Azure AKS and AWS EKS with Terraform; managed Helm and Argo CD deployments with versioned configuration and controlled GitOps reconciliation.</li>
+<li>Managed Azure Storage and AWS S3-backed Terraform state, environment configuration, and infrastructure plan reviews across release stages.</li>
+<li>Supported Azure API Management, Service Bus, and AWS Lambda/API Gateway integrations, validating identity, connectivity, and deployment dependencies.</li>
+<li>Reviewed AWS resource utilization and storage lifecycle settings with platform teams; supported rightsizing, tagging, and cost-governance improvements.</li>
+<li>Improved Kubernetes performance through resource diagnostics and scaling reviews; investigated application latency, node pressure, and network connectivity.</li>
+<li>Automated Azure application delivery with pipeline checks, versioned artifacts, environment-specific configuration, and post-deployment verification.</li>
+<li>Correlated Azure Monitor, Log Analytics, and CloudWatch telemetry to isolate cloud service failures; tuned alerts and verified corrective actions.</li>
+<li>Published release runbooks and troubleshooting guidance for distributed teams, capturing verification results and operational handoff requirements.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer / Senior SRE</span> | <span class="company-name">Turvo India Pvt Ltd</span></div>
+<span class="job-meta">04/2020 - 12/2021</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> Azure, Jenkins, FastAPI, JFrog, Terraform, AKS, Prometheus, AWS, EKS, RDS, SNS/SQS, CloudWatch</div>
+</div>
+<ul>
+<li>Delivered CI/CD automation for SaaS and payment-platform workloads, aligning application releases, database dependencies, and Azure infrastructure changes.</li>
+<li>Built Terraform modules for Azure networking/AKS and AWS VPC/EKS, providing repeatable platform provisioning for SaaS and payment workloads.</li>
+<li>Participated in on-call support for SaaS workloads, using CloudWatch logs and alarms to investigate AWS incidents and document root causes and recovery actions.</li>
+<li>Secured Azure/AWS pipeline credentials with Key Vault and IAM-based access; separated environment permissions and protected production deployment inputs.</li>
+<li>Used Prometheus/Grafana to diagnose Kubernetes capacity and service issues; automated Linux recovery tasks with Ansible and Bash during production support.</li>
+<li>Supported AWS RDS and Azure SQL Database release dependencies, validating SQL connectivity, database readiness, and application recovery procedures.</li>
+<li>Developed Python FastAPI integrations for Jenkins, Jira, and JFrog to automate project onboarding and reduce manual release coordination.</li>
+<li>Integrated SonarQube quality checks, JFrog Xray artifact scanning, and secure secrets handling into delivery workflows; preserved validation results for release reviews.</li>
+<li>Administered CloudBees Jenkins, JFrog Artifactory, and Xray and maintained shared libraries for consistent artifact versioning.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer</span> | <span class="company-name">HCL Technologies</span></div>
+<span class="job-meta">02/2019 - 04/2020</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> Mercedes-Benz Research &amp; Development India</div>
+<div><strong>Skills Used:</strong> Azure, Jenkins, ARM templates, Ansible, PowerShell, Helm, AWS, Terraform, CloudFormation, IAM, CloudWatch</div>
+</div>
+<ul>
+<li>Built Jenkins and Maven pipelines for Java REST microservices, integrating automated tests, security validation, and controlled promotion across UAT and production.</li>
+<li>Packaged Kubernetes services with Helm Charts, maintaining environment values, release versions, readiness checks, and deployment recovery procedures across Azure-hosted environments.</li>
+<li>Automated Azure infrastructure with ARM templates and AWS VPC, EC2, and S3 resources with Terraform/CloudFormation; configured Linux hosts using Ansible.</li>
+<li>Maintained AWS platform deployment parameters and CloudFormation update procedures, documenting validation, rollback, and production handoffs.</li>
+<li>Managed Azure Key Vault and AWS IAM deployment access, securing application credentials, database connectivity, and environment permissions.</li>
+<li>Investigated Azure and AWS deployment failures with ELK, Azure Monitor, and CloudWatch; coordinated fixes and verified restored application behavior.</li>
+<li>Maintained version-controlled environment parameters and deployment scripts to keep Azure application configuration consistent across release stages.</li>
+<li>Coordinated release configuration, application checks, and deployment verification with developers and QA before environment promotion.</li>
+<li>Documented deployment sequences, troubleshooting steps, and recovery procedures to support repeatable release execution and team knowledge transfer.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">DevOps Engineer</span> | <span class="company-name">Mphasis Ltd</span></div>
+<span class="job-meta">08/2016 - 12/2018</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> HPE</div>
+<div><strong>Skills Used:</strong> Azure, Git, Terraform, ARM templates, Ansible, Python, AWS, CloudFormation, EC2, S3, RDS, IAM</div>
+</div>
+<ul>
+<li>Troubleshot Azure/AWS release failures using build logs and CloudWatch metrics, isolating configuration, permission, and infrastructure issues.</li>
+<li>Created repeatable build and deployment pipelines for API, database, and UI components, promoting consistent artifacts across environments.</li>
+<li>Developed Python and PowerShell scripts for recurring deployment and administration tasks, reducing manual release preparation.</li>
+<li>Provisioned Azure resources with Terraform/ARM and AWS EC2, VPC, S3, and RDS with Terraform/CloudFormation, standardizing repeatable environment setup.</li>
+<li>Maintained AWS IAM roles, security groups, and environment parameters for controlled application access and automated platform deployments.</li>
+<li>Documented AWS provisioning and operational runbooks; coordinated infrastructure readiness, deployment scheduling, and verified support handoffs.</li>
+<li>Maintained Git branching practices and build-agent configuration to support controlled code integration and repeatable builds.</li>
+<li>Collected build logs and deployment verification results for release handovers, helping support teams trace failures to configuration or package changes.</li>
+<li>Validated release packages and artifact versions before environment promotion, checking required configuration and deployment inputs.</li>
+</ul>
+</div>
+<h2 class="section-title">Education</h2>
+<div class="education-grid">
+<div class="education-card">
+<div class="education-row">
+
+<div class="education-copy">
+<strong>B.Tech (2009-2013) in Information Technology</strong>
+<div>Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
