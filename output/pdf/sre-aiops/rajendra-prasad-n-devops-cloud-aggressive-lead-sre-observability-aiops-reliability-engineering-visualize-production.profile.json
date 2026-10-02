@@ -1,0 +1,266 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra P N",
+  "headline": "Lead SRE | Observability | AIOps | Reliability Engineering",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "page_title": "Rajendra P N - Lead SRE & Observability Engineer",
+  "summary_html": "<strong>Lead SRE with 10+ years of experience in production operations, cloud platforms, and enterprise delivery.</strong> Advances engineering-led operations through <strong>SLIs/SLOs, error budgets, observability, toil reduction, and AIOps</strong>. Builds service-health dashboards and automation with Python, Terraform, Ansible, and Jenkins; correlates metrics, logs, and traces to guide incident response and reliability improvements. Leads production-readiness reviews, resiliency initiatives, and operational enablement across Azure/AWS and on-premises services, partnering with application, infrastructure, security, and governance teams.",
+  "achievements_title": "Reliability Engineering & Intelligent Operations Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "certification_badges_image": "file:///Users/rajendra/Documents/1Resume/ai_resume/tmp/sre-aiops/plugin/assets/static/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "SRE",
+    "SLIs/SLOs",
+    "Error Budgets",
+    "AIOps",
+    "Observability",
+    "Toil Reduction",
+    "Incident Management",
+    "Python",
+    "Terraform",
+    "Ansible",
+    "Jenkins",
+    "Prometheus",
+    "Grafana",
+    "Azure Monitor",
+    "AWS"
+  ],
+  "skill_sections": [
+    {
+      "title": "AIOps & Operational Intelligence",
+      "content": "Event correlation, anomaly detection, predictive capacity trends, noise reduction, telemetry enrichment, automated remediation, service health analytics"
+    },
+    {
+      "title": "SRE Standards & Service Health",
+      "content": "SLIs, SLOs, error budgets, burn-rate alerts, reliability metrics, production readiness, maturity reviews, capacity planning, post-incident learning"
+    },
+    {
+      "title": "Security, Governance & Enablement",
+      "content": "IAM/RBAC, Key Vault, least privilege, vulnerability remediation, audit evidence, runbooks, mentoring, stakeholder reporting, reliability reviews, operational standards"
+    },
+    {
+      "title": "Resiliency & Platform Operations",
+      "content": "Azure/AWS, Linux, Docker, Kubernetes, secondary-region readiness, failover validation, network observability, GenAI platform health, incident triage, RCA"
+    },
+    {
+      "title": "Enterprise Observability",
+      "content": "Prometheus, Grafana, Azure Monitor, Log Analytics/KQL, Application Insights, ELK, CloudWatch, metrics/logs/traces, synthetic monitoring, dashboard automation"
+    },
+    {
+      "title": "Automation, IaC & CI/CD",
+      "content": "Python, Bash, PowerShell, Terraform modules, Ansible, Jenkinsfiles, Groovy shared libraries, policy-as-code, validation gates, event-driven operational workflows"
+    }
+  ],
+  "achievements": [
+    {
+      "tag": "Observability & AIOps",
+      "text": "Automated dashboards and telemetry correlation; applied anomaly detection and actionable alerting to surface reliability risks and reduce operational noise."
+    },
+    {
+      "tag": "SLO-Driven Reliability",
+      "text": "Defined service-health indicators, error-budget policies, and reliability reviews to prioritize remediation with application and infrastructure teams."
+    },
+    {
+      "tag": "Toil Reduction",
+      "text": "Developed reusable remediation workflows, IaC modules, and Jenkins patterns; converted recurring support tasks into reviewed engineering automation."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead SRE",
+      "company": "AT&T Services Inc.",
+      "impact": [
+        "Defined availability, latency, and error-rate SLIs/SLOs with Development and Infrastructure teams; established error-budget policies to prioritize reliability work and release decisions.",
+        "Automated enterprise service-health dashboards with Grafana, Azure Monitor Workbooks, and KQL, exposing SLO trends, incidents, and readiness risks to technical and business stakeholders.",
+        "Implemented metrics, logs, traces, and synthetic monitoring with Prometheus, Application Insights, ELK, and CloudWatch; reviewed instrumentation and logging changes with application owners.",
+        "Applied AIOps event correlation and anomaly detection to group related alerts and reduce noise; used capacity trends to identify bottlenecks and guide proactive remediation.",
+        "Built Python/PowerShell remediation workflows and Terraform/Ansible modules; tracked toil with support teams and automated recurring checks with validation and escalation safeguards.",
+        "Led high-impact incident triage and root cause investigations with Problem Management; modeled failure scenarios, documented corrective actions, and drove post-incident reliability reviews.",
+        "Coordinated secondary-region readiness and failover checks; expanded network observability and GenAI platform health monitoring for latency, errors, capacity, and dependency availability.",
+        "Embedded IAM, policy-as-code, vulnerability checks, and audit evidence in Jenkins CI/CD and cloud operations; partnered with Security and Governance on remediation priorities.",
+        "Mentored engineers and led operational-maturity reviews, establishing production-readiness standards and communicating reliability tradeoffs across platform, application, and infrastructure teams."
+      ],
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "SLIs/SLOs",
+        "AIOps",
+        "Grafana",
+        "Azure Monitor/KQL",
+        "Python",
+        "Terraform/Ansible",
+        "Jenkins",
+        "Azure/AWS"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "impact": [
+        "Participated in on-call support, assessing incident impact, escalating application failures, and verifying service restoration with engineering teams.",
+        "Created Jenkins pipelines for compilation, automated tests, package publication, and deployment approvals across development, QA, and production.",
+        "Assessed monitoring coverage for new application releases, validating dashboards, synthetic health checks, alert routing, and rollback readiness with developers.",
+        "Performed root cause reviews for failed releases and production issues, documenting evidence and preventive fixes with development and infrastructure owners.",
+        "Tracked service latency, error rates, and availability against SLIs/SLOs; published health reports to prioritize operational intervention.",
+        "Configured application dashboards and alert rules using Azure Monitor and CloudWatch; correlated error logs with infrastructure events during investigations.",
+        "Standardized incident escalation and ownership mapping, linking alert context to service runbooks and verified recovery steps for support handoffs.",
+        "Maintained Jenkins Linux/Windows agents and build tooling; debugged dependency, credential, disk-capacity, and connectivity failures affecting delivery.",
+        "Debugged Jenkinsfile and script failures with Groovy, Bash, and PowerShell; validated fixes through test jobs and reviewed source changes."
+      ],
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Jenkins",
+        "Groovy",
+        "Bash/PowerShell",
+        "Azure Monitor",
+        "CloudWatch",
+        "Production Support",
+        "Reliability Metrics",
+        "Automation"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "impact": [
+        "Participated in production on-call support, diagnosing application errors, deployment regressions, and network failures with developers and platform teams.",
+        "Built and supported Jenkins CI/CD workflows for application and infrastructure changes, incorporating tests, artifact versioning, and deployment verification.",
+        "Instrumented application requests with correlated logs and traces; reviewed telemetry coverage and synthetic probes with development partners.",
+        "Monitored service health with Azure Monitor, Log Analytics, Prometheus/Grafana, and CloudWatch; tuned alert thresholds against observed application behavior.",
+        "Tuned alert routing and suppression to distinguish actionable service failures from transient infrastructure events, improving signal quality during on-call response.",
+        "Wrote Python and PowerShell tools for API health checks, log collection, and recurring support tasks; debugged scripts and validated error handling.",
+        "Supported containerized applications on Azure AKS and AWS EKS, investigating restart loops, readiness failures, and CPU/memory pressure.",
+        "Defined service indicators and SLO thresholds for release readiness; reviewed capacity, dependency failures, and error-budget impact with application teams.",
+        "Correlated logs, metrics, configuration changes, and release history to identify root causes; documented corrective actions and verified recovery."
+      ],
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Jenkins",
+        "Groovy",
+        "Python/PowerShell",
+        "AKS/EKS",
+        "Observability",
+        "On-Call",
+        "Reliability Metrics",
+        "Automation"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "impact": [
+        "Participated in on-call rotations for SaaS workloads, managing incident triage, escalation, recovery actions, and verified handoff to support teams.",
+        "Developed Python FastAPI integrations for Jenkins, Jira, and JFrog; tracked operational toil and automated onboarding and repetitive release coordination.",
+        "Performed root cause analysis across application logs, Jenkins outputs, and infrastructure changes; partnered with developers on fixes and regression checks.",
+        "Used Prometheus/Grafana and CloudWatch dashboards to monitor application health, investigate errors, and identify Kubernetes resource constraints.",
+        "Defined payment-service SLIs and SLO reporting with application owners, prioritizing reliability backlog items using service-health trends.",
+        "Reviewed post-incident remediation progress and deployment risk with engineering leads; captured preventive controls and validation evidence.",
+        "Administered CloudBees Jenkins agents and shared libraries, resolving execution failures and maintaining reproducible tooling for operational automation.",
+        "Supported Azure/AWS application and database dependencies, validating connectivity, environment configuration, and release recovery procedures.",
+        "Integrated SonarQube, JFrog Artifactory, and Xray into Jenkins delivery, validating code quality, artifact versions, and security results before promotion."
+      ],
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "CloudBees Jenkins",
+        "Python/FastAPI",
+        "JFrog",
+        "Prometheus/Grafana",
+        "On-Call",
+        "Azure/AWS",
+        "Reliability Metrics",
+        "Automation"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "impact": [
+        "Provided on-call production support, triaging incidents, coordinating escalation, and validating restored application functionality.",
+        "Documented incident findings, recovery procedures, and Jenkins troubleshooting guidance to improve operational readiness and team handoffs.",
+        "Enhanced ELK, Azure Monitor, and CloudWatch monitoring with application owners; reviewed latency/error dashboards, alert thresholds, and coverage for new deployments.",
+        "Built Jenkins and Maven pipelines for Java REST microservices with automated tests, security validation, and gated UAT/production promotion.",
+        "Maintained Jenkins job configuration, agents, credentials, and deployment scripts; investigated failed builds and application-release errors.",
+        "Used Ansible to standardize Linux configuration and detect environment drift, validating corrective changes before production rollout.",
+        "Developed Bash and PowerShell automation for environment checks and deployment diagnostics; tested fixes to scripts and Jenkins pipeline logic.",
+        "Supported Azure/AWS infrastructure and Kubernetes-hosted services, resolving configuration, permission, and database-connectivity failures.",
+        "Partnered with security teams on vulnerability remediation and deployment permissions; preserved change validation and access evidence for operational reviews."
+      ],
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Jenkins",
+        "Java/Maven",
+        "Bash/PowerShell",
+        "ELK",
+        "CloudWatch",
+        "Production Support",
+        "Reliability Metrics",
+        "Automation"
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "impact": [
+        "Participated in on-call production support, assessing alerts, escalating incidents, and coordinating recovery with development and infrastructure teams.",
+        "Created Jenkins build and deployment pipelines for API, database, and UI components, promoting versioned artifacts across environments.",
+        "Monitored application logs and Azure/AWS infrastructure telemetry, using CloudWatch and operational dashboards to investigate service degradation.",
+        "Established deployment-monitoring coverage checks, verifying log collection, alert ownership, and application-health validation with development teams.",
+        "Added Jenkins artifact validation and post-deployment checks, confirming application health and required configuration during environment promotion.",
+        "Investigated recurring incidents, low-level errors, and resource bottlenecks; partnered with developers and infrastructure teams on corrective actions.",
+        "Configured Jenkins jobs, Git integration, and build agents; diagnosed compilation, dependency, credential, and deployment failures.",
+        "Developed Python, Bash, and PowerShell scripts for deployment checks and administration tasks; debugged failures and verified corrective changes.",
+        "Standardized Jenkins release validation and operational handoffs, documenting monitoring coverage, escalation procedures, and verified recovery steps."
+      ],
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "HPE",
+      "skills_used": [
+        "Jenkins",
+        "Git",
+        "Python/Bash/PowerShell",
+        "CloudWatch",
+        "Linux",
+        "On-Call",
+        "Reliability Metrics",
+        "Automation"
+      ]
+    }
+  ],
+  "additional_sections": [],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology",
+      "logo_image": "",
+      "logo_alt": ""
+    }
+  ],
+  "education_before_experience": false,
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Aggressive SRE/AIOps role-specific variant; preserve Lead SRE title, existing employment chronology, certifications, and nine bullets per project."
+  ]
+}

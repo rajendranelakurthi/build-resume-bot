@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajendra P N - Lead SRE &amp; Observability Engineer</title>
+
+<style>
+*{box-sizing:border-box;}
+body{margin:0;padding:12px 0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:#222;line-height:1.4;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.resume-page{width:190mm;min-height:277mm;margin:0 auto;background:#ffffff;box-shadow:0 8px 24px rgba(15,57,112,.12);}
+header{background:linear-gradient(120deg,#174a8b,#0f3970);color:white;padding:18px 26px;display:flex;justify-content:space-between;gap:18px;}
+.header-left{max-width:118mm;}
+.header-left h1{margin:0;font-size:30px;letter-spacing:.4px;font-weight:800;}
+.role{margin-top:6px;font-size:13px;font-weight:700;color:#ffc400;text-transform:uppercase;}
+.header-right{text-align:right;font-size:12px;line-height:1.55;}
+.header-right a{color:white;text-decoration:none;word-break:break-word;}
+.content{padding:18px 26px 22px;}
+.summary-box{background:#f6f9fd;border-left:4px solid #174a8b;padding:12px 14px;border-radius:6px;font-size:13px;margin-bottom:18px;}
+.section-title{font-size:16px;color:#174a8b;text-transform:uppercase;font-weight:800;border-bottom:2px solid #174a8b;padding-bottom:5px;margin:20px 0 12px 0;page-break-after:avoid;}
+.certifications-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:6px;page-break-inside:avoid;break-inside:avoid;align-items:start;}
+.cert-card{background:#fbfdff;border:1px solid #e1e8f2;border-radius:8px;padding:8px 6px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;page-break-inside:avoid;break-inside:avoid;min-height:140px;}
+.cert-badge-svg{width:100%;max-width:92px;height:auto;display:block;}
+.cert-label{margin-top:6px;font-size:10px;font-weight:700;line-height:1.25;color:#173b6b;}
+.skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.skill-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;}
+.skill-card h3{margin:0 0 5px 0;font-size:11px;color:#e06300;text-transform:uppercase;}
+.skill-card p{margin:0;font-size:11.5px;}
+.job-block{margin-bottom:18px;page-break-inside:avoid;break-inside:avoid;}
+.job-header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:5px;}
+.job-title{font-weight:700;font-size:14px;}
+.company-name{color:#174a8b;font-weight:700;}
+.job-meta{font-size:11.5px;color:#666;white-space:nowrap;}
+.job-details{font-size:11.25px;color:#444;margin:0 0 7px 0;line-height:1.45;}
+.job-details div{margin-bottom:2px;}
+ul{margin:0;padding-left:18px;}
+li{font-size:11.5px;margin-bottom:4px;}
+.tag{color:#174a8b;font-weight:700;}
+.education-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:8px;}
+.education-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;font-size:11.5px;}
+.education-row{display:flex;align-items:center;gap:16px;}
+.education-copy{min-width:0;}
+.education-card strong{display:block;margin-bottom:3px;}
+.education-logo{width:auto;max-width:140px;max-height:56px;height:auto;display:block;flex:0 0 auto;object-fit:contain;object-position:left center;}
+@page{size:A4 portrait;margin:8mm;}
+@media print{
+html,body{width:210mm;}
+body{background:white;padding:0;font-size:11px;line-height:1.32;}
+.resume-page{width:194mm;min-height:auto;margin:0 auto;box-shadow:none;}
+header{padding:14px 18px;gap:14px;}
+.header-left{max-width:118mm;}
+.header-left h1{font-size:25px;}
+.role{font-size:11.5px;margin-top:4px;}
+.header-right{font-size:10.5px;line-height:1.4;}
+.content{padding:12px 18px 16px;}
+.summary-box{font-size:11.25px;padding:10px 12px;margin-bottom:12px;}
+.section-title{font-size:13px;margin:14px 0 8px 0;padding-bottom:4px;border-bottom-width:2px;page-break-after:avoid;break-after:avoid;}
+.certifications-grid{grid-template-columns:repeat(5,minmax(0,1fr)) !important;gap:6px;}
+.cert-card{min-height:112px;padding:6px 4px;}
+.cert-badge-svg{max-width:74px;}
+.cert-label{font-size:8.5px;line-height:1.15;margin-top:5px;}
+.skills-grid{grid-template-columns:1fr 1fr !important;gap:8px;page-break-inside:auto;}
+.skill-card{padding:8px 9px;}
+.skill-card h3{font-size:9.5px;margin-bottom:4px;}
+.skill-card p{font-size:9.5px;line-height:1.28;}
+.job-block{margin-bottom:12px;}
+.job-title{font-size:12px;}
+.job-meta{font-size:9.5px;}
+.job-details{font-size:9.5px;line-height:1.3;margin-bottom:5px;}
+ul{padding-left:15px;}
+li{font-size:9.6px;line-height:1.26;margin-bottom:2px;}
+.education-grid{gap:8px;margin-bottom:6px;}
+.education-card{padding:8px 9px;font-size:9.8px;}
+.education-row{gap:12px;}
+.education-card strong{margin-bottom:2px;}
+.education-logo{width:auto;max-width:112px;max-height:42px;}
+a{text-decoration:none;color:inherit;}
+}
+@media (max-width:900px){body{padding:0;}.resume-page{width:100%;min-height:auto;box-shadow:none;}.certifications-grid{grid-template-columns:repeat(3,1fr);}.skills-grid{grid-template-columns:1fr;}.header-left{max-width:none;}.job-header{flex-direction:column;}.job-meta{white-space:normal;}.education-row{align-items:flex-start;}}
+@media (max-width:560px){.certifications-grid{grid-template-columns:repeat(2,1fr);}.cert-card{min-height:132px;}}
+/* Keep print geometry independent of narrow-screen rules. */
+@media print{html,body{width:auto;} .job-header{flex-direction:row;} .job-meta{white-space:nowrap;}}
+@media print{.section-title{margin-top:8px;margin-bottom:4px}.cert-card{min-height:65px}.cert-badge-svg{max-width:46px;height:48px;width:48px}header{padding:10px 18px}.content{padding-top:10px}.job-block{break-inside:auto;page-break-inside:auto;margin-bottom:6px}.job-header,.job-details{break-after:avoid}.skill-card{padding:5px 8px}.skill-card p{font-size:9.3px;line-height:1.22}li{font-size:9.4px;line-height:1.22;margin-bottom:1px;break-inside:avoid}.summary-box{padding:8px 12px;margin-bottom:8px}.education-card{padding:5px 9px}}
+</style>
+</head>
+<body>
+<div class="resume-page">
+<header>
+<div class="header-left">
+<h1>RAJENDRA P N</h1>
+<!-- Approved Rajendra header: Lead DevOps Engineer | Multi-Cloud; contact comes from profile: rajendran.scm@gmail.com -->
+<div class="role">Lead SRE | Observability | AIOps | Reliability Engineering</div>
+</div>
+<div class="header-right">
+<div>rajendran.scm@gmail.com</div>
+<div>+1 (469) 926-4201</div>
+<div>Dallas, TX</div>
+<div><a href="https://www.linkedin.com/in/rajendranelakurthi">linkedin.com/in/rajendranelakurthi</a></div>
+<div><a href="https://rajendranelakurthi.github.io">rajendranelakurthi.github.io</a></div>
+</div>
+</header>
+<div class="content">
+<div class="summary-box"><strong>Lead SRE with 10+ years of experience in production operations, cloud platforms, and enterprise delivery.</strong> Advances engineering-led operations through <strong>SLIs/SLOs, error budgets, observability, toil reduction, and AIOps</strong>. Builds service-health dashboards and automation with Python, Terraform, Ansible, and Jenkins; correlates metrics, logs, and traces to guide incident response and reliability improvements. Leads production-readiness reviews, resiliency initiatives, and operational enablement across Azure/AWS and on-premises services, partnering with application, infrastructure, security, and governance teams.</div>
+<h2 class="section-title">Certifications</h2>
+<div class="certifications-grid">
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><circle cx="90" cy="90" r="82" fill="#ffffff" stroke="#3b296e" stroke-width="5"/><circle cx="90" cy="90" r="72" fill="none" stroke="#d7d0ea" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">GITLAB</text><text x="90" y="61" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">CERTIFIED</text><path d="M76 82 90 112 104 82 114 114 90 140 66 114Z" fill="#f36f21"/><path d="M76 82 90 112 104 82" fill="none" stroke="#2c235d" stroke-width="4" stroke-linejoin="round"/><text x="90" y="157" text-anchor="middle" font-size="13" font-weight="700" fill="#2c235d">ASSOCIATE</text></svg>
+<div class="cert-label">GitLab Certified Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0c62b7" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#1e225f">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#555">CERTIFIED</text><text x="90" y="96" text-anchor="middle" font-size="18" font-weight="700" fill="#202020">AZURE</text><text x="90" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#202020">FUNDAMENTALS</text><path d="M90 133 96 150 114 150 99 160 105 176 90 166 75 176 81 160 66 150 84 150Z" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure Fundamentals</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0a3d86" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#d9e2f7">CERTIFIED</text><text x="90" y="94" text-anchor="middle" font-size="17" font-weight="700" fill="#202020">AZURE</text><text x="90" y="116" text-anchor="middle" font-size="13" font-weight="700" fill="#202020">DEVOPS ENGINEER</text><text x="90" y="145" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">EXPERT</text><circle cx="68" cy="160" r="7" fill="#ffffff"/><circle cx="90" cy="160" r="7" fill="#ffffff"/><circle cx="112" cy="160" r="7" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure DevOps Engineer Expert</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 162 54V126L90 168 18 126V54Z" fill="#3136f0" stroke="#4fb0ff" stroke-width="5"/><text x="90" y="44" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">aws</text><text x="90" y="63" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">certified</text><line x1="48" y1="78" x2="132" y2="78" stroke="#9bb8ff" stroke-width="2"/><text x="90" y="104" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Solutions</text><text x="90" y="126" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Architect</text><text x="90" y="148" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="2" fill="#ffffff">ASSOCIATE</text></svg>
+<div class="cert-label">AWS Certified Solutions Architect - Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M50 14H130L166 52V124L90 168 14 124V52Z" fill="#4f26c8" stroke="#7f63ff" stroke-width="5"/><circle cx="90" cy="38" r="16" fill="#ffffff"/><circle cx="90" cy="38" r="10" fill="none" stroke="#0096d6" stroke-width="4"/><text x="90" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">CERTIFIED</text><text x="90" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">MuleSoft</text><text x="90" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Developer</text><text x="90" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">LEVEL 1</text></svg>
+<div class="cert-label">MuleSoft Certified Developer - Level 1</div>
+</div>
+</div>
+<h2 class="section-title">Reliability Engineering &amp; Intelligent Operations Highlights</h2>
+<ul>
+<li><span class="tag">Observability &amp; AIOps</span> Automated dashboards and telemetry correlation; applied anomaly detection and actionable alerting to surface reliability risks and reduce operational noise.</li>
+<li><span class="tag">SLO-Driven Reliability</span> Defined service-health indicators, error-budget policies, and reliability reviews to prioritize remediation with application and infrastructure teams.</li>
+<li><span class="tag">Toil Reduction</span> Developed reusable remediation workflows, IaC modules, and Jenkins patterns; converted recurring support tasks into reviewed engineering automation.</li>
+</ul>
+<h2 class="section-title">Core Technologies</h2>
+<div class="skills-grid">
+<div class="skill-card">
+<h3>AIOps &amp; Operational Intelligence</h3>
+<p>Event correlation, anomaly detection, predictive capacity trends, noise reduction, telemetry enrichment, automated remediation, service health analytics</p>
+</div>
+<div class="skill-card">
+<h3>SRE Standards &amp; Service Health</h3>
+<p>SLIs, SLOs, error budgets, burn-rate alerts, reliability metrics, production readiness, maturity reviews, capacity planning, post-incident learning</p>
+</div>
+<div class="skill-card">
+<h3>Security, Governance &amp; Enablement</h3>
+<p>IAM/RBAC, Key Vault, least privilege, vulnerability remediation, audit evidence, runbooks, mentoring, stakeholder reporting, reliability reviews, operational standards</p>
+</div>
+<div class="skill-card">
+<h3>Resiliency &amp; Platform Operations</h3>
+<p>Azure/AWS, Linux, Docker, Kubernetes, secondary-region readiness, failover validation, network observability, GenAI platform health, incident triage, RCA</p>
+</div>
+<div class="skill-card">
+<h3>Enterprise Observability</h3>
+<p>Prometheus, Grafana, Azure Monitor, Log Analytics/KQL, Application Insights, ELK, CloudWatch, metrics/logs/traces, synthetic monitoring, dashboard automation</p>
+</div>
+<div class="skill-card">
+<h3>Automation, IaC &amp; CI/CD</h3>
+<p>Python, Bash, PowerShell, Terraform modules, Ansible, Jenkinsfiles, Groovy shared libraries, policy-as-code, validation gates, event-driven operational workflows</p>
+</div>
+</div>
+<h2 class="section-title">Professional Experience</h2>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Lead SRE</span> | <span class="company-name">AT&amp;T Services Inc.</span></div>
+<span class="job-meta">08/2023 - Present</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> SLIs/SLOs, AIOps, Grafana, Azure Monitor/KQL, Python, Terraform/Ansible, Jenkins, Azure/AWS</div>
+</div>
+<ul>
+<li>Defined availability, latency, and error-rate SLIs/SLOs with Development and Infrastructure teams; established error-budget policies to prioritize reliability work and release decisions.</li>
+<li>Automated enterprise service-health dashboards with Grafana, Azure Monitor Workbooks, and KQL, exposing SLO trends, incidents, and readiness risks to technical and business stakeholders.</li>
+<li>Implemented metrics, logs, traces, and synthetic monitoring with Prometheus, Application Insights, ELK, and CloudWatch; reviewed instrumentation and logging changes with application owners.</li>
+<li>Applied AIOps event correlation and anomaly detection to group related alerts and reduce noise; used capacity trends to identify bottlenecks and guide proactive remediation.</li>
+<li>Built Python/PowerShell remediation workflows and Terraform/Ansible modules; tracked toil with support teams and automated recurring checks with validation and escalation safeguards.</li>
+<li>Led high-impact incident triage and root cause investigations with Problem Management; modeled failure scenarios, documented corrective actions, and drove post-incident reliability reviews.</li>
+<li>Coordinated secondary-region readiness and failover checks; expanded network observability and GenAI platform health monitoring for latency, errors, capacity, and dependency availability.</li>
+<li>Embedded IAM, policy-as-code, vulnerability checks, and audit evidence in Jenkins CI/CD and cloud operations; partnered with Security and Governance on remediation priorities.</li>
+<li>Mentored engineers and led operational-maturity reviews, establishing production-readiness standards and communicating reliability tradeoffs across platform, application, and infrastructure teams.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer</span> | <span class="company-name">GlobalLogic</span></div>
+<span class="job-meta">03/2023 - 08/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> Jenkins, Groovy, Bash/PowerShell, Azure Monitor, CloudWatch, Production Support, Reliability Metrics, Automation</div>
+</div>
+<ul>
+<li>Participated in on-call support, assessing incident impact, escalating application failures, and verifying service restoration with engineering teams.</li>
+<li>Created Jenkins pipelines for compilation, automated tests, package publication, and deployment approvals across development, QA, and production.</li>
+<li>Assessed monitoring coverage for new application releases, validating dashboards, synthetic health checks, alert routing, and rollback readiness with developers.</li>
+<li>Performed root cause reviews for failed releases and production issues, documenting evidence and preventive fixes with development and infrastructure owners.</li>
+<li>Tracked service latency, error rates, and availability against SLIs/SLOs; published health reports to prioritize operational intervention.</li>
+<li>Configured application dashboards and alert rules using Azure Monitor and CloudWatch; correlated error logs with infrastructure events during investigations.</li>
+<li>Standardized incident escalation and ownership mapping, linking alert context to service runbooks and verified recovery steps for support handoffs.</li>
+<li>Maintained Jenkins Linux/Windows agents and build tooling; debugged dependency, credential, disk-capacity, and connectivity failures affecting delivery.</li>
+<li>Debugged Jenkinsfile and script failures with Groovy, Bash, and PowerShell; validated fixes through test jobs and reviewed source changes.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer II</span> | <span class="company-name">Akamai Technologies</span></div>
+<span class="job-meta">12/2021 - 03/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> Jenkins, Groovy, Python/PowerShell, AKS/EKS, Observability, On-Call, Reliability Metrics, Automation</div>
+</div>
+<ul>
+<li>Participated in production on-call support, diagnosing application errors, deployment regressions, and network failures with developers and platform teams.</li>
+<li>Built and supported Jenkins CI/CD workflows for application and infrastructure changes, incorporating tests, artifact versioning, and deployment verification.</li>
+<li>Instrumented application requests with correlated logs and traces; reviewed telemetry coverage and synthetic probes with development partners.</li>
+<li>Monitored service health with Azure Monitor, Log Analytics, Prometheus/Grafana, and CloudWatch; tuned alert thresholds against observed application behavior.</li>
+<li>Tuned alert routing and suppression to distinguish actionable service failures from transient infrastructure events, improving signal quality during on-call response.</li>
+<li>Wrote Python and PowerShell tools for API health checks, log collection, and recurring support tasks; debugged scripts and validated error handling.</li>
+<li>Supported containerized applications on Azure AKS and AWS EKS, investigating restart loops, readiness failures, and CPU/memory pressure.</li>
+<li>Defined service indicators and SLO thresholds for release readiness; reviewed capacity, dependency failures, and error-budget impact with application teams.</li>
+<li>Correlated logs, metrics, configuration changes, and release history to identify root causes; documented corrective actions and verified recovery.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer / Senior SRE</span> | <span class="company-name">Turvo India Pvt Ltd</span></div>
+<span class="job-meta">04/2020 - 12/2021</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> CloudBees Jenkins, Python/FastAPI, JFrog, Prometheus/Grafana, On-Call, Azure/AWS, Reliability Metrics, Automation</div>
+</div>
+<ul>
+<li>Participated in on-call rotations for SaaS workloads, managing incident triage, escalation, recovery actions, and verified handoff to support teams.</li>
+<li>Developed Python FastAPI integrations for Jenkins, Jira, and JFrog; tracked operational toil and automated onboarding and repetitive release coordination.</li>
+<li>Performed root cause analysis across application logs, Jenkins outputs, and infrastructure changes; partnered with developers on fixes and regression checks.</li>
+<li>Used Prometheus/Grafana and CloudWatch dashboards to monitor application health, investigate errors, and identify Kubernetes resource constraints.</li>
+<li>Defined payment-service SLIs and SLO reporting with application owners, prioritizing reliability backlog items using service-health trends.</li>
+<li>Reviewed post-incident remediation progress and deployment risk with engineering leads; captured preventive controls and validation evidence.</li>
+<li>Administered CloudBees Jenkins agents and shared libraries, resolving execution failures and maintaining reproducible tooling for operational automation.</li>
+<li>Supported Azure/AWS application and database dependencies, validating connectivity, environment configuration, and release recovery procedures.</li>
+<li>Integrated SonarQube, JFrog Artifactory, and Xray into Jenkins delivery, validating code quality, artifact versions, and security results before promotion.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer</span> | <span class="company-name">HCL Technologies</span></div>
+<span class="job-meta">02/2019 - 04/2020</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> Mercedes-Benz Research &amp; Development India</div>
+<div><strong>Skills Used:</strong> Jenkins, Java/Maven, Bash/PowerShell, ELK, CloudWatch, Production Support, Reliability Metrics, Automation</div>
+</div>
+<ul>
+<li>Provided on-call production support, triaging incidents, coordinating escalation, and validating restored application functionality.</li>
+<li>Documented incident findings, recovery procedures, and Jenkins troubleshooting guidance to improve operational readiness and team handoffs.</li>
+<li>Enhanced ELK, Azure Monitor, and CloudWatch monitoring with application owners; reviewed latency/error dashboards, alert thresholds, and coverage for new deployments.</li>
+<li>Built Jenkins and Maven pipelines for Java REST microservices with automated tests, security validation, and gated UAT/production promotion.</li>
+<li>Maintained Jenkins job configuration, agents, credentials, and deployment scripts; investigated failed builds and application-release errors.</li>
+<li>Used Ansible to standardize Linux configuration and detect environment drift, validating corrective changes before production rollout.</li>
+<li>Developed Bash and PowerShell automation for environment checks and deployment diagnostics; tested fixes to scripts and Jenkins pipeline logic.</li>
+<li>Supported Azure/AWS infrastructure and Kubernetes-hosted services, resolving configuration, permission, and database-connectivity failures.</li>
+<li>Partnered with security teams on vulnerability remediation and deployment permissions; preserved change validation and access evidence for operational reviews.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">DevOps Engineer</span> | <span class="company-name">Mphasis Ltd</span></div>
+<span class="job-meta">08/2016 - 12/2018</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> HPE</div>
+<div><strong>Skills Used:</strong> Jenkins, Git, Python/Bash/PowerShell, CloudWatch, Linux, On-Call, Reliability Metrics, Automation</div>
+</div>
+<ul>
+<li>Participated in on-call production support, assessing alerts, escalating incidents, and coordinating recovery with development and infrastructure teams.</li>
+<li>Created Jenkins build and deployment pipelines for API, database, and UI components, promoting versioned artifacts across environments.</li>
+<li>Monitored application logs and Azure/AWS infrastructure telemetry, using CloudWatch and operational dashboards to investigate service degradation.</li>
+<li>Established deployment-monitoring coverage checks, verifying log collection, alert ownership, and application-health validation with development teams.</li>
+<li>Added Jenkins artifact validation and post-deployment checks, confirming application health and required configuration during environment promotion.</li>
+<li>Investigated recurring incidents, low-level errors, and resource bottlenecks; partnered with developers and infrastructure teams on corrective actions.</li>
+<li>Configured Jenkins jobs, Git integration, and build agents; diagnosed compilation, dependency, credential, and deployment failures.</li>
+<li>Developed Python, Bash, and PowerShell scripts for deployment checks and administration tasks; debugged failures and verified corrective changes.</li>
+<li>Standardized Jenkins release validation and operational handoffs, documenting monitoring coverage, escalation procedures, and verified recovery steps.</li>
+</ul>
+</div>
+<h2 class="section-title">Education</h2>
+<div class="education-grid">
+<div class="education-card">
+<div class="education-row">
+
+<div class="education-copy">
+<strong>B.Tech (2009-2013) in Information Technology</strong>
+<div>Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
