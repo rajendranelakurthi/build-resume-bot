@@ -59,6 +59,7 @@ def slugify(text: str, *, fallback: str = "request") -> str:
 
 
 MIN_PROJECT_BULLETS = 10
+MIN_LATEST_PROJECT_BULLETS = 15
 
 
 def validate_project_bullets(profile) -> None:
@@ -67,6 +68,9 @@ def validate_project_bullets(profile) -> None:
     if short_projects:
         raise ValueError("Every project requires at least 10 substantive bullets; revise "
                          + "; ".join(short_projects))
+
+    if profile.experience and len(profile.experience[0].impact) < MIN_LATEST_PROJECT_BULLETS:
+        raise ValueError("Latest project requires at least 15 substantive bullets")
 
 
 def render_request(request: ResumeRequest) -> dict[str, object]:

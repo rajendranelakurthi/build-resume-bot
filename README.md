@@ -74,4 +74,4 @@ The renderer is built around the HTML/CSS structure you provided:
 
 ## Resume content minimum
 
-All base and future tailored resumes must contain at least **10 distinct, substantive bullets per employer/project**. The plugin validates this before generating output.
+All base and future tailored resumes must contain at least **15 distinct, substantive bullets in the latest project** and **10 in every other project**. The plugin validates these minimums before generating output. Both reusable HTML templates display four aligned certification cards, and both renderers exclude the MuleSoft badge.

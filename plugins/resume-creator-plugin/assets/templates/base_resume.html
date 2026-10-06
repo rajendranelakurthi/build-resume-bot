@@ -1,3 +1,5 @@
+<!-- Reusable resume defaults: latest project requires 15+ substantive bullets; other projects require 10+.
+     Certification renderer excludes the MuleSoft badge; display four aligned certification cards. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +20,7 @@ header{background:linear-gradient(120deg,#174a8b,#0f3970);color:white;padding:18
 .content{padding:18px 26px 22px;}
 .summary-box{background:#f6f9fd;border-left:4px solid #174a8b;padding:12px 14px;border-radius:6px;font-size:13px;margin-bottom:18px;}
 .section-title{font-size:16px;color:#174a8b;text-transform:uppercase;font-weight:800;border-bottom:2px solid #174a8b;padding-bottom:5px;margin:20px 0 12px 0;page-break-after:avoid;}
-.certifications-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:6px;page-break-inside:avoid;break-inside:avoid;align-items:start;}
+.certifications-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:6px;page-break-inside:avoid;break-inside:avoid;align-items:stretch;}
 .cert-card{background:#fbfdff;border:1px solid #e1e8f2;border-radius:8px;padding:8px 6px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;page-break-inside:avoid;break-inside:avoid;min-height:140px;}
 .cert-badge-svg{width:100%;max-width:92px;height:auto;display:block;}
 .cert-label{margin-top:6px;font-size:10px;font-weight:700;line-height:1.25;color:#173b6b;}
@@ -55,7 +57,7 @@ header{padding:14px 18px;gap:14px;}
 .content{padding:12px 18px 16px;}
 .summary-box{font-size:11.25px;padding:10px 12px;margin-bottom:12px;}
 .section-title{font-size:13px;margin:14px 0 8px 0;padding-bottom:4px;border-bottom-width:2px;page-break-after:avoid;break-after:avoid;}
-.certifications-grid{grid-template-columns:repeat(5,minmax(0,1fr)) !important;gap:6px;}
+.certifications-grid{grid-template-columns:repeat(4,minmax(0,1fr)) !important;gap:6px;}
 .cert-card{min-height:112px;padding:6px 4px;}
 .cert-badge-svg{max-width:74px;}
 .cert-label{font-size:8.5px;line-height:1.15;margin-top:5px;}
@@ -88,7 +90,7 @@ a{text-decoration:none;color:inherit;}
 <header>
 <div class="header-left">
 <h1>__FULL_NAME__</h1>
-<!-- Rajendra approved header: Lead Platform Engineer | Developer Experience | Cloud Infrastructure.
+<!-- Rajendra approved header: Lead Platform Engineer | Cloud Infrastructure.
 Keep profile-driven; change only on explicit user instruction, never from JD tool names. -->
 <div class="role">__HEADLINE__</div>
 </div>

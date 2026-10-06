@@ -1,0 +1,1 @@
+Java microservices and APIs: reusable reliable code, performance, quality, debugging logs and root-cause analysis. Agile/Scrum. Java, HTML5, CSS3, JavaScript, jQuery, AngularJS, Spring Boot. Git SVN. JUnit Mockito unit and integration tests, Log4j 2. SQL scripts stored procedures functions triggers.

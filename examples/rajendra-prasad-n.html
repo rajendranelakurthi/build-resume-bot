@@ -18,7 +18,7 @@ header{background:linear-gradient(120deg,#174a8b,#0f3970);color:white;padding:18
 .content{padding:18px 26px 22px;}
 .summary-box{background:#f6f9fd;border-left:4px solid #174a8b;padding:12px 14px;border-radius:6px;font-size:13px;margin-bottom:18px;}
 .section-title{font-size:16px;color:#174a8b;text-transform:uppercase;font-weight:800;border-bottom:2px solid #174a8b;padding-bottom:5px;margin:20px 0 12px 0;page-break-after:avoid;}
-.certifications-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:6px;page-break-inside:avoid;break-inside:avoid;align-items:start;}
+.certifications-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:6px;page-break-inside:avoid;break-inside:avoid;align-items:stretch;}
 .cert-card{background:#fbfdff;border:1px solid #e1e8f2;border-radius:8px;padding:8px 6px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;page-break-inside:avoid;break-inside:avoid;min-height:140px;}
 .cert-badge-svg{width:100%;max-width:92px;height:auto;display:block;}
 .cert-label{margin-top:6px;font-size:10px;font-weight:700;line-height:1.25;color:#173b6b;}
@@ -55,7 +55,7 @@ header{padding:14px 18px;gap:14px;}
 .content{padding:12px 18px 16px;}
 .summary-box{font-size:11.25px;padding:10px 12px;margin-bottom:12px;}
 .section-title{font-size:13px;margin:14px 0 8px 0;padding-bottom:4px;border-bottom-width:2px;page-break-after:avoid;break-after:avoid;}
-.certifications-grid{grid-template-columns:repeat(5,minmax(0,1fr)) !important;gap:6px;}
+.certifications-grid{grid-template-columns:repeat(4,minmax(0,1fr)) !important;gap:6px;}
 .cert-card{min-height:112px;padding:6px 4px;}
 .cert-badge-svg{max-width:74px;}
 .cert-label{font-size:8.5px;line-height:1.15;margin-top:5px;}
@@ -88,9 +88,9 @@ a{text-decoration:none;color:inherit;}
 <header>
 <div class="header-left">
 <h1>RAJENDRA P N</h1>
-<!-- Rajendra approved header: Lead Platform Engineer | Developer Experience | Cloud Infrastructure.
+<!-- Rajendra approved header: Lead Platform Engineer | Cloud Infrastructure.
 Keep profile-driven; change only on explicit user instruction, never from JD tool names. -->
-<div class="role">Lead Platform Engineer | Developer Experience | Cloud Infrastructure</div>
+<div class="role">Lead Platform Engineer | Cloud Infrastructure</div>
 </div>
 <div class="header-right">
 <div>rajendran.scm@gmail.com</div>
@@ -119,10 +119,6 @@ Keep profile-driven; change only on explicit user instruction, never from JD too
 <div class="cert-card">
 <svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 162 54V126L90 168 18 126V54Z" fill="#3136f0" stroke="#4fb0ff" stroke-width="5"/><text x="90" y="44" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">aws</text><text x="90" y="63" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">certified</text><line x1="48" y1="78" x2="132" y2="78" stroke="#9bb8ff" stroke-width="2"/><text x="90" y="104" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Solutions</text><text x="90" y="126" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Architect</text><text x="90" y="148" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="2" fill="#ffffff">ASSOCIATE</text></svg>
 <div class="cert-label">AWS Certified Solutions Architect - Associate</div>
-</div>
-<div class="cert-card">
-<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M50 14H130L166 52V124L90 168 14 124V52Z" fill="#4f26c8" stroke="#7f63ff" stroke-width="5"/><circle cx="90" cy="38" r="16" fill="#ffffff"/><circle cx="90" cy="38" r="10" fill="none" stroke="#0096d6" stroke-width="4"/><text x="90" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">CERTIFIED</text><text x="90" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">MuleSoft</text><text x="90" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Developer</text><text x="90" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">LEVEL 1</text></svg>
-<div class="cert-label">MuleSoft Certified Developer - Level 1</div>
 </div>
 </div>
 <h2 class="section-title">Key Platform Achievements</h2>
@@ -165,7 +161,7 @@ Keep profile-driven; change only on explicit user instruction, never from JD too
 <h2 class="section-title">Professional Experience</h2>
 <div class="job-block">
 <div class="job-header">
-<div><span class="job-title">Lead SRE</span> | <span class="company-name">AT&amp;T Services Inc.</span></div>
+<div><span class="job-title">Lead Platform/DevOps Engineer</span> | <span class="company-name">AT&amp;T Services Inc.</span></div>
 <span class="job-meta">08/2023 - Present</span>
 </div>
 <div class="job-details">
@@ -182,6 +178,11 @@ Keep profile-driven; change only on explicit user instruction, never from JD too
 <li>Supported Milvus and GPU-enabled services across Azure/AWS infrastructure; reviewed resource utilization, tagging, and capacity to improve AI workload readiness and cost visibility.</li>
 <li>Reviewed platform designs and PRs, mentored engineers, and partnered with infrastructure leaders on standards, roadmap priorities, and vendor/tool evaluations.</li>
 <li>Automated deployment concurrency and smoke-test checks in GitHub Actions, preventing overlapping environment updates and capturing verification evidence for release decisions.</li>
+<li>Automated environment prerequisite checks for DNS resolution, service endpoints, and required configuration, catching deployment blockers before release execution.</li>
+<li>Created reusable Python diagnostics to collect workload status and recent failures, giving developers consistent evidence for application troubleshooting.</li>
+<li>Reviewed container resource requests and deployment settings with service owners, addressing capacity constraints and unstable application startup behavior.</li>
+<li>Maintained release recovery checklists and verified rollback inputs in nonproduction environments, improving readiness for failed application deployments.</li>
+<li>Published platform onboarding examples and troubleshooting documentation, helping application teams adopt shared pipelines and resolve common configuration issues.</li>
 </ul>
 </div>
 <div class="job-block">

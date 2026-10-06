@@ -224,7 +224,7 @@ The user explicitly restored **Lead DevOps Engineer** as the permanent header de
 
 ### Exact approved header and template behavior
 
-Use **Lead Platform Engineer | Developer Experience | Cloud Infrastructure** across both base profiles and generated resumes. Both HTML templates document this preference while retaining `__HEADLINE__` as the profile-driven value. The bundled tailoring entry point now preserves Rajendra's base headline and page title across every JD-specific variant, preventing Jenkins, GitLab, Azure, SRE, or build/release routing from silently changing the header. Change the source headline only after explicit user instruction.
+Use **Lead Platform Engineer | Cloud Infrastructure** across both base profiles and generated resumes. Both HTML templates document this preference while retaining `__HEADLINE__` as the profile-driven value. The bundled tailoring entry point now preserves Rajendra's base headline and page title across every JD-specific variant, preventing Jenkins, GitLab, Azure, SRE, or build/release routing from silently changing the header. Change the source headline only after explicit user instruction.
 
 ## Platform Engineer Default Workflow (2026-10-06)
 
@@ -232,6 +232,8 @@ Use `python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py --pe
 
 ## Azure/GitHub Platform Base (2026-10-06)
 
-The user supplied the Azure/GitHub platform JD as the reusable base. Prioritize Azure landing zones, modular Terraform/remote state, GitHub Actions/Packages/Environments, AKS/GitOps, managed identities/Key Vault, policy-as-code, DevSecOps, Azure observability, resilience and cost controls. Include env zero and advanced security/AI/data services at evidenced proficiency; keep healthcare frameworks as knowledge, without inventing healthcare employment or certification. Preserve the platform headline and Lead SRE first role. Profiles and generated base outputs must remain synchronized.
+The user supplied the Azure/GitHub platform JD as the reusable base. Prioritize Azure landing zones, modular Terraform/remote state, GitHub Actions/Packages/Environments, AKS/GitOps, managed identities/Key Vault, policy-as-code, DevSecOps, Azure observability, resilience and cost controls. Include env zero and advanced security/AI/data services at evidenced proficiency; keep healthcare frameworks as knowledge, without inventing healthcare employment or certification. Preserve the platform headline and Lead Platform/DevOps Engineer first role. Profiles and generated base outputs must remain synchronized.
 
-Every future resume must retain at least 10 substantive bullets per employer/project. Validate counts before rendering; do not satisfy the minimum with repeated filler.
+Every future resume must retain at least 15 substantive bullets in the latest project and 10 in every other project. Validate counts before rendering; do not satisfy the minimum with repeated filler.
+
+Latest project minimum: 15 distinct substantive bullets; all other projects minimum: 10. Hide MuleSoft certification badge in rendered resumes. Use four evenly aligned certification cards.

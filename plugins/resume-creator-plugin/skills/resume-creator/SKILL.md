@@ -39,3 +39,5 @@ When plugin install/update is needed only:
 - keep `.codex-plugin/plugin.json` and `.agents/plugins/marketplace.json` aligned
 
 Do not repeat setup, packaging, or reinstall instructions unless the user explicitly asks for plugin maintenance.
+
+Latest project minimum: 15 distinct substantive bullets; all other projects minimum: 10. Hide MuleSoft certification badge in rendered resumes. Use four evenly aligned certification cards.

@@ -219,7 +219,7 @@ class HtmlResumeRenderer:
 
         items = "\n".join(
             self._render_certification_badge(item)
-            for item in profile.certifications
+            for item in profile.certifications if "mulesoft" not in item.lower()
         )
         return "\n".join(
             [

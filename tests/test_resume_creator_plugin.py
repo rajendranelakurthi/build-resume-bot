@@ -80,7 +80,7 @@ def test_rajendra_header_survives_all_tailoring_routes() -> None:
     core = _load_module("plugin_core_header_test", "plugin_core.py")
     assets = PLUGIN_SCRIPTS.parent / "assets"
     profile = core.BundledJsonResumeStore(assets / "people", assets / "static").load_person("rajendra-prasad-n")
-    assert profile.headline == "Lead Platform Engineer | Developer Experience | Cloud Infrastructure"
+    assert profile.headline == "Lead Platform Engineer | Cloud Infrastructure"
     for jd in (
         "CloudBees Jenkins Python AWS",
         "GitLab CI Terraform",
@@ -128,3 +128,18 @@ def test_project_minimum_rejects_short_variants():
     short = replace(profile, experience=[replace(profile.experience[0], impact=profile.experience[0].impact[:9])])
     with pytest.raises(ValueError, match="at least 10"):
         module.validate_project_bullets(short)
+
+
+def test_latest_project_requires_fifteen_and_hides_mulesoft_badge():
+    from dataclasses import replace
+    import pytest
+    module = _load_module('run_latest_min_test', 'run_resume_request.py')
+    core = _load_module('core_latest_min_test', 'plugin_core.py')
+    assets = PLUGIN_SCRIPTS.parent / 'assets'
+    profile = core.BundledJsonResumeStore(assets / 'people', assets / 'static').load_person('rajendra-prasad-n')
+    short = replace(profile, experience=[replace(profile.experience[0], impact=profile.experience[0].impact[:14])] + profile.experience[1:])
+    with pytest.raises(ValueError, match='at least 15'):
+        module.validate_project_bullets(short)
+    html = core.BundledHtmlResumeRenderer(assets / 'templates' / 'base_resume.html').render(profile)
+    assert 'MuleSoft Certified' not in html
+    assert html.count('class="cert-card"') == 4

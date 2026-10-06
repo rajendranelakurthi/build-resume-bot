@@ -1,7 +1,7 @@
 {
   "person_id": "rajendra-prasad-n",
   "full_name": "Rajendra P N",
-  "headline": "Lead Platform Engineer | Developer Experience | Cloud Infrastructure",
+  "headline": "Lead Platform Engineer | Cloud Infrastructure",
   "location": "Dallas, TX",
   "email": "rajendran.scm@gmail.com",
   "page_title": "Rajendra P N - Lead Platform Engineer",
@@ -81,7 +81,7 @@
   ],
   "experience": [
     {
-      "title": "Lead SRE",
+      "title": "Lead Platform/DevOps Engineer",
       "company": "AT&T Services Inc.",
       "impact": [
         "Built Azure landing-zone foundations with modular Terraform for networking, identity, storage, and AKS, standardizing parameters and reviewed infrastructure changes.",
@@ -93,7 +93,12 @@
         "Implemented Azure Monitor, Log Analytics, and Application Insights visibility; led incident triage, blameless reviews, and runbook improvements with application teams.",
         "Supported Milvus and GPU-enabled services across Azure/AWS infrastructure; reviewed resource utilization, tagging, and capacity to improve AI workload readiness and cost visibility.",
         "Reviewed platform designs and PRs, mentored engineers, and partnered with infrastructure leaders on standards, roadmap priorities, and vendor/tool evaluations.",
-        "Automated deployment concurrency and smoke-test checks in GitHub Actions, preventing overlapping environment updates and capturing verification evidence for release decisions."
+        "Automated deployment concurrency and smoke-test checks in GitHub Actions, preventing overlapping environment updates and capturing verification evidence for release decisions.",
+        "Automated environment prerequisite checks for DNS resolution, service endpoints, and required configuration, catching deployment blockers before release execution.",
+        "Created reusable Python diagnostics to collect workload status and recent failures, giving developers consistent evidence for application troubleshooting.",
+        "Reviewed container resource requests and deployment settings with service owners, addressing capacity constraints and unstable application startup behavior.",
+        "Maintained release recovery checklists and verified rollback inputs in nonproduction environments, improving readiness for failed application deployments.",
+        "Published platform onboarding examples and troubleshooting documentation, helping application teams adopt shared pipelines and resolve common configuration issues."
       ],
       "date_range": "08/2023 - Present",
       "project": "",
@@ -275,7 +280,7 @@
   ],
   "notes": [
     "Azure/GitHub platform-engineering base approved by user request on 2026-10-06; use for future platform-engineer requests.",
-    "Preserve headline, 10+ years, Lead SRE first role, employment history, certifications, and at least ten substantive bullets per project. No mobile content.",
+    "Preserve headline, 10+ years, Lead Platform/DevOps Engineer first role, employment history, certifications, and at least fifteen substantive bullets in the latest project and ten in every other project. No mobile content.",
     "Healthcare and advanced Azure AI/data/tool-specific areas labeled as concepts where not evidenced by employment history; no HIPAA/HITRUST certification or healthcare employment claim.",
     "Blueprints is legacy knowledge; prefer Azure Policy and deployment-stack migration awareness. Keep changes uncommitted."
   ]

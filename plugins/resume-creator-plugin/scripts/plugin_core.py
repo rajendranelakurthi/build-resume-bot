@@ -304,7 +304,7 @@ class BundledHtmlResumeRenderer:
     def _render_top_certifications_section(self, profile: PersonProfile) -> str:
         if not profile.certifications:
             return ""
-        items = "\n".join(self._render_certification_badge(item) for item in profile.certifications)
+        items = "\n".join(self._render_certification_badge(item) for item in profile.certifications if "mulesoft" not in item.lower())
         return "\n".join(['<h2 class="section-title">Certifications</h2>', '<div class="certifications-grid">', items, "</div>"])
 
     def _render_certification_badge(self, certification: str) -> str:
