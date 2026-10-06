@@ -1,0 +1,8 @@
+DevOps SRE GitLab Kubernetes Infrastructure Engineer
+Experience in DevOps, SRE, or Infrastructure Engineering.
+Strong experience with Kubernetes, Helm, Docker, Terraform, and Ansible.
+Hands-on experience with GitLab CI/CD pipelines.
+Proficiency in Python, Shell scripting, Linux administration, and networking.
+Experience with Prometheus, Grafana, and New Relic.
+Knowledge of Azure/AWS and GitOps tools such as Argo CD or Flux.
+AI/ML infrastructure experience is an added advantage.

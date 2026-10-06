@@ -1,0 +1,260 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra P N",
+  "headline": "Lead DevOps / SRE Engineer | GitLab CI/CD | Kubernetes",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "page_title": "Rajendra P N - DevOps SRE GitLab Kubernetes Engineer",
+  "summary_html": "<strong>Lead DevOps / SRE Engineer with 10+ years of experience in cloud infrastructure, delivery automation, and production reliability.</strong> Engineers <strong>Kubernetes platforms, Helm deployments, GitLab CI/CD, and Terraform/Ansible automation</strong> across Azure and AWS. Develops Python and shell tooling, administers Linux systems, and troubleshoots networking and container workloads. Uses Prometheus, Grafana, and New Relic to improve service visibility and incident response; applies Argo CD GitOps and supports AI/ML service infrastructure and operational readiness.",
+  "achievements_title": "DevOps / SRE Platform Engineering Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "certification_badges_image": "file:///Users/rajendra/Documents/1Resume/ai_resume/tmp/jenkins-sre/plugin/assets/static/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "GitLab CI/CD",
+    "Kubernetes",
+    "Helm",
+    "Docker",
+    "Terraform",
+    "Ansible",
+    "Python",
+    "Bash",
+    "Linux",
+    "Networking",
+    "Prometheus",
+    "Grafana",
+    "New Relic",
+    "Azure/AWS",
+    "Argo CD"
+  ],
+  "skill_sections": [
+    {
+      "title": "GitLab CI/CD & Delivery",
+      "content": "GitLab CI YAML, reusable includes, job rules, runners, Kubernetes executor, artifacts/cache, container registry, protected variables, deployment approvals, Jenkins"
+    },
+    {
+      "title": "Kubernetes, Containers & GitOps",
+      "content": "AKS/EKS, Docker, Helm Charts, Argo CD, declarative deployment, environment values, health probes, rolling updates, resource limits, scaling, rollback"
+    },
+    {
+      "title": "Infrastructure & Configuration Automation",
+      "content": "Terraform modules, remote state, plan reviews, Ansible roles/playbooks, Azure/AWS networking and compute, versioned configuration, infrastructure validation"
+    },
+    {
+      "title": "Linux, Scripting & Networking",
+      "content": "Python, Bash/shell, PowerShell, Linux services/processes/permissions, resource diagnostics, DNS, TLS, routing, security groups, connectivity troubleshooting"
+    },
+    {
+      "title": "Monitoring & Production Reliability",
+      "content": "Prometheus, Grafana, New Relic APM/infrastructure/Kubernetes, Azure Monitor, CloudWatch, dashboards, alerts, logs/traces, on-call incidents, RCA, runbooks"
+    },
+    {
+      "title": "AI/ML Infrastructure & Security",
+      "content": "Containerized inference-service infrastructure, health checks, capacity monitoring, deployment automation, dependency readiness; IAM/RBAC, secrets, image scanning, least privilege"
+    }
+  ],
+  "achievements": [
+    {
+      "tag": "GitLab Delivery Automation",
+      "text": "Built reusable GitLab CI/CD jobs, runner configuration, image publication, and deployment validation for controlled container and infrastructure releases."
+    },
+    {
+      "tag": "Kubernetes & Infrastructure",
+      "text": "Standardized Helm application configuration and Terraform/Ansible provisioning; maintained repeatable Azure/AWS platform and Linux operations."
+    },
+    {
+      "tag": "Observability & Reliability",
+      "text": "Correlated Prometheus/Grafana, New Relic, and cloud telemetry to investigate application failures and improve on-call recovery."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead SRE",
+      "company": "AT&T Services Inc.",
+      "impact": [
+        "Built GitLab CI/CD pipelines with reusable YAML includes for Docker builds, automated tests, image scanning, registry publication, and gated deployment.",
+        "Managed GitLab runners on Linux and Kubernetes, tuning executor configuration, caching, resource limits, protected variables, and build dependencies.",
+        "Operated Azure AKS and AWS EKS with Helm and Argo CD, maintaining versioned environment values, deployment health checks, and controlled GitOps reconciliation.",
+        "Provisioned cloud networking, compute, and Kubernetes infrastructure with reusable Terraform modules; standardized Linux configuration using Ansible roles.",
+        "Implemented Prometheus/Grafana dashboards and New Relic APM/Kubernetes monitoring, correlating metrics, logs, and traces to diagnose service degradation.",
+        "Developed Python and Bash automation for deployment validation, diagnostic collection, and recovery checks; tested failure handling before production use.",
+        "Troubleshot Linux services, DNS/TLS, routing, pod networking, and Azure/AWS permissions; partnered with infrastructure teams to restore application connectivity.",
+        "Supported containerized AI/ML inference-service infrastructure, monitoring latency, errors, resource pressure, and dependencies; automated health checks and release readiness.",
+        "Led on-call triage and root cause reviews; mentored engineers on GitLab, Kubernetes, and operational runbooks to improve release reliability."
+      ],
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "GitLab CI/CD",
+        "AKS/EKS",
+        "Helm/Argo CD",
+        "Terraform/Ansible",
+        "Python/Bash",
+        "Prometheus/Grafana",
+        "New Relic"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "impact": [
+        "Participated in on-call support, assessing incident impact, escalating application failures, and verifying service restoration with engineering teams.",
+        "Maintained GitLab runners and Linux/Windows build tooling; debugged dependency, credential, disk-capacity, and connectivity failures affecting CI jobs.",
+        "Deployed Docker services with Helm to Kubernetes on Azure/AWS, validating environment values, health checks, and rollback procedures.",
+        "Secured GitLab deployment variables and runner permissions; validated protected release inputs and artifact provenance before promotion.",
+        "Configured Prometheus/Grafana and New Relic dashboards and alerts, correlating application errors with deployment and infrastructure events.",
+        "Configured application dashboards and alert rules using Azure Monitor and CloudWatch; correlated error logs with infrastructure events during investigations.",
+        "Maintained Terraform configuration and Ansible playbooks for Azure/AWS environments, reviewing infrastructure changes and Linux configuration drift.",
+        "Debugged GitLab CI YAML and Bash/PowerShell scripts; validated fixes through test jobs and reviewed source changes.",
+        "Debugged GitLab CI YAML and script failures, Bash, and PowerShell; validated fixes through test jobs and reviewed source changes."
+      ],
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "GitLab CI/CD",
+        "Kubernetes/Helm",
+        "Docker",
+        "Terraform/Ansible",
+        "Python/Bash",
+        "Linux",
+        "Azure/AWS"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "impact": [
+        "Automated Ansible host configuration and Terraform environment checks, validating infrastructure readiness before GitLab-managed releases.",
+        "Developed reusable GitLab CI templates for Terraform validation, Docker builds, and Helm release checks; investigated runner and pipeline failures.",
+        "Monitored service health with Prometheus/Grafana, New Relic, and cloud telemetry; tuned alerts and traced application latency to platform dependencies.",
+        "Diagnosed Linux service failures, DNS/TLS issues, and application network paths, coordinating Azure/AWS connectivity fixes with infrastructure teams.",
+        "Developed reusable GitLab CI job templates for environment configuration and release checks; investigated agent and pipeline failures.",
+        "Wrote Python and PowerShell tools for API health checks, log collection, and recurring support tasks; debugged scripts and validated error handling.",
+        "Supported Azure AKS and AWS EKS workloads with Helm/Argo CD; diagnosed restart loops, readiness failures, and CPU/memory pressure.",
+        "Maintained release readiness checks for configuration, identity, and database dependencies; verified rollback plans and post-deployment application behavior.",
+        "Correlated logs, metrics, configuration changes, and release history to identify root causes; documented corrective actions and verified recovery."
+      ],
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "GitLab CI/CD",
+        "Kubernetes/Helm",
+        "Docker",
+        "Terraform/Ansible",
+        "Python/Bash",
+        "Linux",
+        "Azure/AWS"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "impact": [
+        "Built GitLab CI/CD workflows alongside CloudBees Jenkins for SaaS delivery, standardizing tests, Docker packaging, artifact publication, and release validation.",
+        "Maintained production-readiness checklists, incident runbooks, and release evidence; aligned engineering and infrastructure teams on operational improvements.",
+        "Integrated code-quality and image-vulnerability checks into GitLab/Jenkins delivery; verified artifact versions and controlled release promotion.",
+        "Used Prometheus/Grafana and CloudWatch dashboards to monitor application health, investigate errors, and identify Kubernetes resource constraints.",
+        "Used Prometheus/Grafana and New Relic telemetry to monitor SaaS workloads and identify Kubernetes resource constraints during incidents.",
+        "Developed Python FastAPI integrations for Jenkins, Jira, and JFrog to automate onboarding, release coordination, and recurring operational workflows.",
+        "Automated Linux configuration and diagnostics with Ansible, Bash, and Python; maintained Terraform modules for Azure/AWS platform provisioning.",
+        "Supported Azure/AWS application and database dependencies, validating connectivity, environment configuration, and release recovery procedures.",
+        "Integrated SonarQube, JFrog Artifactory, and Xray into Jenkins delivery, validating code quality, artifact versions, and security results before promotion."
+      ],
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "GitLab CI/CD",
+        "Kubernetes/Helm",
+        "Docker",
+        "Terraform/Ansible",
+        "Python/Bash",
+        "Linux",
+        "Azure/AWS"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "impact": [
+        "Built GitLab CI and Jenkins/Maven pipelines for Java REST microservices, integrating tests, container packaging, and gated UAT/production promotion.",
+        "Maintained GitLab runner configuration and deployment scripts; debugged failed builds, container image dependencies, and release errors.",
+        "Automated cloud environment setup with Terraform and Ansible; maintained Linux host configuration and versioned infrastructure parameters.",
+        "Built Jenkins and Maven pipelines for Java REST microservices with automated tests, security validation, and gated UAT/production promotion.",
+        "Maintained Jenkins job configuration, agents, credentials, and deployment scripts; investigated failed builds and application-release errors.",
+        "Developed Bash and Python utilities for deployment diagnostics and service-health checks, validating script error handling and recovery behavior.",
+        "Supported Azure/AWS infrastructure and Helm-packaged Kubernetes services, resolving Linux, network, permission, and database-connectivity failures.",
+        "Supported Azure/AWS infrastructure and Kubernetes-hosted services, resolving configuration, permission, and database-connectivity failures.",
+        "Documented Helm release configuration, rollback procedures, and GitLab operational handoffs for production readiness."
+      ],
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "GitLab CI/CD",
+        "Kubernetes/Helm",
+        "Docker",
+        "Terraform/Ansible",
+        "Python/Bash",
+        "Linux",
+        "Azure/AWS"
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "impact": [
+        "Created GitLab CI/CD pipelines for API, database, and UI components, publishing versioned artifacts and Docker images across environments.",
+        "Configured GitLab runners, Git integration, and build tooling; diagnosed compilation, dependency, credential, and deployment failures.",
+        "Monitored application logs and Azure/AWS infrastructure telemetry, using CloudWatch and operational dashboards to investigate service degradation.",
+        "Supported Azure/AWS application environments, validating infrastructure readiness, access permissions, and database connectivity before releases.",
+        "Packaged containerized services with Helm, maintaining deployment values and validating Kubernetes readiness and application recovery checks.",
+        "Maintained production-support runbooks and release handover records, preserving troubleshooting steps, recovery actions, and verification results.",
+        "Automated Azure/AWS environment provisioning with Terraform and Ansible, validating Linux configuration, networking, and application readiness.",
+        "Developed Python, Bash, and PowerShell scripts for deployment checks and administration tasks; debugged failures and verified corrective changes.",
+        "Performed root cause investigations using build logs, configuration comparisons, and Linux diagnostics; documented fixes and follow-up actions."
+      ],
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "HPE",
+      "skills_used": [
+        "GitLab CI/CD",
+        "Kubernetes/Helm",
+        "Docker",
+        "Terraform/Ansible",
+        "Python/Bash",
+        "Linux",
+        "Azure/AWS"
+      ]
+    }
+  ],
+  "additional_sections": [],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology",
+      "logo_image": "",
+      "logo_alt": ""
+    }
+  ],
+  "education_before_experience": false,
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Aggressive DevOps/SRE variant for GitLab, Kubernetes, IaC, Linux, observability and AI/ML infrastructure JD. Preserve Lead SRE first role and nine bullets each."
+  ]
+}

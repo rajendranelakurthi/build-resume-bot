@@ -1,0 +1,11 @@
+Lead SRE Observability AIOps Reliability Engineering
+Visualize production support metrics for Operational Readiness and SRE intervention. Reduce toil through software and process automation.
+Partner with Development and Infrastructure on error-budget policies, SLIs, SLOs, reliability stories, code optimization, instrumentation and logging.
+Identify capacity bottlenecks, vulnerabilities, low-level errors and noise. Assess monitoring for new changes and improve dashboards.
+Lead incident triage, failure scenario modelling and root cause investigations with Problem Manager.
+Champion SRE observability AIOps, automated remediation, predictive monitoring, event correlation and data-driven operations.
+Senior authority for resiliency, production readiness, secondary-region readiness, network observability, GenAI platform health monitoring, enterprise dashboard automation.
+Mature SLIs SLOs alerting service health reporting across on-premises and cloud. Reusable Terraform Ansible IaC, CI/CD standards, compliance, IAM, policy-as-code, vulnerabilities, audit readiness.
+Transform infrastructure operations into engineering-led operating models. Operational maturity assessments, reliability reviews, post-incident learning, mentoring and stakeholder communication.
+Enterprise metrics logs traces telemetry synthetic monitoring and analytics. Self-healing event-driven remediation anomaly detection predictive analytics noise reduction.
+Containerization orchestration. Financial services or highly regulated environments. Mentoring engineering operations teams.

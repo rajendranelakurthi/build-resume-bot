@@ -1,0 +1,10 @@
+DevOps SRE Engineer Jenkins CI CD Production Operations
+We are seeking a hands-on DevOps/SRE Engineer to support enterprise application environments, CI/CD pipelines, and production operations.
+Build and support CI/CD pipelines, with strong Jenkins experience.
+Monitor application health and improve observability, logging, and alerting.
+Participate in on-call rotations, incident management, troubleshooting, and root-cause analysis.
+Support production environments and help drive operational readiness.
+Apply software engineering concepts and perform some coding/debugging as needed.
+Collaborate with development and infrastructure teams to improve reliability and deployment processes.
+Strong DevOps/SRE experience. Hands-on Jenkins/CI-CD experience. Production support, incident management, and on-call experience. Observability/monitoring experience. Some programming/software engineering experience.
+Strictly create SRE resume with major focus on these skills and roles, including Jenkins points in all projects.
