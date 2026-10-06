@@ -1,0 +1,14 @@
+import json,sys
+from pathlib import Path
+p=Path('resume_data/people/rajendra-prasad-n.json');d=json.loads(p.read_text())
+d['skills']=[s for s in d['skills'] if s!='ArgoCD']
+d['achievements']=[{'tag':'Developer Enablement','text':'Built reusable delivery workflows and API-based onboarding automation, providing consistent platform capabilities and documented deployment standards for application teams.'},{'tag':'Enterprise CI','text':'Administered CloudBees Jenkins and JFrog tooling; developed shared libraries for consistent image versioning and artifact publication.'},{'tag':'SaaS Reliability','text':'Combined Kubernetes delivery, infrastructure automation, observability, and incident response to improve service readiness and release confidence.'}]
+u={1:{6:'Maintained Helm deployment defaults and environment values for shared Kubernetes services, validating application health and recovery during release promotion.'},2:{6:'Reviewed Terraform plans and environment differences with application owners, validating dependencies and controlled promotion of platform changes.',7:'Diagnosed Kubernetes scheduling, image-pull, and service-connectivity failures, correlating workload events with cloud telemetry to restore reliable delivery.'},3:{8:'Maintained platform onboarding and support documentation, coaching developers on shared-library use, artifact promotion, and recurring delivery issues.'},4:{5:'Versioned cloud deployment parameters and environment configuration, reviewing infrastructure changes alongside application releases.',6:'Coordinated database and API deployment dependencies with developers, validating release order and recovery readiness before production handoff.'},5:{4:'Validated environment readiness and application dependencies before deployments, checking cloud access, network connectivity, and required configuration.',6:'Investigated build and deployment failures through agent logs, Linux diagnostics, and configuration comparisons, documenting corrective actions with developers.'}}
+for i,vals in u.items():
+ for k,v in vals.items():d['experience'][i]['impact'][k]=v
+for q in [p,Path('plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json')]:q.write_text(json.dumps(d,indent=2)+'\n')
+sys.path.insert(0,'plugins/resume-creator-plugin/scripts')
+from plugin_core import BundledJsonResumeStore,BundledHtmlResumeRenderer
+profile=BundledJsonResumeStore(Path('plugins/resume-creator-plugin/assets/people'),Path('plugins/resume-creator-plugin/assets/static')).load_person('rajendra-prasad-n')
+html=BundledHtmlResumeRenderer(Path('plugins/resume-creator-plugin/assets/templates/base_resume.html')).render(profile)
+for q in [Path('examples/rajendra-prasad-n.html'),Path('tailored_resume/rajendra-prasad-n/rajendra-prasad-n-platform-engineer-base.html')]:q.write_text(html)

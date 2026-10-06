@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rajendra Prasad N - Lead DevOps Engineer</title>
+<title>Rajendra P N - Lead Platform Engineer</title>
 
 <style>
 *{box-sizing:border-box;}
@@ -78,14 +78,19 @@ a{text-decoration:none;color:inherit;}
 }
 @media (max-width:900px){body{padding:0;}.resume-page{width:100%;min-height:auto;box-shadow:none;}.certifications-grid{grid-template-columns:repeat(3,1fr);}.skills-grid{grid-template-columns:1fr;}.header-left{max-width:none;}.job-header{flex-direction:column;}.job-meta{white-space:normal;}.education-row{align-items:flex-start;}}
 @media (max-width:560px){.certifications-grid{grid-template-columns:repeat(2,1fr);}.cert-card{min-height:132px;}}
+
+/* Platform branch: readable two-page print layout. */
+@media print{.job-header{flex-direction:row}.job-meta{white-space:nowrap}.job-block{break-inside:auto;page-break-inside:auto;margin-bottom:7px}.job-header,.job-details{break-after:avoid}.cert-card{min-height:72px}.cert-badge-svg{max-width:46px}.section-title{margin-top:10px;margin-bottom:6px}.skill-card{padding:6px 9px}.summary-box{padding:8px 12px}li{break-inside:avoid}.education-card{padding:6px 9px}}
 </style>
 </head>
 <body>
 <div class="resume-page">
 <header>
 <div class="header-left">
-<h1>RAJENDRA PRASAD N</h1>
-<div class="role">Lead DevOps Engineer | AWS Cloud, DevOps, SRE &amp; Kubernetes</div>
+<h1>RAJENDRA P N</h1>
+<!-- Rajendra approved header: Lead Platform Engineer | Developer Experience | Cloud Infrastructure.
+Keep profile-driven; change only on explicit user instruction, never from JD tool names. -->
+<div class="role">Lead Platform Engineer | Developer Experience | Cloud Infrastructure</div>
 </div>
 <div class="header-right">
 <div>rajendran.scm@gmail.com</div>
@@ -96,7 +101,7 @@ a{text-decoration:none;color:inherit;}
 </div>
 </header>
 <div class="content">
-<div class="summary-box"><strong>Lead DevOps Engineer with senior-level depth built through more than a decade of enterprise platform delivery, release leadership, cloud engineering, and Site Reliability ownership</strong> across large-scale production environments. Strong hands-on expertise with <strong>AWS, EKS, EC2, VPC, IAM, Route 53, ALB/NLB, CloudFront, S3, RDS, Lambda, CloudWatch, Terraform, CloudFormation, Ansible, Jenkins, GitHub Actions, GitLab, Bash, Python, and PowerShell</strong>, with additional background translating Azure-based delivery patterns into AWS-native architectures. Technically strong in architecting CI/CD platforms, automating infrastructure as code, modernizing Kubernetes workloads, hardening multi-account cloud environments, improving observability, and driving reliable production releases in highly regulated enterprise settings.</div>
+<div class="summary-box"><strong>Lead Platform Engineer with 10+ years of experience in cloud infrastructure, developer enablement, and production reliability.</strong> Builds <strong>Azure landing-zone foundations, modular Terraform, GitHub Actions golden paths, and AKS/GitOps delivery</strong>. Automates provisioning and operations with PowerShell, Python, and Bash; integrates policy, managed identities, Key Vault, and security validation into platform workflows. Improves service visibility with Azure Monitor, Log Analytics, and Application Insights while supporting resilient application, data, and AI/ML infrastructure, cost governance, and engineering collaboration.</div>
 <h2 class="section-title">Certifications</h2>
 <div class="certifications-grid">
 <div class="cert-card">
@@ -122,88 +127,61 @@ a{text-decoration:none;color:inherit;}
 </div>
 <h2 class="section-title">Key Platform Achievements</h2>
 <ul>
-<li><span class="tag">Release Engineering</span> Directed enterprise release orchestration, build automation, change governance, and deployment troubleshooting across AWS, Kubernetes, and mission-critical application platforms.</li>
-<li><span class="tag">AWS Platform Engineering</span> Designed AWS-first infrastructure with Terraform, CloudFormation, and Ansible to standardize provisioning, improve repeatability, and support secure multi-environment delivery.</li>
-<li><span class="tag">Kubernetes Platforms</span> Delivered containerized workloads on EKS, OpenShift, Rancher, and self-managed Kubernetes environments using Helm, ArgoCD, and repeatable manifest-driven workflows.</li>
-<li><span class="tag">Observability</span> Implemented CloudWatch, Prometheus, Grafana, Splunk, ELK, and custom telemetry pipelines to improve platform visibility, incident response, and operational diagnosis.</li>
-<li><span class="tag">DevSecOps &amp; Governance</span> Integrated security scanning, policy-driven controls, IAM, MFA, and secure network patterns into CI/CD and cloud operations to strengthen delivery governance and compliance.</li>
+<li><span class="tag">Azure Platform Foundations</span> Standardized Terraform modules and platform configuration for Azure networking, identity, secrets, compute, and Kubernetes delivery.</li>
+<li><span class="tag">GitHub Golden Paths</span> Built reusable workflows, protected release environments, and artifact promotion patterns to support consistent developer delivery.</li>
+<li><span class="tag">Secure &amp; Reliable Operations</span> Integrated security validation, Azure telemetry, incident runbooks, and infrastructure reviews into shared platform workflows.</li>
 </ul>
 <h2 class="section-title">Core Technologies</h2>
 <div class="skills-grid">
 <div class="skill-card">
-<h3>Operating Systems</h3>
-<p>Linux, RHEL, Ubuntu, HPUX, Windows Server 2012</p>
+<h3>Azure Landing Zones &amp; IaC</h3>
+<p>Terraform modules, Azure Storage remote state, state locking, plan reviews, Azure Policy, managed identities, Key Vault, GitOps; env zero governance concepts; legacy Blueprints and deployment-stack migration concepts</p>
 </div>
 <div class="skill-card">
-<h3>Build Tools</h3>
-<p>ANT, Maven, MSBuild, Make, Gradle</p>
+<h3>GitHub &amp; Developer Productivity</h3>
+<p>GitHub Actions reusable YAML workflows, repositories, Packages/GHCR, artifacts, Environments, approvals, protected branches, CODEOWNERS, OIDC, golden paths for application/data/ML delivery</p>
 </div>
 <div class="skill-card">
-<h3>CI/CD Platforms</h3>
-<p>Jenkins, GitHub Actions, GitLab CI, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy, CloudBees, ArgoCD</p>
+<h3>Containers, Networking &amp; GitOps</h3>
+<p>Docker, AKS, ACR, Helm, Argo CD; hub/spoke, Private Link, VNET integration, DNS, TLS/certificates; WAF, Application Gateway, Firewall, ExpressRoute/VPN concepts</p>
 </div>
 <div class="skill-card">
-<h3>Infrastructure as Code</h3>
-<p>Terraform, CloudFormation, Ansible, Packer, YAML pipelines, AWS CLI</p>
+<h3>DevSecOps &amp; Supply Chain</h3>
+<p>SAST/DAST, secret/container/IaC scanning, GitHub Advanced Security, CodeQL, Dependabot, SBOM, OPA/Conftest, policy-as-code, admission controls; Defender for Cloud and Cosign signing concepts</p>
 </div>
 <div class="skill-card">
-<h3>Containers &amp; Orchestration</h3>
-<p>Docker, Docker Swarm, ECS, Kubernetes, Helm, Istio, Consul</p>
+<h3>Observability, Reliability &amp; Cost</h3>
+<p>Azure Monitor, Log Analytics/KQL, Application Insights, alerts/dashboards, blameless postmortems, runbooks, autoscaling, resiliency testing; chaos experiment design, tags, budgets, rightsizing</p>
 </div>
 <div class="skill-card">
-<h3>Managed Kubernetes</h3>
-<p>EKS, OpenShift, Rancher, self-managed Kubernetes, hybrid Kubernetes</p>
+<h3>Automation, AI &amp; Data Platforms</h3>
+<p>PowerShell, Python, Bash, Ansible, REST APIs; Kubernetes infrastructure for Milvus and GPU services; Azure ML/OpenAI, model registries, feature stores, prompt guardrails, Databricks, Synapse, Purview, Event Hubs/Service Bus concepts</p>
 </div>
 <div class="skill-card">
-<h3>Source Control &amp; SCM</h3>
-<p>GitLab, GitHub, Bitbucket, Gerrit, Subversion, TFS</p>
-</div>
-<div class="skill-card">
-<h3>Cloud Platforms</h3>
-<p>AWS, Linode, multi-account landing zones, VPC, Transit Gateway, VPN, Direct Connect, Route 53, ALB, NLB, CloudFront</p>
-</div>
-<div class="skill-card">
-<h3>Monitoring &amp; Logging</h3>
-<p>Amazon CloudWatch, CloudTrail, Grafana, Prometheus, AppDynamics, Splunk, ELK, Fluentd, InfluxDB</p>
-</div>
-<div class="skill-card">
-<h3>Scripting &amp; Programming</h3>
-<p>Shell, Batch, Python, PowerShell, .NET (C#), Core Java</p>
-</div>
-<div class="skill-card">
-<h3>Databases &amp; Release Tools</h3>
-<p>MySQL, PostgreSQL, MongoDB, Amazon RDS, Amazon Aurora, Liquibase, JFrog, SonarQube, Fortify, Black Duck</p>
-</div>
-<div class="skill-card">
-<h3>Other Platforms</h3>
-<p>IIS, Apache Tomcat, JBoss, WebLogic, VMware ESXi, Vagrant, Hyper-V, Vault, datree.io, Amazon ECR</p>
+<h3>Governance &amp; Engineering Leadership</h3>
+<p>Design/PR reviews, roadmap planning, tool evaluations, mentoring, documentation, audit evidence; healthcare security knowledge: HIPAA/HITRUST control concepts, PHI handling, access restrictions and data governance</p>
 </div>
 </div>
 <h2 class="section-title">Professional Experience</h2>
 <div class="job-block">
 <div class="job-header">
-<div><span class="job-title">Lead DevOps Engineer</span> | <span class="company-name">AT&amp;T Services Inc.</span></div>
+<div><span class="job-title">Lead SRE</span> | <span class="company-name">AT&amp;T Services Inc.</span></div>
 <span class="job-meta">08/2023 - Present</span>
 </div>
 <div class="job-details">
-<div><strong>Skills Used:</strong> AWS, AWS CodePipeline, PowerShell, Terraform, EKS, GitHub Actions, Milvus, Helm, Databricks on AWS</div>
+<div><strong>Skills Used:</strong> Azure, Terraform, GitHub Actions, AKS, Azure Policy, Key Vault, Managed Identities, Azure Monitor, AWS</div>
 </div>
 <ul>
-<li>Architected and maintained scalable CI/CD pipelines using AWS CodePipeline, GitHub, and reusable deployment workflows to automate build, test, and release execution.</li>
-<li>Directed end-to-end release management across multiple engineering teams by aligning schedules, dependencies, change windows, and risk mitigation plans.</li>
-<li>Standardized deployment pipelines for AWS and hybrid environments, improving release consistency, auditability, and operational reliability.</li>
-<li>Automated platform operations with Python, Bash, and PowerShell to reduce manual effort and accelerate provisioning, support, and recovery workflows.</li>
-<li>Established Git branching, approval, and artifact versioning standards and integrated DevSecOps controls into release workflows through secure secrets handling, Terraform validation, and pre-deployment policy checks across AWS environments.</li>
-<li>Supported Java and Node.js microservices on AWS, improving scalability, runtime stability, and production readiness for cloud-native applications.</li>
-<li>Delivered release communications, milestone reporting, and risk updates to engineering leadership and business stakeholders to keep delivery streams aligned.</li>
-<li>Coordinated incident response and production release support, minimizing downtime and accelerating service restoration during high-priority events.</li>
-<li>Authored technical documentation, deployment guides, and operational runbooks to improve knowledge transfer and support readiness.</li>
-<li>Designed and implemented scalable EKS and Terraform-based infrastructure to support high-throughput vector search platforms powered by Milvus and GPU-enabled workloads.</li>
-<li>Automated provisioning of Databricks environments on AWS across isolated accounts, standardizing network integration, IAM controls, and environment consistency.</li>
-<li>Produced solution diagrams, environment specifications, and architecture documentation to improve stakeholder alignment and implementation clarity.</li>
-<li>Managed self-hosted runners, build agents, and distributed deployment infrastructure to optimize pipeline throughput across controlled compute environments.</li>
-<li>Implemented secure service connectivity using AWS PrivateLink, VPC endpoints, and private networking controls to protect sensitive application traffic.</li>
-<li>Containerized critical microservices and deployed them with Helm and Kubernetes manifests, ensuring consistent runtime behavior across lower and production environments.</li>
+<li>Built Azure landing-zone foundations with modular Terraform for networking, identity, storage, and AKS, standardizing parameters and reviewed infrastructure changes.</li>
+<li>Managed Terraform remote state in Azure Storage with state locking and environment isolation; integrated policy checks and approval gates into infrastructure delivery.</li>
+<li>Developed reusable GitHub Actions workflows for application and infrastructure releases, combining tests, artifact promotion, protected Environments, and quality gates.</li>
+<li>Standardized GitHub repository policies, Packages/GHCR consumption, branch protection, and OIDC cloud access to improve developer self-service and release traceability.</li>
+<li>Applied Azure Policy, managed identities, and Key Vault controls; integrated IaC, secret, dependency, and container checks into shared platform workflows.</li>
+<li>Operated AKS with Helm and Argo CD, maintaining deployment health checks, workload identity, private service access, autoscaling, and recovery procedures.</li>
+<li>Implemented Azure Monitor, Log Analytics, and Application Insights visibility; led incident triage, blameless reviews, and runbook improvements with application teams.</li>
+<li>Supported Milvus and GPU-enabled services across Azure/AWS infrastructure; reviewed resource utilization, tagging, and capacity to improve AI workload readiness and cost visibility.</li>
+<li>Reviewed platform designs and PRs, mentored engineers, and partnered with infrastructure leaders on standards, roadmap priorities, and vendor/tool evaluations.</li>
+<li>Automated deployment concurrency and smoke-test checks in GitHub Actions, preventing overlapping environment updates and capturing verification evidence for release decisions.</li>
 </ul>
 </div>
 <div class="job-block">
@@ -212,19 +190,19 @@ a{text-decoration:none;color:inherit;}
 <span class="job-meta">03/2023 - 08/2023</span>
 </div>
 <div class="job-details">
-<div><strong>Skills Used:</strong> AWS, GitLab CI, Terraform, Jira, Kubernetes</div>
+<div><strong>Skills Used:</strong> Azure, AWS, GitHub Actions, Terraform, Linux, Docker, Kubernetes, Key Vault</div>
 </div>
 <ul>
-<li>Deployed and administered self-hosted and auto-scaling build agents for Linux and Windows workloads to support high-throughput CI/CD operations.</li>
-<li>Configured agent pools, runner templates, and execution policies to improve build reliability and reduce manual pipeline support.</li>
-<li>Created package views, artifact feeds, and upstream repository strategies aligned to application team delivery requirements.</li>
-<li>Managed Docker image build, provisioning, and runtime administration to standardize containerized delivery workflows.</li>
-<li>Administered Kubernetes clusters and deployed applications through pods, deployments, services, and core platform components.</li>
-<li>Improved Kubernetes release processes by standardizing deployment patterns, secure runner standards, controlled branch protections, container image validation, and pipeline checks across environments.</li>
-<li>Migrated Jenkins pipelines to GitLab CI and modernized runner configuration to improve maintainability and pipeline reliability.</li>
-<li>Implemented GitLab CI best practices, including reusable templates, pipeline governance, and controlled branch-based execution.</li>
-<li>Enforced SCM best practices and coached development teams on GitLab workflows, branch governance, and merge standards.</li>
-<li>Troubleshot pipeline, container, and Kubernetes issues in partnership with development teams to accelerate delivery and reduce deployment failures.</li>
+<li>Partnered with application teams to troubleshoot Azure/AWS delivery and implement reusable GitHub Actions workflows for builds, tests, and release promotion.</li>
+<li>Maintained Linux/Windows GitHub runners and shared build tooling, diagnosing dependency, cache, credential, and execution-capacity failures.</li>
+<li>Standardized GitHub repositories, protected branches, environment approvals, and artifact retention to support consistent delivery standards.</li>
+<li>Standardized Docker images, Kubernetes deployment patterns, branch protections, and image-validation checks to make releases easier for developers to troubleshoot.</li>
+<li>Organized artifact feeds and repository consumption patterns and coached engineers on merge workflows, pipeline ownership, and environment promotion.</li>
+<li>Maintained Terraform configuration and Ansible automation for Azure environment setup, reviewing deployment plans and Linux configuration drift.</li>
+<li>Maintained Helm deployment defaults and environment values for shared Kubernetes services, validating application health and recovery during release promotion.</li>
+<li>Automated runner readiness and deployment diagnostics with Python and shell scripts, publishing troubleshooting utilities for application teams.</li>
+<li>Protected deployment inputs with Key Vault and least-privilege service connections; validated required checks and documented release handoffs.</li>
+<li>Validated reusable workflow changes in isolated test jobs, checking input contracts, artifact paths, and environment settings before adoption by application teams.</li>
 </ul>
 </div>
 <div class="job-block">
@@ -233,24 +211,19 @@ a{text-decoration:none;color:inherit;}
 <span class="job-meta">12/2021 - 03/2023</span>
 </div>
 <div class="job-details">
-<div><strong>Skills Used:</strong> AWS, Linode, Python, Terraform, EKS, GitHub Actions, GitLab</div>
+<div><strong>Skills Used:</strong> Azure, AWS, GitHub Actions, Terraform, AKS, Argo CD, Helm, Ansible, Azure Monitor</div>
 </div>
 <ul>
-<li>Deployed and configured self-hosted runners and build agents for Linux and Windows workloads supporting CI/CD and release automation.</li>
-<li>Configured deployment groups and environment-specific release targets to streamline controlled production rollouts.</li>
-<li>Built dashboards for CI/CD pipelines, work items, and defect tracking to improve engineering visibility and release governance.</li>
-<li>Deployed Kubernetes microservices through ArgoCD-based GitOps workflows.</li>
-<li>Provisioned AWS infrastructure using CloudFormation, Terraform, and pipeline-driven infrastructure-as-code deployment patterns.</li>
-<li>Established and maintained CI/CD pipelines with Jenkins, Git, Amazon ECR, and Kubernetes for repeatable application delivery.</li>
-<li>Implemented GitHub Actions workflows for deploying services to Kubernetes clusters across multiple environments.</li>
-<li>Built Docker images and deployed containerized applications to EKS using Helm charts and Kubernetes manifests.</li>
-<li>Integrated delivery tooling with Slack, Microsoft Teams, Jenkins, GitHub, and SonarQube based on engineering and audit requirements.</li>
-<li>Drove continuous integration and continuous delivery practices using Git, Maven, Jenkins, Ansible, Docker, Kubernetes, and AWS services.</li>
-<li>Authored PowerShell and shell automation scripts and published them to shared repositories for consistent reuse across environments.</li>
-<li>Troubleshot build and release pipeline failures and resolved deployment issues across distributed engineering teams.</li>
-<li>Published versioned artifacts to enterprise repositories and package managers to support downstream engineering consumption and traceability.</li>
-<li>Implemented disaster recovery, backup, and observability controls using AWS Elastic Disaster Recovery, AWS Backup, and Amazon CloudWatch.</li>
-<li>Designed secure VPC networking, Route 53 DNS, security groups, load balancing, VPN connectivity, Direct Connect, and traffic-routing patterns for enterprise workloads.</li>
+<li>Built GitHub Actions and Jenkins pipelines for Azure-hosted microservices, integrating Maven tests, ACR image publication, and Kubernetes deployment checks.</li>
+<li>Delivered Azure infrastructure with reusable Terraform modules and ARM templates; maintained supporting AWS environments and reviewed planned changes.</li>
+<li>Implemented Argo CD GitOps and Helm packaging for AKS, providing versioned environment configuration and validated rollback paths.</li>
+<li>Maintained Linux build runners and automated environment configuration with Ansible and scripts to keep build dependencies and execution environments consistent.</li>
+<li>Published versioned binaries and container images to shared repositories and integrated SonarQube feedback into engineering workflows.</li>
+<li>Improved service visibility with Azure Monitor, Log Analytics, and Application Insights; partnered with developers on incidents and recovery documentation.</li>
+<li>Reviewed infrastructure security, naming, and tagging with application owners, validating policy checks and platform dependencies before promotion.</li>
+<li>Diagnosed Kubernetes scheduling, image-pull, and service-connectivity failures, correlating workload events with cloud telemetry to restore reliable delivery.</li>
+<li>Developed Python and shell checks for infrastructure dependencies and release verification, improving consistent execution across Azure environments.</li>
+<li>Coordinated AKS node maintenance and application upgrades, verifying workload readiness and recovery steps with service owners before production changes.</li>
 </ul>
 </div>
 <div class="job-block">
@@ -259,24 +232,19 @@ a{text-decoration:none;color:inherit;}
 <span class="job-meta">04/2020 - 12/2021</span>
 </div>
 <div class="job-details">
-<div><strong>Skills Used:</strong> AWS, Python, Jenkins, GitHub Actions, SonarQube, JFrog, Terraform, Kubernetes, Prometheus, Ansible</div>
+<div><strong>Skills Used:</strong> Azure, Terraform, AWS, CloudBees CI, Groovy, Python / FastAPI, JFrog, Kubernetes</div>
 </div>
 <ul>
-<li>Designed CI/CD pipelines for application and infrastructure deployments across AWS environments.</li>
-<li>Created architecture and resource diagrams to support compliance reviews, security sign-offs, and controlled release execution.</li>
-<li>Authored and enforced custom policy controls aligned to internal security and governance requirements across AWS accounts.</li>
-<li>Implemented MFA, identity access controls, and role-based access management for users and groups across cloud environments.</li>
-<li>Partnered with peers to isolate product defects and participated in retrospectives with development teams and sprint managers to improve release quality.</li>
-<li>Applied platform engineering best practices to improve reliability, scalability, and operational efficiency across shared services.</li>
-<li>Standardized GitHub Actions-based CI/CD patterns to accelerate software delivery and reduce pipeline drift across teams.</li>
-<li>Designed and delivered a Terraform and Kubernetes solution for payment-platform deployments, enabling repeatable infrastructure provisioning and container orchestration.</li>
-<li>Automated onboarding of new projects to the enterprise DevOps platform through API-driven workflows.</li>
-<li>Developed internal APIs in Python FastAPI to integrate Jenkins, Jira, and JFrog processes with platform automation.</li>
-<li>Administered CloudBees Jenkins, JFrog Artifactory, and Xray enterprise tooling for secure software delivery.</li>
-<li>Developed custom Prometheus exporters in Python to capture application-specific operational metrics for SRE use cases.</li>
-<li>Built resilient Ansible roles and playbooks to deploy highly available Grafana, Prometheus, and Node Exporter monitoring stacks.</li>
-<li>Developed Jenkins shared libraries to automate image versioning and publish artifacts to private JFrog repositories.</li>
-<li>Authored Helm charts to deploy containerized applications consistently across Kubernetes environments.</li>
+<li>Administered CloudBees CI (Jenkins Enterprise), JFrog Artifactory, and Xray for SaaS product engineering, supporting reliable builds, secure artifact storage, and release execution.</li>
+<li>Developed Groovy Jenkins shared libraries for image versioning and artifact publishing, allowing developers to reuse tested pipeline steps across services.</li>
+<li>Developed Python FastAPI services integrating Jenkins, Jira, and JFrog to automate project onboarding and provide self-service access to delivery workflows.</li>
+<li>Partnered with microservice developers on build dependencies, unit and integration test stages, test-result publication, and repeatable promotion of release artifacts.</li>
+<li>Provisioned Azure application infrastructure with Terraform and Ansible, maintaining AWS integrations and environment-specific release configuration.</li>
+<li>Standardized Docker/Helm deployment patterns for AKS services and payment workloads, validating configuration, health checks, and production readiness.</li>
+<li>Built Python Prometheus exporters and highly available monitoring stacks with Ansible, Grafana, and Node Exporter to expose application and platform health.</li>
+<li>Worked with developers during production incidents, defect isolation, and sprint retrospectives; turned recurring support issues into platform fixes and reusable guidance.</li>
+<li>Maintained reusable deployment guidance and GitHub workflow conventions, coaching developers on release controls and shared platform capabilities.</li>
+<li>Managed artifact retention and dependency access for shared delivery services, troubleshooting repository failures and preserving approved build inputs for recovery.</li>
 </ul>
 </div>
 <div class="job-block">
@@ -286,24 +254,19 @@ a{text-decoration:none;color:inherit;}
 </div>
 <div class="job-details">
 <div><strong>Client:</strong> Mercedes-Benz Research &amp; Development India</div>
-<div><strong>Skills Used:</strong> Kubernetes, AWS, Ansible, GitHub, Shell Scripting, Jenkins, Maven, Tomcat, JBoss, Helm</div>
+<div><strong>Skills Used:</strong> Azure, Terraform, AWS, Jenkins, Maven, Ansible, Kubernetes, Helm</div>
 </div>
 <ul>
-<li>Represented the DevOps team and presented CI/CD and infrastructure automation strategies for key engineering initiatives, including Model Finder.</li>
-<li>Led platform review discussions with stakeholders in Germany to present roadmap enhancements and quarterly DevOps priorities.</li>
-<li>Designed monitoring architecture to collect application, infrastructure, and platform metrics using the ELK stack.</li>
-<li>Deployed Kubernetes manifests to on-premises clusters with Helm and standardized release packaging across services.</li>
-<li>Served as acting scrum master by managing stories, epics, sprint commitments, and core scrum ceremonies.</li>
-<li>Built Kubernetes environments with pods, deployments, services, and ConfigMaps, and managed Helm-based release packaging for multi-namespace workloads.</li>
-<li>Supported enterprise applications on AWS by troubleshooting CloudWatch, Amazon RDS, load balancing, auto scaling, certificate management, CloudFront, and identity integrations.</li>
-<li>Built continuous delivery pipelines and supported REST-based microservices deployments across Demo, Test, Pentest, Training, CTDEV, Sandbox, UAT, and PROD environments.</li>
-<li>Worked extensively with AWS infrastructure services including EC2, CloudWatch, Secrets Manager, and managed database platforms for enterprise workloads.</li>
-<li>Used CloudFormation and PowerShell scripting to provision and manage cloud resources in a repeatable and auditable manner.</li>
-<li>Planned and executed migration strategies for traditional workloads to AWS using lift-and-shift and modernization approaches.</li>
-<li>Integrated on-premises identity sources with cloud access controls and strengthened security using privileged access, identity protection, and MFA.</li>
-<li>Supported migration of on-premises Windows Server workloads to AWS and validated post-migration configuration through structured cutover and failover testing.</li>
-<li>Tuned scaling policies and service capacity for application and database workloads during on-premises to AWS migration programs.</li>
-<li>Automated fleet-level configuration enforcement for Linux and Windows EC2 instances and managed secure access and database connectivity in line with enterprise security standards.</li>
+<li>Partnered with developers on Azure platform and CI/CD improvements, translating service requirements into infrastructure and deployment standards.</li>
+<li>Built Jenkins and Maven delivery workflows for REST microservices across test, security-validation, UAT, and production environments.</li>
+<li>Packaged Kubernetes applications with Helm and managed namespaces, services, and configuration for repeatable deployments across shared clusters.</li>
+<li>Supported Azure infrastructure and AWS integrations, automating Linux configuration and troubleshooting networks, databases, and secrets access.</li>
+<li>Implemented ELK and Azure Monitor visibility; documented incident diagnostics and release procedures for application and platform teams.</li>
+<li>Versioned Azure deployment parameters and ARM/Ansible automation, reviewing infrastructure changes alongside application releases.</li>
+<li>Coordinated database and API deployment dependencies with developers, validating release order and recovery readiness before production handoff.</li>
+<li>Scripted Linux and application health validation with Python and Bash, capturing diagnostic output for operational handoffs.</li>
+<li>Reviewed release permissions and Key Vault integration with application teams, maintaining deployment validation and audit-ready change records.</li>
+<li>Validated certificate expiry and service connectivity during release readiness checks, coordinating configuration fixes with application and infrastructure owners.</li>
 </ul>
 </div>
 <div class="job-block">
@@ -313,20 +276,19 @@ a{text-decoration:none;color:inherit;}
 </div>
 <div class="job-details">
 <div><strong>Client:</strong> HPE</div>
-<div><strong>Skills Used:</strong> AWS, Chef, Ansible, GitLab, Shell Scripting, Python, Maven, Tomcat, JBoss, Splunk, Nexus</div>
+<div><strong>Skills Used:</strong> Azure, Terraform, AWS, Ansible, Python, Linux, Nexus</div>
 </div>
 <ul>
-<li>Created deployment pipelines with Ansible to promote releases from development through production in a controlled, repeatable manner.</li>
-<li>Authored and maintained Terraform modules and executed infrastructure changes through automated CI/CD workflows.</li>
-<li>Built YAML-based build and release pipelines with event-driven triggers to support continuous integration on every code change.</li>
-<li>Executed AWS proof-of-concepts and delivered solution designs aligned to application and infrastructure requirements.</li>
-<li>Authored AWS CLI automation to update service configurations and standardize administrative operations.</li>
-<li>Built and managed self-hosted build agents to support pipeline execution at scale.</li>
-<li>Defined and implemented branching strategies for Git repositories to improve release governance and code promotion.</li>
-<li>Documented build and deployment flows for core infrastructure, API, database, and UI components to improve team consistency.</li>
-<li>Created CI/CD pipelines for multiple application components across shared delivery platforms.</li>
-<li>Executed Terraform deployments through pipelines and promoted the same artifact set across multiple environments through controlled environment selection.</li>
-<li>Managed variable groups and environment-specific configuration to separate deployments cleanly across stages.</li>
+<li>Built CI/CD workflows for API, database, and UI components with development teams, standardizing build dependencies and release promotion for shared application services.</li>
+<li>Provisioned Azure resources with Terraform and configured Linux environments with Ansible; maintained AWS infrastructure and deployment dependencies.</li>
+<li>Maintained build agents and Python and shell automation to keep software builds repeatable and simplify infrastructure administration.</li>
+<li>Defined Git branching and protected-branch checks, versioned artifacts, and environment parameters for repeatable application promotion.</li>
+<li>Validated environment readiness and application dependencies before deployments, checking cloud access, network connectivity, and required configuration.</li>
+<li>Packaged containerized services with Helm and versioned environment values, validating deployment health and recovery before release.</li>
+<li>Investigated build and deployment failures through agent logs, Linux diagnostics, and configuration comparisons, documenting corrective actions with developers.</li>
+<li>Validated cloud deployment permissions and protected credentials, documenting access and configuration prerequisites for application teams.</li>
+<li>Documented onboarding, platform configuration, and support procedures, helping developers adopt repeatable environment and release practices.</li>
+<li>Captured deployment manifests and configuration baselines for environment handoffs, helping support teams trace runtime failures to source or release changes.</li>
 </ul>
 </div>
 <h2 class="section-title">Education</h2>

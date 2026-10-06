@@ -22,7 +22,9 @@ def _load_module(module_name: str, filename: str):
 def test_resolve_person_id_supports_expected_domains() -> None:
     module = _load_module("run_resume_request", "run_resume_request.py")
 
-    assert module.resolve_person_id("Rajendra", "devops-cloud") == "rajendra-prasad-n"
+    for domain in ("platform-engineer", "Platform-Engineer", "platform engineer", "platform_engineer", "devops-cloud", "devops-sre"):
+        assert module.resolve_person_id("Rajendra", domain) == "rajendra-prasad-n"
+        assert module.normalize_domain(domain) == "platform-engineer"
 
 
 def test_normalize_level_canonicalizes_values() -> None:
@@ -78,7 +80,7 @@ def test_rajendra_header_survives_all_tailoring_routes() -> None:
     core = _load_module("plugin_core_header_test", "plugin_core.py")
     assets = PLUGIN_SCRIPTS.parent / "assets"
     profile = core.BundledJsonResumeStore(assets / "people", assets / "static").load_person("rajendra-prasad-n")
-    assert profile.headline == "Lead DevOps Engineer | SaaS Platforms | AWS"
+    assert profile.headline == "Lead Platform Engineer | Developer Experience | Cloud Infrastructure"
     for jd in (
         "CloudBees Jenkins Python AWS",
         "GitLab CI Terraform",
@@ -93,3 +95,36 @@ def test_rajendra_header_survives_all_tailoring_routes() -> None:
     explicitly_changed = replace(profile, headline="User-approved new designation")
     tailored, _ = core.tailor_profile(explicitly_changed, "GitLab")
     assert tailored.headline == explicitly_changed.headline
+
+
+def test_platform_request_defaults_and_preserves_summary_history(tmp_path):
+    from unittest.mock import patch
+    import json
+    module = _load_module("run_platform_request", "run_resume_request.py")
+    args = module.build_parser().parse_args(["--person", "Rajendra", "--jd-text", "GitLab Terraform Kubernetes"])
+    assert args.domain == "platform-engineer"
+    core = _load_module("platform_core_test", "plugin_core.py")
+    assets = PLUGIN_SCRIPTS.parent / "assets"
+    profile = core.BundledJsonResumeStore(assets / "people", assets / "static").load_person("rajendra-prasad-n")
+    for jd in ("GitLab", "lead aws devops engineer codepipeline cloudformation", "release engineering branching strategies jenkins", "observability gpu hpc", "azure devops github actions terraform"):
+        tailored, _ = core.tailor_profile(profile, jd)
+        assert tailored.summary_html == profile.summary_html
+        assert [(j.title, len(j.impact)) for j in tailored.experience] == [(j.title, len(j.impact)) for j in profile.experience]
+    with patch.object(module, "export_html_to_pdf"):
+        result = module.render_request(module.ResumeRequest("Rajendra", "Platform-Engineer", "Aggressive", "Terraform Kubernetes", tmp_path, assets.parent))
+    assert result["domain"] == "platform-engineer"
+    assert "platform-engineer" in Path(result["html_path"]).name
+    assert json.loads(Path(result["profile_path"]).read_text())["headline"] == profile.headline
+
+
+def test_project_minimum_rejects_short_variants():
+    from dataclasses import replace
+    import pytest
+    module = _load_module("run_min_project_test", "run_resume_request.py")
+    core = _load_module("core_min_project_test", "plugin_core.py")
+    assets = PLUGIN_SCRIPTS.parent / "assets"
+    profile = core.BundledJsonResumeStore(assets / "people", assets / "static").load_person("rajendra-prasad-n")
+    module.validate_project_bullets(profile)
+    short = replace(profile, experience=[replace(profile.experience[0], impact=profile.experience[0].impact[:9])])
+    with pytest.raises(ValueError, match="at least 10"):
+        module.validate_project_bullets(short)

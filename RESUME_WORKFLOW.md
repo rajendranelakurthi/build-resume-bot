@@ -224,4 +224,14 @@ The user explicitly restored **Lead DevOps Engineer** as the permanent header de
 
 ### Exact approved header and template behavior
 
-Use **Lead DevOps Engineer | SaaS Platforms | AWS** across both base profiles and generated resumes. Both HTML templates document this preference while retaining `__HEADLINE__` as the profile-driven value. The bundled tailoring entry point now preserves Rajendra's base headline and page title across every JD-specific variant, preventing Jenkins, GitLab, Azure, SRE, or build/release routing from silently changing the header. Change the source headline only after explicit user instruction.
+Use **Lead Platform Engineer | Developer Experience | Cloud Infrastructure** across both base profiles and generated resumes. Both HTML templates document this preference while retaining `__HEADLINE__` as the profile-driven value. The bundled tailoring entry point now preserves Rajendra's base headline and page title across every JD-specific variant, preventing Jenkins, GitLab, Azure, SRE, or build/release routing from silently changing the header. Change the source headline only after explicit user instruction.
+
+## Platform Engineer Default Workflow (2026-10-06)
+
+Use `python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py --person Rajendra --domain platform-engineer --level Aggressive --jd-file <JD>`. The default domain is platform-engineer. Legacy devops-cloud/devops-sre commands remain aliases. Both base profiles and templates use the platform designation. Platform tailoring preserves the summary/history and ranks JD-relevant content; perform structured JD rewriting before invoking the renderer. Never promote a JD variant to the base without user instruction.
+
+## Azure/GitHub Platform Base (2026-10-06)
+
+The user supplied the Azure/GitHub platform JD as the reusable base. Prioritize Azure landing zones, modular Terraform/remote state, GitHub Actions/Packages/Environments, AKS/GitOps, managed identities/Key Vault, policy-as-code, DevSecOps, Azure observability, resilience and cost controls. Include env zero and advanced security/AI/data services at evidenced proficiency; keep healthcare frameworks as knowledge, without inventing healthcare employment or certification. Preserve the platform headline and Lead SRE first role. Profiles and generated base outputs must remain synchronized.
+
+Every future resume must retain at least 10 substantive bullets per employer/project. Validate counts before rendering; do not satisfy the minimum with repeated filler.

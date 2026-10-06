@@ -20,7 +20,8 @@ def tailor_profile(profile: PersonProfile, job_description: str) -> tuple[Person
     matched_keywords = [keyword for keyword in keywords if _profile_contains(profile, keyword)][:10]
     missing_keywords = [keyword for keyword in keywords if keyword not in matched_keywords][:6]
 
-    tailored_summary = build_summary(profile, matched_keywords, missing_keywords)
+    tailored_summary = (profile.summary_html if profile.headline.startswith("Lead Platform Engineer")
+                        else build_summary(profile, matched_keywords, missing_keywords))
     tailored_achievements = rank_tagged_items(profile.achievements, keywords) or profile.achievements
     tailored_skill_sections = rank_tagged_items(profile.skill_sections, keywords, content_key="content") or profile.skill_sections
     tailored_experience = [rank_experience(job, keywords) for job in profile.experience]

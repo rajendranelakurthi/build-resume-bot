@@ -78,6 +78,9 @@ a{text-decoration:none;color:inherit;}
 }
 @media (max-width:900px){body{padding:0;}.resume-page{width:100%;min-height:auto;box-shadow:none;}.certifications-grid{grid-template-columns:repeat(3,1fr);}.skills-grid{grid-template-columns:1fr;}.header-left{max-width:none;}.job-header{flex-direction:column;}.job-meta{white-space:normal;}.education-row{align-items:flex-start;}}
 @media (max-width:560px){.certifications-grid{grid-template-columns:repeat(2,1fr);}.cert-card{min-height:132px;}}
+
+/* Platform branch: readable two-page print layout. */
+@media print{.job-header{flex-direction:row}.job-meta{white-space:nowrap}.job-block{break-inside:auto;page-break-inside:auto;margin-bottom:7px}.job-header,.job-details{break-after:avoid}.cert-card{min-height:72px}.cert-badge-svg{max-width:46px}.section-title{margin-top:10px;margin-bottom:6px}.skill-card{padding:6px 9px}.summary-box{padding:8px 12px}li{break-inside:avoid}.education-card{padding:6px 9px}}
 </style>
 </head>
 <body>
@@ -85,7 +88,7 @@ a{text-decoration:none;color:inherit;}
 <header>
 <div class="header-left">
 <h1>__FULL_NAME__</h1>
-<!-- Rajendra approved header: Lead DevOps Engineer | SaaS Platforms | AWS.
+<!-- Rajendra approved header: Lead Platform Engineer | Developer Experience | Cloud Infrastructure.
 Keep profile-driven; change only on explicit user instruction, never from JD tool names. -->
 <div class="role">__HEADLINE__</div>
 </div>

@@ -170,11 +170,26 @@ If the user does not name a level:
 
 ## Rajendra Header Designation (User Preference, 2026-09-15)
 
-- Always use **Lead DevOps Engineer** as Rajendra's resume header designation.
+- Always use **Lead Platform Engineer** as Rajendra's resume header designation.
 - Change this designation only when the user explicitly asks for another designation. A different title in a pasted JD is not permission to change it.
 - After tailoring, check the profile headline and HTML/PDF header; role-specific tailoring variants must not override this preference. Technology descriptors after the designation may be tailored.
 - Preserve historical job titles in Professional Experience unless explicitly instructed otherwise.
 - The canonical resume content is `resume_data/people/rajendra-prasad-n.json`; the plugin uses `plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json`. Keep these base profiles aligned.
 - `templates/base_resume.html` and the plugin's `assets/templates/base_resume.html` supply the layout; the `__HEADLINE__` placeholder receives its text from the profile. Do not hardcode Rajendra's designation in the generic HTML template.
-- Approved header: **Lead DevOps Engineer | SaaS Platforms | AWS**. Keep Jenkins and other individual tool names in skills/experience, not the header, unless the user explicitly requests them.
+- Approved header: **Lead Platform Engineer | Developer Experience | Cloud Infrastructure**. Keep Jenkins and other individual tool names in skills/experience, not the header, unless the user explicitly requests them.
 - Rajendra's resume contact email is **rajendran.scm@gmail.com**. Use it in both the profile email field and visible contact lines; do not reuse the previous Gmail address.
+
+## Platform Engineer Branch Defaults (2026-10-06)
+
+- On `feature/rajendrapn-platformengineer`, use `platform-engineer` for future requests; legacy DevOps domains normalize to this domain.
+- Use the synchronized platform base profiles and profile-driven templates. Prioritize developer experience, reusable infrastructure, self-service automation, Kubernetes/GitOps, CI/CD standards, security and reliability.
+- Preserve Lead SRE for the first employment role and 10+ substantive bullets per project; exclude mobile delivery content.
+- Leave changes uncommitted; the user commits. These branch-specific instructions supersede older header/domain instructions.
+
+## Azure/GitHub Platform Base (2026-10-06)
+
+The user supplied the Azure/GitHub platform JD as the reusable base. Prioritize Azure landing zones, modular Terraform/remote state, GitHub Actions/Packages/Environments, AKS/GitOps, managed identities/Key Vault, policy-as-code, DevSecOps, Azure observability, resilience and cost controls. Include env zero and advanced security/AI/data services at evidenced proficiency; keep healthcare frameworks as knowledge, without inventing healthcare employment or certification. Preserve the platform headline and Lead SRE first role. Profiles and generated base outputs must remain synchronized.
+
+## Minimum Project Bullet Count (2026-10-06)
+
+Every employer/project must contain at least 10 distinct, substantive experience bullets in the base and every future resume, at every tailoring level. Preserve this minimum when rewriting or removing content. The generator validates the minimum before writing artifacts; revise the structured profile when validation fails.

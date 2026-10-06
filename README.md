@@ -5,10 +5,10 @@ Repository foundation for managing resume content for multiple people and render
 ## First-time setup for Codex IDEs
 
 1. Open this repository in a Codex-supported IDE, such as VS Code or Antigravity.
-2. Switch to the plugin branch:
+2. Use the platform engineering branch:
 
 ```bash
-git switch plug-in
+git switch feature/rajendrapn-platformengineer
 ```
 
 3. Install the resume creator plugin:
@@ -21,7 +21,7 @@ bash ai_resume/plugins/resume-creator-plugin/scripts/install_plugin.sh
 5. In Codex, use this command format:
 
 ```text
-Use the Résumé Creator Plugin to create an Aggressive devops-cloud resume for Rajendra using this JD: <provide JD>
+Use the Résumé Creator Plugin to create an Aggressive platform-engineer resume for Rajendra using this JD: <provide JD>
 ```
 
 ## What this repo does
@@ -71,3 +71,7 @@ The renderer is built around the HTML/CSS structure you provided:
 2. Plug in an LLM planner to rewrite summaries and bullets from user prompts.
 3. Add multiple visual templates if you want different resume styles per customer.
 4. Add a small web app so users can request role-specific resume variants.
+
+## Resume content minimum
+
+All base and future tailored resumes must contain at least **10 distinct, substantive bullets per employer/project**. The plugin validates this before generating output.

@@ -1,13 +1,13 @@
 # Résumé Creator Plugin Install Guide
 
-This plugin creates tailored DevOps / Cloud resumes for Rajendra and exports recruiter-ready HTML and PDF output.
+This plugin creates tailored Platform Engineer resumes for Rajendra and exports recruiter-ready HTML and PDF output.
 
 ## Inputs Supported
 
 - `person`
   - `Rajendra`
 - `domain`
-  - `devops-cloud`
+  - `platform-engineer`
 - `level`
   - `Base`
   - `Tailored`
@@ -87,17 +87,17 @@ You can also run the plugin directly without waiting for Codex discovery:
 ```powershell
 python C:\path\to\resume-creator-plugin\scripts\run_resume_request.py `
   --person Rajendra `
-  --domain devops-cloud `
+  --domain platform-engineer `
   --level Aggressive `
   --jd-file C:\temp\jd.txt
 ```
 
-Example for DevOps / Cloud:
+Example for Platform Engineer:
 
 ```powershell
 python C:\path\to\resume-creator-plugin\scripts\run_resume_request.py `
   --person Rajendra `
-  --domain devops-cloud `
+  --domain platform-engineer `
   --level Tailored `
   --jd-file C:\temp\jd.txt
 ```
