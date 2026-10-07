@@ -91,6 +91,9 @@ class HtmlResumeRenderer:
         lines: list[str] = []
         if client:
             lines.append(f"<div><strong>Client:</strong> {escape(client)}</div>")
+        # User preference: omit Key Vault from project technology lists.
+        skills_used = [skill for skill in skills_used
+                       if "keyvault" not in "".join(c for c in skill.lower() if c.isalnum())]
         if skills_used:
             lines.append(
                 f"<div><strong>Skills Used:</strong> {escape(', '.join(skills_used))}</div>"

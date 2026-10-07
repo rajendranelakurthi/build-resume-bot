@@ -1,0 +1,209 @@
+{
+  "full_name": "Rajendra P N",
+  "headline": "LEAD AZURE DEVOPS ENGINEER | AI | K8S",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "linkedin.com/in/rajendranelakurthi",
+    "rajendranelakurthi.github.io"
+  ],
+  "summary_html": "Lead Azure DevOps Engineer and senior Kubernetes platform engineer with 10+ years of cloud engineering and production\ndelivery experience. Engineers end-to-end AKS architecture, security, administration, observability, scaling, and upgrades using\nTerraform, Azure DevOps, Helm, and Python. Deploys GPU workloads, Milvus/Qdrant vector databases, and FastAPI\nmicroservices. Partners with engineering teams on platform standards, technical evaluations, incident troubleshooting, and operational\nreadiness.",
+  "certifications": [
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "Microsoft Certified: Azure Fundamentals",
+    "GitLab Certified Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "achievements_title": "Kubernetes Platform & Reliability Highlights",
+  "achievements": [
+    {
+      "tag": "End-to-End AKS Engineering",
+      "text": "Connects cluster architecture, infrastructure automation, application onboarding, security, observability, and day-to-day administration into maintainable platform services."
+    },
+    {
+      "tag": "Platform Lifecycle & Reliability",
+      "text": "Plans Kubernetes upgrades around API compatibility, disruption budgets, capacity, validation, and production recovery readiness."
+    },
+    {
+      "tag": "AI Workload Enablement",
+      "text": "Deploys isolated GPU capacity and persistent vector database services to support AI applications and FastAPI-based microservices."
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "AKS ARCHITECTURE & GKE KNOWLEDGE",
+      "content": "AKS: cluster design, node pools, availability zones, private networking, Azure CNI, ingress, DNS, RBAC, workload identity, quotas; GKE knowledge: architecture, node pools, release channels, maintenance and upgrades"
+    },
+    {
+      "title": "KUBERNETES SECURITY & OPERATIONS",
+      "content": "Image vulnerability scanning, hardened containers, least privilege, NetworkPolicies, Key Vault integration, TLS certificates, secret rotation, incident troubleshooting"
+    },
+    {
+      "title": "LIFECYCLE, SCALING & OPTIMIZATION",
+      "content": "AKS upgrades, API compatibility, maintenance windows, surge capacity, cordon/drain, PodDisruptionBudgets, node-image updates, HPA, cluster autoscaler, requests/limits"
+    },
+    {
+      "title": "AI & VECTOR DATABASE PLATFORMS",
+      "content": "GPU node pools, NVIDIA device plugin, GPU resource requests, taints/tolerations, node affinity, Milvus, Qdrant, Helm, StatefulSets, persistent storage, backup/restore"
+    },
+    {
+      "title": "MICROSERVICES & DELIVERY",
+      "content": "Python, FastAPI, REST APIs, Docker, Azure DevOps YAML pipelines, Azure Container Registry, Helm, Argo CD, health probes, controlled rollouts"
+    },
+    {
+      "title": "OBSERVABILITY & INFRASTRUCTURE AUTOMATION",
+      "content": "Azure Monitor, Log Analytics, Prometheus, Grafana, alerts, dashboards, Terraform, Bicep, Azure CLI, Bash, PowerShell, Linux"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Azure DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "impact": [
+        "Provided senior production escalation support for scheduling, image-pull, crash-loop, storage, networking, and resource-pressure incidents; documented root causes, recovery steps, and corrective actions.",
+        "Owned end-to-end AKS platform architecture and administration, aligning cluster capabilities, application onboarding, engineering standards, and operational runbooks with platform roadmap priorities.",
+        "Evaluated GPU, vector-search, and deployment capabilities through proofs of concept, documenting capacity, security, supportability, and cost tradeoffs for stakeholders.",
+        "Secured workloads with image vulnerability scanning, hardened containers, network policies, Key Vault secrets, and TLS lifecycle management; coordinated remediation and certificate/connectivity troubleshooting.",
+        "Tuned requests/limits, HPA, cluster autoscaler settings, and node-pool sizing to balance stability, performance, and cost; reviewed capacity requirements with application teams.",
+        "Provisioned AKS, system/application node pools, networking, registry, and identity integrations with Terraform and Bicep; administered namespaces, RBAC, workload identity, and quotas.",
+        "Deployed Milvus and Qdrant through Helm; administered persistent storage, resource sizing, access controls, backup procedures, and restore validation for vector-search services.",
+        "Planned AKS control-plane and node-pool upgrades with API-deprecation checks, add-on compatibility testing, maintenance windows, surge capacity, PodDisruptionBudgets, node-image updates, and staged validation.",
+        "Deployed GPU node pools for AI applications, validating NVIDIA device-plugin readiness, GPU resource requests, node affinity, and taints/tolerations for workload isolation.",
+        "Delivered FastAPI and REST microservices through Azure DevOps, Azure Container Registry, and Helm, configuring health probes, environment settings, ingress routing, and controlled rollouts.",
+        "Built Azure Monitor, Log Analytics, Prometheus, and Grafana dashboards and alerts for node health, pod restarts, deployment status, application latency, and capacity."
+      ],
+      "skills_used": [
+        "Azure",
+        "AKS",
+        "Kubernetes",
+        "Terraform",
+        "Bicep",
+        "Azure DevOps",
+        "Helm",
+        "Python",
+        "FastAPI",
+        "GPU Nodes",
+        "Milvus",
+        "Qdrant",
+        "Prometheus"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "impact": [
+        "Partnered with development and QA teams to standardize Kubernetes deployment practices, troubleshoot runtime issues, and improve engineering handoffs.",
+        "Engineered Kubernetes workload deployment patterns with Helm and version-controlled manifests, aligning application configuration with environment and operational standards.",
+        "Integrated container image validation and security checks into delivery pipelines and partnered with developers on remediation and deployment readiness.",
+        "Administered namespaces, services, ConfigMaps, secrets, and resource settings and diagnosed pod scheduling, container startup, and service-connectivity failures.",
+        "Maintained Linux and Windows build agents and reusable delivery workflows for repeatable image builds, automated tests, artifact publication, and release approvals.",
+        "Used workload health checks and staged rollouts to verify application changes before promotion and documented recovery steps for failed releases."
+      ],
+      "skills_used": [
+        "Kubernetes",
+        "Docker",
+        "Helm",
+        "Git",
+        "Linux",
+        "CI/CD"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "impact": [
+        "Managed Kubernetes workloads, node-pool capacity, deployment configuration, and secure application connectivity across engineering environments.",
+        "Supported GPU-enabled AKS application deployments, validating workload placement, resource allocation, and operational telemetry with application teams.",
+        "Provisioned Azure and AKS infrastructure with Terraform and ARM templates and deployed containerized services using Helm and Argo CD.",
+        "Planned AKS upgrade readiness by reviewing version compatibility, deployment manifests, health probes, resource capacity, and maintenance requirements.",
+        "Correlated Azure Monitor, Log Analytics, and pipeline telemetry to isolate pod, networking, infrastructure, and deployment failures.",
+        "Built Python and PowerShell automation for environment validation, deployment checks, and recurring cluster administration tasks.",
+        "Maintained release runbooks, versioned artifacts, and post-deployment checks to support consistent operational handoffs."
+      ],
+      "skills_used": [
+        "Azure",
+        "AKS",
+        "Terraform",
+        "Helm",
+        "Argo CD",
+        "GPU Nodes",
+        "Python",
+        "Azure Monitor"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "impact": [
+        "Built reusable Terraform modules for Azure networking and AKS, standardizing infrastructure provisioning and application deployment patterns.",
+        "Used Prometheus and Grafana telemetry to troubleshoot application and platform issues and support reliable production releases.",
+        "Automated Linux and deployment operations with Ansible and Python and documented platform support and recovery procedures.",
+        "Packaged and deployed microservices through Kubernetes and Helm, aligning application configuration, environment secrets, health checks, and release dependencies.",
+        "Administered CloudBees Jenkins, JFrog Artifactory, and Xray and integrated SonarQube checks and secure artifact promotion into delivery workflows.",
+        "Developed Python FastAPI integrations for Jenkins, Jira, and JFrog to automate onboarding, release coordination, and operational workflows."
+      ],
+      "skills_used": [
+        "Azure",
+        "AKS",
+        "Terraform",
+        "Python",
+        "FastAPI",
+        "Jenkins",
+        "JFrog",
+        "Prometheus",
+        "Grafana"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "impact": [
+        "Built Jenkins and Maven pipelines for REST microservices across testing, security validation, UAT, and production environments.",
+        "Investigated application and deployment failures with ELK, Azure Monitor, and Log Analytics and coordinated verified service recovery with engineering teams.",
+        "Packaged Kubernetes services with Helm and managed environment configuration for repeatable deployment and operational support.",
+        "Integrated Key Vault and secure database connectivity and supported certificate, credential, and application-connectivity troubleshooting.",
+        "Automated Azure virtual machines, networking, and Linux configuration with ARM templates, Ansible, and PowerShell."
+      ],
+      "skills_used": [
+        "Azure",
+        "Jenkins",
+        "ARM templates",
+        "Ansible",
+        "Helm"
+      ],
+      "client": "Mercedes-Benz Research & Development India"
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "impact": [
+        "Created repeatable pipelines for API, database, and UI components and maintained Git branching practices and build-agent configuration.",
+        "Automated Azure infrastructure and application provisioning with Terraform, ARM templates, and Ansible.",
+        "Troubleshot Linux, build, configuration, and release failures with development and operations teams and documented recovery steps.",
+        "Developed Python and PowerShell scripts for deployment preparation, administration, and environment diagnostics."
+      ],
+      "skills_used": [
+        "Azure",
+        "Terraform",
+        "Ansible",
+        "Python",
+        "PowerShell",
+        "Linux"
+      ],
+      "client": "HPE"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech (2009-2013) in Information Technology",
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada"
+    }
+  ]
+}

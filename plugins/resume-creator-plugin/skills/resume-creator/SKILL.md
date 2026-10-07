@@ -41,3 +41,9 @@ When plugin install/update is needed only:
 Do not repeat setup, packaging, or reinstall instructions unless the user explicitly asks for plugin maintenance.
 
 Latest project minimum: 15 distinct substantive bullets; all other projects minimum: 10. Hide MuleSoft certification badge in rendered resumes. Use four evenly aligned certification cards.
+
+Before each task, verify `git branch --show-current`, the current command, and branch instructions. On this branch use Lead Platform Engineer | Cloud Infrastructure and latest AT&T title Lead Platform/DevOps Engineer. Azure experience only; GCP/GKE knowledge only for the current scope. For a JD-specific source, pass `--profile-file <structured-profile.json>` to the CLI without replacing the reusable base.
+
+Global user preference: Never include Key Vault (including Azure Key Vault/KeyVault) in any project’s `Skills Used` list, on any branch or tailoring level. This restriction applies only to project technology lists; enforce it before rendering future resumes.
+
+Platform profile: distribute Jenkins, SonarQube, JFrog Artifactory, OpenShift, Milvus and Qdrant across project Skills Used lists with corresponding substantive platform-engineering bullets. Keep Key Vault excluded.

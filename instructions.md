@@ -1,5 +1,9 @@
 # Instructions
 
+## Active branch and current request (2026-10-07)
+
+Verify the active branch and current command before reusing prior preferences. This branch is dedicated to DevOps Platform Engineer roles with `platform-engineer` routing. Use Azure-only work-experience claims; GCP/GKE are knowledge only. Preserve the platform header and Lead Platform/DevOps Engineer AT&T title. HIPAA/SOC2 remain knowledge unless direct compliance responsibility is confirmed. Never import AWS SRE or Azure DevOps branch designations.
+
 This file records the operating rules for this repository so future resume work stays consistent.
 
 ## Branch Model
@@ -195,3 +199,7 @@ The user supplied the Azure/GitHub platform JD as the reusable base. Prioritize 
 The latest employer/project must contain at least 15 distinct, substantive experience bullets; every other project must contain at least 10 in the base and every future resume, at every tailoring level. Preserve this minimum when rewriting or removing content. The generator validates the minimum before writing artifacts; revise the structured profile when validation fails.
 
 Latest project minimum: 15 distinct substantive bullets; all other projects minimum: 10. Hide MuleSoft certification badge in rendered resumes. Use four evenly aligned certification cards.
+
+Global user preference: Never include Key Vault (including Azure Key Vault/KeyVault) in any project’s `Skills Used` list, on any branch or tailoring level. This restriction applies only to project technology lists; enforce it before rendering future resumes.
+
+Platform profile: distribute Jenkins, SonarQube, JFrog Artifactory, OpenShift, Milvus and Qdrant across project Skills Used lists with corresponding substantive platform-engineering bullets. Keep Key Vault excluded.

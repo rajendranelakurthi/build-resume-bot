@@ -109,7 +109,6 @@
         "GitHub Actions",
         "AKS",
         "Azure Policy",
-        "Key Vault",
         "Managed Identities",
         "Azure Monitor",
         "AWS"
@@ -140,8 +139,7 @@
         "Terraform",
         "Linux",
         "Docker",
-        "Kubernetes",
-        "Key Vault"
+        "Kubernetes"
       ]
     },
     {
