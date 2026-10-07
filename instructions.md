@@ -180,3 +180,5 @@ If the user does not name a level:
 - AWS Solutions Architect – Professional is a target qualification; retain the recorded Associate credential until confirmed.
 - Prior Azure/DataOps defaults and requirements for Liquibase/Snowflake in every project are superseded on this branch. Preserve explicit variants and historical outputs.
 - The user will commit changes; leave this work uncommitted and do not push.
+
+- Standard latest AT&T designation: `Lead SRE`. Preserve this title across all tailoring levels unless explicitly changed by the user.

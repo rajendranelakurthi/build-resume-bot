@@ -89,7 +89,7 @@
   ],
   "experience": [
     {
-      "title": "Lead DevOps Engineer",
+      "title": "Lead SRE",
       "company": "AT&T Services Inc.",
       "date_range": "08/2023 - Present",
       "skills_used": [
@@ -236,7 +236,8 @@
     "Preserve contact, employer names, employment titles, dates, and education.",
     "AWS experience wording draws on existing repository AWS resume material; generated mock profiles are not evidence.",
     "AWS Certified Solutions Architect - Professional is a target qualification; the recorded credential remains Associate until confirmed.",
-    "Research guidance is in docs/aws-sre-role-guide.md; validate new tools, metrics, and responsibilities against candidate experience before asserting them."
+    "Research guidance is in docs/aws-sre-role-guide.md; validate new tools, metrics, and responsibilities against candidate experience before asserting them.",
+    "Standard latest AT&T designation: Lead SRE. Preserve this title across tailoring unless explicitly changed by the user."
   ],
   "achievements_title": "AWS SRE & Resiliency Highlights"
 }

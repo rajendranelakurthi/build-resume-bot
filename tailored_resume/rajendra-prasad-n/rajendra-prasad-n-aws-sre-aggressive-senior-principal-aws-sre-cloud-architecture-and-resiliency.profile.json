@@ -1,0 +1,257 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Lead AWS Site Reliability Engineer | Cloud Architecture & Resiliency",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "page_title": "Rajendra Prasad N - Lead AWS Site Reliability Engineer",
+  "summary_html": "<strong>Lead AWS Site Reliability Engineer with 10+ years of cloud infrastructure, automation, production delivery, and troubleshooting experience</strong>. Combines senior engineering ownership with <strong>AWS resiliency, multi-region architecture, high availability, failover, and disaster recovery</strong>. Uses <strong>Terraform, CloudFormation (YAML), Python, and Linux</strong> to build repeatable infrastructure and maintain operational automation. AWS focus spans EC2, ECS, Lambda, Route 53, load balancers, SQS, S3, EFS, and RDS. Partners with application and platform teams on architecture reviews, incident diagnosis, observability, release safeguards, and recovery planning.",
+  "achievements_title": "AWS SRE & Resiliency Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "certification_badges_image": "file:///Users/rajendra/Documents/1Resume/ai_resume/plugins/resume-creator-plugin/assets/static/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "AWS",
+    "Site Reliability Engineering",
+    "Cloud Architecture",
+    "Multi-Region Architecture",
+    "High Availability",
+    "Disaster Recovery",
+    "Failover",
+    "Terraform",
+    "CloudFormation",
+    "YAML",
+    "Python",
+    "Linux",
+    "EC2",
+    "ECS",
+    "Lambda",
+    "Route 53",
+    "ALB",
+    "NLB",
+    "SQS",
+    "S3",
+    "EFS",
+    "RDS",
+    "CloudWatch",
+    "Kubernetes",
+    "Prometheus",
+    "Grafana"
+  ],
+  "skill_sections": [
+    {
+      "title": "Resiliency & Cloud Architecture",
+      "content": "Multi-AZ and multi-region architecture, high availability, failover, disaster recovery, recovery planning, fault isolation"
+    },
+    {
+      "title": "Infrastructure & Resiliency Automation",
+      "content": "Terraform, CloudFormation (YAML), Python, Bash, Ansible, reusable modules, configuration validation"
+    },
+    {
+      "title": "Storage, Databases & Messaging",
+      "content": "S3, EFS, RDS, SQS, PostgreSQL, MySQL, asynchronous processing, backup and recovery"
+    },
+    {
+      "title": "AWS Compute & Containers",
+      "content": "EC2, Auto Scaling, ECS, Lambda, Docker, Kubernetes, EKS, Helm"
+    },
+    {
+      "title": "Networking & Traffic Management",
+      "content": "VPC, subnets, security groups, Route 53, DNS, Application Load Balancer (ALB), Network Load Balancer (NLB)"
+    },
+    {
+      "title": "Observability & Production Operations",
+      "content": "CloudWatch, Prometheus, Grafana, Splunk, ELK, incident response, root-cause analysis, operational runbooks"
+    },
+    {
+      "title": "Secure & Reliable Delivery",
+      "content": "GitHub Actions, GitLab CI, Jenkins, IAM, least privilege, secrets management, deployment approvals, rollback, artifact validation"
+    }
+  ],
+  "achievements": [
+    {
+      "tag": "AWS Architecture",
+      "text": "Aligns cloud infrastructure, application dependencies, and recovery planning for resilient AWS services."
+    },
+    {
+      "tag": "Infrastructure Automation",
+      "text": "Builds reusable infrastructure and Python automation to improve deployment consistency and reduce repetitive operational work."
+    },
+    {
+      "tag": "Production Reliability",
+      "text": "Connects monitoring, incident troubleshooting, release validation, and recovery procedures across engineering teams."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead SRE",
+      "company": "AT&T Services Inc.",
+      "impact": [
+        "Automated disaster recovery procedures for multi-region AWS environments, considering recovery time and recovery point objectives.",
+        "Developed Python and Bash automation for infrastructure provisioning, operational checks, and release support.",
+        "Built AWS delivery pipelines with Jenkins and GitHub Actions, incorporating validation, approvals, release artifacts, and recovery procedures.",
+        "Supported resiliency and operational troubleshooting for distributed REST services and application dependencies.",
+        "Led incident troubleshooting with development and operations teams, documenting findings and service recovery actions.",
+        "Integrated automated testing, code quality checks, and security scanning into controlled release workflows.",
+        "Supported event-driven service delivery and messaging dependencies across application and infrastructure teams.",
+        "Coordinated database releases with application deployment, validation, and recovery planning."
+      ],
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Terraform",
+        "Python",
+        "Jenkins",
+        "GitHub Actions",
+        "Linux",
+        "Disaster Recovery"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "impact": [
+        "Operated Linux build agents and supported scaling, availability, and troubleshooting for shared delivery infrastructure.",
+        "Supported Kubernetes workloads, deployment health checks, and troubleshooting of application and networking issues.",
+        "Partnered with developers and QA on release validation, branch protection, and container image checks.",
+        "Migrated Jenkins workflows to GitLab CI, standardizing reusable stages and release controls.",
+        "Improved consistency of Docker builds and environment configuration across staging and production.",
+        "Investigated pipeline, container, and Linux host failures with engineering teams."
+      ],
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "GitLab CI"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "impact": [
+        "Provisioned AWS infrastructure with Terraform and CloudFormation, including VPC networks, ALB routing, and Multi-AZ application environments.",
+        "Supported AWS backup and disaster recovery workflows, documenting restoration steps and operational dependencies.",
+        "Developed Python and Bash automation for environment validation and operational support.",
+        "Built Jenkins and GitHub Actions pipelines for repeatable application and infrastructure deployment.",
+        "Used CloudWatch and Prometheus telemetry to investigate performance and service health issues.",
+        "Maintained versioned artifacts and controlled database migration workflows for consistent environment promotion."
+      ],
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Terraform",
+        "CloudFormation",
+        "CloudWatch",
+        "Python",
+        "Prometheus"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "impact": [
+        "Delivered Terraform and Kubernetes automation for repeatable provisioning and recovery readiness.",
+        "Developed Python-based Prometheus exporters and used Grafana dashboards to improve operational visibility.",
+        "Built AWS CI/CD workflows with automated tests, SonarQube checks, and secure artifact promotion.",
+        "Developed Python FastAPI integrations for Jenkins, Jira, and JFrog to reduce manual release coordination.",
+        "Maintained IAM access controls and secure deployment practices across AWS environments.",
+        "Supported reliability and scalability of logistics services and asynchronous application integrations."
+      ],
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Terraform",
+        "Python",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "IAM"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "impact": [
+        "Supported migration of Linux application and database workloads to AWS, coordinating infrastructure and application dependencies.",
+        "Used ELK telemetry to diagnose infrastructure and application failures.",
+        "Packaged Kubernetes services with Helm and supported controlled deployment and recovery.",
+        "Built Jenkins delivery pipelines for REST microservices across testing, UAT, and production.",
+        "Automated Linux configuration with Ansible and shell scripts to improve environment consistency.",
+        "Coordinated release planning and operational handoffs with distributed engineering teams."
+      ],
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "AWS",
+        "Linux",
+        "Jenkins",
+        "Ansible",
+        "Helm",
+        "ELK"
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "impact": [
+        "Automated provisioning and deployment checks with Terraform, Ansible, Python, and Bash.",
+        "Maintained Git branching, reviewed infrastructure changes, and versioned deployment configuration.",
+        "Troubleshot build-agent and release failures and documented deployment and recovery procedures.",
+        "Created repeatable pipelines for API, database, and UI releases across development and production."
+      ],
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "HPE",
+      "skills_used": [
+        "Terraform",
+        "Ansible",
+        "Python",
+        "Bash",
+        "Git",
+        "CI/CD"
+      ]
+    }
+  ],
+  "additional_sections": [],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology",
+      "logo_image": "",
+      "logo_alt": ""
+    }
+  ],
+  "education_before_experience": false,
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Default domain: aws-sre; target Senior/Principal AWS SRE and Cloud Architecture opportunities.",
+    "Preserve contact, employer names, employment titles, dates, and education.",
+    "AWS experience wording draws on existing repository AWS resume material; generated mock profiles are not evidence.",
+    "AWS Certified Solutions Architect - Professional is a target qualification; the recorded credential remains Associate until confirmed.",
+    "Research guidance is in docs/aws-sre-role-guide.md; validate new tools, metrics, and responsibilities against candidate experience before asserting them.",
+    "Standard latest AT&T designation: Lead SRE. Preserve this title across tailoring unless explicitly changed by the user."
+  ]
+}

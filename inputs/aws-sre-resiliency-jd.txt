@@ -1,0 +1,13 @@
+Senior / Principal AWS SRE - Cloud Architecture and Resiliency
+
+Required Skills:
+- Principal/Senior-level SRE / Cloud Architecture experience
+- Strong AWS Resiliency & Multi-Region Architecture
+- AWS Certified Solutions Architect - Professional
+- Infrastructure as Code: Terraform & CloudFormation (YAML)
+- AWS EC2, ECS, Lambda
+- Route 53, Load Balancers
+- SQS, S3, EFS, RDS
+- Python for understanding and modifying resiliency automation code
+- Failover, disaster recovery, high availability, and resiliency automation
+- Strong troubleshooting and architecture skills

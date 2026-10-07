@@ -224,3 +224,5 @@ python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py --person 
 ```
 
 The packaged CLI writes profile JSON, HTML, PDF, and manifest to `tailored_resume/rajendra-prasad-n/`. Promote approved profile changes with `scripts/update_base_profile.py`; regenerate the base example after promotion. Keep changes on the current branch and leave them uncommitted for the user.
+
+- Standard latest AT&T designation: `Lead SRE`. Preserve this title across all tailoring levels unless explicitly changed by the user.

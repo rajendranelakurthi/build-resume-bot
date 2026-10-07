@@ -40,3 +40,5 @@ When plugin install/update is needed only:
 Do not repeat setup, packaging, or reinstall instructions unless the user explicitly asks for plugin maintenance.
 
 AWS SRE defaults: emphasize resiliency, multi-region architecture, high availability, disaster recovery, Terraform, CloudFormation YAML, Python, and production troubleshooting. Preserve recorded credentials and employment history. Professional certification is a target until confirmed; keep the recorded Associate credential. Additional role guidance is in the bundled `../../assets/aws-sre-role-guide.md` (mirrored in repository `docs/aws-sre-role-guide.md`). AWS or mixed AWS JDs must retain the AWS base instead of automatically selecting Azure/DataOps content.
+
+- Standard latest AT&T designation: `Lead SRE`. Preserve this title across all tailoring levels unless explicitly changed by the user.
