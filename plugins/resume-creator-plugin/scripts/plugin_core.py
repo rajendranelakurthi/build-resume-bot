@@ -355,9 +355,9 @@ def _tailor_profile_content(profile: PersonProfile, job_description: str) -> tup
     matched_keywords = [keyword for keyword in keywords if _profile_contains(profile, keyword)][:10]
     missing_keywords = [keyword for keyword in keywords if keyword not in matched_keywords][:6]
     lowered_jd = job_description.lower()
-    if all(term in lowered_jd for term in ("liquibase", "snowflake", "github")):
+    if "aws" not in lowered_jd and all(term in lowered_jd for term in ("liquibase", "snowflake", "github")):
         return build_azure_dataops_profile(profile), matched_keywords
-    if "azure devops" in lowered_jd and "github actions" in lowered_jd and "terraform" in lowered_jd:
+    if "aws" not in lowered_jd and "azure devops" in lowered_jd and "github actions" in lowered_jd and "terraform" in lowered_jd:
         return build_azure_devops_profile(profile), matched_keywords
     headline = profile.headline
     if "gitlab" in keywords:
@@ -492,33 +492,7 @@ def extract_keywords(job_description: str) -> list[str]:
 
 
 def build_summary(profile: PersonProfile, matched_keywords: list[str], missing_keywords: list[str]) -> str:
-    # Keep the candidate-facing summary polished and evidence-based. Keyword lists
-    # are useful for ranking, but exposing them verbatim produces recruiter-hostile
-    # prose and can accidentally present unsupported JD terms as candidate skills.
-    if "gitlab" in matched_keywords:
-        return (
-            "<strong>Lead GitLab and DevOps Engineer with more than a decade of enterprise platform, "
-            "release engineering, cloud infrastructure, and production operations experience</strong>. "
-            "Hands-on expertise administering GitLab delivery workflows, migrating Azure DevOps and "
-            "Jenkins pipelines to GitLab CI/CD, operating self-hosted and autoscaling runners, building reusable pipeline "
-            "templates, and enforcing branch protection, merge, approval, artifact, and repository "
-            "governance standards. Experienced implementing <strong>GitLab Duo</strong> for AI-assisted "
-            "development with security, review, and adoption guardrails. Deep strength in <strong>Linux, shell automation, Terraform, AWS, "
-            "Azure, Docker, Kubernetes, EKS, OpenShift, and DevSecOps controls</strong>, with experience "
-            "supporting GPU-enabled and vector-search platforms for AI-oriented workloads. Proven record "
-            "improving pipeline security, reliability, scalability, and developer delivery efficiency."
-        )
-    return (
-        "<strong>Lead DevOps Engineer with more than a decade of enterprise delivery, "
-        "release engineering, cloud infrastructure, and production operations experience</strong> "
-        "across Linux and Unix environments. Deep hands-on strength in <strong>shell scripting, "
-        "CI/CD pipeline engineering, infrastructure as code, build and deployment automation, "
-        "and container orchestration</strong> using Jenkins, GitHub Actions, GitLab CI, Terraform, "
-        "CloudFormation, Ansible, Bash, Python, Docker, Kubernetes, EKS, and OpenShift. Proven "
-        "record modernizing application platforms, troubleshooting complex releases, integrating "
-        "monitoring and security controls, and improving the reliability and repeatability of "
-        "mission-critical delivery workflows."
-    )
+    return profile.summary_html
 
 
 def rank_tagged_items(items: list[dict[str, str]], keywords: list[str], *, content_key: str = "text") -> list[dict[str, str]]:

@@ -1,7 +1,7 @@
 {
   "name": "resume-creator-plugin",
   "version": "0.1.0",
-  "description": "Create tailored DevOps/Cloud resumes for Rajendra from job descriptions and render HTML or PDF outputs.",
+  "description": "Create tailored AWS SRE / Cloud Architecture resumes for Rajendra from job descriptions and render HTML or PDF outputs.",
   "author": {
     "name": "Rajendra PN",
     "url": "https://github.com/rajendranelakurthi"
@@ -17,8 +17,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Résumé Creator Plugin",
-    "shortDescription": "Tailor DevOps/Cloud resumes for Rajendra and export recruiter-ready output.",
-    "longDescription": "Use the packaged resume workflow to choose Rajendra, apply a tailoring level, generate updated HTML output, and export the PDF artifact for the DevOps/Cloud domain.",
+    "shortDescription": "Tailor AWS SRE / Cloud Architecture resumes for Rajendra and export recruiter-ready output.",
+    "longDescription": "Use the packaged resume workflow to choose Rajendra, apply a tailoring level, generate updated HTML output, and export the PDF artifact for the AWS SRE / Cloud Architecture domain.",
     "developerName": "Rajendra PN",
     "category": "Productivity",
     "capabilities": [
@@ -26,9 +26,9 @@
     ],
     "websiteURL": "https://github.com/rajendranelakurthi/build-resume-bot",
     "defaultPrompt": [
-      "Create an Aggressive devops-cloud resume for Rajendra using this JD.",
-      "Create a Tailored devops-cloud resume for Rajendra for this role.",
-      "Generate HTML and PDF output for this DevOps/Cloud resume request."
+      "Create an Aggressive aws-sre resume for Rajendra using this JD.",
+      "Create a Tailored aws-sre resume for Rajendra for this role.",
+      "Generate HTML and PDF output for this AWS SRE / Cloud Architecture resume request."
     ],
     "brandColor": "#174A8B"
   }

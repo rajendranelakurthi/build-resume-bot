@@ -1,13 +1,13 @@
 # Résumé Creator Plugin Install Guide
 
-This plugin creates tailored DevOps / Cloud resumes for Rajendra and exports recruiter-ready HTML and PDF output.
+This plugin creates tailored AWS SRE / Cloud Architecture resumes for Rajendra and exports recruiter-ready HTML and PDF output.
 
 ## Inputs Supported
 
 - `person`
   - `Rajendra`
 - `domain`
-  - `devops-cloud`
+  - `aws-sre`
 - `level`
   - `Base`
   - `Tailored`
@@ -87,17 +87,17 @@ You can also run the plugin directly without waiting for Codex discovery:
 ```powershell
 python C:\path\to\resume-creator-plugin\scripts\run_resume_request.py `
   --person Rajendra `
-  --domain devops-cloud `
+  --domain aws-sre `
   --level Aggressive `
   --jd-file C:\temp\jd.txt
 ```
 
-Example for DevOps / Cloud:
+Example for AWS SRE / Cloud Architecture:
 
 ```powershell
 python C:\path\to\resume-creator-plugin\scripts\run_resume_request.py `
   --person Rajendra `
-  --domain devops-cloud `
+  --domain aws-sre `
   --level Tailored `
   --jd-file C:\temp\jd.txt
 ```
@@ -111,3 +111,7 @@ The runner writes:
 - JSON manifest with output paths
 
 The PDF path is the primary artifact.
+
+## AWS SRE defaults on this branch
+
+The domain defaults to `aws-sre` when omitted. `devops-cloud` remains a compatibility alias. Use `--level Base` without a JD to render the synchronized AWS SRE source. For other levels provide `--jd-text` or `--jd-file`. On this Mac, use Python 3.12.

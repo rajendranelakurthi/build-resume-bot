@@ -1,4 +1,4 @@
-# Multi-Person Resume Agents
+# AWS SRE Resume Agents
 
 Repository foundation for managing resume content for multiple people and rendering each resume into a shared HTML layout.
 
@@ -8,20 +8,20 @@ Repository foundation for managing resume content for multiple people and render
 2. Switch to the plugin branch:
 
 ```bash
-git switch plug-in
+git switch feature/rajendrapn-aws-sre
 ```
 
 3. Install the resume creator plugin:
 
 ```bash
-bash ai_resume/plugins/resume-creator-plugin/scripts/install_plugin.sh
+bash plugins/resume-creator-plugin/scripts/install_plugin.sh
 ```
 
 4. Restart the IDE so Codex can load the installed plugin.
 5. In Codex, use this command format:
 
 ```text
-Use the Résumé Creator Plugin to create an Aggressive devops-cloud resume for Rajendra using this JD: <provide JD>
+Use the Résumé Creator Plugin to create an Aggressive aws-sre resume for Rajendra using this JD: <provide JD>
 ```
 
 ## What this repo does
@@ -51,7 +51,7 @@ source .venv/bin/activate
 pip install -e .
 python -m resume_agents.cli list-people
 python -m resume_agents.cli render-html --person rajendra-prasad-n --output examples/rajendra-prasad-n.html
-python -m resume_agents.cli request --person rajendra-prasad-n --message "Tailor my resume for a lead platform engineering role"
+python -m resume_agents.cli request --person rajendra-prasad-n --message "Tailor my resume for a senior AWS SRE role"
 ```
 
 ## Current base format
@@ -71,3 +71,13 @@ The renderer is built around the HTML/CSS structure you provided:
 2. Plug in an LLM planner to rewrite summaries and bullets from user prompts.
 3. Add multiple visual templates if you want different resume styles per customer.
 4. Add a small web app so users can request role-specific resume variants.
+
+## AWS SRE default
+
+The repository and bundled plugin use the same AWS SRE base profile. The default domain is `aws-sre`; `devops-cloud` remains a compatibility alias. Use Python 3.12 on this Mac.
+
+```bash
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py --person Rajendra --level Base
+```
+
+See [AWS SRE role guide](docs/aws-sre-role-guide.md) for researched responsibilities, AWS references, and qualification validation. Historical tailored outputs and the explicit Azure DataOps variant remain separate from the default.

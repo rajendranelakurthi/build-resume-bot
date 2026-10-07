@@ -1,8 +1,8 @@
 {
   "person_id": "rajendra-prasad-n",
-  "page_title": "Rajendra Prasad N - Lead DevOps Engineer",
+  "page_title": "Rajendra Prasad N - Lead AWS Site Reliability Engineer",
   "full_name": "Rajendra Prasad N",
-  "headline": "Lead DevOps Engineer | Multi-Cloud",
+  "headline": "Lead AWS Site Reliability Engineer | Cloud Architecture & Resiliency",
   "location": "Dallas, TX",
   "email": "rajendran.scm@gmail.com",
   "contact_lines_html": [
@@ -12,62 +12,79 @@
     "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
     "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
   ],
-  "summary_html": "<strong>Lead DevOps Engineer with 10+ years of experience in cloud platforms, CI/CD automation, and production release delivery, with a focus on Azure engineering</strong>. Partners with development, QA, and data engineering teams to automate application and database releases. Combines <strong>Azure DevOps, GitHub Actions, Liquibase, Snowflake, Terraform, PowerShell, Python, and Bash</strong> with Azure infrastructure, container delivery, secure access, and operational troubleshooting. Builds version-controlled deployment processes with review gates, environment configuration, verification, and recovery planning.",
+  "summary_html": "<strong>Lead AWS Site Reliability Engineer with 10+ years of cloud infrastructure, automation, production delivery, and troubleshooting experience</strong>. Combines senior engineering ownership with <strong>AWS resiliency, multi-region architecture, high availability, failover, and disaster recovery</strong>. Uses <strong>Terraform, CloudFormation (YAML), Python, and Linux</strong> to build repeatable infrastructure and maintain operational automation. AWS focus spans EC2, ECS, Lambda, Route 53, load balancers, SQS, S3, EFS, and RDS. Partners with application and platform teams on architecture reviews, incident diagnosis, observability, release safeguards, and recovery planning.",
   "certification_badges_image": "assets/rajendra-certifications.svg",
   "certification_badges_alt": "Rajendra Prasad N certification badges",
   "skills": [
-    "Azure",
-    "Azure DevOps",
-    "GitHub Actions",
-    "Liquibase",
-    "Snowflake",
+    "AWS",
+    "Site Reliability Engineering",
+    "Cloud Architecture",
+    "Multi-Region Architecture",
+    "High Availability",
+    "Disaster Recovery",
+    "Failover",
     "Terraform",
-    "PowerShell",
+    "CloudFormation",
+    "YAML",
     "Python",
-    "Bash",
-    "AKS",
-    "Docker",
+    "Linux",
+    "EC2",
+    "ECS",
+    "Lambda",
+    "Route 53",
+    "ALB",
+    "NLB",
+    "SQS",
+    "S3",
+    "EFS",
+    "RDS",
+    "CloudWatch",
     "Kubernetes",
-    "AWS"
+    "Prometheus",
+    "Grafana"
   ],
   "achievements": [
     {
-      "tag": "Database Delivery",
-      "text": "Integrated version-controlled database changes with application releases, validation gates, deployment evidence, and recovery procedures."
+      "tag": "AWS Architecture",
+      "text": "Aligns cloud infrastructure, application dependencies, and recovery planning for resilient AWS services."
     },
     {
-      "tag": "GitHub Automation",
-      "text": "Standardized reusable workflows, pull request checks, branching practices, and controlled promotion across development, QA, and production."
+      "tag": "Infrastructure Automation",
+      "text": "Builds reusable infrastructure and Python automation to improve deployment consistency and reduce repetitive operational work."
     },
     {
-      "tag": "Azure & DataOps",
-      "text": "Connected Azure provisioning, cloud data-platform delivery, and operational monitoring to improve release consistency and developer productivity."
+      "tag": "Production Reliability",
+      "text": "Connects monitoring, incident troubleshooting, release validation, and recovery procedures across engineering teams."
     }
   ],
   "skill_sections": [
     {
-      "title": "Database Change Management",
-      "content": "Liquibase, changelogs, changesets, SQL, schema versioning, validation, deployment history, rollback scripts"
+      "title": "AWS Compute & Containers",
+      "content": "EC2, Auto Scaling, ECS, Lambda, Docker, Kubernetes, EKS, Helm"
     },
     {
-      "title": "Snowflake & Data Platforms",
-      "content": "Snowflake, databases, schemas, virtual warehouses, RBAC, SQL deployment, query history, resource monitors; Azure SQL Database, PostgreSQL, MySQL"
+      "title": "Resiliency & Cloud Architecture",
+      "content": "Multi-AZ and multi-region architecture, high availability, failover, disaster recovery, recovery planning, fault isolation"
     },
     {
-      "title": "GitHub & CI/CD",
-      "content": "GitHub repositories, GitHub Actions, pull requests, branch protection, merge strategies, reusable workflows, Jenkins, Azure DevOps"
+      "title": "Networking & Traffic Management",
+      "content": "VPC, subnets, security groups, Route 53, DNS, Application Load Balancer (ALB), Network Load Balancer (NLB)"
     },
     {
-      "title": "Cloud & Infrastructure as Code",
-      "content": "Azure, Terraform, ARM templates, Ansible, virtual networks, Azure Key Vault, Microsoft Entra ID, RBAC; additional cloud experience: AWS"
+      "title": "Storage, Databases & Messaging",
+      "content": "S3, EFS, RDS, SQS, PostgreSQL, MySQL, asynchronous processing, backup and recovery"
     },
     {
-      "title": "Scripting & Containers",
-      "content": "PowerShell, Python, Bash, Azure CLI, Linux, Docker, Kubernetes, AKS, Azure Container Registry, Helm, ArgoCD"
+      "title": "Infrastructure & Resiliency Automation",
+      "content": "Terraform, CloudFormation (YAML), Python, Bash, Ansible, reusable modules, configuration validation"
     },
     {
-      "title": "Release Quality & Operations",
-      "content": "DataOps, integration testing, deployment approvals, artifact management, SonarQube, Azure Monitor, Log Analytics, Prometheus, Grafana, Splunk"
+      "title": "Observability & Production Operations",
+      "content": "CloudWatch, Prometheus, Grafana, Splunk, ELK, incident response, root-cause analysis, operational runbooks"
+    },
+    {
+      "title": "Secure & Reliable Delivery",
+      "content": "GitHub Actions, GitLab CI, Jenkins, IAM, least privilege, secrets management, deployment approvals, rollback, artifact validation"
     }
   ],
   "experience": [
@@ -76,26 +93,23 @@
       "company": "AT&T Services Inc.",
       "date_range": "08/2023 - Present",
       "skills_used": [
-        "Azure",
-        "Azure DevOps",
-        "GitHub Actions",
-        "Liquibase",
-        "Snowflake",
+        "AWS",
         "Terraform",
-        "AKS",
-        "Key Vault",
-        "PowerShell"
+        "Python",
+        "Jenkins",
+        "GitHub Actions",
+        "Linux",
+        "Disaster Recovery"
       ],
       "impact": [
-        "Owned CI/CD delivery for SaaS application and database releases, coordinating development, QA, and data engineering requirements, dependencies, release windows, and production verification.",
-        "Built reusable GitHub Actions and Azure DevOps workflows for application builds and Liquibase deployments, using pull request checks, environment approvals, and versioned release artifacts.",
-        "Managed Liquibase changelogs and ordered changesets in Git, validating syntax and reviewing generated SQL before promoting schema changes through development, QA, and production.",
-        "Automated Snowflake SQL deployments for databases, schemas, tables, views, and grants, separating environment configuration from version-controlled migration logic.",
-        "Configured Snowflake roles and warehouse settings, using least-privilege deployment access, auto-suspend, resource monitors, and query history to support secure and efficient operations.",
-        "Established GitHub repository conventions, branch protections, required reviews, and merge controls so application and database changes remained traceable to approved pull requests.",
-        "Developed Python, Bash, and PowerShell automation for pre-deployment checks, database connectivity validation, deployment summaries, and post-release smoke tests.",
-        "Provisioned Azure virtual networks, compute, and AKS infrastructure with Terraform; integrated Key Vault and federated pipeline authentication and published Docker images to Azure Container Registry.",
-        "Troubleshot failed migrations, Snowflake permissions, and pipeline failures using deployment logs and Azure Monitor; coordinated recovery with application owners and preserved release evidence."
+        "Built AWS delivery pipelines with Jenkins and GitHub Actions, incorporating validation, approvals, release artifacts, and recovery procedures.",
+        "Supported resiliency and operational troubleshooting for distributed REST services and application dependencies.",
+        "Automated disaster recovery procedures for multi-region AWS environments, considering recovery time and recovery point objectives.",
+        "Developed Python and Bash automation for infrastructure provisioning, operational checks, and release support.",
+        "Integrated automated testing, code quality checks, and security scanning into controlled release workflows.",
+        "Supported event-driven service delivery and messaging dependencies across application and infrastructure teams.",
+        "Coordinated database releases with application deployment, validation, and recovery planning.",
+        "Led incident troubleshooting with development and operations teams, documenting findings and service recovery actions."
       ]
     },
     {
@@ -103,20 +117,19 @@
       "company": "GlobalLogic",
       "date_range": "03/2023 - 08/2023",
       "skills_used": [
-        "Azure",
-        "Snowflake",
-        "Liquibase",
-        "GitHub",
-        "GitLab CI",
-        "Jenkins",
+        "Linux",
         "Docker",
-        "Kubernetes"
+        "Kubernetes",
+        "Jenkins",
+        "GitLab CI"
       ],
       "impact": [
-        "Partnered with developers and QA on Azure-hosted application delivery, standardizing build-agent configuration, reusable pipeline stages, environment settings, and release checks.",
-        "Managed Liquibase changelogs in Git and automated Snowflake schema deployments through reviewed pipeline stages, separating development, QA, and production configuration.",
-        "Migrated Jenkins pipelines to GitLab CI and supported GitHub integration patterns for source review, automated validation, and release traceability.",
-        "Troubleshot Liquibase validation errors, Snowflake role permissions, and SQL deployment failures alongside Docker, Kubernetes, and runner issues with engineering teams."
+        "Operated Linux build agents and supported scaling, availability, and troubleshooting for shared delivery infrastructure.",
+        "Partnered with developers and QA on release validation, branch protection, and container image checks.",
+        "Supported Kubernetes workloads, deployment health checks, and troubleshooting of application and networking issues.",
+        "Migrated Jenkins workflows to GitLab CI, standardizing reusable stages and release controls.",
+        "Improved consistency of Docker builds and environment configuration across staging and production.",
+        "Investigated pipeline, container, and Linux host failures with engineering teams."
       ]
     },
     {
@@ -124,20 +137,20 @@
       "company": "Akamai Technologies",
       "date_range": "12/2021 - 03/2023",
       "skills_used": [
-        "Azure",
-        "Snowflake",
-        "Liquibase",
-        "GitHub Actions",
+        "AWS",
         "Terraform",
-        "AKS",
-        "Python"
+        "CloudFormation",
+        "CloudWatch",
+        "Python",
+        "Prometheus"
       ],
       "impact": [
-        "Built GitHub Actions and Jenkins pipelines for application and database releases, coordinating schema updates with service rollout and post-deployment validation.",
-        "Integrated Liquibase validation and update stages for Snowflake schema changes, maintaining migration history, explicit rollback scripts, and reviewed environment promotion.",
-        "Provisioned Azure infrastructure through Terraform and ARM templates and deployed containerized services to AKS with Helm and ArgoCD.",
-        "Automated release checks and operational tasks using Python, Bash, and PowerShell; published versioned artifacts for repeatable downstream deployment.",
-        "Used Azure Monitor, Log Analytics, and pipeline telemetry to investigate slow deployments, infrastructure failures, and application connectivity issues with development teams."
+        "Supported AWS backup and disaster recovery workflows, documenting restoration steps and operational dependencies.",
+        "Provisioned AWS infrastructure with Terraform and CloudFormation, including VPC networks, ALB routing, and Multi-AZ application environments.",
+        "Built Jenkins and GitHub Actions pipelines for repeatable application and infrastructure deployment.",
+        "Developed Python and Bash automation for environment validation and operational support.",
+        "Used CloudWatch and Prometheus telemetry to investigate performance and service health issues.",
+        "Maintained versioned artifacts and controlled database migration workflows for consistent environment promotion."
       ]
     },
     {
@@ -145,23 +158,21 @@
       "company": "Turvo India Pvt Ltd",
       "date_range": "04/2020 - 12/2021",
       "skills_used": [
-        "Azure",
-        "Snowflake",
-        "Liquibase",
-        "GitHub Actions",
-        "Jenkins",
-        "Python",
-        "JFrog",
+        "AWS",
         "Terraform",
-        "AKS"
+        "Python",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "IAM"
       ],
       "impact": [
-        "Delivered CI/CD automation for SaaS services and payment-platform workloads, aligning application releases, database dependencies, and infrastructure changes.",
-        "Standardized GitHub Actions and Jenkins workflows for build, test, artifact publication, and environment promotion, integrating SonarQube and secure secrets handling.",
-        "Developed Python FastAPI integrations for Jenkins, Jira, and JFrog to automate onboarding and reduce manual coordination of release activities.",
-        "Partnered with developers and data engineers on Liquibase changesets for Snowflake tables and views, reviewing SQL, application compatibility, deployment order, and recovery plans.",
-        "Administered CloudBees Jenkins, JFrog Artifactory, and Xray, maintaining reusable shared libraries and consistent artifact versioning.",
-        "Built Terraform modules for Azure networking and AKS, standardized Helm deployments and Ansible configuration, and used Prometheus and Grafana to support incident diagnosis."
+        "Built AWS CI/CD workflows with automated tests, SonarQube checks, and secure artifact promotion.",
+        "Supported reliability and scalability of logistics services and asynchronous application integrations.",
+        "Developed Python FastAPI integrations for Jenkins, Jira, and JFrog to reduce manual release coordination.",
+        "Maintained IAM access controls and secure deployment practices across AWS environments.",
+        "Developed Python-based Prometheus exporters and used Grafana dashboards to improve operational visibility.",
+        "Delivered Terraform and Kubernetes automation for repeatable provisioning and recovery readiness."
       ]
     },
     {
@@ -170,20 +181,20 @@
       "date_range": "02/2019 - 04/2020",
       "client": "Mercedes-Benz Research & Development India",
       "skills_used": [
-        "Azure",
-        "Snowflake",
-        "Liquibase",
+        "AWS",
+        "Linux",
         "Jenkins",
-        "ARM templates",
         "Ansible",
-        "PowerShell",
-        "Helm"
+        "Helm",
+        "ELK"
       ],
       "impact": [
-        "Built Jenkins and Maven delivery pipelines for REST microservices across test, security-validation, UAT, and production environments.",
-        "Coordinated Liquibase database changes and Snowflake SQL deployments with developers and QA, documenting migration order, role requirements, environment configuration, and verification steps.",
-        "Automated Azure virtual machines, virtual networks, and Linux configuration with ARM templates, Ansible, and PowerShell; managed Key Vault integration and secure database connectivity.",
-        "Packaged Kubernetes services with Helm and used ELK, Azure Monitor, and Log Analytics to troubleshoot deployment and application failures."
+        "Supported migration of Linux application and database workloads to AWS, coordinating infrastructure and application dependencies.",
+        "Built Jenkins delivery pipelines for REST microservices across testing, UAT, and production.",
+        "Used ELK telemetry to diagnose infrastructure and application failures.",
+        "Packaged Kubernetes services with Helm and supported controlled deployment and recovery.",
+        "Automated Linux configuration with Ansible and shell scripts to improve environment consistency.",
+        "Coordinated release planning and operational handoffs with distributed engineering teams."
       ]
     },
     {
@@ -192,21 +203,18 @@
       "date_range": "08/2016 - 12/2018",
       "client": "HPE",
       "skills_used": [
-        "Azure",
-        "Snowflake",
-        "Liquibase",
-        "Git",
         "Terraform",
-        "ARM templates",
         "Ansible",
         "Python",
-        "SQL"
+        "Bash",
+        "Git",
+        "CI/CD"
       ],
       "impact": [
-        "Created repeatable build and deployment pipelines for API, database, and UI components, promoting consistent artifacts across development and production.",
-        "Maintained Git branching practices and Liquibase changelogs for Snowflake schema changes, versioning SQL and environment configuration to improve release traceability.",
-        "Automated Azure infrastructure with Terraform and ARM templates and application deployments with Ansible, Python, and PowerShell, keeping configuration consistent across environments.",
-        "Managed build agents, release parameters, and deployment documentation, troubleshooting failed releases with development and operations teams."
+        "Created repeatable pipelines for API, database, and UI releases across development and production.",
+        "Maintained Git branching, reviewed infrastructure changes, and versioned deployment configuration.",
+        "Automated provisioning and deployment checks with Terraform, Ansible, Python, and Bash.",
+        "Troubleshot build-agent and release failures and documented deployment and recovery procedures."
       ]
     }
   ],
@@ -217,16 +225,18 @@
     }
   ],
   "certifications": [
+    "AWS Certified Solutions Architect - Associate",
     "GitLab Certified Associate",
     "Microsoft Certified: Azure Fundamentals",
     "Microsoft Certified: Azure DevOps Engineer Expert",
-    "AWS Certified Solutions Architect - Associate",
     "MuleSoft Certified Developer - Level 1"
   ],
   "notes": [
-    "Contact: rajendran.scm@gmail.com.",
-    "Keep header Lead DevOps Engineer | Multi-Cloud unless explicitly changed by user.",
-    "Azure branch: prioritize Azure services across summary, skills, and every project; do not inherit AWS-first content from other branches.",
-    "User requested Aggressive tailoring with Liquibase and Snowflake in every project."
-  ]
+    "Default domain: aws-sre; target Senior/Principal AWS SRE and Cloud Architecture opportunities.",
+    "Preserve contact, employer names, employment titles, dates, and education.",
+    "AWS experience wording draws on existing repository AWS resume material; generated mock profiles are not evidence.",
+    "AWS Certified Solutions Architect - Professional is a target qualification; the recorded credential remains Associate until confirmed.",
+    "Research guidance is in docs/aws-sre-role-guide.md; validate new tools, metrics, and responsibilities against candidate experience before asserting them."
+  ],
+  "achievements_title": "AWS SRE & Resiliency Highlights"
 }

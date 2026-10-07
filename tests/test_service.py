@@ -30,8 +30,8 @@ def test_tailor_request_routes_and_returns_agents() -> None:
 def test_render_html_uses_template() -> None:
     service = ResumeAgentService(Path("resume_data"))
     html = service.render_resume_html("rajendra-prasad-n")
-    assert "RAJENDRA P N" in html
-    assert "Key Platform Achievements" in html
+    assert "RAJENDRA PRASAD N" in html
+    assert "AWS SRE &amp; Resiliency Highlights" in html
 
 
 def test_render_html_supports_extended_contact_lines_and_optional_certifications() -> None:
@@ -43,31 +43,31 @@ def test_render_html_supports_extended_contact_lines_and_optional_certifications
     assert "certifications-grid" in html
     assert "GitLab Certified Associate" in html
     assert "Project:</strong>" not in html
-    assert "Skills Used:</strong> AWS, AWS CodePipeline, PowerShell" in html
-    assert "Directed end-to-end release management across multiple engineering teams by aligning schedules, dependencies, change windows, and risk mitigation plans." in html
+    assert "Skills Used:</strong> AWS, Terraform, Python" in html
+    assert "Led incident troubleshooting with development and operations teams" in html
 
 
 def test_render_html_supports_additional_sections_for_devops_resume() -> None:
     service = ResumeAgentService(Path("resume_data"))
     html = service.render_resume_html("rajendra-prasad-n")
-    assert "RAJENDRA P N" in html
-    assert "Key Platform Achievements" in html
+    assert "RAJENDRA PRASAD N" in html
+    assert "AWS SRE &amp; Resiliency Highlights" in html
     assert "Certifications" in html
     assert "Professional Experience" in html
     assert "linkedin.com/in/rajendranelakurthi" in html
 
 
-def test_rajendra_experience_sections_have_between_10_and_15_points() -> None:
+def test_rajendra_experience_preserves_distinct_role_highlights() -> None:
     service = ResumeAgentService(Path("resume_data"))
     profile = service.store.load_person("rajendra-prasad-n")
     counts = [len(job.impact) for job in profile.experience]
-    assert counts == [15, 10, 15, 15, 15, 11]
+    assert counts == [8, 6, 6, 6, 6, 4]
 
 
 def test_tailor_profile_matches_keywords() -> None:
     service = ResumeAgentService(Path("resume_data"))
     profile = service.store.load_person("rajendra-prasad-n")
-    tailored, matched = tailor_profile(profile, "Need Kubernetes Terraform Azure platform engineering leadership")
+    tailored, matched = tailor_profile(profile, "Need Kubernetes Terraform AWS SRE leadership")
     assert "terraform" in tailored.summary_html.lower()
     assert "terraform" in matched
 
@@ -86,13 +86,13 @@ def test_tailor_resume_creates_branch_commit_and_html() -> None:
         service = ResumeAgentService(repo_root / "resume_data", repo_root=repo_root)
         result = service.tailor_resume_to_jd(
             "rajendra-prasad-n",
-            "Need AKS Terraform Azure platform engineering",
+            "Need AWS Terraform resiliency engineering",
             "codex/test-jd",
             push=False,
         )
         assert result.commit_sha
         assert Path(result.output_path).exists()
-        assert "aks" in [item.lower() for item in result.matched_keywords]
+        assert "aws" in [item.lower() for item in result.matched_keywords]
 
 
 def test_branch_name_prefers_company_name() -> None:

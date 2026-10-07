@@ -1,15 +1,5 @@
-# Plugins
+# AWS SRE Resume Creator Plugin
 
-This directory is reserved for Codex plugin packaging work.
+The plugin on `feature/rajendrapn-aws-sre` defaults to AWS SRE / Cloud Architecture resumes for Rajendra. Keep its bundled profile and HTML template synchronized with the repository base. The filesystem package name remains `resume-creator-plugin` and display name remains `Résumé Creator Plugin`.
 
-Current branch intent:
-
-- use the `plug-in` branch for plugin package development
-- keep plugin manifests, packaged skills, marketplace metadata, and plugin-specific helper scripts/assets here
-- do not update this directory from `main`, `resume-creator-skill`, or `codex/devops-cloud` unless those changes are intentionally being promoted across branches
-
-Current target plugin:
-
-- package/folder name: `resume-creator-plugin`
-- user-facing display name: `Résumé Creator Plugin`
-- keep filesystem names ASCII even when the display name contains accented characters
+Use `aws-sre` as the default domain; `devops-cloud` is supported as a compatibility alias. See [installation](resume-creator-plugin/INSTALL.md), the [packaged skill](resume-creator-plugin/skills/resume-creator/SKILL.md), and the [role guide](../docs/aws-sre-role-guide.md).

@@ -22,6 +22,7 @@ def _load_module(module_name: str, filename: str):
 def test_resolve_person_id_supports_expected_domains() -> None:
     module = _load_module("run_resume_request", "run_resume_request.py")
 
+    assert module.resolve_person_id("Rajendra", "aws-sre") == "rajendra-prasad-n"
     assert module.resolve_person_id("Rajendra", "devops-cloud") == "rajendra-prasad-n"
 
 
@@ -100,3 +101,50 @@ def test_promote_profile_updates_both_bases(tmp_path: Path) -> None:
     assert primary == bundled
     assert primary["email"] == "rajendran.scm@gmail.com"
     assert primary["certification_badges_image"] == "assets/rajendra-certifications.svg"
+
+
+def test_aws_sre_defaults_and_sources_stay_synchronized() -> None:
+    import json
+    module = _load_module("run_resume_request_aws_defaults", "run_resume_request.py")
+    args = module.build_parser().parse_args(["--person", "Rajendra", "--level", "Base"])
+    assert args.domain == "aws-sre"
+    root = PLUGIN_SCRIPTS.parents[2]
+    primary = json.loads((root / "resume_data/people/rajendra-prasad-n.json").read_text())
+    bundled = json.loads((PLUGIN_SCRIPTS.parent / "assets/people/rajendra-prasad-n.json").read_text())
+    assert primary == bundled
+    assert "AWS Site Reliability Engineer" in primary["headline"]
+    assert {"EC2", "ECS", "Lambda", "Route 53", "SQS", "S3", "EFS", "RDS", "Terraform", "CloudFormation", "Python"} <= set(primary["skills"])
+    assert "AWS Certified Solutions Architect - Associate" in primary["certifications"]
+    assert not any("Professional" in cert for cert in primary["certifications"])
+    assert (root / "templates/base_resume.html").read_text() == (PLUGIN_SCRIPTS.parent / "assets/templates/base_resume.html").read_text()
+    assert (root / "docs/aws-sre-role-guide.md").read_text() == (PLUGIN_SCRIPTS.parent / "assets/aws-sre-role-guide.md").read_text()
+
+
+def test_mixed_aws_jd_keeps_sre_profile_and_supported_claims() -> None:
+    core = _load_module("plugin_core_aws_routing", "plugin_core.py")
+    assets = PLUGIN_SCRIPTS.parent / "assets"
+    profile = core.BundledJsonResumeStore(assets / "people", assets / "static").load_person("rajendra-prasad-n")
+    for jd in ("AWS SRE Liquibase Snowflake GitHub", "AWS Azure DevOps GitHub Actions Terraform", "AWS SRE GitLab Professional certification"):
+        result, _ = core.tailor_profile(profile, jd)
+        assert result.summary_html == profile.summary_html
+        assert result.headline == profile.headline
+        assert result.certifications == profile.certifications
+        assert [(j.company, j.title, j.date_range) for j in result.experience] == [(j.company, j.title, j.date_range) for j in profile.experience]
+        assert result.skills == profile.skills
+
+
+def test_base_request_renders_aws_artifacts_without_jd(tmp_path: Path) -> None:
+    import json
+    from unittest.mock import patch
+    module = _load_module("run_resume_request_base_aws", "run_resume_request.py")
+    def export_stub(html_path, pdf_path):
+        pdf_path.write_bytes(b"pdf export stub")
+    request = module.ResumeRequest("Rajendra", "aws-sre", "Base", "", tmp_path, PLUGIN_SCRIPTS.parent)
+    with patch.object(module, "export_html_to_pdf", side_effect=export_stub):
+        manifest = module.render_request(request)
+    assert manifest["domain"] == "aws-sre"
+    html = Path(manifest["html_path"]).read_text()
+    assert "AWS Site Reliability Engineer" in html
+    assert "__HEADLINE__" not in html
+    assert json.loads(Path(manifest["profile_path"]).read_text())["person_id"] == "rajendra-prasad-n"
+    assert Path(manifest["manifest_path"]).exists()

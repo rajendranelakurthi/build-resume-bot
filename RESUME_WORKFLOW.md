@@ -19,10 +19,10 @@ Primary example profile:
 
 - `C:\Data\ai_resume\resume_data\people\rajendra-prasad-n.json`
 
-Locked DevOps / Cloud base profile:
+Default AWS SRE base profile:
 
 - `C:\Data\ai_resume\resume_data\people\rajendra-prasad-n.json`
-- Use this as the default source profile for Rajendra P N DevOps / Cloud job tailoring requests.
+- Use this as the default source profile for Rajendra AWS SRE job tailoring requests.
 - Do not overwrite it with JD-specific wording; generate tailored variants from it.
 
 Primary tailored example:
@@ -210,20 +210,17 @@ This document should be updated whenever a new lesson is learned about:
 - repetition and realism
 - rendering behavior
 
-## Current DataOps base (2026-09-16)
-The user requested the Liquibase / Snowflake / GitHub Actions resume as the new base. Both repository and plugin profiles are synchronized. Preserve the exact header `Lead DevOps Engineer | Multi-Cloud` and contact `rajendran.scm@gmail.com`. The user explicitly requested Liquibase and Snowflake in every project. HTML templates continue to read the header and contact fields from the JSON profile.
+## Current AWS SRE base (2026-10-07)
 
-## Reproducible DataOps workflow
+The current branch `feature/rajendrapn-aws-sre` is dedicated to AWS SRE / Cloud Architecture. Default sources are `resume_data/people/rajendra-prasad-n.json` and `plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json`; keep them synchronized. The default header is `Lead AWS Site Reliability Engineer | Cloud Architecture & Resiliency` and contact remains `rajendran.scm@gmail.com`.
 
-Resume logic belongs in the packaged plugin, not `tmp/`:
-- `scripts/plugin_core.py` routes Liquibase + Snowflake + GitHub JDs to `assets/variants/rajendra-azure-dataops.json` before the general Azure route.
-- `scripts/run_resume_request.py` writes structured profile JSON, HTML, PDF, and manifest through the normal CLI. The print layout lives in both `base_resume.html` templates.
-- After explicit approval to promote a resume, run `python3 plugins/resume-creator-plugin/scripts/update_base_profile.py --profile <approved.profile.json>` to synchronize both base profiles.
-- Temporary folders contain only disposable rendering/QA artifacts; do not keep resume builders there.
+Use the [AWS SRE role guide](docs/aws-sre-role-guide.md) for researched responsibilities and qualification handling. Previous Azure/DataOps base policies are superseded on this branch. The Azure variant and historical tailored outputs are retained for explicit reuse.
 
-Use Python 3.12 on this Mac (`python3` points to Python 3.9, which does not support the plugin's slotted dataclasses). Example:
+Use Python 3.12 on this Mac. Canonical generation:
 
 ```bash
-python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py --person Rajendra --domain devops-cloud --level Aggressive --jd-file inputs/job-description.txt --output-dir tailored_resume/rajendra-prasad-n
-python3.12 plugins/resume-creator-plugin/scripts/update_base_profile.py --profile tailored_resume/rajendra-prasad-n/approved.profile.json
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py --person Rajendra --level Base
+python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py --person Rajendra --domain aws-sre --level Tailored --jd-file inputs/job-description.txt
 ```
+
+The packaged CLI writes profile JSON, HTML, PDF, and manifest to `tailored_resume/rajendra-prasad-n/`. Promote approved profile changes with `scripts/update_base_profile.py`; regenerate the base example after promotion. Keep changes on the current branch and leave them uncommitted for the user.

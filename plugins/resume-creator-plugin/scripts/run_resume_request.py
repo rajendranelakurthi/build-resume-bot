@@ -29,6 +29,7 @@ def resolve_person_id(person: str, domain: str) -> str:
     normalized_person = person.strip().lower()
     normalized_domain = domain.strip().lower()
     mapping = {
+        ("rajendra", "aws-sre"): "rajendra-prasad-n",
         ("rajendra", "devops-cloud"): "rajendra-prasad-n",
     }
     try:
@@ -104,7 +105,7 @@ def render_request(request: ResumeRequest) -> dict[str, object]:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Generate HTML and PDF resume artifacts from plugin-style inputs.")
     parser.add_argument("--person", required=True, help="Person name, for example Rajendra")
-    parser.add_argument("--domain", required=True, choices=["devops-cloud"], help="Resume domain routing key")
+    parser.add_argument("--domain", default="aws-sre", choices=["aws-sre", "devops-cloud"], help="Resume domain routing key")
     parser.add_argument("--level", default="Tailored", help="Tailoring level: Base, Tailored, Optimized, or Aggressive")
     parser.add_argument("--jd-text", help="Raw job description text")
     parser.add_argument("--jd-file", help="Path to a text file containing the job description")
@@ -130,12 +131,15 @@ def resolve_jd_text(raw_text: str | None, jd_file: str | None) -> str:
 
 
 def main() -> None:
-    args = build_parser().parse_args()
+    parser = build_parser()
+    args = parser.parse_args()
+    if normalize_level(args.level) != "Base" and not (args.jd_text or args.jd_file):
+        parser.error("Provide --jd-text or --jd-file for tailoring.")
     request = ResumeRequest(
         person=args.person,
         domain=args.domain,
         level=args.level,
-        jd=resolve_jd_text(args.jd_text, args.jd_file),
+        jd=resolve_jd_text(args.jd_text, args.jd_file) if (args.jd_text or args.jd_file) else "",
         output_dir=Path(args.output_dir),
         plugin_root=Path(args.plugin_root),
     )

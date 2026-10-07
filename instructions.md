@@ -26,7 +26,7 @@ Current branch roles:
   - should contain plugin manifests, packaged skills/apps, marketplace metadata, and any helper assets/scripts needed for plugin distribution
   - should not be used for general resume tailoring or generic skill-authoring changes unless those changes are required by the plugin package itself
   - current target plugin package name: `resume-creator-plugin`
-  - plugin requests should support the `devops-cloud` domain input
+  - plugin requests default to `aws-sre` and support `devops-cloud` as a compatibility alias
   - current target plugin display name: `Résumé Creator Plugin`
 
 - `codex/devops-cloud`
@@ -137,7 +137,7 @@ If the user does not name a level:
 5. run tests when code or rendering behavior changes
 6. keep branch-specific behavior recorded in that branch’s `instructions.md`
 7. whenever new resume points are created, research realistic production-style patterns before writing them
-8. create a local git commit whenever changes are made
+8. leave changes uncommitted for the user on this branch
 9. ask for user permission before any `git push`
 
 ## Repo Rules
@@ -163,18 +163,20 @@ If the user does not name a level:
 
 ## Git Workflow Rules
 
-- whenever changes are made, create a local git commit
+- on this branch, leave changes uncommitted for the user
 - before any `git push`, stop and ask the user for permission
 - take responsibility for keeping `main` updated with shared changes
 - take responsibility for updating the corresponding specialized branches locally after `main` changes
 
-## Persistent Rajendra preferences (2026-09-16)
-- Contact email: **rajendran.scm@gmail.com**, in both email and contact_lines_html.
-- Header: **Lead DevOps Engineer | Multi-Cloud**. Do not change designation or add tool names based on a JD; only an explicit user request can change it.
-- The reusable DataOps base is synchronized between resume_data/people/rajendra-prasad-n.json and plugins/resume-creator-plugin/assets/people/rajendra-prasad-n.json.
-- The user requested Liquibase and Snowflake in every project in the current Aggressive DataOps base.
-- The user will commit changes; leave this work uncommitted.
+## Current branch preferences (2026-10-07)
 
-- On `feature/rajendrapn-azure`, use the Multi-Cloud header above and Azure-focused content throughout. Keep **Lead DevOps Engineer** as the designation; do not carry over the AWS/SaaS header from another branch.
-
-- Azure-branch content must emphasize Azure in the summary, skill ordering, infrastructure, containers, monitoring, and all project technology lists. Preserve AWS certification and broader AWS skills, but do not make projects AWS-first.
+- This branch is dedicated to AWS SRE / Cloud Architecture; perform this migration on the current branch only.
+- Default domain: `aws-sre`; `devops-cloud` remains a compatibility alias.
+- Default header: **Lead AWS Site Reliability Engineer | Cloud Architecture & Resiliency**.
+- Contact: **rajendran.scm@gmail.com** in both profile sources.
+- Synchronize the repository and bundled plugin JSON profiles and HTML templates.
+- AWS resiliency, multi-region architecture, Terraform, CloudFormation YAML, Python, incident troubleshooting, high availability, failover, and disaster recovery are the default emphasis.
+- Use `docs/aws-sre-role-guide.md` for researched additional responsibilities. Do not assert unconfirmed credentials or job-specific experience; preserve actual employment titles and dates.
+- AWS Solutions Architect – Professional is a target qualification; retain the recorded Associate credential until confirmed.
+- Prior Azure/DataOps defaults and requirements for Liquibase/Snowflake in every project are superseded on this branch. Preserve explicit variants and historical outputs.
+- The user will commit changes; leave this work uncommitted and do not push.
