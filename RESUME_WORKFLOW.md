@@ -6,6 +6,19 @@ On `feature/rajendrapn-azure`, the current user instruction overrides historical
 Use the Résumé Creator Plugin to create an Aggressive Azure-devops resume for Rajendra using this JD: <provide JD>
 ```
 
+## Required branch and request check
+
+Before every resume task, including follow-up edits:
+
+1. Run `git branch --show-current` and read the current checkout's `instructions.md`, README command, and packaged resume-creator skill.
+2. Read the user's current command for person, domain, and tailoring level. Do not infer the domain from prior conversation.
+3. Apply current explicit user instructions first, then the active branch's rules. Reuse earlier preferences only when their branch/domain scope matches the current task. A branch switch requires re-reading these rules.
+4. On `feature/rajendrapn-azure` with `Azure-devops`, use header `Lead Azure DevOps Engineer | AI | K8s` and latest AT&T title `Lead Azure DevOps Engineer`. Do not import the AWS branch's `Lead SRE` designation.
+5. Before rendering and again before delivery, verify that the selected profile, header, latest AT&T designation, domain, and output manifest agree with the active branch and current command.
+6. If the command conflicts with the active branch's supported domain, identify the mismatch before changing defaults or switching branches. Do not silently reuse another branch's profile or designation.
+
+This check applies to Base, Tailored, Optimized, and Aggressive. A designation described as "standard" is scoped to its branch/domain unless the user explicitly makes it global. Never modify another branch to enforce a current branch's preference.
+
 # Resume Workflow Playbook
 
 This file is the working memory for resume generation, resume tailoring, HTML rendering, and recruiter-style review in this repository.

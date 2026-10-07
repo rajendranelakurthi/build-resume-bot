@@ -1,0 +1,8 @@
+Senior Kubernetes Engineer - AKS Platform Architecture
+Role 1: Kubernetes Engineer
+Engineer and continuously improve AKS and GKE platforms aligned with the Cloud Platform roadmap. Drive architecture, security, observability, resource optimization, production operations, automation and governance.
+Responsibilities: AKS/GKE platform enhancements; image scanning with Prisma Twistlock; monitoring/alerting with Dynatrace; resource tuning and cost efficiency; Level 3 incident support; POCs and emerging capability evaluations; Kubernetes standards and architectural patterns; Microsoft Azure and Google GCP vendor engagement.
+Required: enterprise Kubernetes design and operations; AKS and/or GKE; Azure and/or GCP architecture; Kubernetes security, logging, certificates, observability, incident troubleshooting; communication and stakeholder management.
+Preferred: stability improvements, resource optimization, technical POCs, cloud vendor support; AKS/GKE certifications and 5+ years relevant experience preferred, not mandatory.
+Candidate emphasis requested: end-to-end AKS/Kubernetes roles; GPU nodes for AI applications; Milvus and Qdrant vector databases; FastAPI and REST microservices deployment/administration; AKS control-plane, node-pool and node-image upgrade planning.
+Confirmed scope: AKS experience only. GKE, Prisma/Twistlock, Dynatrace and Azure/GCP vendor relationships remain evaluation targets.

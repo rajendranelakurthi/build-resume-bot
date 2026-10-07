@@ -1,0 +1,24 @@
+Architect, engineer, and support AKS and GKE platform enhancements and new capabilities aligned with the Cloud Platform product roadmap.
+Lead and support security improvements, including container/image scanning (Prisma Twistlock).
+Enhance monitoring and alerting capabilities (Dynatrace).
+Drive resource optimization initiatives to improve platform stability, performance, and cost efficiency.
+Provide Level 3 (L3) support during incident management and major production issues.
+Perform proofs of concept (POCs) and technical evaluations for emerging tools, platforms, and cloud-native capabilities.
+Partner with internal teams to define best practices, standards, and architectural patterns for Kubernetes platform services.
+Manage and coordinate vendor relationships with Microsoft Azure and Google GCP.
+Contribute to platform governance, reliability, automation, and continuous improvement efforts across Kubernetes environments.
+
+Required Qualifications:
+Strong experience designing, engineering, and supporting enterprise Kubernetes platforms.
+Hands-on experience with AKS and/or GKE.
+Experience with cloud platform architecture in Azure and/or Google Cloud Platform.
+Knowledge of Kubernetes security, observability, logging, certificate management, and production operations.
+Experience supporting enterprise incidents and troubleshooting complex platform issues.
+Strong communication, collaboration, and stakeholder management skills.
+
+Preferred Qualifications:
+Experience with resource tuning, platform stability improvements, and cloud cost optimization.
+Experience leading technical evaluations and POCs for new technologies.
+Experience working directly with cloud vendors and enterprise support teams.
+AKS and GKE certifications preferred, but not required.
+At least 5 years of relevant experience preferred, but not required.

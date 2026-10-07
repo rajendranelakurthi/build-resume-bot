@@ -2,6 +2,19 @@
 
 This file records the operating rules for this repository so future resume work stays consistent.
 
+## Required branch and request check
+
+Before every resume task, including follow-up edits:
+
+1. Run `git branch --show-current` and read the current checkout's `instructions.md`, README command, and packaged resume-creator skill.
+2. Read the user's current command for person, domain, and tailoring level. Do not infer the domain from prior conversation.
+3. Apply current explicit user instructions first, then the active branch's rules. Reuse earlier preferences only when their branch/domain scope matches the current task. A branch switch requires re-reading these rules.
+4. On `feature/rajendrapn-azure` with `Azure-devops`, use header `Lead Azure DevOps Engineer | AI | K8s` and latest AT&T title `Lead Azure DevOps Engineer`. Do not import the AWS branch's `Lead SRE` designation.
+5. Before rendering and again before delivery, verify that the selected profile, header, latest AT&T designation, domain, and output manifest agree with the active branch and current command.
+6. If the command conflicts with the active branch's supported domain, identify the mismatch before changing defaults or switching branches. Do not silently reuse another branch's profile or designation.
+
+This check applies to Base, Tailored, Optimized, and Aggressive. A designation described as "standard" is scoped to its branch/domain unless the user explicitly makes it global. Never modify another branch to enforce a current branch's preference.
+
 ## Branch Model
 
 - `main` is the source of truth for all shared code, templates, tests, stable resume data, and generated outputs that are intended to be reused.
@@ -170,12 +183,20 @@ If the user does not name a level:
 
 ## Persistent Rajendra preferences (updated 2026-09-30)
 - Display name in every future resume and template-generated output: **Rajendra P N**. Retain internal person ID for compatibility.
-- Azure resume header: **Lead Azure DevOps Engineer | AI | Android/iOS**.
+- Azure resume header: **Lead Azure DevOps Engineer | AI | K8s**.
 - Keep **10+ years** experience wording.
-- On the Azure branch, focus exclusively on deep Azure DevOps and Android/iOS mobile delivery. Omit multi-cloud wording, AWS technologies, and AWS certification from the displayed resume.
+- On the Azure branch, focus exclusively on deep Azure DevOps and Kubernetes platform engineering. Omit multi-cloud wording, AWS technologies, and AWS certification from the displayed resume.
 - Emphasize Bitrise builds, signing, provisioning, packaging, Google Play and App Store publishing, and embedded software build/release workflows. Bitrise belongs under the latest three employers per user instruction.
 - Keep AI usage modest and tied to reviewed, tested automation and documentation.
 - Synchronize reusable profile data in resume_data/people and plugin assets/people. Templates render the display name from full_name; do not hardcode another name.
 - The user will commit changes; leave this work uncommitted.
 
 - Every employer/project must contain at least nine distinct, substantive experience bullets in the standard base and all future resumes; preserve the requested domain focus and avoid repetitive filler.
+
+## Current Kubernetes request (2026-10-07)
+
+- Latest AT&T designation on this Azure branch is `Lead Azure DevOps Engineer`. AWS SRE designation rules are scoped to the AWS SRE branch.
+- Use the separate `rajendra-aks-kubernetes.json` variant for the AKS role; the branch default uses Kubernetes-focused content.
+- The user requested AKS, GPU nodes, Milvus/Qdrant, FastAPI/microservices and upgrade planning. GKE, Prisma/Twistlock, Dynatrace and vendor engagement remain evaluation targets per the user.
+
+- Kubernetes profile clarification: show GKE as platform knowledge in skills only; do not claim GKE work experience.

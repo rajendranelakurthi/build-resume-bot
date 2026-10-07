@@ -23,6 +23,7 @@ class ResumeRequest:
     jd: str
     output_dir: Path
     plugin_root: Path
+    profile_file: Path | None = None
 
 
 def normalize_domain(domain: str) -> str:
@@ -68,7 +69,13 @@ def render_request(request: ResumeRequest) -> dict[str, object]:
     person_id = resolve_person_id(request.person, domain)
     level = normalize_level(request.level)
 
-    profile = store.load_person(person_id)
+    if request.profile_file is not None:
+        source = request.profile_file.resolve()
+        profile = BundledJsonResumeStore(source.parent, assets_root / "static").load_person(source.stem)
+        if profile.person_id != person_id:
+            raise ValueError("Selected profile does not match requested person.")
+    else:
+        profile = store.load_person(person_id)
     matched_keywords: list[str] = []
     if level == "Base":
         output_profile = profile
@@ -93,6 +100,7 @@ def render_request(request: ResumeRequest) -> dict[str, object]:
         "person_id": person_id,
         "domain": domain,
         "level": level,
+        "source_profile": str(request.profile_file.resolve()) if request.profile_file else str(assets_root / "people" / f"{person_id}.json"),
         "matched_keywords": matched_keywords,
         "profile_path": str(profile_path),
         "html_path": str(html_path),
@@ -108,6 +116,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--person", required=True, help="Person name, for example Rajendra")
     parser.add_argument("--domain", required=True, type=normalize_domain, choices=["azure-devops"], help="Azure DevOps domain (legacy devops-cloud is an alias)")
     parser.add_argument("--level", default="Tailored", help="Tailoring level: Base, Tailored, Optimized, or Aggressive")
+    parser.add_argument("--profile-file", type=Path, help="Optional JD-specific structured profile; leaves the bundled default unchanged")
     parser.add_argument("--jd-text", help="Raw job description text")
     parser.add_argument("--jd-file", help="Path to a text file containing the job description")
     parser.add_argument(
@@ -140,6 +149,7 @@ def main() -> None:
         jd=resolve_jd_text(args.jd_text, args.jd_file),
         output_dir=Path(args.output_dir),
         plugin_root=Path(args.plugin_root),
+        profile_file=args.profile_file,
     )
     manifest = render_request(request)
     print(json.dumps(manifest, indent=2))
