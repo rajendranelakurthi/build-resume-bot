@@ -1,0 +1,23 @@
+{
+  "person": "Rajendra",
+  "person_id": "rajendra-prasad-n",
+  "domain": "aws-devops",
+  "level": "Aggressive",
+  "matched_keywords": [
+    "devops",
+    "sre",
+    "platform",
+    "cloud",
+    "production",
+    "terraform",
+    "modules",
+    "remote",
+    "state",
+    "workspaces"
+  ],
+  "paths_relative_to": "invocation_directory",
+  "profile_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-SRE-Terraform.profile.json",
+  "html_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-SRE-Terraform.html",
+  "pdf_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-SRE-Terraform.pdf",
+  "manifest_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-SRE-Terraform.json"
+}
