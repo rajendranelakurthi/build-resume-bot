@@ -1,0 +1,299 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "page_title": "Rajendra P N - Azure DevOps Lead",
+  "full_name": "Rajendra P N",
+  "headline": "Lead Azure DevOps Engineer | CI/CD | AI | K8s",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "<strong>Lead Azure DevOps Engineer with 10+ years of enterprise infrastructure, CI/CD automation, Kubernetes platform engineering, and production operations experience.</strong> Leads <strong>Azure delivery standards, Terraform infrastructure, Docker/AKS platforms, and reusable CI/CD workflows</strong> using Azure DevOps, Jenkins, GitHub Actions, Helm, and Argo CD. Partners with Development, QA, Architecture, Security, and Infrastructure teams on engineering design, release readiness, DevSecOps controls, and complex incident resolution. Mentors engineers, builds Python/PowerShell/Bash automation, and combines Azure Monitor, Prometheus, and Grafana visibility with deployment governance and operational runbooks.",
+  "certification_badges_image": "assets/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra P N certification badges",
+  "skills": [
+    "Azure",
+    "Azure DevOps",
+    "Terraform",
+    "Docker",
+    "Kubernetes",
+    "AKS",
+    "Jenkins",
+    "GitHub Actions",
+    "Argo CD",
+    "Helm",
+    "Python",
+    "PowerShell",
+    "Bash",
+    "SonarQube",
+    "JFrog Artifactory",
+    "Azure Monitor",
+    "Prometheus",
+    "Grafana"
+  ],
+  "achievements": [
+    {
+      "tag": "Engineering Leadership",
+      "text": "Reviews platform designs, mentors engineers, and aligns delivery patterns and operational standards with application teams and stakeholders."
+    },
+    {
+      "tag": "CI/CD & Infrastructure Automation",
+      "text": "Builds reusable Terraform, pipelines, GitOps configuration, and self-service automation for repeatable Azure application delivery."
+    },
+    {
+      "tag": "Secure & Reliable Operations",
+      "text": "Connects code-quality gates, artifact promotion, observability, release recovery, and incident runbooks across shared enterprise platforms."
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "DevOps Leadership & Delivery Standards",
+      "content": "Technical design reviews, mentoring, engineering standards, stakeholder collaboration, release planning, environment management, incident coordination, Agile, SRE, DevSecOps"
+    },
+    {
+      "title": "CI/CD & GitOps",
+      "content": "Azure DevOps YAML, Jenkins/CloudBees, GitHub Actions, Git, branching and protected checks, reusable workflows, approvals, automated testing, artifacts, Argo CD, Helm"
+    },
+    {
+      "title": "Azure Infrastructure & IaC",
+      "content": "Terraform modules, remote state, plan reviews, environment isolation, Azure networking, AKS, ACR, managed identities, private access, Bicep, ARM templates, Ansible"
+    },
+    {
+      "title": "Containers & Platform Operations",
+      "content": "Docker, Kubernetes, AKS, namespaces, RBAC, workload identity, health probes, HPA, node pools, capacity planning, upgrades, certificates, OpenShift application administration"
+    },
+    {
+      "title": "DevSecOps & Governance",
+      "content": "SonarQube, JFrog Artifactory, Xray, code-quality gates, image validation, least privilege, secrets management, release permissions, audit-ready change records"
+    },
+    {
+      "title": "Observability & Incident Resolution",
+      "content": "Azure Monitor, Log Analytics, Application Insights, Prometheus, Grafana, ELK, alerts, deployment diagnostics, root-cause analysis, recovery checklists, runbooks"
+    },
+    {
+      "title": "Automation & Developer Enablement",
+      "content": "Python, PowerShell, Bash, Linux/Unix, Windows agents, FastAPI, REST APIs, Jenkins shared libraries, build tooling, onboarding and self-service workflows"
+    },
+    {
+      "title": "AI & Kubernetes Services",
+      "content": "GPU workload support, Milvus, Qdrant, Helm, persistent storage, resource sizing, health checks, backup/restore; AI-assisted automation and documentation"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Azure DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "skills_used": [
+        "Azure",
+        "Terraform",
+        "Azure DevOps",
+        "Jenkins",
+        "AKS",
+        "Argo CD",
+        "Helm",
+        "Python",
+        "PowerShell",
+        "Bash",
+        "SonarQube",
+        "JFrog Artifactory",
+        "Azure Monitor",
+        "OpenShift",
+        "Milvus",
+        "Qdrant"
+      ],
+      "impact": [
+        "Provided senior escalation support for complex production incidents, isolating Azure infrastructure, networking, Kubernetes, and pipeline failures and coordinating verified recovery with engineering teams.",
+        "Designed and maintained Azure platform foundations with reusable Terraform modules for networking, identity, storage, and AKS, aligning infrastructure changes with application dependencies and platform standards.",
+        "Built reusable Azure DevOps and Jenkins pipeline stages for builds, automated tests, image publication, environment promotion, and post-deployment verification.",
+        "Developed PowerShell, Bash, and Python automation for provisioning checks, operational diagnostics, deployment readiness, and recurring administration tasks.",
+        "Operated AKS application delivery with Helm and Argo CD GitOps, maintaining versioned environment configuration, deployment health checks, and reviewed recovery procedures.",
+        "Deployed Milvus and Qdrant on Azure Kubernetes infrastructure with Helm, configuring persistent storage, resource sizing, access controls, backup procedures, and restore checks.",
+        "Managed Terraform remote state, environment isolation, plan reviews, and approval controls to keep infrastructure changes reproducible and traceable.",
+        "Administered Kubernetes access, workload identity, private service connectivity, certificates, and secrets, using managed identities and Key Vault for protected deployment inputs.",
+        "Integrated SonarQube quality feedback, container validation, and artifact promotion controls into release workflows; maintained versioned delivery packages and supporting evidence.",
+        "Integrated Jenkins and SonarQube quality gates with JFrog Artifactory publication, build metadata, and controlled artifact promotion for repeatable application releases.",
+        "Administered OpenShift application projects, routes, role bindings, and deployment settings; published onboarding patterns and troubleshooting guidance for platform consumers.",
+        "Reviewed Kubernetes requests, limits, autoscaling, and node-pool capacity with application owners to improve stability, utilization, and infrastructure cost visibility.",
+        "Reviewed platform designs and pull requests, mentored engineers, and partnered with Development, QA, Architecture, Security, and Infrastructure teams on standards, roadmap priorities, and technical tool evaluations.",
+        "Maintained release recovery checklists, rollback inputs, incident runbooks, and post-incident corrective actions to improve readiness for production disruptions.",
+        "Configured Linux and Windows build agents, diagnosed dependency, cache, credential, and capacity failures, and standardized toolchain prerequisites for reliable execution."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "skills_used": [
+        "Azure",
+        "GitHub Actions",
+        "Terraform",
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "SonarQube",
+        "JFrog Artifactory",
+        "OpenShift"
+      ],
+      "impact": [
+        "Maintained Terraform configuration and Ansible automation for Azure environment setup, reviewing deployment plans and Linux configuration drift.",
+        "Built Jenkins stages with SonarQube analysis and JFrog Artifactory publication, validating release packages, build metadata, and artifact promotion across environments.",
+        "Maintained Kubernetes and OpenShift application deployments, configuring Helm values, routes, health probes, resource limits, and recovery steps for shared services.",
+        "Automated runner readiness and deployment diagnostics with Python and shell scripts, publishing troubleshooting utilities for application teams.",
+        "Partnered with application teams to troubleshoot Azure delivery and implement reusable GitHub Actions workflows for builds, tests, and release promotion.",
+        "Standardized Docker images, Kubernetes deployment patterns, branch protections, and image-validation checks to make releases easier for developers to troubleshoot.",
+        "Maintained Linux/Windows GitHub runners and shared build tooling, diagnosing dependency, cache, credential, and execution-capacity failures.",
+        "Protected deployment inputs with Key Vault and least-privilege service connections; validated required checks and documented release handoffs.",
+        "Organized artifact feeds and repository consumption patterns and coached engineers on merge workflows, pipeline ownership, and environment promotion.",
+        "Validated reusable workflow changes in isolated test jobs, checking input contracts, artifact paths, and environment settings before adoption by application teams."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "skills_used": [
+        "Azure",
+        "GitHub Actions",
+        "Terraform",
+        "AKS",
+        "Argo CD",
+        "Helm",
+        "Ansible",
+        "Azure Monitor",
+        "Jenkins",
+        "SonarQube",
+        "JFrog Artifactory",
+        "Milvus"
+      ],
+      "impact": [
+        "Built GitHub Actions and Jenkins pipelines for Azure-hosted microservices, integrating Maven tests, ACR image publication, and Kubernetes deployment checks.",
+        "Published binaries and container images to JFrog Artifactory from Jenkins pipelines and enforced SonarQube quality feedback before release promotion.",
+        "Deployed Milvus services on Azure Kubernetes infrastructure, validating Helm configuration, persistent volumes, resource capacity, monitoring, and operational readiness.",
+        "Developed Python and shell checks for infrastructure dependencies and release verification, improving consistent execution across Azure environments.",
+        "Delivered Azure infrastructure with reusable Terraform modules and ARM templates; reviewed infrastructure plans and environment configuration.",
+        "Implemented Argo CD GitOps and Helm packaging for AKS, providing versioned environment configuration and validated rollback paths.",
+        "Maintained Linux build runners and automated environment configuration with Ansible and scripts to keep build dependencies and execution environments consistent.",
+        "Improved service visibility with Azure Monitor, Log Analytics, and Application Insights; partnered with developers on incidents and recovery documentation.",
+        "Diagnosed Kubernetes scheduling, image-pull, and service-connectivity failures, correlating workload events with cloud telemetry to restore reliable delivery.",
+        "Coordinated AKS node maintenance and application upgrades, verifying workload readiness and recovery steps with service owners before production changes."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "skills_used": [
+        "Azure",
+        "Terraform",
+        "CloudBees CI",
+        "Groovy",
+        "Python / FastAPI",
+        "JFrog",
+        "Kubernetes",
+        "Jenkins",
+        "SonarQube",
+        "JFrog Artifactory",
+        "Qdrant"
+      ],
+      "impact": [
+        "Developed Python FastAPI services integrating Jenkins, Jira, and JFrog to automate project onboarding and provide self-service access to delivery workflows.",
+        "Administered CloudBees CI (Jenkins Enterprise), JFrog Artifactory, and Xray for SaaS product engineering, supporting reliable builds, secure artifact storage, and release execution.",
+        "Provisioned Azure application infrastructure with Terraform and Ansible, maintaining environment-specific release configuration.",
+        "Worked with developers during production incidents, defect isolation, and sprint retrospectives; turned recurring support issues into platform fixes and reusable guidance.",
+        "Developed Groovy Jenkins shared libraries for image versioning and artifact publishing, allowing developers to reuse tested pipeline steps across services.",
+        "Standardized Docker/Helm deployment patterns for AKS services and payment workloads, validating configuration, health checks, and production readiness.",
+        "Built Python Prometheus exporters and highly available monitoring stacks with Ansible, Grafana, and Node Exporter to expose application and platform health.",
+        "Supported Qdrant deployment and administration for vector-search services, configuring persistent storage, resource limits, API access, health checks, and recovery procedures.",
+        "Managed artifact retention and dependency access for shared delivery services, troubleshooting repository failures and preserving approved build inputs for recovery.",
+        "Partnered with microservice developers on build dependencies, unit and integration test stages, test-result publication, and repeatable promotion of release artifacts."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "skills_used": [
+        "Azure",
+        "Terraform",
+        "Jenkins",
+        "Maven",
+        "Ansible",
+        "Kubernetes",
+        "Helm",
+        "SonarQube",
+        "JFrog Artifactory",
+        "OpenShift"
+      ],
+      "impact": [
+        "Partnered with developers on Azure platform and CI/CD improvements, translating service requirements into infrastructure and deployment standards.",
+        "Maintained Kubernetes and OpenShift application configuration, troubleshooting routes, service connectivity, image pulls, and deployment readiness across shared environments.",
+        "Versioned Azure deployment parameters and ARM/Ansible automation, reviewing infrastructure changes alongside application releases.",
+        "Built Jenkins and Maven delivery workflows for REST microservices across test, security-validation, UAT, and production environments.",
+        "Integrated SonarQube analysis and JFrog Artifactory publishing into Jenkins microservice workflows, keeping quality checks and release artifacts traceable.",
+        "Implemented ELK and Azure Monitor visibility; documented incident diagnostics and release procedures for application and platform teams.",
+        "Scripted Linux and application health validation with Python and Bash, capturing diagnostic output for operational handoffs.",
+        "Reviewed release permissions and Key Vault integration with application teams, maintaining deployment validation and audit-ready change records.",
+        "Coordinated database and API deployment dependencies with developers, validating release order and recovery readiness before production handoff.",
+        "Validated certificate expiry and service connectivity during release readiness checks, coordinating configuration fixes with application and infrastructure owners."
+      ],
+      "client": "Mercedes-Benz Research & Development India"
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "skills_used": [
+        "Azure",
+        "Terraform",
+        "Ansible",
+        "Python",
+        "Linux",
+        "Nexus",
+        "Jenkins",
+        "SonarQube",
+        "JFrog Artifactory"
+      ],
+      "impact": [
+        "Maintained Jenkins build agents and Python/Bash automation, diagnosing toolchain, cache, credential, and execution failures to support reliable shared delivery.",
+        "Automated Azure infrastructure and application provisioning with Terraform, ARM templates, and Ansible, maintaining environment-specific configuration for controlled releases.",
+        "Validated environment readiness and application dependencies before deployments, checking cloud access, network connectivity, and required configuration.",
+        "Integrated SonarQube code-quality checks and JFrog Artifactory publication into Jenkins workflows for API, database, and UI release artifacts.",
+        "Validated cloud deployment permissions and protected credentials, documenting access and configuration prerequisites for application teams.",
+        "Documented onboarding, platform configuration, and support procedures, helping developers adopt repeatable environment and release practices.",
+        "Captured deployment manifests and configuration baselines for environment handoffs, helping support teams trace runtime failures to source or release changes.",
+        "Built CI/CD workflows for API, database, and UI components with development teams, standardizing build dependencies and release promotion for shared application services.",
+        "Packaged containerized services with Helm and versioned environment values, validating deployment health and recovery before release.",
+        "Defined Git branching and protected-branch checks, versioned artifacts, and environment parameters for repeatable application promotion."
+      ],
+      "client": "HPE"
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "Microsoft Certified: Azure Fundamentals",
+    "GitLab Certified Associate"
+  ],
+  "notes": [
+    "Azure Kubernetes base profile; replaces the mobile-focused default.",
+    "User requested end-to-end AKS, GPU nodes for AI applications, Milvus, Qdrant, FastAPI microservices, administration, and upgrade planning.",
+    "User confirmed: include only AKS experience; GKE, Prisma Cloud/Twistlock, Dynatrace, and direct Azure/GCP vendor engagement are evaluation targets, not confirmed hands-on claims.",
+    "Preserve actual contact details, employment dates, remaining employment titles, education, and recorded certifications. No AKS/GKE certifications or invented metrics.",
+    "User clarified: include GKE as platform knowledge only, never as hands-on work experience.",
+    "Azure branch standard: header Lead Azure DevOps Engineer | AI | K8s; latest AT&T designation Lead Azure DevOps Engineer. AWS SRE designation rules apply only on the AWS SRE branch.",
+    "User requested removal of Android/iOS wording and K8s in the header; use Kubernetes-focused content for this Azure base.",
+    "JD-specific Azure DevOps leadership variant; preserves branch defaults. No AWS/GCP work claims, MuleSoft certification, mobile delivery wording, or Key Vault project skills."
+  ],
+  "achievements_title": "DevOps Leadership & Enterprise Delivery Highlights"
+}
