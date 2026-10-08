@@ -193,8 +193,8 @@ def test_explicit_profile_variant_preserves_default_base(tmp_path, monkeypatch) 
     result = module.render_request(request)
     data = json.loads(Path(result["profile_path"]).read_text())
     assert "Python, Kubernetes" in data["headline"]
-    assert "13+ years" in data["summary_html"]
-    assert data["experience"][-1]["project"] == "Expedia Travel Portal"
+    assert "10 years" in data["summary_html"]
+    assert all("calin" not in job["company"].lower() for job in data["experience"])
     assert "12+" not in data["summary_html"]
     assert base.read_bytes() == original
     wrong = json.loads(variant.read_text())
@@ -204,3 +204,16 @@ def test_explicit_profile_variant_preserves_default_base(tmp_path, monkeypatch) 
     request.profile_file = incorrect
     with pytest.raises(ValueError, match="requested person"):
         module.render_request(request)
+
+
+def test_reusable_profiles_use_current_experience_defaults() -> None:
+    import json
+    root = PLUGIN_SCRIPTS.parent
+    profiles = [root / "assets/people/rajendra-prasad-n.json",
+                root / "assets/reference/rajendra-aws-source.json",
+                *sorted((root / "assets/variants").glob("*.json"))]
+    for path in profiles:
+        data = json.loads(path.read_text())
+        assert "10 years" in data["summary_html"], path
+        assert all("calin" not in job["company"].lower() for job in data["experience"]), path
+    assert profiles[0].read_bytes() == Path("resume_data/people/rajendra-prasad-n.json").read_bytes()

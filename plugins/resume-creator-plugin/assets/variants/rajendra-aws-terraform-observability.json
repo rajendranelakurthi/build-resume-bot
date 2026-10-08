@@ -12,7 +12,7 @@
     "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
     "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
   ],
-  "summary_html": "<strong>Lead DevOps Engineer with 13+ years of overall IT experience, including 10+ years in DevOps, cloud engineering, and production operations.</strong> Builds <strong>AWS infrastructure, reusable Terraform modules, GitHub Actions delivery workflows, and Kubernetes platforms</strong>. Combines Python/Bash automation, GitOps, secure IAM access, cloud observability, incident troubleshooting, and recovery readiness. Brings Azure delivery experience and GCP architecture knowledge alongside an AWS-focused engineering background. Evaluates observability-as-code and platform self-service patterns for standardized infrastructure and monitoring delivery.",
+  "summary_html": "<strong>Lead DevOps Engineer with 10 years of experience in DevOps, cloud engineering, and production operations.</strong> Builds <strong>AWS infrastructure, reusable Terraform modules, GitHub Actions delivery workflows, and Kubernetes platforms</strong>. Combines Python/Bash automation, GitOps, secure IAM access, cloud observability, incident troubleshooting, and recovery readiness. Brings Azure delivery experience and GCP architecture knowledge alongside an AWS-focused engineering background. Evaluates observability-as-code and platform self-service patterns for standardized infrastructure and monitoring delivery.",
   "certification_badges_image": "assets/rajendra-certifications.svg",
   "certification_badges_alt": "Rajendra Prasad N certification badges",
   "skills": [
@@ -229,26 +229,6 @@
         "Created CI/CD pipelines for multiple application components across shared delivery platforms.",
         "Managed variable groups and environment-specific configuration to separate deployments cleanly across stages."
       ]
-    },
-    {
-      "title": "Build & Release Engineer",
-      "company": "Calin Infotech",
-      "date_range": "08/2013 - 08/2016",
-      "project": "Expedia Travel Portal",
-      "client": "",
-      "skills_used": [
-        "Build & Release",
-        "Shell Scripting",
-        "Linux",
-        "Source Control",
-        "Application Deployment"
-      ],
-      "impact": [
-        "Supported application builds, release packaging, and deployment coordination for the Expedia Travel Portal across development and test environments.",
-        "Prepared shell scripts for deployment preparation, configuration checks, and log collection to simplify recurring release support tasks.",
-        "Maintained version-controlled build configurations and release documentation, tracking artifact versions and environment-specific settings.",
-        "Partnered with developers and QA to investigate build and deployment failures, verify application smoke tests, and support release handovers."
-      ]
     }
   ],
   "education": [
@@ -266,7 +246,6 @@
   "notes": [
     "AWS-only branch focus; retain all real employment titles, dates, education, and certifications.",
     "Stonebranch and S3 landing/curated/archive ownership require confirmation before being added as employment claims. Source profile is retained in assets/reference.",
-    "User confirmed Calin Infotech, August 2013\u2013August 2016, Expedia Travel Portal. Build & Release Engineer title and early-career responsibilities are drafts for candidate review. Overall experience is 13+ years as of September 2026; DevOps/cloud experience remains 10+ years. Certifications remain source-backed.",
     "JD-specific New Relic, Control Tower/AFT, Backstage, Vault and advanced Terraform/security-tool claims remain knowledge/evaluation until confirmed. No invented metrics or tool-specific years."
   ],
   "achievements_title": "AWS DevOps & SRE Highlights"

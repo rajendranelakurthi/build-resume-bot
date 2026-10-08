@@ -1,0 +1,305 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra P N",
+  "headline": "Lead AWS DevOps Engineer",
+  "location": "Bengaluru, India",
+  "email": "rajendran.scm@gmail.com",
+  "page_title": "Rajendra P N - AWS DevOps Technical Mentor",
+  "summary_html": "<strong>Lead AWS DevOps Engineer with 10 years of experience in cloud engineering, CI/CD automation, and production operations.</strong> Combines <strong>AWS infrastructure, CloudFormation, GitHub Actions, Docker, Kubernetes, and troubleshooting</strong> with learner 1:1 sessions, technical presentations, group Q&A, and cross-team communication. Helps engineers understand deployment workflows, source-control standards, cloud dependencies, and operational diagnostics through practical guidance and reusable documentation. Builds Python/FastAPI automation and supports GPU-enabled Kubernetes and vector-search workloads, bringing applied AI-platform context to technical discussions.",
+  "achievements_title": "AWS Engineering & Technical Mentoring Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+91 7813036830",
+    "Bengaluru, India",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "certification_badges_image": "assets/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "AWS",
+    "CloudFormation",
+    "GitHub Actions",
+    "Docker",
+    "Kubernetes",
+    "EC2",
+    "S3",
+    "RDS",
+    "Lambda",
+    "VPC",
+    "IAM",
+    "CloudWatch",
+    "Python",
+    "Bash",
+    "Terraform",
+    "Technical Mentoring"
+  ],
+  "skill_sections": [
+    {
+      "title": "AWS Fundamentals & Core Services",
+      "content": "Cloud compute, storage, databases, networking and identity; EC2, S3, RDS, Lambda, VPC, IAM, EKS, ECR, Route 53, CloudFront, AWS CLI, DynamoDB, SNS, Elastic Beanstalk"
+    },
+    {
+      "title": "Serverless & AI Platform Concepts",
+      "content": "AWS Lambda event-driven architecture, DynamoDB, SNS, Elastic Beanstalk; AI-platform use cases, GPU-enabled Kubernetes, vector-search infrastructure"
+    },
+    {
+      "title": "Mentoring & Collaboration",
+      "content": "Learner 1:1 video sessions, technical presentations, group Q&A, engineer coaching, Git workflow guidance, knowledge transfer, deployment walkthroughs, technical documentation"
+    },
+    {
+      "title": "CloudFormation & Infrastructure as Code",
+      "content": "AWS CloudFormation, YAML/JSON infrastructure templates, stack-based provisioning, Terraform modules, Ansible, environment configuration, reviewed infrastructure changes"
+    },
+    {
+      "title": "Cloud Networking & Security",
+      "content": "VPC, subnets, security groups, load balancing, ALB/NLB, autoscaling, private connectivity, IAM roles/policies, least privilege, MFA, Secrets Manager"
+    },
+    {
+      "title": "CI/CD & Containerization",
+      "content": "GitHub Actions, Jenkins, GitLab CI/CD, CodePipeline, Docker images, Kubernetes/EKS, Helm, Argo CD, build agents, automated testing, artifacts, release promotion"
+    },
+    {
+      "title": "Monitoring & Troubleshooting",
+      "content": "Amazon CloudWatch, CloudTrail, Prometheus, Grafana, Splunk, ELK, logs/metrics, incident diagnosis, recovery runbooks, AWS Backup, Elastic Disaster Recovery"
+    },
+    {
+      "title": "Automation & Microservices",
+      "content": "Python, Bash, PowerShell, FastAPI, REST APIs, Linux, deployment automation, microservices configuration, scalable Kubernetes workloads"
+    }
+  ],
+  "achievements": [
+    {
+      "tag": "Cloud Delivery & Troubleshooting",
+      "text": "Connects AWS infrastructure, CloudFormation, CI/CD, container orchestration, monitoring, and production diagnostics to practical engineering use cases."
+    },
+    {
+      "tag": "Practical Engineering Guidance",
+      "text": "Coaches development teams on Git workflows, branch governance, merge standards, and repeatable deployment practices."
+    },
+    {
+      "tag": "Knowledge Transfer & AI Platforms",
+      "text": "Creates deployment guides and runbooks and engineers GPU-enabled Kubernetes and vector-search platforms for AI application workloads."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "impact": [
+        "Architected reusable CI/CD pipelines with AWS CodePipeline and GitHub workflows to automate build, test, and release execution across engineering teams.",
+        "Established Git branching, approval, and artifact versioning standards and integrated DevSecOps controls into release workflows through secure secrets handling, Terraform validation, and pre-deployment policy checks across AWS environments.",
+        "Implemented secure service connectivity using AWS PrivateLink, VPC endpoints, and private networking controls to protect sensitive application traffic.",
+        "Standardized deployment pipelines for AWS and hybrid environments, improving release consistency, auditability, and operational reliability.",
+        "Developed Python, Bash, and PowerShell automation for provisioning, platform support, and recovery workflows, reducing manual operational effort.",
+        "Managed self-hosted runners, build agents, and distributed deployment infrastructure to optimize pipeline throughput across controlled compute environments.",
+        "Directed release planning across engineering teams, aligning dependencies, change windows, delivery risks, and production support.",
+        "Coordinated incident response and production release support, minimizing downtime and accelerating service restoration during high-priority events.",
+        "Guided engineering teams through deployment workflows, environment dependencies, and operational runbooks, explaining implementation choices and troubleshooting steps.",
+        "Reviewed pipeline and infrastructure changes with engineers, connecting Git branching, validation checks, security controls, and release readiness to practical delivery scenarios.",
+        "Designed Terraform-based EKS infrastructure for high-throughput vector search and GPU-enabled workloads, integrating repeatable provisioning with container delivery.",
+        "Authored deployment guides, architecture documentation, and operational runbooks that explain provisioning prerequisites, release steps, validation, and recovery procedures for engineering teams."
+      ],
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Python",
+        "Bash",
+        "Terraform",
+        "EKS",
+        "GitHub Actions",
+        "CodePipeline",
+        "Helm"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "impact": [
+        "Deployed and administered self-hosted and auto-scaling build agents for Linux and Windows workloads to support high-throughput CI/CD operations.",
+        "Improved Kubernetes release processes by standardizing deployment patterns, secure runner standards, controlled branch protections, container image validation, and pipeline checks across environments.",
+        "Coached development teams on GitLab workflows, branch governance, and merge standards, clarifying source-control practices and resolving delivery-process questions.",
+        "Migrated Jenkins pipelines to GitLab CI and modernized runner configuration to improve maintainability and pipeline reliability.",
+        "Implemented GitLab CI best practices, including reusable templates, pipeline governance, and controlled branch-based execution.",
+        "Administered Kubernetes clusters and deployed applications through pods, deployments, services, and core platform components."
+      ],
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "GitLab CI/CD",
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "Linux",
+        "AWS"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "impact": [
+        "Implemented GitHub Actions workflows for deploying services to Kubernetes clusters across multiple environments.",
+        "Implemented disaster recovery, backup, and observability controls using AWS Elastic Disaster Recovery, AWS Backup, and Amazon CloudWatch.",
+        "Provisioned AWS infrastructure using CloudFormation, Terraform, and pipeline-driven infrastructure-as-code deployment patterns.",
+        "Designed secure VPC networking, Route 53 DNS, security groups, load balancing, VPN connectivity, Direct Connect, and traffic-routing patterns for enterprise workloads.",
+        "Established and maintained CI/CD pipelines with Jenkins, Git, Amazon ECR, and Kubernetes for repeatable application delivery.",
+        "Deployed Kubernetes microservices through Argo CD-based GitOps workflows.",
+        "Built Docker images and deployed containerized applications to EKS using Helm charts and Kubernetes manifests."
+      ],
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Linode",
+        "Python",
+        "Terraform",
+        "EKS",
+        "GitHub Actions",
+        "GitLab"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "impact": [
+        "Standardized GitHub Actions-based CI/CD patterns to accelerate software delivery and reduce pipeline drift across teams.",
+        "Developed internal APIs in Python FastAPI to integrate Jenkins, Jira, and JFrog processes with platform automation.",
+        "Developed custom Prometheus exporters in Python to capture application-specific operational metrics for SRE use cases.",
+        "Designed and delivered a Terraform and Kubernetes solution for payment-platform deployments, enabling repeatable infrastructure provisioning and container orchestration.",
+        "Built resilient Ansible roles and playbooks to deploy highly available Grafana, Prometheus, and Node Exporter monitoring stacks.",
+        "Administered CloudBees Jenkins, JFrog Artifactory, and Xray enterprise tooling for secure software delivery.",
+        "Developed Jenkins shared libraries to automate image versioning and publish artifacts to private JFrog repositories."
+      ],
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Python",
+        "FastAPI",
+        "Jenkins",
+        "GitHub Actions",
+        "Terraform",
+        "Ansible",
+        "Kubernetes",
+        "Prometheus",
+        "JFrog"
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "impact": [
+        "Supported enterprise applications on AWS by troubleshooting CloudWatch, Amazon RDS, load balancing, auto scaling, certificate management, CloudFront, and identity integrations.",
+        "Built continuous delivery pipelines and supported REST-based microservices deployments across Demo, Test, Pentest, Training, CTDEV, Sandbox, UAT, and PROD environments.",
+        "Automated fleet-level configuration enforcement for Linux and Windows EC2 instances and managed secure access and database connectivity in line with enterprise security standards.",
+        "Built Kubernetes environments with pods, deployments, services, and ConfigMaps, and managed Helm-based release packaging for multi-namespace workloads.",
+        "Used CloudFormation and PowerShell scripting to provision and manage cloud resources in a repeatable and auditable manner.",
+        "Served as acting scrum master by managing stories, epics, sprint commitments, and core scrum ceremonies."
+      ],
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Kubernetes",
+        "AWS",
+        "Ansible",
+        "GitHub",
+        "Shell Scripting",
+        "Jenkins",
+        "Maven",
+        "Tomcat",
+        "JBoss",
+        "Helm"
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "impact": [
+        "Authored and maintained Terraform modules and executed infrastructure changes through automated CI/CD workflows.",
+        "Executed Terraform deployments through pipelines and promoted the same artifact set across multiple environments through controlled environment selection.",
+        "Authored AWS CLI automation to update service configurations and standardize administrative operations.",
+        "Created deployment pipelines with Ansible to promote releases from development through production in a controlled, repeatable manner.",
+        "Defined and implemented branching strategies for Git repositories to improve release governance and code promotion."
+      ],
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "HPE",
+      "skills_used": [
+        "AWS",
+        "Chef",
+        "Ansible",
+        "GitLab",
+        "Shell Scripting",
+        "Python",
+        "Maven",
+        "Tomcat",
+        "JBoss",
+        "Splunk",
+        "Nexus"
+      ]
+    },
+    {
+      "title": "Build & Release Engineer",
+      "company": "Calin Infotech",
+      "impact": [
+        "Supported application builds, release packaging, and deployment coordination for the Expedia Travel Portal across development and test environments.",
+        "Prepared shell scripts for deployment preparation, configuration checks, and log collection to simplify recurring release support tasks.",
+        "Maintained version-controlled build configurations and release documentation, tracking artifact versions and environment-specific settings.",
+        "Partnered with developers and QA to investigate build and deployment failures, verify application smoke tests, and support release handovers."
+      ],
+      "date_range": "08/2013 - 08/2016",
+      "project": "Expedia Travel Portal",
+      "client": "",
+      "skills_used": [
+        "Build & Release",
+        "Shell Scripting",
+        "Linux",
+        "Source Control",
+        "Application Deployment"
+      ]
+    }
+  ],
+  "additional_sections": [
+    {
+      "title": "Technical Mentoring",
+      "entries": [
+        {
+          "title": "Learner Support & Technical Knowledge Sharing",
+          "organization": "",
+          "date_range": "",
+          "bullets": [
+            "Delivered personalized learner 1:1 video sessions, addressing technical questions and explaining cloud, automation, and deployment concepts.",
+            "Delivered technical presentations and deep-dive discussions using practical engineering examples to clarify cloud infrastructure and DevOps workflows.",
+            "Facilitated group Q&A sessions, answering learner questions and breaking complex technical issues into understandable troubleshooting steps."
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology",
+      "logo_image": "",
+      "logo_alt": ""
+    }
+  ],
+  "education_before_experience": false,
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert"
+  ],
+  "notes": [
+    "No new quantified outcomes or Kubernetes upgrade ownership inferred solely from the JD.",
+    "User confirmed Calin Infotech, August 2013\u2013August 2016, Expedia Travel Portal. Build & Release Engineer title and early-career responsibilities are drafts for candidate review. Overall experience is 13+ years as of September 2026; DevOps/cloud experience remains 10+ years. Certifications remain source-backed.",
+    "User confirmed hands-on DynamoDB, SNS, Elastic Beanstalk and learner 1:1 sessions, technical presentations, group Q&A. No employer/date attribution, rubric grading or part-time availability inferred."
+  ]
+}

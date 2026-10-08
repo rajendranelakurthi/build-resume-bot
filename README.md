@@ -74,3 +74,7 @@ python3.12 plugins/resume-creator-plugin/scripts/run_resume_request.py \
 ```
 
 `--profile-file` must identify the same person as `--person`. Repository source and documentation are checked for machine-specific paths by `tests/test_portable_paths.py`.
+
+## Current AWS Resume Defaults
+
+Use 10 years of experience for Rajendra. Omit the removed early-career employer from the base profile, reference sources, all variants, and future generated resumes. Current user corrections override older source history.

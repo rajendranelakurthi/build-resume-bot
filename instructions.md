@@ -167,3 +167,7 @@ If the user does not name a level:
 - before any `git push`, stop and ask the user for permission
 - take responsibility for keeping `main` updated with shared changes
 - take responsibility for updating the corresponding specialized branches locally after `main` changes
+
+## Current AWS Resume Defaults
+
+Use 10 years of experience for Rajendra. Omit the removed early-career employer from the base profile, reference sources, all variants, and future generated resumes. Current user corrections override older source history.

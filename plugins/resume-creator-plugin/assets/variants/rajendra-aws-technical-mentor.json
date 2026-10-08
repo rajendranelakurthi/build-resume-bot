@@ -1,81 +1,84 @@
 {
   "person_id": "rajendra-prasad-n",
-  "page_title": "Rajendra Prasad N - Lead AWS DevOps Engineer",
-  "full_name": "Rajendra Prasad N",
-  "headline": "Lead AWS DevOps Engineer | Python, Kubernetes & CI/CD",
-  "location": "Dallas, TX",
+  "page_title": "Rajendra P N - AWS DevOps Technical Mentor",
+  "full_name": "Rajendra P N",
+  "headline": "Lead AWS DevOps Engineer",
+  "location": "Bengaluru, India",
   "email": "rajendran.scm@gmail.com",
   "contact_lines_html": [
     "rajendran.scm@gmail.com",
-    "+1 (469) 926-4201",
-    "Dallas, TX",
+    "+91 7813036830",
+    "Bengaluru, India",
     "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
     "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
   ],
-  "summary_html": "<strong>Lead AWS DevOps Engineer with 10 years of enterprise cloud engineering, release automation, and production operations experience.</strong> Develops <strong>Python tooling, FastAPI integrations, CI/CD platforms, and Kubernetes infrastructure</strong> across AWS environments. Hands-on expertise with GitHub Actions, GitLab CI/CD, Jenkins, Terraform, CloudFormation, Ansible, Docker, EKS, and Argo CD. Combines secure infrastructure automation with Prometheus/Grafana observability, incident troubleshooting, technical coaching, and cross-team release leadership.",
+  "summary_html": "<strong>Lead AWS DevOps Engineer with 10 years of experience in cloud engineering, CI/CD automation, and production operations.</strong> Combines <strong>AWS infrastructure, CloudFormation, GitHub Actions, Docker, Kubernetes, and troubleshooting</strong> with learner 1:1 sessions, technical presentations, group Q&A, and cross-team communication. Helps engineers understand deployment workflows, source-control standards, cloud dependencies, and operational diagnostics through practical guidance and reusable documentation. Builds Python/FastAPI automation and supports GPU-enabled Kubernetes and vector-search workloads, bringing applied AI-platform context to technical discussions.",
   "certification_badges_image": "assets/rajendra-certifications.svg",
   "certification_badges_alt": "Rajendra Prasad N certification badges",
   "skills": [
-    "Python",
-    "Bash",
     "AWS",
-    "EKS",
-    "Kubernetes",
-    "Docker",
-    "Terraform",
-    "Ansible",
     "CloudFormation",
     "GitHub Actions",
-    "GitLab CI/CD",
-    "Jenkins",
-    "Argo CD"
+    "Docker",
+    "Kubernetes",
+    "EC2",
+    "S3",
+    "RDS",
+    "Lambda",
+    "VPC",
+    "IAM",
+    "CloudWatch",
+    "Python",
+    "Bash",
+    "Terraform",
+    "Technical Mentoring"
   ],
   "achievements": [
     {
-      "tag": "Python Platform Tooling",
-      "text": "Developed FastAPI integrations for Jenkins, Jira, and JFrog and custom Prometheus exporters to connect delivery automation with operational visibility."
+      "tag": "Practical Engineering Guidance",
+      "text": "Coaches development teams on Git workflows, branch governance, merge standards, and repeatable deployment practices."
     },
     {
-      "tag": "CI/CD Architecture",
-      "text": "Standardized reusable pipelines, runner infrastructure, source-control governance, artifact versioning, and controlled environment promotion."
+      "tag": "Cloud Delivery & Troubleshooting",
+      "text": "Connects AWS infrastructure, CloudFormation, CI/CD, container orchestration, monitoring, and production diagnostics to practical engineering use cases."
     },
     {
-      "tag": "Kubernetes & Reliability",
-      "text": "Delivered EKS workloads using Terraform, Helm, and GitOps workflows and integrated monitoring, security controls, and production support."
+      "tag": "Knowledge Transfer & AI Platforms",
+      "text": "Creates deployment guides and runbooks and engineers GPU-enabled Kubernetes and vector-search platforms for AI application workloads."
     }
   ],
   "skill_sections": [
     {
-      "title": "Python & Automation",
-      "content": "Python, FastAPI, REST API integrations, custom Prometheus exporters, Bash/Shell, PowerShell, AWS CLI, YAML, JSON"
+      "title": "AWS Fundamentals & Core Services",
+      "content": "Cloud compute, storage, databases, networking and identity; EC2, S3, RDS, Lambda, VPC, IAM, EKS, ECR, Route 53, CloudFront, AWS CLI, DynamoDB, SNS, Elastic Beanstalk"
     },
     {
-      "title": "CI/CD Architecture",
-      "content": "GitHub Actions, GitLab CI/CD, Jenkins, CloudBees, CodePipeline, CodeBuild, CodeDeploy, reusable workflows, runners, shared libraries"
+      "title": "Cloud Networking & Security",
+      "content": "VPC, subnets, security groups, load balancing, ALB/NLB, autoscaling, private connectivity, IAM roles/policies, least privilege, MFA, Secrets Manager"
     },
     {
-      "title": "AWS Cloud Engineering",
-      "content": "EC2, ECS, EKS, ECR, Lambda, S3, RDS, VPC, IAM, Route 53, ALB/NLB, CloudFront, private connectivity"
+      "title": "CloudFormation & Infrastructure as Code",
+      "content": "AWS CloudFormation, YAML/JSON infrastructure templates, stack-based provisioning, Terraform modules, Ansible, environment configuration, reviewed infrastructure changes"
     },
     {
-      "title": "Infrastructure as Code",
-      "content": "Terraform, reusable modules, CloudFormation, Ansible roles/playbooks, Packer, reviewed infrastructure changes, environment configuration"
+      "title": "CI/CD & Containerization",
+      "content": "GitHub Actions, Jenkins, GitLab CI/CD, CodePipeline, Docker images, Kubernetes/EKS, Helm, Argo CD, build agents, automated testing, artifacts, release promotion"
     },
     {
-      "title": "Containers & GitOps",
-      "content": "Docker, Kubernetes, EKS, Helm, Argo CD, OpenShift, Rancher, manifests, application configuration, cluster administration"
+      "title": "Monitoring & Troubleshooting",
+      "content": "Amazon CloudWatch, CloudTrail, Prometheus, Grafana, Splunk, ELK, logs/metrics, incident diagnosis, recovery runbooks, AWS Backup, Elastic Disaster Recovery"
     },
     {
-      "title": "Observability & Reliability",
-      "content": "Prometheus, Grafana, ELK, CloudWatch, CloudTrail, Splunk, AWS Backup, Elastic Disaster Recovery, incident response, runbooks"
+      "title": "Automation & Microservices",
+      "content": "Python, Bash, PowerShell, FastAPI, REST APIs, Linux, deployment automation, microservices configuration, scalable Kubernetes workloads"
     },
     {
-      "title": "DevSecOps & Governance",
-      "content": "IAM, MFA, Secrets Manager, private endpoints, pipeline policy checks, branch protection, SonarQube, Fortify, Black Duck, JFrog Xray"
+      "title": "Mentoring & Collaboration",
+      "content": "Learner 1:1 video sessions, technical presentations, group Q&A, engineer coaching, Git workflow guidance, knowledge transfer, deployment walkthroughs, technical documentation"
     },
     {
-      "title": "Engineering Leadership",
-      "content": "Technical coaching, release planning, architecture documentation, cross-team coordination, Agile/Scrum, knowledge transfer, Linux/Windows operations"
+      "title": "Serverless & AI Platform Concepts",
+      "content": "AWS Lambda event-driven architecture, DynamoDB, SNS, Elastic Beanstalk; AI-platform use cases, GPU-enabled Kubernetes, vector-search infrastructure"
     }
   ],
   "experience": [
@@ -103,7 +106,9 @@
         "Standardized deployment pipelines for AWS and hybrid environments, improving release consistency, auditability, and operational reliability.",
         "Directed release planning across engineering teams, aligning dependencies, change windows, delivery risks, and production support.",
         "Coordinated incident response and production release support, minimizing downtime and accelerating service restoration during high-priority events.",
-        "Authored technical documentation, deployment guides, and operational runbooks to improve knowledge transfer and support readiness."
+        "Authored deployment guides, architecture documentation, and operational runbooks that explain provisioning prerequisites, release steps, validation, and recovery procedures for engineering teams.",
+        "Guided engineering teams through deployment workflows, environment dependencies, and operational runbooks, explaining implementation choices and troubleshooting steps.",
+        "Reviewed pipeline and infrastructure changes with engineers, connecting Git branching, validation checks, security controls, and release readiness to practical delivery scenarios."
       ]
     },
     {
@@ -122,7 +127,7 @@
       "impact": [
         "Migrated Jenkins pipelines to GitLab CI and modernized runner configuration to improve maintainability and pipeline reliability.",
         "Implemented GitLab CI best practices, including reusable templates, pipeline governance, and controlled branch-based execution.",
-        "Enforced SCM best practices and coached development teams on GitLab workflows, branch governance, and merge standards.",
+        "Coached development teams on GitLab workflows, branch governance, and merge standards, clarifying source-control practices and resolving delivery-process questions.",
         "Deployed and administered self-hosted and auto-scaling build agents for Linux and Windows workloads to support high-throughput CI/CD operations.",
         "Administered Kubernetes clusters and deployed applications through pods, deployments, services, and core platform components.",
         "Improved Kubernetes release processes by standardizing deployment patterns, secure runner standards, controlled branch protections, container image validation, and pipeline checks across environments."
@@ -239,11 +244,26 @@
     "AWS Certified Solutions Architect - Associate",
     "GitLab Certified Associate",
     "Microsoft Certified: Azure Fundamentals",
-    "Microsoft Certified: Azure DevOps Engineer Expert",
-    "MuleSoft Certified Developer - Level 1"
+    "Microsoft Certified: Azure DevOps Engineer Expert"
   ],
   "notes": [
-    "No new quantified outcomes or Kubernetes upgrade ownership inferred solely from the JD."
+    "No new quantified outcomes or Kubernetes upgrade ownership inferred solely from the JD.",
+    "User confirmed hands-on DynamoDB, SNS, Elastic Beanstalk and learner 1:1 sessions, technical presentations, group Q&A. No employer/date attribution, rubric grading or part-time availability inferred."
   ],
-  "achievements_title": "AWS Automation & Engineering Leadership"
+  "achievements_title": "AWS Engineering & Technical Mentoring Highlights",
+  "additional_sections": [
+    {
+      "title": "Technical Mentoring",
+      "entries": [
+        {
+          "title": "Learner Support & Technical Knowledge Sharing",
+          "bullets": [
+            "Delivered personalized learner 1:1 video sessions, addressing technical questions and explaining cloud, automation, and deployment concepts.",
+            "Delivered technical presentations and deep-dive discussions using practical engineering examples to clarify cloud infrastructure and DevOps workflows.",
+            "Facilitated group Q&A sessions, answering learner questions and breaking complex technical issues into understandable troubleshooting steps."
+          ]
+        }
+      ]
+    }
+  ]
 }

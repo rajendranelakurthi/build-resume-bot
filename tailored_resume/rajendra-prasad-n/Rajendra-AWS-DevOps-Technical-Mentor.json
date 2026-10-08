@@ -1,0 +1,23 @@
+{
+  "person": "Rajendra",
+  "person_id": "rajendra-prasad-n",
+  "domain": "aws-devops",
+  "level": "Aggressive",
+  "matched_keywords": [
+    "aws",
+    "devops",
+    "technical",
+    "mentor",
+    "mentoring",
+    "communication",
+    "environment",
+    "fundamentals",
+    "ec2",
+    "s3"
+  ],
+  "paths_relative_to": "invocation_directory",
+  "profile_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-Technical-Mentor.profile.json",
+  "html_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-Technical-Mentor.html",
+  "pdf_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-Technical-Mentor.pdf",
+  "manifest_path": "tailored_resume/rajendra-prasad-n/Rajendra-AWS-DevOps-Technical-Mentor.json"
+}

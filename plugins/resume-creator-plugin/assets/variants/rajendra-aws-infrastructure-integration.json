@@ -12,7 +12,7 @@
     "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
     "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
   ],
-  "summary_html": "<strong>Lead AWS DevOps Engineer with 13+ years of overall IT experience spanning build and release engineering, enterprise cloud infrastructure, automation, and production operations.</strong> Delivers <strong>AWS infrastructure, Terraform and CloudFormation automation, secure CI/CD, and application integration</strong> across multiple environments. Combines VPC networking, IAM controls, Secrets Manager, EC2, managed databases, and EKS with Python/Bash tooling, observability, incident response, and recovery planning. Leads cross-team release coordination, technical coaching, and operational documentation.",
+  "summary_html": "<strong>Lead AWS DevOps Engineer with 10 years of overall IT experience spanning build and release engineering, enterprise cloud infrastructure, automation, and production operations.</strong> Delivers <strong>AWS infrastructure, Terraform and CloudFormation automation, secure CI/CD, and application integration</strong> across multiple environments. Combines VPC networking, IAM controls, Secrets Manager, EC2, managed databases, and EKS with Python/Bash tooling, observability, incident response, and recovery planning. Leads cross-team release coordination, technical coaching, and operational documentation.",
   "certification_badges_image": "assets/rajendra-certifications.svg",
   "certification_badges_alt": "Rajendra Prasad N certification badges",
   "skills": [
@@ -223,26 +223,6 @@
         "Authored AWS CLI automation to update service configurations and standardize administrative operations.",
         "Documented build and deployment flows for core infrastructure, API, database, and UI components to improve team consistency."
       ]
-    },
-    {
-      "title": "Build & Release Engineer",
-      "company": "Calin Infotech",
-      "date_range": "08/2013 - 08/2016",
-      "project": "Expedia Travel Portal",
-      "client": "",
-      "skills_used": [
-        "Build & Release",
-        "Shell Scripting",
-        "Linux",
-        "Source Control",
-        "Application Deployment"
-      ],
-      "impact": [
-        "Supported application builds, release packaging, and deployment coordination for the Expedia Travel Portal across development and test environments.",
-        "Prepared shell scripts for deployment preparation, configuration checks, and log collection to simplify recurring release support tasks.",
-        "Maintained version-controlled build configurations and release documentation, tracking artifact versions and environment-specific settings.",
-        "Partnered with developers and QA to investigate build and deployment failures, verify application smoke tests, and support release handovers."
-      ]
     }
   ],
   "education": [
@@ -260,7 +240,6 @@
   ],
   "notes": [
     "No new quantified outcomes or Kubernetes upgrade ownership inferred solely from the JD.",
-    "User confirmed Calin Infotech, August 2013–August 2016, Expedia Travel Portal. Build & Release Engineer title and early-career responsibilities are drafts for candidate review. Overall experience is 13+ years as of September 2026; DevOps/cloud experience remains 10+ years. Certifications remain source-backed.",
     "AWS infrastructure/integration JD variant. Aurora and PostgreSQL retained as source-listed skills; Aurora PostgreSQL administration, KMS ownership, and automatic secret rotation are not claimed without candidate confirmation."
   ],
   "achievements_title": "AWS INFRASTRUCTURE & DELIVERY LEADERSHIP"
