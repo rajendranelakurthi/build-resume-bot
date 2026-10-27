@@ -1,0 +1,25 @@
+{
+  "branch": "feature/rajendrapn-azure",
+  "person": "Rajendra P N",
+  "domain": "azure-devops",
+  "level": "Tailored",
+  "source": "/Users/rajendra/Documents/1Resume/APPLIED/rajendra-pn-ai-azure-devops.pdf",
+  "profile": "/Users/rajendra/Documents/1Resume/ai_resume/tmp/cloud-operations-word/profile.json",
+  "header": "Lead Azure DevOps Engineer | AI | K8s",
+  "latest_title": "Lead Azure DevOps Engineer",
+  "output": "/Users/rajendra/Documents/1Resume/ai_resume/output/docx/Rajendra_P_N_Infrastructure_Platform_Cloud_Operations_Header_Line.docx",
+  "format": "docx",
+  "research": [
+    "https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/baseline-aks"
+  ],
+  "limitations": [
+    "No banking, core banking, event-platform or OpenShift experience added without evidence.",
+    "Historical non-Azure infrastructure generalized without recasting as Azure experience."
+  ],
+  "formatting_update": "Horizontal divider below introductory contact block and above Professional Summary",
+  "qa": {
+    "pages": 3,
+    "text_unchanged": true,
+    "renderer": "Pages"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra P N",
+  "headline": "Lead Azure DevOps Engineer | AI | K8s",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "Microsoft Certified: Azure Fundamentals",
+    "GitLab Certified Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "summary": "Lead Azure DevOps Engineer with 10+ years of experience in enterprise infrastructure, cloud and platform operations, Kubernetes, Linux, and production support. Engineers Azure platforms with Terraform, Infrastructure as Code (IaC), Helm, and GitOps. Focuses on high availability, scalability, capacity management, observability, security hardening, and backup and recovery. Supports REST API and microservices infrastructure, with AIOps exposure in alert correlation and operational runbook automation.",
+  "skill_sections": [
+    [
+      "Cloud and containers",
+      "Microsoft Azure, AKS, Kubernetes, Docker, Helm, ACR, Linux, private networking, Entra ID, workload identity, Key Vault"
+    ],
+    [
+      "Infrastructure and automation",
+      "Terraform, IaC, Azure DevOps, Azure Pipelines, GitHub Actions, Argo CD, GitOps, Ansible, Python, Bash, PowerShell, Azure CLI"
+    ],
+    [
+      "Reliability and operations",
+      "High availability, scalability, capacity planning, HPA, cluster autoscaler, disaster recovery readiness, backup and restore, incident troubleshooting, runbooks"
+    ],
+    [
+      "Monitoring and security",
+      "Azure Monitor, Log Analytics, Application Insights, Prometheus, Grafana, OpenTelemetry, ELK, RBAC, network policies, TLS, container and dependency scanning"
+    ],
+    [
+      "APIs and AI operations",
+      "REST APIs, FastAPI, API Management, C#/.NET and Java microservices, SQL Server, Azure SQL, Milvus, Qdrant, GPU capacity, AIOps alert correlation"
+    ]
+  ],
+  "experience": [
+    {
+      "company": "AT&T Services Inc.",
+      "title": "Lead Azure DevOps Engineer",
+      "date_range": "08/2023 - Present",
+      "client": null,
+      "impact": [
+        "Engineered Azure infrastructure with Terraform, provisioning AKS, ACR, private networking, Key Vault, and workload identities for isolated application environments.",
+        "Administered AKS namespaces, RBAC, workload identity, and resource quotas; resolved scheduling, storage, networking, image-pull, and resource-pressure incidents.",
+        "Planned AKS upgrades with API compatibility checks, maintenance windows, surge capacity, disruption budgets, and staged validation to protect service availability.",
+        "Tuned resource requests, limits, HPA, cluster autoscaler settings, and GPU node-pool capacity to balance workload scalability, performance, and cost.",
+        "Operated Milvus and Qdrant on AKS with persistent storage, replication, snapshots, backup procedures, and tested restores to support recovery readiness.",
+        "Built Azure DevOps pipelines for .NET and Java REST microservices, integrating automated tests, image scanning, Helm releases, approvals, and rollback validation.",
+        "Applied container hardening, least-privilege access, network policies, restricted egress, Key Vault secrets, and TLS controls across cloud-native workloads.",
+        "Instrumented services with Azure Monitor, Application Insights, OpenTelemetry, Prometheus, and Grafana to investigate latency, errors, resource utilization, and capacity.",
+        "Governed API access through Azure API Management authentication and usage limits; coordinated database migrations, deployment sequencing, and connectivity validation.",
+        "Developed AIOps workflows correlating Kubernetes, GPU, database, and inference alerts with deployment context and approved recovery runbooks with audit trails."
+      ]
+    },
+    {
+      "company": "GlobalLogic",
+      "title": "Senior DevOps Engineer",
+      "date_range": "03/2023 - 08/2023",
+      "client": null,
+      "impact": [
+        "Built reusable Azure DevOps YAML pipelines for .NET and Java services, integrating build agents, automated tests, and artifact publication.",
+        "Configured environment approvals and deployment verification to support controlled promotion and repeatable production releases.",
+        "Deployed Docker-based REST microservices to AKS with Helm and environment-specific configuration.",
+        "Managed Kubernetes secrets, ingress settings, and health probes to support secure connectivity and application readiness.",
+        "Provisioned Azure resources through Terraform modules with reviewed plans, remote state, and environment separation.",
+        "Maintained controlled pipeline service connections and coordinated access requirements for infrastructure deployments.",
+        "Coordinated SQL Server and Azure SQL schema changes with application releases, validating migration order and database permissions.",
+        "Investigated build, container, and Kubernetes failures and verified application and database connectivity after deployment.",
+        "Integrated image scanning and branch controls into delivery workflows and documented recovery procedures for failed releases."
+      ]
+    },
+    {
+      "company": "Akamai Technologies",
+      "title": "Senior DevOps Engineer II",
+      "date_range": "12/2021 - 03/2023",
+      "client": null,
+      "impact": [
+        "Deployed Kubernetes microservices through Argo CD GitOps workflows using version-controlled configuration.",
+        "Provisioned infrastructure with Terraform and pipeline-driven Infrastructure as Code deployment patterns.",
+        "Implemented GitHub Actions workflows for service deployments across multiple Kubernetes environments.",
+        "Built Docker images and maintained container packaging for application releases.",
+        "Packaged Kubernetes deployments with Helm charts and environment-specific values.",
+        "Maintained Kubernetes manifests to keep service configuration consistent across deployment environments.",
+        "Implemented disaster recovery controls and documented recovery requirements for cloud-hosted workloads.",
+        "Implemented backup controls to support infrastructure and application recovery operations.",
+        "Maintained observability controls to monitor workload behavior and support operational troubleshooting."
+      ]
+    },
+    {
+      "company": "Turvo India Pvt Ltd",
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "date_range": "04/2020 - 12/2021",
+      "client": null,
+      "impact": [
+        "Designed CI/CD pipelines for application and infrastructure deployments with repeatable build and release workflows.",
+        "Developed internal Python FastAPI services to integrate Jenkins, Jira, and JFrog operational processes.",
+        "Automated release coordination and platform workflows through API-based integration with engineering tools.",
+        "Created custom Prometheus exporters in Python to collect application-specific metrics for SRE operations.",
+        "Used Prometheus and Grafana telemetry to investigate application and platform reliability issues.",
+        "Built Ansible roles for highly available Grafana deployments with consistent service configuration.",
+        "Automated Prometheus and Node Exporter deployment through reusable Ansible playbooks.",
+        "Authored Helm charts for repeatable Kubernetes application packaging and deployment.",
+        "Automated Linux and deployment operations with Python and Ansible and documented support and recovery procedures."
+      ]
+    },
+    {
+      "company": "HCL Technologies",
+      "title": "Senior DevOps Engineer",
+      "date_range": "02/2019 - 04/2020",
+      "client": "Mercedes-Benz Research & Development India",
+      "impact": [
+        "Designed ELK monitoring architecture to collect application, infrastructure, and platform metrics.",
+        "Used centralized logs to investigate application behavior and support deployment troubleshooting.",
+        "Built Kubernetes environments with pods, Deployments, and Services for containerized applications.",
+        "Managed ConfigMaps to maintain environment-specific Kubernetes application configuration.",
+        "Packaged releases with Helm for consistent delivery across multiple namespaces.",
+        "Built continuous delivery pipelines for REST-based microservices using Jenkins and Maven.",
+        "Supported deployments across test, security validation, training, UAT, and production environments.",
+        "Used PowerShell scripting to automate repeatable cloud resource administration and provisioning tasks.",
+        "Coordinated application and deployment troubleshooting with engineering teams to verify service recovery."
+      ]
+    },
+    {
+      "company": "Mphasis Ltd",
+      "title": "DevOps Engineer",
+      "date_range": "08/2016 - 12/2018",
+      "client": "HPE",
+      "impact": [
+        "Created Ansible deployment pipelines to promote application releases from development through production.",
+        "Authored Terraform modules to standardize repeatable infrastructure provisioning.",
+        "Executed infrastructure changes through automated CI/CD workflows.",
+        "Defined Git branching strategies to support release governance and controlled code promotion.",
+        "Documented build and deployment workflows for core infrastructure components.",
+        "Documented API deployment dependencies and operational handoffs for application teams.",
+        "Maintained database and UI release documentation to improve consistency across component deployments.",
+        "Developed Python and PowerShell scripts for deployment preparation, administration, and environment diagnostics.",
+        "Troubleshot Linux, build, configuration, and release failures with development and operations teams."
+      ]
+    }
+  ]
+}
