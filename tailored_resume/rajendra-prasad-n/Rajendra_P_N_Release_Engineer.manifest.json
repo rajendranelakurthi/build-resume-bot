@@ -1,0 +1,29 @@
+{
+  "person": "Rajendra",
+  "domain": "devops-cloud",
+  "role": "Release-Engineer",
+  "level": "Aggressive",
+  "branch": "feature/buildnrelease",
+  "headline": "Lead Release Engineer | GitHub Actions | CI/CD",
+  "latest_title": "Lead Release Engineer",
+  "docx": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/Rajendra_P_N_Release_Engineer.docx",
+  "html": "/Users/rajendra/Documents/1Resume/ai_resume/tailored_resume/rajendra-prasad-n/Rajendra_P_N_Release_Engineer.html",
+  "matched_keywords": [
+    "release",
+    "salesforce",
+    "mulesoft",
+    "plan",
+    "schedule",
+    "coordinate",
+    "releases",
+    "across",
+    "dev",
+    "uat"
+  ],
+  "unconfirmed_specialist_experience": "User confirmed MuleSoft, Flosum and Copado; employer-specific placement unspecified. Salesforce CLI, Salesforce clouds, Apex, MUnit, CloudHub and Runtime Fabric not confirmed.",
+  "qa": {
+    "pages": 3,
+    "renderer": "Pages",
+    "designations_updated_per_user": true
+  }
+}

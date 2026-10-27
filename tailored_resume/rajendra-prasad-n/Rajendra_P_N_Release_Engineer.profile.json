@@ -1,0 +1,242 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "page_title": "Rajendra P N - Release Engineer",
+  "full_name": "Rajendra P N",
+  "headline": "Lead Release Engineer | GitHub Actions | CI/CD",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "Release Engineer with 10+ years of experience in CI/CD automation, release coordination, source control governance, and production delivery. Builds reusable GitHub Actions and Jenkins workflows, governs Git branching and artifact promotion, and coordinates environment readiness, deployment dependencies, validation, and rollback planning. Experienced with ServiceNow change requests, CAB approval coordination, and ITIL processes. Hands-on with MuleSoft, Flosum, and Copado for integration and Salesforce release tooling; MuleSoft Certified Developer with a foundation in API integration and Maven-based delivery.",
+  "certification_badges_image": "assets/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra P N certification badges",
+  "skills": [
+    "Release Management",
+    "GitHub Actions",
+    "Git",
+    "Maven",
+    "Jenkins",
+    "Python",
+    "Bash",
+    "PowerShell",
+    "ServiceNow",
+    "ITIL",
+    "MuleSoft",
+    "CI/CD",
+    "Flosum",
+    "Copado"
+  ],
+  "achievements": [],
+  "skill_sections": [
+    {
+      "title": "Release Management",
+      "content": "Release calendars, readiness reviews, deployment sequencing, go/no-go inputs, rollback plans, release notes, production validation, cross-team dependency coordination"
+    },
+    {
+      "title": "GitHub and CI/CD",
+      "content": "GitHub Actions, Git, pull requests, protected branches, release and hotfix branches, trunk-based workflows, Jenkins, GitLab CI/CD, Azure DevOps, YAML"
+    },
+    {
+      "title": "Salesforce and Integration Tooling",
+      "content": "MuleSoft, Flosum, Copado, Maven, REST APIs, API and database release dependencies, JFrog Artifactory, Nexus; MuleSoft Certified Developer"
+    },
+    {
+      "title": "Environments and Automation",
+      "content": "Environment-specific variables, secrets access, configuration validation, self-hosted runners, Linux, Python, Bash, PowerShell, Ansible, Terraform, Docker, Kubernetes, Helm"
+    },
+    {
+      "title": "Quality and Change Governance",
+      "content": "Automated tests, SonarQube, JFrog Xray, security scanning, ServiceNow change requests, CAB approvals, ITIL processes, release evidence, deployment runbooks"
+    },
+    {
+      "title": "Pipeline Health and Enablement",
+      "content": "Pipeline dashboards, deployment monitoring, failure analysis, defect tracking, Prometheus, Grafana, ELK, release retrospectives, Git mentoring, technical documentation"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Release Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "skills_used": [
+        "Git",
+        "CI/CD",
+        "Azure DevOps",
+        "GitLab",
+        "Python",
+        "PowerShell",
+        "Bash",
+        "Terraform"
+      ],
+      "impact": [
+        "Coordinated release schedules, scope, dependencies, and readiness with Development, QA, Infrastructure, Security, and business stakeholders.",
+        "Maintained release calendars and communicated blockers, approval status, deployment progress, and production readiness across engineering teams.",
+        "Prepared go/no-go inputs covering test evidence, environment prerequisites, change risk, deployment ownership, and rollback criteria.",
+        "Built reusable CI/CD workflows for build, testing, packaging, environment promotion, and post-deployment verification.",
+        "Governed Git feature, release, hotfix, and trunk-based workflows with protected branches, merge approvals, and source-control access policies.",
+        "Authored deployment runbooks, release notes, implementation sequences, and recovery guidance for controlled production changes.",
+        "Automated release preparation, configuration checks, and deployment validation with Python, PowerShell, and Bash.",
+        "Validated environment variables, secrets access, artifact versions, infrastructure prerequisites, and application dependencies before promotion.",
+        "Coordinated smoke tests and post-release monitoring; resolved deployment conflicts and production issues with application and infrastructure owners.",
+        "Monitored pipeline duration, failure trends, runner capacity, and deployment health to identify automation and reliability improvements.",
+        "Mentored engineers on branching, merge standards, pipeline troubleshooting, and documented release procedures."
+      ]
+    },
+    {
+      "title": "Senior Release Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "skills_used": [
+        "Jenkins",
+        "GitLab CI",
+        "Git",
+        "Linux",
+        "Docker",
+        "Kubernetes"
+      ],
+      "impact": [
+        "Supported releases across development, QA, staging, and production, coordinating build readiness and deployment handoffs with application teams.",
+        "Modernized Jenkins workflows into reusable GitLab CI pipelines while preserving build, test, packaging, and deployment requirements.",
+        "Administered Linux and Windows build agents, resolving runner capacity, workspace, dependency, and credential failures.",
+        "Maintained environment-specific variables and release configuration to keep deployment inputs consistent across stages.",
+        "Organized artifact feeds and package versions, ensuring teams promoted the intended release package and dependencies.",
+        "Applied branch protection, merge controls, and image-validation checks before application deployment.",
+        "Coordinated readiness checks and test evidence with QA and developers before environment promotion.",
+        "Troubleshot pipeline, container, and Kubernetes deployment failures and verified corrective actions with service owners.",
+        "Documented release procedures, known issues, and operational handoffs to support repeatable delivery."
+      ]
+    },
+    {
+      "title": "Senior Release Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "skills_used": [
+        "Jenkins",
+        "GitHub Actions",
+        "AWS",
+        "Terraform",
+        "PowerShell",
+        "CloudWatch"
+      ],
+      "impact": [
+        "Built GitHub Actions and Jenkins pipelines for repeatable build, automated testing, packaging, and application deployment.",
+        "Configured deployment groups and environment-specific release targets for controlled production rollouts.",
+        "Coordinated API, application, and infrastructure dependencies, release sequencing, and readiness checks with distributed engineering teams.",
+        "Published versioned artifacts and maintained package-consumption patterns for traceable release promotion.",
+        "Automated recurring deployment and operational checks with PowerShell, Python, and shell scripts.",
+        "Provisioned AWS environments with Terraform and integrated infrastructure validation into CI/CD execution.",
+        "Maintained release dashboards and defect-tracking visibility to communicate build health, blockers, and deployment status.",
+        "Investigated deployment failures using pipeline logs and platform telemetry; coordinated recovery and post-deployment validation.",
+        "Created release documentation and recovery guidance, incorporating monitoring and backup controls into operational readiness."
+      ]
+    },
+    {
+      "title": "Senior Release Engineer",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "skills_used": [
+        "Python",
+        "Jenkins",
+        "GitHub Actions",
+        "SonarQube",
+        "JFrog",
+        "Terraform",
+        "Kubernetes",
+        "Prometheus",
+        "Ansible"
+      ],
+      "impact": [
+        "Coordinated application and infrastructure delivery, aligning deployment dependencies, artifact readiness, and release handoffs.",
+        "Administered CloudBees Jenkins, JFrog Artifactory, and Xray to support controlled builds, secure packages, and production delivery.",
+        "Developed Groovy shared libraries for consistent image versioning and artifact publication across services.",
+        "Built Python FastAPI integrations between Jenkins, Jira, and JFrog to automate onboarding and release coordination.",
+        "Standardized GitHub Actions CI/CD patterns and integrated build, testing, code-quality checks, and artifact promotion with development teams.",
+        "Provisioned deployment infrastructure using Terraform and Ansible and maintained environment configuration for Kubernetes workloads.",
+        "Used Prometheus and Grafana telemetry to assess platform health and investigate issues during production support.",
+        "Partnered with developers on defect isolation, incident recovery, and post-release reviews.",
+        "Documented corrective actions and reusable runbooks to reduce recurring support effort and improve release reliability."
+      ]
+    },
+    {
+      "title": "Senior Release Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Kubernetes",
+        "Ansible",
+        "GitHub",
+        "Shell Scripting",
+        "Jenkins",
+        "Maven",
+        "Tomcat",
+        "JBoss",
+        "Helm"
+      ],
+      "impact": [
+        "Built Jenkins and Maven delivery workflows for REST services across test, security-validation, UAT, and production environments.",
+        "Coordinated release configuration and deployment readiness with developers, QA, and infrastructure stakeholders.",
+        "Maintained Helm packages and Kubernetes configuration for repeatable deployment across environments.",
+        "Automated infrastructure provisioning and configuration with PowerShell, Ansible, and version-controlled definitions.",
+        "Validated application connectivity, credentials, and environment prerequisites before release execution.",
+        "Supported production deployment windows, application checks, and issue escalation with engineering teams.",
+        "Used ELK and cloud monitoring to investigate application and infrastructure failures affecting releases.",
+        "Documented deployment sequences, recovery procedures, and environment dependencies for operations handoff.",
+        "Communicated platform priorities and release improvements to distributed stakeholders through technical reviews."
+      ]
+    },
+    {
+      "title": "Release Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "client": "HPE",
+      "skills_used": [
+        "Chef",
+        "Ansible",
+        "GitLab",
+        "Shell Scripting",
+        "Python",
+        "Maven",
+        "Tomcat",
+        "JBoss",
+        "Splunk",
+        "Nexus"
+      ],
+      "impact": [
+        "Created build and deployment workflows for API, database, and UI components across shared delivery environments.",
+        "Implemented Git branching practices and release versioning to control code promotion and package traceability.",
+        "Automated deployment tasks using Python, shell scripts, and Ansible to reduce manual release preparation.",
+        "Provisioned AWS infrastructure with Terraform and promoted reviewed infrastructure changes through pipelines.",
+        "Maintained build agents and resolved dependency and execution-environment failures.",
+        "Managed environment-specific variables and configuration for development, test, and production deployments.",
+        "Validated release artifacts and prerequisites before controlled environment promotion.",
+        "Investigated failed deployments with development and support teams and verified corrective actions.",
+        "Authored deployment guides and operational handoff documentation for application and infrastructure releases."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "MuleSoft Certified Developer - Level 1",
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate"
+  ],
+  "notes": [
+    "Aggressive Release Engineer tailoring; designations aligned to release engineering at user request; employment dates preserved.",
+    "User confirmed MuleSoft, Flosum and Copado; employer-specific placement unspecified. Salesforce CLI, Salesforce clouds, Apex, MUnit, CloudHub and Runtime Fabric not confirmed.",
+    "Confirmed ServiceNow/CAB and ITIL experience presented at profile level."
+  ],
+  "achievements_title": "Release Execution & Production Reliability Highlights"
+}

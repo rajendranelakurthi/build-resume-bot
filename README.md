@@ -5,7 +5,7 @@ This branch uses the Résumé Creator Plugin to tailor Rajendra P N's build and 
 ## Request command
 
 ```text
-Use the Résumé Creator Plugin to create an Aggressive devops-cloud resume for Rajendra using this JD:
+Use the Résumé Creator Plugin to create an Aggressive Release-Engineer resume for Rajendra using this JD:
 <paste the job description here>
 ```
 
