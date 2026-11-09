@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajendra Prasad N - Lead DevOps Transformation &amp; Platform Engineering Leader</title>
+
+<style>
+*{box-sizing:border-box;}
+body{margin:0;padding:12px 0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:#222;line-height:1.4;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.resume-page{width:190mm;min-height:277mm;margin:0 auto;background:#ffffff;box-shadow:0 8px 24px rgba(15,57,112,.12);}
+header{background:linear-gradient(120deg,#174a8b,#0f3970);color:white;padding:18px 26px;display:flex;justify-content:space-between;gap:18px;}
+.header-left{max-width:118mm;}
+.header-left h1{margin:0;font-size:30px;letter-spacing:.4px;font-weight:800;}
+.role{margin-top:6px;font-size:13px;font-weight:700;color:#ffc400;text-transform:uppercase;}
+.header-right{text-align:right;font-size:12px;line-height:1.55;}
+.header-right a{color:white;text-decoration:none;word-break:break-word;}
+.content{padding:18px 26px 22px;}
+.summary-box{background:#f6f9fd;border-left:4px solid #174a8b;padding:12px 14px;border-radius:6px;font-size:13px;margin-bottom:18px;}
+.section-title{font-size:16px;color:#174a8b;text-transform:uppercase;font-weight:800;border-bottom:2px solid #174a8b;padding-bottom:5px;margin:20px 0 12px 0;page-break-after:avoid;}
+.certifications-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:6px;page-break-inside:avoid;break-inside:avoid;align-items:start;}
+.cert-card{background:#fbfdff;border:1px solid #e1e8f2;border-radius:8px;padding:8px 6px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;page-break-inside:avoid;break-inside:avoid;min-height:140px;}
+.cert-badge-svg{width:100%;max-width:92px;height:auto;display:block;}
+.cert-label{margin-top:6px;font-size:10px;font-weight:700;line-height:1.25;color:#173b6b;}
+.skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.skill-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;}
+.skill-card h3{margin:0 0 5px 0;font-size:11px;color:#e06300;text-transform:uppercase;}
+.skill-card p{margin:0;font-size:11.5px;}
+.job-block{margin-bottom:18px;page-break-inside:avoid;break-inside:avoid;}
+.job-header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:5px;}
+.job-title{font-weight:700;font-size:14px;}
+.company-name{color:#174a8b;font-weight:700;}
+.job-meta{font-size:11.5px;color:#666;white-space:nowrap;}
+.job-details{font-size:11.25px;color:#444;margin:0 0 7px 0;line-height:1.45;}
+.job-details div{margin-bottom:2px;}
+ul{margin:0;padding-left:18px;}
+li{font-size:11.5px;margin-bottom:4px;}
+.tag{color:#174a8b;font-weight:700;}
+.education-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:8px;}
+.education-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;font-size:11.5px;}
+.education-row{display:flex;align-items:center;gap:16px;}
+.education-copy{min-width:0;}
+.education-card strong{display:block;margin-bottom:3px;}
+.education-logo{width:auto;max-width:140px;max-height:56px;height:auto;display:block;flex:0 0 auto;object-fit:contain;object-position:left center;}
+@page{size:A4 portrait;margin:8mm;}
+@media print{
+html,body{width:210mm;}
+body{background:white;padding:0;font-size:11px;line-height:1.32;}
+.resume-page{width:194mm;min-height:auto;margin:0 auto;box-shadow:none;}
+header{padding:14px 18px;gap:14px;}
+.header-left{max-width:118mm;}
+.header-left h1{font-size:25px;}
+.role{font-size:11.5px;margin-top:4px;}
+.header-right{font-size:10.5px;line-height:1.4;}
+.content{padding:12px 18px 16px;}
+.summary-box{font-size:11.25px;padding:10px 12px;margin-bottom:12px;}
+.section-title{font-size:13px;margin:14px 0 8px 0;padding-bottom:4px;border-bottom-width:2px;page-break-after:avoid;break-after:avoid;}
+.certifications-grid{grid-template-columns:repeat(5,minmax(0,1fr)) !important;gap:6px;}
+.cert-card{min-height:112px;padding:6px 4px;}
+.cert-badge-svg{max-width:74px;}
+.cert-label{font-size:8.5px;line-height:1.15;margin-top:5px;}
+.skills-grid{grid-template-columns:1fr 1fr !important;gap:8px;page-break-inside:auto;}
+.skill-card{padding:8px 9px;}
+.skill-card h3{font-size:9.5px;margin-bottom:4px;}
+.skill-card p{font-size:9.5px;line-height:1.28;}
+.job-block{margin-bottom:12px;}
+.job-title{font-size:12px;}
+.job-meta{font-size:9.5px;}
+.job-details{font-size:9.5px;line-height:1.3;margin-bottom:5px;}
+ul{padding-left:15px;}
+li{font-size:9.6px;line-height:1.26;margin-bottom:2px;}
+.education-grid{gap:8px;margin-bottom:6px;}
+.education-card{padding:8px 9px;font-size:9.8px;}
+.education-row{gap:12px;}
+.education-card strong{margin-bottom:2px;}
+.education-logo{width:auto;max-width:112px;max-height:42px;}
+a{text-decoration:none;color:inherit;}
+}
+@media (max-width:900px){body{padding:0;}.resume-page{width:100%;min-height:auto;box-shadow:none;}.certifications-grid{grid-template-columns:repeat(3,1fr);}.skills-grid{grid-template-columns:1fr;}.header-left{max-width:none;}.job-header{flex-direction:column;}.job-meta{white-space:normal;}.education-row{align-items:flex-start;}}
+@media (max-width:560px){.certifications-grid{grid-template-columns:repeat(2,1fr);}.cert-card{min-height:132px;}}
+</style>
+</head>
+<body>
+<div class="resume-page">
+<header>
+<div class="header-left">
+<h1>RAJENDRA PRASAD N</h1>
+<div class="role">Lead DevOps Transformation &amp; Platform Engineering Leader | Enterprise CI/CD, DORA Metrics, SAFe &amp; SRE</div>
+</div>
+<div class="header-right">
+<div>rajendran.scm@gmail.com</div>
+<div>+1 (469) 926-4201</div>
+<div>Dallas, TX</div>
+<div><a href="https://www.linkedin.com/in/rajendranelakurthi">linkedin.com/in/rajendranelakurthi</a></div>
+<div><a href="https://rajendranelakurthi.github.io">rajendranelakurthi.github.io</a></div>
+</div>
+</header>
+<div class="content">
+<div class="summary-box"><strong>Transformation-oriented DevOps and Platform Engineering Leader with 12+ years of technology delivery, engineering leadership, and large-scale cloud transformation experience.</strong> Proven track record operating at both strategic roadmap and hands-on execution levels to establish governance, drive Agile/SAFe adoption, and accelerate DevOps maturity across complex enterprise environments. Expert in architecting modern CI/CD ecosystems across <strong>GitHub Actions, GitLab CI, Jenkins, and Azure DevOps</strong>, cloud platforms (AWS, Azure, GCP), Infrastructure as Code (<strong>Terraform, Ansible</strong>), and container orchestration (<strong>Kubernetes, EKS, AKS, Docker</strong>). Champion of <strong>DORA engineering metrics</strong> (Deployment Frequency, Lead Time, CFR, MTTR), Site Reliability Engineering (SRE), shift-left testing, and developer experience (DevEx) optimization. Exceptional stakeholder manager, facilitator, and executive communicator who bridges deep technical engineering with quantifiable business outcomes, vendor governance, and cross-functional team enablement.</div>
+<h2 class="section-title">Certifications</h2>
+<div class="certifications-grid">
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 162 54V126L90 168 18 126V54Z" fill="#3136f0" stroke="#4fb0ff" stroke-width="5"/><text x="90" y="44" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">aws</text><text x="90" y="63" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">certified</text><line x1="48" y1="78" x2="132" y2="78" stroke="#9bb8ff" stroke-width="2"/><text x="90" y="104" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Solutions</text><text x="90" y="126" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Architect</text><text x="90" y="148" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="2" fill="#ffffff">ASSOCIATE</text></svg>
+<div class="cert-label">AWS Certified Solutions Architect - Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0a3d86" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#d9e2f7">CERTIFIED</text><text x="90" y="94" text-anchor="middle" font-size="17" font-weight="700" fill="#202020">AZURE</text><text x="90" y="116" text-anchor="middle" font-size="13" font-weight="700" fill="#202020">DEVOPS ENGINEER</text><text x="90" y="145" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">EXPERT</text><circle cx="68" cy="160" r="7" fill="#ffffff"/><circle cx="90" cy="160" r="7" fill="#ffffff"/><circle cx="112" cy="160" r="7" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure DevOps Engineer Expert</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0c62b7" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#1e225f">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#555">CERTIFIED</text><text x="90" y="96" text-anchor="middle" font-size="18" font-weight="700" fill="#202020">AZURE</text><text x="90" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#202020">FUNDAMENTALS</text><path d="M90 133 96 150 114 150 99 160 105 176 90 166 75 176 81 160 66 150 84 150Z" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure Fundamentals</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><circle cx="90" cy="90" r="82" fill="#ffffff" stroke="#3b296e" stroke-width="5"/><circle cx="90" cy="90" r="72" fill="none" stroke="#d7d0ea" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">GITLAB</text><text x="90" y="61" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">CERTIFIED</text><path d="M76 82 90 112 104 82 114 114 90 140 66 114Z" fill="#f36f21"/><path d="M76 82 90 112 104 82" fill="none" stroke="#2c235d" stroke-width="4" stroke-linejoin="round"/><text x="90" y="157" text-anchor="middle" font-size="13" font-weight="700" fill="#2c235d">ASSOCIATE</text></svg>
+<div class="cert-label">GitLab Certified Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M50 14H130L166 52V124L90 168 14 124V52Z" fill="#4f26c8" stroke="#7f63ff" stroke-width="5"/><circle cx="90" cy="38" r="16" fill="#ffffff"/><circle cx="90" cy="38" r="10" fill="none" stroke="#0096d6" stroke-width="4"/><text x="90" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">CERTIFIED</text><text x="90" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">MuleSoft</text><text x="90" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Developer</text><text x="90" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">LEVEL 1</text></svg>
+<div class="cert-label">MuleSoft Certified Developer - Level 1</div>
+</div>
+</div>
+<h2 class="section-title">Enterprise Transformation &amp; DevOps Leadership Highlights</h2>
+<ul>
+<li><span class="tag">DevOps Transformation Roadmap</span> Defined and executed multi-year enterprise DevOps transformation roadmaps, aligning engineering capabilities with executive business priorities to modernize delivery architectures across distributed organizations.</li>
+<li><span class="tag">DORA Metrics &amp; Engineering Excellence</span> Established automated DORA metrics tracking—elevating deployment frequency from bi-weekly to on-demand, cutting lead time for changes by 65%, and reducing change failure rate to under 2%.</li>
+<li><span class="tag">Toolchain Optimization &amp; DevEx</span> Consolidated fragmented toolchains across GitHub, GitLab, Jenkins, and Azure DevOps into standardized, self-service CI/CD pipelines with shift-left testing and security governance.</li>
+<li><span class="tag">Agile &amp; SAFe Governance</span> Governed delivery priorities and technical roadmaps within SAFe enterprise frameworks, coordinating cross-team dependencies, mitigating delivery risks, and resolving architectural impediments.</li>
+<li><span class="tag">Culture &amp; Communities of Practice</span> Spearheaded organizational change management and established an enterprise DevOps Community of Practice (CoP), facilitating executive reviews, architecture workshops, and continuous learning.</li>
+</ul>
+<h2 class="section-title">Core Technologies</h2>
+<div class="skills-grid">
+<div class="skill-card">
+<h3>Transformation &amp; Leadership</h3>
+<p>Enterprise DevOps Transformation, Strategic Roadmapping, DORA Metrics Framework, Change Management, Developer Experience (DevEx), Value Stream Management, Engineering Culture &amp; Communities of Practice (CoP), Technical Workshops &amp; Executive Facilitation</p>
+</div>
+<div class="skill-card">
+<h3>CI/CD &amp; Toolchain Optimization</h3>
+<p>GitHub Actions, GitLab CI, Jenkins, Azure DevOps, AWS CodePipeline, ArgoCD, Helm, Artifact Versioning (JFrog Artifactory, Nexus), Self-Hosted Runner Fleets, Automated Canary Deployments, Toolchain Consolidation</p>
+</div>
+<div class="skill-card">
+<h3>Delivery Models &amp; Governance</h3>
+<p>Scaled Agile Framework (SAFe), Agile/Scrum, Program Increment (PI) Planning, Cross-Team Dependency Management, Delivery Risk Governance, Vendor &amp; SLA Management, Engineering KPIs, Resource Allocation</p>
+</div>
+<div class="skill-card">
+<h3>Infrastructure as Code &amp; Cloud</h3>
+<p>Terraform (Modular Architecture, State Governance, Terragrunt), Ansible, CloudFormation, Bicep, AWS (EKS, VPC, IAM, S3, RDS), Microsoft Azure, Google Cloud Platform (GCP), Policy-as-Code (Checkov, tfsec, OPA)</p>
+</div>
+<div class="skill-card">
+<h3>Containers &amp; Cloud-Native</h3>
+<p>Docker, Kubernetes, Amazon EKS, Azure AKS, Rancher, OpenShift, Service Mesh, Ingress Controllers, Cluster Autoscaling, GitOps Workflows, Microservices Architecture, Container Hardening</p>
+</div>
+<div class="skill-card">
+<h3>Site Reliability Engineering (SRE)</h3>
+<p>SRE Principles, SLOs / SLIs / SLAs, Error Budgets, Incident Management &amp; Root Cause Analysis (RCA), Chaos Engineering, MTTR Reduction, Automated Runbooks, Synthetic Monitoring</p>
+</div>
+<div class="skill-card">
+<h3>Observability &amp; Telemetry</h3>
+<p>Amazon CloudWatch, Prometheus, Grafana, Datadog, Splunk, ELK Stack, OpenTelemetry, DORA Performance Dashboards, Distributed Tracing, Alert Optimization</p>
+</div>
+<div class="skill-card">
+<h3>Shift-Left &amp; Platform Engineering</h3>
+<p>Shift-Left Automated Testing, SAST/DAST Integration (SonarQube, Trivy, Fortify), Secrets Management (Vault, AWS Secrets Manager), Internal Developer Platforms (IDP), Python, Bash, Java</p>
+</div>
+</div>
+<h2 class="section-title">Professional Experience</h2>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Lead DevOps Transformation &amp; Platform Engineering Leader</span> | <span class="company-name">AT&amp;T Services Inc.</span></div>
+<span class="job-meta">08/2023 - Present</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> DevOps Transformation, DORA Metrics, SAFe / Agile, GitHub Actions, AWS CodePipeline, Terraform, Kubernetes (EKS), DevEx, SRE, Python</div>
+</div>
+<ul>
+<li>Defined and executed the enterprise DevOps transformation roadmap across distributed engineering streams, establishing unified CI/CD, Infrastructure as Code, and platform self-service standards.</li>
+<li>Implemented automated DORA metrics instrumentation across delivery pipelines, tracking deployment frequency, lead time, change failure rate, and MTTR to drive data-driven continuous engineering improvement.</li>
+<li>Championed developer experience (DevEx) initiatives and toolchain optimization, standardizing reusable GitHub Actions and CodePipeline workflows that reduced pipeline onboarding time by 50%.</li>
+<li>Scaled enterprise Kubernetes (EKS) and modular Terraform infrastructure automation, enforcing policy-as-code, automated drift detection, and secure multi-account environment baselines.</li>
+<li>Governed cross-team delivery dependencies and technical risks within SAFe/Agile release trains, facilitating alignment between engineering squads, architects, and business stakeholders.</li>
+<li>Spearheaded shift-left testing and security integration, embedding automated static code analysis, container vulnerability scanning, and secrets management directly into PR validation.</li>
+<li>Founded and led the enterprise DevOps Community of Practice (CoP), conducting technical workshops, architectural retrospectives, and quarterly executive transformation updates.</li>
+<li>Coordinated multi-vendor technical engagements and led Tier 2/3 operational escalation governance, driving blameless post-mortems and proactive reliability enhancements.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps &amp; Platform Engineering Lead</span> | <span class="company-name">GlobalLogic</span></div>
+<span class="job-meta">03/2023 - 08/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> GitLab CI, Jenkins Modernization, Kubernetes (EKS/AKS), Terraform, SAFe, DevSecOps, Trivy, Docker</div>
+</div>
+<ul>
+<li>Led CI/CD modernization and toolchain optimization initiatives, migrating legacy Jenkins pipelines to GitLab CI and engineering self-hosted, auto-scaling runner fleets to boost build concurrency.</li>
+<li>Partnered with product and engineering leaders in a SAFe delivery model to establish automated release gates, container image validation (Trivy), and shift-left DevSecOps controls.</li>
+<li>Standardized Kubernetes (EKS/AKS) deployment templates and Helm packaging across multi-tenant clusters, accelerating developer onboarding and release predictability.</li>
+<li>Mentored cross-functional engineering squads on automated testing, continuous delivery standards, and GitOps workflows, elevating team DevOps maturity.</li>
+<li>Formulated deployment KPIs and led retrospective reviews to eliminate delivery bottlenecks across distributed engineering teams.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Transformation Engineer II</span> | <span class="company-name">Akamai Technologies</span></div>
+<span class="job-meta">12/2021 - 03/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> Terraform, CloudFormation, GitHub Actions, EKS, CloudWatch, Disaster Recovery, SRE, Python</div>
+</div>
+<ul>
+<li>Spearheaded infrastructure automation and disaster recovery transformation across multi-region cloud environments using Terraform, CloudFormation, and GitHub Actions.</li>
+<li>Architected automated deployment workflows and telemetry dashboards in CloudWatch, tracking deployment health, pipeline latency, and service reliability metrics.</li>
+<li>Facilitated cross-team architectural alignment sessions to decompose monolithic deployment patterns into containerized microservices running on Amazon EKS.</li>
+<li>Coordinated vendor technical engagements and internal engineering dependencies, ensuring high-availability operations and adherence to enterprise SLA/SLO commitments.</li>
+<li>Authored reusable automation runbooks and operational scripts in Python, eliminating manual intervention across release promotion and environment maintenance.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps &amp; SRE Lead</span> | <span class="company-name">Turvo India Pvt Ltd</span></div>
+<span class="job-meta">04/2020 - 12/2021</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> SRE, Terraform, Kubernetes, Prometheus, Grafana, FastAPI, Jenkins, MTTR Reduction</div>
+</div>
+<ul>
+<li>Drove SRE and reliability transformation for high-volume logistics and payment platforms, defining SLOs/SLIs, automated incident response, and custom Prometheus observability exporters.</li>
+<li>Designed reusable Terraform IaC modules and Kubernetes deployment blueprints, establishing automated, repeatable environment provisioning across dev, staging, and production.</li>
+<li>Enforced shift-left security governance, integrating automated secrets management (AWS Secrets Manager/KMS), IAM least privilege, and compliance controls into CI/CD pipelines.</li>
+<li>Led agile sprint planning, technical retrospectives, and Tier 2/3 escalation resolution, reducing MTTR by 45% through automated telemetry, proactive alerting, and standardized runbooks.</li>
+<li>Developed internal platform automation APIs in Python (FastAPI) to integrate Jenkins, Jira, and monitoring tooling, streamlining release governance.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps &amp; Release Transformation Engineer</span> | <span class="company-name">HCL Technologies</span></div>
+<span class="job-meta">02/2019 - 04/2020</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> Mercedes-Benz Research &amp; Development India</div>
+<div><strong>Skills Used:</strong> Agile / Scrum, CI/CD Pipelines, Jenkins, Maven, CloudFormation, Stakeholder Facilitation, Ansible</div>
+</div>
+<ul>
+<li>Served as acting Scrum Master and DevOps transformation lead, presenting CI/CD and cloud migration roadmaps for enterprise connected-vehicle programs.</li>
+<li>Partnered with international leadership and stakeholders in Germany to present engineering roadmaps, align quarterly PI planning objectives, and drive Agile adoption.</li>
+<li>Built automated Maven and Jenkins continuous delivery pipelines, transitioning legacy release processes to auditable, automated cloud deployments.</li>
+<li>Organized technical workshops and release readiness reviews, coordinating dependencies across multiple enterprise application streams.</li>
+<li>Automated fleet configuration and patch management across Linux and Windows instances using Ansible playbooks and PowerShell scripting.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">DevOps &amp; Release Engineer</span> | <span class="company-name">Mphasis Ltd</span></div>
+<span class="job-meta">08/2016 - 12/2018</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> Hewlett Packard Enterprise (HPE)</div>
+<div><strong>Skills Used:</strong> Terraform, Ansible, Jenkins, Git, Maven, Splunk, Release Governance</div>
+</div>
+<ul>
+<li>Authored and maintained modular Terraform and Ansible automation to establish repeatable environment provisioning across development, QA, and production.</li>
+<li>Built centralized CI/CD pipelines in Jenkins and Git, integrating automated unit testing, artifact repositories (Nexus), and deployment verification.</li>
+<li>Established Git branching strategies, release governance checklists, and centralized Splunk logging to improve team collaboration and delivery visibility.</li>
+<li>Developed Python and Shell operational scripts to automate administrative tasks, cloud configuration updates, and log rotation.</li>
+</ul>
+</div>
+<h2 class="section-title">Education</h2>
+<div class="education-grid">
+<div class="education-card">
+<div class="education-row">
+
+<div class="education-copy">
+<strong>B.Tech (2009-2013) in Information Technology</strong>
+<div>Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

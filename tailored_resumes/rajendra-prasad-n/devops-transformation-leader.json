@@ -1,0 +1,254 @@
+{
+  "person_id": "rajendra-prasad-n-devops-transformation-leader",
+  "page_title": "Rajendra Prasad N - Lead DevOps Transformation & Platform Engineering Leader",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Lead DevOps Transformation & Platform Engineering Leader | Enterprise CI/CD, DORA Metrics, SAFe & SRE",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "achievements_title": "Enterprise Transformation & DevOps Leadership Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "<strong>Transformation-oriented DevOps and Platform Engineering Leader with 12+ years of technology delivery, engineering leadership, and large-scale cloud transformation experience.</strong> Proven track record operating at both strategic roadmap and hands-on execution levels to establish governance, drive Agile/SAFe adoption, and accelerate DevOps maturity across complex enterprise environments. Expert in architecting modern CI/CD ecosystems across <strong>GitHub Actions, GitLab CI, Jenkins, and Azure DevOps</strong>, cloud platforms (AWS, Azure, GCP), Infrastructure as Code (<strong>Terraform, Ansible</strong>), and container orchestration (<strong>Kubernetes, EKS, AKS, Docker</strong>). Champion of <strong>DORA engineering metrics</strong> (Deployment Frequency, Lead Time, CFR, MTTR), Site Reliability Engineering (SRE), shift-left testing, and developer experience (DevEx) optimization. Exceptional stakeholder manager, facilitator, and executive communicator who bridges deep technical engineering with quantifiable business outcomes, vendor governance, and cross-functional team enablement.",
+  "certification_badges_image": "assets/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "DevOps Transformation",
+    "DORA Engineering Metrics",
+    "Enterprise CI/CD & DevEx",
+    "Agile & SAFe Delivery",
+    "Terraform & IaC",
+    "Kubernetes & Cloud Native",
+    "Site Reliability Engineering (SRE)",
+    "Shift-Left Security & Testing",
+    "Toolchain Optimization",
+    "Stakeholder & Vendor Governance",
+    "AWS, Azure & Multi-Cloud",
+    "Communities of Practice (CoP)"
+  ],
+  "achievements": [
+    {
+      "tag": "DevOps Transformation Roadmap",
+      "text": "Defined and executed multi-year enterprise DevOps transformation roadmaps, aligning engineering capabilities with executive business priorities to modernize delivery architectures across distributed organizations."
+    },
+    {
+      "tag": "DORA Metrics & Engineering Excellence",
+      "text": "Established automated DORA metrics tracking—elevating deployment frequency from bi-weekly to on-demand, cutting lead time for changes by 65%, and reducing change failure rate to under 2%."
+    },
+    {
+      "tag": "Toolchain Optimization & DevEx",
+      "text": "Consolidated fragmented toolchains across GitHub, GitLab, Jenkins, and Azure DevOps into standardized, self-service CI/CD pipelines with shift-left testing and security governance."
+    },
+    {
+      "tag": "Agile & SAFe Governance",
+      "text": "Governed delivery priorities and technical roadmaps within SAFe enterprise frameworks, coordinating cross-team dependencies, mitigating delivery risks, and resolving architectural impediments."
+    },
+    {
+      "tag": "Culture & Communities of Practice",
+      "text": "Spearheaded organizational change management and established an enterprise DevOps Community of Practice (CoP), facilitating executive reviews, architecture workshops, and continuous learning."
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "Transformation & Leadership",
+      "content": "Enterprise DevOps Transformation, Strategic Roadmapping, DORA Metrics Framework, Change Management, Developer Experience (DevEx), Value Stream Management, Engineering Culture & Communities of Practice (CoP), Technical Workshops & Executive Facilitation"
+    },
+    {
+      "title": "CI/CD & Toolchain Optimization",
+      "content": "GitHub Actions, GitLab CI, Jenkins, Azure DevOps, AWS CodePipeline, ArgoCD, Helm, Artifact Versioning (JFrog Artifactory, Nexus), Self-Hosted Runner Fleets, Automated Canary Deployments, Toolchain Consolidation"
+    },
+    {
+      "title": "Delivery Models & Governance",
+      "content": "Scaled Agile Framework (SAFe), Agile/Scrum, Program Increment (PI) Planning, Cross-Team Dependency Management, Delivery Risk Governance, Vendor & SLA Management, Engineering KPIs, Resource Allocation"
+    },
+    {
+      "title": "Infrastructure as Code & Cloud",
+      "content": "Terraform (Modular Architecture, State Governance, Terragrunt), Ansible, CloudFormation, Bicep, AWS (EKS, VPC, IAM, S3, RDS), Microsoft Azure, Google Cloud Platform (GCP), Policy-as-Code (Checkov, tfsec, OPA)"
+    },
+    {
+      "title": "Containers & Cloud-Native",
+      "content": "Docker, Kubernetes, Amazon EKS, Azure AKS, Rancher, OpenShift, Service Mesh, Ingress Controllers, Cluster Autoscaling, GitOps Workflows, Microservices Architecture, Container Hardening"
+    },
+    {
+      "title": "Site Reliability Engineering (SRE)",
+      "content": "SRE Principles, SLOs / SLIs / SLAs, Error Budgets, Incident Management & Root Cause Analysis (RCA), Chaos Engineering, MTTR Reduction, Automated Runbooks, Synthetic Monitoring"
+    },
+    {
+      "title": "Observability & Telemetry",
+      "content": "Amazon CloudWatch, Prometheus, Grafana, Datadog, Splunk, ELK Stack, OpenTelemetry, DORA Performance Dashboards, Distributed Tracing, Alert Optimization"
+    },
+    {
+      "title": "Shift-Left & Platform Engineering",
+      "content": "Shift-Left Automated Testing, SAST/DAST Integration (SonarQube, Trivy, Fortify), Secrets Management (Vault, AWS Secrets Manager), Internal Developer Platforms (IDP), Python, Bash, Java"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Transformation & Platform Engineering Leader",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "DevOps Transformation",
+        "DORA Metrics",
+        "SAFe / Agile",
+        "GitHub Actions",
+        "AWS CodePipeline",
+        "Terraform",
+        "Kubernetes (EKS)",
+        "DevEx",
+        "SRE",
+        "Python"
+      ],
+      "impact": [
+        "Defined and executed the enterprise DevOps transformation roadmap across distributed engineering streams, establishing unified CI/CD, Infrastructure as Code, and platform self-service standards.",
+        "Implemented automated DORA metrics instrumentation across delivery pipelines, tracking deployment frequency, lead time, change failure rate, and MTTR to drive data-driven continuous engineering improvement.",
+        "Championed developer experience (DevEx) initiatives and toolchain optimization, standardizing reusable GitHub Actions and CodePipeline workflows that reduced pipeline onboarding time by 50%.",
+        "Scaled enterprise Kubernetes (EKS) and modular Terraform infrastructure automation, enforcing policy-as-code, automated drift detection, and secure multi-account environment baselines.",
+        "Governed cross-team delivery dependencies and technical risks within SAFe/Agile release trains, facilitating alignment between engineering squads, architects, and business stakeholders.",
+        "Spearheaded shift-left testing and security integration, embedding automated static code analysis, container vulnerability scanning, and secrets management directly into PR validation.",
+        "Founded and led the enterprise DevOps Community of Practice (CoP), conducting technical workshops, architectural retrospectives, and quarterly executive transformation updates.",
+        "Coordinated multi-vendor technical engagements and led Tier 2/3 operational escalation governance, driving blameless post-mortems and proactive reliability enhancements."
+      ]
+    },
+    {
+      "title": "Senior DevOps & Platform Engineering Lead",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "GitLab CI",
+        "Jenkins Modernization",
+        "Kubernetes (EKS/AKS)",
+        "Terraform",
+        "SAFe",
+        "DevSecOps",
+        "Trivy",
+        "Docker"
+      ],
+      "impact": [
+        "Led CI/CD modernization and toolchain optimization initiatives, migrating legacy Jenkins pipelines to GitLab CI and engineering self-hosted, auto-scaling runner fleets to boost build concurrency.",
+        "Partnered with product and engineering leaders in a SAFe delivery model to establish automated release gates, container image validation (Trivy), and shift-left DevSecOps controls.",
+        "Standardized Kubernetes (EKS/AKS) deployment templates and Helm packaging across multi-tenant clusters, accelerating developer onboarding and release predictability.",
+        "Mentored cross-functional engineering squads on automated testing, continuous delivery standards, and GitOps workflows, elevating team DevOps maturity.",
+        "Formulated deployment KPIs and led retrospective reviews to eliminate delivery bottlenecks across distributed engineering teams."
+      ]
+    },
+    {
+      "title": "Senior DevOps Transformation Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Terraform",
+        "CloudFormation",
+        "GitHub Actions",
+        "EKS",
+        "CloudWatch",
+        "Disaster Recovery",
+        "SRE",
+        "Python"
+      ],
+      "impact": [
+        "Spearheaded infrastructure automation and disaster recovery transformation across multi-region cloud environments using Terraform, CloudFormation, and GitHub Actions.",
+        "Architected automated deployment workflows and telemetry dashboards in CloudWatch, tracking deployment health, pipeline latency, and service reliability metrics.",
+        "Facilitated cross-team architectural alignment sessions to decompose monolithic deployment patterns into containerized microservices running on Amazon EKS.",
+        "Coordinated vendor technical engagements and internal engineering dependencies, ensuring high-availability operations and adherence to enterprise SLA/SLO commitments.",
+        "Authored reusable automation runbooks and operational scripts in Python, eliminating manual intervention across release promotion and environment maintenance."
+      ]
+    },
+    {
+      "title": "Senior DevOps & SRE Lead",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "SRE",
+        "Terraform",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "FastAPI",
+        "Jenkins",
+        "MTTR Reduction"
+      ],
+      "impact": [
+        "Drove SRE and reliability transformation for high-volume logistics and payment platforms, defining SLOs/SLIs, automated incident response, and custom Prometheus observability exporters.",
+        "Designed reusable Terraform IaC modules and Kubernetes deployment blueprints, establishing automated, repeatable environment provisioning across dev, staging, and production.",
+        "Enforced shift-left security governance, integrating automated secrets management (AWS Secrets Manager/KMS), IAM least privilege, and compliance controls into CI/CD pipelines.",
+        "Led agile sprint planning, technical retrospectives, and Tier 2/3 escalation resolution, reducing MTTR by 45% through automated telemetry, proactive alerting, and standardized runbooks.",
+        "Developed internal platform automation APIs in Python (FastAPI) to integrate Jenkins, Jira, and monitoring tooling, streamlining release governance."
+      ]
+    },
+    {
+      "title": "Senior DevOps & Release Transformation Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Agile / Scrum",
+        "CI/CD Pipelines",
+        "Jenkins",
+        "Maven",
+        "CloudFormation",
+        "Stakeholder Facilitation",
+        "Ansible"
+      ],
+      "impact": [
+        "Served as acting Scrum Master and DevOps transformation lead, presenting CI/CD and cloud migration roadmaps for enterprise connected-vehicle programs.",
+        "Partnered with international leadership and stakeholders in Germany to present engineering roadmaps, align quarterly PI planning objectives, and drive Agile adoption.",
+        "Built automated Maven and Jenkins continuous delivery pipelines, transitioning legacy release processes to auditable, automated cloud deployments.",
+        "Organized technical workshops and release readiness reviews, coordinating dependencies across multiple enterprise application streams.",
+        "Automated fleet configuration and patch management across Linux and Windows instances using Ansible playbooks and PowerShell scripting."
+      ]
+    },
+    {
+      "title": "DevOps & Release Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "Hewlett Packard Enterprise (HPE)",
+      "skills_used": [
+        "Terraform",
+        "Ansible",
+        "Jenkins",
+        "Git",
+        "Maven",
+        "Splunk",
+        "Release Governance"
+      ],
+      "impact": [
+        "Authored and maintained modular Terraform and Ansible automation to establish repeatable environment provisioning across development, QA, and production.",
+        "Built centralized CI/CD pipelines in Jenkins and Git, integrating automated unit testing, artifact repositories (Nexus), and deployment verification.",
+        "Established Git branching strategies, release governance checklists, and centralized Splunk logging to improve team collaboration and delivery visibility.",
+        "Developed Python and Shell operational scripts to automate administrative tasks, cloud configuration updates, and log rotation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "Microsoft Certified: Azure Fundamentals",
+    "GitLab Certified Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Tailored for 12+ years technology delivery, DevOps transformation, DORA metrics, SAFe/Agile, CI/CD toolchain optimization, platform engineering, and executive stakeholder communication."
+  ]
+}
+
