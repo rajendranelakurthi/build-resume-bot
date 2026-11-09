@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajendra Prasad N - Lead Multi-Cloud &amp; AI Infrastructure Engineer (AWS &amp; Azure)</title>
+
+<style>
+*{box-sizing:border-box;}
+body{margin:0;padding:12px 0;font-family:Arial,Helvetica,sans-serif;background:#f2f4f7;color:#222;line-height:1.4;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.resume-page{width:190mm;min-height:277mm;margin:0 auto;background:#ffffff;box-shadow:0 8px 24px rgba(15,57,112,.12);}
+header{background:linear-gradient(120deg,#232f3e,#131a22);color:white;padding:18px 26px;display:flex;justify-content:space-between;gap:18px;}
+.header-left{max-width:118mm;}
+.header-left h1{margin:0;font-size:30px;letter-spacing:.4px;font-weight:800;}
+.role{margin-top:6px;font-size:13px;font-weight:700;color:#ffb347;text-transform:uppercase;}
+.header-right{text-align:right;font-size:12px;line-height:1.55;}
+.header-right a{color:white;text-decoration:none;word-break:break-word;}
+.content{padding:18px 26px 22px;}
+.summary-box{background:#f6f9fd;border-left:4px solid #232f3e;padding:12px 14px;border-radius:6px;font-size:13px;margin-bottom:18px;}
+.section-title{font-size:16px;color:#232f3e;text-transform:uppercase;font-weight:800;border-bottom:2px solid #232f3e;padding-bottom:5px;margin:20px 0 12px 0;page-break-after:avoid;}
+.certifications-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:6px;page-break-inside:avoid;break-inside:avoid;align-items:start;}
+.cert-card{background:#fbfdff;border:1px solid #e1e8f2;border-radius:8px;padding:8px 6px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;page-break-inside:avoid;break-inside:avoid;min-height:140px;}
+.cert-badge-svg{width:100%;max-width:92px;height:auto;display:block;}
+.cert-label{margin-top:6px;font-size:10px;font-weight:700;line-height:1.25;color:#173b6b;}
+.skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.skill-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;}
+.skill-card h3{margin:0 0 5px 0;font-size:11px;color:#9b5200;text-transform:uppercase;}
+.skill-card p{margin:0;font-size:11.5px;}
+.job-block{margin-bottom:18px;page-break-inside:avoid;break-inside:avoid;}
+.job-header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:5px;}
+.job-title{font-weight:700;font-size:14px;}
+.company-name{color:#232f3e;font-weight:700;}
+.job-meta{font-size:11.5px;color:#666;white-space:nowrap;}
+.job-details{font-size:11.25px;color:#444;margin:0 0 7px 0;line-height:1.45;}
+.job-details div{margin-bottom:2px;}
+ul{margin:0;padding-left:18px;}
+li{font-size:11.5px;margin-bottom:4px;}
+.tag{color:#232f3e;font-weight:700;}
+.education-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:8px;}
+.education-card{background:#f6f9fd;border:1px solid #d9e1ec;border-radius:8px;padding:11px 12px;page-break-inside:avoid;break-inside:avoid;font-size:11.5px;}
+.education-row{display:flex;align-items:center;gap:16px;}
+.education-copy{min-width:0;}
+.education-card strong{display:block;margin-bottom:3px;}
+.education-logo{width:auto;max-width:140px;max-height:56px;height:auto;display:block;flex:0 0 auto;object-fit:contain;object-position:left center;}
+@page{size:A4 portrait;margin:8mm;}
+@media print{
+html,body{width:210mm;}
+body{background:white;padding:0;font-size:11px;line-height:1.32;}
+.resume-page{width:194mm;min-height:auto;margin:0 auto;box-shadow:none;}
+header{padding:14px 18px;gap:14px;}
+.header-left{max-width:118mm;}
+.header-left h1{font-size:25px;}
+.role{font-size:11.5px;margin-top:4px;}
+.header-right{font-size:10.5px;line-height:1.4;}
+.content{padding:12px 18px 16px;}
+.summary-box{font-size:11.25px;padding:10px 12px;margin-bottom:12px;}
+.section-title{font-size:13px;margin:14px 0 8px 0;padding-bottom:4px;border-bottom-width:2px;page-break-after:avoid;break-after:avoid;}
+.certifications-grid{grid-template-columns:repeat(5,minmax(0,1fr)) !important;gap:6px;}
+.cert-card{min-height:112px;padding:6px 4px;}
+.cert-badge-svg{max-width:74px;}
+.cert-label{font-size:8.5px;line-height:1.15;margin-top:5px;}
+.skills-grid{grid-template-columns:1fr 1fr !important;gap:8px;page-break-inside:auto;}
+.skill-card{padding:8px 9px;}
+.skill-card h3{font-size:9.5px;margin-bottom:4px;}
+.skill-card p{font-size:9.5px;line-height:1.28;}
+.job-block{margin-bottom:12px;}
+.job-title{font-size:12px;}
+.job-meta{font-size:9.5px;}
+.job-details{font-size:9.5px;line-height:1.3;margin-bottom:5px;}
+ul{padding-left:15px;}
+li{font-size:9.6px;line-height:1.26;margin-bottom:2px;}
+.education-grid{gap:8px;margin-bottom:6px;}
+.education-card{padding:8px 9px;font-size:9.8px;}
+.education-row{gap:12px;}
+.education-card strong{margin-bottom:2px;}
+.education-logo{width:auto;max-width:112px;max-height:42px;}
+a{text-decoration:none;color:inherit;}
+}
+@media (max-width:900px){body{padding:0;}.resume-page{width:100%;min-height:auto;box-shadow:none;}.certifications-grid{grid-template-columns:repeat(3,1fr);}.skills-grid{grid-template-columns:1fr;}.header-left{max-width:none;}.job-header{flex-direction:column;}.job-meta{white-space:normal;}.education-row{align-items:flex-start;}}
+@media (max-width:560px){.certifications-grid{grid-template-columns:repeat(2,1fr);}.cert-card{min-height:132px;}}
+/* AWS branch: readable print geometry independent of mobile breakpoints. */
+@media print{
+html,body{width:auto}.resume-page{width:194mm}
+.header-left{flex:1;min-width:0}.header-right{flex:0 0 51mm}
+.job-header{flex-direction:row}.job-meta{white-space:nowrap}
+.cert-badge-svg{max-width:46px}.cert-card{min-height:72px}
+.skills-grid{gap:6px}.skill-card{padding:6px 9px}.summary-box{padding:8px 12px}
+.job-block{break-inside:avoid;page-break-inside:avoid}
+.job-header,.job-details{break-after:avoid;page-break-after:avoid}
+li{break-inside:avoid}.section-title{margin-top:12px}
+}
+</style>
+</head>
+<body>
+<div class="resume-page">
+<header>
+<div class="header-left">
+<h1>RAJENDRA PRASAD N</h1>
+<div class="role">Lead Multi-Cloud &amp; AI Infrastructure Engineer | AWS, Azure, Terraform, Kubernetes (EKS/AKS) &amp; GenAI</div>
+</div>
+<div class="header-right">
+<div>rajendran.scm@gmail.com</div>
+<div>+1 (469) 926-4201</div>
+<div>Dallas, TX</div>
+<div><a href="https://www.linkedin.com/in/rajendranelakurthi">linkedin.com/in/rajendranelakurthi</a></div>
+<div><a href="https://rajendranelakurthi.github.io">rajendranelakurthi.github.io</a></div>
+</div>
+</header>
+<div class="content">
+<div class="summary-box"><strong>Lead Multi-Cloud & AI Infrastructure Engineer with 10 years of hands-on experience designing, provisioning, securing, and operating enterprise cloud platforms across AWS and Microsoft Azure.</strong> Deep active coding proficiency in Infrastructure as Code using <strong>Terraform, Azure Bicep/ARM, and CloudFormation/CDK</strong>, paired with cloud automation tooling built in <strong>Python (Boto3, Azure SDK)</strong> and Bash. Proven track record architecting and scaling production <strong>Kubernetes environments (EKS and AKS)</strong>, enterprise multi-tier networking (VPCs, VNets, Transit Gateways, VPN Gateways), and zero-trust IAM least-privilege governance. Proven experience architecting enterprise infrastructure for <strong>GenAI and Agentic AI workloads</strong>—including LLM hosting, private inference routing, vector databases (Milvus, pgvector), RAG pipelines, <strong>AWS Bedrock, Azure OpenAI Service</strong>, and multi-agent coordination frameworks (LangGraph, AutoGen). Strong advocate for FinOps cost efficiency, data governance, model risk compliance, end-to-end observability, with hands-on background in <strong>enterprise data pipelines (Databricks)</strong> and <strong>Java development</strong>.</div>
+<h2 class="section-title">Certifications</h2>
+<div class="certifications-grid">
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 162 54V126L90 168 18 126V54Z" fill="#3136f0" stroke="#4fb0ff" stroke-width="5"/><text x="90" y="44" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">aws</text><text x="90" y="63" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">certified</text><line x1="48" y1="78" x2="132" y2="78" stroke="#9bb8ff" stroke-width="2"/><text x="90" y="104" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Solutions</text><text x="90" y="126" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Architect</text><text x="90" y="148" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="2" fill="#ffffff">ASSOCIATE</text></svg>
+<div class="cert-label">AWS Certified Solutions Architect - Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0a3d86" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#d9e2f7">CERTIFIED</text><text x="90" y="94" text-anchor="middle" font-size="17" font-weight="700" fill="#202020">AZURE</text><text x="90" y="116" text-anchor="middle" font-size="13" font-weight="700" fill="#202020">DEVOPS ENGINEER</text><text x="90" y="145" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">EXPERT</text><circle cx="68" cy="160" r="7" fill="#ffffff"/><circle cx="90" cy="160" r="7" fill="#ffffff"/><circle cx="112" cy="160" r="7" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure DevOps Engineer Expert</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M90 12 150 32 150 120Q150 162 90 178Q30 162 30 120V32Z" fill="#0c62b7" stroke="#123a7a" stroke-width="5"/><path d="M12 78Q90 60 168 78L160 124Q90 139 20 124Z" fill="#f7f7f7" stroke="#7a7a7a" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#1e225f">Microsoft</text><text x="90" y="58" text-anchor="middle" font-size="10" font-weight="700" letter-spacing="2" fill="#555">CERTIFIED</text><text x="90" y="96" text-anchor="middle" font-size="18" font-weight="700" fill="#202020">AZURE</text><text x="90" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#202020">FUNDAMENTALS</text><path d="M90 133 96 150 114 150 99 160 105 176 90 166 75 176 81 160 66 150 84 150Z" fill="#ffffff"/></svg>
+<div class="cert-label">Microsoft Certified: Azure Fundamentals</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><circle cx="90" cy="90" r="82" fill="#ffffff" stroke="#3b296e" stroke-width="5"/><circle cx="90" cy="90" r="72" fill="none" stroke="#d7d0ea" stroke-width="3"/><text x="90" y="42" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">GITLAB</text><text x="90" y="61" text-anchor="middle" font-size="16" font-weight="700" fill="#2c235d">CERTIFIED</text><path d="M76 82 90 112 104 82 114 114 90 140 66 114Z" fill="#f36f21"/><path d="M76 82 90 112 104 82" fill="none" stroke="#2c235d" stroke-width="4" stroke-linejoin="round"/><text x="90" y="157" text-anchor="middle" font-size="13" font-weight="700" fill="#2c235d">ASSOCIATE</text></svg>
+<div class="cert-label">GitLab Certified Associate</div>
+</div>
+<div class="cert-card">
+<svg class="cert-badge-svg" viewBox="0 0 180 180" aria-hidden="true"><path d="M50 14H130L166 52V124L90 168 14 124V52Z" fill="#4f26c8" stroke="#7f63ff" stroke-width="5"/><circle cx="90" cy="38" r="16" fill="#ffffff"/><circle cx="90" cy="38" r="10" fill="none" stroke="#0096d6" stroke-width="4"/><text x="90" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">CERTIFIED</text><text x="90" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">MuleSoft</text><text x="90" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Developer</text><text x="90" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">LEVEL 1</text></svg>
+<div class="cert-label">MuleSoft Certified Developer - Level 1</div>
+</div>
+</div>
+<h2 class="section-title">Multi-Cloud &amp; AI Infrastructure Highlights</h2>
+<ul>
+<li><span class="tag">Multi-Cloud IaC &amp; Automation</span> Architected, provisioned, and operated enterprise infrastructure across AWS and Azure using modular Terraform and Azure Bicep, standardizing automated state management, CI/CD validation, and drift detection.</li>
+<li><span class="tag">GenAI &amp; Agentic AI Infrastructure</span> Engineered high-throughput, secure infrastructure for enterprise GenAI platforms—deploying vector databases (Milvus), RAG pipelines, AWS Bedrock, and Azure OpenAI with private endpoints, model governance, and multi-agent frameworks.</li>
+<li><span class="tag">Kubernetes &amp; Enterprise Networking</span> Scaled and hardened production EKS and AKS clusters with Karpenter, Helm, and GitOps; implemented multi-tier networking spanning VPCs, Azure VNets, Transit Gateways, ExpressRoute, and VPN Gateways.</li>
+<li><span class="tag">Governance, FinOps &amp; Observability</span> Enforced zero-trust IAM least-privilege, automated secrets rotation, model risk compliance logging, FinOps compute/GPU cost optimization, and end-to-end telemetry with CloudWatch, Azure Monitor, and Prometheus.</li>
+</ul>
+<h2 class="section-title">Core Technologies</h2>
+<div class="skills-grid">
+<div class="skill-card">
+<h3>Cloud Platforms &amp; Multi-Cloud</h3>
+<p>AWS (EC2, S3, EKS, Lambda, Bedrock, RDS, VPC, Transit Gateway, IAM, KMS), Microsoft Azure (VMs, AKS, Azure OpenAI, Azure AI Search, Blob Storage, VNets, VPN Gateway, Entra ID, Key Vault)</p>
+</div>
+<div class="skill-card">
+<h3>Infrastructure as Code (IaC)</h3>
+<p>Terraform (modular design, workspaces, state locking, AWS/AzureRM providers), Azure Bicep, ARM Templates, CloudFormation, AWS CDK, Checkov, tfsec</p>
+</div>
+<div class="skill-card">
+<h3>GenAI &amp; Agentic AI Infrastructure</h3>
+<p>AWS Bedrock, Azure OpenAI Service, LLM Hosting &amp; Inference, RAG Pipelines, Vector Databases (Milvus, pgvector, Azure AI Search), Multi-Agent Coordination Frameworks (LangGraph, AutoGen, CrewAI), Semantic Caching, GPU Node Pools</p>
+</div>
+<div class="skill-card">
+<h3>Containers &amp; Orchestration</h3>
+<p>Docker, Kubernetes, Amazon EKS, Azure Kubernetes Service (AKS), Helm, Argo CD, GitOps, Karpenter, Cluster Autoscaler, Calico, K8s RBAC, Workload Identity</p>
+</div>
+<div class="skill-card">
+<h3>Enterprise Networking &amp; Security</h3>
+<p>AWS VPC, Azure VNet (Hub-and-Spoke), Transit Gateways (TGW), VPN Gateways, Direct Connect, ExpressRoute, PrivateLink, Private Endpoints, IAM Least Privilege, Azure Entra ID / RBAC, KMS, Azure Key Vault, Secrets Manager</p>
+</div>
+<div class="skill-card">
+<h3>Automation, Scripting &amp; APIs</h3>
+<p>Python (Boto3, Azure SDK, FastAPI), Bash, PowerShell, HCL, REST APIs, JSON/YAML, cloud operational runbooks, automated provisioning CLI tooling</p>
+</div>
+<div class="skill-card">
+<h3>Observability, Governance &amp; FinOps</h3>
+<p>CloudWatch, Azure Monitor, Log Analytics, Prometheus, Grafana, OpenTelemetry, Cost Allocation Tagging, AWS Cost Explorer, Azure Cost Management, FinOps, Model Risk Compliance, Data Governance</p>
+</div>
+<div class="skill-card">
+<h3>CI/CD, Data Pipelines &amp; Java</h3>
+<p>GitHub Actions, GitLab CI, AWS CodePipeline, Jenkins, Databricks on AWS/Azure, Apache Spark, Java (Maven, Spring Boot, Tomcat/JBoss, JVM memory tuning), SonarQube, JFrog Artifactory</p>
+</div>
+</div>
+<h2 class="section-title">Professional Experience</h2>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Lead Cloud Infrastructure &amp; DevOps Engineer</span> | <span class="company-name">AT&amp;T Services Inc.</span></div>
+<span class="job-meta">08/2023 - Present</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, Azure, Terraform, Azure Bicep, Python (Boto3, Azure SDK), EKS, AKS, AWS Bedrock, Azure OpenAI, Milvus, Databricks, Helm, GitHub Actions</div>
+</div>
+<ul>
+<li>Actively designed, provisioned, and operated enterprise multi-cloud infrastructure across AWS and Microsoft Azure using modular Terraform and Azure Bicep, standardizing automated state locking, CI/CD validation, and drift remediation.</li>
+<li>Architected underlying infrastructure for enterprise GenAI and Agentic AI workloads: deployed and scaled high-throughput vector databases (Milvus, pgvector) and RAG retrieval pipelines on EKS and AKS, provisioning GPU-accelerated node pools and low-latency inference routing.</li>
+<li>Integrated and secured GenAI cloud services including AWS Bedrock and Azure OpenAI Service, establishing private connectivity via AWS PrivateLink and Azure Private Endpoints, API rate-limiting orchestration layers, and prompt/response audit telemetry for model risk compliance.</li>
+<li>Built foundational cloud infrastructure to support multi-agent coordination frameworks (LangGraph, AutoGen), provisioning event-driven messaging queues (SQS, Azure Event Hubs), state persistence stores, and distributed worker nodes for agentic execution loops.</li>
+<li>Developed operational tooling and automation scripts against AWS and Azure APIs in Python (utilizing Boto3 and Azure SDK) to automate multi-account resource provisioning, identity governance checks, and certificate lifecycle management.</li>
+<li>Automated provisioning and network isolation for Databricks environments across AWS and Azure accounts, standardizing VPC/VNet peering, IAM least-privilege roles, storage access policies, and enterprise data pipeline integration.</li>
+<li>Designed and implemented secure multi-tier networking connecting on-premises datacenters, AWS VPCs, and Azure VNets utilizing AWS Transit Gateways, Azure VPN Gateways, Route 53, and network security groups (NSGs).</li>
+<li>Enforced end-to-end data governance, model risk compliance, and FinOps cost efficiency—leveraging Karpenter autoscaling, right-sizing GPU/compute instances, and centralizing observability across Amazon CloudWatch, Azure Monitor, and Prometheus.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior Cloud &amp; DevOps Engineer</span> | <span class="company-name">GlobalLogic</span></div>
+<span class="job-meta">03/2023 - 08/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> Azure, AWS, AKS, EKS, Terraform, Azure Bicep, Python, GitLab CI, Docker, Kubernetes, Trivy</div>
+</div>
+<ul>
+<li>Set up, scaled, and secured production Kubernetes environments across Azure Kubernetes Service (AKS) and Amazon EKS using Terraform and Helm, standardizing ingress controllers, network policies, and horizontal pod autoscaling (HPA).</li>
+<li>Authored Python automation scripts and GitLab CI pipelines to streamline container security scanning (Trivy), image signing, and artifact promotion across multi-cloud container registries.</li>
+<li>Implemented IAM least-privilege access governance, establishing role-based access control (RBAC), Azure Entra ID / AD service principals, and OIDC federated authentication for automated deployment runners.</li>
+<li>Optimized runtime environments for containerized Java microservices on Kubernetes, configuring JVM memory parameters, readiness/liveness probes, and zero-downtime rolling updates.</li>
+<li>Managed Linux and Windows auto-scaling build agents and migrated legacy Jenkins workflows to GitLab CI, improving pipeline throughput and deployment reliability.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior Cloud &amp; DevOps Engineer II</span> | <span class="company-name">Akamai Technologies</span></div>
+<span class="job-meta">12/2021 - 03/2023</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, Terraform, CloudFormation, Python (Boto3), EKS, Transit Gateway, VPN, CloudWatch, GitHub Actions</div>
+</div>
+<ul>
+<li>Provisioned and operated scalable AWS cloud infrastructure using Terraform, CloudFormation, and GitHub Actions, establishing reusable IaC modules and automated multi-environment promotion.</li>
+<li>Implemented secure multi-tier networking including VPCs, subnets, route tables, AWS Transit Gateways, VPN gateways, and Direct Connect for resilient hybrid enterprise connectivity.</li>
+<li>Built Python (Boto3) and Bash automation scripts to interact with AWS APIs, automating resource tagging, orphaned volume cleanup, and security compliance audits.</li>
+<li>Architected cross-region disaster recovery and backup automation using AWS Elastic Disaster Recovery and AWS Backup, maintaining high availability for mission-critical services.</li>
+<li>Deployed containerized microservices to Amazon EKS using Helm charts, configuring cluster security controls, secrets integration, and centralized CloudWatch logging and metrics.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior DevOps Engineer / Senior SRE</span> | <span class="company-name">Turvo India Pvt Ltd</span></div>
+<span class="job-meta">04/2020 - 12/2021</span>
+</div>
+<div class="job-details">
+<div><strong>Skills Used:</strong> AWS, Terraform, Python (FastAPI), Kubernetes, Prometheus, Grafana, Jenkins, Secrets Manager, Java</div>
+</div>
+<ul>
+<li>Designed and delivered a Terraform and Kubernetes infrastructure platform for high-volume logistics and real-time payment transactions, enforcing automated provisioning and container orchestration.</li>
+<li>Developed internal platform automation APIs in Python (FastAPI) to integrate Jenkins, Jira, and cloud provider APIs, standardizing deployment verification and operational self-service.</li>
+<li>Enforced IAM least-privilege governance, MFA enforcement, and secure secrets management utilizing AWS Secrets Manager and KMS encryption across multi-account environments.</li>
+<li>Developed custom Prometheus exporters in Python to capture application and messaging queue latency metrics, building Grafana operational dashboards for SRE monitoring and incident response.</li>
+<li>Supported enterprise backend services and data pipelines developed in Java, assisting development teams with JVM profiling, connection pooling, and low-latency database connectivity.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">Senior Cloud &amp; DevOps Engineer</span> | <span class="company-name">HCL Technologies</span></div>
+<span class="job-meta">02/2019 - 04/2020</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> Mercedes-Benz Research &amp; Development India</div>
+<div><strong>Skills Used:</strong> AWS, CloudFormation, Java, Maven, Jenkins, Ansible, RDS, EC2, CloudWatch, KMS</div>
+</div>
+<ul>
+<li>Provisioned and supported enterprise cloud infrastructure for connected-vehicle platforms on AWS using CloudFormation, EC2, RDS, ALB, and CloudFront.</li>
+<li>Partnered with enterprise Java development teams to build and optimize Maven CI/CD pipelines in Jenkins, configuring Tomcat and JBoss application runtime environments.</li>
+<li>Automated fleet-level instance configuration and patch management for Linux and Windows workloads using Ansible playbooks and PowerShell scripting.</li>
+<li>Executed cloud migration initiatives, moving on-premises workloads to AWS VPCs with automated provisioning templates, least-privilege IAM policies, and KMS encryption.</li>
+</ul>
+</div>
+<div class="job-block">
+<div class="job-header">
+<div><span class="job-title">DevOps &amp; Infrastructure Engineer</span> | <span class="company-name">Mphasis Ltd</span></div>
+<span class="job-meta">08/2016 - 12/2018</span>
+</div>
+<div class="job-details">
+<div><strong>Client:</strong> Hewlett Packard Enterprise (HPE)</div>
+<div><strong>Skills Used:</strong> AWS, Terraform, Python, Shell, Ansible, Jenkins, Maven, Splunk, Nexus</div>
+</div>
+<ul>
+<li>Authored and maintained Terraform modules and Ansible playbooks to provision and configure multi-tier application infrastructure across development and staging environments.</li>
+<li>Built automated deployment pipelines using Jenkins, Git, Maven, and Nexus to package and deploy enterprise Java application components.</li>
+<li>Developed Python and Shell operational scripts to automate administrative tasks, cloud configuration updates, and log rotation.</li>
+<li>Configured centralized logging and operational monitoring with Splunk and CloudWatch to analyze deployment metrics and accelerate incident resolution.</li>
+</ul>
+</div>
+<h2 class="section-title">Education</h2>
+<div class="education-grid">
+<div class="education-card">
+<div class="education-row">
+
+<div class="education-copy">
+<strong>B.Tech (2009-2013) in Information Technology</strong>
+<div>Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

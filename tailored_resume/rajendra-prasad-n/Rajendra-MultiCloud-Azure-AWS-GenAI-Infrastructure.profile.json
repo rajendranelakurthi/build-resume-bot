@@ -1,0 +1,261 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Lead Multi-Cloud & AI Infrastructure Engineer | AWS, Azure, Terraform, Kubernetes (EKS/AKS) & GenAI",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "page_title": "Rajendra Prasad N - Lead Multi-Cloud & AI Infrastructure Engineer (AWS & Azure)",
+  "summary_html": "<strong>Lead Multi-Cloud & AI Infrastructure Engineer with 10 years of hands-on experience designing, provisioning, securing, and operating enterprise cloud platforms across AWS and Microsoft Azure.</strong> Deep active coding proficiency in Infrastructure as Code using <strong>Terraform, Azure Bicep/ARM, and CloudFormation/CDK</strong>, paired with cloud automation tooling built in <strong>Python (Boto3, Azure SDK)</strong> and Bash. Proven track record architecting and scaling production <strong>Kubernetes environments (EKS and AKS)</strong>, enterprise multi-tier networking (VPCs, VNets, Transit Gateways, VPN Gateways), and zero-trust IAM least-privilege governance. Proven experience architecting enterprise infrastructure for <strong>GenAI and Agentic AI workloads</strong>—including LLM hosting, private inference routing, vector databases (Milvus, pgvector), RAG pipelines, <strong>AWS Bedrock, Azure OpenAI Service</strong>, and multi-agent coordination frameworks (LangGraph, AutoGen). Strong advocate for FinOps cost efficiency, data governance, model risk compliance, end-to-end observability, with hands-on background in <strong>enterprise data pipelines (Databricks)</strong> and <strong>Java development</strong>.",
+  "achievements_title": "Multi-Cloud & AI Infrastructure Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "certification_badges_image": "assets/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "AWS",
+    "Microsoft Azure",
+    "Terraform",
+    "Azure Bicep",
+    "Python (Boto3 & Azure SDK)",
+    "Kubernetes (EKS & AKS)",
+    "AWS Bedrock & Azure OpenAI",
+    "Vector DBs (Milvus & pgvector)",
+    "RAG Pipelines & Agentic AI",
+    "Transit Gateway & VPN",
+    "IAM & Cloud Security",
+    "Observability & FinOps"
+  ],
+  "skill_sections": [
+    {
+      "title": "Cloud Platforms & Multi-Cloud",
+      "content": "AWS (EC2, S3, EKS, Lambda, Bedrock, RDS, VPC, Transit Gateway, IAM, KMS), Microsoft Azure (VMs, AKS, Azure OpenAI, Azure AI Search, Blob Storage, VNets, VPN Gateway, Entra ID, Key Vault)"
+    },
+    {
+      "title": "Infrastructure as Code (IaC)",
+      "content": "Terraform (modular design, workspaces, state locking, AWS/AzureRM providers), Azure Bicep, ARM Templates, CloudFormation, AWS CDK, Checkov, tfsec"
+    },
+    {
+      "title": "GenAI & Agentic AI Infrastructure",
+      "content": "AWS Bedrock, Azure OpenAI Service, LLM Hosting & Inference, RAG Pipelines, Vector Databases (Milvus, pgvector, Azure AI Search), Multi-Agent Coordination Frameworks (LangGraph, AutoGen, CrewAI), Semantic Caching, GPU Node Pools"
+    },
+    {
+      "title": "Containers & Orchestration",
+      "content": "Docker, Kubernetes, Amazon EKS, Azure Kubernetes Service (AKS), Helm, Argo CD, GitOps, Karpenter, Cluster Autoscaler, Calico, K8s RBAC, Workload Identity"
+    },
+    {
+      "title": "Enterprise Networking & Security",
+      "content": "AWS VPC, Azure VNet (Hub-and-Spoke), Transit Gateways (TGW), VPN Gateways, Direct Connect, ExpressRoute, PrivateLink, Private Endpoints, IAM Least Privilege, Azure Entra ID / RBAC, KMS, Azure Key Vault, Secrets Manager"
+    },
+    {
+      "title": "Automation, Scripting & APIs",
+      "content": "Python (Boto3, Azure SDK, FastAPI), Bash, PowerShell, HCL, REST APIs, JSON/YAML, cloud operational runbooks, automated provisioning CLI tooling"
+    },
+    {
+      "title": "Observability, Governance & FinOps",
+      "content": "CloudWatch, Azure Monitor, Log Analytics, Prometheus, Grafana, OpenTelemetry, Cost Allocation Tagging, AWS Cost Explorer, Azure Cost Management, FinOps, Model Risk Compliance, Data Governance"
+    },
+    {
+      "title": "CI/CD, Data Pipelines & Java",
+      "content": "GitHub Actions, GitLab CI, AWS CodePipeline, Jenkins, Databricks on AWS/Azure, Apache Spark, Java (Maven, Spring Boot, Tomcat/JBoss, JVM memory tuning), SonarQube, JFrog Artifactory"
+    }
+  ],
+  "achievements": [
+    {
+      "tag": "Multi-Cloud IaC & Automation",
+      "text": "Architected, provisioned, and operated enterprise infrastructure across AWS and Azure using modular Terraform and Azure Bicep, standardizing automated state management, CI/CD validation, and drift detection."
+    },
+    {
+      "tag": "GenAI & Agentic AI Infrastructure",
+      "text": "Engineered high-throughput, secure infrastructure for enterprise GenAI platforms—deploying vector databases (Milvus), RAG pipelines, AWS Bedrock, and Azure OpenAI with private endpoints, model governance, and multi-agent frameworks."
+    },
+    {
+      "tag": "Kubernetes & Enterprise Networking",
+      "text": "Scaled and hardened production EKS and AKS clusters with Karpenter, Helm, and GitOps; implemented multi-tier networking spanning VPCs, Azure VNets, Transit Gateways, ExpressRoute, and VPN Gateways."
+    },
+    {
+      "tag": "Governance, FinOps & Observability",
+      "text": "Enforced zero-trust IAM least-privilege, automated secrets rotation, model risk compliance logging, FinOps compute/GPU cost optimization, and end-to-end telemetry with CloudWatch, Azure Monitor, and Prometheus."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Cloud Infrastructure & DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Azure",
+        "Terraform",
+        "Azure Bicep",
+        "Python (Boto3, Azure SDK)",
+        "EKS",
+        "AKS",
+        "AWS Bedrock",
+        "Azure OpenAI",
+        "Milvus",
+        "Databricks",
+        "Helm",
+        "GitHub Actions"
+      ],
+      "impact": [
+        "Actively designed, provisioned, and operated enterprise multi-cloud infrastructure across AWS and Microsoft Azure using modular Terraform and Azure Bicep, standardizing automated state locking, CI/CD validation, and drift remediation.",
+        "Architected underlying infrastructure for enterprise GenAI and Agentic AI workloads: deployed and scaled high-throughput vector databases (Milvus, pgvector) and RAG retrieval pipelines on EKS and AKS, provisioning GPU-accelerated node pools and low-latency inference routing.",
+        "Integrated and secured GenAI cloud services including AWS Bedrock and Azure OpenAI Service, establishing private connectivity via AWS PrivateLink and Azure Private Endpoints, API rate-limiting orchestration layers, and prompt/response audit telemetry for model risk compliance.",
+        "Built foundational cloud infrastructure to support multi-agent coordination frameworks (LangGraph, AutoGen), provisioning event-driven messaging queues (SQS, Azure Event Hubs), state persistence stores, and distributed worker nodes for agentic execution loops.",
+        "Developed operational tooling and automation scripts against AWS and Azure APIs in Python (utilizing Boto3 and Azure SDK) to automate multi-account resource provisioning, identity governance checks, and certificate lifecycle management.",
+        "Automated provisioning and network isolation for Databricks environments across AWS and Azure accounts, standardizing VPC/VNet peering, IAM least-privilege roles, storage access policies, and enterprise data pipeline integration.",
+        "Designed and implemented secure multi-tier networking connecting on-premises datacenters, AWS VPCs, and Azure VNets utilizing AWS Transit Gateways, Azure VPN Gateways, Route 53, and network security groups (NSGs).",
+        "Enforced end-to-end data governance, model risk compliance, and FinOps cost efficiency—leveraging Karpenter autoscaling, right-sizing GPU/compute instances, and centralizing observability across Amazon CloudWatch, Azure Monitor, and Prometheus."
+      ]
+    },
+    {
+      "title": "Senior Cloud & DevOps Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "AWS",
+        "AKS",
+        "EKS",
+        "Terraform",
+        "Azure Bicep",
+        "Python",
+        "GitLab CI",
+        "Docker",
+        "Kubernetes",
+        "Trivy"
+      ],
+      "impact": [
+        "Set up, scaled, and secured production Kubernetes environments across Azure Kubernetes Service (AKS) and Amazon EKS using Terraform and Helm, standardizing ingress controllers, network policies, and horizontal pod autoscaling (HPA).",
+        "Authored Python automation scripts and GitLab CI pipelines to streamline container security scanning (Trivy), image signing, and artifact promotion across multi-cloud container registries.",
+        "Implemented IAM least-privilege access governance, establishing role-based access control (RBAC), Azure Entra ID / AD service principals, and OIDC federated authentication for automated deployment runners.",
+        "Optimized runtime environments for containerized Java microservices on Kubernetes, configuring JVM memory parameters, readiness/liveness probes, and zero-downtime rolling updates.",
+        "Managed Linux and Windows auto-scaling build agents and migrated legacy Jenkins workflows to GitLab CI, improving pipeline throughput and deployment reliability."
+      ]
+    },
+    {
+      "title": "Senior Cloud & DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Terraform",
+        "CloudFormation",
+        "Python (Boto3)",
+        "EKS",
+        "Transit Gateway",
+        "VPN",
+        "CloudWatch",
+        "GitHub Actions"
+      ],
+      "impact": [
+        "Provisioned and operated scalable AWS cloud infrastructure using Terraform, CloudFormation, and GitHub Actions, establishing reusable IaC modules and automated multi-environment promotion.",
+        "Implemented secure multi-tier networking including VPCs, subnets, route tables, AWS Transit Gateways, VPN gateways, and Direct Connect for resilient hybrid enterprise connectivity.",
+        "Built Python (Boto3) and Bash automation scripts to interact with AWS APIs, automating resource tagging, orphaned volume cleanup, and security compliance audits.",
+        "Architected cross-region disaster recovery and backup automation using AWS Elastic Disaster Recovery and AWS Backup, maintaining high availability for mission-critical services.",
+        "Deployed containerized microservices to Amazon EKS using Helm charts, configuring cluster security controls, secrets integration, and centralized CloudWatch logging and metrics."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Terraform",
+        "Python (FastAPI)",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "Jenkins",
+        "Secrets Manager",
+        "Java"
+      ],
+      "impact": [
+        "Designed and delivered a Terraform and Kubernetes infrastructure platform for high-volume logistics and real-time payment transactions, enforcing automated provisioning and container orchestration.",
+        "Developed internal platform automation APIs in Python (FastAPI) to integrate Jenkins, Jira, and cloud provider APIs, standardizing deployment verification and operational self-service.",
+        "Enforced IAM least-privilege governance, MFA enforcement, and secure secrets management utilizing AWS Secrets Manager and KMS encryption across multi-account environments.",
+        "Developed custom Prometheus exporters in Python to capture application and messaging queue latency metrics, building Grafana operational dashboards for SRE monitoring and incident response.",
+        "Supported enterprise backend services and data pipelines developed in Java, assisting development teams with JVM profiling, connection pooling, and low-latency database connectivity."
+      ]
+    },
+    {
+      "title": "Senior Cloud & DevOps Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "AWS",
+        "CloudFormation",
+        "Java",
+        "Maven",
+        "Jenkins",
+        "Ansible",
+        "RDS",
+        "EC2",
+        "CloudWatch",
+        "KMS"
+      ],
+      "impact": [
+        "Provisioned and supported enterprise cloud infrastructure for connected-vehicle platforms on AWS using CloudFormation, EC2, RDS, ALB, and CloudFront.",
+        "Partnered with enterprise Java development teams to build and optimize Maven CI/CD pipelines in Jenkins, configuring Tomcat and JBoss application runtime environments.",
+        "Automated fleet-level instance configuration and patch management for Linux and Windows workloads using Ansible playbooks and PowerShell scripting.",
+        "Executed cloud migration initiatives, moving on-premises workloads to AWS VPCs with automated provisioning templates, least-privilege IAM policies, and KMS encryption."
+      ]
+    },
+    {
+      "title": "DevOps & Infrastructure Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "Hewlett Packard Enterprise (HPE)",
+      "skills_used": [
+        "AWS",
+        "Terraform",
+        "Python",
+        "Shell",
+        "Ansible",
+        "Jenkins",
+        "Maven",
+        "Splunk",
+        "Nexus"
+      ],
+      "impact": [
+        "Authored and maintained Terraform modules and Ansible playbooks to provision and configure multi-tier application infrastructure across development and staging environments.",
+        "Built automated deployment pipelines using Jenkins, Git, Maven, and Nexus to package and deploy enterprise Java application components.",
+        "Developed Python and Shell operational scripts to automate administrative tasks, cloud configuration updates, and log rotation.",
+        "Configured centralized logging and operational monitoring with Splunk and CloudWatch to analyze deployment metrics and accelerate incident resolution."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "Microsoft Certified: Azure Fundamentals",
+    "GitLab Certified Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Tailored multi-cloud (AWS and Azure) and AI infrastructure resume aligning with enterprise GenAI, Kubernetes (EKS/AKS), Terraform, Bicep, Python (Boto3, Azure SDK), and networking requirements."
+  ]
+}
