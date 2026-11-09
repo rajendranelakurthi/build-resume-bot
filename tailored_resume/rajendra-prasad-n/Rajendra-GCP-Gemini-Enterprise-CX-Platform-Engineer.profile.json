@@ -1,0 +1,253 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "page_title": "Rajendra Prasad N - Lead GCP Platform Engineer (Google Gemini Enterprise for CX)",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Lead GCP Platform & Conversational AI Engineer | Google Gemini Enterprise, CCaaS, Terraform & DevSecOps",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "achievements_title": "Gemini Enterprise & CX Platform Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "<strong>Lead GCP Platform & Conversational AI Engineer with 10 years of hands-on experience designing, provisioning, securing, and operating enterprise cloud and customer experience platforms.</strong> Proven expertise owning <strong>Google Gemini Enterprise for Customer Experience (CX)</strong> ecosystems—including <strong>conversational AI agents (Dialogflow CX / Vertex AI Conversation), Contact Center as a Service (CCaaS), and conversational analytics</strong> across Dev, Test, and Production environments. Expert in Infrastructure as Code with <strong>Terraform</strong> and automated CI/CD pipelines (Cloud Build, GitLab CI, GitHub Actions), enforcing environment consistency, drift remediation, and release governance. Highly skilled in integration delivery, connecting CCaaS platforms with <strong>CRM (Salesforce), order management, WFM, call recording, payment, and identity systems</strong> via <strong>Apigee / API Gateway</strong> and <strong>serverless connectors (Cloud Functions, Cloud Run)</strong>. Deep compliance foundation enforcing <strong>PCI-DSS, PII, and SOX</strong> controls across voice and chat streams through tokenization, Cloud IAM least-privilege, CMEK/KMS encryption, Secret Manager, and audit traceability. Proven track record establishing Cloud Monitoring/Logging telemetry across conversational flows and telephony routing, serving as the <strong>Tier 2/3 operational escalation point</strong> across vendor and internal teams.",
+  "certification_badges_image": "assets/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "Google Cloud Platform (GCP)",
+    "Google Gemini Enterprise for CX",
+    "Conversational AI & CCaaS",
+    "Dialogflow CX & Vertex AI",
+    "Terraform",
+    "Apigee & API Gateways",
+    "Cloud Functions & Cloud Run",
+    "PCI-DSS, PII & SOX",
+    "Cloud IAM & Cloud KMS",
+    "Cloud Monitoring & Logging",
+    "BigQuery Analytics",
+    "Python & CI/CD Pipelines"
+  ],
+  "achievements": [
+    {
+      "tag": "Platform Ownership & Environment Strategy",
+      "text": "Owned the enterprise Google Gemini for CX platform across development, test, and production environments—defining environment promotion strategies, Cloud IAM access governance, and production readiness gates for conversational AI agents and CCaaS."
+    },
+    {
+      "tag": "Integration Delivery & Serverless Connectors",
+      "text": "Led mission-critical integrations between contact center systems and core enterprise platforms (CRM, OMS, WFM, call recording, payment tokenization, and IdP) leveraging Apigee, Google Cloud API Gateway, and Cloud Functions/Cloud Run serverless connectors."
+    },
+    {
+      "tag": "GCP Infrastructure as Code & CI/CD",
+      "text": "Architected and managed multi-region GCP infrastructure using modular Terraform, Cloud Build, and GitLab CI; implemented automated policy checks and controlled change management procedures to ensure strict multi-environment parity."
+    },
+    {
+      "tag": "Security, Compliance & Data Governance",
+      "text": "Enforced PCI-DSS, PII, and SOX compliance across voice and chat data pipelines with payment tokenization, Cloud KMS (CMEK) encryption, Cloud Secret Manager, and immutable Cloud Audit Logs."
+    },
+    {
+      "tag": "Observability & Tier 2/3 Escalation",
+      "text": "Engineered end-to-end monitoring and alerting across conversational flows, carrier telephony routing, and API endpoints using Cloud Monitoring, Cloud Logging, and BigQuery analytics; served as primary Tier 2/3 escalation lead across vendors and internal teams."
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "Conversational AI & CCaaS",
+      "content": "Google Gemini Enterprise for CX, Dialogflow CX, Vertex AI Search and Conversation, Contact Center as a Service (CCaaS), Conversational Analytics, Agent Assist, Natural Language Understanding (NLU), Telephony Routing (SIP/WebRTC), Speech-to-Text / Text-to-Speech"
+    },
+    {
+      "title": "Google Cloud Platform (GCP)",
+      "content": "Vertex AI, Cloud Run, Cloud Functions (2nd gen), Google Cloud API Gateway, Apigee, BigQuery, Pub/Sub, Cloud Storage, Google Kubernetes Engine (GKE), Compute Engine, Cloud IAM, Cloud KMS, Secret Manager, Cloud Load Balancing, Cloud Armor"
+    },
+    {
+      "title": "Infrastructure as Code (IaC)",
+      "content": "Terraform (Google Cloud Provider, reusable modules, state locking), Cloud Deployment Manager, Ansible, Packer, Policy-as-Code (Checkov, tfsec, OPA/Rego), drift detection, environment parity baselines"
+    },
+    {
+      "title": "Enterprise Integrations & APIs",
+      "content": "REST APIs, Apigee, Cloud API Gateway, Salesforce / CRM Integration, Order Management Systems (OMS), Workforce Management (WFM), Call Recording & Audio Transcription, Payment Tokenization, OAuth2 / OIDC, Webhooks"
+    },
+    {
+      "title": "Security & Compliance Governance",
+      "content": "PCI-DSS, PII Masking & Data Redaction, SOX Controls, Zero-Trust Cloud IAM, Least-Privilege Access, Cloud KMS (CMEK), Secret Manager, Cloud Audit Logs, Access Transparency, VPC Service Controls"
+    },
+    {
+      "title": "CI/CD & Release Automation",
+      "content": "Cloud Build, GitHub Actions, GitLab CI, Jenkins, Git branching models, automated canary deployments, environment promotion, pre-flight configuration validation, change control boards"
+    },
+    {
+      "title": "Observability & Tier 2/3 Operations",
+      "content": "Google Cloud Monitoring, Cloud Logging (Stackdriver), Error Reporting, BigQuery Conversational Analytics, Log Analytics, Prometheus, Grafana, Alert Policies, Synthetic Probes, Incident Response, RCA, SRE runbooks"
+    },
+    {
+      "title": "Scripting & Development",
+      "content": "Python (Google Cloud Client Libraries, FastAPI, Boto3), Bash, Shell, Java (Maven, Spring Boot), SQL, JSON/YAML, RESTful microservices, event-driven data streaming"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead GCP Platform & Conversational AI Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Google Cloud Platform (GCP)",
+        "Google Gemini Enterprise for CX",
+        "Dialogflow CX",
+        "CCaaS",
+        "Terraform",
+        "Cloud Run",
+        "Cloud Functions",
+        "Apigee",
+        "Cloud IAM",
+        "Cloud KMS",
+        "Cloud Monitoring",
+        "Cloud Build",
+        "Python"
+      ],
+      "impact": [
+        "Owned the enterprise Google Gemini Enterprise for Customer Experience (CX) platform across dev, test, and production environments, establishing multi-environment strategy, access governance, and strict production readiness reviews for conversational AI agents.",
+        "Led integration architecture connecting CCaaS platforms with Salesforce CRM, enterprise order management (OMS), membership/loyalty, workforce management (WFM), and call recording systems utilizing Apigee, Cloud API Gateway, and serverless Cloud Functions/Cloud Run connectors.",
+        "Provisioned and automated GCP infrastructure using modular Terraform and Cloud Build/GitLab CI pipelines, establishing automated change validation and drift detection to maintain environment consistency across staging and production.",
+        "Enforced PCI-DSS, PII, and SOX controls across voice and chat streams, implementing real-time credit card tokenization, Cloud KMS Customer-Managed Encryption Keys (CMEK), Cloud Secret Manager, and full audit traceability via Cloud Audit Logs.",
+        "Engineered comprehensive monitoring and alerting systems using Google Cloud Monitoring and Cloud Logging, tracking conversational intent matching, agent deflection rates, carrier telephony routing latency, and API error budgets.",
+        "Served as the Tier 2/3 operational escalation lead, collaborating with Google Cloud support, CCaaS telephony providers, and internal application teams to troubleshoot high-priority conversational platform incidents and drive root cause analysis (RCA).",
+        "Built automated reporting pipelines streaming conversational telemetry and agent transcripts into BigQuery, powering executive dashboards for contact center analytics and agent performance metrics."
+      ]
+    },
+    {
+      "title": "Senior Cloud Platform & DevOps Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "GCP",
+        "GKE",
+        "Terraform",
+        "GitLab CI",
+        "Python",
+        "Docker",
+        "Cloud IAM",
+        "Trivy",
+        "SonarQube"
+      ],
+      "impact": [
+        "Provisioned and administered Google Kubernetes Engine (GKE) and cloud infrastructure using Terraform, standardizing containerized deployment templates and namespace resource quotas.",
+        "Implemented Cloud IAM least-privilege governance and Workload Identity federation, replacing long-lived service account keys with short-lived tokens across CI/CD runners.",
+        "Built automated release pipelines in GitLab CI incorporating automated container vulnerability scanning (Trivy), static code analysis (SonarQube), and gated approval checks for multi-environment promotion.",
+        "Integrated automated health checks, ingress routing, and Cloud Monitoring alert policies for high-traffic microservices, improving uptime and deployment predictability."
+      ]
+    },
+    {
+      "title": "Senior Cloud & Infrastructure Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Cloud Infrastructure",
+        "Terraform",
+        "Python",
+        "API Gateways",
+        "Cloud Monitoring",
+        "Route 53",
+        "Disaster Recovery"
+      ],
+      "impact": [
+        "Architected and operated enterprise multi-region cloud infrastructure using Terraform, establishing automated provisioning runbooks and disaster recovery failover automation.",
+        "Designed secure multi-tier networking, edge traffic distribution, and API routing architectures to handle high-throughput customer-facing services with low latency.",
+        "Developed Python operational automation scripts against cloud provider APIs to automate resource inventory tagging, certificate rotation, and security configuration audits.",
+        "Implemented robust monitoring, metric aggregations, and automated alert routing, accelerating incident response and reducing mean time to acknowledge (MTTA) for edge services."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Terraform",
+        "Python (FastAPI)",
+        "Kubernetes",
+        "Payment Gateways",
+        "PCI-DSS",
+        "Prometheus",
+        "Grafana",
+        "Cloud KMS"
+      ],
+      "impact": [
+        "Delivered cloud infrastructure platforms using Terraform and Kubernetes supporting real-time transaction processing, logistics tracking, and customer billing workflows.",
+        "Implemented stringent PCI-DSS and SOX compliance safeguards across payment pipelines, including credit card data tokenization, KMS secrets encryption, and access control audit trails.",
+        "Developed internal platform automation APIs in Python (FastAPI) to integrate ticketing, deployment pipelines, and alerting workflows with cloud infrastructure.",
+        "Served as Tier 2/3 operational escalation engineer, configuring Prometheus alerting rules and Grafana dashboards to monitor payment gateway latency and transaction throughput."
+      ]
+    },
+    {
+      "title": "Senior Cloud & DevOps Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Cloud Infrastructure",
+        "Java",
+        "Maven",
+        "Jenkins",
+        "Ansible",
+        "CloudWatch",
+        "SOX Controls",
+        "REST APIs"
+      ],
+      "impact": [
+        "Supported enterprise connected-vehicle platforms, provisioning cloud infrastructure and configuring multi-tier environments across test, pre-prod, and production.",
+        "Partnered with Java development teams to build automated Jenkins CI/CD pipelines, configuring Maven build lifecycles and RESTful microservices deployments.",
+        "Enforced security and compliance policies aligned to corporate IT standards, implementing least-privilege access, encryption at rest, and audit logging.",
+        "Orchestrated release deployment windows, cutover checklists, and cross-team communications for major platform releases."
+      ]
+    },
+    {
+      "title": "DevOps & Infrastructure Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "Hewlett Packard Enterprise (HPE)",
+      "skills_used": [
+        "Terraform",
+        "Ansible",
+        "Python",
+        "Shell",
+        "Jenkins",
+        "Maven",
+        "Splunk",
+        "Nexus"
+      ],
+      "impact": [
+        "Developed modular Terraform templates and Ansible playbooks to provision and configure multi-environment application infrastructure.",
+        "Built end-to-end CI/CD pipelines integrating Jenkins, Git, Maven, and Nexus for building, packaging, and deploying enterprise Java application components.",
+        "Automated system administration workflows and configuration enforcement using Python and Shell scripting.",
+        "Configured centralized logging and operational dashboards in Splunk to analyze application performance and accelerate deployment troubleshooting."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Tailored for Google Gemini Enterprise for CX, CCaaS, Terraform, Apigee/API Gateway, PCI-DSS/SOX, Cloud Monitoring/Logging, and Tier 2/3 escalation."
+  ]
+}
