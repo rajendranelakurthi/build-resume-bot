@@ -1,0 +1,250 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "page_title": "Rajendra Prasad N - Senior Multi-Cloud Platform & Automation Engineer",
+  "full_name": "Rajendra Prasad N",
+  "headline": "Senior Multi-Cloud Platform & Automation Engineer | GCP, Azure, AWS Migration, Go (Golang), Temporal & Terraform",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "achievements_title": "Multi-Cloud Platform & Automation Highlights",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX (CST)",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "<strong>Senior Multi-Cloud Platform & Automation Engineer with 10 years of hands-on experience operating, maintaining, automating, and transitioning enterprise cloud environments across Google Cloud Platform (GCP), Microsoft Azure, and AWS.</strong> Strong track record supporting legacy cloud environments through structured <strong>maintenance, operational troubleshooting, security hardening, and phased decommissioning processes</strong> while consolidating and migrating components into target <strong>AWS architectures</strong>. Direct hands-on coding proficiency in <strong>Go (Golang)</strong> and <strong>Python</strong> for building cloud platform services and cloud automation tooling. Deep expertise in workflow orchestration using <strong>Temporal</strong> to automate complex, multi-step cloud provisioning, subscription lifecycle management, and decommissioning workflows. Expert in <strong>Terraform</strong> (Google, AzureRM, AWS providers) for repeatable infrastructure provisioning, automated state manipulation, and resource retirement. Proven ability to partner with Cloud Foundations teams, enforce least-privilege security controls, resolve high-priority infrastructure incidents, and author standard operational runbooks in remote, fast-paced enterprise environments (Dallas, TX / CST).",
+  "certification_badges_image": "assets/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra Prasad N certification badges",
+  "skills": [
+    "Google Cloud Platform (GCP)",
+    "Microsoft Azure",
+    "AWS Migration & Consolidation",
+    "Go (Golang)",
+    "Temporal Orchestration",
+    "Terraform (GCP/Azure/AWS)",
+    "Python (Cloud SDKs)",
+    "Cloud Decommissioning",
+    "Infrastructure Incident Triage",
+    "Cloud Foundations Collaboration",
+    "Cloud Security & IAM",
+    "Operational Runbooks & SRE"
+  ],
+  "achievements": [
+    {
+      "tag": "Multi-Cloud Operations & Decommissioning",
+      "text": "Maintained, stabilized, and secured legacy GCP and Azure environments throughout complex decommissioning lifecycles, safely executing resource drain, dependency decoupling, and migration of critical workloads into AWS."
+    },
+    {
+      "tag": "Workflow Orchestration with Temporal & Go",
+      "text": "Engineered resilient, stateful workflow orchestration services in Go using Temporal—building durable sagas and task queues for automated cloud subscription provisioning, resource cleanup, and operational lifecycle automation."
+    },
+    {
+      "tag": "Cloud Automation with Terraform & Python",
+      "text": "Authored and maintained modular Terraform configurations and Python automation scripts for Azure and GCP subscription lifecycle management, policy enforcement, and infrastructure reconciliation."
+    },
+    {
+      "tag": "Incident Triage & Production Support",
+      "text": "Served as Tier 2/3 operational escalation lead, resolving critical cloud infrastructure incidents, network routing anomalies, and security vulnerabilities across legacy and target cloud estates."
+    },
+    {
+      "tag": "Cloud Foundations & Governance Collaboration",
+      "text": "Partnered with enterprise Cloud Foundations and security stakeholders to establish guardrails, least-privilege IAM controls, secrets rotation, and comprehensive troubleshooting runbooks."
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "Cloud Platforms & Migration",
+      "content": "Google Cloud Platform (GCP - Compute Engine, GKE, Cloud Run, Cloud Storage, VPC, Cloud IAM), Microsoft Azure (VMs, VNets, Azure AD/Entra ID, Subscriptions, Key Vault), Amazon Web Services (AWS - EC2, EKS, VPC, S3, IAM), Cloud Migration & Phased Decommissioning"
+    },
+    {
+      "title": "Languages & Cloud Automation",
+      "content": "Go (Golang - concurrency, goroutines, Cloud SDKs, microservices), Python (Boto3, Azure SDK, Google Cloud Client Libraries, FastAPI), Bash, Shell scripting, REST APIs, JSON/YAML, CLI tooling"
+    },
+    {
+      "title": "Workflow Orchestration",
+      "content": "Temporal (Workflows, Activities, Task Queues, Durable Execution, Saga Pattern, Worker Services), Apache Airflow, AWS Step Functions, Event-Driven Orchestration, Subscription Automation"
+    },
+    {
+      "title": "Infrastructure as Code (IaC)",
+      "content": "Terraform (Modular design, Google Cloud Provider, AzureRM Provider, AWS Provider, State Migration & Tainting, Resource Decommissioning), Ansible, Packer, Policy-as-Code (Checkov, tfsec)"
+    },
+    {
+      "title": "Cloud Operations & Incident Triage",
+      "content": "Incident Resolution & Triage, Root Cause Analysis (RCA), Cloud Monitoring, Cloud Logging, Azure Monitor, Log Analytics, AWS CloudWatch, Synthetic Probes, Operational Runbooks & Post-Mortems"
+    },
+    {
+      "title": "Security, Compliance & IAM",
+      "content": "Cloud IAM Least Privilege, Azure RBAC, Service Principal Governance, Secret Manager, Azure Key Vault, AWS Secrets Manager & KMS, Security Incident Remediations, Audit Trail Logging"
+    },
+    {
+      "title": "CI/CD & Toolchains",
+      "content": "GitHub Actions, GitLab CI, Jenkins, Git, Docker, Kubernetes, Helm, Release Pipelines, Automated Rollback & Verification, Runner Maintenance"
+    },
+    {
+      "title": "Collaboration & Delivery",
+      "content": "Cloud Foundations Engagement, Cross-Functional Team Support, Technical Documentation, Architecture Runbooks, Agile/Scrum, Remote Collaboration (EST/CST Business Hours)"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Multi-Cloud Platform & Automation Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "GCP",
+        "Azure",
+        "AWS",
+        "Go (Golang)",
+        "Temporal",
+        "Terraform",
+        "Python",
+        "Cloud IAM",
+        "Kubernetes",
+        "Cloud Monitoring",
+        "Cloud Migration"
+      ],
+      "impact": [
+        "Supported, maintained, and operated enterprise GCP and Azure environments through large-scale decommissioning initiatives, ensuring stability, security, and zero disruption to active business services prior to retirement.",
+        "Built and enhanced cloud platform services in Go (Golang), integrating Temporal workflow orchestration to automate distributed subscription provisioning, product lifecycle workflows, and automated decommissioning pipelines.",
+        "Partnered with the Cloud Foundations team to design and execute multi-cloud workload migration strategies, successfully transitioning and merging legacy GCP and Azure services into centralized AWS architectures.",
+        "Developed automated provisioning tooling and Azure cloud automation using Terraform (AzureRM provider) and Python, standardizing resource tagging, subscription limits, and credential management.",
+        "Diagnosed and resolved high-priority cloud infrastructure incidents, network routing anomalies, and security findings across legacy and target platforms, acting as the primary operational escalation point.",
+        "Authored comprehensive operational documentation, troubleshooting runbooks, and decommissioning playbooks to support cross-functional engineering teams during transition phases.",
+        "Enforced cloud security governance and IAM least-privilege policies across legacy environments, securing access tokens, rotating keys, and purging orphan subscriptions."
+      ]
+    },
+    {
+      "title": "Cloud Platform & DevOps Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "Azure",
+        "GCP",
+        "Go",
+        "Terraform",
+        "Python",
+        "Docker",
+        "Kubernetes",
+        "GitLab CI",
+        "Cloud Security"
+      ],
+      "impact": [
+        "Developed cloud automation scripts and operational CLI utilities in Go and Python to automate environment configuration checks, resource discovery, and drift detection across Azure and GCP.",
+        "Provisioned and updated multi-tenant infrastructure using Terraform, maintaining environment consistency across development, staging, and production estates.",
+        "Supported development teams working in hybrid and legacy cloud environments, troubleshooting container networking, service principal authentication, and build pipeline failures.",
+        "Implemented automated vulnerability scanning and secrets management controls, resolving high-risk security findings prior to planned infrastructure migrations."
+      ]
+    },
+    {
+      "title": "Senior Cloud Infrastructure & Reliability Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "GCP",
+        "Terraform",
+        "Python",
+        "CloudWatch",
+        "Disaster Recovery",
+        "Runbooks",
+        "Linux"
+      ],
+      "impact": [
+        "Managed and maintained multi-region cloud infrastructure using Terraform, standardizing automated provisioning, state management, and configuration baselines.",
+        "Supported ongoing platform consolidation by decommissioning redundant cloud infrastructure assets, cleaning up unattached storage volumes, and rerouting traffic to core AWS endpoints.",
+        "Developed operational tooling in Python to monitor cloud resource quotas, track operational costs, and automate routine operational runbook tasks.",
+        "Led high-severity incident triage, root cause analysis (RCA), and disaster recovery validation exercises to ensure platform availability across hybrid cloud deployments."
+      ]
+    },
+    {
+      "title": "Cloud Operations & DevOps Engineer / SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "project": "",
+      "client": "",
+      "skills_used": [
+        "AWS",
+        "Python",
+        "Go",
+        "Terraform",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "Incident Management"
+      ],
+      "impact": [
+        "Maintained high-availability production cloud environments, configuring monitoring, proactive alerting, and incident response runbooks using Prometheus and Grafana.",
+        "Developed backend microservices and internal operational utilities in Go and Python to automate provisioning tasks and streamline cross-platform data flows.",
+        "Executed infrastructure change requests and decommissioned deprecated microservices and test environments using Terraform, optimizing cloud spend and reducing attack surface.",
+        "Partnered with development and security teams to resolve IAM access bottlenecks, enforce credential rotation, and maintain operational stability."
+      ]
+    },
+    {
+      "title": "Cloud & Systems Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "project": "",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Cloud Infrastructure",
+        "Java",
+        "Python",
+        "Ansible",
+        "Jenkins",
+        "Cloud Monitoring",
+        "Cloud Security"
+      ],
+      "impact": [
+        "Supported enterprise connected-vehicle applications, managing infrastructure operations, incident troubleshooting, and environment configuration across multi-tier environments.",
+        "Collaborated with infrastructure and architecture teams on workload migration initiatives, transitioning on-premises and legacy workloads into modern cloud platforms.",
+        "Automated operational maintenance, patch deployments, and configuration drift remediation across Linux servers using Ansible and Python scripts.",
+        "Documented system recovery procedures, operational runbooks, and cutover checklists to ensure seamless platform handovers."
+      ]
+    },
+    {
+      "title": "Systems & Infrastructure Automation Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "project": "",
+      "client": "Hewlett Packard Enterprise (HPE)",
+      "skills_used": [
+        "Terraform",
+        "Ansible",
+        "Python",
+        "Shell",
+        "Jenkins",
+        "Splunk",
+        "Infrastructure Support"
+      ],
+      "impact": [
+        "Provisioned and maintained server and cloud infrastructure using Terraform and Ansible playbooks, ensuring configuration consistency across stages.",
+        "Automated routine administrative operations, system health checks, and log archival workflows using Python and Shell scripting.",
+        "Supported legacy application environments, diagnosing operational issues, analyzing log files in Splunk, and coordinating incident resolutions.",
+        "Maintained accurate technical documentation of infrastructure topologies, deployment procedures, and troubleshooting guidelines."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "Microsoft Certified: Azure Fundamentals",
+    "GitLab Certified Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Tailored for GCP and Azure cloud environment support, decommissioning, transitioning into AWS, Go and Python cloud automation, Temporal workflow orchestration, and Terraform."
+  ]
+}

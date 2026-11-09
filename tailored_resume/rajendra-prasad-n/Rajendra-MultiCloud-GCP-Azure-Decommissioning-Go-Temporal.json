@@ -1,0 +1,33 @@
+{
+  "person": "Rajendra",
+  "person_id": "rajendra-prasad-n",
+  "domain": "gcp-azure-decommissioning-go-temporal",
+  "level": "Tailored",
+  "matched_keywords": [
+    "gcp",
+    "google cloud platform",
+    "azure",
+    "decommissioning",
+    "troubleshooting",
+    "incident resolution",
+    "aws migration",
+    "transition into aws",
+    "subscription provisioning",
+    "go",
+    "golang",
+    "temporal",
+    "workflow orchestration",
+    "terraform",
+    "python",
+    "cloud foundations",
+    "operational runbooks",
+    "remote",
+    "cst"
+  ],
+  "paths_relative_to": "invocation_directory",
+  "profile_path": "tailored_resume/rajendra-prasad-n/Rajendra-MultiCloud-GCP-Azure-Decommissioning-Go-Temporal.profile.json",
+  "html_path": "tailored_resume/rajendra-prasad-n/Rajendra-MultiCloud-GCP-Azure-Decommissioning-Go-Temporal.html",
+  "pdf_path": "tailored_resume/rajendra-prasad-n/Rajendra-MultiCloud-GCP-Azure-Decommissioning-Go-Temporal.pdf",
+  "docx_path": "tailored_resume/rajendra-prasad-n/Rajendra-MultiCloud-GCP-Azure-Decommissioning-Go-Temporal.docx",
+  "manifest_path": "tailored_resume/rajendra-prasad-n/Rajendra-MultiCloud-GCP-Azure-Decommissioning-Go-Temporal.json"
+}
