@@ -1,0 +1,4 @@
+DevOps / GitLab Migration Engineer
+6+ years of DevOps experience and 1-2 years of hands-on GitLab development.
+Support enterprise migration from Jenkins and Azure DevOps (AZDO) to GitLab. Analyze existing build and deployment pipelines, develop GitLab CI/CD pipelines, onboard applications and development teams, and automate migration tasks with Python.
+Understand SDLC, application dependencies, build automation, artifacts, deployment and release processes. Java: JAR/WAR; .NET: DLLs. Troubleshoot pipeline, build, integration and migration issues and work across application and DevOps teams.
