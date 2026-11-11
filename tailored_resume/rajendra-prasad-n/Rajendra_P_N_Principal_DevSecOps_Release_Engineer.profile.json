@@ -1,0 +1,281 @@
+{
+  "person_id": "rajendra-prasad-n",
+  "page_title": "Rajendra P N - Lead DevSecOps & Release Engineer",
+  "full_name": "Rajendra P N",
+  "headline": "Lead DevSecOps & Release Engineer | Azure Cloud, Azure DevOps, Azure Bicep, CI/CD & Kubernetes",
+  "location": "Dallas, TX",
+  "email": "rajendran.scm@gmail.com",
+  "contact_lines_html": [
+    "rajendran.scm@gmail.com",
+    "+1 (469) 926-4201",
+    "Dallas, TX",
+    "<a href=\"https://www.linkedin.com/in/rajendranelakurthi\">linkedin.com/in/rajendranelakurthi</a>",
+    "<a href=\"https://rajendranelakurthi.github.io\">rajendranelakurthi.github.io</a>"
+  ],
+  "summary_html": "<strong>Lead DevSecOps & Release Engineer with 10+ years of hands-on experience driving Azure Cloud infrastructure, CI/CD pipeline engineering, release management, DevSecOps security automation, and production operational support.</strong> Proactive, self-directed engineer experienced partnering closely with enterprise architects while independently taking ownership of assigned technical deliverables with minimal direction across US-daytime operations. Deep expertise across <strong>Microsoft Azure, Azure DevOps, Azure Bicep, Terraform, Docker, and Kubernetes</strong>, alongside Jenkins (Groovy), GitLab CI, and GitHub Actions to build, maintain, and improve automated delivery workflows. Embeds <strong>DevSecOps controls—threat modeling, SAST/DAST, vulnerability management, and policy gates</strong>—across release planning, change control, and production quality processes. Proven track record handling <strong>production incidents, incident response, and root-cause troubleshooting</strong> while integrating <strong>Prometheus, Grafana, and OpenTelemetry</strong> observability to proactively improve delivery velocity and operational reliability.",
+  "certification_badges_image": "assets/rajendra-certifications.svg",
+  "certification_badges_alt": "Rajendra P N certification badges",
+  "skills": [
+    "DevSecOps & Security Automation",
+    "Azure Cloud & Azure DevOps",
+    "Azure Bicep",
+    "Terraform",
+    "Docker & Kubernetes",
+    "CI/CD Pipeline Engineering",
+    "Release Planning & Quality",
+    "Production Operational Support",
+    "Incident Response & Troubleshooting",
+    "SAST / DAST & Threat Modeling",
+    "Prometheus, Grafana & OpenTelemetry",
+    "Python, Bash & PowerShell"
+  ],
+  "achievements_title": "Lead DevSecOps & Release Engineering Highlights",
+  "achievements": [
+    {
+      "tag": "DevSecOps & Security Automation",
+      "text": "Defined and championed enterprise DevSecOps frameworks across Azure Cloud and multi-cloud environments, embedding threat modeling, automated SAST/DAST scanning, secret detection, artifact signing, and policy-driven merge gates."
+    },
+    {
+      "tag": "Azure IaC & CI/CD Pipeline Engineering",
+      "text": "Built, maintained, and improved CI/CD pipelines across Azure DevOps, Jenkins, and GitLab CI alongside modular Azure Bicep and Terraform IaC for repeatable Docker and Kubernetes releases."
+    },
+    {
+      "tag": "Release Planning, Quality & Governance",
+      "text": "Supported release planning, release quality, and end-to-end delivery across dev, test, UAT, and production—enforcing semantic versioning, ServiceNow/CAB change control, ITIL approvals, go/no-go readiness, and automated rollbacks."
+    },
+    {
+      "tag": "Production Support & Autonomous Ownership",
+      "text": "Provided US-daytime production operational support and incident response, partnering closely with enterprise architects while independently driving troubleshooting, reliability improvements, and Prometheus/Grafana/OpenTelemetry observability."
+    }
+  ],
+  "skill_sections": [
+    {
+      "title": "DevSecOps & Security Automation",
+      "content": "Threat modeling, SAST, DAST, SonarQube, Fortify, Black Duck, Trivy, JFrog Xray, secret scanning, vulnerability management, signed artifacts, least-privilege IAM/Entra ID, compliance evidence"
+    },
+    {
+      "title": "CI/CD Pipeline Engineering",
+      "content": "Azure DevOps (Azure Pipelines, YAML), Jenkins, CloudBees, Groovy shared libraries, GitLab CI/CD, CircleCI, GitHub Actions, Maven, Gradle, JFrog Artifactory, Nexus, immutable packages"
+    },
+    {
+      "title": "Release Planning & Quality",
+      "content": "Release planning, release quality, deployment readiness, semantic versioning, ServiceNow change requests, CAB approvals, ITIL processes, go/no-go gates, canary/blue-green rollouts, automated rollbacks"
+    },
+    {
+      "title": "Containers & Orchestration",
+      "content": "Docker, Kubernetes, AKS, EKS, OpenShift, Helm, ArgoCD, single & multi-tenant workload isolation, network policies, HPA/autoscaling, container performance tuning, zero-downtime deployments"
+    },
+    {
+      "title": "Azure Cloud, Bicep & IaC",
+      "content": "Microsoft Azure (AKS, VNet, Key Vault, App Service, Entra ID, Monitor), Azure Bicep, ARM Templates, Terraform, AWS, GCP, Ansible, Chef, Puppet, CloudFormation, drift remediation"
+    },
+    {
+      "title": "Production Support & Incident Response",
+      "content": "US-daytime operational support, production incident response, deployment & operational troubleshooting, Prometheus, Grafana, OpenTelemetry, ELK Stack, Splunk, CloudWatch, chaos & load testing"
+    },
+    {
+      "title": "Cloud Security & Architecture Alignment",
+      "content": "Enterprise architect collaboration, autonomous technical ownership, Azure RBAC, AWS IAM, VPC/VNet segmentation, Azure Key Vault, Secrets Manager, Vault, security baselines, multi-cloud governance"
+    },
+    {
+      "title": "Scripting, SCM & Enablement",
+      "content": "Python, FastAPI, Bash, PowerShell, Git (trunk-based, GitFlow, release/hotfix branching), Linux/RHEL/Ubuntu, AI-assisted engineering with human review, stakeholder risk reporting"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead DevOps Engineer",
+      "company": "AT&T Services Inc.",
+      "date_range": "08/2023 - Present",
+      "skills_used": [
+        "Azure Cloud",
+        "Azure DevOps",
+        "Azure Bicep",
+        "Terraform",
+        "Docker",
+        "Kubernetes",
+        "GitLab CI/CD",
+        "Jenkins",
+        "OpenTelemetry",
+        "Prometheus",
+        "Grafana",
+        "Python"
+      ],
+      "impact": [
+        "Defined, championed, and implemented an enterprise DevSecOps and release governance strategy across Azure Cloud and hybrid environments, partnering closely with enterprise architects while independently driving technical deliverables with minimal direction.",
+        "Built, maintained, and improved CI/CD pipelines across Azure DevOps, GitLab CI, Jenkins, and CircleCI with staged build execution, automated quality gates, dependency caching, and embedded security checks at every SDLC stage.",
+        "Authored modular Azure Bicep and Terraform Infrastructure-as-Code templates to provision secure Azure AKS, virtual networking, Key Vault, and multi-tenant Kubernetes/OpenShift environments with repeatable baseline parity.",
+        "Drove shift-left DevSecOps practices through threat modeling, automated SAST/DAST scanning, secret detection, Bicep/Terraform IaC validation, and Docker container vulnerability management integrated directly into merge approvals.",
+        "Supported release planning, release quality, and end-to-end software releases across development, staging, UAT, and production environments, governing readiness criteria, change control, and canary/rollback triggers.",
+        "Provided US-daytime production operational support and incident response, proactively troubleshooting complex deployment, release, network, and Kubernetes operational issues to protect service availability.",
+        "Collaborated with development and database teams to pinpoint performance bottlenecks through load, stress, and chaos testing, recommending code, query-tuning, and architecture optimizations.",
+        "Integrated platform observability using Azure Monitor, Prometheus, Grafana, and OpenTelemetry for unified metrics, logging, and distributed tracing, proactively identifying reliability risks before production impact.",
+        "Administered Git branching models (trunk-based, feature, release, hotfix) with protected branches, code ownership rules, immutable artifact versioning, and automated release status reporting for stakeholders.",
+        "Built Python, PowerShell, and Bash automation tools to orchestrate repository onboarding, runner pool provisioning, release verification, and environment configuration across Linux build fleets, while incorporating AI-assisted code review and test drafting with human validation."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "GlobalLogic",
+      "date_range": "03/2023 - 08/2023",
+      "skills_used": [
+        "Azure Cloud",
+        "Azure DevOps",
+        "Azure Bicep",
+        "GitLab CI",
+        "Jenkins",
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "Python",
+        "Trivy",
+        "SonarQube"
+      ],
+      "impact": [
+        "Modernized legacy Jenkins pipelines into reusable Azure DevOps, GitLab CI, and CircleCI templates, embedding automated testing, static analysis, and compliance verification for rapid, reliable software delivery.",
+        "Enforced DevSecOps governance across containerized release workflows, integrating SonarQube SAST, Trivy container image scanning, branch protections, and controlled approval gates.",
+        "Designed and supported multi-tenant Docker, Kubernetes (AKS), and OpenShift deployment strategies with Helm charts, workload isolation, horizontal pod autoscaling, and zero-downtime rolling updates.",
+        "Deployed and administered self-hosted, auto-scaling Linux and Windows build agents, optimizing executor concurrency, dependency caching, and pipeline throughput.",
+        "Managed versioned package repositories, artifact feeds, and upstream promotion rules to enforce build-once/promote-many release traceability across environments.",
+        "Partnered with QA and engineering teams to execute pre-release load and stress validations, troubleshooting container resource contention and application latency issues.",
+        "Automated Azure Cloud and multi-environment configuration management and variable synchronization across dev, QA, staging, and production using Azure Bicep, Terraform, Ansible, and Puppet.",
+        "Took independent ownership of assigned release quality and security improvements, mentoring engineering squads on Git branching governance, security-first coding practices, and automated rollback readiness.",
+        "Documented release procedures, incident troubleshooting runbooks, and environment handoffs to standardize production operational support across distributed teams."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer II",
+      "company": "Akamai Technologies",
+      "date_range": "12/2021 - 03/2023",
+      "skills_used": [
+        "Azure Cloud",
+        "Azure DevOps",
+        "Azure Bicep",
+        "AWS",
+        "GCP",
+        "Terraform",
+        "Jenkins",
+        "GitHub Actions",
+        "Python",
+        "PowerShell"
+      ],
+      "impact": [
+        "Built and maintained multi-cloud CI/CD pipelines using Azure DevOps, Jenkins, GitHub Actions, Terraform, and Azure Bicep to orchestrate application and infrastructure releases across Azure, AWS, and Google Cloud environments.",
+        "Configured secure cloud IAM/Entra ID controls, VNet/VPC segmentation, secrets management, and environment-specific deployment groups for single and multi-tenant enterprise workloads.",
+        "Coordinated complex cross-team release dependencies, change-control approvals, deployment sequencing, and automated rollback validation for production cutovers.",
+        "Collaborated with application teams on load, stress, and failover testing across distributed systems, tuning auto-scaling policies, caching layers, and compute limits for peak reliability.",
+        "Integrated delivery pipelines with monitoring and defect-tracking systems (Azure Monitor, CloudWatch, Slack, Teams, Jira), providing automated visibility into release health, SLA compliance, and deployment status.",
+        "Published immutable, versioned artifacts to enterprise package managers and automated provenance tracking for release auditing and rapid recovery.",
+        "Authored Python, PowerShell, and Bash automation scripts to standardize operational checks, security configuration validation, and recurring deployment tasks across Linux and Windows fleets.",
+        "Led disaster recovery and chaos-style failover drills using cloud backup and recovery tooling to verify recovery point and recovery time objectives.",
+        "Handled production operational support and investigated build, deployment, and distributed infrastructure incidents through telemetry analysis, authoring detailed operational runbooks and post-release reviews."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer / Senior SRE",
+      "company": "Turvo India Pvt Ltd",
+      "date_range": "04/2020 - 12/2021",
+      "skills_used": [
+        "Python",
+        "FastAPI",
+        "Jenkins",
+        "Groovy",
+        "JFrog Artifactory",
+        "Xray",
+        "SonarQube",
+        "Prometheus",
+        "Grafana",
+        "Ansible",
+        "Terraform",
+        "Kubernetes"
+      ],
+      "impact": [
+        "Designed and standardized DevSecOps CI/CD pipelines across CloudBees Jenkins and GitHub Actions, integrating SonarQube quality gates, JFrog Xray vulnerability scanning, and automated artifact promotion.",
+        "Engineered Jenkins Groovy shared libraries to enforce semantic versioning, immutable Docker image tagging, and controlled artifact publication to private JFrog Artifactory repositories.",
+        "Architected internal developer productivity APIs in Python (FastAPI) connecting Jenkins, Jira, and JFrog to automate project onboarding, release evidence gathering, and change tracking.",
+        "Drove SRE and platform observability initiatives by building custom Python Prometheus exporters and deploying HA Prometheus, Grafana, and OpenTelemetry tracing stacks via Ansible roles.",
+        "Partnered with backend and database teams during load and stress testing to isolate query latency, connection-pool saturation, and memory bottlenecks in distributed payment and logistics services.",
+        "Provisioned and hardened AWS multi-account infrastructure using Terraform and CloudFormation, enforcing least-privilege IAM, MFA, Secrets Manager, and compliance policy controls.",
+        "Maintained configuration consistency across production Kubernetes workloads and underlying Linux hosts using Ansible playbooks and Chef recipes.",
+        "Coordinated production release readiness reviews, rollback execution, and incident triage, converting recurring failure modes into automated pipeline checks.",
+        "Facilitated blameless post-release retrospectives with engineering and sprint managers to reduce escaped defects and continuously improve deployment reliability."
+      ]
+    },
+    {
+      "title": "Senior DevOps Engineer",
+      "company": "HCL Technologies",
+      "date_range": "02/2019 - 04/2020",
+      "client": "Mercedes-Benz Research & Development India",
+      "skills_used": [
+        "Jenkins",
+        "Maven",
+        "Kubernetes",
+        "Helm",
+        "Ansible",
+        "CloudFormation",
+        "ELK",
+        "Shell Scripting",
+        "PowerShell",
+        "GitHub"
+      ],
+      "impact": [
+        "Designed and operated Jenkins and Maven CI/CD pipelines delivering RESTful Java microservices across Demo, Test, Pentest, UAT, and Production environments with strict security gates.",
+        "Implemented centralized platform observability and log analytics using the ELK stack and CloudWatch to monitor application throughput, error rates, and database health during release windows.",
+        "Standardized Kubernetes and Helm chart packaging across multi-namespace clusters, tuning pod resource requests, limits, and readiness probes for predictable runtime performance.",
+        "Automated AWS infrastructure provisioning and configuration enforcement across Linux and Windows EC2 fleets using CloudFormation, Ansible, Puppet, and PowerShell.",
+        "Integrated automated SAST/security scanning and least-privilege identity controls across migration and application release pipelines to meet enterprise security standards.",
+        "Represented DevOps engineering in technical stakeholder reviews with international leadership in Germany, communicating release readiness, roadmap enhancements, and risk mitigations.",
+        "Served as acting Scrum Master and release coordinator, managing sprint commitments, cross-team dependencies, and production cutover checklists.",
+        "Supported enterprise load and failover testing during on-premises-to-AWS workload migrations, tuning auto-scaling and RDS database capacity for peak demand.",
+        "Authored comprehensive release runbooks, environment dependency matrices, and recovery procedures to streamline operations handoffs."
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Mphasis Ltd",
+      "date_range": "08/2016 - 12/2018",
+      "client": "HPE",
+      "skills_used": [
+        "Jenkins",
+        "GitLab",
+        "Terraform",
+        "Ansible",
+        "Chef",
+        "Python",
+        "Shell Scripting",
+        "Maven",
+        "Nexus",
+        "Splunk"
+      ],
+      "impact": [
+        "Built automated YAML- and Jenkins-based CI/CD pipelines with event-driven triggers for multi-tier API, database, and UI components across shared delivery platforms.",
+        "Defined Git branching strategies (feature, integration, release, hotfix) with pull-request checks and release tags to enforce version traceability and code-promotion governance.",
+        "Automated system configuration management, middleware deployments (Tomcat/JBoss), and environment baselines across Linux servers using Ansible, Chef, and Puppet.",
+        "Authored and maintained modular Terraform templates and executed reviewed infrastructure changes through automated deployment pipelines.",
+        "Managed build-agent fleets, Maven/Nexus artifact repositories, and environment-specific variable groups to isolate development, test, and production stages.",
+        "Developed Python and Unix shell scripts to automate recurring build tasks, deployment verification, configuration audits, and log management.",
+        "Configured centralized log monitoring and alerting in Splunk to identify deployment regressions, diagnose runtime failures, and speed up troubleshooting.",
+        "Validated release packages, database scripts, and deployment prerequisites prior to controlled stage promotion and production cutovers.",
+        "Documented build workflows, configuration procedures, and incident recovery guides to improve engineering team consistency and onboarding."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Prakasam Engineering College, Jawaharlal Nehru Technological University, Kakinada",
+      "degree": "B.Tech (2009-2013) in Information Technology"
+    }
+  ],
+  "certifications": [
+    "GitLab Certified Associate",
+    "Microsoft Certified: Azure Fundamentals",
+    "Microsoft Certified: Azure DevOps Engineer Expert",
+    "AWS Certified Solutions Architect - Associate",
+    "MuleSoft Certified Developer - Level 1"
+  ],
+  "notes": [
+    "Aggressive Release-Engineer tailoring for Lead DevSecOps and Release Engineer role with Azure Cloud, Azure DevOps, Azure Bicep, Terraform, Docker, Kubernetes, production operational support, and incident response; preserves historical employer titles, dates, 10+ years experience, Rajendra P N display name, and >= 9 substantive bullets per role.",
+    "Confirmed ServiceNow/CAB and ITIL experience presented at profile/governance level without unconfirmed employer-specific placement."
+  ]
+}
+
